@@ -1,0 +1,2713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+				<funder ref="#_t32ejek #_SBrh49y">
+					<orgName type="full">Innovation and Technology Bureau supported programs</orgName>
+				</funder>
+				<funder ref="#_eN5SEBN #_H8rEzPt">
+					<orgName type="full">APRC Grants of the City University of Hong Kong</orgName>
+				</funder>
+				<funder ref="#_MF2NHyF #_h8majS9">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_45G4nsd">
+					<orgName type="full">Air Force Office of Scientific Research</orgName>
+				</funder>
+				<funder ref="#_dxg4BbK">
+					<orgName type="full">Research Grants Council of Hong Kong</orgName>
+				</funder>
+				<funder ref="#_ha64D9N">
+					<orgName type="full">Natural Science Foundation of Guangdong Province</orgName>
+				</funder>
+				<funder ref="#_KfhSpTw">
+					<orgName type="full">Teaching Start-Up Grant of the City University of Hong Kong</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-11-16">November 16, 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Fengzhu</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiang</forename><surname>Deng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Feng</forename><surname>Qi</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhen</forename><surname>Li</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Danjun</forename><surname>Liu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Applied Physics</orgName>
+								<orgName type="institution">The Hong Kong Polytechnic University</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dong</forename><surname>Shen</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Minchao</forename><surname>Qin</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">The Chinese University of Hong Kong</orgName>
+								<address>
+									<settlement>Shatin</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shengfan</forename><surname>Wu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Francis</forename><surname>Lin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sei-Hum</forename><surname>Jang</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Materials Science &amp; Engineering</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>Washington</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jie</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xinhui</forename><surname>Lu</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">The Chinese University of Hong Kong</orgName>
+								<address>
+									<settlement>Shatin</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dangyuan</forename><surname>Lei</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chun-Sing</forename><surname>Lee</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zonglong</forename><forename type="middle">Zhu</forename><surname>2</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">-Y</forename><surname>Jen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon</settlement>
+									<country key="HK">Hong Kong</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Materials Science &amp; Engineering</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>Washington</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-11-16">November 16, 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">534F58EE42D82DF3FB0A83832DCCE046</idno>
+					<note type="submission">Received: September 14, 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T17:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>All the commercial materials were used as received, including N,N-dimethylformamide (99.99%, J&amp;K), dimethyl sulfoxide (99.7%, J&amp;K), isopropanol (99.5%, J&amp;K) chlorobenzene (99.9%, J&amp;K), toluene (99.9%, J&amp;K), PbI 2 (99.999%, TCI), and ITO substrates. Cesium iodide (CsI), methylammonium bromide (MABr) and formamidinium iodide (FAI) were bought from Dysol (Australia). Lead bromide (PbBr 2 , 99.9985%) and lead iodide (PbI 2 , 99.9985%) were bought from TCI (Japan). The Poly (triaryl amine) (PTAA), Methylammonium chloride, BCP (99.9%) and C 60 were bought from Xi'an Polymer Light Technology Corp. (China). Piperazine and 57% hydroiodic acid were purchased from J&amp;K.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Synthesis of Piperazinium Iodide (PI)</head><p>Piperazine (2.15 g, 25 mmol) was added into in a flask (100 mL) and was dissolved in ethanol (30 mL). 57% hydroiodic acid solution in water (6.0 ml, 50 mmol) was added dropwise under ice water bath and reacted for 0.5 h. After evaporating the solvent, the crude product was washed by ethyl acetate for 3 times to obtain a white needle-like crystal (4.32 g, 81%). 1 H NMR (300 MHz, DMSO-d 6 ): δ 6.02 (br, 2H), 2.89 (s, 8H). Elem. anal. for C 4 H 11 N 2 I (PI): C 22.44%, H 5.18%, N 13.09%, found: C 22.34%, H 5.17%, N 13.11%. The broadened signals in the spectrum may be caused by proton exchange and peak supression protocols.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Synthesis of Piperazinium Diiodide (PDI)</head><p>Piperazine (2.15 g, 25 mmol) was dissolved in ethanol (30 mL) in a flask (100 mL). 57% hydroiodic acid solution in water (12.0 ml, 100 mmol) was added dropwise under ice water bath,a nd reacted for 1 h. After the evaporation of solvent, the crude product was washed by ethyl acetate for 3 times to obtain a white solid (7.68 g, 90%). <ref type="bibr" target="#b3">1</ref> H NMR (300 MHz, DMSO-d 6 ): δ 8.76 (s, 2H), 3.29 (s, 8H). Elem. anal. for C 4 H 12 N 2 I 2 (PDI): C 14.05%, H 3.54%, N 8.19%. found: C 13.94%, H 3.92%, N 8.11%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Synthesis of (PI) 2 PbI 2 •2DMSO and (PDI) 2 PbI 2 Single Crystals</head><p>PbI 2 and PI (1/1 by molar, 1.0 M) were dissolved in dimethyl sulfoxide (DMSO), and stirred overnight. The yellow turbid liquid were filterd and transferred into a 4 mL vial. The vial was then placed into a sealed bottle filled with 2 mL tetrahydrofuran (THF). (PI) 2 PbI 2 •2DMSO single crystals were grown along with the slow diffusion of the vapor of the anti-solvent THF in to the solution. The same technique and anti-solvent were appliedd for crystallizing (PDI) 2 PbI 2 single crystals. The precursor solution was PbI 2 and PDI (1/1 by molar, 1.0 M) dissolved in dimethyl sulfoxide (DMSO).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device Fabrication</head><p>ITO glass (15 Ω sq -1 ) was progressively washed by sonication with detergent (Decon 90), deionized water, acetone, and isopropyl alcohol for 15 min, respectively. Then, the cleaned ITO substrates were dealt with UV ozone for 25 min before use. PTAA (2 mg/mL in toluene) was spin-coated onto the cleaned ITO at 4000 rpm for 30 s, following with annealing at 100 °C for 10 min. The substrates were cool down to room temperature before use. 1.4  for better crystallization. 50 μL of the prepared precursor solution was spin-coated at 1000 rpm for 10 s and 5000 rpm for 30 s onto the PTAA-coated ITO substrate, 150 μL CB as anti-solvent was dripped on the film at 10 s before the end of the last procedure and then annealed at 100°C for 30 min. After deposition of the perovskite active layer, 30 μL of PI or PDI (1mg/mL, IPA) solution was spin coated on to the film at 5000 rpm for 30 s and annealed at 100°C for 10 min.</p><p>Then, the film was washed by IPA and annealed at 100°C for 5 min to vapor the solvent. Finally, 25 nm C 60 , 8 nm BCP and 90 nm silver electrode was evaporated under high vacuum (&lt; 4×10 - 6 Torr) sequentially.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Characterizations</head><p>The 1 H NMR spectra were collected on a Bruker AVANCE III HD 300 MHz spectrometer in d6-DMSO solution with TMS as a reference. The morphology of the samples was recorded by scanning electron microscopy (SEM, Philips XL30 FEG). Steady-state photoluminescence (PL) and time-resolved photoluminescence spectrum (TRPL) spectrum were conducted with FLS980 spectrofluorometer (Edinburgh) with a pulsed excitation laser of 485 nm. UV-Vis absorption spectra were collected on a UV-Vis spectrometer (PerkinElmer model Lambda 2S).</p><p>Element compositions were determined using Thermo Finnigan elemental analyzer (Flash EA1112). PL mapping was collected on WITec alpha300 M+ confocal microscopy (WITec GmbH). The excitation laser was a diode-pumped solidstate laser (532 nm, cobalt Laser). A diffraction-limit spot size of the 532 nm laser was obtained about 300 nm with a 100◊objective (NA=0.90). XPS and UPS characterization are conducted in a VG ESCALAB 220i-XL surface analysis system equipped with a Hedischarge lamp (hv=21.22 eV) and a monochromatic Al-Kα X-ray gun (hv=1486.6 eV), respectively. X-ray diffraction (XRD) characterization was conducted on D2 Phaser instrument with a Cu Kα (a wavelength of 1.5418 Å) radiation.</p><p>Grazing Incidence X-ray Diffraction (GIXRD) analysis were carried out with the Rigaku SmartLab diffractometer using Cu Ka radiation (a wavelength of 1.5418 Å). The GIWAXS results were conducted at beamline BL14B1 of the Shanghai Synchrotron Radiation Facility (SSRF) by using X-ray with a wavelength of 0.6887 Å. The samples were deposited on ITO glass with the same solution compositions as those for the solar cells. J-V characteristics were measured in N 2 -filled glove box by Keithley 2400 source meter under simulated sunlight from a solar simulator (Enlitech, SS-F5, Taiwan). A 150-nm thick magnesium fluoride layer was deposited on the back of glass before measurements. EQEs were collected by an EnLi Technology (Taiwan) EQE measurement system. A National Renewable Energy Laboratory calibrated silicon solar cell was used to obtain the AM 1.5G solar simulator's light intensity.</p><p>The devices were shielded with a shading mask with an aperture area of 0.104 cm 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Single Crystal Analysis</head><p>The single crystal structure of (PI) 2 PbI  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Residual Stress Analysis</head><p>The residual stress analysis was conducted with the Rigaku SmartLab diffractometer using Cu Ka radiation (a wavelength of 1.5418 Å). The measurement applied side-inclination (fixed psi0 method), 31.6° was chosen as the stress free 2-theta degree and psi fixd at 10°, 20°, 30°, 40°, 50° and 60°, respectively. According to the Bragg's Law and generalized Hooke's Law, the 2θsin 2 φ can be given by</p><formula xml:id="formula_0">𝜎 = - 𝐸 2(1 + 𝜈) 𝜋 180 𝑜 cot 𝜃 0 ∂(2𝜃) ∂𝑠𝑖𝑛 2  ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ (S1)</formula><p>where E is the perovskite modulus (10 GPa), ν is Poisson's ratio of the perovskite (0.3). θ 0 is half of the scattering angle 2θ 0 corresponding to a given diffraction peak for stress free perovskite, 2θ 0 , 31.6°. The film stress can be calculated from formula (1) through fitting the 2θ as a function of sin 2 φ, and the slope of the fitted line represents the scale of the residual strain, the negative slope indicates the in plane films bear tension stress.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Calculation of Bandgap from Tauc Plot</head><p>The bandgap of perovskite is calculated from the UV-vis data. Tauc et al. introduced the Tauc plot in 1966 to determine the optical bandgap of amorphous germanium. <ref type="bibr" target="#b3">1</ref> A linear region can be found in the Tauc plot which indicates the onset of the optical absorption. Therefore, the optical bandgap of the material can be deduced by fitting the x-axis of the linear region. The bandgap is calculated by the following equation:</p><formula xml:id="formula_1">αℎν = B (ℎν-Eg) n ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ (S2)</formula><p>where α is the absorption coefficient, ℎν is the energy of the incident photons, B is a constant depends on the transition probability, n depends on the nature of the transition while n is 1/2 for the direct allowed transitions and 2 for indirect allowed transitions. For perovskite (n = 1/2), we can plot the (αℎν) 2 vs ℎν thus the bandgap can be fitted in a straight-line region to the x-axis, which is 1.50 eV for the perovskite film in this study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Calculation of V OC loss:</head><p>According to Rau's work, the V OC of a solar cell can be described as the equation listed below: 2, 3</p><formula xml:id="formula_2">𝑉 𝑂𝐶 = 𝑘 𝐵 𝑇 𝑞 ln ( 𝐽 𝑆𝐶 𝐽 0 ) ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ (S3)</formula><p>where 𝑞 is element charge, 𝑘 𝐵 is Boltzmann constant, 𝑇 is temperature, J SC is short-circuit current, J 0 is dark saturation current. The expressions of J SC and J 0 are given by:</p><formula xml:id="formula_3">𝐽 𝑆𝐶 = 𝑞 ∫ 𝐸𝑄𝐸 𝑃𝑉 (𝐸)𝜙 𝐴𝑀1.5 (𝐸) 𝑑𝐸 ∞ 0 ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ (S4) 𝐽 0 = 𝑞 𝐸𝑄𝐸 𝐸𝐿 ∫ 𝐸𝑄𝐸 𝑃𝑉 (𝐸)𝜙 𝐵𝐵 (𝐸) 𝑑𝐸 ∞ 0 ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ (S5) 𝜙 𝐵𝐵 (𝐸) = 2𝜋𝐸 2 ℎ 3 𝑐 2 1 exp( 𝐸 𝑘 𝐵 𝑇 )-1 ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ (S6)</formula><p>where 𝐸𝑄𝐸 𝑃𝑉 is photovoltaic external quantum efficiency, 𝐸𝑄𝐸 𝐸𝐿 is electroluminescence external quantum efficiency, 𝜙 𝐴𝑀1.5 is solar cell radiative spectrum, 𝜙 𝐵𝐵 is black-body radiative spectrum, 𝑐 is light speed in vacuum.</p><p>In Schokley-Queisser limit (S-Q limit): (1) The 𝐸𝑄𝐸 𝑃𝑉 is described with Heaviside step function, where 𝐸𝑄𝐸 𝑃𝑉 (𝐸) = { 1, 𝐸 ≥ 𝐸 𝑔 0, 𝐸 &lt; 𝐸 𝑔 ;</p><p>(2) only the photos with energy larger than bandgap (𝐸 𝑔 ) are absorbed;</p><p>(3) all recombination is radiative (𝐸𝑄𝐸 𝐸𝐿 = 1). Therefore, J SC and J 0 in S-Q limit are written as:</p><formula xml:id="formula_4">𝐽 𝑆𝐶 𝑆𝑄 = 𝑞 ∫ 𝜙 𝐴𝑀1.5 (𝐸) 𝑑𝐸 ∞ 𝐸 𝑔 ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ (S7) 𝐽 0 𝑆𝑄 = 𝑞 ∫ 𝜙 𝐵𝐵 (𝐸) 𝑑𝐸 ∞ 𝐸 𝑔 ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ (S8)</formula><p>Therefore, V OC in S-Q limit is:</p><formula xml:id="formula_5">𝑉 𝑂𝐶 𝑆𝑄 = 𝑘 𝐵 𝑇 𝑞 ln ( 𝐽 𝑆𝐶 𝑆𝑄 𝐽 0 𝑆𝑄 ) ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ (S9)</formula><p>Considering the assumption of S-Q limit, 𝑉 𝑂𝐶 𝑆𝑄 can be degraded to V OC with 3 loss components.</p><p>The first V OC loss component is due to the non-ideal 𝐸𝑄𝐸 𝑃𝑉 , which is less than 100%. In this condition, short-circuit current is expressed as:</p><formula xml:id="formula_6">𝐽 𝑆𝐶 = 𝑞 ∫ 𝐸𝑄𝐸 𝑃𝑉 (𝐸)𝜙 𝐴𝑀1.5 (𝐸) 𝑑𝐸 ∞ 0 ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ (S10)</formula><p>The V OC loss, ∆𝑉 𝑂𝐶 𝑠𝑐 , is listed below:</p><formula xml:id="formula_7">∆𝑉 𝑂𝐶 𝑠𝑐 = 𝑉 𝑂𝐶 𝑆𝑄 - 𝑘 𝐵 𝑇 𝑞 ln ( 𝐽 𝑆𝐶 𝐽 0 𝑆𝑄 ) = 𝑘 𝐵 𝑇 𝑞 ln ( 𝐽 𝑆𝐶 𝑆𝑄 𝐽 𝑆𝐶 ) ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ (S11)</formula><p>The second V OC loss component originates from the energy loss related to additional thermal radiation of solar cell in dark. In experiment, the 𝐸𝑄𝐸 𝑃𝑉 extends into the sub-bandgap region, where the black-body radiation increases with the photo energy lowering <ref type="bibr" target="#b6">4</ref> . Thus, this subbandgap 𝐸𝑄𝐸 𝑃𝑉 increased the dark saturation current. The short-circuit current, 𝐽 𝑆𝐶 𝑟𝑎𝑑 , is equal to 𝐽 𝑆𝐶 , and dark saturation current in this condition are written as:</p><formula xml:id="formula_8">𝐽 0 𝑟𝑎𝑑 = 𝑞 ∫ 𝐸𝑄𝐸 𝑃𝑉 (𝐸)𝜙 𝐵𝐵 (𝐸) 𝑑𝐸 ∞ 0 ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ (S12)</formula><p>therefore, the radiative V OC loss, ∆𝑉 𝑂𝐶 𝑟𝑎𝑑 , is:</p><formula xml:id="formula_9">∆𝑉 𝑂𝐶 𝑟𝑎𝑑 = 𝑘 𝐵 𝑇 𝑞 ln ( 𝐽 𝑆𝐶 𝐽 0 𝑆𝑄 ) - 𝑘 𝐵 𝑇 𝑞 ln ( 𝐽 𝑆𝐶 𝐽 0 𝑟𝑎𝑑 ) = 𝑘 𝐵 𝑇 𝑞 ln ( 𝐽 0 𝑟𝑎𝑑 𝐽 0 𝑆𝑄 ) ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ (S13)</formula><p>The third V OC loss component, ∆𝑉 𝑂𝐶 𝑛𝑜𝑛𝑟𝑎𝑑 , is associated with the non-radiative recombination in device, that can be calculated as:</p><formula xml:id="formula_10">∆𝑉 𝑂𝐶 𝑛𝑜𝑛𝑟𝑎𝑑 = 𝑘 𝐵 𝑇 𝑞 ln ( 𝐽 𝑆𝐶 𝐽 0 𝑟𝑎𝑑 ) -𝑉 𝑂𝐶 ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ (S14)</formula><p>According to Equation S5 and S12, 𝐽 0 rad = EQE EL ⋅ 𝐽 0 , so combining Equation S3, Equation S14 can be rewritten as:                  Table <ref type="table">S5</ref>. The calculated VOC loss analysis results of the corresponding perovskite solar cells.</p><formula xml:id="formula_11">∆𝑉 OC nonrad = 𝑘 B 𝑇 𝑞 ln ( 𝐽 SC EQE EL ⋅ 𝐽 0 ) - 𝑘 B 𝑇 𝑞 ln ( 𝐽 SC 𝐽 0 ) = - 𝑘 B 𝑇 𝑞 ln(EQE EL ) ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ (S15)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample E g (eV)</head><p>V OC SQ (V)</p><formula xml:id="formula_12">V OC (V) ∆V 1<label>(mV) ∆V 2 (mV) ∆V 3</label></formula><p>(mV) ABSTRACT: Passivating surface and bulk defects of perovskite films has been proven to be an effective way to minimize nonradiative recombination losses in perovskite solar cells (PVSCs). The lattice interference and perturbation of atomic periodicity at the perovskite surfaces often significantly affect the material properties and device efficiencies. By tailoring the terminal groups on the perovskite surface and modifying the surface chemical environment, the defects can be reduced to enhance the photovoltaic performance and stability of derived PVSCs. Here, we report a rationally designed bifunctional molecule, piperazinium iodide (PI), containing both R 2 NH and R 2 NH 2 + groups on the same six-membered ring, behaving both as an electron donor and an electron acceptor to react with different surface-terminating ends on perovskite films. The resulting perovskite films after defect passivation show released surface residual stress, suppressed nonradiative recombination loss, and more n-type characteristics for sufficient energy transfer. Consequently, charge recombination is significantly suppressed to result in a high open-circuit voltage (V OC ) of 1.17 V and a reduced V OC loss of 0.33 V. A very high power conversion efficiency (PCE) of 23.37% (with 22.75% certified) could be achieved, which is the highest value reported for inverted PVSCs. Our work reveals a very effective way of using rationally designed bifunctional molecules to simultaneously enhance the device performance and stability.</p><formula xml:id="formula_13">V OC * (V) Ref 1.</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ INTRODUCTION</head><p>Organic-inorganic metal halide perovskite solar cells (PVSCs) have gained enormous attention during the past few years owing to their superb semiconducting properties, relatively simple and easy processing, low cost, and rapidly ascending power conversion efficiencies (PCEs) reaching as high as 25.5%. <ref type="bibr" target="#b3">[1]</ref><ref type="bibr" target="#b4">[2]</ref><ref type="bibr" target="#b5">[3]</ref><ref type="bibr" target="#b6">[4]</ref><ref type="bibr" target="#b7">[5]</ref><ref type="bibr" target="#b8">[6]</ref><ref type="bibr" target="#b9">[7]</ref><ref type="bibr" target="#b10">[8]</ref><ref type="bibr" target="#b11">[9]</ref><ref type="bibr" target="#b12">[10]</ref> However, the champion PCE of PVSC is still below that predicted from the theoretical Shockley-Queisser (S-Q) limit, mainly due to the loss from nonradiative recombination. Unlike the robust perovskite oxides, the frail Coulombic interaction and weak ionic bonding of organic-inorganic halide perovskites (OIHPs) cause more vulnerable atomic reorganization and deviations on the derived film surface. <ref type="bibr" target="#b13">11</ref> The crystal lattice interference and atomic periodicity perturbation at the surface of OIHPs alter the electronic behavior and band structure, generating a considerable number of nonradiative recombination centers. Such behaviors are more prominent at the surface than in the bulk of OIHP films, which will significantly affect the perovskite material properties and device performance. <ref type="bibr" target="#b14">12,</ref><ref type="bibr" target="#b15">13</ref> However, originating from the various surface terminations and undercoordinated sites, surface defects are notably different from those formed in the bulk of OIHPs. The undercoordinated Pb 2+ and halide sites are the predominant trap sources on surfaces that cause nonradiative recombination losses. In terms of the surface energy, vacant terminations are more stable than those from PbI 2 flat and methylammonium iodide/formamidinium iodide (MAI/FAI) terminations, which can induce many vacancy defects (such as V I and V MA /V FA ) on the surface. <ref type="bibr" target="#b17">14</ref> The larger FA + with a smaller dipole moment has a weaker interaction with the [PbI 6 ] 2-octahedral than does MA + . Thereby, the antisite Pb I defects are formed more easily in FA + -dominant OIHPs with lower formation energies on the surface than in bulk, which may cause deep-level defects such as Pb clusters (i.e., Pb 2+ dimers). <ref type="bibr" target="#b18">15</ref> Recently, an enormous amount of effort has been devoted to suppressing the nonradiative recombination loss in order to further enhance the open-circuit voltage (V OC ) and PCE by passivating positive Pb 2+ traps and negative halide traps. <ref type="bibr" target="#b19">[16]</ref><ref type="bibr" target="#b20">[17]</ref><ref type="bibr" target="#b21">[18]</ref><ref type="bibr" target="#b22">[19]</ref><ref type="bibr" target="#b25">[20]</ref> Various molecules have been developed either as electron donors or as electron acceptors for passivating positively and negatively charged traps. <ref type="bibr" target="#b26">[21]</ref><ref type="bibr" target="#b27">[22]</ref><ref type="bibr" target="#b28">[23]</ref><ref type="bibr" target="#b29">[24]</ref><ref type="bibr" target="#b30">[25]</ref><ref type="bibr" target="#b31">[26]</ref><ref type="bibr" target="#b32">[27]</ref><ref type="bibr" target="#b33">[28]</ref><ref type="bibr" target="#b34">[29]</ref><ref type="bibr" target="#b35">[30]</ref> Among them, Lewis acids such as carboxylic acid and phosphoric acid, sulfonic groups, and ammonium groups can neutralize undercoordinated halides through coordinate bonding to form Lewis adducts. On the other hand, Lewis bases, such as carboxylate and amine groups, and electron-rich aromatic structures have been reported to reduce undercoordinated lead ions and/or lead clusters by donating a lone pair of electrons.</p><p>Although numerous molecules have been developed to tailor the surface chemical environments and surface defects, most of them can only passivate either the positively or negatively charged defects. There are very few molecules that can passivate both Pb 2+ and halide ion traps on the perovskite surface. <ref type="bibr" target="#b26">21,</ref><ref type="bibr" target="#b33">28</ref> To achieve enhanced passivation effects, the ability to introduce stronger binding action between the passivator and perovskite to form an ionic bond and a stable chemical interaction is critical. Therefore, it is essential to develop multifunctional molecules that can passivate both positively and negatively charged defects with simple solution treatments to further enhance the device performance.</p><p>Here, we report the development of a novel bifunctional molecule, piperazinium iodide (PI), containing both an R 2 NH and an R 2 NH 2 + group on the same six-membered ring with an in-plane dipole that is capable of functioning as an electron donor and an electron acceptor to react with different surface terminating groups. It was found that PI could form a Pb-N bond in the single crystal of (PI) 2 PbI 2 •2DMSO, which was grown as a model compound to investigate the chemical interactions between PI and PbI 2 . After introducing PI for surface treatment, the residual stress of the film surface could also be released. The tuning of surface termination with PI treatment also helps to achieve a more n-type characteristic film to facilitate charge transfer. The combined effects resulted in suppressed nonradiative recombination loss and a significantly reduced V OC loss of 0.33 V with a very low ΔV 3 of 60.13 mV. The PCE of inverted (p-i-n) devices achieved 23.37% (with 22.75% certified) with a V OC of 1.17 V, which is the highest value for inverted PVSCs to date.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ RESULTS AND DISCUSSION</head><p>To demonstrate the specific interaction of different functional groups (neutral R 2 NH and the R 2 NH 2 + cation) in PI, we have also synthesized piperazinium diiodide (PDI) with two R 2 NH 2 + cations for comparison. The detailed synthesis is summarized in the Supporting Information (SI). The (PI) 2 PbI 2 •2DMSO (CCDC 1935315) and (PDI) 2 PbI 2 (CCDC 2009125) single crystals were grown using the reported antisolvent vaporassisted crystallization method. <ref type="bibr" target="#b36">31</ref> Detailed crystal data and the refinement of (PI) 2 PbI 2 •2DMSO and (PDI) 2 PbI 2 are listed in Table <ref type="table" target="#tab_3">S1</ref>, and the corresponding structures are shown in Figure <ref type="figure" target="#fig_0">1</ref>. The rod-like translucent (PI) 2 PbI 2 •2DMSO single crystals are millimeter-sized and have a 1D chain organic-inorganic hybrid structure (Figure <ref type="figure" target="#fig_16">1a</ref>). The lone-pair electrons of the R 2 NH on PI replace a halide to bond with Pb to form a Pb-N bond with a bond length of 2.80 Å, indicating a strong chemical interaction between Pb 2+ and the lone pair of the neutral R 2 NH group (Figure <ref type="figure" target="#fig_16">1c</ref>). Surprisingly, different from the 3D structure of MAPbI 3 or FAPbI 3 , (PDI) 2 PbI 2 single crystals possess a 0D organic-inorganic hybrid structure in which the metal halide ions (PbI 6 4-) are completely isolated from each other and surrounded by the piperazinium organic cations (Figure <ref type="figure" target="#fig_16">1d</ref>). The interactions of PI and PDI with PbI 2 in the two model compounds are further explored with 1 H NMR spectrometry. As shown in Figure <ref type="figure" target="#fig_16">1e</ref>, the fast proton exchanges among NH, HDO, and DMSO induce the weak signal of H from NH or NH 2 + in the PI sample. However, after mixing PbI 2 and PI in solvent, the strong interaction between R 2 NH and Pb 2+ surpasses proton exchange to give a more well-defined signal. <ref type="bibr" target="#b37">32,</ref><ref type="bibr" target="#b38">33</ref> On the other hand, the 1 H NMR spectrum of PDI shows less difference upon addition of PbI 2 (Figure <ref type="figure" target="#fig_16">1f</ref>). These results help to confirm the distinctive interaction induced by the neutral R 2 NH on PI, which has not been reported before.</p><p>To investigate the potential interactions of PI and PDI with the perovskite film surface, the materials were deposited via spin coating (1 mg/mL in dry isopropanol) on the perovskite film with a composition of Cs 0.05 (FA 0.95 MA 0.05 ) 0.95 Pb(I 0.95 Br 0.05 ) 3 . High-resolution X-ray photoelectron spectroscopy (XPS) was performed as shown in Figure <ref type="figure" target="#fig_17">2</ref>. In the C 1s XPS spectrum, the binding energies (BEs) at 284.8, 286.5, and 288.4 eV are assigned to C-C, CNH 2+ , and CO, respectively (Figure <ref type="figure" target="#fig_17">2a</ref>). Oxidized carbon species may originate from the decay of the perovskite film when exposed to the ambient environment during testing. <ref type="bibr" target="#b39">34</ref> The peak area of CO shows a visible decrease after PI and PDI treatments, which indicates the suppressed oxidation process and improved film stability. <ref type="bibr" target="#b40">35</ref> In the N 1s XPS spectrum, the featured bonds of C-N (400.7 eV) and CNH 2+ (402.4 eV) from FA + /MA + in the reference film slightly shift to lower binding energies (400.5 and 402.2 eV, respectively) after PI treatment (Figure <ref type="figure" target="#fig_17">2b</ref>). This shift may originate from the formation of hydrogen bonds N-H•••N between the FA + /MA + and the R 2 NH from PI. <ref type="bibr" target="#b41">36</ref> However, there is no peak shift in the N 1s spectrum after PDI treatment, which helps to differentiate the unique function of PI with the R 2 NH group. The new peaks appearing at 285.4 eV in the C 1s spectrum and at 399.8 eV in the N 1s spectrum are attributed to the C bonds to neutral N (C-NH-C) and neutral N in PI, respectively. <ref type="bibr" target="#b42">37</ref> These peaks further verify the existence of PI. In the Pb 4f spectrum, the binding energies at 143.3 and 138.4 eV are assigned to 4f 5/2 and 4f 7/2 of divalent Pb 2+ , respectively. And the two shoulder peaks  at 141.6 and 136.6 eV at lower BE are associated with metallic Pb 0 (Figure <ref type="figure" target="#fig_17">2c</ref>). These peaks move to higher binding energy by more than 400 meV only after PI treatment (centered at 143.8 and 138.9 eV) in terms of bond formation with the R 2 NH in PI, which is in line with the single-crystal studies. <ref type="bibr" target="#b37">32,</ref><ref type="bibr" target="#b43">38</ref> In addition, the peak area of Pb 0 decreased significantly after both PI and PDI treatments. Pb 0 is an indication of the existence of iodide and cation vacancies on the perovskite film, which can be inhibited by the surface treatments of both PI and PDI. <ref type="bibr" target="#b44">39</ref> Besides, electron donor R 2 NH in PI interacts strongly with undercoordinated Pb 2+ as implied by the single-crystal results, contributing to the greatly decreased Pb 0 peak after PI treatment.</p><p>Grazing-incidence wide-angle X-ray scattering (GIWAXS) characterization at an incident angle of 0.2°was also carried out to explore the surface crystallite structure of perovskite films after PI and PDI treatments. As shown in Figure <ref type="figure" target="#fig_18">3a-c</ref>, the GIWAXS patterns of films treated with PI and PDI show higher intensities along the (101) ring (|q| = 0.95-1.08 Å -1 ), which indicates better crystallinity compared to that of the reference film. There are no new peaks that emerge after either PI or PDI treatment. However, excessive PbI 2 in the position at |q| = 0.88-0.94 Å -1 disappeared only after PI treatment (Figures <ref type="figure" target="#fig_20">S5</ref> and<ref type="figure" target="#fig_4">S6</ref>). This result is consistent with the measurements from grazing incidence X-ray diffraction (GIXRD) at an incident angle of 0.2°(Figure <ref type="figure" target="#fig_18">3d</ref>). The PbI 2 signal that decreased only after PI treatment indicates a strong interaction, which is in line with the single-crystal structure and XPS results.</p><p>To investigate the effects of PI and PDI treatments on the surface crystal structure, we employed the GIXRD technique with the 2θ-sin 2 φ method to analyze the residual stress on the film surface. <ref type="bibr" target="#b45">40,</ref><ref type="bibr" target="#b46">41</ref> The (012) plane at 31.6°was chosen as the target because of its diversity in providing more grain information and a dilute orientation effect on the linear relationship of 2θ-sin 2 φ in the GIXRD measurements. Figure <ref type="figure" target="#fig_18">3e</ref>-g shows that the scattering peaks gradually shift to the left by varying φ from 10 to 60°at different levels. The film stress can be calculated by fitting 2θ as a function of sin 2 φ, in which the negative slope of the fitting line indicates tensile stress that exists at the perovskite film. As shown in Figure <ref type="figure" target="#fig_18">3h</ref>, the residual tensile strain gradually decreases from 61.57 ± 6.92 MPa for the reference film to 27.54 ± 2.16 and 40.15 ± 3.89 MPa after PI and PDI treatments, respectively. This shows that the defect passivation in the A-site vacancy and in undercoordinated Pb 2+ with R 2 NH 2 + and R 2 NH groups results in lower surface residual stress. After surface treatment with PI, the R 2 NH 2 + group can insert the A-site vacancy and the R 2 NH group can react with the undercoordinated Pb 2+ , thus regulating the surface termination and releasing the surface residual stress, which can play an important role in carrier dynamics and device performance. <ref type="bibr" target="#b46">41,</ref><ref type="bibr" target="#b47">42</ref> To understand more about the passivation effect of PI, the recombination occurring in the perovskite films was investigated by steady-state PL and time-resolved photoluminescence (TRPL) analysis. As shown in Figure <ref type="figure" target="#fig_19">4a</ref>, the PL intensities of perovskite films after PI and PDI treatments are about 5 and 3 times higher than those of the reference films, suggesting that their nonradiative recombination loss is alleviated considerably after surface passivation. The TRPL decay curves (Figure <ref type="figure" target="#fig_19">4b</ref>) were fitted with biexponential function I(t) = A 1 exp(-t/τ 1 ) + A 2 exp(-t/τ 2 ), where τ 1 and τ 2 are the fast and slow decay components, respectively (Tables <ref type="table" target="#tab_5">S2</ref> and<ref type="table" target="#tab_6">S3</ref>). The average lifetime (τ avg ) can be calculated with τ =</p><formula xml:id="formula_14">τ τ ∑ ∑ = = A A avg i n i i i n i i 1 2 1</formula><p>. We found that the perovskite films after PI and PDI surface treatments possessed a longer carrier lifetime compared to that of the reference film. The τ avg values of the reference perovskite film and PI-and PDI-treated films are 305, 1948, and 1461 ns, respectively. The significantly prolonged lifetimes of perovskite films after PI and PDI treatments are attributed to the suppressed defects such as lead clusters, undercoordinated halides, and Pb-I antisite which usually cause nonradiative recombination. <ref type="bibr" target="#b48">43</ref> The combined effects of R 2 NH and R 2 NH 2 + groups on PI for defect passivation are superior to those obtained from PDI with only the R 2 NH 2 + group, which demonstrates the benefit of having multifunctional passivators. The trap density (N trap ) was calculated with space-charge- limited-current (SCLC) method (Figure <ref type="figure" target="#fig_6">S8</ref>). The N trap of the reference film based on the hole-only device is about 2.54 × 10 16 cm -3 . After the passivation with PI and PDI, the N trap was reduced to 8.4 × 10 15 and 1.64 × 10 16 cm -3 , respectively. The lower N trap after PI treatment demonstrates the effectiveness of defect passivation by PI compared to that by PDI, which is consistent with the PL and TRPL results.</p><p>Confocal photoluminescence (PL) mappings were also conducted to explore the optoelectronic properties of perovskite films as displayed in Figure <ref type="figure" target="#fig_19">4c-e</ref>. The PL intensity in the central area of a single grain is much higher than those from the grain boundaries, which indicates better charge transfer with minimized recombination. After PI treatment, the overall PL intensity is significantly improved and the intensity distribution is more homogeneous compared to those obtained from the reference and PDI-treated films. The PL peak position distribution of the films was counted, and the PL peak histogram of the films was demonstrated in Figures <ref type="figure" target="#fig_7">S9</ref> and<ref type="figure" target="#fig_8">S10</ref>. The distribution of PL peaks on the perovskite film is considerably narrowed after PI treatment, suggesting that the surface phase segregation is suppressed. A more homogeneous film is favorable for charge transfer because the energy loss during the transfer between domains can be significantly reduced. <ref type="bibr" target="#b49">44,</ref><ref type="bibr" target="#b50">45</ref> Ultraviolet photoelectron spectroscopy (UPS) was employed to analyze the electronic structures of perovskite films after PI treatment. The valence band maximum (E V ) shifts by 180 meV toward the vacuum level (E VAC ), while the E F shifts by 350 meV toward the conduction band minimum (E C ) after treatment (Figure <ref type="figure" target="#fig_9">S11</ref>). This E F shift indicates that the PI-treated films demonstrate more n-type characteristics, which is probably due to the changed surface termination. <ref type="bibr" target="#b51">46,</ref><ref type="bibr" target="#b53">47</ref> The PbI 2 termination has been reported to have deeper energy levels than those of the MA + /FA + terminations. <ref type="bibr" target="#b54">48</ref> After introducing PI onto the film surface, the dipole in PI orients away from the surface, exposing electropositive ammonium terminal groups and enabling band bending between the perovskite and the electron-transporting layer, which can facilitate more efficient charge transfer.</p><p>To verify the passivation effect of PI on photovoltaic performance, the devices were fabricated with a configuration of ITO glass/PTAA/perovskite/C 60 /bathocuproine (BCP)/Ag as shown in Figure <ref type="figure" target="#fig_20">5a</ref>. The reference device without passivation showed a PCE of 20.76% (average PCE: 19.67%) with an opencircuit voltage (V OC ) of 1.06 V, a short-circuit current density (J SC ) of 24.93 mA cm -2 , and a fill factor (FF) of 78.57% under 1 sun illumination (AM 1.5G, 100 mW cm -2 ) (Figure <ref type="figure" target="#fig_10">S12</ref> and Table <ref type="table" target="#tab_7">S4</ref>). The PCE of the devices after PDI treatment was improved to 21.98% (average PCE: 21.31%), benefiting from the enhanced V OC (1.13 V) due to the passivated A-site vacancy defects by the R 2 NH 2 + group (Figure <ref type="figure" target="#fig_20">5b</ref>). However, J SC decreased, perhaps due to the possible formation of lowerdimensional perovskites, which inhibited charge transport. On the contrary, the devices after being treated with PI achieved a significantly enhanced PCE of 23.37% (V OC of 1.17 V, FF of 80.17%, J SC of 24.92 mA cm -2 ) (average PCE: 22.26%) with negligible hysteresis as shown in Figure <ref type="figure" target="#fig_20">5c,</ref><ref type="figure">d</ref>. The device performance was validated by an independent certification laboratory to show a high PCE of 22.75% with a J SC of 24.68 mA cm -2 , a V OC of 1.16 V, and an FF of 79.16% (Figure <ref type="figure" target="#fig_11">S13</ref>). This is the highest certified PCE for inverted PVSCs to date. The external quantum efficiency (EQE) was measured as shown in Figure <ref type="figure" target="#fig_20">5e</ref>. The integrated photocurrent of the champion device with 24.18 mA cm -2 matched well with the values obtained from the J-V curves.</p><p>Figure <ref type="figure" target="#fig_20">5f</ref> exhibits the stabilized power output at the maximum power point (MPP) for the PI-treated champion device under continuous AM 1.5G illumination. The stabilized PCE is 22.88%, which is in good agreement with the PCE obtained from the J-V curves. The greatly improved PCE is mainly attributed to the highly enhanced V OC from 1.06 to 1.17 V due to PI passivation. The V OC loss is significantly reduced to 0.33 V, which is among the lowest values in PVSCs reported so far (Figure <ref type="figure" target="#fig_12">S14</ref>). Moreover, the PI passivation not only enhanced the device performance but also improved its stability. The encapsulated device could maintain 93% of its initial efficiency under humid air (RH 55 ± 5%, 25 °C), while the efficiencies of the reference device degraded to 40% of its original values. Also, the PI-treated device can maintain over 98% of its initial efficiency while that of the reference device decreased to 87% of its initial efficiency under continuous illumination at 200 h.</p><p>In order to quantitatively analyze the impact of PI and PDI treatments on V OC loss, we employed the detailed balance theory to calculate the V OC loss: <ref type="bibr" target="#b56">[49]</ref><ref type="bibr" target="#b57">[50]</ref><ref type="bibr">[51]</ref>  Here, q is the elementary charge, ΔV is the overall voltage loss, Eg is the perovskite band gap, V OC SQ is the Shockley-Queisser limit of V OC , V OC rad refers to the V OC in which only radiative recombination occurred in PVSCs, ΔV OC SQ is the V OC loss caused by the nonideal EQE above the band gap, ΔV OC rad is the V OC loss of the sub-band-gap radiative recombination, and ΔV OC nonrad is the V OC loss of nonradiative recombination. According to the theory, V OC loss consists of three parts, ΔV 1 , ΔV 2 , and ΔV 3 . ΔV 2 results from the energy loss from blackbody radiation, where the EQE of PVSCs extend into the region below Eg. It can be computed through the highly sensitive EQE (Figure <ref type="figure" target="#fig_23">6a</ref>). <ref type="bibr" target="#b59">52,</ref><ref type="bibr">53</ref> The calculated ΔV 2 values are 27.37, 2.73, and 12.46 mV for the reference and the PI-and PDI-treated devices, respectively. The peaks appearing in the region of 1.25-1.35 eV in the highly sensitive EQE spectra demonstrate that the photocurrent contributed to shallow trap states as reported before. <ref type="bibr" target="#b25">20,</ref><ref type="bibr" target="#b27">22</ref> ΔV 3 is the voltage loss mainly owing to the nonradiative recombination, being expressed by the following equation</p><formula xml:id="formula_15">Δ = - = - + + Δ + Δ = - + - + - = Δ + Δ + Δ q V qV qV qV qV qV qV qV qV qV qV q V V V Eg (Eg ) (Eg ) ( ) (<label>)</label></formula><formula xml:id="formula_16">Δ = V k T q ln(EQE ) 3 B EL</formula><p>where k B is the Boltzmann constant and EQE EL is the EQE of electroluminescence (EL). The EQE EL values were collected by using the PVSCs as light-emitting diodes (LEDs) (Figure <ref type="figure" target="#fig_23">6b</ref> and Figure <ref type="figure" target="#fig_15">S17</ref>). The EQE EL of the reference device is 0.55%, which can be converted to a ΔV 3 value of 134.35 mV. The ΔV 3 value of the PI-treated device was reduced significantly to 60.13 mV with an EQE EL of as high as 9.77%. Such a low value is among the smallest energy losses of photovoltaic devices, further proving the excellent passivating effect of PI on reducing the nonradiative recombination loss. <ref type="bibr" target="#b60">54</ref> The V OC loss analysis of ΔV 1 , ΔV 2 , and ΔV 3 is shown in Figure <ref type="figure" target="#fig_23">6c</ref> and Table <ref type="table">S5</ref>. Thus, a considerably reduced V OC deficit of 0.33 V could be achieved, which is among the lowest values reported so far.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ CONCLUSIONS</head><p>We have demonstrated a very effective way to passivate the surface defects of perovskites using a bifunctional molecule containing both R 2 NH 2 + and R 2 NH groups on a six-membered ring to improve both the efficiency and stability of inverted PVSCs. The (PI) 2 PbI 2 •2DMSO single crystal was grown as a model compound to mimic the interactions between PI and perovskite surface defects. The PI molecule with an R 2 NH electron donor and an R 2 NH 2 + electron acceptor forms a dipole to reduce residual stress and suppress nonradiative recombination loss in perovskites to boost the efficiency of inverted PVSCs to a very high value of 23.37% (with 22.75% certified) and a reduced V OC deficit of 0.33 V. This work paves a new way for using rationally designed molecular passivators to reduce the surface defects of perovskite films and further improve the efficiency and stability of derived PVSCs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>■ ASSOCIATED CONTENT</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>* sı Supporting Information</head><p>The Supporting Information is available free of charge at <ref type="url" target="https://pubs.acs.org/doi/10.1021/jacs.0c09845">https://pubs.acs.org/doi/10.1021/jacs.0c09845</ref>.</p><p>Details concerning synthesis, device production, and characterization methods (PDF) Single-crystal structure of (PI)  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure S1. 1 H</head><label>1</label><figDesc>Figure S1. 1 H NMR spectra in d6-DMSO of (a) PI, (b) PI + PbI2, (c) PDI and (d) PDI + PbI2.</figDesc><graphic coords="7,90.00,260.67,415.19,168.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure S2 .</head><label>S2</label><figDesc>Figure S2. Photograph of (PI)2PbI2•2DMSO single crystals (~3 mm).</figDesc><graphic coords="8,198.45,88.02,198.40,201.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure S3 .</head><label>S3</label><figDesc>Figure S3. UV-vis absorption spectra of the refernece film and perovskite films with PI and PDI treatments. Inset is the Tauc plot showing an optical bandgap of 1.50 eV for perovskite films. All the samples were prepared on an ITO/PTAA substrate.</figDesc><graphic coords="9,155.93,89.47,283.41,230.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure S5 .</head><label>S5</label><figDesc>Figure S5. GIWAXS intensity profiles of perovskite films with PI and PDI treatments, measured at an incident angle of 0.2°.</figDesc><graphic coords="11,171.65,74.95,251.96,196.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure S6 .</head><label>S6</label><figDesc>Figure S6. (a-c) 2D GIWAXS patterns and (d-f) GIWAXS intensity profiles of reference perovskite film and perovskite films with 5 mg mL -1 PI and PDI treatments, respectively, measured at an incident angle of 1.0°. All the perovskite films were deposited on an ITO substrate.</figDesc><graphic coords="12,91.28,72.30,412.75,248.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure S7 .</head><label>S7</label><figDesc>Figure S7. Scanning electron microscopy of (a) the reference perovskite film and perovskite films after (b) PI and (c) PDI treatments. The films were prepared on a PTAA/ITO substrate.</figDesc><graphic coords="13,90.00,77.70,415.95,97.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure S8 .</head><label>S8</label><figDesc>Figure S8. Dark I-V curves of hole-only (ITO/PEDOT:PSS/Perovskites/MoO3/Ag) devices: (a) reference, (b) PI-treated and (c) PDI-treated devices.</figDesc><graphic coords="14,90.00,75.05,415.30,118.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure S9 .</head><label>S9</label><figDesc>Figure S9. (a-c) The mapping of PL intensity and (d-f) PL peak position of reference perovskite film and perovskite films with PI and PDI treatments (20 μm◊20μm).</figDesc><graphic coords="15,90.00,74.25,396.85,213.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure S10 .</head><label>S10</label><figDesc>Figure S10. Histograms of PL peak position (extracted from PL mapping data) of reference perovskite film and perovskite films with PI and PDI treatments.</figDesc><graphic coords="16,90.00,76.30,425.15,350.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure S11 .</head><label>S11</label><figDesc>Figure S11. Ultraviolet photoelectron spectra (UPS) data for (a) the reference perovskite film and (b) the film with PI treatment. (c) Energy-level scheme for the corresponding perovskite films based on the parameters derived from UPS spectra. (d) Schematic illustration of band bending due to the PI treatment on the surface of perovskite.</figDesc><graphic coords="17,90.00,76.30,414.96,303.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure S12 .</head><label>S12</label><figDesc>Figure S12. Box plots of (a) PCE, (b) VOC, (c) JSC, and (d) FF of corresponding devices.</figDesc><graphic coords="18,94.98,79.62,405.33,312.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure S13 .</head><label>S13</label><figDesc>Figure S13. Independent efficiency certification of perovskite solar cells by an accredited institute of the Potovoltaic and Wind Powersystems Quality Test Center (Chinese Academy of Science, China), giving a PCE of 22.75% (JSC of 24.684 mA cm - 2 , VOC of 1.164 V and FF of 79.16%), which is the highest values for the certified efficiency for inverted perovskite solar cells.</figDesc><graphic coords="20,90.00,72.90,415.00,590.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure S14 .</head><label>S14</label><figDesc>Figure S14. VOC vs bandgap plot showing the S-Q Limit and values collected from published references: 1, J. Am. Chem. Soc. 2020, 142 (8), 3989.; 2, Sci. Adv. 2019, 5 (3), eaav8925.; 3, Energy Environ. Sci. 2019, 12 (7), 2192.; 4, Nat. Photo.2019, 13 (7), 460.; 5, J. Am. Chem. Soc. 2020, 142 (26), 11428.; 6, Adv. Mater. 2020, 32, 1907757.; 7, Nat. Energy 2020, 5 (2), 131.; 8, J. Am. Chem. Soc. 2019, 141 (14), 5781.; 9, Joule 2020, 4 (6), 1248.; 10, Science 2018, 360 (6396), 1442; 11, Science 2020, 369 (6511), 1615. The red star represents this work.</figDesc><graphic coords="21,165.55,77.57,264.18,207.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure S15 .</head><label>S15</label><figDesc>Figure S15. The normalized PCE of encapsulated devices (a) in humid air (RH 55 ± 5%, 25 ℃) and (b) under continuous 1 sun illumination in an N2 glove box, respectively.</figDesc><graphic coords="22,90.00,73.00,415.30,169.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure S16 .</head><label>S16</label><figDesc>Figure S16. Long-term operational stability of the unencapsulated devices at MPP tracking under continuous light irradiation with a white LED lamp (100 mW cm -2 ) in an N2-filled glovebox.</figDesc><graphic coords="23,139.18,76.65,316.92,192.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure S17 .</head><label>S17</label><figDesc>Figure S17. The EQEEL of the (a) reference PVSC and (b) the PVSC with PDI treatment.</figDesc><graphic coords="24,99.23,73.72,396.83,168.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Simulated PXRD of (a) (PI) 2 PbI 2 •2DMSO and (b) (PDI) 2 PbI 2 . Insets are the optical microscopy images. Crystal structures of (c) (PI) 2 PbI 2 •2DMSO and (d) (PDI) 2 PbI 2 . 1 H NMR spectra in d 6 -DMSO of (e) PI and PI + PbI 2 and (f) PDI and PDI + PbI 2 .</figDesc><graphic coords="28,73.93,69.17,477.07,292.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. High-resolution XPS spectra of corresponding perovskite films: (a) C 1s spectra, (b) N 1s spectra, and (c) Pb 4f spectra.</figDesc><graphic coords="29,117.01,69.17,390.95,191.74" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. (a-c) Two-dimensional GIWAXS patterns and (d) the grazing incidence X-ray diffraction (GIXRD) spectrum of the corresponding perovskite films with an incident angle of 0.2°. * denotes PbI 2 . (e-g) GIXRD spectrum at different tilt angles for the reference film and PI-and PDItreated films, respectively. (h) Residual strain of the corresponding perovskite films' diffraction strain data as a function of sin 2 φ. All of the perovskite films are deposited on an ITO substrate.</figDesc><graphic coords="29,61.46,292.20,502.07,222.69" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. (a) Steady-state PL spectra and (b) time-resolved photoluminescence plots of perovskite films. Confocal photoluminescence (PL) intensity maps of (c) reference perovskite film and perovskite films with (d) PI and (e) PDI treatments. The contour in the pictures represents the auto level of PL intensity, with the sequence of blue, purple, magenta, red, green, and cyan.</figDesc><graphic coords="30,108.11,69.17,408.70,226.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. (a) Device structure of the inverted PVSCs. (b) Current density-voltage (J-V) characteristics of devices with and without surface treatments. (c) Statistics of PCE distribution for PVSCs with and without PI treatment. (d) J-V curves of the PI-treated device with different scan directions (forward, 1.2 to -0.1 V; reverse, -0.1 to 1.2 V). (e) External quantum efficiency (EQE) spectra of the champion device with PI treatment. (f) Stabilized power output of a PI-treated device tracked at the maximum power point (MPP) under AM 1.5G illumination.</figDesc><graphic coords="31,61.46,69.17,502.07,245.03" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22"><head></head><label></label><figDesc>ΔV 1 comes from the radiative recombination above Eg. The reference and PI-and PDI-treated PVSCs have similar ΔV 1 values of 265.15, 264.61, and 265.11 mV, respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. (a) Highly sensitive external quantum efficiency (EQE) spectra of the corresponding devices. (b) EQE of EL and the EL spectra of the champion device with PI treatment. (c) V OC loss analysis of the corresponding devices.</figDesc><graphic coords="32,73.64,69.17,477.58,132.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>M perovskite precursor solutions were constructed by mixing FAI, PbI 2 , MABr, PbBr 2 and CsI in</figDesc><table><row><cell>DMF:DMSO</cell><cell>mixed</cell><cell>solvent</cell><cell>(4:1/v:v)</cell><cell>with</cell><cell>a</cell><cell>chemical</cell><cell>formula</cell><cell>of</cell></row><row><cell cols="3">Cs 0.05 (FA 0.95 MA 0.05 ) 0.95 Pb(I 0.95 Br 0.05 )</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p><p>3 </p>. 30 mol% MACl were added into the precursor solution</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>2 </figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>•2DMSO and (PDI) 2 PbI 2 were solved and refined using the Bruker SHELXTL Software Package. All non-hydrogen atoms were refined anisotropically, and all hydrogen atoms were refined as riding atoms. The crystal data and data collection and refinement parameters for (PI) 2 PbI 2 •2DMSO and (PDI) 2 PbI 2 are listed in Table S1. CCDC 1935315 and CCDC 2009125 contains the supplementary crystallographic data of (PI) 2 PbI 2 •2DMSO and (PDI) 2 PbI 2 , respectively, which can be obtained free of charge from the Cambridge Crystallographic Data Centre via www.ccdc.cam.ac.uk/data_request/cif.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table S1 .</head><label>S1</label><figDesc>Crystal data and refinement of (PI)2PbI2•2DMSO and (PDI)2PbI2.</figDesc><table /><note><p>(PI)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>2 PbI 2 •2DMSO (PDI) 2 PbI 2 Chemical formula</head><label></label><figDesc>C 8 H 23 I 3 N 2 O 2 PbS 2 C 8 H 24 I 6 N 4 Pb</figDesc><table><row><cell>Formula weight</cell><cell>831.29 g/mol</cell><cell>1144.90 g/mol</cell></row><row><cell>Temperature</cell><cell>173(2) K</cell><cell>173(2) K</cell></row><row><cell>Crystal system</cell><cell>monoclinic</cell><cell>monoclinic</cell></row><row><cell>Space group</cell><cell>P 1 21/c 1</cell><cell>P 1 2/n 1</cell></row><row><cell></cell><cell>a = 11.4921(4) Å</cell><cell>a = 9.8118(2) Å</cell></row><row><cell></cell><cell>b = 21.4945(9) Å</cell><cell>b = 9.2671(2) Å</cell></row><row><cell>Unit cell dimensions</cell><cell>c = 9.0137(3) Å α = 90°</cell><cell>c = 12.4194(3) Å α = 90°</cell></row><row><cell></cell><cell>β=111.4920(10)°</cell><cell>β = 93.5610(10)°</cell></row><row><cell></cell><cell>γ = 90°</cell><cell>γ = 90°</cell></row><row><cell>Volume</cell><cell>2071.72(13) Å 3</cell><cell>1127.08(4) Å 3</cell></row><row><cell>Z</cell><cell>4</cell><cell>2</cell></row><row><cell>Density (calculated)</cell><cell>2.665 g/cm 3</cell><cell>3.374 g/cm 3</cell></row><row><cell>Independent reflections</cell><cell>4100 [R(int) = 0.0295]</cell><cell>2203 [R(int) = 0.0384]</cell></row><row><cell>Data/restraints/parameters</cell><cell>4100 / 0 / 167</cell><cell>2203 / 0 / 87</cell></row><row><cell>Goodness-of-fit</cell><cell>1.090</cell><cell>1.152</cell></row><row><cell></cell><cell>3706 data; I&gt;2σ(I)</cell><cell>2095 data; I&gt;2σ(I)</cell></row><row><cell></cell><cell>R1 = 0.0258, wR2 =</cell><cell>R1 = 0.0229, wR2 =</cell></row><row><cell>Final R indices [I &gt; 2σ(I)]</cell><cell>0.0455</cell><cell>0.0482</cell></row><row><cell></cell><cell>all data R1 = 0.0306,</cell><cell>all data R1 = 0.0248,</cell></row><row><cell></cell><cell>wR2 = 0.0469</cell><cell>wR2 = 0.0488</cell></row><row><cell>Largest diff peak and hole</cell><cell>0.655 and -0.646 eÅ -3</cell><cell>0.848 and -1.044 eÅ -3</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table S2 .</head><label>S2</label><figDesc>Time-resolved PL data of perovskite films on quartz.</figDesc><table><row><cell>Samples</cell><cell>τ 1 (ns)</cell><cell>τ 2 (ns)</cell><cell>A 1 (%)</cell><cell>A 2 (%)</cell></row><row><cell>Reference</cell><cell>22.74</cell><cell>306.09</cell><cell>3.50</cell><cell>96.50</cell></row><row><cell>PI</cell><cell>294.95</cell><cell>1955.74</cell><cell>2.92</cell><cell>97.08</cell></row><row><cell>PDI</cell><cell>695.88</cell><cell>1576.48</cell><cell>25.40</cell><cell>74.60</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table S3 .</head><label>S3</label><figDesc>The average lifetime (τ avg ) of perovskite films on quartz calculated with</figDesc><table><row><cell>𝜏 𝑎𝑣𝑔 =</cell><cell>∑ ∑ 𝑛 𝑖=1 𝑖=1 𝑛</cell><cell>𝐴 𝑖 𝜏 𝑖 2 𝐴 𝑖 𝜏 𝑖</cell><cell>.</cell></row><row><cell></cell><cell></cell><cell cols="2">Samples</cell><cell>Reference</cell><cell>PI</cell><cell>PDI</cell></row><row><cell></cell><cell></cell><cell cols="2">τ avg (ns)</cell><cell>305.33</cell><cell>1948.24</cell><cell>1461.42</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table S4 .</head><label>S4</label><figDesc>Photovoltaic parameters of solar cell devices under AM (air mass) 1.5 G illumination.</figDesc><table><row><cell>Sample </cell><cell>V OC (V)</cell><cell>FF (%)</cell><cell>J SC (mA cm -2 )</cell><cell>PCE (%)</cell></row><row><cell>Best</cell><cell>1.06</cell><cell>78.57</cell><cell>24.93</cell><cell>20.76</cell></row><row><cell>Reference</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">Average  1.040.02 78.161.14</cell><cell>24.850.32</cell><cell>19.670.60</cell></row><row><cell>Best</cell><cell>1.17</cell><cell>80.17</cell><cell>24.92</cell><cell>23.37</cell></row><row><cell>PI</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Average</cell><cell cols="2">1.150.01 79.620.94</cell><cell>24.840.24</cell><cell>22.260.49</cell></row><row><cell>Best</cell><cell>1.13</cell><cell>79.03</cell><cell>24.61</cell><cell>21.98</cell></row><row><cell>PDI</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Average</cell><cell cols="2">1.120.01 78.451.10</cell><cell>24.580.35</cell><cell>21.310.58</cell></row></table><note><p> The active area of device is 0.104 cm 2 .  The average performance is calculated from 50 devices.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>OC calculated via subtracting ∆V 1 , ∆V 2 and ∆V 3 from E g .</figDesc><table><row><cell cols="8">Regulating Surface Termination for Efficient Inverted Perovskite</cell></row><row><cell cols="6">Solar Cells with Greater Than 23% Efficiency</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Read Online</cell><cell></cell><cell></cell></row><row><cell>ACCESS</cell><cell cols="2">Metrics &amp; More</cell><cell></cell><cell cols="2">Article Recommendations</cell><cell></cell><cell></cell></row><row><cell></cell><cell>50</cell><cell>1.24</cell><cell>1.06</cell><cell>265.15</cell><cell>27.37</cell><cell>134.35</cell><cell>1.07</cell></row><row><cell>PI</cell><cell>1.50</cell><cell>1.24</cell><cell>1.17</cell><cell>264.61</cell><cell>2.73</cell><cell>60.13</cell><cell>1.17</cell></row><row><cell>PDI</cell><cell>1.50</cell><cell>1.24</cell><cell>1.13</cell><cell>265.11</cell><cell>12.46</cell><cell>84.96</cell><cell>1.14</cell></row><row><cell cols="2">Supplemental Reference</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="8">[2]. Rau, U., Reciprocity Relation between Photovoltaic Quantum Efficiency and Electroluminescent</cell></row><row><cell cols="5">Emission of Solar Cells. Phys. Rev. B 2007, 76 (8), 085303.</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="8">[3]. Vandewal, K.; Tvingstedt, K.; Gadisa, A.; Inganas, O.; Manca, J. V., Relating the Open-Circuit</cell></row><row><cell cols="8">Voltage to Interface Molecular Properties of Donor: Acceptor Bulk Heterojunction Solar Cells. Phys. Rev.</cell></row><row><cell cols="2">B 2010, 81 (12), 125204.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p><p><p><p>V OC is the measured value extracted from J-V curve.</p>V OC * is the V [1].</p>Tauc, J.; Grigorovici, R.; Vancu, A., Optical Properties and Electronic Structure of Amorphous Germanium. Phys. Status Solidi B 1966, 15 (2), 627-637. [4]. Ono, L. K.; Liu, S. F.; Qi, Y., Reducing Detrimental Defects for High-Performance Metal Halide Perovskite Solar Cells. Angew. Chem. Int. Ed. Engl. 2020, 59 (17), 6676-6698.</p>Fengzhu Li, ∇ Xiang Deng, ∇ Feng Qi, Zhen Li, Danjun Liu, Dong Shen, Minchao Qin, Shengfan Wu, Francis Lin, Sei-Hum Jang, Jie Zhang, Xinhui Lu, Dangyuan Lei, Chun-Sing Lee, Zonglong Zhu,* and Alex K.-Y. Jen* Cite This: J. Am. Chem. Soc. 2020, 142, 20134-20142 * sı Supporting Information</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>2 PbI 2 •2DMSO (1935315) (CIF) Single-crystal structure of (PDI) 2 PbI 2 (2009125) (CIF)</figDesc><table><row><cell>■ AUTHOR INFORMATION</cell></row></table><note><p><p>Corresponding Authors</p>Zonglong Zhu -Department of Chemistry, City University of Hong Kong, Kowloon, Hong Kong; orcid.org/0000-0002-8285-9665; Email: zonglzhu@cityu.edu.hk</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>https://dx.doi.org/10.1021/jacs.0c09845 J. Am. Chem. Soc. 2020, 142, 20134-20142 Downloaded via UNIV OF CALIFORNIA SAN DIEGO on November 8, 2024 at 06:48:46 (UTC).See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>https://dx.doi.org/10.1021/jacs.0c09845 J. Am. Chem. Soc. 2020, 142, 20134-20142</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><head>■ ACKNOWLEDGMENTS</head><p>This work was supported by <rs type="funder">APRC Grants of the City University of Hong Kong</rs> (<rs type="grantNumber">9380086</rs> and <rs type="grantNumber">9610421</rs>), <rs type="funder">Innovation and Technology Bureau supported programs</rs> (<rs type="grantNumber">ITS/497/18FP</rs> and <rs type="grantNumber">GHP/021/18SZ</rs>), the <rs type="projectName">Guangdong-Hong Kong-Macao joint laboratory of optoelectronic and magnetic 6bal materials</rs> (no. <rs type="grantNumber">2019B121205002</rs>), an <rs type="grantName">ECS grant</rs> (<rs type="grantNumber">CityU 21301319</rs>), a <rs type="grantName">Collaborative Research Fund grant</rs> (<rs type="grantNumber">C5037-18G</rs>) from the <rs type="funder">Research Grants Council of Hong Kong</rs>, the <rs type="funder">Natural Science Foundation of Guangdong Province</rs> (<rs type="grantNumber">2019A1515010761</rs>), the <rs type="projectName">Guangdong Major Project of Basic and Applied Basic Research</rs> (no. <rs type="grantNumber">2019B030302007</rs>), the <rs type="funder">Air Force Office of Scientific Research</rs> (<rs type="grantNumber">FA9550-18-1-0046</rs>), and a <rs type="funder">Teaching Start-Up Grant of the City University of Hong Kong</rs> (6000672). Z.Z. and A.J. are grateful for the technical support provided by <rs type="person">Mr. Shekman Yiu</rs> for single-crystal analysis.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_eN5SEBN">
+					<idno type="grant-number">9380086</idno>
+				</org>
+				<org type="funding" xml:id="_H8rEzPt">
+					<idno type="grant-number">9610421</idno>
+				</org>
+				<org type="funding" xml:id="_t32ejek">
+					<idno type="grant-number">ITS/497/18FP</idno>
+				</org>
+				<org type="funded-project" xml:id="_SBrh49y">
+					<idno type="grant-number">GHP/021/18SZ</idno>
+					<orgName type="project" subtype="full">Guangdong-Hong Kong-Macao joint laboratory of optoelectronic and magnetic 6bal materials</orgName>
+				</org>
+				<org type="funding" xml:id="_MF2NHyF">
+					<idno type="grant-number">2019B121205002</idno>
+					<orgName type="grant-name">ECS grant</orgName>
+				</org>
+				<org type="funding" xml:id="_h8majS9">
+					<idno type="grant-number">CityU 21301319</idno>
+					<orgName type="grant-name">Collaborative Research Fund grant</orgName>
+				</org>
+				<org type="funding" xml:id="_dxg4BbK">
+					<idno type="grant-number">C5037-18G</idno>
+				</org>
+				<org type="funded-project" xml:id="_ha64D9N">
+					<idno type="grant-number">2019A1515010761</idno>
+					<orgName type="project" subtype="full">Guangdong Major Project of Basic and Applied Basic Research</orgName>
+				</org>
+				<org type="funding" xml:id="_45G4nsd">
+					<idno type="grant-number">2019B030302007</idno>
+				</org>
+				<org type="funding" xml:id="_KfhSpTw">
+					<idno type="grant-number">FA9550-18-1-0046</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>Regulating Surface Termination for Efficient Inverted Perovskite Solar Cells with Greater Than 23% Efficiency </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Notes</head><p>The authors declare no competing financial interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Alex K.-Y</forename><surname>Jen</surname></persName>
+		</author>
+		<idno>orcid.org/0000-0001-6022-4055</idno>
+		<imprint>
+			<pubPlace>Seattle, Washington 98195, United States; Kowloon, Hong Kong</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Materials Science and Engineering and Department of Chemistry, City University of Hong Kong, Kowloon, Hong Kong; Department of Materials Science &amp; Engineering, University of Washington ; Department of Materials Science and Engineering and Department of Chemistry, City University of Hong Kong</orgName>
+		</respStmt>
+	</monogr>
+	<note>Email: alexjen@cityu.edu.hk Authors Fengzhu Li -</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Sei-Hum</forename><surname>Jang</surname></persName>
+		</author>
+		<idno>orcid.org/0000-0002- 1908-3294</idno>
+		<imprint>
+			<biblScope unit="volume">98195</biblScope>
+			<pubPlace>Seattle, Washington; Shatin, Hong Kong</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Materials Science &amp; Engineering, University of Washington ; United States Jie Zhang -Department of Chemistry, City University of Hong Kong, Kowloon, Hong Kong Xinhui Lu -Department of Physics, The Chinese University of Hong Kong</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1021/jacs.0c09845?ref=pdf</idno>
+		<idno>orcid.org/0000-0001- 6557-453</idno>
+		<ptr target="https://pubs.acs.org/10.1021/jacs.0c09845■REFERENCES" />
+		<imprint>
+			<pubPlace>Kowloon, Hong Kong</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Chun-Sing Lee -Department of Chemistry, City University of Hong Kong</orgName>
+		</respStmt>
+	</monogr>
+	<note>Complete contact information is available at</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Organometal Halide Perovskites as Visible-Light Sensitizers for Photovoltaic Cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Teshima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shirai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja809598r</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="6050" to="6051" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Lead Iodide Perovskite Sensitized All-Solid-State Submicron Thin Film Mesoscopic</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marchioro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Humphry-Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Yum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Moser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gratzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep00591</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Solar Cell with Efficiency Exceeding 9%. Sci. Rep</title>
+		<imprint>
+			<date type="published" when="2012">2012, 2, 591</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Efficient Hybrid Solar Cells Based on Meso-Superstructured Organometal Halide Perovskites</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Teuscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1228604</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">2012</biblScope>
+			<biblScope unit="issue">6107</biblScope>
+			<biblScope unit="page" from="643" to="647" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Efficient Planar Heterojunction Perovskite Solar Cells by Vapour Deposition</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature12509</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">501</biblScope>
+			<biblScope unit="issue">7467</biblScope>
+			<biblScope unit="page" from="395" to="398" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Sequential Deposition as A Route To High-Performance Perovskite-Sensitized Solar Cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burschka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pellet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Humphry-Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gratzel</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature12340</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="issue">7458</biblScope>
+			<biblScope unit="page" from="316" to="319" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Planar Heterojunction Perovskite Solar Cells via Vapor-assisted Solution Process</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja411509g</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="622" to="625" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<ptr target="https://www.nrel.gov/pv/cell-efficiency.html" />
+	</analytic>
+	<monogr>
+		<title level="j">Best Research-Cell Efficiency Chart</title>
+		<imprint>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Special topic on organic and perovskite photovoltaics</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K Y</forename><surname>Jen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11426-019-9498-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. China: Chem</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="797" to="799" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Vertical Orientated Dion-Jacobson Quasi-2D Perovskite Film with Improved Photovoltaic Performance and Stability</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K Y</forename><surname>Jen</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/smtd.201900831</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Small Methods</title>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date>1900831</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Toward Perovskite Solar Cell Commercialization: A Perspective and Research Roadmap Based on Interfacial Engineering</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rajagopal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Jen</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.201800455</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">32</biblScope>
+			<date type="published" when="2018">2018. 1800455</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The Surface of Halide Perovskites from Nano to Bulk</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41578-020-0221-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mater</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="809" to="827" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Reducing Surface Halide Deficiency for Efficient and Stable Iodide-Based Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Q</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Rudd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Van Brackle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Ecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.9b13418</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="3989" to="3996" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Motti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meggiolaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mosconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Perini</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Controlling Competing Photochemical Reactions Stabilizes Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Gandini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Angelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Petrozza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/s41566-019-0435-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="532" to="539" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Charge Carrier Trapping at Surface Defects of Perovskite Solar Cell Absorbers: A First-Principles Study</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Uratani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yamashita</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpclett.7b00055</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="742" to="746" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">First-Principles Study of Intrinsic Defects in Formamidinium Lead Triiodide Perovskite Solar Cell Absorbers</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yam</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C8CP00280K</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">2018</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="6800" to="6804" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Imperfections and Their Passivation in Halide Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Rudd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C8CS00853A</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Soc. Rev</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="3842" to="3867" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">High-Efficiency Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.chemrev.0c00107</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="7867" to="7918" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Reducing Detrimental Defects for High-Performance Metal Halide Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Ono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.201905521</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="6676" to="6698" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Efficient Large Guanidinium Mixed Perovskite Solar Cells with Enhanced</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K Y</forename><surname>Jen</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.0c09845?ref=pdf</idno>
+		<ptr target="https://dx.doi.org/10.1021/jacs.0c09845" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="20134" to="20142" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Low</forename><surname>Photovoltage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Losses</forename><surname>Energy</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C9CC00016J</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">30</biblScope>
+			<biblScope unit="page" from="4315" to="4318" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Highly Efficient all-Inorganic Perovskite Solar Cells with Suppressed Non-Radiative Recombination by A Lewis Base</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-C</forename><surname>Chueh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-L</forename><surname>Yip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K Y</forename><surname>Jen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-019-13909-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">177</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Defect Passivation in Hybrid Perovskite Solar Cells using Quaternary Ammonium Halide Anions and Cations</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiao</forename><forename type="middle">C</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nenergy.2017.102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">2017</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">17102</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Modulation of Defects and Interfaces through Alkylammonium Interlayer for Efficient Inverted Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>So</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K Y</forename><surname>Jen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.joule.2020.04.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1248" to="1262" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Highly Efficient Perovskite Solar Cells Enabled by Multiple Ligand Passivation</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jamshaid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Ono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/aenm.201903696</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<date type="published" when="2020">2020. 1903696</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Passivation Mechanism Exploiting Surface Dipoles Affords High-Performance Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ansari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shirzadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Salavati-Niasari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lagrange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nonomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Yum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sivula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gratzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Dyson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.0c01704</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page" from="11428" to="11433" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Surface Passivation of Perovskite Film for Efficient Solar Cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>You</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41566-019-0398-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="460" to="466" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Optimal Interfacial Engineering with Different Length of Alkylammonium Halide for Efficient and Stable Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">U</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Paik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/aenm.201902740</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">47</biblScope>
+			<biblScope unit="page">1902740</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Bilateral Alkylamine for Suppressing Charge Recombination and Improving Stability in Blade-Coated Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">W.-Q</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Rudd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/sciadv.aav8925</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>eaav8925</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Tailoring Passivation Molecular Structures for Extremely Small Open-Circuit Voltage Loss in Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">C</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.8b13091</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="5781" to="5787" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Improving Photovoltaic Performance Using Perovskite/Surface-Modified Graphitic Carbon Nitride Heterojunction</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/solr.201900413</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Solar RRL</title>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date>1900413</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Interfacial Modification through a Multifunctional Molecule for Inorganic Perovskite Solar Cells with over 18% Efficiency</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K Y</forename><surname>Jen</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/solr.202000205</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Solar RRL</title>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<date>2000205</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Low Trap-State Density and Long Carrier Diffusion in Organolead Trihalide Perovskite Single Crystals</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Adinolfi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Comin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alarousu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Buin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoogland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rothenberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Katsiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Losovyj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Dowben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">F</forename><surname>Mohammed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Sargent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Bakr</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aaa2725</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="issue">6221</biblScope>
+			<biblScope unit="page" from="519" to="522" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Multifunctional Molecular Modulators for Perovskite Solar Cells with over 20% Efficiency and High Operational Stability</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Milic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Kubicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pellet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lagrange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mettraux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Emsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gratzel</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-018-06709-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">2018</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">4482</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Amine Additive Reactions Induced by the Soft Lewis Acidity of Pb 2+ in Halide Perovskites. Part I: Evidence for Pb-alkylamide Formation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Kerner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Schloemer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sellinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Rand</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C8TC04871A</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. C</title>
+		<imprint>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="5251" to="5259" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Situ Growth of 2D Perovskite Capping Layer for Stable and Efficient Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lyu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-H</forename><surname>Yun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adfm.201706923</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page">1706923</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Instability in CH 3 NH 3 PbI 3 Perovskite Solar Cells due to Elemental Migration and Chemical Composition Changes</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Najeeb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Shakoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alashraf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Al-Muhtaseb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Soliman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-15841-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">2017</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">15406</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Cation and Anion Immobilization through Chemical Bonding Enhancement with Fluorides for Stable Halide Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Onwudinanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Brocks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41560-019-0382-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="408" to="415" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">An Electrochemical Study on the Copolymer Formed from Piperazine and Aniline Monomers</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dkhili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lopez-Bernabeu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Kedir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Huerta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Montilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Besbes-Hentati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Morallon</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma11061012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">2018</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">1012</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Enhanced Long-Term Stability of Perovskite Solar Cells by 3-Hydroxypyridine Dipping</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhao</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C6CC09492A</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1829" to="1831" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Tailored Phase Conversion Under Conjugated Polymer Enables Thermally Stable Perovskite Solar Cells with Efficiency Exceeding 21</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.8b10520</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="17255" to="17262" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Residual Stress Gradient Analysis with GIXRD on ZrO 2 Thin Films Deposited by MOCVD</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Prud'homme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ji</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.surfcoat.2011.07.036</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Surf. Coat. Technol</title>
+		<imprint>
+			<biblScope unit="volume">206</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="405" to="410" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Strain Engineering in Perovskite Solar Cells and Its Impacts on Carrier Dynamics</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-019-08507-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">815</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Strained Hybrid Perovskite Thin Films and Their Impact on the Intrinsic Stability of Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Shield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/sciadv.aao5616</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">2017</biblScope>
+			<biblScope unit="issue">11</biblScope>
+		</imprint>
+	</monogr>
+	<note>eaao5616</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Additive Engineering for High-Performance Room-Temperature-Processed Perovskite Absorbers with Micron-Size Grains and Microsecond-Range Carrier Lifetimes</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-Z</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Franklin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Glass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Therien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Mitzi</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C7EE02272G</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2365" to="2371" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Rationalizing the Light-Induced Phase Separation of Mixed Halide Organic-Inorganic Perovskites</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Draguta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Sharia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Brennan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">V</forename><surname>Morozov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Manser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Kamat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuno</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-017-00284-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">200</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Light-Induced Anion Phase Segregation in Mixed Halide Perovskites</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Brennan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Draguta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Kamat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuno</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsenergylett.7b01151</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="204" to="213" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Troughton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gasparini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-J</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Hedhili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Alsalloum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Maity</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Turedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Anthopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z.-H</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">F</forename><surname>Mohammed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Sargent</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Managing Grains and Interfaces via Ligand Anchoring enables 22.3%-Efficiency Inverted Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/s41560-019-0538-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="131" to="140" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Enhanced Photovoltage for Inverted Planar Heterojunction Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sadhanala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shivanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Trindade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Watts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Friend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aap9282</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">360</biblScope>
+			<biblScope unit="issue">6396</biblScope>
+			<biblScope unit="page" from="1442" to="1446" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Quarti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Angelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Beljonne</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.chemmater.6b03259</idno>
+		<imprint/>
+	</monogr>
+	<note>Influence of Surface Termination on the Energy Level Alignment at the CH 3 NH 3 PbI 3</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1021/acs.chemmater.6b03259</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater. 2017</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="958" to="968" />
+			<publisher>Perovskite/C 60 Interface</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Detailed Balance Limit of Efficiency of P-N Junction Solar Cells</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shockley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Queisser</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1736034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">1961</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="510" to="519" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Relating the Open-Circuit Voltage to Interface Molecular Properties of Donor: Acceptor Bulk Heterojunction Solar Cells</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Rau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vandewal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tvingstedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gadisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Inganas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Manca</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.0c09845?ref=pdf</idno>
+		<ptr target="https://dx.doi.org/10.1021/jacs.0c09845" />
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B: Condens. Matter Mater. Phys</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">125204</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>Phys. Rev. B: Condens. Matter Mater. Phys.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="20134" to="20142" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Wide-Gap Non-Fullerene Acceptor enabling High-Performance Organic Photovoltaic Cells for Indoor Applications</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gautam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bergqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Inganas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gundogdu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bergqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Inganas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hou</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41560-019-0448-5</idno>
+		<idno>16089. (53</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="768" to="775" />
+			<date type="published" when="2016">2016. 2019</date>
+		</imprint>
+	</monogr>
+	<note>Nat. Energy</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">High-Efficiency Organic Solar Cells with Low Non-Radiative Recombination Loss and Low Energetic Disorder</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cao</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.0c09845?ref=pdf</idno>
+		<ptr target="https://dx.doi.org/10.1021/jacs.0c09845" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="300" to="305" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="20134" to="20142" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

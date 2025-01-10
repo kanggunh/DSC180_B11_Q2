@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Intact 2D/3D halide junction perovskite solar cells via solid-phase in-plane growth</title>
+				<funder ref="#_FC2hqE4">
+					<orgName type="full">Ministry of Education, Science and Technology, Korea</orgName>
+				</funder>
+				<funder ref="#_xGAgrKx #_RSNw9MP #_SB5t8eM">
+					<orgName type="full">Korea government (MSIP)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Research Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Research Foundation of Korea</orgName>
+					<orgName type="abbreviated">NRF</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Global Frontier R&amp;D Program of the Center for Multiscale Energy Systems</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">New and Renewable Energy Core Technology Program of the Korea Institute of Energy Technology Evaluation and Planning</orgName>
+					<orgName type="abbreviated">KETEP</orgName>
+				</funder>
+				<funder ref="#_rJt9BAE">
+					<orgName type="full">Ministry of Trade, Industry and Energy</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-01-04">4 January 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yeoun-Woo</forename><surname>Jang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Global Frontier Center for Multiscale Energy Systems</orgName>
+								<orgName type="institution">Seoul National University</orgName>
+								<address>
+									<postCode>08826</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Mechanical and Aerospace Engineering</orgName>
+								<orgName type="institution">Seoul National University</orgName>
+								<address>
+									<postCode>08826</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Seungmin</forename><surname>Lee</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">School of Civil</orgName>
+								<orgName type="department" key="dep2">Environmental and Architectural Engineering</orgName>
+								<orgName type="institution">Korea University</orgName>
+								<address>
+									<postCode>02841</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kyung</forename><forename type="middle">Mun</forename><surname>Yeom</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">School of Civil</orgName>
+								<orgName type="department" key="dep2">Environmental and Architectural Engineering</orgName>
+								<orgName type="institution">Korea University</orgName>
+								<address>
+									<postCode>02841</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kiwan</forename><surname>Jeong</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Global Frontier Center for Multiscale Energy Systems</orgName>
+								<orgName type="institution">Seoul National University</orgName>
+								<address>
+									<postCode>08826</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Kwang</forename><surname>Choi</surname></persName>
+							<email>mchoi@snu.ac.kr</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">School of Civil</orgName>
+								<orgName type="department" key="dep2">Environmental and Architectural Engineering</orgName>
+								<orgName type="institution">Korea University</orgName>
+								<address>
+									<postCode>02841</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mansoo</forename><surname>Choi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Global Frontier Center for Multiscale Energy Systems</orgName>
+								<orgName type="institution">Seoul National University</orgName>
+								<address>
+									<postCode>08826</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Mechanical and Aerospace Engineering</orgName>
+								<orgName type="institution">Seoul National University</orgName>
+								<address>
+									<postCode>08826</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jun</forename><surname>Hong Noh</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">School of Civil</orgName>
+								<orgName type="department" key="dep2">Environmental and Architectural Engineering</orgName>
+								<orgName type="institution">Korea University</orgName>
+								<address>
+									<postCode>02841</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">KU-KIST Green School Graduate School of Energy and Environment</orgName>
+								<orgName type="institution">Korea University</orgName>
+								<address>
+									<postCode>02841</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Intact 2D/3D halide junction perovskite solar cells via solid-phase in-plane growth</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-01-04">4 January 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C77750107B7B240873F90F43C8FA69C6</idno>
+					<idno type="DOI">10.1038/s41560-020-00749-7</idno>
+					<note type="submission">Received: 21 April 2020; Accepted: 20 November 2020;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T18:04+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Three mechanisms determine PL decay: first-order (trap-assisted nonradiative); second-order (radiative); and third-order (Auger) recombination, and their contributions depend on the intensity of the excitation laser fluence <ref type="bibr">6</ref> . To elucidate the recombination pathways of a halide perovskite over a range of excitation fluence, the carrier kinetics can be illustrated by the rate equation (S1).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(S1)</head><p>where n is the photoexcited carrier density, k1 is the first-order recombination constant, k2 is the second-order recombination constant, and k3 is the third-order recombination constant.</p><p>The TRPL decay curves are derived from an average of TRPL mapping data in an area of 80 μm 80 μm, which are presented for the control, SIG60 (10 min), and SIG60 (2 min) films in Fig. <ref type="figure" target="#fig_4">2c-e</ref>. The TRPL mapping measurements were performed under 470 nm pulsed laser excitation with a high fluence of 32.7 μJ/cm 2 (photon fluence: 7.74 10 13 photon/cm 2 ) and a repetition rate of 0.5 MHz in an effective confocal area of 6.11 10 -9 cm 2 . At our fluence level of 32.7 μJ/cm 2 , the PL decay curves in Fig. <ref type="figure" target="#fig_4">2b</ref> contain other components as well as trapassisted nonradiative recombination. In this high fluence case, the PL tail decay interpretation is the most appropriate tool for identifying the first-order recombination lifetime <ref type="bibr">7,</ref><ref type="bibr">8</ref> . The firstorder recombination lifetime can be extracted by fitting the exponential decay within the PL tail region.</p><p>The photoexcited carrier density (n0) was calculated to be 1. <ref type="bibr">27 10 18</ref> photon/cm 3 by the product of the photon fluence and absorption coefficient. At this level of the photoexcited carrier density, the contribution of third-order recombination should be considered <ref type="bibr">6</ref> . However, the third-order recombination constant under this carrier density is still very small (k3 &lt;&lt; 10 -30 cm 6 /s) <ref type="bibr">9</ref> and is only narrowly observed in the initial stage. Thus, we neglected the third-order mechanism in our PL decay analysis.</p><p>To extract the first-order and second-order recombination constants, we assumed that the PL decay signal is proportional to the photoexcited carrier density as functions of time (</p><p>). The PL decay can be fitted by the below equation (S2) <ref type="bibr">10</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(S2)</head><p>As described above, the initial time decay (blue solid line), which was ascribed to third-order recombination and observed in all samples, was excluded, and the reliability of the fitting was confirmed through the reduced-Chi square. In Eq. (S2), the first-order lifetime corresponds to the PL tail decay lifetime <ref type="bibr">11</ref> . The parameters acquired for the control and SIG films are summarized in Supplementary Table <ref type="table">3</ref>.</p><p>As shown in Supplementary Table <ref type="table">3</ref>, the second-order recombination constant of all SIG films is clearly reduced compared to the control film. The reduction of the recombination constant is likely caused by the smooth surface of the SIG films <ref type="bibr" target="#b22">12</ref> or the built-in potential at the 2D/3D heterojunction <ref type="bibr">11</ref> . Supplementary Figure <ref type="figure">7</ref>. SIG method effect related to the trap-assisted lifetime in TRPL.</p><p>a-e, PL decay plots of the control film and SIG films. To identify the first-order recombination lifetime, mono-exponential fitting was used to fit the exponential decay within the PL tail region. Refer to Supplementary Note 1 for details.</p><p>Supplementary Table <ref type="table">3</ref>. Recombination constant fitted from the PL decay for the control and SIG process conditions. The SIG process shows improvement of first-order recombination ( = 1/k1). As a result, the carrier lifetime increases from 0.2 μs to approximately 1.1 μs. According to the formula in ref. <ref type="bibr" target="#b23">13</ref> , the carrier lifetime informs us about the achievable VOC if we know several factors, such as the bandgap (Eg ~1.55 eV), short-circuit current density (JSC ~24.80 mA/cm 2 ), active layer thickness (d ~560 nm), and effective density of states of electrons/holes in the conduction and valence bands (</p><p>(S3)</p><p>where is the Boltzmann constant, T is the Kelvin temperature, and ne and nh are the density of electrons and holes in the conduction and valance bands, respectively. Assuming that the carrier generation rate (G ~JSC /ed) is only decreased by the first-order recombination and that the concentrations of electrons and holes are the same, the densities of electrons and holes are approximated by the following equation (S4).</p><p>(S4) Thus, VOC is estimated to 1.16 V by using Eq. (S3) and Eq. (S4) with the 1.1 μs of firstorder recombination lifetime obtained from TRPL of SIG perovskite layers (Supplementary Fig. <ref type="figure">7</ref> and Supplementary Table <ref type="table">3</ref>).</p><p>The estimated VOC is much smaller than the theoretical VOC limit (1.278 V) of the photovoltaic device with a bandgap of 1.55 eV because the 1.1 μs is not enough <ref type="bibr" target="#b25">15</ref> . Nevertheless, it is interesting to show higher VOC (1.185 V) in the SIG60 device than the estimated VOC of 1.16 V. In particular, the increase in VOC from 1.117 V to 1.185 V with increasing 2D thickness in spite of a similar recombination lifetime of 1.1 μs level for SIG30, SIG45, and SIG60</p><p>perovskite layers in Supplementary Table <ref type="table">3</ref> means that not only the recombination lifetime but also other factor related to the thickness of the 2D layer was involved in VOC of SIG devices.</p><p>According to the Anderson model, the heterojunction between narrow-gap and widegap materials is classified by each semiconducting character into the following four cases  and narrow-bandgap semiconductor (grey), respectively <ref type="bibr" target="#b26">16</ref> . The width ( ) of the depletion region is larger than the accumulation layer width ( ), and the built-in potential obtained by the heterojunction is mainly dominated by the built-in potential ( ) of the wide-bandgap semiconductor <ref type="bibr" target="#b26">16,</ref><ref type="bibr" target="#b27">17</ref> , as shown in Supplementary Fig. <ref type="figure" target="#fig_3">10b</ref>. Therefore, the built-in potential formed by the p-p isotype heterojunction is as follows.</p><p>(S5)</p><p>where is the relative dielectric constant of the wide-bandgap semiconductor and is the carrier concentration of the wide-bandgap semiconductor.</p><p>For the calculation, and N2D are needed in Eq. (S5). The N2D of (BA)2PbI4 is not yet clear, while the of (BA)2PbI4 was reported to be 9.5 from previous research <ref type="bibr" target="#b28">18</ref> .</p><p>Therefore, we estimated N2D to be approximately 10 15 ~10 16 cm -3 based on the reported conductivity of polycrystalline (BA)2PbI4 and the mobility of single crystalline (BA)2PbI4 <ref type="bibr" target="#b29">19,</ref><ref type="bibr" target="#b30">20</ref> .</p><p>According to Eq. (S5), the thickness of (BA)2PbI4 should be 108 ~304 nm to form the Vbi as much as the work function difference (~0.11 eV) between 3D and (BA)2PbI4 in the p-p heterojunction considering of N2D range (10 15 ~10 16 cm -3 ). Thus, in the study where the maximum thickness of (BA)2PbI4 is less than 100 nm, the formed built-in potential at theisotype heterojunction between the 3D material and (BA)2PbI4 can be estimated using Eq. (S5) by replacing with the thickness of the (BA)2PbI4 layer. The calculated results for different carrier concentrations (N2D) of the (BA)2PbI4 layer are presented in Supplementary Fig. <ref type="figure" target="#fig_3">11</ref>. According to the above steps, we divided the MS plot measurement into four stages to obtain proper information about the newly formed built-in potential at the 2D/3D junction for full cell devices (FTO/SnO2/3D:(SIG-2D)/Spiro-OMeTAD/Au).</p><p>Step 1) Identification within the capacitance spectra of the frequency range.</p><p>To identify the dielectric polarization region (the plateau region of the capacitance spectra) containing the additional contribution of the depletion layer capacitance Cdl, the capacitance was measured as a function of frequency from 10 1 Hz to 10 6 Hz for the control device, as shown in Supplementary Fig. <ref type="figure" target="#fig_3">17a</ref>. With several electric biases applied, we found that the section below approximately 5 kHz is the electrode polarization region where the capacitance exponentially grows <ref type="bibr" target="#b33">23</ref> . In contrast, the trend of the capacitance with frequency changes into a plateau for a frequency above 5 kHz, which means that the capacitive mechanisms much more strongly depend on the dielectric polarization. From the capacitance spectra, we can identify two regions of electrode polarization and dielectric polarization for our PSCs.</p><p>Step 2) Selection of a proper measuring frequency within the central plateau of the capacitance spectra In Supplementary Fig. <ref type="figure" target="#fig_3">17a</ref>, we can select the proper frequency region from 5×10 3 Hz to 10 6 Hz for the dielectric polarization region to measure the built-in potential of PSCs, which is affected by the depletion layer <ref type="bibr" target="#b32">22</ref> . However, not all frequencies allow for the contribution of the depletion layer capacitance Cdl to appear in the MS plot. Therefore, we selected a proper measuring frequency in the next step.</p><p>Step 3) Identification of the voltage region dominated by the depletion layer capacitance Cdl</p><p>To confirm the contribution of the depletion layer capacitance Cdl, capacitance-voltage measurements were carried out in the dielectric polarization region. All measurements were performed in the forward direction at 2 mV/s. We determined that the contribution of Cdl clearly appears in the MS plot at 10 kHz in Supplementary Fig. <ref type="figure" target="#fig_3">17b</ref>, while the contribution of Cdl is not presented at 100 kHz in Supplementary Fig. <ref type="figure" target="#fig_3">17c</ref>. Because three voltage regions should be differentiated for correct MS analysis, as shown in Supplementary Fig. <ref type="figure" target="#fig_3">17b</ref>, we can select the proper frequency of 10 kHz.</p><p>Step 4) Verification of the sensitivity of MS analysis to the scan direction and rate.</p><p>Finally, to verify the measurement conditions of the scan direction and rate for the obtained MS plot, we investigated the behaviour of the MS plot with varying scan direction and rate at the fixed frequency of 10 kHz. Supplementary Fig. <ref type="figure" target="#fig_3">17d</ref> shows MS plots obtained under different scan directions and rates at 10 kHz. The slow scan rate (2 mV/s) shows negligible hysteresis, while the fast scan rate (12 mV/s) shows apparent hysteresis in the MS plot. Therefore, we confirmed that the measurement conditions of the scan direction (forward), scan rate (2 mV/s), and frequency (10 kHz) are proper for analysing the MS plot for our PSCs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mott-Schottky plots for control and SIG devices</head><p>Reliable MS plots were obtained for control and SIG devices under the selected measurement conditions (2 mV/s, forward scan, and 10 kHz) through the above steps. The MS plots are presented in Supplementary Fig. <ref type="figure" target="#fig_3">18</ref>. All MS plots clearly show the region of Cdl.</p><p>Therefore, we can obtain the built-in potentials (Vbi) for all devices by the linear fitting derived from Eq. (S6).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(S6)</head><p>where q is the elementary charge, ε0 is the vacuum permittivity, ε is the relative dielectric constant of the perovskite material, N is the carrier density, and Vbi is the built-in potential. The obtained Vbi values along with VOC values for devices are summarized in Supplementary Table <ref type="table">5</ref>.</p><p>Supplementary Figure <ref type="figure" target="#fig_3">18</ref>. Mott-Schottky plot of control and SIG devices. The MS plot measurement conditions were determined to be a 10 kHz frequency, a forward scan direction, and a 2 mV/s scan rate based on Supplementary Fig. <ref type="figure" target="#fig_3">17</ref>. To extract the built-in potential from each MS plot, a linear function was fitted using a derivative of C -2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Table 5. Change in the built-in potential and open-circuit voltage in SIG</head><p>devices.</p><p>The measured built-in potential (Vbi) was obtained from the MS plots in Supplementary Fig. <ref type="figure" target="#fig_3">18</ref>. The open-circuit voltage (VOC) was obtained from photovoltaic parameters in Supplementary Table <ref type="table">4</ref>. Calculated built-in potential (Vbi) was obtained using Eq.</p><p>(S5) in Supplementary Fig. <ref type="figure" target="#fig_3">10</ref>.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Solar Cells Reporting Summary</head><p>Nature Research wishes to improve the reproducibility of the work that we publish. This form is intended for publication with all accepted papers reporting the characterization of photovoltaic devices and provides structure for consistency and transparency in reporting. Some list items might not apply to an individual manuscript, but all fields must be completed for clarity.</p><p>For further information on Nature Research policies, including our data availability policy, see Authors &amp; Referees.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental design</head><p>Please check: are the following details reported in the manuscript?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Dimensions</head><p>Area of the tested solar cells</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>We used a mask with 0.094 cm^2 (circle type) for measuring photovoltaic performance. The area values can be found in the method section</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method used to determine the device area Yes No</head><p>The area of our masks was determined by observing optical microscope and certified at Newport corporation.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Current-voltage characterization</head><p>Current density-voltage (J-V) plots in both forward and backward direction</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The J-V plots measured along both scan direction is shown in Figure <ref type="figure" target="#fig_8">4a</ref>, Supplementary Fig. <ref type="figure" target="#fig_0">20</ref>, and Supplementary Fig. <ref type="figure" target="#fig_1">21</ref>.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Voltage scan conditions</head><p>For instance: scan direction, speed, dwell times</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>For unit cell, bias between -0.2 V and 1.2 V was applied for measurement of J-V curves along forward and backward (we used terminology as 'reverse') scan direction.</p><p>The step voltage and scan speed were fixed at 10 mV and 100 mV/s, respectively.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Test environment</head><p>For instance: characterization temperature, in air or in glove box</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>Our devices were characterized at room temperature (ca. 25 Celsius degree) in air.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Protocol for preconditioning of the device before its characterization</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>To prevent reflection of incident light, anti-reflection flim was attached on glass side in the case of measurement of unit cells.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stability of the J-V characteristic</head><p>Verified with time evolution of the maximum power point or with the photocurrent at maximum power point; see ref. 7 for details.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>Stability of efficiency at maximum power point can be found in Supplementary Figure <ref type="figure" target="#fig_4">12</ref>.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Hysteresis or any other unusual behaviour</head><p>Description of the unusual behaviour observed during the characterization</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>No J-V hysteresis of SIG device was observed and the related comments were mentioned in manuscript.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Related experimental data Yes</head><p>No Above values could be verified from Figure <ref type="figure" target="#fig_8">4a</ref>.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Efficiency</head><p>External quantum efficiency (EQE) or incident photons to current efficiency (IPCE)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>The EQE spectrum can be found in Supplementary Figure <ref type="figure" target="#fig_6">13</ref> and Figure <ref type="figure" target="#fig_8">14</ref>.</p><p>Explain why this information is not reported/not relevant.</p><p>A comparison between the integrated response under the standard reference spectrum and the response measure under the simulator</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>The comparison is represented in Figure4a and Supplementary Figure <ref type="figure" target="#fig_8">14</ref>.</p><p>Explain why this information is not reported/not relevant.</p><p>For tandem solar cells, the bias illumination and bias voltage used for each subcell</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>State where this information can be found in the text.</p><p>Our devices were only fabricated for single-junction solar cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>nature research | solar cells reporting summary</head><p>November 2017 2</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Calibration</head><p>Light source and reference cell or sensor used for the characterization</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>We measured using a solar simulator (Newport, Oriel Class A, 94043A) with a sourcemeter (Keithley 2420) of 100 mA/cm^2 under illumination at AM 1.5G and Sireference cell.</p><p>Explain why this information is not reported/not relevant.</p><p>Confirmation that the reference cell was calibrated and certified</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>We used a calibrated Si-reference cell certificated by NREL.</p><p>Explain why this information is not reported/not relevant.</p><p>Calculation of spectral mismatch between the reference cell and the devices under test</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The spectral mismatch factor was determined by PV Lab of Technology and Application Center in Newport Corporation and we applied the value in our laboratory.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Mask/aperture</head><p>Size of the mask/aperture used during testing Yes</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>We used a mask with 0.094 cm^2 (circle type) for measuring photovoltaic performance. The area values can be found in the method section</p><p>Explain why this information is not reported/not relevant.</p><p>Variation of the measured short-circuit current density with the mask/aperture area</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>State where this information can be found in the text.</p><p>The Jsc value for our device was confirmed through the Newport Corporation measurement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Performance certification</head><p>Identity of the independent certification laboratory that confirmed the photovoltaic performance</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>Our devices were certified at PV Lab of Technology and Application Center in Newport Corporation.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A copy of any certificate(s)</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Provide in Supplementary Information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head><p>No A copy of certificates can be found in Supplementary Figure <ref type="figure" target="#fig_6">13</ref>.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Statistics Number of solar cells tested Yes No</head><p>For statistical analysis of efficiencies, 28 devices were tested.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis of the device performance Yes No</head><p>The statistical data was represented in Supplementary Figure <ref type="figure" target="#fig_3">16</ref>.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9.">Long-term stability analysis Type of analysis, bias conditions and environmental conditions</head><p>For instance: illumination type, temperature, atmosphere humidity, encapsulation method, preconditioning temperature</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>For humidity test, unencapsulated devices had been kept in a chamber of 85% relatively humidity and 25 Celsius degree under dark. And photovoltaic performances of the devices were measured in air. The data can be found in Figure <ref type="figure" target="#fig_8">4c</ref>. Thermal stability test had been performed at 85 Celsius degree and ca. 85% relatively humidity in dark. The data can be found in Figure <ref type="figure" target="#fig_8">4d</ref>. For long term stability test in Supplementary Figure <ref type="figure" target="#fig_6">23</ref>, encapsulated device was exposured under AM 1.5G simulated with white LED.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>nature research | solar cells reporting summary</head><p>November 2017</p><p>Cell Efficiency (%)  Global Frontier Center for Multiscale Energy Systems, Seoul National University, Seoul, Republic of Korea. <ref type="bibr">2</ref> Department of Mechanical and Aerospace Engineering, Seoul National University, Seoul, Republic of Korea. <ref type="bibr">3</ref> School of Civil, Environmental and Architectural Engineering, Korea University, Seoul, Republic of Korea. <ref type="bibr">4</ref> KU-KIST Green School Graduate School of Energy and Environment, Korea University, Seoul, Republic of Korea. <ref type="bibr">5</ref> These authors contributed equally: Yeoun-Woo Jang, Seungmin Lee. ✉ e-mail: mchoi@snu.ac.kr; junhnoh@korea.ac.kr P erovskite solar cells (PSCs) have emerged as a strong candidate for future photovoltaic technology owing to their remarkable power conversion efficiency (PCE), which exceeds 25%, and easy fabrication at low temperatures 1,2 . However, achieving higher performance with long-term stability for commercial use is still a challenge. The strategy of forming Ruddlesden-Popper 2D perovskite layers on the surface of a 3D light-absorbing perovskite layer has recently drawn attention <ref type="bibr">[3]</ref><ref type="bibr">[4]</ref><ref type="bibr">[5]</ref><ref type="bibr">[6]</ref><ref type="bibr">[7]</ref> . This strategy has the advantages of reducing surface defects by surface passivation <ref type="bibr">3,</ref><ref type="bibr">4</ref> and forming 2D/3D <ref type="bibr">[5]</ref><ref type="bibr">[6]</ref><ref type="bibr">[7]</ref> . the formation of unidentified phases and an unintended quasi-2D phase hinders the design of an adequate electric field distribution at the junction <ref type="bibr">8,</ref><ref type="bibr">9</ref> . The 2D/3D junction should be carefully designed on the basis of photoelectrical properties such as the bandgap and work function <ref type="bibr">10</ref> . It is also necessary to develop fabrication processes that can ensure an effective and stable junction, considering the competitive long-term stability and production cost of solar cell devices <ref type="bibr">11,</ref><ref type="bibr" target="#b22">12</ref> .</p><formula xml:id="formula_1">(3-J) Sharp (3-J) Sharp (3-J) NREL Spectrolab (3-J) 39.5% NREL (6-J) Boeing- Spectrolab (5-J) NREL/ Spectrolab (3-J) Spectrolab (3-J) Spectrolab (3-J) Boeing- Spectrolab (3-J) Boeing- Spectrolab (3-J) Boeing- Spectrolab (3-J) Boeing-Spectrolab (3-J, 240x) Boeing-Spectrolab (3-J,179x) NREL (3-J) NREL (3-J) NREL (3-J, 325.7x) FhG-ISE (3-J, 454x) SpireSemicon (3-J, 406x) SolarJunc (3-J, 418x) SolarJunc (3-J, 942x) Sharp (3-J, 302x) Spectrolab (3-J, 299x) Boeing- Spectrolab (3-J, 364x)</formula><p>The general chemical formula of Ruddlesden-Popper 2D and 3D metal iodide perovskites is (A*) 2 A n-1 Pb n I 3n+1 and APbI 3 , respectively, where A* is a large organic cation with a long carbon chain and A is a small organic cation such as CH 3 NH 3 + or HC(NH 2 ) 2 + (refs. <ref type="bibr" target="#b23">13,</ref><ref type="bibr" target="#b24">14</ref> ). The symbol n indicates the number of [PbI 6 ] 4 -octahedral monolayers between the organic spacer A* layers and hereby the phase can be classified into three cases: a 2D perovskite (n = 1, (A*) 2 PbI 4 ); a quasi-2D perovskite (1 &lt; n &lt; ∞, (A*) 2 A n-1 Pb n I 3n+1 ); and a 3D perovskite (n = ∞, APbI 3 ) <ref type="bibr" target="#b25">15</ref> . The 2D phase with n = 1 is known to be the most stable as the organic spacers are repeated most often <ref type="bibr" target="#b26">16</ref> . There have been many attempts to fabricate PSCs with high PCE and stability using 2D perovskites, including mixing a 2D precursor with a 3D precursor solution <ref type="bibr" target="#b27">[17]</ref><ref type="bibr" target="#b28">[18]</ref><ref type="bibr" target="#b29">[19]</ref> or forming a 2D/3D bilayer via the reaction of a 2D precursor solution on the surface of a 3D layer <ref type="bibr">3,</ref><ref type="bibr">5,</ref><ref type="bibr">6</ref> . However, these solution processes thus far inevitably form an unintended quasi-2D phase that negatively affects the PCE and stability <ref type="bibr" target="#b26">16</ref> .</p><p>In this study we devised a solid-state in-plane growth (SIG) method for growing a 2D layer on a 3D layer by applying pressure and heat to ensure the intact properties of both layers in the complete device. Although pressure-assisted crystallizations of perovskite layers have also been reported before, they have been carried out in a system that includes a liquid-state precursor <ref type="bibr" target="#b30">[20]</ref><ref type="bibr" target="#b31">[21]</ref><ref type="bibr" target="#b32">[22]</ref> . The SIG process successfully avoids the formation of unintended phases and can adjust the thickness of the 2D layer. The controllability of the thickness of the intact 2D layer facilitates device optimization for increasing the built-in potential at the junction. The stable 2D layer entirely formed on a 3D surface can maximize the stability enhancement effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SIG process</head><p>Figure <ref type="figure" target="#fig_3">1a</ref> shows a schematic of the procedure of the SIG process. A solid-state 2D film is stacked on top of a 3D film so that their surfaces are in contact. Heat and pressure are then applied perpendicular to the joint surface to induce a supply of the 2D perovskite from the stacked solid 2D precursor film to the top of the 3D film. Two-dimensional seeds are formed at the initial stage and gradually grow on the 3D film in the in-plane direction, becoming a new 2D film. After a specific process time passes, the original 2D solid precursor is detached and then an intact 2D/3D bilayer is finally formed. The characteristics of the SIG are compared the solution process in Supplementary Table <ref type="table">1</ref>.</p><p>For the SIG process, 2D (BA) 2 PbI 4 and 3D (FAPbI 3 ) 0.95 (MAP bBr 3 ) 0.05 (where FA is formamidinium and MA is methylammonium) films were prepared on substrates. All of the SIG processes were performed at 60 MPa, except for the experiment examining the influence of pressure. The temperature condition is marked after SIG (for example, SIG30 denotes the SIG process at 30 °C and 60 MPa). Figure <ref type="figure" target="#fig_3">1b</ref>-f displays scanning electron microscopy (SEM) plan-view images of the SIG60-processed films as a</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intact 2D/3D halide junction perovskite solar cells via solid-phase in-plane growth</head><p>Yeoun-Woo Jang 1,2,5 , Seungmin Lee 3,5 , Kyung Mun Yeom 3 , Kiwan Jeong 1 , Kwang Choi 3 , Mansoo Choi 1,2 ✉ and Jun Hong Noh 3,4 ✉</p><p>The solution process has been employed to obtain Ruddlesden-Popper two-dimensional/three-dimensional (2D/3D) halide perovskite bilayers in perovskite solar cells for improving the efficiency and chemical stability; however, the solution process has limitations in achieving thermal stability and designing a proper local electric field for efficient carrier collection due to the formation of a metastable quasi-2D perovskite. Here we grow a stable and highly crystalline 2D (C 4 H 9 NH 3 ) 2 PbI 4 film on top of a 3D film using a solvent-free solid-phase in-plane growth, which could result in an intact 2D/3D heterojunction. An enhanced built-in potential is achieved at the 2D/3D heterojunction with a thick 2D film, resulting in high photovoltage in the device. The intact 2D/3D heterojunction endow the devices with an open-circuit voltage of 1.185 V and a certified steady-state efficiency of 24.35%. The encapsulated device retained 94% of its initial efficiency after 1,056 h under the damp heat test (85 °C/85% relative humidity) and 98% after 1,620 h under full-sun illumination.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head><p>Nature eNergy function of the processing time. The SEM image of a SIG60 2 min case (Fig. <ref type="figure" target="#fig_3">1c</ref>) provides a glimpse of the initial state, with tiny seed-like products appearing on the 3D surface. The seeds subsequently became enlarged and gradually filled the 3D surface (Fig. <ref type="figure" target="#fig_3">1c-e</ref>). The substance completely covered the 3D surface after 10 min (Fig. <ref type="figure" target="#fig_3">1f</ref>). The X-ray diffraction (XRD) results for the same SIG films in Supplementary Fig. <ref type="figure" target="#fig_3">1</ref> support that the planar material observed in the SEM images is (BA) 2 PbI 4 . Only one new peak appears at 6.4° from 2 min to 10 min, which gradually grows over time. This peak corresponds to the (002) plane of (BA) 2 PbI 4 (ref. <ref type="bibr" target="#b33">23</ref> ) and corresponds with the peak of the original precursor 2D film, revealing that the new 2D film is sourced from the original solid precursor 2D film. Moreover, in Supplementary Fig. <ref type="figure" target="#fig_4">2</ref>, the cross-sectional high-resolution transmission electron microscopy (HRTEM) image for the SIG60 10 min film also shows that a crystalline 2D film is successfully formed on top of the 3D film without interfacial interaction.</p><p>As seed formation and growth are generally governed by thermodynamic and kinetic factors, we monitored variations in the (BA) 2 PbI 4 film formation on the 3D layer with processing pressure, </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head><p>Nature eNergy temperature and time to understand the SIG procedure. The pressure aided intimate contact between the two films and allowed the formation of the initial seeds, which moved from the original 2D film. We observed no occurrence of 2D perovskite accretion on the 3D surface in the absence of pressure (Supplementary Fig. <ref type="figure" target="#fig_6">3</ref>). The pressure also promotes the in-plane growth of the 2D layer. Figure <ref type="figure" target="#fig_3">1g</ref>-i shows plan-view SEM images for the SIG60 films after 10 min under different pressures. The 2D crystal was still in the process of formation at 20 MPa, whereas it was almost wholly planarized at 60 MPa. The temperature also strongly influences crystal formation and growth. Figure <ref type="figure" target="#fig_3">1j</ref> shows the thicknesses of the 2D films for SIG30 and SIG60 over time. It is notable that thickness increment in the out-of-plane direction hardly occurs over time, even when the processing time is extended to 720 min. This suggests that the seeds grow in the in-plane direction while the height of the initial seeds is maintained over time, probably due to 2D material characteristics. Comparing SIG30 and SIG60, the processing temperature determines the final thickness of the SIG-2D film as the initial height of the seeds is highly dependent on the temperature and their growth has a strong preference for the in-plane direction. As a result, a thicker 2D layer was created at a higher temperature, as shown in Supplementary Fig. <ref type="figure" target="#fig_8">4</ref>.</p><p>According to classical nucleation theory, the nucleation and growth of a crystal from the initial precursors can be explained by the differences in the Gibbs free energy due to the volume and surface area changes of the newly formed crystal <ref type="bibr" target="#b34">24</ref> . In the SIG process, however, a new crystal is not created as a 2D crystal already exists in the stacked original 2D precursor film. We therefore surmise that there would be no free energy changes caused by volume changes, but a surface area change can still occur when the original crystals surrounded by the 2D precursor film change into 2D seeds on the 3D surface. The newly formed surface area of seeds is determined by the balance between the increased free energy and the supplied thermal energy. As a result, the temperature can determine the initial seed height and final thickness of the SIG-2D film (Fig. <ref type="figure" target="#fig_3">1h</ref> and Supplementary Fig. <ref type="figure" target="#fig_8">4</ref>). We also observed that the seeds did not manage to grow into a 2D film at 20 °C, whereas at 30 °C they succeeded (Supplementary Fig. <ref type="figure">5</ref>), indicating that sufficient thermal energy is required for the in-plane growth. The anisotropic surface energy of the 2D materials also probably affects the in-plane growth without a thickness increase <ref type="bibr" target="#b35">25</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Formation of an intact 2D/3D multilayer</head><p>Figure <ref type="figure" target="#fig_4">2a</ref> displays the XRD results for the control 3D film, the original 2D (BA) 2 PbI 4 film and the SIG-2D/3D bilayer films formed at different temperatures. All of the SIG films show the (002) peak typical of (BA) 2 PbI 4 (at approximately 6.4°) without other peaks for an unknown or quasi-2D phase. The (002) peak grows with the increase in the 2D film thickness, which is determined by the processing temperature. The original 2D film has a very narrow full-width at half-maximum (FWHM) of 0.105° for the (002) peak, and the SIG-2D films on top of the 3D surfaces also show a small value of ~0.167°, including an estimated instrumental broadening of 0.061° at 6.4° (2θ) (Supplementary Table <ref type="table">2</ref>). It is notable that the FWHM values for SIG-2D films are considerably smaller than the reported FWHM values of above 0.50° for the (002) peak of the 2D layers obtained by conventional solution processes <ref type="bibr">5,</ref><ref type="bibr" target="#b27">17,</ref><ref type="bibr" target="#b36">26,</ref><ref type="bibr" target="#b37">27</ref> . The SIG process enabled the formation of a several-tens-of-nanometres-thick upper layer containing a highly crystalline pure 2D phase on top of a 3D layer. The absence of secondary phases and a clear 2D/3D interface in the HRTEM image (Supplementary Fig. <ref type="figure" target="#fig_4">2</ref>) reveal that the SIG process can produce an intact 2D/3D multilayer. We also showed that the SIG process could be valid for pure FAPbI 3 and MAPbI 3 perovskites, thus showing its wide applicability (Supplementary Fig. <ref type="figure">6</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>reduction of surface recombination via SIG</head><p>Figure <ref type="figure" target="#fig_4">2b</ref> shows the time-resolved photoluminescence (TRPL) decay curves of the control 3D and SIG films. The first-order decay related to trap-assisted non-radiative recombination can be identified by fitting the exponential decay within the photoluminescent tail region <ref type="bibr" target="#b38">28,</ref><ref type="bibr" target="#b39">29</ref> . The detail fitting process and results are presented in Supplementary Note 1 and Supplementary Fig. <ref type="figure">7</ref>, respectively. The obtained recombination constants and lifetimes are summarized in Supplementary Table <ref type="table">3</ref>. The SIG process enhances the lifetime of the first-order recombination up to approximately 1.1 μs (from the 0.2 μs control) regardless of the processing temperature. This means that the SIG process reduces trap-assisted non-radiative recombination and that the processing temperature does not influence the carrier lifetime. The reduction of surface defects seems to be independent of the SIG-2D film thickness as the contact area between the 2D and 3D materials is constant.</p><p>The change in the average carrier lifetime with processing time is also represented by lifetime mapping in Fig. <ref type="figure" target="#fig_4">2c-e</ref>. The blue region with a short lifetime gradually transitions to a green region with a longer lifetime. The partial green region indicates the area that was partially covered by the 2D seeds after 2 min; after 10 min the 2D film had covered all of the area via in-plane growth. The TRPL results reveal that the 2D film successfully passivated the surface of the 3D film via the SIG process. Details on the device performance will be discussed later, but the point to note in the TRPL results is that the improved lifetime of 1.1 μs is insufficient to achieve a high open-circuit voltage (V OC ≈ 1.185 V) for the SIG devices in this study according to a previous study on V OC (ref. <ref type="bibr" target="#b40">30</ref> ; Supplementary Note 2). Furthermore, the fact that V OC increases as the SIG-2D thickness increases (despite the similar lifetimes of 1.1 μs) has us consider the contributions from other factors to the improvement of V OC .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Design of the local electric field at the 2D/3D junction</head><p>In addition to surface passivation, the electric field generated by the intact 2D/3D junction can improve the performance of PSCs. The electric field can be designed by controlling the semiconducting properties and thickness of the 2D layer; however, the existing solution process has difficulty forming a clear 2D/3D junction for shaping the optimal electric field <ref type="bibr">7</ref> . This is because the solution process is based on the reaction between the 2D precursor (A*I) dissolved in a solvent and the 3D (APbI 3 ) upper part. The reaction has the problem of producing quasi-2D phases (A*) 2 A n-1 Pb n I 3n+1 (1 &lt; n &lt; ∞) <ref type="bibr">8,</ref><ref type="bibr" target="#b41">31</ref> and not producing a pure 2D (A*) 2 PbI 4 phase, as the PbI 2 required for reaction with (A*I) must be supplied by the 3D layer, leaving (AI) according to equation (1).</p><p>Existing solution process:</p><formula xml:id="formula_2">2 A * I À Á þ n APbI 3 ð Þ ! A * À Á 2 A n�1 Pb n I 3nþ1 ð1 ≤ n&lt;1Þ þ AI ð Þ<label>ð1Þ</label></formula><p>SIG process:</p><formula xml:id="formula_3">A * À Á 2 PbI 4 þ APbI 3 ð Þ ! A * À Á 2 PbI 4 = APbI 3 ð Þ<label>ð2Þ</label></formula><p>On the other hand, the SIG process produces a definite and highly crystalline 2D (n = 1) perovskite on the 3D perovskite without any reaction with the 3D surface according to equation (2), which is also confirmed by the above-mentioned XRD and HRTEM studies. The SIG process can not only form an intact 2D/3D junction, but also control the thickness of the 2D layer through the processing temperature or an iteration process; the electric field thus becomes designable.</p><p>We conducted the SIG and solution processes twice (iteration process) to assess the potential for electric field design by ensuring an adequate 2D thickness. Figure <ref type="figure" target="#fig_6">3a-c</ref> shows the Articles Nature eNergy grazing-incidence wide-angle X-ray scattering (GIWAXS) images of the control 3D film, the solution-processed (twice) 2D/3D film, and the SIG60-processed (twice) 2D/3D film. As expected, the solution-processed film shows broad peaks, indicating the generation of a quasi-2D with an undefined phase (Fig. <ref type="figure" target="#fig_6">3b</ref>). By contrast, our SIG-processed film consistently shows only one sharp peak that corresponds to pure (BA) 2 PbI 4 (Fig. <ref type="figure" target="#fig_6">3c</ref>). This implies that the target 2D material can be grown on the 3D surface in any desired thickness using repetition of the SIG process. We also observed a uniform and intact 2D/3D bilayer over the entire surface of the SIG film from a slightly tilted cross-sectional SEM image (Fig. <ref type="figure" target="#fig_6">3d</ref>).</p><p>The electric field distribution at the intact 2D/3D junction is determined by the semiconducting properties (such as the carrier concentration and work function) of the 2D and 3D films. Figure <ref type="figure" target="#fig_6">3e</ref> presents the position of each band and work function for 2D and 3D films that were estimated via ultraviolet photoelectron spectroscopy data and the Tauc plot from the ultraviolet-visible absorption spectrum (Supplementary Figs. <ref type="figure">8</ref> and<ref type="figure">9</ref>). Most FAPbI 3 -based perovskites have been reported to be p-type materials <ref type="bibr" target="#b42">32,</ref><ref type="bibr" target="#b43">33</ref> , and the 3D perovskite we used exhibited p-type properties in the previous report on Hall measurements <ref type="bibr">6,</ref><ref type="bibr" target="#b44">34</ref> . The ultraviolet photoelectron spectroscopy result also shows that the Fermi level (4.81 eV) of the used 3D perovskite is slightly lower than the midpoint between the CBM (conduction band minimum) of 4.01 eV and VBM (valence band maximum) of 5.56 eV. (BA) 2 PbI 4 has also been reported to be a p-type material according to finely controlled scanning Kelvin probe microscopy measurements <ref type="bibr" target="#b45">35</ref> . (BA) 2 PbI 4 has a wider bandgap of 2.38 eV and a higher work function of 4.92 eV than the corresponding values (1.55 eV and 4.81 eV, respectively) for (FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05 .</p><p>The 2D/3D junction can therefore be interpreted as a p-p isotype heterojunction and its band bending is represented in Fig. <ref type="figure" target="#fig_6">3f</ref> according to the explanation in Supplementary Fig. <ref type="figure" target="#fig_3">10</ref> and Supplementary Note 3. Formation of a p-p isotype heterojunction is a typical way of inducing a back-surface field at the junction between a wide-bandgap p-type field-induced layer and a narrow-bandgap p-type light-absorbing layer <ref type="bibr" target="#b46">36,</ref><ref type="bibr" target="#b47">37</ref> . In the 2D/3D heterojunction, (BA) 2 PbI 4 and (FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05 correspond to the wide-bandgap p-type field-induced material and narrow-bandgap p-type light-absorbing material, respectively. Here the junction must be designed such that sufficient thickness of the field-induced layer is ensured, as when the p-p heterojunction is </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head><p>Nature eNergy formed, the intrinsic hole movement from the field-induced layer to the light-absorbing layer must be sufficient to form a satisfactory back-surface field. The back-surface field can be represented by the built-in potential (V bi ) in the depletion region of the wide-bandgap p-type layer. When the wide-bandgap p-type layer is thin enough to be fully depleted, V bi is dependent on the thickness of the wide-bandgap p-type layer, as described in Supplementary Note 3. We estimated the 2D thickness for forming a sufficient depletion region and V bi using Supplementary equation ( <ref type="formula">5</ref>) for different carrier concentrations of the 2D layer, and the result is presented in Supplementary Fig. <ref type="figure" target="#fig_3">11</ref>. The depletion region depends on the carrier concentration of the 2D layer; however, an increase in the thickness of the 2D layer could augment the additional V bi by further ensuring the depletion region in the 2D layer. A thicker intact 2D layer was therefore expected to provide a higher photovoltaic performance for the PSCs obtained through the SIG process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Performance and stability of PSCs</head><p>Figure <ref type="figure" target="#fig_8">4a</ref> shows the current density-voltage (J-V) curves and a summary of the cell parameters, such as the short-circuit current density (J SC ), V OC and fill factor for both the control and SIG60 devices with a FTO/SnO 2 /perovskite/spiro-OMeTAD/ Au structure (where spiro-OmeTAD is 2,2ʹ,7,7ʹ-tetrakis(N,N-di-4-methoxyphenylamine)-9,9ʹ-spirobifluorene and FTO is fluorinedoped tin(iv) oxide). The SIG60 device shows considerably improved V OC compared with the control device, thus yielding an improvement in the PCE from 22.39% to 24.59%. It also shows negligible J-V hysteresis and a stabilized power output at the maximum power point (Fig. <ref type="figure" target="#fig_8">4a</ref> and Supplementary Fig. <ref type="figure" target="#fig_4">12</ref>) and a certified efficiency in terms of the J-V PCE (24.59%; J SC , 24.70 mA cm -2 ; V OC, 1.185 V; fill factor, 83.90%) and quasi-steady-state PCE (24.35%; J SC , 24.83 mA cm -2 ; V OC , 1.173 V; fill factor, 83.59%) without any encapsulation by Newport (Supplementary Fig. <ref type="figure" target="#fig_6">13</ref>). As the 2D perovskite layer thickness increased from 0 nm (control) to 40 nm (SIG30) and 80 nm (SIG60), the V OC increased from 1.098 V to 1.117 V and 1.185 V, and the PCE increased gradually (Supplementary Table <ref type="table">4</ref>).</p><p>The J SC values were similar-regardless of the thickness of the SIG-2D film-and were in accordance with the integrated J SC values from the external quantum efficiency spectra (Supplementary Fig. <ref type="figure" target="#fig_8">14</ref>). The fill-factor value slightly improved from 82.95% to 83.90% despite an increase in the series resistance from 5.39 to 6.60 Ω cm -2 (Supplementary Fig. <ref type="figure" target="#fig_3">15</ref>). This implies that the positive q xy (nm -1 ) q xy (nm -1 ) q xy (nm -1 ) 0 5 10 -10 -5    </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head><p>Nature eNergy the SIG-(BA) 2 PbI 4 layer could exhibit a thickness of several tens of nanometres while maintaining its inherent properties such that it enabled an improvement in the device performance. We also confirmed that the V bi provided by the SIG-2D layer worked well for other hole-transporting systems, such as poly(triarylamine) (PTAA) and poly(3-hexylthiophene) (P3HT) (Supplementary Table <ref type="table">6</ref>, and Supplementary Figs. <ref type="figure" target="#fig_4">20</ref> and<ref type="figure" target="#fig_1">21</ref>).</p><p>The SIG device was expected to enhance the resistance against the external environment. The reason is that organic spacers that prevent the penetration of moisture <ref type="bibr" target="#b49">39</ref> and suppress the leak of volatile cations and halides from 3D perovskite film are arranged in the surface direction <ref type="bibr" target="#b50">40</ref> , and the pure (n = 1) state has a superior heat resistance to the quasi-2D phases that are usually produced by the solution process. The reactivity with moisture for the control (FTO/SnO 2 /3D) and SIG-grown (FTO/SnO 2 /3D:SIG-2D) films was estimated by measuring the ultraviolet-visible absorbance before and after exposure to 85% relative humidity and room temperature. Supplementary Fig. <ref type="figure" target="#fig_4">22</ref> shows that the SIG film maintained its absorbance even after 1,000 h, in contrast to the control film. The humidity stability test of the device was also conducted by placing the fabricated devices with undoped P3HT as the HTL in a chamber at 85% relative humidity and room temperature (Fig. <ref type="figure" target="#fig_8">4c</ref>). Here, undoped P3HT was used to avoid the effect of hygroscopic additives in spiro-OMeTAD, and the initial device performance is shown in Supplementary Fig. <ref type="figure" target="#fig_0">20</ref>. The unencapsulated SIG device (FTO/ SnO 2 /3D:SIG-2D/P3HT/Au) showed only 2.7% (average) degradation compared with the initial PCE after 1,083 h, whereas the unencapsulated control device (FTO/SnO 2 /3D/P3HT/Au) showed 41.4% degradation only after 400 h. We also observed that the unencapsulated SIG device (FTO/SnO 2 /3D:SiG-2D/spiro-OMeTAD/Au) stored under an air atmosphere at room temperature in the dark maintained its initial PCE even after 7,000 h.</p><p>Figure <ref type="figure" target="#fig_8">4d</ref> presents the results from the damp heat test of the SIG device with encapsulation under 85 °C/85% relative humidity. PTAA was used for the damp heat test, and device performance is shown in Supplementary Fig. <ref type="figure" target="#fig_1">21</ref>. The most stable encapsulated SIG device (FTO/SnO 2 /3D:SIG-2D/PTAA/Au) maintained 95% (on average 93%) of its initial PCE of 21.34% after 1,056 h. The pure 2D phase grown by the SIG process enabled thermal stability that could not be otherwise achieved with the solution process <ref type="bibr" target="#b51">41</ref> . The encapsulated SIG device was tested near the maximum power point under full-sun illumination to explore its long-term operational stability at room temperature (Supplementary Fig. <ref type="figure" target="#fig_6">23</ref>). The SIG device maintained &gt;98% of its maximum efficiency (24.06%) for 1,620 h. The intact 2D/3D heterojunction leads to excellent operational stability.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>We have developed an SIG strategy that enables the formation of an intact 2D/3D halide junction showing remarkable performance enhancement of PSCs in terms of efficiency and stability. The SIG process allows thickness-controllable deposition of a highly crystalline 2D (BA) 2 PbI 4 (n = 1) layer on top of a 3D layer without any quasi-2D phases (n &gt; 1). The formed intact 2D/3D halide junction increases the carrier lifetime and enables the design of the local electric field distribution at the junction, yielding a significant improvement to V OC in PSCs. The PSCs with the intact 2D/3D junction show a remarkably improved PCE of 24.59% (a certified quasi-steady-state PCE of 24.35%). The intact 2D (n = 1) layer not only improves the humidity and thermal stability, but also allows excellent operational stability for PSCs under the 1 sun condition. We anticipate that the SIG strategy will open new avenues for designing halide-halide junctions to improve both the PCE and stability of PSCs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Materials. Lead iodide (PbI 2 ) and lead bromide (PbBr 2 ) were purchased from the Tokyo Chemical Industry. Methylammonium bromide (MABr), methylammonium chloride (MACl) and formamidinium iodide (FAI) were purchased from Dyesol. Lead(ii) oxide (PbO), butylamine (CH 3 (CH 2 ) 3 NH 2 ), hydriodic acid (HI, 57 wt% in H 2 O), hypophosphorous acid solution (H 3 PO 2 , 50 wt% in H 2 O), anhydrous dimethylformamide (DMF), anhydrous dimethylsulfoxide (DMSO), chlorobenzene and acetonitrile were purchased from Sigma-Aldrich. Spiro-OMeTAD was purchased from Lumtec, P3HT was purchased from 1-Material and PTAA was purchased from Mott-Schottky solution.</p><p>Synthesis of (BA) 2 PbI 4 crystal powder. A mixed solution of HI solution (16 ml) and H 3 PO 2 solution (2 ml) was prepared in a 200 ml glass volumetric flask. PbO powder (2,232 mg, 10 mmol) was dissolved by heating to boiling under stirring, and it formed a bright yellow solution; 993 μl (10 mmol) of butylamine was then added to this solution and stirring was discontinued. The temperature was lowered to 80 °C over 30 min. The solution was left at room temperature until orange crystals began to form. The crystals were isolated by suction filtration and thoroughly dried in a vacuum chamber.</p><p>(BA) 2 PbI 4 perovskite film fabrication. Tin-doped indium oxide (ITO)-coated glass substrates of 2.5 cm × 2.5 cm were cleaned with deionized water, acetone, ethanol and isopropyl alcohol for 15 min each. For better wetting of the 2D perovskite precursor solution, the substrates were treated with ultraviolet-ozone for 15 min; (BA) 2 PbI 4 precursor solution was then prepared by dissolving 0.172 g ml -1 (BA) 2 PbI 4 crystal powder in DMF/DMSO (8:1 v/v) mixed solvent. The precursor solution was then spin-coated on the substrate at 5,000 r.p.m. for 20 s; 1 ml of diethyl ether was quickly poured onto the substrate at 10 s. The yellow film was quickly transferred to a hot plate and heat-treated at 100 °C for 5 min.</p><p>3D perovskite film fabrication. FTO (Pilkington, TEC8) substrates of 2.5 cm × 2.5 cm were cleaned with deionized water, acetone, ethanol and isopropyl alcohol for 15 min each. The substrates were cleaned with ultraviolet-ozone for 15 min and a SnO 2 layer was subsequently grown as the electron transport layer according to a previous report <ref type="bibr" target="#b52">42</ref> . The substrates were then heat-treated at 150 °C for 1 h. For better wetting of the precursor solution of the 3D perovskite, the FTO/ SnO 2 substrates were treated with ultraviolet-ozone for a further 15 min. The 3D perovskite precursor solution was then prepared by mixing 0.869 g ml -1 FAPbI 3 , 0.035 g ml -1 MAPbBr 3 and 0.028 g ml <ref type="bibr">-1</ref> MACl in DMF/DMSO (8:1 v/v) mixed solvent. The precursor solution was then coated onto the FTO/SnO 2 substrates by two consecutive spin-coating steps at 1,000 r.p.m. and 5,000 r.p.m. for 5 s and 30 s, respectively; 1 ml of diethyl ether was quickly poured onto the substrate at 10 s after reaching 5,000 r.p.m. The yellow film was quickly transferred to a hot plate and heat-treated at 150 °C for 10 min. SIG process. A hot-press method was used to fabricate the 3D/SIG-2D film. The previously fabricated (BA) 2 PbI 4 thin film was placed on the 3D thin film and pressed at 60 MPa for 10 min at the desired temperature (30 °C, 45 °C or 60 °C). For the purpose of analysing the growth of the SIG-processed 2D film under different pressures, 3D/SIG-2D thin films was made by changing the pressure (20 MPa, 40 MPa or 60 MPa) at 60 °C.</p><p>Hole transport layer and counter electrode fabrication. Spiro-OMeTAD solution (1.1 mg ml -1 in chlorobenzene) with the addition of 23 μl of bis(trifluoromethanesulfonyl)imide (Li-TFSI) (540 mg ml -1 in acetonitrile), 10 μl of cobalt-TFSI (375 mg ml -1 in acetonitrile) and 39 µl of 4-tertbutylpyridine was spin-coated on the substrate coated with FTO/SnO 2 /3D/(SIG-2D) at 2,000 r.p.m. for 30 s. Undoped P3HT solution (10 mg ml -1 in the mixed solvent chlorobenzene:diphenyl ether = 97:3 v/v) was used for the humidity stability test, whereas PTAA solution (12 mg ml -1 in toluene) with the addition of 6 μl of Li-TFSI (340 mg ml -1 in acetonitrile) and 6 μl of 4-tertbutylpyridine was used for the damped heat test. Finally, a gold counter electrode was deposited by thermal evaporation; the active area of the counter electrode was fixed at 0.16 cm 2 .</p><p>Material and film characterization. X-ray diffraction spectra were measured using a Rigaku SmartLab X-ray diffractometer with an X-ray tube (copper Kα, λ = 1.54 Å, 200 mA, 45 kV, 9 kW). All of the XRD patterns were measured under a scan rate of 1° per min with a step of 0.02° at the National Center for Inter-university Research Facilities at Seoul National University. Plan-view and cross-sectional SEM images were obtained by using a field-emission scanning electron microscope (MERLIN, Carl Zeiss). A cross-section view near the 2D/3D heterojunction was observed using a transmission 200 kV field-emission electron microscope (JEOL, JEM-2100F). A TRPL study was performed using an inverted-type scanning confocal microscope (MicroTime-200, Picoquant) with a ×40 (air) objective. Lifetime measurements were performed at the Korea Basic Science Institute, Daegu Center. A single-mode pulsed diode laser (32.7 μJ cm -2 ; 470 nm with a pulse width of ~30 ps, a laser power of ~0.1 μW, a repetition rate of 0.5 MHz and an effective confocal area of 6.11 × 10 -9 cm 2 ; ref. <ref type="bibr" target="#b53">43</ref> ) was used as an excitation source. A dichroic mirror (490 DCXR, AHF), a 75 μm pinhole and a single-photon avalanche diode (PDM series, MPD) were used to collect emission from the samples. The time-correlated single-photon counting technique was used to count emission photons. Time-resolved photoluminescence images consisting</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>( 20 )</head><label>20</label><figDesc>Wang, K., Wu, C., Yang, D., Jiang, Y. &amp; Priya, S. Quasi-two-dimensional halide perovskite single crystal photodetector. ACS nano 12, 4919-4929 (2018).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>( 21 )1</head><label>21</label><figDesc>Mette, A. et al. Series resistance characterization of industrial silicon solar cells with screen-printed contacts using hotmelt paste. Progress in photovoltaics: research and applications 15, 493-505 (2007).(22) Almora, O., Aranda, C., Mas-Marzá, E. &amp; Garcia-Belmonte, G. On Mott-Schottky analysis interpretation of capacitance measurements in organometal perovskite solar cells. Applied Physics Letters 109, 173903 (2016).(23) Chen, B. et al. Impact of capacitive effect and ion migration on the hysteretic behavior of perovskite solar cells. The journal of physical chemistry letters 6, 4693-4700 (2015).nature research | solar cells reporting summary November 2017 Corresponding author(s): Mansoo Choi, Jun Hong Noh</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>terminal, monolithic) LM = lattice matched MM = metamorphic IMM = inverted, metamorphic Two-, three-, and four-junction (concentrator) Three-junction or more (non-concentrator) Two-junction (non-concentrator) Articles https://doi.org/10.1038/s41560-020-00749-7 1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 1 |</head><label>1</label><figDesc>Fig. 1 | SIG process and the effect of pressure, heat and processing time. a, Top-view and cross-sectional sketches of the manufacturing of a (BA) 2 PbI 4 film on a 3D perovskite substrate via the SIG method. The formation of crystal seeds and the in-plane grain growth are indicated with black dashed lines and black arrows, respectively, in the cross-sectional representation of the perovskite layer. b-i, Top surface SEM images of the 3D perovskite (b); the 2D/3D perovskite film fabricated under SIG60 conditions after 2 min (c), 5 min (d), 8 min (e) and 10 min (f) processing time; and SIG60-processed 2D/3D films after 10 min at 20 MPa (g), 40 MPa (h) and 60 MPa (i). j, The thickness distribution of the grown (BA) 2 PbI 4 accretion with processing time. Five samples were used in every case to measure the change in thickness over time under SIG30, whereas six samples were used for SIG60. Error bars show the lower and upper thicknesses of (BA) 2 PbI 4 at each condition. Scale bars in b-f and g-i represent 1 µm and 400 nm, respectively.</figDesc><graphic coords="47,60.99,414.42,235.68,96.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 2 |</head><label>2</label><figDesc>Fig. 2 | Properties of the 2D/3D films fabricated by the SIG method. a, X-ray diffraction patterns of the control film (3D perovskite only), 2D/3D films developed by the SIG process under different temperature conditions, and a pure 2D perovskite film (n = 1, (BA) 2 PbI 4 ). The orange shading indicates 6.4°. b, Time-resolved photoluminescence decay curves of the control and SIG-processed 2D/3D films after excitation at 800 nm and 0.5 MHz. c-e, Average lifetime mapping images of the 3D perovskite film and 2D/3D films (c) after 2 min (d) and 10 min (e) of processing under SIG60. The colour-scale bars indicate average carrier lifetime whereas the greyscale bars indicate event counts.</figDesc><graphic coords="49,54.05,274.54,474.24,154.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 3 |</head><label>3</label><figDesc>Fig. 3 | Intact 2D/3D heterojunction formation and its role. a-c, GIWAXS patterns of the 3D perovskite film (control) (a) and 2D/3D perovskites made by two cycles of the solution (b) and SIG (c) processes. q is the scattering vector. The colour-scale bars indicate intensity. d, A cross-sectional SEM image of the SIG-processed 2D/3D device. e, Estimated energy-level alignment between the 3D perovskite and (BA) 2 PbI 4 . ϕ 2D and ϕ 3D are the Fermi levels of the 2D and 3D perovskites, respectively, Δϕ is the Fermi level difference between the 2D and 3D perovskites, E vac is the vacuum level, and ΔVBM is a valence band maximum difference between 2D and 3D perovskites. f, Built-in potential change induced by 2D/3D heterojunction formation. The grey and red thick arrows indicate flow of photogenerated holes and photogenerated electrons, respectively, whereas the purple arrow indicates excitation of electron caused by light. The black narrow line represents the thickness change of the 2D perovskite and the orange narrow lines are the vacuum level change caused by it.</figDesc><graphic coords="50,66.49,230.39,258.26,179.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>F</head><label></label><figDesc></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 4 |</head><label>4</label><figDesc>Fig. 4 | Device performance and stability. a, A comparison of the photovoltaic performances of the control (FTO/SnO 2 /3D/spiro-OMeTAD/Au) and SIG60 (FTO/SnO 2 /3D:(SIG-2D)/spiro-OMeTAD/Au) devices. Solid lines and dashed lines indicate the reverse and forward scans, respectively. b, Mott-Schottky plots of the control and SIG60 devices (FTO/3D:(SIG-2D)/spiro-OMeTAD/Au) at 10 kHz. Built-in potentials for all devices were obtained by linear fitting derived from Supplementary equation (6). C, capacitance. c, Efficiency degradation tracking of the unencapsulated control and SIG60 devices under 85% relative humidity (RH) at 25 °C in a dark chamber. The inset in c shows the condition of the device after 1,083 h. The initial average efficiency of the four cells are all over 20%. d, The results of the 1,056 h thermal stability test of the SIG60 device with encapsulation under 85% RH at 85 °C in the dark. The initial average efficiency of four cells are all over 21.70% The error bars in c and d show the maximum and minimum bounds of normalized PCEs for four cells. FF, fill factor; F, forward scan; R, reverse scan; A, average; r.t., room temperature.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="4,71.76,84.72,454.80,111.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="4,71.76,196.08,454.80,111.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="5,169.92,84.72,255.60,255.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="7,71.76,84.72,440.64,117.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="7,71.76,202.65,440.64,117.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="7,71.76,320.58,440.64,117.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="10,71.76,84.72,453.60,198.24" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="18,71.76,84.72,453.84,127.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="18,71.76,212.40,453.84,127.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="20,72.00,105.75,368.46,294.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="26,72.00,86.79,468.00,263.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="33,113.16,105.33,368.49,295.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc><ref type="bibr" target="#b26">16</ref> </figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Condition 2D thickness (nm) First-order lifetime ( s) Vbi of MS plot (mV) VOC of each device (mV) Vbi from Eq. (S5) (mV) N2D = 1.67 10 16 cm -3</head><label></label><figDesc></figDesc><table><row><cell>Control</cell><cell></cell><cell>0.20</cell><cell>1087</cell><cell>-</cell><cell>1098</cell><cell>-</cell><cell>-</cell><cell></cell></row><row><cell>SIG30</cell><cell>42.30 1.18</cell><cell>1.05</cell><cell>1119</cell><cell>32</cell><cell>1117</cell><cell>19</cell><cell>28.48</cell><cell>1.59</cell></row><row><cell>SIG45</cell><cell>60.70 1.09</cell><cell>1.00</cell><cell>1151</cell><cell>64</cell><cell>1145</cell><cell>47</cell><cell>58.62</cell><cell>2.11</cell></row><row><cell>SIG60</cell><cell>83.45 1.45</cell><cell>1.11</cell><cell>1194</cell><cell>107</cell><cell>1185</cell><cell>87</cell><cell>110.80</cell><cell>3.84</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Supplementary Figure 19. Estimated carrier concentration of SIG-2D films. The carrier concentration</head><label></label><figDesc>(N2D =1.67 10 16 cm -3 ) was calculated by the built-in potential from the MS plot and the thickness of the SIG films through Eq. (S5).</figDesc><table><row><cell>Supplementary</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 6. Summary of the photovoltaic parameters of devices according to the type of hole transfer layer. The</head><label></label><figDesc></figDesc><table><row><cell>open-circuit voltage was improved in all devices using</cell></row><row><cell>Spiro-OMeTAD, PTAA, and P3HT, and the efficiency of P3HT showed the most dramatic</cell></row><row><cell>change. The displayed efficiency and each parameter are the average values for forward and</cell></row><row><cell>reverse scans obtained from the J-V curves.</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Hole-transporting material Structure Jsc (mA/cm 2 ) VOC (V) FF (%) η (%) Spiro-OMeTAD</head><label></label><figDesc></figDesc><table><row><cell cols="5">and Nanometer Structures Processing, Measurement, and Phenomena 9, 2369-2376</cell></row><row><cell>(1991).</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="5">(12) Buizza, L. R. et al. Charge-Carrier Dynamics, Mobilities, and Diffusion Lengths of</cell></row><row><cell cols="5">2D-3D Hybrid Butylammonium-Cesium-Formamidinium Lead Halide Perovskites.</cell></row><row><cell cols="3">Advanced Functional Materials 29, 1902656 (2019).</cell><cell></cell><cell></cell></row><row><cell cols="5">(13) Tress, W. Perovskite solar cells on the way to their radiative efficiency limit-insights</cell></row><row><cell cols="5">Control into a success story of high open-circuit voltage and low recombination. Advanced 24.60 1.095 82.95 22.39</cell></row><row><cell cols="2">SIG60 Energy Materials 7, 1602358 (2017). 24.69</cell><cell>1.185</cell><cell>83.95</cell><cell>24.59</cell></row><row><cell cols="4">Control (14) Karthick, S., Velumani, S. &amp; Bouclé, J. Experimental and SCAPS simulated 24.52 1.065 81.78</cell><cell>21.36</cell></row><row><cell cols="5">PTAA formamidinium perovskite solar cells: A comparison of device performance. Solar SIG60 24.61 1.105 81.90 22.27</cell></row><row><cell>Energy 205, 349-357 (2020).</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Control</cell><cell>24.00</cell><cell>0.970</cell><cell>51.14</cell><cell>11.92</cell></row><row><cell cols="5">P3HT (15) Guillemoles, J.-F., Kirchartz, T., Cahen, D. &amp; Rau, U. Guide for the perplexed to the</cell></row><row><cell cols="5">SIG60 Shockley-Queisser model for solar cells. Nature Photonics 13, 501-505 (2019). 24.17 1.123 75.60 20.52</cell></row><row><cell cols="4">(16) Lopez, A. &amp; Anderson, R. L. PHOTOCURRENT SPECTRA OF GE-GAAS</cell><cell></cell></row><row><cell cols="4">HETERO-JUNCTIONS. Solid-State Electronics 7, 695-700 (1964).</cell><cell></cell></row><row><cell cols="5">(17) Sharma, B. L. &amp; Purohit, R. K. Semiconductor heterojunctions. Ch. 2, (Elsevier,</cell></row><row><cell>2015).</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="5">(18) Tsai, H. et al. High-efficiency two-dimensional Ruddlesden-Popper perovskite solar</cell></row><row><cell cols="2">cells. Nature 536, 312-316 (2016).</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="5">(19) Zhu, X. et al. Vapor-fumigation for record efficiency two-dimensional perovskite</cell></row><row><cell cols="5">solar cells with superior stability. Energy &amp; Environmental Science 11, 3349-3357</cell></row><row><cell>(2018).</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Nature eNerGY | VOL 6 | JANUARY 2021 | 63-71 | www.nature.com/natureenergy</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>acknowledgements This work was supported by the <rs type="funder">National Research Foundation of Korea (NRF)</rs> grant funded by the <rs type="funder">Korea government (MSIP)</rs> (grant nos. <rs type="grantNumber">NRF-2020R1A2C3009115</rs>, <rs type="grantNumber">NRF-2017M1A2A2087351</rs> (the <rs type="institution">Technology Development Program to Solve Climate Changes)</rs>; <rs type="grantNumber">NRF-2017R1A4A1015022</rs>) and the <rs type="funder">New and Renewable Energy Core Technology Program of the Korea Institute of Energy Technology Evaluation and Planning (KETEP)</rs> from the <rs type="funder">Ministry of Trade, Industry and Energy</rs> (grant no. <rs type="grantNumber">20183010014470</rs>). This work was also supported by the <rs type="funder">Global Frontier R&amp;D Program of the Center for Multiscale Energy Systems</rs> funded by the <rs type="funder">National Research Foundation</rs> under the <rs type="funder">Ministry of Education, Science and Technology, Korea</rs> (grant no. <rs type="grantNumber">2012M3A6A7054855</rs>). The authors thank <rs type="person">S.-j. Park</rs> (<rs type="person">Korea I.T.S.; XRD</rs> instrumental broadening calculation), <rs type="person">W.-S. Chae</rs> (<rs type="affiliation">Korea Basic Science Institute; TRPL mapping</rs>) for their help during the course of the study.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_xGAgrKx">
+					<idno type="grant-number">NRF-2020R1A2C3009115</idno>
+				</org>
+				<org type="funding" xml:id="_RSNw9MP">
+					<idno type="grant-number">NRF-2017M1A2A2087351</idno>
+				</org>
+				<org type="funding" xml:id="_SB5t8eM">
+					<idno type="grant-number">NRF-2017R1A4A1015022</idno>
+				</org>
+				<org type="funding" xml:id="_rJt9BAE">
+					<idno type="grant-number">20183010014470</idno>
+				</org>
+				<org type="funding" xml:id="_FC2hqE4">
+					<idno type="grant-number">2012M3A6A7054855</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>All data generated or analysed during this study are included in the published article and its Supplementary Information and Source Data. Source data are provided with this paper.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information for</head><p>Supplementary Table <ref type="table">1</ref>. Comparison of SIG and solution process methods for fabricating a 2D perovskite layer on a 3D perovskite. Supplementary Figure <ref type="figure">1</ref>. Time-dependent X-ray diffraction patterns of SIG60 films. a, XRD patterns of SIG60 films according to the SIG process time. b, Trend of the (BA)2PbI4 (002) peak over time. As the time of the SIG method increased, the intensity of the (BA)2PbI4 peak was enhanced. Indexes of the 3D film, (BA)2PbI4 film and FTO were confirmed through previous studies <ref type="bibr">1,</ref><ref type="bibr">2</ref> , and for the index of PbI2, JCPSD #07-0235 was used. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Table 2. Position of the (002) peak of the (BA)2PbI4 films and its FWHM</head><p>in XRD patterns. The XRD pattern of a pure (BA)2PbI4 film fabricated by spin coating on ITO showed an FWHM of 0.105°for the (002) peak. SIG films with (BA)2PbI4, even for different temperature conditions (30°C, 45°C, and 60°C), showed FWHMs of 0.152 °to 0.167 °at the position corresponding to the (002) peak of pure (BA)2PbI4. The small FWHM of 0.15°m eans that the SIG process can induce a highly crystalline (BA)2PbI4 film on the 3D perovskite surface compared to conventional processes. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 4</head><p>The analysis of the Mott-Schottky plots for perovskite solar cells is reported in ref. <ref type="bibr" target="#b32">22</ref> . </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary References</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head><p>Nature eNergy effect of the surface passivation and the back-surface field of the 2D layer was superior to the negative effect of the series resistance for the fill factor. The statistical data in Supplementary Fig. <ref type="figure">16</ref> also show that the improvement of V OC is reproducible and critical for the high PCE of the SIG60 device.</p><p>The TRPL results in Fig. <ref type="figure">2b</ref> indicate that in addition to the reduction of surface recombination, other factors are involved in the V OC improvement. The band bending at the 2D/3D heterojunction in Fig. <ref type="figure">3f</ref> can have a positive effect on the V OC , similar to the back-surface field of GaAs solar cells. We executed Mott-Schottky plot analysis to confirm the V bi alteration in the SIG device <ref type="bibr" target="#b48">38</ref> . The details of the procedure for selecting the parameters are described in Supplementary Fig. <ref type="figure">17</ref> and Supplementary Note 4. Reliable Mott-Schottky plots were obtained for control and SIG devices in Supplementary Fig. 18. In Fig. <ref type="figure">4b</ref>, the Mott-Schottky plots for the control and SIG60 devices show that the introduction of the 2D/3D junction enhances V bi through the SIG process compared with the control device and the V bi increases from 1.087 V to 1.194 V as the thickness of the 2D layer increases.</p><p>Comparing the measured V bi with the V OC for SIG devices in Supplementary Table <ref type="table">5</ref>, the increase in V OC has a similar trend to the increase in V bi with increasing 2D thickness despite the similar photoluminescence carrier lifetimes. This result reveals that the V bi obtained by employing the 2D layer was designable by the 2D layer thickness and was critical for V OC enhancement. This result is notable because controllability of the 2D layer thickness on top of the 3D layer has not been demonstrated before. We observed that the calculated V bi values-with a carrier concentration of the 2D layer of 1.67 × 10 16 cm -3 -are significantly similar to the differences in the measured V bi and V OC between the control and SIG devices in Supplementary Table <ref type="table">5</ref>. This result clearly indicates that the increase in V OC with the thickness of the 2D layer is associated with increasing V bi in that a thicker 2D layer forms a thicker depletion region (Supplementary Fig. <ref type="figure">19</ref>). Consequently,</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head><p>Nature eNergy of 200 × 200 pixels were recorded using the time-tagged time-resolved data acquisition method and the exponential fitting of the obtained photoluminescent decays was performed using Symphotime-64 software (version 2.2), according to the method used in ref. <ref type="bibr" target="#b53">43</ref> . GIWAXS patterns were obtained from the Wide Angle X-ray Scattering Spectrometer (XEUSS2.0, Xenocs at National Instrumentation Center for Environmental Management at Seoul National University. The X-ray wavelength was 1.54 Å and the incidence angle of the X-ray was set to 0.1°. Two-dimensional GIWAXS data were recorded with a DECTRIS hybrid pixel photon counting detector.</p><p>Device characterization. To estimate the solar cell performance, photovoltaic cells were measured using a solar simulator (Newport, Oriel ClassAAA, 94043 A) with a source meter (Keithley 2420) of 100 mA cm -2 under AM 1.5 G illumination and a calibrated silicon reference cell certificated by NREL; J-V curves were obtained in the forward and reverse directions from -0.2 V to 1.2 V and measured at 100 mV s -1 and 10 mV step intervals. The photovoltaic performance measurements were performed at room temperature under air. The devices were covered with a metal mask to set the active area to 0.094 cm 2 . The external quantum efficiency was measured from 320 nm to 900 nm at an interval of 5 nm (QuantX-300, Newport).</p><p>For Mott-Schottky analysis, capacitance-voltage measurements were carried out at a fixed frequency (10 kHz) (IviumStat, IVIUM TECHNOLOGIES). A Mott-Schottky plot was obtained in the forward direction from -0. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>nature research | solar cells reporting summary</head><p>November 2017</p><p>1</p><p>Corresponding author(s): Mansoo Choi, Jun Hong Noh Solar Cells Reporting Summary Nature Research wishes to improve the reproducibility of the work that we publish. This form is intended for publication with all accepted papers reporting the characterization of photovoltaic devices and provides structure for consistency and transparency in reporting. Some list items might not apply to an individual manuscript, but all fields must be completed for clarity.</p><p>For further information on Nature Research policies, including our data availability policy, see Authors &amp; Referees.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental design</head><p>Please check: are the following details reported in the manuscript?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Dimensions</head><p>Area of the tested solar cells</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>We used a mask with 0.094 cm^2 (circle type) for measuring photovoltaic performance. The area values can be found in the method section</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method used to determine the device area Yes No</head><p>The area of our masks was determined by observing optical microscope and certified at Newport corporation.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Current-voltage characterization</head><p>Current density-voltage (J-V) plots in both forward and backward direction</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The J-V plots measured along both scan direction is shown in Figure <ref type="figure">4a</ref>, Supplementary Fig. <ref type="figure">20</ref>, and Supplementary Fig. <ref type="figure">21</ref>.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Voltage scan conditions</head><p>For instance: scan direction, speed, dwell times</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>For unit cell, bias between -0.2 V and 1.2 V was applied for measurement of J-V curves along forward and backward (we used terminology as 'reverse') scan direction.</p><p>The step voltage and scan speed were fixed at 10 mV and 100 mV/s, respectively.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Test environment</head><p>For instance: characterization temperature, in air or in glove box</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>Our devices were characterized at room temperature (ca. 25 Celsius degree) in air.</p><p>Explain why this information is not reported/not relevant.</p><p>Protocol for preconditioning of the device before its characterization</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>To prevent reflection of incident light, anti-reflection flim was attached on glass side in the case of measurement of unit cells.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stability of the J-V characteristic</head><p>Verified with time evolution of the maximum power point or with the photocurrent at maximum power point; see ref. 7 for details.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>Stability of efficiency at maximum power point can be found in Supplementary Figure <ref type="figure">12</ref>.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Hysteresis or any other unusual behaviour</head><p>Description of the unusual behaviour observed during the characterization</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>No J-V hysteresis of SIG device was observed and the related comments were mentioned in manuscript.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Related experimental data Yes</head><p>No Above values could be verified from Figure <ref type="figure">4a</ref>.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Efficiency</head><p>External quantum efficiency (EQE) or incident photons to current efficiency (IPCE)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>The EQE spectrum can be found in Supplementary Figure <ref type="figure">13</ref> and Figure <ref type="figure">14</ref>.</p><p>Explain why this information is not reported/not relevant.</p><p>A comparison between the integrated response under the standard reference spectrum and the response measure under the simulator</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>The comparison is represented in Figure4a and Supplementary Figure <ref type="figure">14</ref>.</p><p>Explain why this information is not reported/not relevant.</p><p>For tandem solar cells, the bias illumination and bias voltage used for each subcell</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>State where this information can be found in the text.</p><p>Our devices were only fabricated for single-junction solar cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>nature research | solar cells reporting summary</head><p>November 2017 2</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Calibration</head><p>Light source and reference cell or sensor used for the characterization Yes No</p><p>We measured using a solar simulator (Newport, Oriel Class A, 94043A) with a sourcemeter (Keithley 2420) of 100 mA/cm^2 under illumination at AM 1.5G and Sireference cell.</p><p>Explain why this information is not reported/not relevant.</p><p>Confirmation that the reference cell was calibrated and certified</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>We used a calibrated Si-reference cell certificated by NREL.</p><p>Explain why this information is not reported/not relevant.</p><p>Calculation of spectral mismatch between the reference cell and the devices under test</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The spectral mismatch factor was determined by PV Lab of Technology and Application Center in Newport Corporation and we applied the value in our laboratory.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Mask/aperture</head><p>Size of the mask/aperture used during testing Yes</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>We used a mask with 0.094 cm^2 (circle type) for measuring photovoltaic performance. The area values can be found in the method section</p><p>Explain why this information is not reported/not relevant.</p><p>Variation of the measured short-circuit current density with the mask/aperture area</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>State where this information can be found in the text.</p><p>The Jsc value for our device was confirmed through the Newport Corporation measurement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Performance certification</head><p>Identity of the independent certification laboratory that confirmed the photovoltaic performance Yes No Our devices were certified at PV Lab of Technology and Application Center in Newport Corporation.</p><p>Explain why this information is not reported/not relevant.</p><p>A copy of any certificate(s)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Provide in Supplementary Information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head><p>No A copy of certificates can be found in Supplementary Figure <ref type="figure">13</ref>.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Statistics Number of solar cells tested Yes</head><p>No For statistical analysis of efficiencies, 28 devices were tested.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis of the device performance Yes No</head><p>The statistical data was represented in Supplementary Figure <ref type="figure">16</ref>.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9.">Long-term stability analysis</head><p>Type of analysis, bias conditions and environmental conditions</p><p>For instance: illumination type, temperature, atmosphere humidity, encapsulation method, preconditioning temperature</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>For humidity test, unencapsulated devices had been kept in a chamber of 85% relatively humidity and 25 Celsius degree under dark. And photovoltaic performances of the devices were measured in air. The data can be found in Figure <ref type="figure">4c</ref>. Thermal stability test had been performed at 85 Celsius degree and ca. 85% relatively humidity in dark. The data can be found in Figure <ref type="figure">4d</ref>. For long term stability test in Supplementary Figure <ref type="figure">23</ref>, encapsulated device was exposured under AM 1.5G simulated with white LED.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>nature research | solar cells reporting summary</head><p>November 2017</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Compositional engineering of perovskite materials for highperformance solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">517</biblScope>
+			<biblScope unit="page" from="476" to="480" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">2D homologous perovskites as light-absorbing materials for solar cell applications</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Stoumpos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">K</forename><surname>Farha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Hupp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kanatzidis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="7843" to="7850" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Strain engineering and epitaxial stabilization of halide perovskites</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">577</biblScope>
+			<biblScope unit="page" from="209" to="215" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Solvent engineering for high-performance inorganic-organic hybrid perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="897" to="903" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">2D perovskite stabilized phase-pure formamidinium perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">3021</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Enhancing photoluminescence yields in lead halide perovskites by photon recycling and light out-coupling</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Richter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature communications</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">High-efficiency perovskite-polymer bulk heterostructure light-emitting diodes</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Photonics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="783" to="789" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Visualization and suppression of interfacial recombination for high-efficiency large-area pin perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Energy</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="847" to="854" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Carrier-resolved photo-Hall effect</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gunawan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">575</biblScope>
+			<biblScope unit="page" from="151" to="155" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Electronic traps and phase segregation in lead mixed-halide perovskite</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Knight</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Letters</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="75" to="84" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Intrinsic recombination and interface characterization in &apos;&apos;surfacefree&apos;&apos;GaAs structures</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wolford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Vacuum Science &amp; Technology</title>
+		<imprint>
+			<biblScope unit="volume">B</biblScope>
+			<publisher>Microelectronics</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<ptr target="https://www.nrel.gov/pv/assets/pdfs/best-research-cell-efficiencies.20200708.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Best Research-Cell Efficiencies (NREL</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Solar cell efficiency tables (version 56)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Photovolt. Res. Appl</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="629" to="638" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Ultrahydrophobic 3D/2D fluoroarene bilayer-based water-resistant perovskite solar cells with efficiencies exceeding 22%</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">2543</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Water-repellent low-dimensional fluorous perovskite as interfacial coating for 20% efficient solar cells</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Cho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="5467" to="5474" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">An interface stabilized perovskite solar cell with high stabilized efficiency and low voltage loss</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Yoo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2192" to="2199" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Efficient, stable and scalable perovskite solar cells using poly (3-hexylthiophene)</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">567</biblScope>
+			<biblScope unit="page" from="511" to="515" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Hybrid perovskite/perovskite heterojunction solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS nano</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="5999" to="6007" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Mixed 3D-2D passivation treatment for mixed-cation lead mixed-halide perovskite solar cells for higher efficiency and better stability</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1703392</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Diammonium and monoammonium mixed-organic-cation perovskites for high performance solar cells with improved stability</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1700444</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A fluorene-terminated hole-transporting material for highly efficient and stable perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="682" to="689" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Colloidally prepared La-doped BaSnO 3 electrodes for efficient, photostable perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Shin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">356</biblScope>
+			<biblScope unit="page" from="167" to="171" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Hysteresis-free low-temperature-processed planar perovskite solar cells with 19.1% efficiency</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Choi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="2262" to="2266" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">High-efficiency two-dimensional Ruddlesden-Popper perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tsai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">536</biblScope>
+			<biblScope unit="page" from="312" to="316" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Perovskite-like crystals of the Ruddlesden-Popper series</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beznosikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Aleksandrov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Crystallogr. Rep</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="792" to="798" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Two-dimensional halide perovskites in solar cells: 2D or not 2D?</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ortiz-Cervantes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Carmona-Monroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Solis-Ibarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemSusChem</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1560" to="1575" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Ligand-stabilized reduced-dimensionality perovskites</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Quan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JACS</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="2649" to="2655" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Efficient ambient-air-stable solar cells with 2D-3D heterostructured butylammonium-caesium-formamidinium lead halide perovskites</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">17135</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Phase pure 2D perovskite for high-performance 2D-3D heterostructured perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">1805323</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">2D/3D perovskite hybrids as moisture-tolerant and efficient light absorbers for solar cells</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nanoscale</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="18309" to="18314" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Molecularly thin two-dimensional hybrid perovskites with tunable optoelectronic properties due to reversible surface relaxation</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Leng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="908" to="914" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Pressure-assisted CH 3 NH 3 PbI 3 morphology reconstruction to improve the high performance of perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="5289" to="5293" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A solvent-and vacuum-free route to large-area perovskite films for efficient solar modules</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">550</biblScope>
+			<biblScope unit="page" from="92" to="95" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">2D Homologous perovskites as light-absorbing materials for solar cell applications</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Stoumpos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">K</forename><surname>Farha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Hupp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kanatzidis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JACS</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="7843" to="7850" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Easterling</surname></persName>
+		</author>
+		<title level="m">Phase Transformations in Metals and Alloys</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>Revised Reprint. Ch. 4 (CRC</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Gibbs-Curie-Wulff theorem in organic materials: a case study on the relationship between surface energy and crystal growth</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1697" to="1702" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">In situ growth of 2D perovskite capping layer for stable and efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">1706923</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Unveiling the operation mechanism of layered perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">High-efficiency perovskite-polymer bulk heterostructure light-emitting diodes</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photon</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="783" to="789" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Visualization and suppression of interfacial recombination for high-efficiency large-area pin perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="847" to="854" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Perovskite solar cells on the way to their radiative efficiency limit-insights into a success story of high open-circuit voltage and low recombination</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1602358</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">In situ formation of a 2D/3D heterostructure for efficient and stable CsPbI 2 Br solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="22675" to="22682" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Strain engineering and epitaxial stabilization of halide perovskites</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">577</biblScope>
+			<biblScope unit="page" from="209" to="215" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Optimal interfacial engineering with different length of alkylammonium halide for efficient and stable perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1902740</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Carrier-resolved photo-Hall effect</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gunawan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">575</biblScope>
+			<biblScope unit="page" from="151" to="155" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Complexities of contact potential difference measurements on metal halide perovskite surfaces</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="890" to="896" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A comparative study of BSF layers for GaAs-based single-junction or multijunction concentrator solar cells</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Galiana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rey-Stolle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baudrit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Algora</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semicond. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">1387</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">A 19.9%-efficient ultrathin solar cell based on a 205-nmthick GaAs absorber and a silver nanostructured back mirror</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="761" to="767" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">On Mott-Schottky analysis interpretation of capacitance measurements in organometal perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Almora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aranda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mas-Marzá</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Garcia-Belmonte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page">173903</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Compositional and orientational control in metal halide perovskites of reduced dimensionality</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Quintero-Bermudez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="900" to="907" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Shedding light on the moisture stability of 3D/2D hybrid perovskite heterojunction thin films</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schlipf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1011" to="1018" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Dynamical evolution of the 2D/3D interface: a hidden driver behind perovskite solar cell instability</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Sutanto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2343" to="2348" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Highly efficient and stable planar perovskite solar cells by solution-processed tin oxide</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Anaraki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="3128" to="3134" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Excitation dynamics of MAPb (I 1-x Br x ) 3 during phase separation by photoirradiation: evidence of sink, band filling, and Br-rich phase coarsening</title>
+		<author>
+			<persName><forename type="first">S.-Y</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">806</biblScope>
+			<biblScope unit="page" from="1180" to="1187" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

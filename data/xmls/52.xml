@@ -1,0 +1,1751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Passivated Emitter and Rear Cell (PERC): From conception to mass production</title>
+				<funder ref="#_rS4BBpr">
+					<orgName type="full">Australian Renewable Energy Agency (ARENA)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Australian Government</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2015-07-16">16 July 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Martin</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+							<email>m.green@unsw.edu.au</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Photovoltaic and Renewable Energy Engineering</orgName>
+								<orgName type="laboratory">Australian Centre for Advanced Photovoltaics</orgName>
+								<orgName type="institution">University of New South Wales (UNSW)</orgName>
+								<address>
+									<postCode>2052</postCode>
+									<settlement>Sydney</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Passivated Emitter and Rear Cell (PERC): From conception to mass production</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2015-07-16">16 July 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D88E3E262954F92723FF25A21A0DCBAD</idno>
+					<idno type="DOI">10.1016/j.solmat.2015.06.055</idno>
+					<note type="submission">Received 31 March 2015 Received in revised form 28 June 2015 Accepted 29 June 2015</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T18:03+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Silicon solar cells PERC High efficiency solar cells</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Improved solar cell efficiency is the key to ongoing photovoltaic cost reduction, particularly as economies of scale propel module-manufacturing costs towards largely immutable basic material costs and as installation costs become an increasingly large contributor to total system costs. To enable manufacturers to move past the 20% cell energy conversion efficiency figure in production, high-efficiency PERC (Passivated Emitter and Rear Cell) sequences are being increasingly brought online. Most new photovoltaic manufacturing capacity added in the second half of 2014 was PERC-based, making PERC now the cell technology with second-highest production capacity, with the latest industry roadmap anticipating PERC will become the dominant commercial cell technology by 2020. The first paper describing the PERC cell appeared in 1989, although the structure was conceived several years earlier. The attractive technical features were the reduction of rear surface recombination by a combination of dielectric surface passivation and reduced metal/semiconductor contact area while simultaneously increasing rear surface reflection by use of a dielectrically displaced rear metal reflector. The key issues in the development of this technology and its commercial implementation are described, including a review of recent adoption rates and the way these are likely to evolve in the future.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Background technology</head><p>The first paper describing the PERC cell appeared in 1989 <ref type="bibr" target="#b0">[1]</ref>, although this device was first described in 1983 in a UNSW (University of New South Wales) final grant report <ref type="bibr" target="#b1">[2]</ref> and as a deliverable in a subsequent grant proposal <ref type="bibr" target="#b2">[3]</ref>, accompanied in both cases by the drawing shown in Fig. <ref type="figure" target="#fig_0">1</ref>. The attractive feature was the elegant way in which the PERC cell incorporated three attributes into the rear contacting scheme that earlier work at UNSW and elsewhere had shown were important to obtaining high efficiency. These were the reduction of rear surface recombination by a combination of dielectric surface passivation and reduced metal/semiconductor contact area, with simultaneously increased rear surface reflection by use of a dielectrically displaced rear metal reflector.</p><p>Around the time the PERC cell was proposed, the highest confirmed efficiency for a Si cell was 19.1% <ref type="bibr" target="#b3">[4]</ref>, estimated as 18.4% efficient by present standards <ref type="bibr" target="#b4">[5]</ref>. The cell structure was a relatively simple UNSW planar PESC cell (Passivated Emitter Solar Cell) of Fig. <ref type="figure" target="#fig_1">2</ref> with the main feature responsible for its high efficiency being its high open-circuit voltage (V oc ). A contributor to this high voltage (658.4 mV at 25 °C) was the reduced area of the top surface contact, the first demonstration of improved conversion efficiency by this approach, and surface passivation by dielectric oxide, both features that the PERC cell sought to emulate on the rear surface. The PESC cell retained the Al alloyed BSF/BSR (back surface field/ back surface reflector) developed in the late 1960s <ref type="bibr" target="#b5">[6]</ref> that had featured in earlier generations of high efficiency cells and has been used in most commercial cells to date.</p><p>Any solar cell can be associated with an effective diode saturation current density, J o , calculated from its measured V oc and short-circuit current density, J sc , as:</p><formula xml:id="formula_0">⎛ ⎝ ⎜ ⎞ ⎠ ⎟ J J qV kT / exp 1 1 o s c oc = [ -] ( )</formula><p>where T is the absolute temperature and kT/q is the thermal voltage <ref type="bibr">(25.</ref>693 mV at 298.15 K or 25 °C). This cell had a creditable J o of 270 fA/cm 2 at 25 °C, almost evenly divided between contributions from the combination of top surface and contact recombination and from bulk and rear contact recombination <ref type="bibr" target="#b6">[7]</ref>.</p><p>Apparently the first published suggestion of reduced contact area as a way of reducing contact recombination and its contribution to J o was made at UNSW almost a decade earlier <ref type="bibr" target="#b7">[8]</ref>. In the Crowell-Sze thermionic-emission/diffusion theory of metal/ Contents lists available at ScienceDirect semiconductor contacts <ref type="bibr" target="#b8">[9]</ref>, currents associated with these contacts are described in terms of effective recombination velocities for both electrons and holes <ref type="bibr" target="#b9">[10]</ref>. It was suggested reducing contact area as in Fig. <ref type="figure" target="#fig_2">3</ref> could reduce such effective velocities <ref type="bibr" target="#b7">[8]</ref>, improving the open-circuit voltage of Schottky diode solar cells. The specific approach shown in Fig. <ref type="figure" target="#fig_2">3</ref> to reduce contact area was employed in the first experimental PESC cells, prior to delivery of the photolithography masks used to fabricate the 19.1% cell of Fig. <ref type="figure" target="#fig_1">2</ref>, with 687 mV V oc confirmed for a device with this structure by NASA-Lewis in Sept. 1983 <ref type="bibr" target="#b1">[2]</ref>, the highest ever independently confirmed value at this stage.</p><p>Almost contemporaneously with the UNSW paper <ref type="bibr" target="#b7">[8]</ref>, Lindmayer and Allison of COMSAT Laboratories, inventors of the violet cell that led to substantial efficiency improvements in the early 1970s, also suggested use of reduced contact area in a subsequently published patent application <ref type="bibr" target="#b10">[11]</ref>. The shallower emitters (top diffused layers) in these devices had directed attention to emitter surface recombination, negligible in earlier generations of cells because of their deep emitter diffusions. Independently, these researchers suggested the same approach as in Fig. <ref type="figure" target="#fig_2">3</ref> as a way of achieving this low contact, implemented by COMSAT Labs nearly a decade later, slightly earlier than in PESC cells, but with less resounding outcomes <ref type="bibr" target="#b11">[12]</ref>.</p><p>For similar reasons, dielectric passivation of the top surface also had not been important in earlier generations of silicon cells. The good interfacial properties of thermally grown oxides were well known from their use in Metal/Oxide/Semiconductor (MOS) transistors. UNSW led efforts to improve open circuit voltage in the late 1970s, using the inversion layer MIS (Metal/Insulator/ Semiconductor) cell structure of Fig. <ref type="figure" target="#fig_3">4</ref>, relying on oxide passivation in non-contacted areas as well as charge in the overlying dielectric. These MIS devices were first reported as giving V oc above conventional cells in 1976 <ref type="bibr" target="#b12">[13]</ref>.</p><p>MIS and related MINP (Metal/Insulator/N-P junction) devices subsequently became the first silicon cells to display V oc above 650 mV in 1978 and 678 mV in 1981 (Fig. <ref type="figure" target="#fig_4">5</ref>). The latter voltage corresponds to J 0 values of 100 pA/cm 2 with 26 pA/cm 2 assigned to recombination at the top oxide-passivated surface <ref type="bibr" target="#b13">[14]</ref>. This oxide passivation has been maintained through successive generations of UNSW high voltage, high efficiency devices.</p><p>The first paper applying the benefits of such thin oxide passivation to more conventional p-n junction device structures appeared in 1978 <ref type="bibr" target="#b14">[15]</ref>. This was also an important paper in that it also seems to be the first to use PECVD silicon nitride, now the industry standard, as an antireflection (AR) coating, although Motorola had been using non-PECVD nitrides in production since 1977 <ref type="bibr" target="#b15">[16]</ref>.</p><p>The UNSW interest in dielectrically displaced rear reflectors arose from the results shown in Fig. <ref type="figure" target="#fig_5">6</ref>, published by Solarex in 1976 <ref type="bibr" target="#b16">[17]</ref>, showing the measured reflectance nominally at the rear Al/Si BSF/BSR interface as a function of alloying conditions. Trying to understand these data (later realising drop at high temperature was due to surface roughening and consequent light-trapping), expected reflection values were calculated theoretically.     This led to the realisation that the high refractive index of silicon considerably supressed rear metal reflection and that inserting a lower index dielectric layer between the metal and silicon would significantly increase this reflection. Experiments subsequently conducted at UNSW as part of an undergraduate thesis project produced the results shown in Fig. <ref type="figure" target="#fig_6">7</ref>, showing reflection from as-deposited Al could be increased from 89% to an almost ideal 98%. Knowledge of these large optical benefits provided additional incentive for implementing the PERC structure.</p><p>Successful implementation of the PERC cell was not immediate. Introducing top-surface texturing of the PESC cell of Fig. <ref type="figure" target="#fig_1">2</ref>, also suggested in the previous grant documents <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>, gave more rapid progress with 20% cell efficiency demonstrated in 1985 <ref type="bibr" target="#b4">[5]</ref>. Attention was then diverted to applying these developments to silicon concentrator cells to meet contractual requirements, with this work resulting in the first 20% efficient photovoltaic module <ref type="bibr" target="#b17">[18]</ref>. For the PERC cell, boron diffusion capability needed to be established and perfected, with this proving more challenging than for the phosphorus diffusions already established. Some tips from the solar cell group at Stanford University regarding the advantages of chlorine-based furnace processing proved most helpful here, allowing the whole family of PERC cells (Fig. <ref type="figure" target="#fig_7">8</ref>) to be experimentally investigated. The first high efficiency PERC cells were fabricated in 1988, with 21.8% efficiency confirmed at Sandia in October 1988 (20.9% by present standards).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Efficiency and processing optimisation</head><p>These initial results fuelled the ongoing improvements in silicon cell efficiency on p-type monocrystalline substrates to 25% (Fig. <ref type="figure" target="#fig_8">9</ref>). Applying the approach to multicrystalline substrates led to the first multicrystalline cell of efficiency above 20%, by present standards, in 1998 <ref type="bibr" target="#b4">[5]</ref>. Initial UNSW application to n-type substrates using reversed doping polarities gave lower efficiency than on p-type substrates, with an efficiency of 21.9% (22.1% by present standards <ref type="bibr" target="#b4">[5]</ref>) demonstrated in 1991, with the lower efficiency arising from the increased challenges involved in performing large-area B diffusions. Much later in 2005, an inverted rear emitter structure increased this efficiency to 22.7% (22.9% by present standards), equalling the efficiency of the best ever n-type solar cell at that time. A significant subsequent independent development was the recognition of the excellent surface passivation properties of Al 2 O 3 . This material had long been used as the low-index layer in double-layer AR coatings for space cells. An early report <ref type="bibr" target="#b18">[19]</ref> of its excellent passivation properties for p-type surfaces went largely unnoticed until a new efficiency mark of 23.2% (23.4% by present standards) on n-type substrates <ref type="bibr" target="#b19">[20]</ref> was established in 2006. This dielectric has proved important for subsequent PERC commercialisation.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Large area cells and modules</head><p>UNSW had earlier pioneered the use of lasers in solar cell processing <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref> with this resulting in the buried contact solar cell of Fig. <ref type="figure" target="#fig_9">10</ref> [23], developed as a commercial version of the PESC cell. These cells relied upon plated Ni/Cu metallisation, with excellent field performance from early modules deployed by licensee BP Solar recently reported after 20 years field exposure <ref type="bibr" target="#b23">[24]</ref>.</p><p>A pilot line was established at UNSW in the late 1980s to assist in transferring this technology to licensees. In 1990, this pilot line was diverted to the fabrication of large areas of cells for solar car racing, at that time attracting the interest of major automobile companies as a promotional vehicle. The 68 mm Â 68 mm cells fabricated on this line used the "finger intensive" cell metallisation pattern of Fig. <ref type="figure" target="#fig_10">11</ref>, made possible by the high conductivity and reduced width of the buried contacts.</p><p>Two laser-based processing approaches were investigated in the early 1990s as a way of integrating the new PERC rear structure into this laser-based sequence. One was to use the laser to ablate small openings in a rear oxide to provide the desired small area contact points, with Al subsequently deposited and sintered. This was the most successful in our work, producing cells with high V oc and good fill factors <ref type="bibr" target="#b24">[25]</ref>. The equivalent of this contacting approach is also the most widely used in present commercial PERC sequences. The second involved deposition of Al on top of the oxide and driving it through the oxide by laser heating at localised points. We found this approach to be more problematic, with difficulties attributed to the layer of phosphorus that wraps around to the rear during the top surface diffusion. Although it was possible to control the thermal environment during normal buried contact cell processing to prevent detrimental consequences from this layer <ref type="bibr" target="#b25">[26]</ref>, this was not possible in the transient laser-processing environment. Subsequently, this problem was resolved and the approached perfected at the Fraunhofer Institute <ref type="bibr" target="#b26">[27]</ref>, by the simple expedient of masking the rear during front surface diffusion.</p><p>The lasers available both to us and to our licensees at that time were better suited to forming continuous grooves than dot or dash patterns when large cell quantities were involved. Buried contact cell work consequently took the direction of exploring bifacial rear grooved structures. PERC integration was achieved by a hybrid sequence, using laser processing for the top cell surface but chemical etching to open holes in the rear oxide, with hole positions defined by photolithography. This approach took hybrid, large area cell performance well above 20%. Sixteen of these early PERC hybrid cells were encapsulated into a nominally 800-cm 2 module in 1992 resulting in the first confirmed 20% flat-plate photovoltaic module efficiency (19.9% certified in 1992, equivalent to 20.1% under present standards). These results were improved upon in 1993 <ref type="bibr" target="#b27">[28]</ref> by implementing an all-photolithographic PERC process that retained the metallisation pattern of Fig. <ref type="figure" target="#fig_9">10</ref>, to allow the cells to be used interchangeably with previous pilot line output. About 5 kW of UNSW pilot line cells were supplied to 3 teams for the 1993 Solar World Challenge, the solar car race across Australia, including about 1 kW of PERC cells representing the first commercial PERC cell sales. For the 1996 race, a further 8 kW of PERC/ PERL cells were supplied to 3 teams. Forty cells made during this period were encapsulated into a nominally 800-cm 2 module giving confirmed 22.7% module efficiency <ref type="bibr" target="#b28">[29]</ref> (22.9% by present standards, still the highest for a silicon module at the time of writing).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Commercialisation</head><p>Since the mid-1980s, most manufacturers have used a common manufacturing process for fabricating silicon solar cells based on the use of phosphorus diffused, boron doped silicon wafers with screen-printed silver paste top contacts and rear contacts based on screen-printed Al pastes <ref type="bibr" target="#b29">[30]</ref>. The latter are alloyed to form an "Al-BSF" under the rear contact. Multicrystalline wafers and plasma   deposited silicon nitride antireflection coatings have been used commercially from about the same time. Over recent years, the standard Al-BSF process accounted for over 90% of silicon solar cell production, itself accounting for over 90% of total photovoltaic module production. The remainder of the latter production is made up of thin-film technologies based on CdTe, CIGS (Copper-Indium-Gallium-Selenide), and amorphous silicon (a-Si), with slowly declining combined market share. By 2013, the performance of this dominant silicon Al-BSF technology had steadily improved to the stage where standard commercial cells were approaching the efficiency level reached by PESC cells in the laboratory in the 1980s using a similar rear Al-BSF approach. To progress further, a similar rear contact improvement was required.</p><p>Nothing is as powerful as an idea whose time has come. As the push to efficiencies above 20% in production intensified, many companies reported on progress with implementing PERC technology. Suntech Power was one of the first, reporting on such progress in production implementation in 2009 <ref type="bibr" target="#b30">[31]</ref> as the company's "Pluto" product series. Generation 1 product incorporated a laser-based selective emitter process co-developed with UNSW with standard Al-BSF, reaching production volumes of 0.5 GW/year <ref type="bibr" target="#b31">[32]</ref>. Generation 2 product incorporated PERC rear contacts, demonstrating 20.3% efficiency as independently confirmed in 2011 <ref type="bibr" target="#b31">[32]</ref>. Schott Solar reported 18.7% efficiency using multicrystalline wafers and the PERC approach in 2010, resulting in a confirmed world-record 17.6% efficient module efficiency <ref type="bibr" target="#b32">[33]</ref>. In 2012, Schott reported 21% monocrystalline silicon efficiency, the imminent release of a high-efficiency PERC cell module and licensing the company's version of PERC technology to equipment supplier Schmid. Q-Cells reported 19.5% multicrystalline PERC cell efficiency in 2011, increasing confirmed module efficiency to 17.8% and then 18.5% <ref type="bibr">[34]</ref>. Trina Solar recently increased the multicrystalline cell efficiency to a world record 20.8% and corresponding module efficiency to 19.2%, again using PERC cells. Taiwanese company, Global Sunrise, founded by former UNSW researchers, was one of the first companies to report on actual PERC production experience. Working with equipment supplier, Roth and Rau, a PERC production process compatible with screenprinted pastes went into production in 2012, with average cell efficiency above 20% reported <ref type="bibr" target="#b33">[35]</ref>.</p><p>GTM Research documents subsequent activity in 2013 and 2014 <ref type="bibr" target="#b34">[36]</ref>. Equipment suppliers Schmid, Centrotherm, RENA, Solaytec, Levitech, SINGULUS and Meyer Burger are mentioned as well as manufacturers Neo Solar Power, SunEdison, JA Solar and WINAICO. NDP Solarbuzz reported on the rapid rate of adoption of PERC into manufacturing <ref type="bibr" target="#b35">[37]</ref>, with 2.5 GW PERC capacity estimated worldwide in August, 2014, with this growing quickly (Fig. <ref type="figure" target="#fig_1">12</ref>).</p><p>According to a separate NDP Solarbuzz report <ref type="bibr" target="#b36">[38]</ref>, the new PERC capacity additions shown in Fig. <ref type="figure" target="#fig_1">12</ref>, accounted for a growing share of total new capacity additions in 2013 and accounted for the majority of new additions by the second half of 2014 (Fig. <ref type="figure" target="#fig_2">13</ref>). This displacement of the standard Al-BSF approach is expected to continue, with no new Al-BSF capacity expected to be added after 2017.</p><p>This view is reiterated in the independent April 2015 photovoltaic industry roadmap (ITRPV) <ref type="bibr" target="#b37">[39]</ref>. As indicated in Fig. <ref type="figure" target="#fig_3">14</ref>, the rapid growth of PERC production capacity in 2014 made PERC, after the standard Al-BSF technology, the cell technology with the second highest established production capacity by year-end (ahead of rear junction and HIT/HJT a-Si heterojunction silicon cells, as well as CdTe, CIGS and a-Si thin-film cells). Over the next few years, the dominance of new production capacity by PERC (Fig. <ref type="figure" target="#fig_2">13</ref>) will steadily increase its share of total capacity with the most recent ITRPV roadmap <ref type="bibr" target="#b37">[39]</ref> showing PERC likely to become the dominant cell production technology by 2020 (Fig. <ref type="figure" target="#fig_3">14</ref>).</p><p>This trend is being accelerated by the consolidation policies of the Chinese government whereby manufacturers without access to good technology are being closed down by imposing cell efficiency standards <ref type="bibr" target="#b38">[40]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Production sequences and costings</head><p>Although PERC manufacturing capacity is growing quickly, the technology is still early in its developmental cycle (Fig. <ref type="figure" target="#fig_1">12</ref>) with far more differences between sequences in production than with the much better established Al-BSF approach. Nonetheless, the simplified process flow diagram for PERC cell fabrication, shown compared to the standard Al-BSF approach in Fig. <ref type="figure" target="#fig_12">15</ref>, broadly captures the key features. As apparent from this figure, one attraction of the PERC sequence is that it is largely compatible with the standard Al-BSF sequence.</p><p>The first step in both cases is a wafer saw damage removal etch and texturing, followed by emitter diffusion and etch. Often, a rear side polish etch is included at this stage for the PERC sequence, to increase rear reflection and to reduce rear recombination <ref type="bibr" target="#b33">[35,</ref><ref type="bibr" target="#b39">41]</ref>. This is a low-cost step since usually done in conjunction with the required edge-junction isolation step. Usually a few microns of 0 0.5 silicon are removed in this polishing step, with consequent energy conversion efficiency gains reported as in the 0.4% to 1.5% (absolute) range <ref type="bibr" target="#b40">[42,</ref><ref type="bibr" target="#b41">43]</ref>, depending on the details of the process.</p><p>Instead of a simple silicon nitride AR coating deposition as in the standard Al-BSF sequence, both AR and rear dielectric coating of the cell is required in the PERC process, with the rear coating generally taking the form of either an aluminium oxide/silicon nitride stack <ref type="bibr" target="#b33">[35,</ref><ref type="bibr" target="#b42">44]</ref> or a silicon oxide/silicon nitride stack <ref type="bibr" target="#b43">[45]</ref>. In some processes, both the front and the rear depositions are done in the same item of equipment <ref type="bibr" target="#b33">[35]</ref>. The contact holes through the rear dielectric are generally formed by laser ablation, although chemical etching is feasible. Contact screening and printing, cell testing and sorting occurs similarly in both sequences, although different paste compositions would be used for the rear contact for PERC cells, to avoid damage to the rear dielectrics and void formation at the locally alloyed regions <ref type="bibr" target="#b41">[43]</ref>. Voids arise from migration of some silicon through the rear Al layer away from the openings during alloying, never to return, although addition of silicon to the pastes can prevent this from becoming an issue.</p><p>To allow soldering of the rear, Ag solder pads also need to be screened to the rear side of the cell, as in the standard Al-BSF approach. This is reported as being less harmful to cell performance for PERC cells <ref type="bibr" target="#b44">[46]</ref>, since the area of high recombination velocity contact between the Ag layer and substrate is much smaller in this case, occurring only where there are openings in the rear dielectric. Contact between the pads and the Al rear metallisation areas occur through carefully controlled overlap regions <ref type="bibr" target="#b45">[47]</ref>.</p><p>Since at least three extra processing steps are involved, extra cell processing costs are involved for PERC cells. One early study <ref type="bibr" target="#b46">[48]</ref> estimates the cell processing cost as 26% higher/cell, reducing to 20% higher/W when the rather low assumed 5.6% performance advantage is taken into account. At the cell level, with wafer costs included but similarly leveraged by the higher efficiency, the additional manufacturing cost is estimated at 6%/W. At the module level, the same leveraging reduces the additional cost to 2%/W. At the system level, PERC costs become marginally lower, in this study. A manufacturer of both PERC and Al-BSF devices considers a much higher 11% performance advantage as a reasonable estimate, with 90% of this advantage able to be captured as lower transport costs, 70% as lower installation costs and over 50% as lower balance of systems costs <ref type="bibr" target="#b47">[49]</ref>.</p><p>PERC cells are now available in sufficient quantities that at least one market research company tracks spot prices for PERC cells as a separate category <ref type="bibr">[50]</ref>. In mid-March 2015, the company reported average spot prices for multicrystalline Al-BSF cells as 29.5-31.5 c/ W, depending on efficiency with 17.8% efficiency providing a demarcation point, and 38.5 c/W for monocrystalline Al-BSF devices. PERC monocrystalline spot prices were reported as 46-48 c/W for cells of efficiency in the 20.4-20.6% range [50], corresponding to a 19-25% market premium that would seem to more than offset the increased processing costs.</p><p>With ongoing streamlining and standardisation of PERC sequences, the processing cost premium/cell relative to Al-BSF devices is expected to reduce <ref type="bibr" target="#b48">[51]</ref>. At the same time, the performance advantage over Al-BSF cells might be expected to increase as the higher voltage capability of the PERC approach is fully exploited. In the laboratory, the performance of PESC devices, representative of a fully developed Al-BSF approach, peaked at just below 21% by present standards, while PERC/PERL sequences reached 25%, suggesting a 20% margin could eventually open up.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Performance potential</head><p>In mid-2015, the best performing near-commercial PERC multicrystalline cells have efficiencies in the 20-21% range, while the best PERC monocrystalline cells have slightly higher values in the 21-22% range. There were confident expectations for both values soon to surpass the top of these respective ranges, but how far can the technology go?</p><p>Several recent studies throw some light on this issue <ref type="bibr" target="#b49">[52]</ref><ref type="bibr" target="#b50">[53]</ref><ref type="bibr" target="#b51">[54]</ref><ref type="bibr" target="#b52">[55]</ref>. The most recent <ref type="bibr" target="#b52">[55]</ref> shares the author's view that, now the industry has invested in a transition to PERC technology, this provides a path for manufacturers for incremental improvements to values of cell efficiency to close to the 25% value demonstrated in the laboratory. Commercial PERC cells still perform well short of the best laboratory devices in many ways, particularly in terms of V oc as determined by total cell J o (Eq. ( <ref type="formula">1</ref>)) and resistive losses <ref type="bibr" target="#b53">[56]</ref>. The 25% efficient PERL devices have a total J o of only 50 fA/cm 2 while a typical 20-21% efficient commercial PERC cell may have a value over 300 fA/cm 2 with over half of this coming from the emitter region <ref type="bibr" target="#b50">[53,</ref><ref type="bibr" target="#b52">55,</ref><ref type="bibr" target="#b53">56]</ref>.</p><p>This makes attention to emitter design important for realizing the highest efficiencies in the near term. The 25% devices have a J o contribution from this region of only 15 fA/cm 2 <ref type="bibr" target="#b53">[56]</ref>, showing what is ultimately feasible. Values below 80 fA/cm 2 are suggested as feasible for commercial devices in the near term using a selective emitter approach <ref type="bibr" target="#b50">[53]</ref>, as in the PERC cells of Fig. <ref type="figure" target="#fig_7">8</ref>, although advanced homogeneous emitters are also regarded as an option <ref type="bibr" target="#b52">[55]</ref>. Reducing emitter contributions to J o will then bring the rear contact of the PERC cell into focus as the performancelimiting feature.</p><p>Attention to the surface recombination velocity along the noncontacted regions of the rear surface <ref type="bibr" target="#b49">[52]</ref> as well as to the formation of the doped region in the contact areas <ref type="bibr" target="#b50">[53,</ref><ref type="bibr" target="#b52">55]</ref> is expected to bring the rear surface contribution to J o below that of the emitter, then elevating recombination in the bulk of the device to being the major contributor to J o , determined by the combination of minority carrier lifetime and doping level in these regions. B-doped, p-type wafers presently dominate commercial production. A key advantage is the near-unity liquid to solid segregation coefficient of B that means its concentration remains reasonably constant along the manufactured ingots, whether mono-or multicrystalline. A disadvantage is that B forms a complex with O that is activated under illumination, restricting the bulk minority carrier lifetime in fielded devices <ref type="bibr" target="#b54">[57]</ref><ref type="bibr" target="#b55">[58]</ref><ref type="bibr" target="#b56">[59]</ref>.</p><p>For this reason, there have been suggestions that the industry needs to move as a whole to P-doped, n-type monocrystalline wafers, which is also a feasible substrate for high-performance PERC cells. Since P does not form such detrimental defects with O, this allows higher lifetimes in standard Czochralski (CZ) grown ingots. Companies such as SunPower and Panasonic use n-type wafers to produce modules attracting premium prices for the high-efficiency end of the present market (double to triple those of standard product <ref type="bibr" target="#b57">[60]</ref>). However, the lower P segregation coefficient means that there is a greater resistivity variation along the CZ ingot than with B.</p><p>To maintain tight production spreads and performance levels close to champion devices, some manufacturers are said to use as little as 35% of each P-doped ingot <ref type="bibr" target="#b58">[61]</ref>. Using a greater portion of the ingot may be one reason for the large differences noted with other technologies, such as heterojunction devices, between champion and production devices. Going to continuous CZ growth provides an opportunity to reduce resistivity variations, but this may be self-defeating, since the longer growth times are likely not consistent with obtaining the desired highest possible carrier lifetimes <ref type="bibr" target="#b58">[61]</ref>. In any case, P-doping does not appear suitable for the multicrystalline ingots that form the backbone of the present industry, due to this dopant segregation issue.</p><p>Given these issues and the present industry momentum, it seems likely that p-type wafers will remain the industry norm well into the future. If recently reported progress <ref type="bibr" target="#b54">[57]</ref><ref type="bibr" target="#b55">[58]</ref><ref type="bibr" target="#b56">[59]</ref> with rapid and permanent deactivation of the B-O defect can be brought into production, millisecond bulk lifetimes might be a standard option using p-type CZ wafers. This corresponds to a bulk contribution to J o of less than 40 fA/cm 2 <ref type="bibr" target="#b50">[53]</ref>. Alternatively, other p-type dopants such as Ga or In that do not form harmful defects with O could be used for monocrystalline material, while maintaining processing compatibility with B-doped multcrystalline material. Lifetimes in the latter material are rapidly improving, with recent reports of lifetimes of 0.4 ms averaged over a grown ingot <ref type="bibr" target="#b59">[62]</ref>.</p><p>With such improved bulk lifetime, the emitter region may then again require further refinement, putting another cycle of incremental improvements into effect. Resistive losses can be lowered towards those of laboratory devices by increasing the number of busbars, with a multi-wire approach suggested as the ultimate solution in this regard <ref type="bibr" target="#b52">[55]</ref>. This allows contact by narrow plated top contacts, with 24.4% efficiency for a 156 mm by 156 mm cell predicted by detailed modelling by such continuous development of existing fabrication technology, leading to the conclusion that PERC cells will set a moving target and dominate the market for some time to come <ref type="bibr" target="#b52">[55]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Conclusion</head><p>As manufacturers move past the 20% efficiency mark in production, the standard Al-BSF approach that has been the dominant commercial approach for the last 30 years is in the process of being surpassed by a fundamentally higher efficiency approach. Although high silicon cell efficiency has been obtained in production with both rear junction and heterojunction approaches, these require specialized high-quality, n-type monocrystalline wafers. The PERC cell approach has the advantage of being able to tolerate both monocrystalline and multicrystalline substrates of either polarity, while demonstrating similar efficiencies to the above approaches on good quality substrates.</p><p>This robustness and compatibility with existing product production lines is considered likely to see the approach surpass the standard approach by 2020 in terms of capacity share <ref type="bibr" target="#b37">[39]</ref>. PERC uptake is likely to lead to an era of accelerated silicon solar cell performance increase as the full capabilities of this technology are exploited. Just as commercial solar cell efficiencies have approached the performance of the best laboratory Al-BSF solar cells, it is anticipated that the PERC technology will also approach that of the best laboratory cells with efficiency of 25% <ref type="bibr" target="#b4">[5]</ref> through a process of on-going incremental improvements. Recent simulations confirm the feasibility of such efficiencies through the continuous development of existing technologies <ref type="bibr" target="#b52">[55]</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. First diagram of PERC cell [2,3] (PERT configuration: Passivated Emitter, Rear Totally-diffused). More information on different PERC configurations is given subsequently in Fig. 8, with redefined acronyms to better reflect present usage.</figDesc><graphic coords="2,81.24,58.62,173.75,115.77" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. The PESC solar cell, the most efficient Si cell at the time of PERC cell proposal [4].</figDesc><graphic coords="2,78.07,220.93,180.00,127.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig.3. Reduced contact area as a way of reducing contact recombination<ref type="bibr" target="#b7">[8]</ref>.</figDesc><graphic coords="2,80.05,386.36,176.17,134.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Oxide passivation as a way of reducing surface recombination in MIS solar cells as well as related MINP cells, with the latter differentiated by an n-type diffused layer under the oxide.</figDesc><graphic coords="2,350.42,58.62,173.30,74.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Early history of V oc improvement in Si cells, demonstrating the effectiveness of UNSW oxide passivation.</figDesc><graphic coords="2,347.02,182.38,180.00,157.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Measured reflectance nominally at the rear alloyed Al/Si interface as a function of alloying conditions [17].</figDesc><graphic coords="3,63.55,163.16,189.35,163.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Early UNSW measurements of effects of intervening dielectric layer on rear Al reflection (evaporated SiO was used as a dielectric since the ability to grow thick thermal oxides had not been established at UNSW at the time).</figDesc><graphic coords="3,66.44,366.29,183.63,118.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. The Passivated Emitter and Rear Cell (PERC) family. (a) Simple PERD cell (Passivated Emitter, Rear Directly-contacted); (b) PERL cell (Passivated Emitter, Rear Locallydoped); (c) PERT cell (Passivated Emitter, Rear Totally-diffused); (d) PERF cell (Passivated Emitter, Rear Floating-junction). The PERC configurations now most widely implemented are the PERL and PERT.</figDesc><graphic coords="3,38.04,533.65,509.52,181.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. Evolution of Si cell efficiency [5].</figDesc><graphic coords="4,78.07,58.62,180.00,206.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 10 .</head><label>10</label><figDesc>Fig. 10. Buried contact solar cell.</figDesc><graphic coords="4,78.07,299.23,180.00,141.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 11 .</head><label>11</label><figDesc>Fig. 11. Metallisation pattern used for 68 mm Â 68 mm buried contact cells.</figDesc><graphic coords="4,347.02,58.62,180.00,180.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 12 .Fig. 13 .Fig. 14 .</head><label>121314</label><figDesc>Fig.12. Rapid increase in PERC manufacturing capacity (2012-2014)<ref type="bibr" target="#b35">[37]</ref>.</figDesc><graphic coords="5,103.04,583.49,141.88,117.01" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 15 .</head><label>15</label><figDesc>Fig. 15. Simplified process flow for Al-BSF (upper) and PERC (lower) sequences.</figDesc><graphic coords="6,137.54,58.62,330.26,74.15" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>M.A. Green / Solar Energy Materials &amp; Solar Cells 143 (2015) 190-197</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgement</head><p>The <rs type="institution">Australian Centre for Advanced Photovoltaics</rs> is supported by the <rs type="funder">Australian Government</rs> through the <rs type="funder">Australian Renewable Energy Agency (ARENA)</rs> (<rs type="grantNumber">SRI-001</rs>). Responsibility for the views, information or advice expressed herein is not accepted by the <rs type="funder">Australian Government</rs>. The author thanks the many colleagues who contributed to PERC cell development within his group, notably <rs type="person">Aihua Wang</rs>, <rs type="person">Andrew Blakers</rs>, <rs type="person">Jianhua Zhao</rs> and <rs type="person">Stuart Wenham</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_rS4BBpr">
+					<idno type="grant-number">SRI-001</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Blakers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Milne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Efficient Silicon Solar Cell, Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1363" to="1365" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Ultimate Performance Silicon Solar Cells, Final</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Blakers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kurianski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Narayanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Szpitalak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taouk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Wenham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Willison</surname></persName>
+		</author>
+		<idno>NERDDP Project 81/1264</idno>
+		<imprint>
+			<date type="published" when="1984-12-83">Jan. 82-Dec. 83. 1984</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Report</note>
+	<note>dated Feb.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">High Efficiency Silicon Solar Cells</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proposal in response to RFP RB-4-04033, SERI (now NREL)</title>
+		<imprint>
+			<date type="published" when="1984-03">March, 1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">efficient silicon solar cell</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Blakers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Wenham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1%</biblScope>
+			<biblScope unit="page" from="1163" to="1165" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The path to 25% silicon solar cell efficiency: History of silicon cell evolution</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Photovolt</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="183" to="189" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The application of implantation to thin silicon cells</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Burrill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Stirrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 6th IEEE Photovoltaic Specialists Conference</title>
+		<meeting>the 6th IEEE Photovoltaic Specialists Conference</meeting>
+		<imprint>
+			<publisher>Cacoa Beach</publisher>
+			<date type="published" when="1967">1967</date>
+			<biblScope unit="page" from="81" to="97" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Oxidation condition dependence of surface passivation in high efficiency silicon solar cells</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Blakers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="818" to="820" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Enhancement of Schottky solar cell efficiency above its semiempirical limit</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="287" to="288" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Current transport in metal-semiconductor barriers</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Crowell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Sze</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Solid-State Electron</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1035</biblScope>
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Minority carrier effects upon the small signal and steady-state properties of Schottky diodes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shewchun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Solid-State Electron</title>
+		<imprint>
+			<biblScope unit="page" from="1141" to="1150" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lindmayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Allison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dotted Contact Fine Geometry Solar Cell, U.S. Patent</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="1976-09-28">September 28, 1976</date>
+		</imprint>
+	</monogr>
+	<note>Assigned to COMSAT</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Surface effects in high voltage silicon solar cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Meulenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Arndt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 16th IEEE PV Specialists Conference</title>
+		<meeting>the 16th IEEE PV Specialists Conference</meeting>
+		<imprint>
+			<date type="published" when="1982">1982</date>
+			<biblScope unit="page" from="348" to="353" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">MIS solar cell-general theory and new experimental results for silicon</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Godfrey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="610" to="612" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">678 mV open circuit voltage silicon solar cell</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Blakers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="483" to="485" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">High efficiency p þ -n-n þ back-surface-field silicon solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Fossum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Burgess</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">238</biblScope>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sparks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Pryor</surname></persName>
+		</author>
+		<title level="m">Proceedings of the 14th IEEE Photovoltaic Specialists Conference</title>
+		<meeting>the 14th IEEE Photovoltaic Specialists Conference<address><addrLine>San Diego</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1980-01">January 1980</date>
+			<biblScope unit="page" from="783" to="786" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">High efficiency solar cells</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Wrigley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 12th IEEE Photovoltaic Specialists Conference</title>
+		<meeting>the 12th IEEE Photovoltaic Specialists Conference<address><addrLine>Baton Rouge</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1976">1976</date>
+			<biblScope unit="page" from="343" to="346" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">A 20% efficient photovoltaic concentrator module, conference record, 21st IEEE Photovoltaic Specialists Conference</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Richards</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990-05">May 1990</date>
+			<biblScope unit="page" from="861" to="863" />
+			<pubPlace>Kissimmee</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Low-Temperature surface passivation of silicon for solar cells</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hezel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jaeger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Electrochem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="518" to="523" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">High efficiency n-type Si solar cells on Al 2 O 3 -passivated boron emitters</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Benick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hoex</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C M</forename><surname>Van De Sanden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M M</forename><surname>Kessels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Glunz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">25</biblScope>
+			<biblScope unit="page" from="253504" to="253504" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Laser Grooved Solar Cell</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Wenham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Australian Patent 565,214; U.S. Patent</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">95</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Wenham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">309; U.S. Patents 4,726,850 and 4,748,130; Taiwanese Patent N1024881; Indian Patent 164492</title>
+		<title level="s">South Korean Patent</title>
+		<imprint>
+			<biblScope unit="volume">570</biblScope>
+			<biblScope unit="page" from="1" to="08" />
+		</imprint>
+	</monogr>
+	<note>German Patent P</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">High efficiency laser grooved, buried contact solar cell</title>
+		<author>
+			<persName><forename type="first">Chong</forename><surname>Chee Mun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Wenham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="407" to="409" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">TOLEDO PV Plant 1 MWp -20 years of operation, 30th EUPVSEC</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alonso-Abella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chenlo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alonso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>González</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014-09">September 2014</date>
+			<pubPlace>Amsterdam</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Buried Contact Silicon Concentrator Solar Cells</title>
+		<author>
+			<persName><forename type="first">Fuzu</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<pubPlace>Sydney</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>The University of New South Wales</orgName>
+		</respStmt>
+	</monogr>
+	<note>Ph.D thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Chong</forename><surname>Chee Mun</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+			<pubPlace>Sydney</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Buried Contact Solar Cells, University of New South Wales</orgName>
+		</respStmt>
+	</monogr>
+	<note>Ph.D thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Laser-fired rear contacts for crystalline silicon solar cells</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schneiderlöchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Preu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lüdemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Glunz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Photovolt.: Res. Appl</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="29" to="34" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">20% efficient photovoltaic module</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taouk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Wenham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electron Device Lett. EDL</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="539" to="541" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Improved efficiency silicon solar cell module</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Abbaspour-Sani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Electron Device Lett</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="48" to="50" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Silicon photovoltaic modules: a brief history over the first 50 years</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Photovolt</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="447" to="455" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Mass production of the innovative Pluto solar cell technology</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Wenham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 34th IEEE Photovoltaic Specialists Conference</title>
+		<meeting>the 34th IEEE Photovoltaic Specialists Conference<address><addrLine>Philadelphia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Advanced PERC and PERL production cells with 20.3% record efficiency for standard commercial p-type silicon wafers</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sugianto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hallam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Wenham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Photovolt.: Res. Appl</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="260" to="268" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Manufacturing of 300Wp Modules by Industrialization of PERC Solar Cell Technology Including Crystal</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Arndt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stichtenoth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reinicke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schröder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scherr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Weser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Voigt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Olwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Satian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Döring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Neitzert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Geiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gybin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dreckschmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Neusel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Altmannshofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Markscheffel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Froitzheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schneiderloechner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 29th European Photovoltaic Solar Energy Conference and Exhibition</title>
+		<meeting>the 29th European Photovoltaic Solar Energy Conference and Exhibition</meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Optimizing Celco cell Technology in one year of ass production</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tjahjono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sziptalak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-P</forename><surname>Sperlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hengst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beilby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-C</forename><surname>Hsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 28th European Photovoltaic Solar Energy Conference and Exhibition</title>
+		<meeting>the 28th European Photovoltaic Solar Energy Conference and Exhibition</meeting>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">PERC ,solar cell technology gaining ground in 2014</title>
+		<author>
+			<persName><forename type="first">Jade</forename><surname>Jones</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014-08-14">August 14, 2014</date>
+			<publisher>GTM Research</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">PERC capacity hits 2.5 GW and offers new technology buy cycle option</title>
+		<author>
+			<persName><forename type="first">Finlay</forename><surname>Colville</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014-08-14">August 14, 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Efficiency enhancements to define solar PV technology roadmap for the next five years, Solarbuzz</title>
+		<author>
+			<persName><surname>Anon</surname></persName>
+		</author>
+		<ptr target="〈http://www.solarbuzz.com/news/recent-findings/efficiency-enhancements-define-solar-pv-technology-roadmap-next-five-years-acco〉" />
+		<imprint>
+			<date type="published" when="2014-10-14">October 14, 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">International Technology Roadmap for Photovoltaic (ITRPV), Sixth Edition</title>
+		<author>
+			<persName><surname>Anon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015-04">April 2015</date>
+		</imprint>
+	</monogr>
+	<note>www.itrpv.net</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">First-Tier China solar cell makers expected to have 1.0-1.2GWp PERC capacity, DIGITIMES</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hwang</surname></persName>
+		</author>
+		<ptr target="www.digitimes.com/pda/a20150226PD205.html" />
+		<imprint>
+			<date type="published" when="2015-02">Feb. 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Wet chemical polishing for industrial type PERC solar cells</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kranz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wyczanowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Baumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Weise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Delahaye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dullweber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brendel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Procedia</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="243" to="249" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">How much rear side polishing is required? A study on the impact of rear side polishing in PERC solar cells</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cornagliotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Auruena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Horzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hendrickx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Prajapati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hoyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Delahaye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Queisser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nussbaumer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Poortmans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Photovoltaic Solar Energy Conference and Exhibition</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The effects of rear-side morphology on PERC cells by alkaline etching, 28th</title>
+		<author>
+			<persName><forename type="first">C-W</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P-T</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-L</forename><surname>Lue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C-H</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Photovoltaic Solar Energy Conference and Exhibition</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Ultrasonic mapping of voids generated during the LBSF formation of PERC solar cells, 29th</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dhamrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Matsubara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nisho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Photovoltaic Solar Energy Conference and Exhibition</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">21% p-type industrial PERC cells with homogeneous emitter profile and thermally grown oxidation layer, Proceedings of the 42nd IEEE Photovoltaic Specialists Conference</title>
+		<author>
+			<persName><forename type="first">L-C</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-C</forename><surname>Kao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P-S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L-W</forename><surname>Cheng</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">June 14-19, 2015</date>
+			<pubPlace>New Orleans</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Influence of solder pads to PERC solar cells for module integration</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kiefer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brendemuḧl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Berger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lohse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kirstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lehr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Heinemeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morlier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Blankemeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kunze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Winter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-P</forename><surname>Harder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dullweber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kontges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brendel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Procedia</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="368" to="374" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Increase of the strength of screen printed silicon solar cells by post treatments, 25th European Photovoltaic Solar Energy Conference and Exhibition/5th World Conference on Photovoltaic Energy Conversion</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kuebler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krappitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kleer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010-09-10">6-10 September 2010</date>
+			<biblScope unit="page" from="2062" to="2065" />
+			<pubPlace>Valencia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Cost Modeling of silicon solar cell production innovation along the PV value chain, in: Proceedings of the 27th</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Voigt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Friedrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hädrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mittag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wirth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Thaidigsmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Brucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rentschand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Preu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Photovoltaic Solar Energy Conference and Exhibition</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Percium Mono 60/275-295 Data Sheet</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Solar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014-09">September 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">PERC solar cells steadily gaining steam in PV manufacturing</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<ptr target="http://www.solarchoice.net.au/blog/news/perc-solar-cells-steadily-gaining-steam-in-pv-160215" />
+	</analytic>
+	<monogr>
+		<title level="m">17 February</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Sensitivity analysis of industrial multicrystalline PERC silicon solar cells by means of 3-D device simulation and metamodeling</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Altermatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Photovolt</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="107" to="113" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Altermatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Mcintosh</surname></persName>
+		</author>
+		<title level="m">A roadmap for PERC cell efficiency towards 22%, focused on technology-related constraints, Energy Procedia</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="17" to="21" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Simulation based development of industrial PERC cell production beyond 20.5% efficiency</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Strauch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wolny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schiepe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fulle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lottspeich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Steckemetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schneiderloechner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-H</forename><surname>Stegemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Neuhaus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Procedia</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="425" to="430" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Incremental efficiency improvements of mass-produced PERC cells up to 24%, predicted solely with continuous development of existing technologies and wafer materials</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-H</forename><surname>Neuhausand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Altermatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 30th European Photovoltaic Solar Energy Conference and Exhibition</title>
+		<meeting>the 30th European Photovoltaic Solar Energy Conference and Exhibition</meeting>
+		<imprint>
+			<date type="published" when="2015-09">September 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Input parameters for the simulation of silicon solar cells in 2014</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Mcintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Altermatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J M</forename><surname>Janssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stangl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ho-Baillie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Steinkemper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greulich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Fong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hermle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Romijn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Abbott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Photovolt</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1250" to="1263" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Influence of bound hydrogen states on BO-regeneration kinetics and consequences for high-speed regeneration processes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wilking</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Herguth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sol. Energy Mater. Sol. Cells</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="2" to="8" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Lifetimes exceeding 1 ms in 1-Ω cm boron-doped Cz-silicon</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bothe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Falster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Voronkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schmidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sol. Energy Mater. Sol. Cells</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="51" to="57" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Evidence for the role of hydrogen in the stabilization of minority carrier lifetime in borondoped Czochralski silicon</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nampalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hallam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Abbott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Wenham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page">173501</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Priced to sell</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mints</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PV Magazine</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="108" to="109" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">N-type silicon solar cell technology: ready for take off?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Libal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kopecek</surname></persName>
+		</author>
+		<ptr target="〈http://www.pvtech.org/guest_blog/n_type_silicon_solar_cell_technology_ready_for_take_off〉" />
+		<imprint>
+			<date type="published" when="2015-03-17">17 March 2015</date>
+		</imprint>
+	</monogr>
+	<note>and comments. accessed 25.06.15</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">High Performance Multicrystalline Wafers with Lifetime of 400 μs at Industrial Scale</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Altermatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Verlinden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 42nd IEEE Photovoltaic Specialists Conference</title>
+		<meeting>the 42nd IEEE Photovoltaic Specialists Conference<address><addrLine>New Orleans</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015">June 14-19, 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

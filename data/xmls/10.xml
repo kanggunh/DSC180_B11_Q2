@@ -1,0 +1,1911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+				<funder ref="#_rAHpaAd">
+					<orgName type="full">Solar Energy Technologies Office</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Korea Institute of Energy Technology Evaluation and Planning</orgName>
+					<orgName type="abbreviated">KETEP</orgName>
+				</funder>
+				<funder ref="#_ECjHBte">
+					<orgName type="full">UC Irvine Materials Research Science and Engineering Center</orgName>
+				</funder>
+				<funder ref="#_yqfxqe5">
+					<orgName type="full">US Department of Energy</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">US Department of Energy&apos;s Office of Energy Efficiency and Renewable Energy</orgName>
+					<orgName type="abbreviated">EERE</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Center for High-Performance Computing of Turkey (UHEM)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NRF</orgName>
+				</funder>
+				<funder ref="#_KtvVxPy #_zUWv4DZ">
+					<orgName type="full">Korea government (MOTIE)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Research Foundation of Korea</orgName>
+					<orgName type="abbreviated">NRF</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Office of Science, Office of Basic Energy Sciences</orgName>
+				</funder>
+				<funder ref="#_3rYJa3B #_BHQbMKy">
+					<orgName type="full">Korea government (MSIT)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">POSCO TJ Park Foundation</orgName>
+				</funder>
+				<funder ref="#_HRQbJT8">
+					<orgName type="full">National Science Foundation</orgName>
+					<orgName type="abbreviated">NSF</orgName>
+				</funder>
+				<funder ref="#_ZeK9xdd">
+					<orgName type="full">MSIT</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-03-15">15 March 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Shaun</forename><surname>Tan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<postCode>90095</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff16">
+								<orgName type="institution" key="instit1">SKKU Institute of Energy Science &amp; Technology (SIEST)</orgName>
+								<orgName type="institution" key="instit2">Sungkyunkwan University</orgName>
+								<address>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tianyi</forename><surname>Huang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<postCode>90095</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff16">
+								<orgName type="institution" key="instit1">SKKU Institute of Energy Science &amp; Technology (SIEST)</orgName>
+								<orgName type="institution" key="instit2">Sungkyunkwan University</orgName>
+								<address>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ilhan</forename><surname>Yavuz</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">Marmara University</orgName>
+								<address>
+									<postCode>34722</postCode>
+									<settlement>Ziverbey</settlement>
+									<region>Istanbul</region>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">Marmara University</orgName>
+								<address>
+									<settlement>Istanbul</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff16">
+								<orgName type="institution" key="instit1">SKKU Institute of Energy Science &amp; Technology (SIEST)</orgName>
+								<orgName type="institution" key="instit2">Sungkyunkwan University</orgName>
+								<address>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rui</forename><surname>Wang</surname></persName>
+							<email>wangrui@westlake.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<postCode>90095</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="institution" key="instit1">Westlake University and Institute of Advanced Technology</orgName>
+								<orgName type="institution" key="instit2">Westlake Institute for Advanced Study</orgName>
+								<address>
+									<postCode>310024</postCode>
+									<settlement>Hangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">School of Engineering</orgName>
+								<orgName type="institution" key="instit1">Westlake University and Institute of Advanced Technology</orgName>
+								<orgName type="institution" key="instit2">Westlake Institute for Advanced Study</orgName>
+								<address>
+									<settlement>Hangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Taegeun</forename><forename type="middle">Woong</forename><surname>Yoon</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Nanoengineering</orgName>
+								<orgName type="institution" key="instit1">SKKU Advanced Institute of Nanotechnology</orgName>
+								<orgName type="institution" key="instit2">Sungkyunkwan University</orgName>
+								<address>
+									<postCode>16419</postCode>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff11">
+								<orgName type="department">Department of Nanoengineering</orgName>
+								<orgName type="institution" key="instit1">SKKU Advanced Institute of Nanotechnology</orgName>
+								<orgName type="institution" key="instit2">Sungkyunkwan University</orgName>
+								<address>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Nanoengineering</orgName>
+								<orgName type="institution" key="instit1">SKKU Advanced Institute of Nanotechnology</orgName>
+								<orgName type="institution" key="instit2">Sungkyunkwan University</orgName>
+								<address>
+									<postCode>16419</postCode>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff11">
+								<orgName type="department">Department of Nanoengineering</orgName>
+								<orgName type="institution" key="instit1">SKKU Advanced Institute of Nanotechnology</orgName>
+								<orgName type="institution" key="instit2">Sungkyunkwan University</orgName>
+								<address>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mingjie</forename><surname>Xu</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution" key="instit1">Irvine Materials Research Institute</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<postCode>92697</postCode>
+									<settlement>Irvine</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff12">
+								<orgName type="institution" key="instit1">Irvine Materials Research Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Irvine</orgName>
+								<address>
+									<settlement>Irvine</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Qiyu</forename><surname>Xing</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<postCode>90095</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Keonwoo</forename><surname>Park</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Nanoengineering</orgName>
+								<orgName type="institution" key="instit1">SKKU Advanced Institute of Nanotechnology</orgName>
+								<orgName type="institution" key="instit2">Sungkyunkwan University</orgName>
+								<address>
+									<postCode>16419</postCode>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff11">
+								<orgName type="department">Department of Nanoengineering</orgName>
+								<orgName type="institution" key="instit1">SKKU Advanced Institute of Nanotechnology</orgName>
+								<orgName type="institution" key="instit2">Sungkyunkwan University</orgName>
+								<address>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Do-Kyoung</forename><surname>Lee</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">School of Chemical Engineering</orgName>
+								<orgName type="institution">Sungkyunkwan University</orgName>
+								<address>
+									<postCode>16419</postCode>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff13">
+								<orgName type="department">School of Chemical Engineering</orgName>
+								<orgName type="institution">Sungkyunkwan University</orgName>
+								<address>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chung-Hao</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<postCode>90095</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">National Yang Ming Chiao Tung University</orgName>
+								<address>
+									<postCode>30010</postCode>
+									<settlement>Hsinchu</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff14">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">National Yang Ming Chiao Tung University</orgName>
+								<address>
+									<settlement>Hsinchu</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ran</forename><surname>Zheng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<postCode>90095</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yepin</forename><surname>Zhao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<postCode>90095</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hao-Cheng</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<postCode>90095</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">National Yang Ming Chiao Tung University</orgName>
+								<address>
+									<postCode>30010</postCode>
+									<settlement>Hsinchu</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff14">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">National Yang Ming Chiao Tung University</orgName>
+								<address>
+									<settlement>Hsinchu</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dong</forename><surname>Meng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<postCode>90095</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jingjing</forename><surname>Xue</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<postCode>90095</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Young</forename><forename type="middle">Jae</forename><surname>Song</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Nanoengineering</orgName>
+								<orgName type="institution" key="instit1">SKKU Advanced Institute of Nanotechnology</orgName>
+								<orgName type="institution" key="instit2">Sungkyunkwan University</orgName>
+								<address>
+									<postCode>16419</postCode>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff11">
+								<orgName type="department">Department of Nanoengineering</orgName>
+								<orgName type="institution" key="instit1">SKKU Advanced Institute of Nanotechnology</orgName>
+								<orgName type="institution" key="instit2">Sungkyunkwan University</orgName>
+								<address>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaoqing</forename><surname>Pan</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution" key="instit1">Irvine Materials Research Institute</orgName>
+								<orgName type="institution" key="instit2">University of California</orgName>
+								<address>
+									<postCode>92697</postCode>
+									<settlement>Irvine</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">Department of Materials Science and Engineering and Department of Physics and Astronomy</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>92697</postCode>
+									<settlement>Irvine</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff12">
+								<orgName type="institution" key="instit1">Irvine Materials Research Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Irvine</orgName>
+								<address>
+									<settlement>Irvine</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff15">
+								<orgName type="department">Department of Materials Science and Engineering and Department of Physics and Astronomy</orgName>
+								<orgName type="institution">University of California Irvine</orgName>
+								<address>
+									<settlement>Irvine</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nam-Gyu</forename><surname>Park</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">School of Chemical Engineering</orgName>
+								<orgName type="institution">Sungkyunkwan University</orgName>
+								<address>
+									<postCode>16419</postCode>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff13">
+								<orgName type="department">School of Chemical Engineering</orgName>
+								<orgName type="institution">Sungkyunkwan University</orgName>
+								<address>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jin-Wook</forename><surname>Lee</surname></persName>
+							<email>jw.lee@skku.edu</email>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Nanoengineering</orgName>
+								<orgName type="institution" key="instit1">SKKU Advanced Institute of Nanotechnology</orgName>
+								<orgName type="institution" key="instit2">Sungkyunkwan University</orgName>
+								<address>
+									<postCode>16419</postCode>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff11">
+								<orgName type="department">Department of Nanoengineering</orgName>
+								<orgName type="institution" key="instit1">SKKU Advanced Institute of Nanotechnology</orgName>
+								<orgName type="institution" key="instit2">Sungkyunkwan University</orgName>
+								<address>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yang</forename><surname>Yang</surname></persName>
+							<email>yangy@ucla.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<postCode>90095</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution" key="instit1">California NanoSystems Institute</orgName>
+								<orgName type="institution" key="instit2">University of California Los Angeles</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff17">
+								<orgName type="department">Center for Integrated Nanostructure Physics</orgName>
+								<orgName type="institution">Institute for Basic Science (IBS)</orgName>
+								<address>
+									<settlement>Suwon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-03-15">15 March 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0DCC7048989A2C28835AC083C762FE78</idno>
+					<idno type="DOI">10.1038/s41586-022-04604-5</idno>
+					<note type="submission">Received: 4 May 2021 Accepted: 2 March 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T17:57+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 1: Further discussion on the heterointerface energy band diagrams</head><p>In Extended Data Fig. <ref type="figure" target="#fig_11">3</ref>, the perovskite bulk work function should also be affected by ΔEvac. This is because the less negative ΔEvac by replacing OAI treatment with OATsO treatment resultantly delocalizes the accumulated electrons in the potential well, which enhances the electron density and thus electron quasi-fermi level (𝐸 𝑓𝑛 ) work function of the perovskite bulk. Moreover, the change in bulk work function by surface treatment would also affect the band alignment and thus charge accumulation at the perovskite/SnO2 heterointerface. Indeed, a slightly increased hole accumulation was observed for the OATsO-treated device (Fig. <ref type="figure" target="#fig_13">1h,</ref><ref type="figure">i</ref>). However, although the hole quasi-fermi level (𝐸 𝑓𝑝 ) for the OATsO-treated device slightly up-shifted, its increase is not as significant as 𝐸 𝑓𝑛 . The overall effect on the quasi-fermi level splitting is consistent with the slight VOC enhancement by replacing OAI treatment with OATsO treatment (Extended Data Fig. <ref type="figure">5</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 2: Derivation of the charge density distribution from KPFM</head><p>The electric field distribution across the device cross section, E(𝑧), was calculated from the contact potential difference, V(𝑧), according to the equation: 1</p><formula xml:id="formula_0">𝐸(𝑧) = - 𝑑 𝑑𝑧 [𝑉(𝑧) - Φ tip (𝑧) 𝑒 ] = - 𝑑 𝑑𝑧 𝑉(𝑧)</formula><p>where Φ tip (𝑧) is the work function of the probe and 𝑒 is the elementary charge.</p><p>Φ tip (𝑧) 𝑒 is constant. The charge density distribution in a device, ∆𝜌(𝑧), is then given by: 1</p><formula xml:id="formula_1">∆𝜌(𝑧) = 𝜖 0 𝜖 𝑟 𝑑 𝑑𝑧 𝐸(𝑧)</formula><p>where 𝜖 0 and 𝜖 𝑟 are the vacuum and relative permittivity, respectively. In accordance with the previous report, <ref type="bibr">1</ref> the data were smoothened with the Savitzky-Golay processing by a second order polynomial regression and the same ratio of data points.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 3: Further discussion on the low-dimensional phase formation</head><p>Surface-sensitive GIXRD (ω = 0.2°, penetration depth &lt;60 nm) revealed that only OAI and OABr treatments form 2D perovskites. OABF4, OATFA, and OATsO all did not form 2D perovskites (Supplementary Fig. <ref type="figure">8</ref>), likely due to steric hindrance and the inability of asymmetrical counter-anions to be shaped into the ordered PbX6 4-octahedrons. We note that the observed negative ΔEvac and consequent charge obstruction/accumulation is separate and likely unrelated from 2D formation: (1)   OABF4 and OATFA do not form 2D perovskites, but their ΔEvac is still negative; (2) 2D perovskites are known to have low conductivity. Fundamentally, the low conductivity is because of the large organic cation (e.g. insulating alkyl group of alkylammonium), not the iodide or bromide anion. In this work, the organic cation is fixed as octylammonium; Based on Fig. <ref type="figure" target="#fig_10">2e</ref> and Extended Data Fig. <ref type="figure">5</ref>, we observed that the varying performance of the surfacepassivated devices is mainly contributed by their differing FFs. A reduced FF is indicative of less efficient charge extraction. We postulate that this is related to ΔEvac as follows:</p><p>Firstly, the negative ΔEvac deepened the valence band offset (Supplementary Table <ref type="table">1</ref>) to worsen the energy level mismatch with spiro-MeOTAD (HOMO level: -5.2 eV). This sacrifices FF by reducing hole extraction into spiro-MeOTAD, which is observed as an increased charge extraction lifetime from the PL results (Fig. <ref type="figure" target="#fig_10">2c,</ref><ref type="figure" target="#fig_10">2d</ref>). Similar phenomenon has been observed in published works that studied the charge extraction time after surface treatment by conventional alkylammonium salts paired with iodide or bromide as the counteranion. <ref type="bibr">2,</ref><ref type="bibr">3</ref> Secondly, the negative ΔEvac created the heterointerface energy barrier seen from the KPFM device profiling, which also contributed to impede charge extraction to reduce FF. <ref type="bibr">1,</ref><ref type="bibr">4,</ref><ref type="bibr">5</ref> ΔEvac progressively became less negative going from OAI treatment (-0.37 eV), to OABF4 treatment (-0.22 eV), and to OATsO treatment (+0.07 eV). This minimizes the inefficient charge extraction trade-off, therefore maximizing the FF and PCE gains enabled by surface treatment.</p><p>Consequently, the OATsO-treated devices have the best performance.</p><p>On the other hand, we observed that the VOC of the surface-passivated devices, while still different, are relatively less affected by a negative ΔEvac and inefficient charge extraction. Contrary to popular belief, from the perspective of the fundamental physics of solar cell operation, series resistance is actually not directly correlated with VOC. <ref type="bibr">6,</ref><ref type="bibr">7</ref> Fundamentally, this is because at V=VOC, the current flow across a solar cell, in other words the current flow through the series resistance, is exactly equal to zero (I=0). <ref type="bibr">7</ref> Published perovskite literature have also reported that the device FF can be more sensitive than VOC to inefficient charge extraction and potential energy barriers, <ref type="bibr">4,</ref><ref type="bibr">5</ref> which supports our device results.</p><p>Finally, we further validated the generality of our observations and universality of our proposed strategy by applying it to a different, pure FAPbI3 composition with DMSO replaced with NMP (fabrication details included in Methods). The results are presented in Extended Data Fig. <ref type="figure">8</ref> and Supplementary Table <ref type="table">3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 5: Contrasting the device degradation under MPP aging versus OC aging</head><p>In general, we observed that all devices were less stable under OC stability test, compared to their corresponding degradation rate under MPP stability test. This is consistent with previous reports that studied PSC degradation behavior under different aging conditions. <ref type="bibr">8</ref> That previous study showed that PSC degradation rate increases in the trend MPP aging &lt; short-circuit aging &lt; OC aging (i.e. PSCs have the worst stability under OC aging). Therefore, the OC stability test can be used to represent a conservative estimate of the PSC lifetime under maximum accelerated degradation, although we note that MPP aging is more truly reflective of real working PSCs.</p><p>Relatedly, a rapid "burn-in" decay stage is often observed during the first ~100 h of aging during PSC photostability tests. <ref type="bibr">[8]</ref><ref type="bibr">[9]</ref><ref type="bibr">[10]</ref><ref type="bibr">[11]</ref> Importantly, the "burn-in" decay has been shown to be more severe for OC aging, and less severe for MPP aging. <ref type="bibr">8</ref> This is also consistent with our own observations (Fig. <ref type="figure" target="#fig_10">2f</ref>).</p><p>Although the "burn-in" decay is less noticeable under MPP stability tests, it nevertheless still exists, where the devices decayed at a more rapid rate in the first 100 h compared to the following ~400 h (Fig. <ref type="figure" target="#fig_10">2f</ref>, Supplementary Table <ref type="table" target="#tab_2">4</ref>). Specifically, the OABF4-treated device performance decreased by -0.029 %/h in the first 100 h, compared to -0.014 %/h in the next 400 h. The OAI-treated device performance decreased by -0.064 %/h in the first 100 h, compared to -0.022 %/h for the next 400 h.</p><p>Remarkably, the OATsO-treated devices displayed no obvious "burn-in" decay in both MPP aging and OC aging. General n-i-p devices are notoriously plagued by crippling initial "burn-in" decays, <ref type="bibr">8,</ref><ref type="bibr">12</ref> so this improvement was already noteworthy.</p><p>Ligand-induced work function changes, ∆W, is given by the relation: <ref type="bibr">[13]</ref><ref type="bibr">[14]</ref><ref type="bibr">[15]</ref> </p><formula xml:id="formula_2">∆W = 𝑒 𝜀 0 𝐴 Δ𝜇 = 𝑒 𝜀 0 𝐴 (𝜇 𝑑𝑖𝑝𝑜𝑙𝑒 + 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 )</formula><p>where 𝑒 is the elementary charge, 𝜀 0 is the vacuum permittivity, A is the surface area, and Δ𝜇 = 𝜇 𝑑𝑖𝑝𝑜𝑙𝑒 + 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 . 𝜇 𝑑𝑖𝑝𝑜𝑙𝑒 and 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 are two independent contributions, <ref type="bibr">[13]</ref><ref type="bibr">[14]</ref><ref type="bibr">[15]</ref> where respectively, 𝜇 𝑑𝑖𝑝𝑜𝑙𝑒 is the ligand intrinsic dipole moment normal to the surface, while 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 is related to a charge density displacement by interaction and bond formation of the ligand during chemisorption to the surface.</p><p>The former is intensively reported in the perovskite community, <ref type="bibr">16</ref> while the latter has been relatively less explored. 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 is the primary mechanism by which low polarity (or non-polar) species cause a ∆W.</p><p>We first computed the respective dipole moments of various species in this work (Supplementary Fig. <ref type="figure" target="#fig_13">15,</ref><ref type="figure" target="#fig_13">16</ref>). The negative ∆W (i.e. more n-type) with increasing alkylammonium chain length is correlated with their successively increasing positive dipole moments. On the other hand, while both [I] -and [Br] - are non-polar, the experimentally measured ∆W for the films treated with OAI or OABr were different (Fig. <ref type="figure" target="#fig_13">1b</ref>), hinting of a contribution from 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 . Additionally, the dipole moment of [TsO] -has an opposite sign but only half that of [OA] + , and thus the net dipole remains positive, which should have resulted in a negative ∆W, and thus cannot fully explain the experimental observations. Therefore, the contribution of 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 must be taken into consideration.</p><p>𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 is related to the charge density differential, ∆𝜌, as a function of position (𝑥, 𝑦, 𝑧) by:</p><formula xml:id="formula_3">𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 ≈ -𝑒 ∭ 𝑧∆𝜌 𝑑𝑥 𝑑𝑦 𝑑𝑧</formula><p>The averaged charge density displacement as a function of 𝑧, ∆𝜌̅ (𝑧), and charge displacement, ∆𝑞(𝑧), in terms of ∆𝜌̅ (𝑧), is given by:</p><formula xml:id="formula_4">∆𝜌̅ (𝑧) = 1 𝐴 ∬ ∆𝜌 𝑑𝑥 𝑑𝑦 ∆𝑞(𝑧) = 𝐴∆𝜌̅ (𝑧)∆𝑧</formula><p>where ∆𝜌 is calculated from:</p><formula xml:id="formula_5">∆𝜌 = 𝜌 𝑐𝑜𝑚𝑝𝑙𝑒𝑥 -𝜌 𝑠𝑢𝑟𝑓𝑎𝑐𝑒 -𝜌 𝑙𝑖𝑔𝑎𝑛𝑑</formula><p>Here, 𝜌 𝑐𝑜𝑚𝑝𝑙𝑒𝑥 , 𝜌 𝑠𝑢𝑟𝑓𝑎𝑐𝑒 and 𝜌 𝑙𝑖𝑔𝑎𝑛𝑑 are the charge densities of the surface-ligand complex, freestanding surface, and free ligand, respectively. Subsequently, the charge displacement, 𝑞 ̅ , near the surface positioned at 𝑧 𝑠 is then calculated by:</p><formula xml:id="formula_6">𝑞 ̅ = 1 ∆𝑧 ∫ Δ𝑞(𝑧)𝑑𝑧 𝑧 𝑠 +Δz/2 𝑧 𝑠 -Δ𝑧/2</formula><p>We computed the ∆𝑞(𝑧) with the different ligands to explore the 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 contribution (Fig. <ref type="figure" target="#fig_12">4c-e</ref>).</p><p>Strikingly, [TsO] -induces a pronounced negative surface charge displacement, 𝑞 ̅, of -0.022 e, threefold larger in magnitude than the positive 𝑞 ̅ of [OA] + of +0.006 e. Calculations with varying ligand surface density corroborate the trends (Supplementary Fig. <ref type="figure" target="#fig_13">18</ref>). We did further calculations by introducing iodine vacancy (VI) or lead-iodine antisite (PbI) defects to the surfaces of the slab models.</p><p>Both defects have been reported to form readily on the perovskite surface. <ref type="bibr">17,</ref><ref type="bibr">18</ref> We present our results in Supplementary Fig. <ref type="figure" target="#fig_13">17</ref> and Supplementary      </p><formula xml:id="formula_7">OA + BF 4 - V OC (V) J SC (mA cm -2 ) FF (%) PCE (%)</formula><formula xml:id="formula_8">V OC (V) J SC (mA cm -2 ) FF (%) PCE (%)</formula><formula xml:id="formula_9">V OC (V) J SC (mA cm -2 ) FF (%) PCE (%)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Figure 13. XRD analyses of the aged devices. XRD diffraction patterns measured</head><p>with an ω-2θ setup of the aged a, OAI-treated and b, OATsO-treated devices. These were the same devices used for the STEM analyses, and were recovered after FIB milling. X-rays from the ω-2θ diffraction setup were able to penetrate through the top electrode and spiro-MeOTAD layers to probe the active layer itself. Concurrently, given the large penetration depth of ω-2θ XRD (&gt;700 nm), it is not sensitive to the ultrathin 2D interlayer, which is only detectable by the GIXRD measurements.   Optoelectronic devices consist of heterointerfaces formed between dissimilar semiconducting materials. The relative energy-level alignment between contacting semiconductors determinately affects the heterointerface charge injection and extraction dynamics. For perovskite solar cells (PSCs), the heterointerface between the top perovskite surface and a charge-transporting material is often treated for defect passivation <ref type="bibr">[1]</ref><ref type="bibr">[2]</ref><ref type="bibr">[3]</ref><ref type="bibr">[4]</ref> to improve the PSC stability and performance. However, such surface treatments can also affect the heterointerface energetics <ref type="bibr">1</ref> . Here we show that surface treatments may induce a negative work function shift (that is, more n-type), which activates halide migration to aggravate PSC instability. Therefore, despite the beneficial effects of surface passivation, this detrimental side effect limits the maximum stability improvement attainable for PSCs treated in this way. This trade-off between the beneficial and detrimental effects should guide further work on improving PSC stability via surface treatments.</p><p>Progress in compositional and crystal-growth engineering has made possible the fabrication of halide perovskite thin films with minimized bulk trap density, such that defects are predominantly located at the surface <ref type="bibr">5,</ref><ref type="bibr">6</ref> . This has motivated the development of defect passivation treatments applied onto the top perovskite surface <ref type="bibr">[1]</ref><ref type="bibr">[2]</ref><ref type="bibr">[3]</ref><ref type="bibr">[4]</ref> . However, such treatments can also change the heterointerface energetics and thus the charge-carrier dynamics between the perovskite and the top charge-transporting material <ref type="bibr">1</ref> . Here we study the consequences of the altered heterointerface energetics on carrier extraction, trap passivation, charge accumulation and ion migration. We show that a negative work function change (ΔW) accumulates charges in a potential well, which lowers the halide migration activation energy to limit the perovskite solar cell (PSC) stability. A negative ΔW is equivalently described as a negative vacuum-level change (ΔE vac ) at a heterointerface, and hereafter, ΔW and ΔE vac are used interchangeably.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Perovskite surface and heterointerface dynamics</head><p>The genesis of this study began with our investigations on the surface energetics of perovskite films, based on a (FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05 composition (where FA is formamidinium and MA is methylammonium). Ultraviolet photoelectron spectroscopy (UPS) measurements showed that ubiquitously used ammonium-iodide-based surface treatments generally result in a negative ΔW (Fig. <ref type="figure" target="#fig_13">1a</ref>, Supplementary Fig. <ref type="figure" target="#fig_8">1</ref> and Supplementary Table <ref type="table">1</ref>), which successively increases in magnitude with longer alkylammonium chain length. Given that a negative ΔW is associated with a relatively more electron-enriched surface, we speculated initially that the negative ΔW can be modulated by increasing the electron-withdrawing ability of the counteranion. Further UPS measurements (Fig. <ref type="figure" target="#fig_13">1b</ref>) showed that substitution of iodide [I] -with bromide [Br] -, tetrafluoroborate [BF 4 ] -or trifluoroacetate [TFA] -progressively negated the negative ΔW of octylammonium iodide (OAI) treatment towards that of the reference film, but only substitution with tosylate [TsO] -fully neutralized the negative ΔW. In particular, among the counteranions, [TsO] -has the strongest electron-withdrawing character <ref type="bibr">7</ref> , which also justifies its ubiquitous use as the leaving group in synthetic heterolytic fission chemistry. The interaction of [TsO] -with the surface was further verified by X-ray photoelectron spectroscopy (XPS) analysis (Supplementary Fig. <ref type="figure" target="#fig_10">2</ref>). Kelvin probe force microscopy (KPFM) measurements were performed to verify the work function distributions (Fig. <ref type="figure" target="#fig_13">1c-f</ref>). The mean work function of the OAI-treated film decreased to 4.49 ± 0.09 eV, from 4.67 ± 0.08 eV for the reference film, and in contrast to the 4.77 ± 0.11 eV for the OATsO-treated film. From the topographical atomic force microscopy (AFM) maps, the surface morphology and root-mean-square roughness of the treated films were negligibly different (Fig. <ref type="figure" target="#fig_13">1g</ref>), which was expected given the dilute (but common) solution concentration used for surface treatment. (SEM) images also suggested that the surface uniformity is relatively similar for the treated films (Extended Data Figs. <ref type="figure" target="#fig_13">1,</ref><ref type="figure" target="#fig_10">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Consequences for charge-carrier dynamics</head><p>Band alignments constructed from the UPS results predict that a negative ΔE vac may create a potential well to trap charges at the heterointerface (Extended Data Fig. <ref type="figure" target="#fig_11">3</ref> and Supplementary Note 1). Cross-sectional KPFM measurements under illumination in the open-circuit (OC) condition were followed to investigate the real-time charge-carrier distributions in complete devices of planar-architecture indium tin oxide (ITO)/ tin oxide (SnO 2 )/perovskite/2,2′,7,7′-tetrakis[N,N-di(4-methoxyphenyl) amino]-9,9-spirobifluorene (spiro-MeOTAD)/gold (Au) (Extended Data Fig. <ref type="figure" target="#fig_12">4</ref>, Supplementary Note 2 and Supplementary Figs. <ref type="figure" target="#fig_11">3,</ref><ref type="figure" target="#fig_12">4</ref>). The measured device ΔE vac values at the perovskite/spiro-MeOTAD heterointerface are consistent with those obtained from the films (Supplementary Fig. <ref type="figure">5</ref>). Charge carriers are unextractable in the OC condition (split quasi Fermi level), and might accumulate at a contacting selective heterointerface of the opposite polarity <ref type="bibr">8,</ref><ref type="bibr">9</ref> . This is observed as an accumulation of holes for both devices at the perovskite/SnO 2 heterointerface (Fig. <ref type="figure" target="#fig_13">1h,</ref><ref type="figure">i</ref>). In contrast, a pronounced electron accumulation exists at the perovskite/spiro-MeOTAD heterointerface for only the OAI-treated device. The electron accumulation is noted to be significantly more severe than the counterpart hole accumulation. In principle, the ideal photovoltaic device would have a homogeneous electric-field distribution with no charge accumulation across its heterojunctions <ref type="bibr">10</ref> , which is seen for the OATsO-treated device at its perovskite/spiro-MeOTAD heterointerface. Both devices were relatively field-free (that is, flat potential) along the active layer, indicative of a high-quality perovskite bulk, suggesting that the different behaviours were a consequence of the surface treatments. The results are consistent with those predicted based on the band diagrams (Extended Data Fig. <ref type="figure" target="#fig_11">3</ref>), where the non-negative ΔE vac of the OATsO-treated device avoided the potential well and charge accumulation. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Article</head><p>Photoluminescence (PL) spectroscopy indicated an effective suppression of charge-trapping defect states in the surface-treated films, as evidenced by their enhanced PL intensities and carrier lifetimes with a glass/ perovskite architecture (Fig. <ref type="figure" target="#fig_10">2a,</ref><ref type="figure">b</ref>). The defect passivation efficacies of the surface-treated films are noted to be relatively comparable. Comparing their PL intensity distributions indicates again that the surface uniformity is similar between the films (Supplementary Fig. <ref type="figure">6</ref>). Despite the beneficial passivation effects, charge extraction into spiro-MeOTAD is sacrificially impeded in all surface-treated films (Fig. <ref type="figure" target="#fig_10">2c,</ref><ref type="figure">d</ref> and Supplementary Table <ref type="table">2</ref>), but to different extents, with the trend correlated with the magnitude of ΔE vac . Compared with the reference/spiro-MeOTAD film, the average carrier lifetime (τ ave ) more than doubled to 8.1 ns (from 3.0 ns) for the OAI-treated film and the steady-state PL intensity was 223% higher. In contrast, OATsO treatment simultaneously suppressed the trap states whereas charge extraction was barely impeded, avoiding the trade-off seen for the OABF 4 and the OAI treatments. Further phototransient measurements on complete devices complement the film PL results (Supplementary Fig. <ref type="figure">7</ref>). We postulate that the charge obstruction and accumulation cannot be explained by the surface two-dimensional phase, as the insulating large organic cation (OA + ) is kept unchanged (Supplementary Note 3 and Supplementary Fig. <ref type="figure">8</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device performance and hysteresis behaviour</head><p>For the surface-treated devices, the power conversion efficiency (PCE) shows the trend OATsO-treated devices &gt; OABF 4 -treated devices &gt; OAI-treated devices, owing primarily to an increasing fill factor (FF) (Fig. <ref type="figure" target="#fig_10">2e</ref> and Extended Data Fig. <ref type="figure">5</ref>). The device open-circuit voltages (V OC ) are marginally different, reflective of the comparable PL results of the glass/perovskite films. The best OATsO-treated device reached a PCE of 24.41% (Extended Data Fig. <ref type="figure">6</ref>). We further verified the performance of encapsulated devices at an independent third-party laboratory, noting that the performance slightly decreased after the encapsulation procedure (Extended Data Fig. <ref type="figure">7</ref>). Contrasting the surface-treated devices, the PCE trend can be explained as follows (further discussion in Supplementary Note 4). First, a more negative ΔE vac deepened the valence band offset with spiro-MeOTAD, which increased the hole extraction resistance to sacrifice the FF. In addition, the heterointerface barrier observed from the KPFM profiling may also contribute to impede charge extraction <ref type="bibr">9,</ref><ref type="bibr">11</ref> . Regardless, a negative ΔE vac remains the cause that gave rise to both effects. Separate investigations of a FAPbI 3 composition further verified our observations (Extended Data Fig. <ref type="figure">8</ref> and Supplementary Table <ref type="table">3</ref>).   Comparing the surface-treated devices, the hysteresis behaviour generally improved as the negative ΔE vac decreased in magnitude (Supplementary Fig. <ref type="figure">9</ref>). This provided the first hint at a correlation between ΔE vac and ion migration, given that ion migration is responsible for PSC hysteresis <ref type="bibr">12,</ref><ref type="bibr">13</ref> . In contrast, the reference devices showed the lowest performance and worst hysteresis, owing to the abundant, unpassivated heterointerface traps. Overall, the device performance results provide evidence for the sacrificial trade-off of a negative ΔE vac to limit PSC performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device stability under continuous illumination</head><p>We assessed the photostability of encapsulated devices under continuous illumination without an ultraviolet filter. All devices were aged in an ambient atmosphere at about 40 °C. We preserved the original device architecture with spiro-MeOTAD as the hole-transporting material, without applying further modifications (for example, copper phthalocyanine (CuPC) or poly(triarylamine) (PTAA) were not used). Under maximum power point (MPP) testing (Fig. <ref type="figure" target="#fig_10">2f</ref>), the OATsO-treated device sustained its performance with negligible degradation after about 800 h. The OABF 4 -treated device was also relatively stable, retaining 91.5% of its performance after about 500 h. Among the surface-treated devices, the OAI-treated device degraded the most rapidly to 84.8% of its performance after about 500 h.</p><p>Contrasting the device degradation under MPP testing versus OC condition testing, all devices were generally less stable under OC condition testing (Fig. <ref type="figure" target="#fig_10">2g</ref>, Extended Data Fig. <ref type="figure">9</ref> and Supplementary Note 5). However, the device degradation trends are identical, and correlated with the magnitude of ΔE vac . In particular, the OABF 4 -treated devices with an intermediate negative ΔE vac showed stability between that of the OAI-treated and the OATsO-treated devices. Near the approximate halfway point of 1,014 h, the devices retained 94.3% (OATsO treated), 86.2% (OABF 4 treated) and 74.8% (OAI treated) of their average PCEs. Ending after 2,092 h, the OATsO-treated devices retained 87.0% of their initial PCE on average. In contrast, the average PCE (65.1% of initial) of the OAI-treated devices decreased dramatically over the 2,092-h aging duration. The most stable OATsO-treated device (Fig. <ref type="figure" target="#fig_10">2h</ref>) retained 94.9% and 88.5% of its initial PCE after 1,014 h and 2,092 h, respectively.</p><p>Analysing the degradation trends, we postulated that the potential well and charge accumulation may have accelerated ion migration, considering that the KPFM profiling was also performed under illumination in the OC condition. In particular, the more rapid 'burn-in' decay of the OAI-treated and the OABF 4 -treated devices, observed in both the MPP (Supplementary Table <ref type="table" target="#tab_2">4</ref>) and the OC tests, strongly hints that ion migration has been aggravated by a negative ΔE vac , given that transient ion migration underlies the 'burn-in' regime <ref type="bibr">12,</ref><ref type="bibr">14,</ref><ref type="bibr">15</ref> . The altered ion migration energetics was also hinted by the device hysteresis behaviour. Moreover, the two-dimensional interlayer of the conventional OAI treatment probably contributed to impeding ion migration <ref type="bibr">16</ref> , yet the OABF 4 -treated and the OATsO-treated devices still had superior photostability, indicating that the ion migration energetics have been dominantly affected.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analyses of the degraded devices</head><p>To directly investigate the extent of ion migration, on completion of the OC stability testing, the original OAI-treated and OATsO-treated devices (after 2,092 h illumination) were sent for scanning transmission electron microscopy (STEM) analysis. The encapsulation cover glasses were detached immediately before focused ion beam (FIB) milling to extract sample cross-sections. STEM bright-field images of the planar device stacks revealed that the micrometre-scale grain sizes were still visibly intact even after the extended aging (Fig. <ref type="figure" target="#fig_11">3a,</ref><ref type="figure">b</ref> and Supplementary Fig. <ref type="figure" target="#fig_13">10</ref>). The first notable difference between the two samples can be seen at the perovskite/spiro-MeOTAD heterointerface.</p><p>The OAI-treated device had a rougher heterointerface morphology, which is in contrast to the negligibly different topography for the fresh films observed by AFM and SEM. This suggests that the roughening is inherent to the ageing process, possibly associated with heterointerface degradation by ion-migration-induced compositional loss. The elemental distributions were compared by X-ray energy-dispersive (EDX) mapping in STEM (Fig. <ref type="figure" target="#fig_11">3c</ref>-f and Supplementary Fig. <ref type="figure" target="#fig_6">11</ref>). On close inspection, large accumulations of both bromine (green arrows) and iodine (yellow arrows) can be seen for the OAI-treated device along the top Au/platinum (Pt) region. This is verified by quantitative analysis of the elemental distributions (Fig. <ref type="figure" target="#fig_11">3g-j</ref>). In consideration of the nominal stoichiometry of the perovskite, both bromine and iodine accumulation were approximately similar in order magnitude (Supplementary Fig. <ref type="figure" target="#fig_3">12</ref>). We note that despite progress to completely remove the need for bromine in FAPbI 3 -based compositions <ref type="bibr">17,</ref><ref type="bibr">18</ref> , it has been shown that bromine might remain necessary to stabilize the α-FAPbI 3 phase in state-of-the-art devices <ref type="bibr">19</ref> . The bulk devices that underwent FIB milling were further recovered and characterized by Bragg-Brentano XRD (Supplementary Fig. <ref type="figure" target="#fig_13">13</ref>). The δ-FAPbI 3 peak supposedly at about 11.8° was not detected for both devices, and the α-FAPbI 3 phase remained dominant, ruling out possible aggravation of the perovskite phase metastability by iodine interstitial generation <ref type="bibr">20</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aggravated ion migration and device instability</head><p>We further simulated the ion migration pathways using the first-principles nudged-elastic-band methodology (Supplementary Note 6) <ref type="bibr">12</ref> . To model the charge accumulation at the perovskite/spiro-MeOTAD heterointerface, we calculated the activation energy for halide migration in either a neutral uncharged or a negatively charged environment. Two independent pathways were explored: migration within a unit cell of a supercell (intra-lattice) and migration escaping a supercell (extra-lattice) (Extended Data Fig. <ref type="figure" target="#fig_13">10</ref> and Supplementary Table <ref type="table">5</ref>). The intra-lattice migration (vacancy mediated) investigates possible Coulombic screening effects by a charged environment to alter the bonding affinities and thus migration energetics <ref type="bibr">21,</ref><ref type="bibr" target="#b42">22</ref> , whereas the extra-lattice migration is defect independent. For intra-lattice migration (Fig. <ref type="figure" target="#fig_12">4a</ref>), the energy barriers for both iodine (-38.7%) and bromine (-29.4%) decreased substantially in the negatively charged environment. Similarly observed for the extra-lattice scenario (Fig. <ref type="figure" target="#fig_12">4b</ref>), the activation energy for iodine migration (-13.3%) and bromine migration (-17.8%) were both lower in the charged environment. Per the Arrhenius relationship, the rate constant has exponential dependence on the activation energy barrier.</p><p>Ion penetration can result in irreversible chemical reactions with spiro-MeOTAD to degrade its hole-transporting functionality <ref type="bibr" target="#b43">23</ref> , and also chemical corrosion of the top electrode layer <ref type="bibr" target="#b44">24</ref> , which potentially contributed to the V OC and FF decays of the devices. The robust encapsulation procedure ruled out environmental degradation factors, indicating that intrinsic mechanisms (that is, ion migration) were responsible, and also excluded trapped charges catalysing extrinsic degradation pathways by moisture and oxygen <ref type="bibr" target="#b45">25</ref> . This is evidenced by the short-circuit current retention for the devices, demonstrating the excellent phase stability of the active layers. By excluding ion migration, half-device tests further indicate that the photostability of the surface-treated films are negligibly different (Supplementary Note 7 and Supplementary Fig. <ref type="figure" target="#fig_13">14</ref>). Tying together all results, we propose that the potential well and charge accumulation created by a negative ΔE vac aggravated device instability, by detrimentally accelerating halide migration at the spiro-MeOTAD/perovskite heterointerface. More generally, the beneficial improvements of surface treatments are sacrificially limited by a negative ΔE vac , but modulating the counteranion presents a simple method to further improve PSC stability and performance.</p><p>Backtracking, we also preliminarily explored the possible mechanistic origins of ΔE vac using first principles (full discussion in Supplementary Note 8), summarized as follows. Ligand-induced ΔW originates from two independent contributions <ref type="bibr" target="#b46">26,</ref><ref type="bibr" target="#b47">27</ref> : the ligand intrinsic dipole moment (μ dipole ), and a charge-density displacement by ligand-surface interactions and bond formation (μ charge ). The dipole moments of [OA] + and [TsO] -were +20.3 D and -10.5 D, respectively (Supplementary Figs. 15, 16). On the other hand, [TsO] -induces a striking negative surface charge displacement, q, of -0.022e, which is threefold larger in magnitude than the positive q of [OA] + (+0.006e) (Fig. <ref type="figure" target="#fig_12">4c</ref>-e and Sup- plementary Table <ref type="table">6</ref>) . The negative q sign of [TsO] -indicates a depletion of electrons from the surface, and is equivalent to a positive ΔW. This trend is reproducible even with defect states on the surface, or different surface concentrations and species (Supplementary Figs. 17, 18 and Supplementary Table <ref type="table" target="#tab_0">7</ref>). Therefore, we speculate that simultaneous contributions from both μ charge and μ dipole for [TsO] -synergistically counterbalanced [OA] + , to result in a net positive ΔE vac for the OATsO treatment. More broadly, this proposes design principles for the ideal perovskite/charge-transporting material heterointerface. We preliminarily tested pairing [TsO] -with alkylammoniums with different chain lengths, but OATsO treatment yielded the best performance (Supplementary Fig. <ref type="figure" target="#fig_5">19</ref> and Supplementary Note 9).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Online content</head><p>Any methods, additional references, Nature Research reporting summaries, source data, extended data, supplementary information, acknowledgements, peer review information; details of author contributions and competing interests; and statements of data and code availability are available at <ref type="url" target="https://doi.org/10.1038/s41586-022-04604-5">https://doi.org/10.1038/s41586-022-04604-5</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Perovskite film fabrication</head><p>All materials were purchased from Sigma-Aldrich, unless otherwise stated. For the (FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05 composition, 889 mg ml -1 FAPbI 3 (FAI, GreatCell Solar; PbI 2 , TCI America), 33 mg ml -1 MAPbBr 3 (MABr, 1-Material; PbBr 2 , Alfa Aesar Chemicals) and 33 mg ml -1 MACl (GreatCell Solar) were dissolved in a dimethylsulfoxide (DMSO)/ dimethylformamide (DMF) mixed solvent (1:8 v/v). The films were deposited at 4,000 rpm for 20 s. After 10 s, 0.2 ml diethyl ether was dropped on the film. The film was then annealed for 10 min at 150 °C. For the FAPbI 3 composition, 1,266 mg FAPbI 3 and 34 mg MACl were dissolved in 192.8 μl N-methylpyrrolidone (NMP) and 1 ml DMF. The films were deposited at 4,000 rpm for 20 s. After 10 s, 0.2 ml diethyl ether was dropped on the film. The film was then annealed for 5 min at 100 °C, and subsequently 10 min at 150 °C. Subsequently, for post-fabrication surface treatment, 10 mM of the respective ammonium salts were dissolved in isopropyl alcohol, followed by deposition at 5,000 rpm for 30 s. Only OABr was dissolved in chloroform. All treatments, except with phenethylammonium iodide (PEAI), were annealed at 100 °C for 5 min. No annealing was done for PEAI. The reference films without post-treatment were washed with pure isopropyl alcohol at 5,000 rpm, followed by 100 °C annealing for 5 min.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device fabrication</head><p>Substrates of ITO on glass were cleaned by successive ultrasonication in detergent, deionized water, acetone and isopropyl alcohol, for 20 min each. Cleaned substrates were treated by ultraviolet ozone for 20 min. For the electron-transporting material, SnO 2 colloidal solution (Alfa Aesar Chemicals) was diluted in water in a 1:5 ratio. The solution was spun at 3,000 rpm for 30 s, and the film was subsequently annealed for 35 min at 165 °C. Ten-millimolar potassium hydroxide or potassium chloride in water was spun at 3,000 rpm for 30 s, and subsequently annealed at 100 °C for 10 min. We note that potassium chloride treatment was slightly improved over potassium hydroxide. The perovskite film fabrication and post-treatment procedures were performed as described above. Subsequently, 60.0 mg spiro-MeOTAD (p-OLED), 25.5 μl 4-tert-butylpyridine, 15.5 μl bis(trifluoromethane)sulfonimide lithium salt (520 mg ml -1 in acetonitrile) and 12.5 μl of FK209 (p-OLED; 375 mg ml -1 in acetonitrile) were dissolved in 0.7 ml chlorobenzene. The solution was spun at 3,000 rpm for 30 s. For the top electrode, 100-nm gold was thermally deposited at an evaporation rate of 0.5 A s -1 . The device active area is determined by a shadow mask to be 0.13 cm 2 . For the anti-reflection coating, 150-nm magnesium fluoride (MgF 2 ) was thermally deposited at an evaporation rate of 1 A s -1 . MgF 2 was deposited on all devices, unless otherwise stated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AFM and KPFM</head><p>To obtain the spatial variation of the work function for each perovskite sample, we performed KPFM, which is an AFM-based technique to acquire work function information of the sample surface via measuring the contact potential difference for every pixel. For cross-sectional KPFM, the devices were cleaved simply to expose their cross-sections. A map of contact potential difference, or the relative surface potential of a sample to that of a biased AFM tip, is simultaneously obtained with a topographic image of the sample surface. The work function of the AFM tip is calibrated before and after every measurement with highly ordered pyrolytic graphite, whose work function is well known to be 4.6 eV. The real work function value of each perovskite sample is calculated from the measured surface potential of each sample, with respect to the tip work function. The temperature and humidity near the AFM were recorded before every measurement.</p><p>The AFM tips used for the KPFM measurement are Au-coated NSC36/ chromium-Au tips (MikroMasch) as the measurement of electric properties requires at least one conductive component. Also, each KPFM measurement involved the electrically grounded perovskite samples with conductive sample holders, through which the surface potential of any sample may have the same zero point. All AFM-based measurements were conducted with a commercial AFM NX-10 (Park Systems).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STEM and EDX</head><p>The STEM images and EDX maps were taken using a JEOL 2800 S/TEM equipped with dual 100-mm 2 silicon drift detectors at 200 kV with a probe size of 1 nm. To perform the STEM analyses on the devices, the device cross-section was lifted out and mounted on a copper (Cu) grid using a Tescan GAIA3 SEM/FIB microscope. The sample was protected by a 2-μm-thick Pt layer to prevent gallium implantation during the milling procedure. The sample was successively polished, first using 30 kV and 600 pA, then subsequently at 15 kV and 150 pA, and finally at 3 kV and 90 pA, until reaching electron-transparent thickness.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>First-principles density functional theory computation</head><p>All bulk and slab first-principles calculations were performed using density functional theory (DFT) in the plane-wave/pseudopotential approach implemented in the Vienna Ab initio Simulation (VASP) package <ref type="bibr" target="#b49">29</ref> . A revised Perdew-Burke-Ernzerhof generalized gradient approximation (PBEsol) was used for the exchange-correlation functional <ref type="bibr" target="#b50">30</ref> . We included dispersion corrections to the total energy using Grimme's DFT-D3 scheme <ref type="bibr" target="#b51">31</ref> . Projector-augmented-wave (PAW) pseudopotentials were used to describe valence-core interactions <ref type="bibr" target="#b52">32</ref> . Plane-wave expansions with kinetic energies up to 300 eV were chosen. Both ionic positions and supercell dimensions were allowed to relax using conjugate gradient algorithm until all residual forces were smaller than 0.02 eV-Å -1 . Bulk 4 × 4 × 4 and slab 4 × 4 × 1 Γ-centre k-point meshes were adopted for Brillouin-zone sampling. For bulk calculations, 2 × 2 × 2 supercells were used. For surface-energy calculations, the 2 × 2 × L surfaces(L is the number of perovskite layers in the slab) were formed along (001) by periodic slabs including 9 to 11 atomic layers for a surface separated by 10-15 Å of vacuum.</p><p>For the electrostatic potential maps, all structures were pre-optimized with the very tight GFN2-xTB method using the xTB program (version 6.2) <ref type="bibr" target="#b53">33,</ref><ref type="bibr" target="#b54">34</ref> before conformational search. Conformational analysis of each structure was performed in water using metadynamic sampling in the extended tight binding Conformer-Rotamer Ensemble Sampling Tool (xtb CREST) program package (version 6.2) <ref type="bibr" target="#b55">35</ref> . The iMTD-GC workflow was used for the conformational search algorithm with 6 kcal mol -1 energy and 0.5-Å root mean square deviation thresholds at 298.15 K.</p><p>All further DFT calculations of the lowest conformers were performed using Gaussian16. Geometry optimization and frequency calculations were completed at the ωB97X-D/6-311++G(d,p) level in the gas phase. Optimized structures were verified by frequency calculations as minima (zero imaginary frequencies). Electrostatic potential charges and maps were computed with the B3LYP method, the GD3BJ 36 empirical dispersion and the LANL2DZ basis set for iodide, and the aug-cc-pvtz basis set for all other atoms based on the Hirshfeld population analysis <ref type="bibr" target="#b57">37</ref> . Dipoles were calculated with the ωB97X-D/6-31+G(d) method and basis set. Electrostatic potential maps were generated using GaussView 6.0.16.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preparation of ammonium salts</head><p>p-Toluenesulfonic acid monohydrate was first dehydrated to remove the water of crystallization. Using 100 ml toluene dissolves 1 g p-toluenesulfonic acid monohydrate in a 250-ml two-neck round-bottom flask. Vacuum distillation of toluene (about 20 mm Hg is a sufficient vacuum to lower the boiling point of toluene to a reasonable value) was followed to obtain solid p-toluenesulfonic acid using a vacuum oven at 100 °C for 1 week. For the anion substitution of alkylammonium salts, alkylamine (for example, octylamine) was added stoichiometrically to the acid (for example, p-toluenesulfonic acid) in an isopropyl alcohol mixed solvent, followed by stirring at 50 °C overnight. The chemical structure and purity of the salt was further verified by <ref type="bibr">1</ref> H NMR (Supplementary Note 10, Supplementary Fig. <ref type="figure" target="#fig_10">20</ref>). Typically, a concentrated stock solution (&gt;500 mM) is first prepared, followed by solution dilution to reach the final 10-mM concentration. Trifluoroacetic acid (&gt;99.5%) was obtained from EMD Millipore. Octylammonium iodide and octylammonium bromide were purchased commercially from GreatCell Solar.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device encapsulation and stability testing</head><p>Device encapsulation was carried out inside a nitrogen-filled glovebox (&lt;0.6 ppm of O 2 /H 2 O) by using an ultraviolet-curable adhesive (Nagase America) applied to a custom-designed cover glass (AMG Korea). The glovebox was completely absent of any chemical solvents to ensure a pristine atmosphere. The devices were kept in the glovebox for at least 2 h before and after encapsulation. The cover glass was superimposed on the active layer and fixed in position with the adhesive. This was then exposed to ultraviolet illumination for 2 min to cure the adhesive and seal the cover glass to the device. Care was taken to block the device active-layer area from the ultraviolet illumination by superimposing black electrical tape on the cover glass area that corresponded to the device active-layer area. We note that in our experience, it was important to pay attention to the expiry date of the ultraviolet-curable adhesive, with fresh adhesives preferred.</p><p>For the MPP stability testing, encapsulated devices were exposed to continuous illumination by a simulated air mass 1.5G spectrum illumination from a solar simulator. The devices were biased with a voltage corresponding to their MPP. The aging atmosphere was open ambient air (relative humidity (RH) 40 ± 10%). For the OC stability testing, encapsulated devices were exposed to continuous illumination by a metal halogen lamp source (90 ± 10 mW cm -2 ). The devices were placed in an in-house-built aging chamber under the OC condition. The chamber atmosphere was open ambient air (RH 40 ± 10 %). Periodically, the devices were transferred to a simulated AM 1.5G spectrum illumination from a solar simulator, also in ambient air (RH 40 ± 10 %), to measure their performance. The devices were immediately returned to the aging chamber upon measurement completion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Material and device characterization</head><p>SEM was carried out using an FEI Nova NanoLab 600 DualBeam (FIB/ SEM) instrument in secondary electron mode. The films were coated with an approximately 1-nm-thick Au layer by sputtering to prevent charging during the measurement. XPS measurements were carried out on an XPS AXIS Ultra DLD (Kratos Analytical). An Al Kα (1,486.6 eV) X-ray was used as the excitation source. UPS measurements were carried out using a helium discharge lamp, emitting ultraviolet energy at 21.2 eV. All UPS measurements were performed using standard procedures with a -9-V bias applied between the samples and the detectors. PL spectroscopy was performed with a Horiba Jobin Yvon system, with a 532-nm xenon lamp or a 640-nm monochromatic laser excitation source. Time-resolved PL spectra were measured using a Picoharp 300 with time-correlated single-photon counting capabilities (PLD 800B, PicoQuant) with a repetition frequency of 100 kHz. The confocal PL maps were measured using a Leica Confocal SP8-STED/ FLIM/FCS confocal laser scanning microscope, using an HC PL APO oil objective (40×/1.40) and a 514-nm argon pulsed diode laser. XRD was performed by an X-ray PANalytical diffractometer at a scan rate of 4° min -1 with a Cu Kα radiation source. The simulated AM 1.5G 1-sun spectrum illumination (100 mW cm -2 ) was from an Oriel Sol3A class AAA solar simulator (Newport). The light intensity was first calibrated with an National Renewable Energy Laboratory (NREL)-certified silicon photodiode with a KG-5 filter. A Keithley 2401 source meter was used to perform the current density-voltage device measurements. A 0.100-cm 2 -sized metal aperture was used to precisely define the device active area during measurement. The external quantum efficiency (EQE) was measured with a custom-designed Enlitech system under a.c. mode (frequency 133 Hz) without light bias with a lock-in amplifier with a current preamplifier under a short-circuit condition. The phototransient measurements were done with a pulsed red dye laser (Rhodamine 6G, 590 nm) pumped by a nitrogen laser (LSI VSL-337ND-S) as the perturbation source. The pulse width was 4 ns at a repetition frequency of 10 Hz. The laser pulse intensity was monitored to maintain the amplitude of transient V OC below 5 mV. Then, the voltage under the OC condition and the current under the short-circuit condition were measured over a 1-MΩ resistor and a 50-Ω resistor, and recorded on a digital S4 oscilloscope (Tektronix DPO 4104B). The CPD offsets were adjusted such that the CPD value of the buffer layer becomes zero. Note that this does not affect the electric field and charge displacement profiles, which calculate the derivatives of the CPD profiles. Although we do not expect the rough morphology seen in c to affect the KPFM signal, we cannot completely rule this out at this stage. Therefore, we have repeated the KPFM measurement on another separate OAI-treated device. As shown in Supplementary Fig. <ref type="figure" target="#fig_12">4</ref>, we were able to reproduce the potential drop at the perovskite/spiro-MeOTAD heterointerface.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>( 3 )Supplementary Note 4 :</head><label>34</label><figDesc>Relatedly, halide orbitals contribute density of states to the perovskite band edge structure. Therefore, iodide or bromide actually participate in charge conduction; (4) It is actually possible for 2D perovskites to form a type II band alignment, which does not obstruct charge extraction. Therefore, 2D perovskite, by itself, cannot be used to explain the charge obstruction and accumulation observations; (5) Directly comparing OABF4 and OATsO allows us to exclude any possible effects of 2D formation. Further discussion on the correlation between ΔEvac, charge extraction, and device performance</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Supplementary Figure 4 . 5 .Figure 5 . 6 .Supplementary Figure 7 .</head><label>45567</label><figDesc>Cross-sectional KPFM profiling of another OAI-treated device. a, AFM spatial mapping of an OAI-treated device. Yellow arrows in (a) indicate damaged regions due to the mechanical cleaving process. b, KPFM spatial mapping, and c, CPD profile of the OAI-treated device. The magnified KPFM image in (b) spatially corresponds to the blue square region in (a). All scale bars represent 500 nm. The ΔEvac value from the CPD profile matches those previously measured as shown in Supplementary Fig. Supplementary Different measurements of the vacuum level change. Comparison of the ΔEvac or ΔW of the perovskite devices or films measured from KPFM or UPS. PL mapping of the passivated films. Representative confocal PL maps of the a, OAI-treated, b, OABF4-treated, c, OATsO-treated perovskite films on glass. All scale bars represent 5 μm. PL intensity distribution histograms of the d, OAI-treated, e, OABF4-treated, f, OATsO-treated perovskite films on glass. Insets include the fitted statistical parameters. SD: standard deviation. Photo-transient measurements of the complete devices. Normalized a, transient photovoltage decay and b, transient photocurrent decay of the complete devices.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Supplementary Figure 8 .Supplementary Figure 9 .</head><label>89</label><figDesc>photovoltage</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Supplementary Figure 12 .</head><label>12</label><figDesc>Halide distribution in the aged devices. Average atomic ratio distributions across the a, OAI-treated and b, OATsO-treated device cross-sections, and iodine for the c, OAI-treated and d, OATsO-treated device cross-sections. e, Peak values extracted from (a)-(d) at the electrode region. The average atomic ratios were calculated by simply multiplying the normalized signal intensity with the nominal perovskite stoichiometry.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Supplementary Figure 14 .Supplementary Figure 15 .Supplementary Figure 16 .Supplementary Figure 18 .</head><label>14151618</label><figDesc>Half-device photostability test. Stability evolution with time of halfdevices aged under continuous illumination in a nitrogen atmosphere. The time elapsed refers only to the time under illumination. Error bars represent the standard deviation of four devices for each condition. Electrostatic potentials of various cations. Electrostatic potential maps of a, [BA] + , b, [OA] + , and c, [DA] + . Included are their respective dipole moments (µ). device Continuous illumination in ambient, open-circuit, T ~ 40°C Time elapsed (h) Electrostatic potentials of various anions. Electrostatic potential maps of a, [I] -, b, [Br] -, c, [TFA] -, and d, [TsO] -. Included are their respective dipole moments (µ). Supplementary Figure 17. Surface states and charge displacement. Charge displacement with surface iodine vacancy defect (VI) with a, [OA] + or b, [TsO] -, and c, corresponding charge displacement profiles. Charge displacement with surface lead-iodine antisite defect (PbI) with d, [OA] + or e, [TsO] -, and f, corresponding charge displacement profiles. Blue and yellow volumes on the slab models correspond to electron-depleted or electron-enriched regions, respectively. The point defects are marked by pink squares. Charge displacement profiles with different anions and concentrations. Charge displacement profiles on defect-free surfaces with a, [I] -, b, [Br] -, and c, [TFA] -. Charge displacement profiles on defect-free surfaces with increasing [OA] + or [TsO] -surface concentration from d, 25 %, to e, 50 %, and to f, 100 %.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Supplementary Figure 19 .</head><label>19</label><figDesc>Device photovoltaic parameters with different tosylate-based salts. Box plots showing the distribution of the a, VOC, b, JSC, c, FF, and d, PCE of the devices. Center line: median, box limits: 25 th and 75 th percentile, whiskers: outliers.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>11 ,</head><label>11</label><figDesc>-HA + TsO -OA + TsO -DA + TsO - Tianyi Huang 1,11 , Ilhan Yavuz 2,11 , Rui Wang 1,3 ✉ , Tae Woong Yoon 4 , Mingjie Xu 5 , Qiyu Xing 1 , Keonwoo Park 4 , Do-Kyoung Lee 6 , Chung-Hao Chen 1,7 , Ran Zheng 1 , Taegeun Yoon 4 , Yepin Zhao 1 , Hao-Cheng Wang 1,7 , Dong Meng 1 , Jingjing Xue 1 , Young Jae Song 4,10 , Xiaoqing Pan 5,8 , Nam-Gyu Park 6,9 , Jin-Wook Lee 4,9 ✉ &amp; Yang Yang 1 ✉</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>Further comparisons of the height-depth distributions and scanning electron microscopy Nature | Vol 605 | 12 May 2022 | 269</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 1 |</head><label>1</label><figDesc>Fig. 1 | Perovskite surface and heterointerface dynamics. a, b, UPS secondary electron cut-offs of various surface-treated perovskite films. BA, butylammonium; DA, dodecylammonium; OA, octylammonium. c-e, KPFM surface potential maps of the reference (c), OAI-treated (d) and OATsO-treated (e) films. Insets, corresponding AFM topography images. Scale bars, 2 μm. f, g, Work function distributions (f) and root-mean-square surface roughness (R q ) (g) of the films measured by KPFM and AFM,</figDesc><graphic coords="32,168.96,338.82,71.54,105.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 2 |</head><label>2</label><figDesc>Fig. 2 | Charge-carrier dynamics, performance and photostability. a, b, Steady-state (a) and time-resolved (b) PL spectra of the glass/perovskite films. c, d, Steady-state (c) and time-resolved (d) PL spectra of the glass/ perovskite/spiro-MeOTAD films. Included are the extracted lifetimes fitted with a mono-exponential decay function for b and a bi-exponential decay function for d. e, The PCE distributions of the devices. f, Photostability evolution with time of encapsulated devices aged under continuous</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 3 |</head><label>3</label><figDesc>Fig. 3 | STEM and EDX analyses of the aged devices. a, b, STEM bright-field images of the aged OAI-treated (a) and OATsO-treated (b) device cross-sections. The OAI-treated device is seen to have a rougher heterointerface contacting spiro-MeOTAD. c-f, EDX elemental maps of</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 4 |</head><label>4</label><figDesc>Fig. 4 | Physical origins of the experimental observations. a, b, Activation energy for the intra-lattice (a) and extra-lattice (b) migrations of iodine or bromine calculated using first-principles nudged-elastic-band simulations. The forward migration pathways are indicated by the red arrows in the example simulated supercells. c-e, Charge displacement with [OA] + (c) or [TsO] -(d) on the surface, superimposed on the defect-free slab models, and corresponding charge displacement profiles (e). The blue and yellow volumes on the slab models correspond to electron-depleted or electron-enriched regions, respectively. The beige horizontal band spatially corresponds c and d with e. Black, Pb atoms; red, I atoms; blue, Br atoms; brown, C atoms; light blue, N atoms; white, H atoms.</figDesc><graphic coords="35,357.68,193.77,77.42,103.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Extended Data Fig. 1 |</head><label>1</label><figDesc>Morphology of the perovskite films. Surface morphology of the: a, reference; b, OAI-treated; c, OATsO-treated; d, OATFAtreated; e, OABr-treated; and f, OABF 4 -treated perovskite films measured by SEM. All scale bars represent 2 μm. No obvious difference can be seen between the reference and treated perovskite films. Extended Data Fig. 3 | Heterointerface energy band diagrams. Schematic interpretation of the heterointerface band alignments of the a, OAI-treated and b, OATsO-treated devices under illumination in open-circuit condition. The band alignments are constructed based on the UPS and KPFM results. CBM, conduction band minimum; VBM, valence band maximum; E fn , electron quasi-fermi level; E fp , hole quasi-fermi level. The dashed gray lines in b indicate E fn and E fp of the OAI-treated device from a. The diagrams are not drawn to scale. Both surface treatments create a type I energy alignment at the heterointerface, but the vacuum level upshift of the OATsO-treated device minimized the potential well to mitigate the electron accumulation. Extended Data Fig. 4 | Device cross-sectional KPFM profiling. a, CPD profile; b, KPFM spatial mapping; c, corresponding AFM spatial mapping; and d, electric field distribution of the OAI-treated device. e, CPD profile; f, KPFM spatial mapping; g, corresponding AFM spatial mapping; and h, electric field distribution of the OATsO-treated device. Measurements were performed under illumination in open-circuit condition. All scale bars represent 300 nm.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="40,45.47,48.96,510.00,267.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="41,45.47,48.96,510.00,272.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="42,45.47,48.96,510.00,474.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="43,45.47,48.96,510.00,356.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="44,45.47,48.96,510.00,387.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="45,45.47,48.96,510.00,548.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="46,45.47,48.96,510.00,413.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="47,108.95,48.96,383.04,465.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="48,45.47,48.96,510.00,285.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 7</head><label>7</label><figDesc></figDesc><table><row><cell>negative work function</cell></row></table><note><p><p>below, which show that the charge displacement trends remained the same even on defected surfaces with VI or PbI. Specifically, [OA] + still induces a positive charge displacement (+𝑞 ̅) even with either VI or PbI present on the surface. On the other hand,</p>[TsO] -continues to induce a negative charge displacement (-𝑞 ̅) that is larger in magnitude than the +𝑞 ̅ of [OA] + . Considering the results altogether, we therefore speculate that the contributions from both 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 and 𝜇 𝑑𝑖𝑝𝑜𝑙𝑒 for [TsO] -synergistically counterbalanced the otherwise</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>τ1 (ns) A2 (%) τ2 (ns) τave (ns)</head><label></label><figDesc></figDesc><table><row><cell>Supplementary</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Reference</cell><cell>100.0</cell><cell>3.0</cell><cell>0.0</cell><cell>15.2</cell><cell>3.0</cell></row><row><cell>OAI-treated</cell><cell>94.5</cell><cell>7.5</cell><cell>5.5</cell><cell>19.8</cell><cell>8.1</cell></row><row><cell>OABF4-treated</cell><cell>99.1</cell><cell>4.7</cell><cell>0.9</cell><cell>17.4</cell><cell>4.8</cell></row><row><cell>OATsO-treated</cell><cell>99.9</cell><cell>3.5</cell><cell>0.1</cell><cell>17.7</cell><cell>3.5</cell></row><row><cell></cell><cell>WF</cell><cell>IE -WF</cell><cell cols="2">ΔEvac</cell><cell>Aligned VBM</cell></row><row><cell></cell><cell>(eV)</cell><cell>(eV)</cell><cell>(eV)</cell><cell></cell><cell>(eV)</cell></row><row><cell>FAPbI3</cell><cell>4.82</cell><cell>0.83</cell><cell>-</cell><cell></cell><cell>-5.65</cell></row><row><cell>OA + I -</cell><cell>4.48</cell><cell>1.02</cell><cell cols="2">-0.34</cell><cell>-5.84</cell></row><row><cell>OA + BF4 -</cell><cell>4.60</cell><cell>0.94</cell><cell cols="2">-0.22</cell><cell>-5.76</cell></row><row><cell>OA + TsO -</cell><cell>4.87</cell><cell>0.89</cell><cell cols="2">+0.05</cell><cell>-5.71</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 4 .</head><label>4</label><figDesc>Comparison of the device degradation at different time periods during the MPP stability test.</figDesc><table><row><cell></cell><cell cols="2">PCE drop (%)</cell><cell cols="2">Degradation rate (%/h)</cell></row><row><cell></cell><cell>First 100 h</cell><cell>Next ~400 h</cell><cell>First 100 h</cell><cell>Next ~400 h</cell></row><row><cell>OAI-treated device</cell><cell>-6.4</cell><cell>-8.9</cell><cell>-0.064</cell><cell>-0.022</cell></row><row><cell>OABF4-treated device</cell><cell>-2.9</cell><cell>-5.6</cell><cell>-0.029</cell><cell>-0.014</cell></row><row><cell>OATsO-treated device</cell><cell>~0</cell><cell>~0</cell><cell>-</cell><cell>-</cell></row><row><cell cols="5">Supplementary Table 5. Activation energy for iodine or bromine migration in a neutral uncharged or</cell></row><row><cell cols="5">negatively charged environment calculated from first-principles nudged elastic band (NEB)</cell></row><row><cell>simulations.</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Neutral</cell><cell>Negative</cell><cell cols="2">Difference</cell></row><row><cell></cell><cell>(eV)</cell><cell>(eV)</cell><cell>(%)</cell><cell></cell></row><row><cell>Intra-lattice</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>I in FAPbI3</cell><cell>0.335</cell><cell>0.205</cell><cell>-38.7</cell><cell></cell></row><row><cell>Br in FAPbBr3</cell><cell>0.634</cell><cell>0.448</cell><cell>-29.4</cell><cell></cell></row><row><cell>Extra-lattice</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>I in FAPbI3</cell><cell>3.30</cell><cell>2.86</cell><cell>-13.3</cell><cell></cell></row><row><cell>Br in FAPbBr3</cell><cell>3.68</cell><cell>3.03</cell><cell>-17.8</cell><cell></cell></row><row><cell cols="5">Supplementary Table 6. Surface charge displacement, 𝑞 ̅, with different species attached to defect-free</cell></row><row><cell>surfaces.</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>𝒒 ̅ (</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>x10 -2 e)</head><label></label><figDesc></figDesc><table><row><cell>KPFM wor</cell><cell>5.0 4.9 4.8 4.7</cell><cell>Reference Control Target</cell><cell>5.0 4.9 4.8 4.7</cell><cell>UPS work</cell><cell>Intens</cell><cell>OA + I -Reference</cell><cell>(001) #</cell><cell>(111)</cell><cell>(002)</cell></row><row><cell cols="4">[OA] + [I] -[Br] -[TFA] -18.0 17.5 Binding energy (eV) + 0.57 -1.33 -1.40 -1.97 17.0 16.5 16.0 Reference PEA + I -BA + I -OA + I -DA + I -144 140 136 Pb 4f 7/2 Reference OA + I -OA + TsO -Binding energy (eV) Pb 4f [TsO] -B Intensity (a.u.) Intensity (a.u.) 5/2</cell><cell>D 4.2 pxI (a.u.) a b</cell><cell cols="5">5 4.4 Reference OA + I -OA + TsO -Work function (eV) 10 15 20 25 30 2 (degree) 4.6 4.8 5.0</cell><cell>R q (nm)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Supplementary Figure 3. Cross-sectional KPFM schematic. Schematic</head><label></label><figDesc></figDesc><table><row><cell>illustrating the KPFM</cell></row><row><cell>measurement setup and planar device structure of ITO/SnO2/perovskite/spiro-MeOTAD/Au. The MgF2</cell></row><row><cell>buffer layer prevents slippage of the cantilever tip at a "cliff". Often, the device cross-sections are not</cell></row><row><cell>parallel, due to the uncontrollable nature of the mechanical cleaving process. Therefore, the measured</cell></row><row><cell>distance may not represent the layer thickness. Note that we purposely avoided using FIB or</cell></row><row><cell>mechanical polishing for the KPFM samples, as such processing may modify the properties of the</cell></row><row><cell>exposed cross-sectional surface. 21</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was supported by the <rs type="funder">US Department of Energy's Office of Energy Efficiency and Renewable Energy (EERE)</rs> under the <rs type="funder">Solar Energy Technologies Office</rs> under award number <rs type="grantNumber">DE-EE0008751</rs>. J.-W.L. acknowledges support from a <rs type="funder">Korea Institute of Energy Technology Evaluation and Planning (KETEP)</rs> grant funded by the <rs type="funder">Korea government (MOTIE)</rs> (grant numbers <rs type="grantNumber">20214000000640</rs>, <rs type="grantNumber">20213030010400</rs>) and a <rs type="grantName">POSCO Science Fellowship</rs> from the <rs type="funder">POSCO TJ Park Foundation</rs>. The TEM work at <rs type="institution">UC Irvine</rs> was supported by the <rs type="funder">National Science Foundation (NSF)</rs> under grant number <rs type="grantNumber">DMR-2034738</rs>. Part of the computing resources used in this work were provided by the <rs type="funder">National Center for High-Performance Computing of Turkey (UHEM)</rs>. Y.J.S. and J.-W.L. acknowledge support by the <rs type="funder">National Research Foundation of Korea (NRF)</rs> grant funded by the <rs type="funder">Korea government (MSIT)</rs> (grant numbers <rs type="grantNumber">NRF-2022R1C1C1011975</rs> and <rs type="grantNumber">NRF-2021R1A2C2007141</rs>). N.-G.P. acknowledges financial support from <rs type="funder">NRF</rs> grants funded by <rs type="funder">MSIT</rs> under contract <rs type="grantNumber">NRF-2021R1A3B1076723</rs> (<rs type="programName">Research Leader Program</rs>). We acknowledge the use of facilities and instrumentation at the <rs type="institution">UC Irvine Materials Research Institute (IMRI)</rs>, which is supported in part by the <rs type="funder">National Science Foundation</rs> through the <rs type="funder">UC Irvine Materials Research Science and Engineering Center</rs> (<rs type="grantNumber">DMR-2011967</rs>). Work at the Molecular Foundry was supported by the <rs type="funder">Office of Science, Office of Basic Energy Sciences</rs>, of the <rs type="funder">US Department of Energy</rs> under contract number <rs type="grantNumber">DE-AC02-05CH11231</rs>. We thank <rs type="person">M. E. Liao</rs>, <rs type="person">K. Huynh, M. S. Goorsky</rs>, <rs type="person">S. Nuryyeva</rs>, <rs type="person">K. N. Houk</rs>, <rs type="person">K.-H. Wei</rs> and <rs type="person">B. Jeong</rs> for experimental assistance, measurements or discussions; and <rs type="person">S. Shelton</rs>, <rs type="person">Y. Liu</rs> and the <rs type="institution">Molecular Foundry</rs> for the third-party laboratory device efficiency measurements.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_rAHpaAd">
+					<idno type="grant-number">DE-EE0008751</idno>
+				</org>
+				<org type="funding" xml:id="_KtvVxPy">
+					<idno type="grant-number">20214000000640</idno>
+				</org>
+				<org type="funding" xml:id="_zUWv4DZ">
+					<idno type="grant-number">20213030010400</idno>
+					<orgName type="grant-name">POSCO Science Fellowship</orgName>
+				</org>
+				<org type="funding" xml:id="_HRQbJT8">
+					<idno type="grant-number">DMR-2034738</idno>
+				</org>
+				<org type="funding" xml:id="_3rYJa3B">
+					<idno type="grant-number">NRF-2022R1C1C1011975</idno>
+				</org>
+				<org type="funding" xml:id="_BHQbMKy">
+					<idno type="grant-number">NRF-2021R1A2C2007141</idno>
+				</org>
+				<org type="funding" xml:id="_ZeK9xdd">
+					<idno type="grant-number">NRF-2021R1A3B1076723</idno>
+					<orgName type="program" subtype="full">Research Leader Program</orgName>
+				</org>
+				<org type="funding" xml:id="_ECjHBte">
+					<idno type="grant-number">DMR-2011967</idno>
+				</org>
+				<org type="funding" xml:id="_yqfxqe5">
+					<idno type="grant-number">DE-AC02-05CH11231</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The data that support the findings of this study are available from the corresponding authors on reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary information for</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stability-limiting heterointerfaces of perovskite photovoltaics Supplementary Note 6: Simulation of halide migration pathways by first principles</head><p>The energy barriers of intra-and extra-lattice migration of halides were predicted by the associated reaction pathway energy profiles based on nudged elastic band (NEB) and constrained energy minimization methods in VASP. For intra-lattice migration, initial and final structures consisting of one vacancy in neighbouring halide sites in the 2x2x2 supercell were first generated and the structures were relaxed. We then performed a linear interpolation to generate the intermediate structures within defective initial and final structures. For extra-lattice migration, one selected halide atom on the relaxed PbX2 terminated surface was manually moved along the surface normal direction up to ~7-8Å above the surface. The structures of this reaction pathway were also constructed by linear interpolation.</p><p>For both intra-and extra-lattice migration energy profiles we used sufficiently large grid points.</p><p>Energy barrier of halide migration are computed from the total energy difference between the initial (or final) state and saddle point. For the negatively charged environment, we found that energy corrections due to spurious charged defect-defect interactions in finite-size periodic cells in barrier calculations are around 0.02eV, i.e., they are negligibly small and may be excluded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 7: Half-device photostability tests</head><p>For the half-device stability testing, half-devices of structure ITO/SnO2/perovskite, with or without surface treatment, were exposed to AM 1.5G illumination in a nitrogen glovebox (&lt;100 ppm of O2/H2O). Periodically, a few half-devices were removed to deposit spiro-MeOTAD and electrode, to complete a full solar cell for J-V measurement. The remaining, unremoved half-devices were left untouched under AM 1.5G illumination. The recorded "time elapsed" in the figure plot refers only to the time exposed to illumination.</p><p>Although the half-devices are not real and complete PSCs, this experiment allows us to study the perovskite photostability by itself when ion migration (to penetrate and chemically corrode the chargetransport material/electrode) is excluded. Supplementary Fig. <ref type="figure">14</ref> plots the average over 4 half-devices for each condition. We found that the OAI-treated, OABF4-treated, and OATsO-treated half-devices all had approximately similar stability. Importantly, this result suggests that the photostability of the perovskite active layer, by itself, is not altered by the surface treatments. In other words, if the negative consequences induced by ΔEvac and ion migration are largely excluded, all surface-treated devices have comparable stability. In another perspective, this result also suggests that ΔEvac and its effect on ion migration are the dominant and primary factors that influence the degradation of complete, real working PSCs under illumination.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 8: Possible mechanistic origins of ΔEvac Supplementary Note 9: Pairing tosylate anion with alkylammoniums of different chain lengths</head><p>We compared the performances of devices surface treated with either BATsO (BA: butylammonium), HATsO (HA: hexylammonium), OATsO (OA: octylammonium), and DATsO (DA: dodecylammonium). The alkyl chain length increases in the order: BA (4 carbons) &lt; HA (6 carbons) &lt; OA (8 carbons) &lt; DA (12 carbons). In general, the device VOC increases with longer alkyl chain length, whereas the FF decreases. As a result, the OATsO-treated devices showed the best performance, by achieving a balance between high VOC and FF (Supplementary Fig. <ref type="figure">19</ref>). We speculate that the VOC trend is related to the cation dipole moments: the positive dipole moment increases with longer alkyl chain length (as we also calculated in Supplementary Fig. <ref type="figure">15</ref>), which enhances the cation's interaction with traps to further reduce charge recombination at the heterointerface. <ref type="bibr">16</ref> On the other hand, the FF seems to decrease with longer alkyl chain length, due to the insulating nature of the alkyl group to increase series resistance. A similar device performance trend with alkyl chain length was also observed for iodide-based salts in a previous work. <ref type="bibr">3</ref> Supplementary Note 10: Chemical structure and purity of the ammonium salts</p><p>We used 1 H NMR (400 MHz, DMSO-d6) to characterize the structure of our synthesized ammonium salt. We compared the chemical shift of the acid and amine reactants with the neutral salt product, shown in Supplementary Fig. <ref type="figure">20</ref> below. The reaction can be simply comprehended as a generic acidbase neutralization for organic species. The peaks of the reactants, p-Toluenesulfonic acid and octylamine (red and blue, respectively), remain almost unchanged in the salt product (black), except the proton on the sulfonyl group. Moreover, all peaks in the product shifted to lower-field regions compared to their corresponding original peaks. The chemical shift is particularly evident on proton e and f. Considering that proton e and f are closest to the ionic bond between the ammonium cation and tosylate anion, they are most susceptible to the inductive effect, and therefore exhibited the most evident variation of chemical shift. Since we mixed the reactants stoichiometrically, and the reaction is rapid and complete, very few reactants remained in the formed salt, as observed in the 1 H NMR spectra. The purity of the product is thus very high.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Tables</head><p>Supplementary Table <ref type="table">1</ref>. Energy levels of the perovskite films. The work function (WF) and (ionization energy (IE) -WF) values are based on the UPS measurements. The vacuum level shift (ΔEvac) and valence band maximum (VBM) values are calculated based on an aligned Fermi level. <ref type="table">2</ref>. Time-resolved photoluminescence decay parameters of the glass/perovskite/spiro-MeOTAD films, fitted with a bi-exponential decay model.  <ref type="table">7</ref>. Surface charge displacement, 𝑞 ̅, with different species attached to defected surfaces. VI and PbI represent iodine vacancy and lead-iodine antisite defects, respectively, which may readily form on the perovskite surface due to their low formation energies. <ref type="bibr">17,</ref><ref type="bibr">18</ref> 𝒒 ̅ (x10 -2 e)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Table</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Table 3. Energy levels of the</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Table</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Surface with VI</head><p>[OA] + + 0.91</p><p>[TsO] - -1.76</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Surface with PbI</head><p>[OA] + + 1.54</p><p>[TsO] -</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Figures</head><p>Supplementary Figure <ref type="figure">1</ref>. Work function change with ammonium iodide surface treatments. UPS secondary electron cut-offs of perovskite films treated with various ammonium iodide salts. Labels are PEA: phenylethylammonium, BA: butylammonium, OA: octylammonium, DA: dodecylammonium.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Figure 2. XPS characterization of the films.</head><p>High-resolution Pb 4f spectra of the films. Dashed vertical lines demarcate the peak positions for the Reference film. The Pb 4f peaks of the OAI-treated film shifted to a higher binding energy relative to the Reference film, consistent with the interaction of alkylammonium iodides with Pb. <ref type="bibr">19</ref> For the OATsO-treated film, the shift to lower binding energy is also consistent with the interaction of the -SO3 -group of [TsO] -with Pb. 20 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information Supplementary information</head><p>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1038/s41586-022-04604-5">https://doi.org/10.1038/s41586-022-04604-5</ref>.</p><p>Correspondence and requests for materials should be addressed to Rui Wang, Jin-Wook Lee or Yang Yang.</p><p>Peer review information Nature thanks the anonymous reviewer(s) for their contribution to the peer review of this work.</p><p>Reprints and permissions information is available at <ref type="url" target="http://www.nature.com/reprints">http://www.nature.com/reprints</ref>. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Local Time-Dependent Charging in a</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">W</forename><surname>Bergmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Perovskite Solar Cell. ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="19402" to="19409" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">An interface stabilized perovskite solar cell with high stabilized efficiency and low voltage loss</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Yoo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2192" to="2199" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Optimal Interfacial Engineering with Different Length of Alkylammonium Halide for Efficient and Stable Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1902740</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Control of Electrical Potential Distribution for High-Performance Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="296" to="306" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Design principles for electronic charge transport in solution-processed vertically stacked 2D perovskite quantum wells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tsai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">2130</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Solar Cells: Operating Principles, Technology, and System Applications</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Prentice Hall Series in Solid State Physical Eelctronics</title>
+		<imprint>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<ptr target="https://www.pveducation.org/pvcdrom/solar-cell-operation/series-resistance" />
+	</analytic>
+	<monogr>
+		<title level="j">PVEducation. Solar Cell Operation: Series Resistance</title>
+		<imprint>
+			<date type="published" when="2022-01-20">01/20/2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Systematic investigation of the impact of operation conditions on the degradation behaviour of perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Domanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Alharbi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="61" to="67" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Steric Impediment of Ion Migration Contributes to Improved Operational Stability of Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">1906995</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Efficient ambient-air-stable solar cells with 2D-3D heterostructured butylammonium-caesium-formamidinium lead halide perovskites</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">17135</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Planar perovskite solar cells with long-term stability using ionic liquid additives</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">571</biblScope>
+			<biblScope unit="page" from="245" to="250" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Migration of cations induces reversible performance losses over day/night cycling in perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Domanski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="604" to="613" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Energy Level Modification in Lead Sulfide Quantum Dot Thin Films through Ligand Exchange</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="5863" to="5872" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Modeling the Electronic Properties of π-Conjugated Self-Assembled Monolayers</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Heimel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rissner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zojer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="2494" to="2513" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Tuning of Metal Work Functions with Self-Assembled Monolayers</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>De Boer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hadipour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Mandoc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Van Woudenbergh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Blom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="621" to="625" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Interfacial benzenethiol modification facilitates charge transfer and improves stability of cm-sized metal halide perovskite solar cells with up to 20% efficiency</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1880" to="1889" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Reducing Surface Halide Deficiency for Efficient and Stable Iodide-Based Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">W.-Q</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="3989" to="3996" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Constructive molecular configurations for surface-defect passivation of perovskite photovoltaics</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="1509" to="1513" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Phenylalkylammonium passivation enables perovskite light emitting diodes with record high-radiance operational lifetime: the chain length matters</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">644</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Zwitterionic-Surfactant-Assisted Room-Temperature Coating of Efficient Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="2404" to="2425" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Carrier separation and transport in perovskite solar cells studied by nanometrescale profiling of electrical potential</title>
+		<author>
+			<persName><forename type="first">C.-S</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">8397</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Rethinking the A cation in halide perovskites</title>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-G</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page">1186</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Efficient, stable and scalable perovskite solar cells using poly(3-hexylthiophene)</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">567</biblScope>
+			<biblScope unit="page" from="511" to="515" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Surface passivation of perovskite film for efficient solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photon</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="460" to="466" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">An interface stabilized perovskite solar cell with high stabilized efficiency and low voltage loss</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Yoo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2192" to="2199" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Resolving spatial and energetic distributions of trap states in metal halide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">367</biblScope>
+			<biblScope unit="page" from="1352" to="1358" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Top and bottom surfaces limit carrier lifetime in lead iodide perovskite films</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">16207</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">March&apos;s Advanced Organic Chemistry: Reactions, Mechanisms, and Structure 6th edn</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>March</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Local time-dependent charging in a perovskite solar cell</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">W</forename><surname>Bergmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="19402" to="19409" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Control of electrical potential distribution for high-performance perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="296" to="306" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Optimization of amorphous silicon thin film solar cells for flexible photovoltaics</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Söderström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-J</forename><surname>Haug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Terrazzoni-Daudrix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ballif</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page">114509</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Design principles for electronic charge transport in solution-processed vertically stacked 2D perovskite quantum wells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tsai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">2130</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Steric impediment of ion migration contributes to improved operational stability of perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">1906995</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Defect migration in methylammonium lead iodide and its role in perovskite solar cell operation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Azpiroz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mosconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bisquert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Angelis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2118" to="2127" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Migration of cations induces reversible performance losses over day/ night cycling in perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Domanski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="604" to="613" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Planar perovskite solar cells with long-term stability using ionic liquid additives</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">571</biblScope>
+			<biblScope unit="page" from="245" to="250" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Efficient ambient-air-stable solar cells with 2D-3D heterostructured butylammonium-caesium-formamidinium lead halide perovskites</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">17135</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Methylammonium chloride induces intermediate phase stabilization for efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="2179" to="2192" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Efficient, stable solar cells by using inherent bandgap of α-phase formamidinium lead iodide</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Min</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="749" to="753" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Efficient perovskite solar cells via improved carrier management</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Yoo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">590</biblScope>
+			<biblScope unit="page" from="587" to="593" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Shallow iodine defects accelerate the degradation of α-phase formamidinium perovskite</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="2426" to="2442" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Strained hybrid perovskite thin films and their impact on the intrinsic stability of perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">5616</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Excess charge-carrier induced instability of hybrid perovskites</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">4981</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Ionic reactivity at contacts and aging of methylammonium lead triiodide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Carrillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1502246</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Iodine migration and degradation of perovskite solar cells enhanced by metallic electrodes</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Besleaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="5168" to="5175" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Trapped charge-driven degradation of perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">13422</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Modeling the electronic properties of π-conjugated self-assembled monolayers</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Heimel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rissner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zojer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="2494" to="2513" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Energy level modification in lead sulfide quantum dot thin films through ligand exchange</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="5863" to="5872" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Accuracy and resolution limits of Kelvin probe force microscopy</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Zerweck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Loppacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Otto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grafström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Eng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">125424</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kresse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Furthmuller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="15" to="50" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Restoring the density-gradient expansion for exchange in solids and surfaces</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Perdew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grimme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Antony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ehrlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Krieg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page">154104</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Projector augmented-wave method</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Blöchl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="17953" to="17979" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">A robust and accurate tight-binding quantum chemical method for structures, vibrational frequencies, and noncovalent interactions of large molecular systems parametrized for all spd-block elements (Z = 1-86)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grimme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bannwarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shushkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1989" to="2009" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">GFN2-xTB-an accurate and broadly parametrized self-consistent tight-binding quantum chemical method with multipole electrostatics and density-dependent dispersion contributions</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bannwarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ehlert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grimme</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1652" to="1671" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Fully automated quantum-chemistry-based computation of spin-spin-coupled nuclear magnetic resonance spectra</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grimme</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Edn</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="14763" to="14769" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Effect of the damping function in dispersion corrected density functional theory</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grimme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ehrlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Goerigk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1456" to="1465" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Bonded-atom fragments for describing molecular charge densities</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Hirshfeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Theor. Chim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="129" to="138" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">Representative 3D topography of the: a, OAI-treated; b, OABF 4 -treated; and c, OATsO-treated perovskite films measured by AFM. All scale bars represent 2 μm. d, Comparison of the height depth distribution of the films</title>
+		<imprint/>
+	</monogr>
+	<note>Extended Data Fig. 2 | Topography of the passivated perovskite films. Depth distribution histograms for the: e, OAI-treated; f, OABF. treated perovskite films. Insets include the fitted statistical parameters. SD, standard deviation</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title level="m" type="main">Extended Data Fig. 5 | Device photovoltaic parameters. Box plots showing the distribution of the: a</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Oc ; B</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sc ; C</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>and d, PCE of the devices. Centre line, median; box limits, 25 th and 75 th percentiles; whiskers, outliers</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Inset includes the measured photovoltaic parameters. b, EQE spectrum and integrated J SC of an OATsO-treated device. The integrated J SC is 24.6 mA cm -2 , and therefore well matched (less than 3% discrepancy) with the measured value. c, Absorbance profile of an OATsO-treated film on glass measured by UV-Vis spectroscopy</title>
+		<imprint/>
+	</monogr>
+	<note>Extended Data Fig. 6 | Characterization of the OATsO-treated devices. a, Current density-voltage curves of the best-performing OATsO-treated device, in reverse scan (blue line) and forward scan (red line). Inset includes a Tauc plot and linear fits to estimate the optical bandgap</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

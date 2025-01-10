@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+				<funder ref="#_62Qvn8U">
+					<orgName type="full">National Research Foundation</orgName>
+					<orgName type="abbreviated">NRF</orgName>
+				</funder>
+				<funder ref="#_Wm46ka9 #_PTPx4Dc #_acCWmJK">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_mpwV3fX">
+					<orgName type="full">Simulation (FACTS)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Supercomputing Centre, Singapore</orgName>
+				</funder>
+				<funder ref="#_bgvJ3d6">
+					<orgName type="full">Ministry of Singapore</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">UPS</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-02-23">23 February 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Senyun</forename><surname>Ye</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Haixia</forename><surname>Rao</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Physics and Applied Physics</orgName>
+								<orgName type="department" key="dep2">School of Physical and Mathematical Sciences</orgName>
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Facility for Analysis Characterisation Testing and Simulation</orgName>
+								<orgName type="institution">Nanyang Technological University</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Agency for Science, Technology and Research (A*STAR)</orgName>
+								<orgName type="institution">Institute of Materials Research and Engineering</orgName>
+								<address>
+									<settlement>Innovis</settlement>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-02-23">23 February 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8FD859E69E5DB3DCFF747EE7CA946CDE</idno>
+					<idno type="DOI">10.1038/s41560-023-01204-z</idno>
+					<note type="submission">Received: 26 May 2022 Accepted: 16 January 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T18:00+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><formula xml:id="formula_0">q x = 2π λ (cos Ψ cos α f -cos α i ) (E2) q y = 2π λ (sin Ψ cos α f ) (E3) q z = 2π λ (sin α f + sin α i ) (E4)</formula><p>When the lateral structures are absent, it meets i = f due to the pure specular scattering. The diffuse scattering results from the lateral deviation of the refractive index, which leads to i ≠ f.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 2</head><p>The TRPL delay kinetics correlate to charge carrier recombination channels, which are dependent on excitation pulse fluences (initial charge carrier densities) S2-S4 . At very low excitation fluences, trap-mediated nonradiative monomolecular recombination (first-order) channel is dominated, leading to a mono-exponential relationship of TRPL decay kinetics. As excitation fluence increases, higher-order recombination channels such as bimolecular electron-hole radiative recombination (second-order) and trimolecular Auger recombination (third-order) start to contribute, resulting in accelerated TRPL decay kinetics, which can be generally governed by the following rate equation:</p><formula xml:id="formula_1">d𝑁 d𝑡 = -𝑘 1 𝑁 -𝑘 2 𝑁 2 -𝑘 3 𝑁 3 (E5)</formula><p>where N is photoexcited charge carrier density, k1, k2 and k3 are rate constants for the first-order, second-order, and third-order recombination, respectively.</p><p>To extract specific recombination rate constants, fluence-dependent TRPL analysis under excitation of 640 nm femtosecond laser pulses with various fluences (0.071, 0.177, 0.354, 0.707, 1.415, and 2.829 µJ cm -2 ) were carried out for the studied perovskite films. It is noted that our used excitation fluences are relatively low, under which the third-order Auger recombination is negligible. So, the k1 and k2 values can be extracted by globally fitting the TRPL delay kinetics with various excitation fluences by using the simplified rate equation (E6):</p><formula xml:id="formula_2">d𝑁 d𝑡 = -𝑘 1 𝑁 -𝑘 2 𝑁 2 (E6)</formula><p>The lifetime (τ = 1/k1) of the first-order trap-mediated recombination then can be calculated. The resulting k1, k2 and τ values for the various studied perovskite films are summarized in Supplementary Tables <ref type="table" target="#tab_9">9</ref> and<ref type="table" target="#tab_3">10</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 3</head><p>Based on Anderson's model <ref type="bibr">29,S5</ref> , the heterojunctions between two contacting semiconductors can be classified as isotype and anisotype according to the type of conductivity present on either side of the junction. The former involves two semiconductors with similar types of conductivity, which includes n-n and p-p types. The latter comprises of two semiconductors with different types of conductivity, including p-n and n-p types. In the specific n-n isotype heterojunction, there are four cases of energy band profiles depending on the relation between electron affinities (χ), work functions () and bandgaps (Eg) of the two contacting semiconductors, as shown below.</p><p>Case I: Our studied 3D/LD structures conform to the Case I energy band profile of n-n isotype heterojunction (see Fig. <ref type="figure" target="#fig_4">3f</ref>). In this situation, an accumulation layer is formed on the 3D side of the interface and a depletion layer on the LD side of the interface, accompanied with a selfconsistent quantum well at the interface <ref type="bibr">29,S5</ref> (see Supplementary Fig. <ref type="figure" target="#fig_5">41a</ref>). According to various models proposed by Anderson and other researchers <ref type="bibr">29,S5</ref> , thermionic emission and quantum tunneling over the heterojunction barrier are two probable intrinsic mechanisms for the charge transport across the heterojunction interface. Additionally, our LD capping layer with a small optimum thickness (~20 nm, estimated from Supplementary Fig. <ref type="figure" target="#fig_2">16</ref>) is deposited on a relatively rough 3D perovskite surface (Supplementary Figs. <ref type="figure" target="#fig_2">15</ref> and<ref type="figure" target="#fig_3">26</ref>) via the solution process, which makes the LD capping layer probably be discontinuous rather than conformal <ref type="bibr" target="#b2">3</ref> . As illustrated in Supplementary Fig. <ref type="figure" target="#fig_5">41b</ref>, both thin and thick regions of the LD capping layer probably coexist. The thin capping region is advantageous for charge transport by tunneling. For the thick capping region, the charge carriers can also diffuse to adjacent thin capping regions to transfer across the interface.</p><formula xml:id="formula_3">𝜒 1 &gt; 𝜒 2 ,</formula><formula xml:id="formula_4">𝑉 OC = 𝑘𝑇 𝑞 ln ( 𝐽 ph 𝐽 th + 1) (E7)</formula><p>where k, T, q, Jph and Jth are Boltzmann constant, absolute temperature, elementary charge, photocurrent density, and thermally generated current density (or dark current density), respectively. In fact, the VOC does not indefinitely increase with the enhancement of Jth according to the E7 relation, especially under relatively high irradiance, because the VOC is also limited by    </p><formula xml:id="formula_5">2PEAX + APbX3 → PEA2PbX4 + AX PEA2PbX4 + APbX3 → PEA2APb2X7 PEA2APb2X7, PEA2PbX4, AX, PEAX PEA2PbX4 APbX3 PEA2PbX4 + APbX3 → PEA2APb2X7 PEA2APb2X7 PEA2ZnX4 (CsxFA1-x)PbX3 - PEA2ZnX4 (Rb2yCsxFA1-x-2y)PbX3 PEA2ZnX4 + (Rb2yCsxFA1-x-2y)PbX3 → (PEA1-yRby)2ZnX4 + 2yPEAX + (CsxFA1-x-2y)Pb1-2yX3(1-2y) + 2yPbX2 2PEAX + PbX2 → PEA2PbX4 PEA2PbX4 + APbX3 → PEA2APb2X7 PEA2ZnX4, (PEA1-yRby)2ZnX4, PEA2APb2X7,</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PEA2PbX4, PbX2</head><p>a A = Rb, Cs, FA; X = Cl/I. Three-dimensional/low-dimensional perovskite solar cells afford improved efficiency and stability. The design of low-dimensional capping materials is constrained to tuning the A-site organic cation, as Pb 2+ and Sn 2+ are the only options for the metal cation. Here we unlock access to a library of low-dimensional capping materials with metal cations beyond Pb 2+ /Sn 2+ by processing a full precursor solution containing both metal and ammonium halides. This enables easier synthetic control of the low-dimensional capping layer and greater versatility for low-dimensional interface engineering. We demonstrate that a zero-dimensional zinc-based halogenometallate (PEA 2 ZnX 4 ; PEA = phenethylammonium, X = Cl/I) induces more robust surface passivation and stronger n-N isotype three-dimensional/low-dimensional heterojunctions than its lead-based counterpart. We exhibit p-i-n solar cells with 24.1% efficiency (certified 23.25%). Our cells maintain 94.5% initial efficiency after &gt;1,000 h of operation at the maximum power point. Our findings expand the material library for low-dimensional interface engineering and stabilization of highly efficient three-dimensional/low-dimensional perovskite solar cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head><p>Bi-layered three-dimensional/low-dimensional (3D/LD) perovskite solar cell (PSC) architecture recently emerged as an extremely promising approach to resolve the compromise between photovoltaic performance and operational stability <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref> . The superincumbent LD capping layer plays a crucial role not only in surface passivation, but also heterojunction construction and environmental stress resistance <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> .</p><p>The most common LD capping materials are types of halogenometallate, such as the popular two-dimensional (2D) Ruddlesden-Popper perovskites with the general formula of A 2 MX 4 (refs. <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref> ), where A is a bulky ammonium cation, M is a metal cation and X is a halide anion. The widely adopted manufacturing process for the LD capping layer is to deposit a bulky ammonium halide such as phenethylammonium iodide (PEAI) on top of a 3D perovskite, followed by a cation exchange reaction <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b15">16</ref> , which is known as the half precursor (HP) methodology. The metal cation of the LD capping materials is restricted to Pb 2+ /Sn 2+ and is almost irreplaceable in the current methodology as they are derived from the underlying 3D perovskite. Hence, the most popular strategy in new LD capping materials design is to engineer bulky molecular Article <ref type="url" target="https://doi.org/10.1038/s41560-023-01204-z">https://doi.org/10.1038/s41560-023-01204-z</ref> PEAI salt still partially remained on both 3D perovskites under the same post-treatment, although most of it transformed into PEA 2 FAPb 2 I 7 (Fig. <ref type="figure" target="#fig_2">1d,</ref><ref type="figure">e</ref>). The superior controllability of our FP technique for growth of the LD overlayer is further confirmed by the successful realization of a 2D (NMA) 2 PbI 4 (where NMA is 1-naphthylmethylammonium) capping layer with superior intrinsic stability <ref type="bibr" target="#b24">25</ref> on a 3D perovskite (Supplementary Fig. <ref type="figure" target="#fig_3">2</ref>), which is inaccessible via the traditional HP process due to the difficult reaction between the 1-naphthylmethylammonium iodide salt and the 3D perovskite <ref type="bibr" target="#b25">26</ref> . Interestingly, we found that both PEA 2 ZnX 4 and PEA 2 FAPb 2 I 7 phases were detected in the Rb 5 Cs 10 /PEA 2 ZnX 4 film (Fig. <ref type="figure" target="#fig_2">1d</ref>), but only PEA 2 ZnX 4 was present in the Cs 15 /PEA 2 ZnX 4 film (Fig. <ref type="figure" target="#fig_2">1e</ref>). It is also noted that halide exchange between I -in PEA 2 ZnX 4 and Cl -in either Rb 5 Cs 10 or Cs 15 perovskite always occurs, ultimately leading to a chloride-rich composition of PEA 2 ZnI 4-x Cl x (x ≥ 2) (Fig. <ref type="figure" target="#fig_2">1d,</ref><ref type="figure">e</ref>), where the estimated values of x are presented in Supplementary Table <ref type="table" target="#tab_3">1</ref>.</p><p>Henceforth, we describe the zinc-based capping component using the simplified formula of PEA 2 ZnX 4 unless specified otherwise, where X is Cl -, I -or their mixture.</p><p>To reveal the possible reaction pathways between PEA 2 ZnX 4 and Rb 5 Cs 10 perovskite, we investigated the RbCl/PEA 2 ZnX 4 stack film under similar conditions and discovered that Rb + partially exchanged with PEA + to generate PEAX salt (Supplementary Fig. <ref type="figure" target="#fig_4">3</ref>). The exchanged Rb + is probably incorporated into the PEA 2 ZnX 4 structure to form (PEA 1-y Rb y ) 2 ZnX 4 , which is a reasonable deduction as the full-width at half-maximum value for the characteristic diffraction peak of PEA 2 ZnX 4 almost doubled (Supplementary Fig. <ref type="figure" target="#fig_4">3</ref>), and considering that Rb 2 ZnX 4 has the same β-K 2 SO 4 -type crystal structure as PEA 2 ZnX 4 (refs. <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b26">27</ref> ). Hence we conclude that the PEA 2 ZnX 4 capping layer partially reacted with the Rb 5 Cs 10 perovskite to generate (PEA 1-y Rb y ) 2 ZnX 4 and PEA-2 FAPb 2 I 7 via the cation exchange between Rb + and PEA + . The possible reactions between the studied LD capping materials and the 3D perovskites are summarized in Supplementary Table <ref type="table" target="#tab_4">2</ref>.</p><p>We further determined the possible conversion ratio of PEA 2 ZnX 4 in the Rb 5 Cs 10 /PEA 2 ZnX 4 stack film by means of a rough quantitative XRD analysis (Supplementary Fig. <ref type="figure" target="#fig_5">4</ref> and Supplementary Table <ref type="table">3</ref>), in which the relative amount of phases present was estimated by using the integral intensity of the corresponding characteristic diffraction peak. Considering the identical preparation and measurement conditions, and similar chemical environments for both Rb  <ref type="table">3</ref>). Meanwhile, ultraviolet-visible (UV-vis) absorption spectra of both Rb 5 Cs 10 /PEAI and Rb 5 Cs 10 /PEA 2 PbI 4 films based on a relatively thin Rb 5 Cs 10 layer exhibit a clear and strong excitonic absorption peak at ~570 nm corresponding to PEA 2 FAPb 2 I 7 , which is barely observed for the Rb 5 Cs 10 /PEA 2 ZnX 4 film (Supplementary Fig. <ref type="figure">5</ref>). It can therefore be deduced that PEA 2 FAPb 2 I 7 is a minor capping by-product in the Rb 5 Cs 10 /PEA 2 ZnX 4 film, although it is difficult to directly identify cations at the A-site <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b15">16</ref> . Although an interesting solid-state in-plane growth method was recently demonstrated to have good controllability specifically for 2D BA 2 PbI 4 (where BA is butylammonium) on top of 3D perovskites <ref type="bibr" target="#b4">5</ref> , the intrinsically weak solid-state interaction/reaction and high-pressure (60 MPa) requirements may limit its applicability to LD materials with metal cations that are distinct from the underlying 3D perovskite layer. Tailoring the metal cation of LD capping materials so far remains an open question. Expanding the library of LD capping materials with metal cations different from those in 3D perovskites opens up another exciting lever for engineering the energy levels and optoelectronic properties of the LD interface for high-efficiency 3D/LD PSCs.</p><p>Herein we developed a full precursor (FP) solution methodology for LD capping layer deposition, where an FP solution containing both the metal halide and bulky ammonium halide-instead of the traditional HP solution containing only the bulky ammonium halide-is directly spin-coated on top of a 3D perovskite. Our approach enables easier synthetic control of the LD capping layer compared with the traditional HP process due to the co-existence of both ammonium halide and metal halide. This ensures that the metal cation reactant is no longer limited by the upward diffusion from the underlying 3D perovskite layer. Importantly, our approach allows unprecedented access to the vast library of metal cations beyond the widespread use of Pb 2+ /Sn 2+ for LD capping materials, thus affording fresh opportunities for optimizing the interface alignment and charge transfer properties for efficient PSCs. We discovered that the zero-dimensional (0D) zinc-based halogenometallate (PEA 2 ZnX 4 ; PEA = phenethylammonium, X = Cl/I) with a β-K 2 SO 4 -type single crystal structure <ref type="bibr" target="#b23">24</ref> functions as a more effective surface capping material for 3D perovskites. By contrast to the lead-based counterpart, PEA 2 ZnX 4 can induce better surface passivation and stronger n-N isotype heterojunctions, which in turn results in substantial suppression of charge recombination and remarkable enhancement of the built-in potential (V bi ). Consequently, in combination with a traditional surface passivation molecule tris(2,4-di-tert-butylphenyl) phosphite (TPPi), we achieved one of the highest power-conversion efficiencies (PCEs) of 24.1% for p-i-n-structured PSCs with negligible hysteresis; the corresponding certified PCE reached 23.25%. The target PSC also exhibited enhanced stability, retaining 94.5% of the initial PCE after 1,009 h of operation at the maximum power point (MPP) under an equivalent effective irradiance of 1 sun. Our findings pave the way forward to expand the toolkit of LD capping materials with metal cations different from those in 3D perovskites. Our study opens a valuable research avenue for engineering efficient 3D/LD PSCs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fabrication and characterization of 3D/LD stack films</head><p>A comparison between the proposed FP and traditional HP processes is shown in Fig. <ref type="figure" target="#fig_2">1a</ref>. The solvent of the HP solution is generally prepared using an antisolvent such as isopropanol, whereas a slightly more polar solvent (acetonitrile, ACN) is used to dissolve the FP components, especially the metal halide. Details on the FP process are provided in the Methods (Supplementary Video 1). For simplicity, we chose PEA 2 PbI 4 and PEA 2 ZnX 4 (X = Cl/I) as representatives of the FP-based LD capping materials, with structures given in Fig. <ref type="figure" target="#fig_2">1b</ref>. On the other hand, the ubiquitous PEAI was chosen as a representative for the HP capping method. Notably, the distinguishable characteristic low-angle X-ray diffraction (XRD) peaks (Fig. <ref type="figure" target="#fig_2">1c</ref> and Supplementary Fig. <ref type="figure" target="#fig_2">1a</ref>) provide strong and direct evidence for verifying the presence of corresponding LD materials in the 3D/LD films <ref type="bibr" target="#b11">12</ref> . As a result, the deposited PEA 2 PbI 4 was fully converted into the quasi-2D PEA 2 FAPb 2 I 7 (where FA is formamidinium) through a reaction with the bottom 3D perovskite of either Rb 0.05 Cs 0.10 FA 0.85 PbI 2.8 Cl 0.2 (abbreviated as Rb 5 Cs 10 ; Fig. <ref type="figure" target="#fig_2">1d</ref> and Supplementary Fig. <ref type="figure" target="#fig_2">1b</ref>) or Cs 0.15 FA 0.85 PbI 2.8 Cl 0.2 (abbreviated as Cs 15 ; Fig. <ref type="figure" target="#fig_2">1e</ref> and Supplementary Fig. <ref type="figure" target="#fig_2">1c</ref>). However, for the conventional capping method, <ref type="url" target="https://doi.org/10.1038/s41560-023-01204-z">https://doi.org/10.1038/s41560-023-01204-z</ref> PEA 2 ZnX 4 in the UV-vis spectrum of the Rb 5 Cs 10 /PEA 2 ZnX 4 film due to the intrinsic weak absorption of PEA 2 ZnX 4 (Supplementary Fig. <ref type="figure">5</ref>). This is in accordance with the above quantitative XRD analysis results. In summary, the capped PEA 2 ZnX 4 primarily remained on the Rb 5 Cs 10 perovskite, and there is only a slight reaction with Rb 5 Cs 10 perovskite to produce a small amount of PEA 2 FAPb 2 I 7 by-product.</p><p>We further assessed the orientation of the LD capping material with respect to the substrate using grazing incidence wide/small angle X-ray scattering (GIWAXS/GISAXS) (Fig. <ref type="figure" target="#fig_2">1f</ref>, Supplementary Figs. 6-10 and Supplementary Note 1). The control 3D film exhibits Debye-Scherrerlike rings, and the 3D/LD stack films show additional Bragg spots whose positions correspond with those of the relevant peaks in their XRD patterns. Interestingly, all of the Bragg spots shown in the studied 3D/ LD stack films are located along the Q z direction, indicating that the LD capping materials are oriented preferentially with the (0k0) planes parallel to the substrate (that is, the b-axis is oriented perpendicular to the substrate). This is consistent with the orientation of most reported LD capping materials prepared via the conventional HP methodology <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b9">10</ref> . The presence and distribution of the zinc-based capping layer on the 3D perovskite surface was further identified using high-angle annular dark-field scanning transmission electron microscopy and energy-dispersive X-ray spectroscopy (EDX) (Supplementary Fig. <ref type="figure" target="#fig_2">11</ref>), as well as time-of-flight secondary-ion mass spectroscopy (TOF-SIMS) (Supplementary Fig. <ref type="figure" target="#fig_3">12</ref>). Furthermore, the zinc-based capping material probably forms a film on 3D perovskite surface, which inferred from its distribution form on the ITO substrate (Supplementary Fig. <ref type="figure" target="#fig_4">13</ref>). Lattice microstrain analysis (Supplementary Table <ref type="table" target="#tab_5">4</ref>) suggests that the zinc-based capping layer hardly induces any additional lattice strain for the bottom 3D perovskite although their crystal structures are different. It is also noted that our FP-based capping solution barely changes the cross-sectional morphology of the underlying 3D perovskite (Supplementary Fig. <ref type="figure" target="#fig_5">14</ref>), which indicates negligible damage to the underlying 3D perovskite. Furthermore, all of the capping layers are found to effectively reduce the roughness of the 3D perovskite film (Supplementary Fig. <ref type="figure" target="#fig_2">15</ref>), which is probably attributed to the filling of 3D perovskite surface valley regions by the capping materials.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Photovoltaic performance comparison of 3D/LD PSCs</head><p>We then investigated the p-i-n-structured 3D/LD PSCs with a general configuration of ITO/PTAA/3D/LD/C 60 /BCP/Ag (Fig. <ref type="figure" target="#fig_3">2a</ref>), where ITO is indium tin oxide, PTAA is poly(triarylamine), BCP is bathocuproine  and the 3D perovskite is Rb 5 Cs 10 unless specified otherwise. In Fig. <ref type="figure" target="#fig_3">2b</ref>-e and Supplementary Table <ref type="table">5</ref> we compare the open-circuit voltage (V OC ), short-circuit current density (J SC ), fill factor and PCE for the control and target PSCs with various capping materials fabricated either via the traditional HP-based process or our FP-based one. The capping layers were prepared using their respective optimum conditions for a fair comparison (Supplementary   </p><formula xml:id="formula_6">Q x (Å -1 ) Q x (Å -1 ) Q x (Å -1 ) Q x (Å -1 ) Q x (Å -1 ) Q z (Å -</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Optoelectronic properties evolution in 3D/LD PSCs</head><p>To explicate the underlying reasons for the extraordinary enhancement of device performance by the PEA 2 ZnX 4 capping material, time-resolved photoluminescence (TRPL) analysis was conducted to characterize the non-radiative recombination losses of charge carriers in the perovskite films. In view of similar ultimate capping components and comparable performances for both the HP-based 3D/PEAI and FP-based 3D/ PEA 2 PbI 4 devices, the 3D/PEAI stack film was taken as the representative of the lead-based counterpart for comparison. As shown in Fig. <ref type="figure" target="#fig_4">3a</ref>, both 3D/PEAI and 3D/PEA 2 ZnX 4 stack films exhibit long tails in their pseudo-colour TRPL plots relative to the control film under the same excitation fluence of 0.177 µJ cm -2 at 640 nm, indicating longer photoluminescence lifetimes. A more distinct comparison of TRPL decay kinetics is illustrated in Fig. <ref type="figure" target="#fig_4">3b</ref>. Fluence-dependent TRPL analysis and corresponding global fits were performed to extract the specific rate constant (k 1 ) and lifetime (τ) for trap-mediated non-radiative recombination, that is, Shockley-Read-Hall (SRH) recombination (Supplementary Figs. 17-19 and Supplementary Note 2). In comparison with the control 3D perovskite, a more substantial decrease of k 1 and increase of τ were observed for 3D/PEA 2 ZnX 4 compared with a conventional 3D/ PEAI (Supplementary Table <ref type="table" target="#tab_9">9</ref>), implying the superiority of PEA 2 ZnX 4 over a traditional lead-based counterpart for surface passivation to suppress charge recombination. As demonstrated in most past works <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> , the chemical passivation effect of the halogenometallate family of capping materials is mainly rooted in their interactions with the A-site cation vacancy (V A ) and halide vacancy (V X ) defects, which are regarded as the dominant defect types on 3D perovskite surface. Similarly, in our case, both the main surface capping component PEA 2 FAPb 2 I 7 in the conventional 3D/PEAI film and PEA 2 ZnX 4 in the 3D/PEA 2 ZnX 4 film enable interactions with the V A and V X defects depending on the cationic ammonium group (-NH 3 + ) and halide anion in their structures (Supplementary Fig. <ref type="figure" target="#fig_3">20</ref>). Although both the PEA 2 FAPb 2 I 7 and PEA 2 ZnX 4 passivators possess the same passivating groups, their interactions with defects may vary due to different chemical environments and structures leading to discrepant passivation effects. On one hand, the calculated electrostatic potential (ESP) maps of PEA 2 FAPb 2 I 7 and PEA 2 ZnX 4 showed almost identical ESP for the -NH 3 + groups in both passivators (Supplementary Fig. <ref type="figure" target="#fig_3">21a,</ref><ref type="figure">b</ref>), indicating that the passivation effects induced by the -NH 3 + groups are probably similar for both passivators. We observe a slightly more negative ESP for the halide anion in tetrahedral [ZnI 4 ] than in octahedral [PbI 6 ] (Supplementary Fig. <ref type="figure" target="#fig_3">21c,</ref><ref type="figure">d</ref>), which is in accordance with the smaller electronegativity of zinc relative to lead. This is conducive to inducing relatively stronger interactions between the halide anion in PEA 2 ZnX 4 and the positively charged V X defect, and thus contributing to the superior passivation effect. On the other hand, the isolated tetrahedral [ZnI 4 ] structure in 0D PEA 2 ZnX 4 is relatively relaxed compared with the strained connected octahedral [PbI 6 ] structure in the quasi-2D PEA 2 FAPb 2 I 7 (Supplementary Fig. <ref type="figure" target="#fig_3">22</ref>), which facilitates effective interactions between passivating groups and the defects. Another possible reason for the superiority of PEA 2 ZnX 4 may be related to modification of interface energy level alignment, which is discussed below.</p><p>Kelvin probe force microscopy (KPFM) analysis was conducted to examine the surface potential evolution of the perovskite films with different capping materials. Figure <ref type="figure" target="#fig_4">3c</ref> presents the KPFM images of the control 3D, 3D/PEAI and 3D/PEA 2 ZnX 4 stack films, with the colour-scale bar representing the contact potential difference (CPD) between the tip and sample surface. As 3D/PEA 2 ZnX 4 exhibits the highest average CPD value (Fig. <ref type="figure" target="#fig_4">3d</ref>), it implies that PEA 2 ZnX 4 induces a more substantial decrease in the surface work function than the traditional lead-based counterpart. Ultraviolet photoelectron spectroscopy (UPS) analysis was also performed to determine the Fermi levels and valence band maxima of the surfaces of pristine 3D, 3D/PEAI and 3D/PEA 2 ZnX 4 stack films (Fig. <ref type="figure" target="#fig_4">3e</ref>). It should be noted that the mentioned Fermi levels here are actually quasi-Fermi levels. The conduction band minima were then extrapolated in relation to the optical bandgaps, which were estimated from the UV-vis spectra of pristine 3D perovskite, PEA 2 FAPb 2 I 7 and PEA 2 ZnICl 3 (Supplementary Fig. <ref type="figure" target="#fig_4">23</ref>). Note that, in our case, the bandgaps of the surface capping components in the 3D/PEAI and 3D/PEA 2 ZnX 4 stack films were approximated from those of pristine PEA 2 FAPb 2 I 7 and PEA 2 ZnICl 3 films. This is because the initially capped PEAI and PEA 2 ZnX 4 will mostly convert into PEA 2 FAPb 2 I 7 and PEA 2 ZnICl 3 , respectively (Supplementary Table <ref type="table" target="#tab_3">1</ref>), after post-treatment, as shown above. As presented in the resulting energy level diagram (Fig. <ref type="figure" target="#fig_4">3f</ref>), all Fermi levels of the 3D perovskite and surface capping components are much closer to their conduction band minima, revealing n-type properties. Furthermore, the Fermi level of the surface capping component in 3D/PEA 2 ZnX 4 (-3.98 eV) is relatively higher than that in 3D/ PEAI (-4.15 eV) and both are effectively enhanced relative to the control 3D perovskite (-4.42 eV), which is in agreement with the KPFM results.</p><p>Importantly, the specific energy level alignment in either 3D/PEAI or 3D/PEA 2 ZnX 4 conduced to construct an n-N isotype heterojunction with an additional built-in electric field pointing from the surface to the bulk (Fig. <ref type="figure" target="#fig_4">3f</ref> and Supplementary Note 3), which is responsible for enhancement of V bi and in turn V OC (refs. <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29</ref> ). As the additional V bi is dominated by the Fermi level difference at the junction <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29</ref> , </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Article</head><p><ref type="url" target="https://doi.org/10.1038/s41560-023-01204-z">https://doi.org/10.1038/s41560-023-01204-z</ref> 3D/PEA 2 ZnX 4 can theoretically induce a stronger n-N isotype heterojunction and produce a higher additional V bi by virtue of a larger Fermi level difference relative to the conventional 3D/PEAI. The possible V bi variation was further investigated by the photosaturation method for the control, 3D/PEAI and 3D/PEA 2 ZnX 4 PSCs (Supplementary Note 4). As predicted, the 3D/PEA 2 ZnX 4 led to a larger increase of V bi compared with the traditional 3D/PEAI (Fig. <ref type="figure" target="#fig_4">3g</ref>), which is consistent with the V OC evolution. On the other hand, the specific built-in electric field at the n-N isotype heterojunction probably induces a departure of holes at the 3D perovskite surface, resulting in decreased hole concentration, which is advantageous for reducing the SRH recombination at the surface (Supple mentary Fig. <ref type="figure" target="#fig_5">24</ref>) because the SRH recombination rate is strongly dependent on the surface concentration of the minority carrier <ref type="bibr" target="#b29">30</ref> . This effect is commonly known in silicon solar cells as field-effect passivation <ref type="bibr" target="#b29">30</ref> , which has also been reported in PSCs recently <ref type="bibr" target="#b30">31</ref> . Accordingly, there is probably stronger field-effect passivation in 3D/PEA 2 ZnX 4 on account of a relatively larger built-in electric field at the corresponding n-N isotype heterojunction, which is also responsible for the superior passivation effect of PEA 2 ZnX 4 . Furthermore, the relatively deeper valence band maximum of the surface capping component can also induce a barrier for holes between the 3D perovskite layer and the C 60 electron transporting layer, which effectively restrains undesired recombination at the perovskite/C 60 interface caused by the adverse band tail states of C 60 (ref. <ref type="bibr" target="#b31">32</ref> and Supplementary Fig. <ref type="figure" target="#fig_3">25</ref>). The slightly higher hole barrier in 3D/PEA 2 ZnX 4 also contributes to greater suppression of charge recombination, thus improving device performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device performance and stability of 3D/LD PSCs</head><p>To further improve device performance, we also introduced TPPia traditional surface passivation molecule-to the best-performing 3D/PEA 2 ZnX 4 PSCs, considering that the relatively rough 3D perovskite surface probably cannot be sufficiently covered by the PEA 2 ZnX 4 capping layer, which has a narrow optimum thickness (~20 nm) (Supplementary Figs. 13, 15, 16 and 26, and Supplementary Note 3). The chemical structure of the TPPi molecule is presented in Supplementary Fig. <ref type="figure" target="#fig_3">27</ref>, and its passivation efficacy was confirmed by the reduced k 1 and increased τ of the 3D/TPPi film compared with the pristine 3D perovskite film (Supplementary Figs. 17 and 28, and Supplementary Table <ref type="table" target="#tab_3">10</ref>), as well as a slight increase in PCE of the 3D/TPPi PSCs (Supplementary Table <ref type="table" target="#tab_3">11</ref>), which has also been demonstrated by other similar molecules <ref type="bibr" target="#b32">33</ref> . As a result, we obtained a maximum PCE of 24.1% with a V OC of 1.198 V, a J SC of 24 mA cm -2 , a fill factor of 83.9% and negligible hysteresis (Fig. <ref type="figure" target="#fig_5">4a</ref>). The device also exhibited an average stable power output of 23.5% at the MPP (Supplementary Fig. <ref type="figure" target="#fig_3">29</ref>) and good reproducibility, with an average PCE of 22.9% over 103 individual cells (Fig. <ref type="figure" target="#fig_5">4b</ref> and Supplementary Table <ref type="table" target="#tab_4">12</ref>). The measured J SC was validated by the integrated J SC from the external quantum efficiency spectrum (Fig. <ref type="figure" target="#fig_5">4c</ref>), with a reasonable relative discrepancy of less than 2%. Our PSCs were also evaluated by an independent national institute, Solar Energy Research Institute of Singapore (SERIS), which offers a high-precision solar simulator with an almost ideal spectral mismatch factor of 1.01 for our PSCs. A certified PCE of 23.25% was obtained (Supplementary Fig. <ref type="figure" target="#fig_4">30</ref>). Finally, we examined the operational stability of the 3D/LD PSCs based on our FP technology. The operational stability tests were performed at the MPP in a N 2 -filled glovebox (O 2 &lt; 10 ppm, H 2 O &lt; 1 ppm) under illumination of a white light-emitting diode (LED) lamp with an equivalent effective irradiance of 1 sun. It is noted that the Cs 15 3D perovskite and the hybrid LD capping layer of PEA 2 PbI 4 -PEA 2 ZnX 4 were included in the PSCs for the stability tests, considering that a comparable device performance was achieved for the 3D/PEA 2 PbI 4 -PEA 2 ZnX 4 PSC relative to the 3D/PEA 2 ZnX 4 PSC (Supplementary Table <ref type="table" target="#tab_3">13</ref>), which is due to the intrinsic superiority of PEA 2 ZnX 4 , as demonstrated above. Consequently, 94.5% of the initial PCE was maintained after 1,009 h of MPP operation for the target PSC, which is remarkably enhanced compared with the control PSC (Fig. <ref type="figure" target="#fig_5">4d,</ref><ref type="figure">e</ref>). To reveal the possible reasons for the stability improvement induced by the LD capping layer, we investigated the surface morphology and defects evolution of the relevant perovskite films after aging them under 1 sun illumination in air without encapsulation. As illustrated in Supplementary Figs. 31 and 32, the LD capping layer effectively inhibited the generation of surface pinholes on the 3D perovskite film, which probably results from the blocking of H 2 O/O 2 penetration/erosion by the hydrophobic organic bulky cations within the structure of the LD capping layer (Supplementary Figs. 33 and 34) <ref type="bibr" target="#b15">16</ref> . Moreover, a relatively larger decrease in surface photoluminescence intensity for the control 3D perovskite film was also observed (Supplementary Fig. <ref type="figure" target="#fig_4">35</ref>), indicating that the LD capping layer is probably favourable for suppressing light-induced production of surface defects due to the robust interaction between the LD capping material and the 3D perovskite surface (Supplementary Fig. <ref type="figure" target="#fig_4">33</ref>). To further verify the role of the LD capping layer in device stability improvement, we also performed the 85 °C heat stability tests for the PSCs under ambient conditions or in N 2 (see Methods). As predicted, the target 3D/LD device also showed enhanced heat stability compared with the control 3D device (Supplementary Fig. <ref type="figure" target="#fig_4">36</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Using a full precursor solution methodology in 3D/LD PSCs, we have paved the way forward to expand the toolkit of LD capping materials to include metal cations different from those in 3D perovskites. Compared with the conventional lead-based counterpart, 0D PEA 2 ZnX 4 functions as a more effective LD capping material for 3D perovskites because it induces more robust surface passivation and forms a stronger n-N isotype heterojunction. The resulting 3D/PEA 2 ZnX 4 PSCs achieved a remarkably improved PCE of 24.1% (certified 23.25%) and enhanced operational stability. Although only the representative PEA 2 PbI 4 and PEA 2 ZnX 4 are presented here in detail, our FP technology also showed broad applicability for other commonly studied LD capping materials such as BA 2 PbI 4 and PMA 2 PbI 4 (where PMA is phenylmethylammonium) (Supplementary Table <ref type="table" target="#tab_5">14</ref>), as well as BA 2 ZnX 4 (Supplementary Fig. <ref type="figure" target="#fig_4">37</ref> and Supplementary Table <ref type="table" target="#tab_3">15</ref>). Aside from the Zn 2+ cation, our FP technology could potentially unlock access to many other divalent metal cations such as Co 2+ (PEA 2 CoX 4 ) (Supplementary Fig. <ref type="figure" target="#fig_4">38</ref> and Supplementary Table <ref type="table" target="#tab_5">14</ref>), Mn 2+ , Cu 2+ and so on, as well as trivalent cations such as Sb 3+ , Bi 3+ , Al 3+ and so on, which are promising for tuning energy level alignments at 3D/LD interfaces and/or enhancing the interface stability more effectively. We therefore believe our findings will unlock new opportunities to develop superior LD capping materials from the vast family of halogenometallates, especially the lead-free ones, for more efficient and stable PSCs as well as impact other perovskite optoelectronics such as LEDs, lasers, photodetectors and so on.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials</head><p>All of the chemicals and materials involved in this work were purchased and used as received unless specified otherwise. The patterned ITO-coated glass substrates (sheet resistance ≤10 Ω sq -1 ) were purchased from Shenzhen Huayu Union Technology Company; PTAA (average M n = 6,000-15,000), BCP (99.9%) and 1-naphthylmethylammonium iodide were purchased from Xi'an Polymer Light Technology Corporation; PbI 2 (99.99%) was purchased from TCI; C 60 (99.9%) was purchased from Puyang Yongxin Fullerene Technology Company; formamidinium iodide (FAI), methylammonium bromide, PEAI, n-butylammonium iodide and phenylmethylammonium iodide were purchased from Greatcell Energy; PbCl 2 (99.999%), PbBr 2 (99.999%), ZnI 2 (99.999%), ZnCl 2 (99.999%), CoCl 2 (99.995%), CsI (99.999%), RbI (99.9%), TPPi (98%), LiF (99.99%), N,N-dimethylformamide (DMF, 99.8%, anhydrous), dimethyl sulfoxide (DMSO, 99.9%, anhydrous), toluene (99.8%, anhydrous), 1,2-dichlorobenzene (99%, anhydrous), isopropanol (99.5%, anhydrous), ACN (99.8%, anhydrous) and methylamine solution (2 M in THF) were purchased from Sigma-Aldrich.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>rate and is expected to saturate close to the Vbi of the junction. Therefore, the Vbi can be estimated from the photosaturated VOC. The VOC here is identified by measuring the null voltage where the output current of the device is zero. Supplementary Figure 36 | 85 °C heat stability test. The 85 °C heat stability tests for the control 3D and the target 3D/LD PSCs were conducted under ambient conditions (relative humidity ~50%) or in N2, as indicated in the figure. It should be that a simple base encapsulation (see Methods) is made for the device before start of the test in air, and there is no encapsulation for the device tested in N2. The error bars denote standard deviations for 3 individual devices, and the centre for the error bars indicates the mean values. The relatively quick drop of PCE for the target device tested in air, relative to that in N2, is probably due to our poor encapsulation. The widely used triple-cation CsMAFA 3D perovskite was used in the relevant device for the test. The initial average PCE for the control 3D device is (18.5  0.1)%. The initial average PCEs for the target 3D/LD devices tested under ambient condition or in N2 are (20.1  0.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 1 |</head><label>1</label><figDesc>Fig. 1 | Fabrication diagram of the 3D/LD stack films and structural characterization. a, Comparison of the proposed full precursor (FP) and traditional half precursor (HP) processes for preparing the 3D/LD stack films. ACN, acetonitrile; IPA, isopropanol. b, Crystal structures of the 2D PEA 2 PbI 4 and 0D PEA 2 ZnX 4 (X = Cl/I). c-e, Enlarged XRD patterns of pristine LD materials (c), control Rb 5 Cs 10 and Rb 5 Cs 10 /LD stack films (d) and control Cs 15 and Cs 15 /LD stack</figDesc><graphic coords="73,254.78,340.88,70.92,62.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 2 |</head><label>2</label><figDesc>Fig. 2 | Device architecture and photovoltaic parameter evolution with LD capping materials. a, Schematic illustration and cross-sectional scanning electron microscope (SEM) image of the studied 3D/LD PSC. The charge and terminal symbols indicate the photoinduced electron/hole and device anode/ cathode, respectively. The LD capping material in the cross-sectional SEM image is PEA 2 ZnX 4 . The original uncoloured SEM image can be found in Supplementary</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 3 |</head><label>3</label><figDesc>Fig. 3 | Comparison of optoelectronic properties. a, Pseudo-colour TRPL plots of the control 3D perovskite, 3D/PEAI and 3D/PEA 2 ZnX 4 stack films deposited on glass substrates excited at 640 nm with a fluence of 0.177 µJ cm -2 .The colour-scale bar represents the normalized photoluminescence intensity from 0 to unity. b, Normalized TRPL decay kinetics. The fit details can be found in Supplementary Note 2 and Supplementary Table9. c-e, KPFM images (c), corresponding CPD statistical distributions (d) and UPS spectra (e) of the perovskite films deposited on ITO-coated glass substrates. The small vertical lines on left and right panels of the UPS spectra mark the secondary electron cut-off and valence band edge, respectively. The colour-scale bar in c represents the CPD intensity from 1.0 V to 2.8 V. The vertical axis in d represents the</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 4 |</head><label>4</label><figDesc>Fig. 4 | Device performance and stability. a, Current density-voltage (J-V) curves of the champion 3D/PEA 2 ZnX 4 PSC with additional TPPi passivation. FS, forward scan; RS, reverse scan. b, PCE distribution histogram of 103 individual target PSCs. The green curve indicates the probability density function of normal distribution. c, External quantum efficiency spectrum of the target PSC. d, Operational stability of the control and target PSCs at the MPP in N 2 under white LED illumination with an equivalent effective irradiance of 1 sun. The initial PCEs for the control and target PSCs were 18.6% ± 0.1% and 21.7% ± 0.1%, respectively. The device temperature was around 40 °C during the test. The error bars denote the s.d. for three different measurements, and the centres of the error bars are mean values. e, J-V curves of the target PSC before and after MPP tracking for 1,009 h.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="8,150.00,70.90,311.74,533.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="9,150.00,68.15,311.74,258.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="10,150.00,67.75,311.69,181.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="11,72.00,69.70,467.70,161.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="12,72.00,69.60,467.64,162.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="13,93.00,65.95,425.25,402.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="14,93.00,67.90,425.25,399.57" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="15,93.38,66.70,425.25,401.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="16,93.38,65.95,425.24,403.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="17,93.38,67.20,425.24,401.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="18,150.00,65.65,311.73,310.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="19,79.20,71.35,453.51,205.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="20,79.20,72.25,453.52,172.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="21,72.00,66.55,467.75,354.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="22,79.20,68.05,453.55,274.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="23,79.20,68.35,453.46,133.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="24,150.00,67.00,311.73,494.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="25,150.00,66.10,311.75,496.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="26,150.00,72.55,311.75,498.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="27,72.00,66.55,467.69,277.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="28,79.20,68.02,453.58,290.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="29,79.20,69.85,453.46,129.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="30,72.00,67.45,467.70,166.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="31,79.20,71.20,453.60,158.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="32,79.20,71.87,453.51,157.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="35,150.00,67.75,311.75,493.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="37,72.00,68.05,467.73,352.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="38,72.00,68.05,467.72,352.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="39,79.20,67.75,453.60,259.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="40,79.20,68.27,453.55,258.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="41,93.00,66.22,425.25,200.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="42,79.20,100.55,453.53,127.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="43,93.38,66.47,425.25,402.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="44,164.25,66.83,283.40,183.33" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="45,150.00,70.00,311.75,176.39" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="46,150.00,70.55,311.73,222.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="47,79.20,65.15,453.57,264.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="48,79.20,68.50,453.60,180.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="49,93.38,70.75,425.18,175.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>𝜙 1 &gt; 𝜙 2 , 𝜒 1 + 𝐸 g1 &lt; 𝜒 2 + 𝐸 g2 𝜒 1 &gt; 𝜒 2 , 𝜙 1 &lt; 𝜙 2 , 𝜒 1 + 𝐸 g1 &lt; 𝜒 2 + 𝐸 g2 𝜒 1 &lt; 𝜒 2 , 𝜙 1 &lt; 𝜙 2 , 𝜒 1 + 𝐸 g1 &gt; 𝜒 2 + 𝐸 g2 𝜒 1 &gt; 𝜒 2 , 𝜙 1 &gt; 𝜙 2 , 𝜒 1 + 𝐸 g1 &gt; 𝜒 2 + 𝐸 g2</figDesc><table><row><cell>Case IV:</cell></row><row><cell>Case II:</cell></row><row><cell>Case III:</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 1 |</head><label>1</label><figDesc>The estimated x values in the capping product of PEA2ZnI4-xClx in the 3D/PEA2ZnX4 (X = Cl/I) stack films according to the characteristic XRD peak position of PEA2ZnX4 (see</figDesc><table><row><cell>Fig. 1c-e).</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Film</cell><cell>Characteristic XRD peak position 2θ (°)</cell><cell>Product</cell><cell>x value</cell></row><row><cell>PEA2ZnI4</cell><cell>6.6</cell><cell></cell><cell>0</cell></row><row><cell>PEA2ZnI2Cl2</cell><cell>6.9</cell><cell></cell><cell>2</cell></row><row><cell>PEA2ZnCl4</cell><cell>7.2</cell><cell></cell><cell>4</cell></row><row><cell>Rb5Cs10/PEA2ZnI4</cell><cell>6.9</cell><cell>PEA2ZnI4-xClx</cell><cell>2</cell></row><row><cell>Rb5Cs10/PEA2ZnI2Cl2</cell><cell>7.1</cell><cell></cell><cell>~3a</cell></row><row><cell>Cs15/PEA2ZnI4</cell><cell>7.0</cell><cell></cell><cell>~3</cell></row><row><cell>Cs15/PEA2ZnI2Cl2</cell><cell>7.1</cell><cell></cell><cell>~3</cell></row></table><note><p><p><p>1)% and (20.9  0.2)%, respectively. More details are provided in Methods.</p>Supplementary</p>a The x value here is estimated to be around 3 as the characteristic XRD peak position is between those of PEA2ZnI2Cl2 and PEA2ZnCl4. 50 Supplementary</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 2 |</head><label>2</label><figDesc>Comparison of the possible reactions between the capping materials and the 3D perovskites, and the corresponding products/residues.</figDesc><table><row><cell>Capping material</cell><cell>3D perovskite</cell><cell>Possible reaction</cell><cell>Possible product/residue</cell></row><row><cell>PEAX</cell><cell>APbX3 a</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 4 |</head><label>4</label><figDesc>Lattice micro strain analysis for the control 3D and 3D/PEA2ZnI4 stack films.</figDesc><table><row><cell cols="2">The 3D perovskite here is Cs15.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>3D perovskite</cell><cell cols="2">Peak position (2) (°)</cell><cell></cell><cell>hkl (°) a</cell><cell cols="2">Micro strain (%) b</cell></row><row><cell>lattice plane</cell><cell>3D</cell><cell>3D/PEA2ZnI4</cell><cell>3D</cell><cell>3D/PEA2ZnI4</cell><cell>3D</cell><cell>3D/PEA2ZnI4</cell></row><row><cell>001</cell><cell>13.996</cell><cell>13.400</cell><cell>0.121</cell><cell>0.123</cell><cell>0.43</cell><cell>0.44</cell></row><row><cell>110</cell><cell>19.858</cell><cell>19.865</cell><cell>0.093</cell><cell>0.095</cell><cell>0.23</cell><cell>0.24</cell></row><row><cell>002</cell><cell>28.211</cell><cell>28.212</cell><cell>0.127</cell><cell>0.120</cell><cell>0.22</cell><cell>0.21</cell></row><row><cell>012</cell><cell>31.636</cell><cell>31.637</cell><cell>0.133</cell><cell>0.125</cell><cell>0.20</cell><cell>0.19</cell></row><row><cell>220</cell><cell>40.332</cell><cell>40.340</cell><cell>0.136</cell><cell>0.113</cell><cell>0.16</cell><cell>0.13</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>strain, crystalline</cell></row><row><cell cols="7">domain size and instrumental contribution. Considering the same instrument being used and similar</cell></row><row><cell cols="7">crystalline domain size for the control 3D and 3D/PEA2ZnI4 samples, it is reasonable that any difference in</cell></row><row><cell cols="7">hkl between the two samples is mainly attributed to the different lattice micro strain. b The lattice micro</cell></row><row><cell cols="5">strain can be estimated using hkl/4tan based on the Debye-Scherrer method S13 .</cell><cell></cell><cell></cell></row></table><note><p>a hkl is the full width at half maximum of the peak, which is related to the lattice micro</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 6 |</head><label>6</label><figDesc>Statistics of photovoltaic parameters for PSCs based on the capping materials</figDesc><table><row><cell cols="6">with various concentrations. The 3D perovskite and PEA2ZnX4 here are Rb5Cs10 and PEA2ZnI2Cl2,</cell></row><row><cell>respectively.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Capping material</cell><cell>Concentration (mM)</cell><cell>VOC (V)</cell><cell>JSC (mA cm -2 )</cell><cell>FF (%)</cell><cell>PCE (%)</cell></row><row><cell></cell><cell>10</cell><cell>1.072 ± 0.023 a</cell><cell>23.5 ± 0.1</cell><cell>79.7 ± 0.8</cell><cell>20.1 ± 0.4</cell></row><row><cell>PEAI</cell><cell>20</cell><cell>1.119 ± 0.017</cell><cell>23.4 ± 0.4</cell><cell>78.4 ± 0.5</cell><cell>20.6 ± 0.6</cell></row><row><cell></cell><cell>30</cell><cell>1.126 ± 0.017</cell><cell>22.5 ± 0.8</cell><cell>75.3 ± 4.0</cell><cell>19.1 ± 1.8</cell></row><row><cell></cell><cell>12</cell><cell>1.107 ± 0.006</cell><cell>23.4 ± 0.2</cell><cell>79.6 ± 0.7</cell><cell>20.6 ± 0.4</cell></row><row><cell>PEA2PbI4</cell><cell>17</cell><cell>1.</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>135 ± 0.008 23.4 ± 0.3 78.4 ± 1.4 20.8 ± 0.5</head><label></label><figDesc></figDesc><table><row><cell>23</cell><cell>1.142 ± 0.013</cell><cell>21.4 ± 0.3</cell><cell>79.0 ± 1.5</cell><cell>19.3 ± 0.5</cell></row><row><cell>17</cell><cell>1.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>PEA2ZnX4</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>158 ± 0.006 23.8 ± 0.2 80.6 ± 0.5 22.2 ± 0.2</head><label></label><figDesc></figDesc><table><row><cell cols="6">materials. The 3D perovskite and PEA2ZnX4 here are Cs15 and PEA2ZnI2Cl2, respectively.</cell></row><row><cell>Capping material</cell><cell>VOC (V)</cell><cell></cell><cell cols="2">JSC (mA cm -2 )</cell><cell>FF (%)</cell><cell>PCE (%)</cell></row><row><cell>Control</cell><cell cols="2">1.048 ± 0.005 a</cell><cell>22.4 ± 0.2</cell><cell></cell><cell>77.4 ± 1.2</cell><cell>18.2 ± 0.3</cell></row><row><cell>PEAI</cell><cell cols="2">1.132 ± 0.009</cell><cell>22.0 ± 0.5</cell><cell></cell><cell>78.7 ± 1.1</cell><cell>19.6 ± 0.6</cell></row><row><cell>PEA2PbI4</cell><cell cols="2">1.135 ± 0.006</cell><cell>22.7 ± 0.4</cell><cell></cell><cell>79.2 ± 1.0</cell><cell>20.4 ± 0.4</cell></row><row><cell>PEA2ZnX4</cell><cell cols="2">1.150 ± 0.005</cell><cell>22.7 ± 0.4</cell><cell></cell><cell>81.0 ± 1.3</cell><cell>21.2 ± 0.4</cell></row><row><cell></cell><cell>26</cell><cell cols="2">1.169 ± 0.005</cell><cell>22.9 ± 0.3</cell><cell>79.3 ± 1.8</cell><cell>21.2 ± 0.8</cell></row><row><cell cols="6">a The data include average values and standard deviations calculated from 8 individual devices.</cell></row></table><note><p>a The data include average values and standard deviations calculated from 13 individual devices. 57 Supplementary</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head>Table 9 |</head><label>9</label><figDesc>The extracted constants from global fits for the fluence-dependent TRPL decay kinetics of the 3D perovskite films without or with different capping materials (see Supplementary Figs.</figDesc><table><row><cell>17-19).</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>First-order</cell><cell></cell><cell>Second-order</cell></row><row><cell>Capping material</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>k1 (10 5 s -1 )</cell><cell>τ (ns)</cell><cell>k2 (10 -11 cm 3 s -1 )</cell></row><row><cell>Control</cell><cell>19.7 ± 0.1</cell><cell>506 ± 2</cell><cell>3.14 ± 0.03</cell></row><row><cell>PEAI</cell><cell>5.1 ± 0.1</cell><cell>1950 ± 50</cell><cell>3.69 ± 0.03</cell></row><row><cell>PEA2ZnX4</cell><cell>3.8 ± 0.1</cell><cell>2600 ± 100</cell><cell>3.06 ± 0.03</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head>Table 18 |</head><label>18</label><figDesc>The lattice constants of PEA2FAPb2I7 and PEA2ZnI4.</figDesc><table><row><cell></cell><cell>a (Å)</cell><cell>b (Å)</cell><cell>c (Å)</cell><cell>α (°)</cell><cell>β (°)</cell><cell>γ (°)</cell></row><row><cell>PEA2FAPb2I7</cell><cell>8.722</cell><cell>8.726</cell><cell>22.533</cell><cell>97.6</cell><cell>93.5</cell><cell>90.4</cell></row><row><cell>PEA2ZnI4</cell><cell>8.205</cell><cell>26.832</cell><cell>10.988</cell><cell>90.0</cell><cell>90.2</cell><cell>90.0</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head>Expanding the low-dimensional interface engineering toolbox for efficient perovskite solar cells Senyun Ye 1,5 , Haixia Rao 2,5 , Minjun Feng 1 , Lifei Xi 2,3 , Zhihao Yen 2 , Debbie Hwee Leng Seng 4 , Qiang Xu 1 , Chris Boothroyd 2,3 , Bingbing Chen 2 , Yuanyuan Guo 1 , Bo Wang 1 , Teddy Salim 2,3 , Qiannan Zhang 1 , Huajun He 1 , Yue Wang 1 , Xingchi Xiao 2 , Yeng Ming Lam 2 &amp; Tze Chien Sum 1</head><label></label><figDesc></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head></head><label></label><figDesc>5 Cs 10 /PEA 2 ZnX 4 and Rb 5 Cs 10 /PEA 2 PbI 4 stack films, it is plausible to assume that the crystallinity and texture of PEA 2 FAPb 2 I 7 in both stack films are roughly consistent, suggesting that the ratio of PEA 2 FAPb 2 I 7 in Rb 5 Cs 10 /PEA 2 ZnX 4 to that in Rb 5 Cs 10 /PEA 2 PbI 4 can be estimated by directly comparing the corresponding integral intensities of the PEA 2 FAPb 2 I 7 diffraction peak. It is also inferred that the PEA 2 FAPb 2 I 7 diffraction peak intensity of Rb 5 Cs 10 /PEA 2 ZnX 4 should approach that of Rb 5 Cs 10 /PEA 2 PbI 4 if PEA 2 ZnX 4 is fully converted into PEA 2 FAPb 2 I 7 . This is because PEA 2 PbI 4 shows a complete transformation into PEA 2 FAPb 2 I 7 in Rb 5 Cs 10 /PEA 2 PbI 4 , and the contents of PEA + in both stack films are probably equivalent due to the same fabrication conditions. Accordingly, a conversion ratio of ~10% of PEA 2 ZnX 4 in Rb 5 Cs 10 /PEA 2 ZnX 4 was obtained by simply comparing the PEA 2 FAPb 2 I 7 diffraction peak intensity of Rb 5 Cs 10 /PEA 2 ZnX 4 with that of Rb 5 Cs 10 /PEA 2 PbI 4 (Supplementary Table 3), indicating that ~90% of PEA 2 ZnX 4 in Rb 5 Cs 10 /PEA 2 ZnX 4 was retained. To examine the reliability of the results, a similar analysis was performed to directly calculate the retention ratio of PEA 2 ZnX 4 in Rb 5 Cs 10 /PEA 2 ZnX 4 by comparing the PEA 2 ZnX 4 diffraction peak intensity of Rb 5 Cs 10 /PEA 2 ZnX 4 with that of Cs 15 /PEA 2 ZnX 4 , which led to a similar retention ratio of ~90% (Supplementary Table</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head>Table 6</head><label>6</label><figDesc></figDesc><table><row><cell>). Compared</cell></row></table><note><p>2 ZnX 4 device demonstrated an even greater improvement with a PCE of 22.2% ± 0.3%. These improvements are mainly ascribed to the enhanced V OC . The comparable performance between the FP-based 3D/PEA 2 PbI 4 and HP-based 3D/ PEAI devices is attributed to the similar ultimate capping component (PEA 2 FAPb 2 I 7 ). The better reproducibility (narrower PCE distribution) 2 ZnX 4 device should be the intrinsic PEA 2 ZnX 4 and not the PEA-2 FAPb 2 I 7 by-product because the PEA 2 ZnX 4 residual is the main capping component (accounting for ~90%) in the 3D/PEA 2 ZnX 4 stack film, as demonstrated above. To eliminate the interference from the small amount of PEA 2 FAPb 2 I 7 by-product, similar PSCs based on the Cs 15 perovskite were also investigated, considering that PEA 2 ZnX 4 can fully remain on the Cs 15 perovskite, as demonstrated above. Consequently, a similar performance improvement was demonstrated (Supplementary</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14"><head>Table 8 )</head><label>8</label><figDesc>, further confirming the intrinsic superiority of PEA 2 ZnX 4 as the LD capping material in 3D/LD PSCs.</figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© The Author(s), under exclusive licence to Springer Nature Limited</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work is supported by the <rs type="funder">Ministry of Singapore</rs> under its AcRF Tier 1 (Project <rs type="grantNumber">RG6/21</rs> (<rs type="grantNumber">2021-T1-001-072</rs>) to Y.M.L.) and Tier 2 grants (<rs type="grantNumber">MOE2019-T2-1-006</rs> to T.C.S., <rs type="grantNumber">MOE2019-T2-1-085</rs> to Y.M.L. and <rs type="grantNumber">MOE-T2EP50120-0004</rs> to T.C.S.), and the <rs type="funder">National Research Foundation (NRF)</rs> <rs type="grantName">Singapore under its NRF Investigatorship</rs> (<rs type="grantNumber">NRF-NRFI2018-04</rs> to T.C.S.). We thank the Facility for Analysis, Characterisation, Testing and <rs type="funder">Simulation (FACTS)</rs> (<rs type="affiliation">Nanyang Technological University, Singapore</rs>) for allowing us to use their electron microscopy, <rs type="funder">UPS</rs> instrument and X-ray facilities. We also thank the <rs type="institution">Solar Energy Research Institute of Singapore (SERIS)</rs> for PV authentication tests. We would like to thank <rs type="person">Professor J. Bisquert</rs> (<rs type="affiliation">Universitat Jaume I</rs>) for the discussion on Mott-Schottky analysis. The computational work for this article was fully performed on resources of the <rs type="funder">National Supercomputing Centre, Singapore</rs> (<ref type="url" target="https://www.nscc.sg">https://www.nscc.sg</ref>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_bgvJ3d6">
+					<idno type="grant-number">RG6/21</idno>
+				</org>
+				<org type="funding" xml:id="_Wm46ka9">
+					<idno type="grant-number">2021-T1-001-072</idno>
+				</org>
+				<org type="funding" xml:id="_PTPx4Dc">
+					<idno type="grant-number">MOE2019-T2-1-006</idno>
+				</org>
+				<org type="funding" xml:id="_acCWmJK">
+					<idno type="grant-number">MOE2019-T2-1-085</idno>
+				</org>
+				<org type="funding" xml:id="_62Qvn8U">
+					<idno type="grant-number">MOE-T2EP50120-0004</idno>
+					<orgName type="grant-name">Singapore under its NRF Investigatorship</orgName>
+				</org>
+				<org type="funding" xml:id="_mpwV3fX">
+					<idno type="grant-number">NRF-NRFI2018-04</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>All of the data needed to evaluate the conclusions in this study are included in the article, its Supplementary Information and Source Data. The data that support the findings of this study are openly available in DR-NTU (Data) at <ref type="url" target="https://doi.org/10.21979/N9/G6R8YG">https://doi.org/10.21979/N9/G6R8YG</ref>. Source Data are provided with this paper.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table of Contents</head><note type="other">Supplementary</note><p>Grazing incidence X-ray scattering (GIXS) techniques are widely used to analyze the crystal orientation/crystalline lattice spacing/crystalline correlation length, domain size/domain shape, and phase separation/phase purity of functional materials in photovoltaic devices. Supplementary Fig. <ref type="figure">39</ref> shows the reflection geometry of GIXS. The X-ray beam impinges onto the sample surface under a very shallow incident angle i (typically i &lt; 1°) and scatters under an existing angle f and out of plane angles Ψ. Typically, the x-axis is along with the X-ray beam direction, the y-axis is parallel to the sample surface, the z-axis is along with the surface normal, and the scattering plane is the (x, z)-plane. Scattering signal coming from sample is then recorded on 2D X-ray detector. The grazing incidence wide/small angle X-ray scattering (GIWAXS/GISAXS) signals can be obtained by changing the sample-detector distance.</p><p>Based on the Nano-inXider of Xenocs system, Ψ rotation enables the sample to rotate around the beam and achieve different configurations (GIWAXS/GISAXS in plane/out of plane) (see Supplementary Fig. <ref type="figure">40</ref>). For Ψ = 90°, the pattern recorded corresponds to GIWAXS and GISAXS in-plane with an overlap in the q scattering vector. For Ψ = 0°, GIWAXS out-of-plane is achievable.</p><p>For Ψ = 180°, GISAXS out-of-plane is measured.</p><p>The incident monochromatic X-ray beam with a wave vector ki and a wave number k0 = 2π/λ (λ is the wavelength of the X-rays, and its value is intrinsic to the metal anode) is scattered along kf direction. The scattering wave vector q and the related three components (qx, qy and qz) are defined by the following equations S1 : 𝐪 = (q x , q y , q z ) = 𝐤 f -𝐤 i (E1)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 4</head><p>The photosaturation method is a non-destructive and non-invasive technique for measuring the Vbi of photovoltaic devices S6-S10 . Generally, for an ideal classical p-n junction, the VOC can be calculated by S10 indicating that the PEA2ZnX4 capping material is mainly distributed at the interface between C60 and the 3D perovskite. It should be noted that the onset of both the Zn and Pb signals is almost simultaneous at the point of sputtering. This is because the PEA2ZnX4 capping layer with a small optimum thickness on top of the relatively rough 3D perovskite surface is probably discontinuous rather than conformal (see Supplementary Note 3), thus it cannot sufficiently cover the 3D perovskite surface (see Supplementary Fig. <ref type="figure">13</ref>).   resulting in decreased hole concentration, which is advantageous for reducing the SRH recombination at the surface, as the SRH recombination rate is strongly depending on the surface concentration of the minority carrier <ref type="bibr" target="#b29">30</ref> . This effect is commonly known in silicon solar cells as field-effect passivation <ref type="bibr" target="#b29">30</ref> , which has also been reported in PSCs recently <ref type="bibr" target="#b30">31</ref> . As the 3D/Zn-LD heterojunction can induce a higher Ebuilt-in at the junction due to a larger Fermi level difference between the 3D and Zn-LD, the resulting field-effect passivation is probably stronger than that in the conventional 3D/Pb-LD structure. This is another important reason for the superior passivation effect of the Zn-LD capping material.  <ref type="table">10</ref>. (2) The relatively strong interaction between the LD capping material and the 3D perovskite surface is favourable for suppressing light-induced production of surface defects.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head><p>Supplementary Figure <ref type="figure">34</ref> | Contact angle analysis. a-c, Steady-state contact angles of deionized water on top of the Glass/PEA2ZnI4 (a), Glass/PEAI (b), and Glass/ZnI2 (c) films. We have also tried to measure the water contact angle of the Glass/3D perovskite film, but we found that the specific water contact angle on top of the 3D perovskite surface is rather unsteady, and it would decrease rapidly from ~46° to ~13° within several seconds. This is probably due to poor intrinsic water resistance property of the 3D perovskite material, whose structure is easily decomposed by water. On the other hand, the water contact angles of the Glass/PEA2ZnI4 and Glass/PEAI films remain almost unchanged after one hour of measurement, suggesting relatively good water resistance properties. Additionally, the steady-state water contact angle of the Glass/PEA2ZnI4 film is much larger than that of the Glass/ZnI2 film but slightly smaller than that of the Glass/PEAI film, which suggests that the water resistance property of PEA2ZnI4 probably results from the hydrophobic organic bulky cation (PEA + ). Supplementary  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HP and FP capping solution preparation</head><p>The conventional HP capping solution was prepared by dissolving PEAI in IPA according to ref. <ref type="bibr" target="#b33">34</ref> . The PEA 2 PbI 4 FP capping solution was prepared by dissolving 31.3 mg PbI 2 and 33.9 mg PEAI in 4 ml ACN (17 mM). The other FP capping solution including BA 2 PbI 4 , PMA 2 PbI 4 , (NMA) 2 PbI 4 , BA 2 ZnX 4 (X = Cl/I), PEA 2 ZnX 4 (X = Cl/I) and PEA 2 CoX 4 (X = Cl/I) was prepared in the same way, with an identical concentration of 17 mM. Note that the mixed solvent with 50 µl methylamine solution in 1 ml ACN was specially used to dissolve the (NMA) 2 PbI 4 precursors. The PEA 2 PbI 4 -PEA 2 ZnX 4 hybrid FP capping solution was prepared by dissolving 62.7 mg PbI 2 , 18.5 mg ZnCl 2 and 135.5 mg PEAI in 8 ml ACN.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device fabrication</head><p>The patterned ITO-coated glass substrates were ultrasonically cleaned in the following sequence: first with aqueous detergent, followed by deionized water, then acetone and lastly ethyl alcohol for about 20 min in each step; after which the substrates underwent ultraviolet ozone treatment for 15 min before use. All of the spin-coating processes were conducted in a N 2 -filled glovebox (O 2 &lt; 10 ppm, H 2 O &lt; 1 ppm). The hole-transporting PTAA layer was deposited by spin-coating the PTAA solution (2 mg ml -1 in toluene) on cleaned ITO substrates at a speed of 2,000 r.p.m. for 60 s, and then annealed at 100 °C for 10 min. The Rb 0.05 Cs 0.10 FA 0.85 PbI 2.8 Cl 0.2 (Rb 5 Cs 10 ) perovskite precursor contains 414.9 mg PbI 2 , 27.8 mg PbCl 2 , 146.2 mg FAI, 26.0 mg CsI and 10.6 mg RbI in 1 ml anhydrous DMF:DMSO (4:1, v/v). The Cs 0.15 FA 0.85 PbI 2.8 Cl 0.2 (Cs 15 ) perovskite precursor contains 414.9 mg PbI 2 , 27.8 mg PbCl 2 , 146.2 mg FAI, 39.0 mg CsI in 1 ml anhydrous DMF:DMSO (4:1, v/v). The Cs 0.05 (MA 0.15 FA 0.85 ) 0.95 PbI 2.55 Br 0.45 (CsMAFA) perovskite precursor contains 780.3 mg PbI 2 , 112.9 mg PbBr 2 , 277.8 mg FAI, 26.0 mg CsI and 31.9 mg methyl ammonium bromide in 2 ml anhydrous DMF:DMSO (4:1, v/v). The Rb 5 Cs 10 , Cs 15 and CsMAFA perovskite films were deposited by spin-coating the corresponding precursor solution on the ITO/ PTAA substrates at 1,000 r.p.m. for 10 s (5 s ramp) and 4,000 r.p.m. for 45 s (1 s ramp); 150 µl of 1,2-dichlorobenzene was rapidly dropped on the substrates at 10 s before the end of the programme to induce fast crystallization of perovskites. The as-prepared perovskite films were then annealed at 110 °C for 10 min. Next, the HP or FP capping solution was spin-coated on top of the perovskite films at a speed of 5,000 r.p.m. (1,500 r.p.m. was used for XRD and GIWAXS/GISAXS samples for better signals) for 30 s. Note that the FP capping solution should be rapidly injected onto the 3D perovskite surface after the substrate starts spinning to minimize the possible erosion of the underlying 3D perovskite (Supplementary Video 1). The films were then annealed at 100 °C for 10 min. The additional TPPi passivation layer was prepared by spin-coating the TPPi toluene solution (6 mg ml -1 ) at a speed of 5,000 r.p.m. for 30 s as required. Finally, 50 nm C 60 , 6 nm BCP and 100 nm silver were thermally evaporated (under a vacuum &lt;5.0 × 10 -4 Pa) in sequence on the films through a metal shadow mask with an active area of 6 mm 2 for small-area devices or 1.218 cm 2 for large-area devices. To minimize reflections and possible edge effects, a 100 nm LiF layer was evaporated onto the glass side of ITO substrates as an anti-reflection layer, and a non-reflective black metal aperture mask with an aperture area around 4 mm 2 for small-area devices or 0.973 cm 2 for large-area devices was also affixed on the glass side of ITO substrates as required. The silver electrode was replaced with the chromium/gold (5 nm/100 nm) electrode in the PSCs for the stability tests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device characterization</head><p>The J-V curves of the PSCs were recorded with a Keithley 2400 source meter under simulated air mass 1.5 G solar illumination from a ScienceTech UHE-NSC AAA solar simulator. The effective irradiance of the solar simulator for the studied PSCs was adjusted to 1 sun (100 mW cm -2 ) according to our previous method by using an Oriel PV Reference Cell System (91150 V) with calibration of possible spectral mismatch <ref type="bibr" target="#b34">35</ref> . The J-V curves were measured in either a forward or reverse scan direction from -0.2 V to 1.25 V/1.20 V or 1.25 V/1.20 V to -0.2 V at a scan rate of ~0.5 V s -1 . The presented J-V curves were obtained in the reverse scan direction at room temperature in a N 2 -filled glovebox (O 2 &lt; 10 ppm, H 2 O &lt; 1 ppm) unless specified otherwise. Note that the J-V curves were initially measured without an aperture mask. The measured J SC was then calibrated against the value obtained with aperture mask by subtracting the obtained J SC difference between the measurements without and with aperture mask in our specific photovoltaic system, although the J SC difference was as small as 0.37 mA cm -2 caused by the unaccounted reflections and possible edge effects <ref type="bibr" target="#b35">36</ref> (Supplementary Table <ref type="table">16</ref>). The final presented J-V curves were obtained from the measurement with an aperture mask or based on the calibrated J SC accordingly. The spectral response and external quantum efficiency analysis was performed on a Zolix Solar Cell Scan100 measurement system (Zolix Instruments Company) and QEPVSI-b set-up (Newport).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Other characteristics</head><p>The XRD patterns were measured using a PANalytical X'Pert Pro X-ray diffractometer (copper Kα, λ = 1.5418 Å, 40 kV, 30 mA) (PANalytical). All of the GIWAXS/GISAXS patterns were acquired by using the Nano-inXider system of Xenocs. It should be noted that the Nano-inXider of Xenocs can only provide GIWAXS/GISAXS information at different Ψ angles between the X-ray beam and sample, rather than the whole pattern. The wavelength of incident X-rays was 1.54189 Å. The incident angle of the X-ray beam was 0.3°. The UV-vis absorption spectra were measured utilizing a Shimadzu UV3600PLUS UV-vis-NIR spectrophotometer. The planar and cross-sectional SEM images were taken on a JEOL JSM-7600F microscope. The atomic force microscopy images were taken on a Bruker Bioscope Resolve system. The sample lamella for TEM measurements was prepared by a focused ion beam (FIB)-SEM system (ZEISS Crossbeam 540). A layer of carbon with a thickness of around 1.3 µm was deposited on top of the sample for protection before the lamella was prepared using the FIB. The first 300 nm of carbon film was deposited using 30 kV and a current of 100 pA; the subsequent 1 µm was deposited using 30 kV and 300 pA. High-angle annular dark-field scanning transmission electron microscopy images and EDX maps of multiple layers were collected using an aberration-corrected JEOL JEM-ARM200F TEM operated at 200 keV with an Oxford X-Max TLE 100 mm 2 windowless silicon drift detector EDX. Ultraviolet photoelectron spectroscopy analysis was performed on a Kratos AXIS Supra spectrometer equipped with a standard helium-discharge lamp with He I photons (21.22 eV). Kelvin probe force microscopy analysis was performed on a Cypher ES Environmental Scanning Probe Microscope (Asylum Research/Oxford Instrument) by using a conductive antimony-doped silicon probe coated with Pt/Ir (SCM-PIT-V2, Bruker), with a resonant frequency of 75 kHz and force constant of 3 N m -1 ; the measurements were performed in the amplitude modulation mode at a lift height of 200 nm above the sample surface, with a typical scan rate of 1.5 Hz. The KPFM samples were deposited on ITO substrates and grounded to the metallic sample holder with conductive silver paint. Note that the three samples compared (control 3D, 3D/PEAI and 3D/ PEA 2 ZnX 4 stack films) were loaded together on the same sample holder; the measurements were performed under the same conditions. It is therefore reasonable to attribute the measured CPD variation between samples to different intrinsic surface properties but not due to other factors. Time-resolved photoluminescence measurements were conducted using an Optronis Optoscope streak camera system, with the sample excited by 640 nm femtosecond laser pulses at various fluences, which were generated from a Coherent Libra femtosecond laser system (50 fs, 1 kHz, 800 nm) and a Coherent OPerA Solo optical parametric amplifier. Note that all of the TRPL samples were excited at the sample surface side. The photoluminescence images were recorded using a Nikon Ti2-E Inverted Motorized Microscope system (×20 objective lens) with the sample excited by a 473 nm continuous wave laser and the photoluminescence signals collected by a photomultiplier tube.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Article</head><p><ref type="url" target="https://doi.org/10.1038/s41560-023-01204-z">https://doi.org/10.1038/s41560-023-01204-z</ref> </p><p>The TOF-SIMS analysis was performed on a TOF.SIMS 5 (IONTOF) system with detection of positive secondary ions. Water contact angle analysis was performed on a Dataphysics OCA 15 Contact Angle Goniometer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Operational stability test</head><p>The operational stability test for the studied PSCs was conducted in a N 2 -filled glovebox (O 2 &lt; 10 ppm, H 2 O &lt; 1 ppm) at the MPP under illumination of a white LED lamp with an equivalent effective irradiance of 1 sun. An example of the detailed tracking process is as follows and the involved data are shown in Supplementary Table <ref type="table">17</ref>. First, the initial PCE of the PSC was measured under the simulated air mass 1.5 G AAA solar simulator with an effective irradiance of 1 sun as described above. The obtained initial PCE and J SC were labelled as PCE (0h,SS) and J SC(0h,SS) (where SS denotes solar simulator). Second, the PSC was then subjected to the operational test under the white LED lamp irradiation. The effective irradiance of the white LED lamp for the specific PSC was identified as 1 sun when the measured J SC (labelled as J SC(0h,LED) ) was adjusted to approximate the J SC(0h,SS) in the first step. A certain voltage bias was then selected and applied to the PSC to generate MPP output by a Keithley 2602B source meter. The PSC was left to continuously operate under this MPP for around 22 h. Third, after the first 22 h of MPP operation, the J SC was measured again under the white LED lamp and labelled as J SC(22h,LED) . The J SC was also measured for the same device under solar simulator irradiation and labelled as J SC(22h,SS) . Note that the possible difference between J SC(22h,LED) and J SC(22h,SS) may be caused by the irradiance change of the white LED lamp after 22 h of operation but not due to the device performance change between the two measurements, because both J SC(22h,LED) and J SC(22h,SS) were measured at the same time. The negligible difference between J SC(22h,LED) and J SC(22h,SS) indicated the relatively stable irradiance of our white LED lamp. Fourth, the longer operational tests were similarly conducted by repeating steps two and three. Note that the presented operational stability results were based on the PCE data measured under the solar simulator irradiation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Heat stability test</head><p>The 85 °C heat stability test was conducted under ambient conditions (relative humidity ≈ 50%) or in a N 2 -filled glovebox (O 2 &lt; 10 ppm, H 2 O &lt; 1 ppm). A simple basic encapsulation is made for the device before the start of the test in air, and there is no encapsulation for the device tested in N 2 . The simple basic encapsulation was achieved by directly storing the original device in a small commercial air-tight box, which was then put into an 85 °C oven for the test. It should be noted that the simple basic encapsulation is unable to completely prevent exposure to air. The widely used triple-cation CsMAFA 3D perovskite was used in the relevant device for the test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DFT calculations</head><p>The ESP maps of PEA 2 FAPb 2 I 7 and PEA 2 ZnI 4 -based on their single crystal structures-are calculated using the Vienna Ab Initio Simulation Package <ref type="bibr" target="#b36">37</ref> . We use the all-electron-like projector augmented-wave method <ref type="bibr" target="#b37">38</ref> , and the PW86R exchange <ref type="bibr" target="#b38">39</ref> and PBE correlation <ref type="bibr" target="#b39">40</ref> potential as implemented in the Vienna Ab Initio Simulation Package code. The semi-core of lead atoms (5d orbital) is treated as valence electrons, that is, 14 valence electrons for a lead (5d 10 6s 2 6p 2 ) atom. The cut-off energy for the plane wave expansion of the wave functions is 500 eV. The lattice constants of PEA 2 FAPb 2 I 7 and PEA 2 ZnI 4 are listed in Supplementary Table <ref type="table">18</ref>. All atoms in the unit cell are fully optimized. The Hellman-Feynman forces are smaller than 1 meV Å -1 . The 4 × 4 × 1 and 4 × 1 × 3 Monkhorst-Pack grid of k-points <ref type="bibr" target="#b40">41</ref> for Brillouin zone integration of PEA 2 FAPb 2 I 7 and PEA 2 ZnI 4 , respectively, are employed in the DFT calculations. The vdW-DF2 (ref. <ref type="bibr" target="#b38">39</ref> ) method is used to calculate the van der Waals interaction. The related ESP maps are generated using the Visualization for Electronic and Structural Analysis software (Version 3, retrieved from <ref type="url" target="https://jp-minerals.org/vesta/en/">https://jp-minerals.org/vesta/en/</ref> ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reporting summary</head><p>Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary information</head><p>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1038/s41560-023-01204-z">https://doi.org/10.1038/s41560-023-01204-z</ref>.</p><p>Correspondence and requests for materials should be addressed to Yeng Ming Lam or Tze Chien Sum.</p><p>Peer review information Nature Energy thanks Wanyi Nie and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.</p><p>Reprints and permissions information is available at www.nature.com/reprints. Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p><p>Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.</p><p>----</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Stable and efficient 3D-2D perovskite-perovskite planar heterojunction solar cell without organic hole transport layer</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="2706" to="2721" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Efficient, stable and scalable perovskite solar cells using poly(3-hexylthiophene)</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">567</biblScope>
+			<biblScope unit="page" from="511" to="515" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Surface passivation of perovskite film for efficient solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photon</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="460" to="466" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Thermodynamically stabilized β-CsPbI 3 -based perovskite solar cells with efficiencies &gt;18%</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">365</biblScope>
+			<biblScope unit="page" from="591" to="595" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Intact 2D/3D halide junction perovskite solar cells via solid-phase in-plane growth</title>
+		<author>
+			<persName><forename type="first">Y.-W</forename><surname>Jang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="63" to="71" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Reconfiguring the band-edge states of photovoltaic perovskites by conjugated organic cations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">371</biblScope>
+			<biblScope unit="page" from="636" to="640" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Metastable Dion-Jacobson 2D structure enables efficient and stable perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page" from="71" to="76" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Stable and low-photovoltage-loss perovskite solar cells by multifunctional passivation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photon</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="681" to="689" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Stability-limiting heterointerfaces of perovskite photovoltaics</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tan</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-022-04604-5</idno>
+		<ptr target="https://doi.org/10.1038/s41586-022-04604-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Damp heat-stable perovskite solar cells with tailored-dimensionality 2D/3D heterojunctions</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Azmi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">376</biblScope>
+			<biblScope unit="page" from="73" to="77" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Dimensional tailoring of hybrid perovskites for photovoltaics</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grancini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mater</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="4" to="22" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The 2D halide perovskite rulebook: how the spacer influences everything from the structure to optoelectronic device efficiency</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kanatzidis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="2230" to="2291" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Advances in two-dimensional organic-inorganic hybrid perovskites</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1154" to="1186" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">3D/2D bilayered perovskite solar cells with an enhanced stability and performance</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">3868</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Origin of efficiency and stability enhancement in high-performing mixed dimensional 2D-3D perovskite solar cells: a review</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mahmud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<date type="published" when="2021">2009164. 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Surface passivation using two dimensional perovskites towards efficient and stable perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">2105635</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Dimensional engineering of a graded 3D-2D halide perovskite interface enables ultrahigh V OC enhanced stability in the p-i-n photovoltaics</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1701038</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Efficient and ambient-air-stable solar cell with highly oriented 2D@3D perovskites</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ye</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">1801654</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Atomic-level passivation mechanism of ammonium salts enabling highly efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Alharbi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41560-023-01204-z</idno>
+		<ptr target="https://doi.org/10.1038/s41560-023-01204-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">3008</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Ultrahydrophobic 3D/2D fluoroarene bilayer-based water-resistant perovskite solar cells with efficiencies exceeding 22%</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">2543</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Tailored amphiphilic molecular mitigators for stable perovskite solar cells with 23.5% efficiency</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">1907757</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Interfacial passivation engineering of perovskite solar cells with fill factor over 82% and outstanding operational stability on n-i-p architecture</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="3916" to="3923" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Regulating surface termination for efficient inverted perovskite solar cells with greater than 23% efficiency</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="20134" to="20142" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Robust motifs in 2-phenylethylammonium and related tetrahalometallates</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rademeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tsouris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Billing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lemmerer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Charmant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CrystEngComm</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3485" to="3497" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Stable room-temperature continuous-wave lasing in quasi-2D perovskite films</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Qin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">585</biblScope>
+			<biblScope unit="page" from="53" to="57" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Efficient perovskite solar cells by reducing interface-mediated recombination: a bulky amine approach</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">2000197</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Disordered structure of Rb 2 ZnCl 4 in the normal phase</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Itoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hinasada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Matsunaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nakamura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Soc. Jpn</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="664" to="670" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Photocurrent spectra of Ge-GaAs heterojunctions</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Solid-State Electron</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="695" to="700" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Purohit</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Semiconductor</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Heterojunctions</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1974">1974</date>
+			<pubPlace>Pergamon</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Atomic Layer Deposition in Energy Conversion Applications</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bachmann</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>John Wiley &amp; Sons</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Interface dipole induced field-effect passivation for achieving 21.7% efficiency and stable perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">2008052</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgF x</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">377</biblScope>
+			<biblScope unit="page" from="302" to="306" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Triethyl phosphate in an antisolvent: a novel approach to fabricate high-efficiency and stable perovskite solar cells under ambient air conditions</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Chem. Front</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="7628" to="7637" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">In situ growth of 2D perovskite capping layer for stable and efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">1706923</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Resolving spectral mismatch errors for perovskite solar cells in commercial class AAA solar simulators</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ye</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="3782" to="3788" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Effects of masking on open-circuit voltage and fill factor in solar cells</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kiermasch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gil-Escrig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Bolink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tvingstedt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="16" to="26" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kresse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Furthmüller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="11169" to="11186" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Projector augmented-wave method</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Blochl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="17953" to="17979" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Higher-accuracy van der Waals density functional</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">É</forename><forename type="middle">D</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">I</forename><surname>Lundqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Langreth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page">81101</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Generalized gradient approximation made simple</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Perdew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ernzerhof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="3865" to="3868" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Special points for Brillouin-zone integrations</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Monkhorst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="5188" to="5192" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source/>
+  <date/>
+  <key/>
+  <document>
+    <id>241114001230738GFHCEF</id>
+    <infon key="tt_curatable">no</infon>
+    <infon key="tt_version">4</infon>
+    <infon key="tt_round">4</infon>
+    <passage>
+      <offset>0</offset>
+      <text>Paper #: 40</text>
+    </passage>
+    <passage>
+      <offset>11</offset>
+      <text>Damp heat-stable perovskite solar cells with tailored-dimensionality 2D/3D heterojunctions</text>
+    </passage>
+    <passage>
+      <offset>101</offset>
+      <text>If perovskite solar cells (PSCs) with high power conversion efficiencies (PCEs) are to be commercialized, they must achieve long-term stability, which is usually assessed with accelerated degradation tests. One of the persistent obstacles for PSCs has been successfully passing the damp-heat test (85°C and 85% relative humidity), which is the standard for verifying the stability of commercial photovoltaic (PV) modules. We fabricated damp heat-stable PSCs by tailoring the dimensional fragments of two-dimensional perovskite layers formed at room temperature with oleylammonium iodide molecules; these layers passivate the perovskite surface at the electron-selective contact. The resulting inverted PSCs deliver a 24.3% PCE and retain &gt;95% of their initial value after &gt;1000 hours at damp-heat test conditions, thereby meeting one of the critical industrial stability standards for PV modules. </text>
+      <annotation id="7">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">ISOSD2</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T20:46:32Z</infon>
+        <location offset="399" length="3"/>
+        <text>85°</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">humidity</infon>
+        <infon key="identifier">ISOSD2</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T20:46:38Z</infon>
+        <location offset="408" length="3"/>
+        <text>85%</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">oleylammonium iodide</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T05:21:44Z</infon>
+        <location offset="667" length="20"/>
+        <text>oleylammonium iodide</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T05:00:21Z</infon>
+        <location offset="818" length="5"/>
+        <text>24.3%</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">efficiency_cont</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T04:57:46Z</infon>
+        <location offset="840" length="3"/>
+        <text>95%</text>
+      </annotation>
+      <annotation id="1">
+        <infon key="type">time</infon>
+        <infon key="identifier">ISOSD2</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T20:46:44Z</infon>
+        <location offset="874" length="10"/>
+        <text>1000 hours</text>
+      </annotation>
+      <relation id="R3">
+        <infon key="type">ISOSD2</infon>
+        <infon key="annotator">dap002@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T20:50:40Z</infon>
+        <node refid="7" role=""/>
+        <node refid="3" role=""/>
+        <node refid="1" role=""/>
+      </relation>
+    </passage>
+    <passage>
+      <offset>999</offset>
+      <text> C ommercialization of any photovoltaic (PV) technology requires a guaranteed product lifetime of at least 25 to 30 years, as is common for conventional crystalline silicon (c-Si) PV modules. Lifetime predictions of PV technologies are usually accomplished through standardized accelerated degradation tests. After the demonstration of excellent power conversion efficiencies (PCEs) of perovskite solar cells (PSCs), the main challenge toward market entry of PSCs is successfully passing standard industrial lifetime assessment tests of the International Electrotechnical Commission (IEC 61215:2016)-in particular, damp-heat testing at 85°C and 85% relative humidity  (1, 2) . A stabilized PCE performing like a commercial c-Si solar cell (PCE ~20%) would need to pass a damp-heat test for &gt;1000 hours with &lt;5% relative loss in PCE  (3, 4) . Degradation of encapsulated PSCs is usually caused by leakage in the packaging (allowing atmospheric agents to interact with the perovskite) and device-related material instabilities. To address this, we developed leakage-free device packaging that seals the PSC within two glass sheets, using a vacuum-laminated encapsulant and edge sealing via butyl rubber. Despite this, damp-heat testing of our encapsulated control devices resulted in fast degradation (see below), implying an intrinsic thermal instability of the perovskite absorber layer itself. The instability of three-dimensional (3D) perovskite films, when used as the photoactive absorber layer in PSCs, is mainly attributed to high defect densities as well as ion migration at grain boundaries and interfaces, which is exacerbated at higher operational temperatures  (5) (6) (7) (8) (9) . Several approaches have been reported to passivate these defects  (7, (10) (11) (12) (13) . Specifically, growing 2D perovskite layers on the top surface of 3D perovskites creates a 2D/ 3D perovskite heterojunction that can effectively passivate surface defects and suppress ion migration  (3, 6, (14) (15) (16) (17) (18) . At the device level, integrating such 2D perovskite passivation layers in PSCs can enhance their PCE and lifetime  (3, 4, (14) (15) (16) (17) . So far, this strategy has been most successful for "regular structured" PSCs in which phase-pure 2D perovskites (n = 1, where n represents the dimensionality of the 2D perovskite by counting the number of its octahedral inorganic sheets) were inserted between the 3D perovskite surface and the (opaque) hole-selective top-contact stack  (3, (14) (15) (16) (17) . For "inverted" devices, this top-contact passivation approach (now at the electron-selective side) has consistently failed in PCE and lifetime; this represents a persistent challenge in the perovskite community  (19, 20) , as inverted PSCs are arguably easier to fabricate and scale up  (11) . We found that tailoring the dimensionality (n) of the 2D perovskite fragments at the electron-selective interface of inverted PSCs is essential to enable efficient top-contact passivation through 2D perovskite passivation layers. This interface has frequently been ignored because it is assumed that the conventional electron-selective layer, C 60 (or its derivatives), provides sufficient passivation of 3D perovskites  (21) ; instead, attention has predominantly focused on the hole-selective interface of inverted PSCs, situated at the (transparent) bottom contact of the device  (22) (23) (24) (25) . However, recent reports have revealed that C 60 is only weakly bonded to perovskite layers, which induces a high energetic disorder between perovskite and C 60 layers that limits device performance at elevated operating temperatures  (5, 6, 26) . Moreover, a thin layer of C 60 is insufficient to effectively protect the 3D perovskite film underneath from moisture or oxygen ingress. Implementing 2D perovskite passivation layers is a promising approach to solve all of the issues mentioned above. We post-treated the surface defects of the 3D perovskites by applying oleylammonium iodide (OLAI) molecules to form Ruddlesden-Popper-phase 2D perovskite layers, which resulted in higher PCEs and prolonged stabilities of inverted PSCs. We tailored the dimensionality, n, of the 2D-perovskite fragments (which also dictates their optical and electronic properties) by tuning the annealing conditions from lower to higher temperatures, in that higher-n layers have a lower formation energy  (27) . Indeed, all 2D perovskite passivation layers prepared through thermal annealing (2D-TA) showed a dominant emission peak at ~510 nm (as evidenced in fig.  S1 ), which belongs to n = 1, in accordance with previous studies  (4, 6, 19, 28) . However, the formation of higher-dimensionality 2D perovskite layers (n ≥ 2) became more pronounced when the post-treatment was performed at room temperature (2D-RT) with the OLAI molecule (Fig.  1A ). We investigated the formation of 2D perovskite passivation films on 3D perovskites with grazing-incidence wide-angle x-ray scattering (GIWAXS; Fig.  1, B  and C ). The 2D perovskite passivation films exhibited diffraction q z peaks at ~0.2 to ~0.5 A -1 , corresponding to the (001) and (002) planes of 2D perovskite crystals  (28) . As expected, the 2D-TA films were dominated by n = 1 layers (with a prominent peak at q z ≈ 0.35 A -1 ). In contrast, 2D-RT films exhibited the diffraction peaks of n = 1 and n = 2, with a more substantial n = 2 peak at lower q z (16). The strong intensity in the z-direction for 2D perovskite films was indicative of a highly oriented lateral direction of the top 3D perovskite layers. Cross-sectional high-resolution scanning transmission electron microscopy (HR-STEM) images also showed n = 1 and n = 2 layers in 2D-RT samples (Fig.  1D  and fig.  S2A ) but only n = 1 in 2D-TA (fig.  S2C ), which is consistent with the GIWAXS results. To differentiate between n = 1 and n = 2 layers, we performed elemental mapping images and profiling positions of 2D perovskite layers; Fig.  1E  and   Scanning electron microscopy (SEM) topview images revealed that the surface morphology of the perovskite films after 2D perovskite passivation did not change substantially (fig.  S3, A  and B ). Further, the 2D perovskite passivation films exhibited stronger photoluminescence (PL) emission with a longer PL decay lifetime than control 3D perovskite films because of the suppression of nonradiative recombination associated with trap states at the surface (figs. S4 and S5). Interestingly, the 2D perovskite (n = 2) capping layer formed uniformly on top of 3D perovskite surfaces for 2D-RT, as shown in the PL images in Fig.  2A . In addition, PL spectra in 2D-TA samples showed a dominant emission peak corresponding to n = 1, whereas a PL emission associated with a higher dimensionality of n = 2 is more pronounced in 2D-RT samples (see Fig.  2B ), in accordance with GIWAXS and TEM results. The energy-level diagrams of [2-(9H-carbazol-9-yl)ethyl]phosphonic acid (2PACz) anchored on indium tin oxide (ITO) [which we used as the hole-selective contact  (22) ], perovskites, and C 60 are shown in Fig.  2C . With the OLAI post-treatment, the secondary electron cutoff (E cutoff ) shifted to a higher binding energy, indicating that the ion exchange-induced 3Dto-2D perovskite phase transition could lower the Fermi level (E F ) of post-treated perovskite films (fig.  S6 ). Notably, the energetic gap be-tween E F and the valence band maximum (VBM) of the 2D-RT sample was wider, indicating the enhanced n-type character of post-treated 3D perovskite films, which we attribute to a successful 2D perovskite passivation strategy  (19) . The conduction band minimum (CBM) of 2D-RT films was also closer to the CBM of C 60 at the n-type contact, which resulted in more efficient charge transfer at the 2D/3D perovskite interface and the C 60 electronselective layer. In contrast, the CBM of 2D-TA films was much higher than the CBM of C 60 with less n-type character and resulted in less efficient charge transfer of this 2D/3D perovskite interface at the electron-selective contact. In addition, the effects of 2D perovskite capping layers also enhanced the resilience against moisture of 3D perovskite films, as shown by contact angle measurement in fig.  S7 . Next, we fabricated inverted PSCs with a structure of glass/ITO/2PACz/3D perovskite/ 2D perovskite/C 60 /bathocuproine (BCP)/Ag (Fig.  3A ); Fig.  3B  shows the false-colored cross-sectional SEM view of these devices. As shown in the current density-voltage (J-V) characteristics of the devices in Fig.  3C , the 2D-RT devices demonstrated substantially improved PCEs, with a maximum PCE of 24.3% and stabilized PCE of ~24% (open-circuit voltage, V OC , of ~1.20 V and fill factor, FF, of ~82%; fig.  S8, A  and C ). These results represent an absolute ~2% PCE gain upon 2D-RT passivation and can be compared with PCEs for other inverted PSCs (see fig.  S9A ). Also, 2D-RT passivation enables minimization of the device energy loss (E loss = E g -qV OC , where q is electron charge and E g is the optical bandgap) up to 0.34 eV, which represents ~96% of the thermodynamic limit of the V OC (1.262 V) for E g of 1.55 eV (fig.  S8, D  and E ). The reduced nonradiative loss in 2D-RT-based devices is comparable with state-of-the-art GaAs solar cells (V OC of 1.127 V, yielding ~98% of the thermodynamic limit of the V OC )  (29) . The 2D-TA passivated devices suffered from lower FF values (&lt;79%; figs. S8B and S10), indicative of an energy level mismatch at the electron-selective contact, as derived from ultraviolet photoelectron spectroscopy (UPS) results  (20) . The narrow statistical distribution of the PCE, V OC , FF, and short-circuit current density (J SC ) values of the devices (figs. S8B and S11) confirmed the high reproducibility of our approach. We also confirmed the effectiveness of our approaches by showing less than 0.5% deviation for personto-person variations of seven different researchers (fig.  S12A ). Further, our proposed passivation approach was universal for various perovskite compositions (various bandgaps) and deposition techniques (such as one-step, two-step, and blade-coating), as demonstrated by the systematic absolute PCE enhancement of 1.5 to 2.0% of device performance in fig.  S12B . The reduced trap-assisted recombination of 2D/3D perovskite heterojunction devices was also investigated with transient photovoltage decay and light intensity dependent under open-circuit conditions (fig.  S13 ). The 2Dpassivated devices exhibited a longer charge recombination lifetime and lower ideality factor than control devices, confirming the reduced trap-assisted recombination at 3D/C 60 interfaces by the 2D perovskite passivation. Finally, we subjected our 2D perovskite passivation-treated PSCs to a set of rigorous stability tests. First, we evaluated the stability of our encapsulated devices when subjected to industry-relevant damp-heat tests (fig.  S14 ). Here, our 2D-perovskite passivation simultaneously served as ion migration-blocking moisture/oxygen ingress barriers and as defect passivation layers, particularly at elevated operating temperatures (see fig.  S15 )  (3, (14) (15) (16) (17) . Indeed, the 2D-RT-based device retained &gt;95% of the initial PCE (T 95 ) after &gt;1200 hours for champion stability cells (Fig.  3D ). Remarkably, after the damp-heat test, three devices showed an average PCE of 19.3 ± 0.69%. Our results represent the successful encapsulation of PSCs passing the industry-relevant damp-heat test according to the IEC 61215:2016 protocols (1, 2). Also, our final PCE of &gt;19% after &gt;1000 hours of damp-heat test represents a very high retained PCE (fig.  S9B  and table  S1 ). There was no substantial change in the structural and optical properties of the 2D perovskite passivation films (both 3D and 2D perovskites) after &gt;500 hours of thermal annealing at 85°C under dark condition, confirming the robustness of our 2D perovskite passivation approach (fig.  S16 ). Note that our encapsulated devices used for stability tests exhibited slightly lower initial PCEs than the unencapsulated devices because of J SC losses originating from the en-capsulant and glass sheets (fig.  S17 ). We also tested unencapsulated devices in our dampheat chamber, applying thermal tests in ambient air with relative humidity of &gt;50% (figs. S18 and S19), representative of extreme outdoor conditions. Our 2D capping layer introduced a substantially enhanced resistance of the devices against high moisture and thermal stress. Finally, we performed maximum power point tracking (MPPT) measurements for encapsulated cells under simulated 1-sun illumination in ambient air for &gt;500 hours (Fig.  3E ). Here, the 2D-RT-based devices retained up to ~95% of their initial PCE after an MPPT test of &gt;500 hours, whereas the control devices retained their PCE of &lt;90% for only ~100 hours.   </text>
+      <annotation id="6">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">ISOSD2</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T20:46:32Z</infon>
+        <location offset="1635" length="3"/>
+        <text>85°</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">humidity</infon>
+        <infon key="identifier">ISOSD2</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T20:46:38Z</infon>
+        <location offset="1644" length="3"/>
+        <text>85%</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">time</infon>
+        <infon key="identifier">ISOSD2</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T20:46:44Z</infon>
+        <location offset="1790" length="10"/>
+        <text>1000 hours</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">oleylammonium iodide</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T05:21:44Z</infon>
+        <location offset="4991" length="20"/>
+        <text>oleylammonium iodide</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">oleylammonium iodide</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T05:21:32Z</infon>
+        <location offset="5830" length="4"/>
+        <text>OLAI</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">oleylammonium iodide</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T05:21:28Z</infon>
+        <location offset="8101" length="4"/>
+        <text>OLAI</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>13888</offset>
+      <text> Materials and Methods </text>
+    </passage>
+    <passage>
+      <offset>13911</offset>
+      <text> Materials [2-(9H-Carbazol-9-yl)ethyl]phosphonic acid (2PACz, &gt;98.0% purity) was purchased from TCI. The dimethylformamide (DMF), dimethylsulfoxide (DMSO), dimethyl propylene urea (DMPU) and chloroform were all purchased from Sigma Aldrich. Formamidium iodide (FAI), methylammonium iodide (MAI), and cesium iodide (CsI) were purchased from Greatcellsolar. Olaylammonium iodide (OLAI) and methyl-ammonium chloride (MACl) were purchased from Xi'an Polymer L.T. Lead (II) iodide (PbI2 ultra-dry, 99.9% purity) was purchased from Alfa Aesar. C60 (&gt;99.5% purity) and bathocuproine (BCP, &gt;99% purity) were purchased from Ossila Ltd. Thermal polyurethane (TPU) was purchased from Schweitzer-Mauduit International (SWM). Butyl rubber edge sealant (HelioSeal PVS 101) was purchased from Kӧmerling Chemische Fabrik GMBH. All materials were directly used without purification. Device fabrication ITO glass was sequentially cleaned with acetone and isopropyl alcohol (IPA) for 15 min, respectively. Before use, the ITO/glass substrates were cleaned with ultraviolet ozone for 15 min. Then, the ITO/glass substrates were spin-coated with a thin layer of a self-assembled monolayer (SAM) 2PACz ([2-(9H-carbazol-9-yl)ethyl]phosphonic acid) at 5,000 r.p.m. for 30 s followed by annealing at 100 °C for 10 min (0.5-1.0 mg/mL in ethanol). After cooling down, the 2PACz films were then washed by ethanol by dynamic coating at 5,000 r.p.m. for 30 s to remove unbounded molecules, followed by additional annealing at 100 °C for 5 min. Perovskite Cs0.03(FA0.90MA0.10)0.97PbI3 layers A mixture of perovskite solution (1.5 M) composed of mixed cations (PbI2: 691.5 mg, CsI: 11.7 mg, FAI: 225.1 mg, and MAI: 15.4 mg with 30 mol% of MACl) was dissolved in a mixed solvent (DMF/DMSO with 4/1 vol. ratio) according to a formula of Cs0.03(FA0.90MA0.10)0.97PbI3. A twostep spin-coating procedure with 2,000 r.p.m. for 40 s and 6,000 r.p.m. for 10 s was adopted to prepare perovskite films. Anisole (300 µl) was dropped on the spinning substrate during the last 10 s of the second spin-coating step. Subsequently, the sample was annealed at 100 °C for 30 min. After cooling down, the 2D passivation by solution post-treatment was carried. Typically, OLAI molecules were dissolved in chloroform with concentrations ranging from 0.5 to 2.5 mg/mL. Then, 2D ligand solution (100 µL) was spin-coated onto the as-prepared perovskite films at 5,000 r.p.m. for 25 s. It should be noted, the temperature of N2 glove box was recorded around 25 °C during 2D passivation (the digital thermometer was placed near by spin-coater). Then the treated perovskite films were annealed at 100 °C for 10 min for 2D-TA-based samples; and stored overnight at room-temperature (under dark and inside N2 glovebox with O2 level was &lt;10 ppm and H2O level was &lt;0.1 ppm) for 2D-RT-based samples. After Annealed or stored overnight, the treated films with 2D perovskite passivation were then washed one time with chloroform at 5,000 r.p.m. for 20 s to remove unbounded 2D ligands. All procedures were done in an N2 glove box. Perovskite Cs0.05FA0.80MA0.15PbI2.25Br0.75 layers For wide-bandgap perovskite, a mixture of perovskite solution (1.4 M) composed of mixed cations (PbI2: 568.2 mg, PbBr2: 61.3, CsI: 18.2 mg, FAI: 192.6 mg, and MABr: 23.5 mg with 15 mol% of MACl) was dissolved in a mixed solvent (DMF/DMSO with 4/1 ratio) according to a formula of Cs0.05FA0.80MA0.15PbI2.25Br0.75.(30) A two-step spin-coating procedure with 2,000 r.p.m. for 40 s and 6,000 r.p.m. for 10 s was adopted to prepare perovskite film. Anisole (300 µL) was dropped on the spinning substrate during the last 10 s of the second spin-coating step. Subsequently, the sample was annealed at 100 °C for 15 min. For fabricating blade-coated devices, PTAA (2 mg/mL in chlorobenzene) solution is spin-coated (5,000 r.p.m. for 30s) and annealed at 100 o C for 10 mins. The perovskite absorber layer is deposited on top of the HTL, by employing a 1.5 M solution of Cs0.15(FA0.85MA0.15)0.85PbI0.7Br0.3 in DMF solution. 25 µL of DMPU and 18 mg of MACl were introduced as additives for 1 ml of precursor solution. The substrates were blade-coated using 10 µL of the precursor solution at room-temperature at a speed of 15 mm/s. The blade-substrate gap was kept at 100 µm and a laminar flow air gun was used to induce crystallization of the precursor thin film. The films were then annealed at 70 o C for 10 min and 100 o C for 30 min, subsequently. The 2D passivation was done as described above. </text>
+      <annotation id="13">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">oleylammonium iodide</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T05:22:58Z</infon>
+        <location offset="14267" length="27"/>
+        <text>Olaylammonium iodide (OLAI)</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">oleylammonium iodide</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T05:26:57Z</infon>
+        <location offset="16130" length="43"/>
+        <text>OLAI molecules were dissolved in chloroform</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">PTAA</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T20:41:16Z</infon>
+        <location offset="17676" length="4"/>
+        <text>PTAA</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">PTAA</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T20:41:27Z</infon>
+        <location offset="17676" length="31"/>
+        <text>PTAA (2 mg/mL in chlorobenzene)</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>18429</offset>
+      <text> Perovskite FAMAPbI3 and MAPbI3 layers (two-step method) The two-step inter-diffusion method was used to prepare double cation FAMAPbI3-and MAPbI3based perovskite films on ITO/2PACz substrates, with modification from previous report.  (31, 32)  A mixture solution of 1.5 M PbI2 in DMF/DMSO (9/1, v/v) solvent with 0.5 mol% of potassium iodide was stirred and heated at 75°C prior to use. Then, the solution was spin-coated at 2,500 r.p.m. for 30 s followed by annealing at 70°C for 1 min. After cooling to RT, mixed solution of 0.5 M FAI/MAI (0.7/0.3, molar ratio with or without 0.15 M of MACl) in IPA or 0.5 M MAI in IPA were dropped onto the PbI2 layers for preparing FAMAPbI3 and MAPbI3 perovskites, respectively. Then, the films were annealed at 80°C for 1 min. After cooling, the perovskite films were washed with IPA via drop-casting at 4,000 r.p.m. for 20 s, followed by thermal annealing at 120 °C for 20 min. The 2D passivation was done as described above. After the perovskite deposition, samples were transferred into a thermal evaporator for the C60 (25 nm) and BCP (5 nm) deposition. For the final step, a 120 nm thick Ag layer was evaporated at low pressure (&lt; 10 -6 Torr) with an area of ~0.1 cm 2 . For J-V measurements, a black metal mask with an aperture area of 0.0715 cm 2 was used to define the active area of the devices accurately. A ~120 nm MgF2 was also evaporated at the glass side to minimize the reflection losses from the glass substrates. </text>
+    </passage>
+    <passage>
+      <offset>19903</offset>
+      <text> Perovskite film characterizations The photo-emission spectra of the encapsulated perovskite thin films were collected using a hyperspectral imaging system coupled to a microscope with 2 nm spectral resolution (Photon etc., IMA). The samples were excited with a 405 nm laser where the excitation was incident on the top surface of the perovskite films. All Grazing-Incidence Wide-Angle X-ray Scattering (GIWAXS) patterns of samples were acquired at the BL17A1 beamline in the National Synchrotron Radiation Research Center (NSRRC), Taiwan. A Mar345 image plate detector was used to capture the scattering patterns. The sample-to-detector distance is 315.6 mm, which was calibrated from the AgBe standard. The wavelength of the incident X-rays is 1.32 Å. Typical GIWAXS patterns were obtained from an incidence angle of 0.20° to 1.00°. For the cross-sectional TEM measurements, the lamella was prepared first in a scanning electron microscope (Helios G4 DualBeam, FEI), equipped with an EasyLift nanomanipulator with the help of a Ga focused ion beam (FIB). To protect the sample, the protective carbon and platinum layers were deposited under electron and ion beams. The bulk of the sample was milled with the ion beam (30 kV, 20 nA), and attached to the TEM copper grid in accordance with the lift-out method. The lamella was thinned down with the FIB gradually decreasing the current (30 kV, 2.8 nA -90 pA). The final cleaning was performed at 5 kV, 81 pA and 2 kV, 28 pA to remove any possible contamination. The imaging and elemental mapping was conducted in Titan Cs Probe TEM equipped with EDX and HAADF detector in STEM mode at 300 kV operating voltage. Unless stated otherwise, all measured perovskite films for the characterization mentioned above used higher OLAI concentrations (2 mg/mL) to help the investigation of the 2D perovskite properties. The Bruker Dimension-Icon system atomic force microscopy (AFM) measurements were carried to investigate perovskite films' morphology. The X-ray diffraction patterns were recorded with a Bruker D2 Advance diffractometer (Bruker, PHASER) with Cu Ka radiation (l = 1.5418 A˚). Contact angles were measured with a KRUSS-The Drop Shape Analyzer DSA100 system using water as the wetting solvent. A Cary 5000 UV-vis-NIR spectrophotometer was used to measure the absorbance of perovskite films on the glass substrates. XPS, UPS, and LE-IPES characterization was carried out in an ultra-high vacuum (UHV) ScientaOmicron multiprobe XPS/UPS system equipped with a home-built LE-IPES setup. Samples were mounted and transferred into the system with minimal exposure (&lt; the 30s) to air. Two separate samples were used by cutting samples, one UPS and subsequent IPES analysis and one for XPS to prevent Xray or electron beam-induced degradation from impacting analysis. XPS utilized an Al Kα 1486.7 eV XM1000 X-ray source operating at a power of 390 W, with a Sphera II hemispherical analyzer equipped with a 7-channeletron detector. XPS scans were conducted with a 50 eV (15 eV) constant pass energy for the survey (high resolution) scans at an electron take-off angle of 0° (perpendicular to sample surface) with the sample surface in good electrical contact to the analyzer. The XPS/UPS electron analyzer work function was calibrated to an Ar+ sputter cleaned Ag foil's Ag 3d peak and Ef energy edge. UPS was acquired with a He vacuum ultraviolet (VUV) discharge lamp with a copper attenuation aperture to limit VUV intensity and surface charging. All scans were conducted with He1α (21.22 eV) excitation and a 5 eV constant pass energy at an electron take-off angle of 0°. The analysis region in both XPS and UPS is estimated to be 60μm in size. LE-IPES was conducted in the Bremsstrahlung isochromatic mode in the adjoining chamber consisting of a monoenergetic source (Staib) of 0.25 eV energy dispersion and drain current of 20-40 μA with a 2-3 mm sized spot, directed normal to the sample surface. The emitted IPES light was detected through a lens assembly (vacuum and airside), bandpass filter of 280 nm (4.43 eV), and solid-state photo-multiplier tube (PMT) (Hammatsu). Scans were conducted at a sample bias of +20V and 0 eV electron kinetic energy, and subsequent vacuum level calibration was done to the turn-on point in the drain current energy trace recorded simultaneously with the PMT signal. Spectra were interpreted without normalization to the drain current. Analysis of XPS was conducted in CASA XPS, where a Tougaard based background function was used for the inelastic background, and mixed Gaussian-Lorenzian (70:30) peaks were fitted. Analysis of UPS and IPES was made in origin fitting Gaussian functions to the VBM/CBM and linear extrapolation to identify the secondary electron cutoff (SECO). The 2D ligand concentration here followed the optimum concentration for the device's performance (0.5-1.0 mg/mL). </text>
+      <annotation id="15">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">oleylammonium iodide</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T05:26:57Z</infon>
+        <location offset="21672" length="29"/>
+        <text>OLAI concentrations (2 mg/mL)</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>24792</offset>
+      <text> Device characterizations The J-V characteristics were investigated using a Keithley 2400 source unit under a light intensity of AM 1.5 G (100 mW cm -2 ) illumination with an Abet Technologies Sun 3000 solar simulator. The spectral mismatch was calibrated using a KG-5 filter-covered mono-silicon standard cell (Newport). All devices were measured for the reverse and forward scans with a scanning rate of 0.1 V s -1 . The external quantum efficiency (EQE) spectra were obtained by passing the output of a 400 W Xenon lamp through a monochromator and filter under an N2 glove box. The calibration was performed with a 603621 Calibrated Silicon and Germanium Reference Detector. Next, the capacitance measurements were performed using an impedance spectrometer (potentiostat/galvanostat, Metrohm Autolab B.V.) with a sweeping frequency from 1 MHz to 1 Hz (10 mV AC voltage). The capacitance-voltage was monitored by varying the voltage from 0 to 1.2 V while keeping the frequency constant at 1 kHz. The transient photo-voltage (TPV), transient photo-current (TPC), and light-intensity dependent J-V measurements were performed using PAIOS 3.2(Fluxim) with white led under a maximum light intensity of 200 mW cm -2 . All measurements were done under an N2-filled glove box. </text>
+    </passage>
+    <passage>
+      <offset>26064</offset>
+      <text> Computational method Density functional theory is used in the generalized gradient approximation of Perdew, Burke, and Ernzerhof (Vienna ab-initio simulation package;  (33)  projector augmented wave method; 500 eV plane wave cut-off). A 3 × 3 × 2 supercell of cubic α-FAPbI3 with space group Pm3m (for which a relaxed lattice constant of 6.52 Å is obtained in agreement with the literature(  34 ) is built and is augmented with a vacuum layer of 25 Å thickness in the [001] direction to achieve a slab model of the energetically favourable PbI2-terminated (001) surface. In agreement with the literature, the orientation of the FA molecules in the surface layer is found to change from horizontal to vertical.  (35)  The Brillouin zone is sampled on a Monkhorst-Pack 3 × 3 × 1 k-mesh, the total energy is converged to 10 -5 eV, and the maximum atomic force is converged to 0.001 eV Å -1 . </text>
+    </passage>
+    <passage>
+      <offset>26962</offset>
+      <text> Device stability testing To measure the damp-heat test of the encapsulated devices, we kept the cells at constant temperature and humidity levels (85 °C/85% of RH) in the environmental test chamber (Weisstechnik as shown in figure  S14 ) for over 1,000 h. The encapsulated devices were measured periodically under an N2-filled glove box after around 30 min cooling of devices in ambient air. For the stability test, ~10 nm layer of tin(IV) oxide and an 80 nm layer of indium zinc oxide were deposited on top of the C60 sequentially, by atomic layer and sputtering depositions, respectively, to replace the BCP layer. Unless otherwise stated, a ~40 nm thick of nickel (II) oxide (using NiO target (Plasmaterials, 99.9%) and radiofrequency sputtering at room temperature in pure Ar atmosphere and base pressure of &lt; 10 -6 Torr) with potassium chloride passivated for the champion damp-heat cells were used as holes transporting layers. The operational stability tests were carried out at the MPPT for the encapsulated devices under AM1.5 illumination (100 mW cm -2 ) in ambient air at ~40 °C. The voltage at the MPPT was automatically applied, and the power output of the devices was tracked. </text>
+      <annotation id="18">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">ISOSD2</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T20:46:32Z</infon>
+        <location offset="27110" length="4"/>
+        <text>85 °</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">humidity</infon>
+        <infon key="identifier">ISOSD2</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T20:46:38Z</infon>
+        <location offset="27116" length="3"/>
+        <text>85%</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>28156</offset>
+      <text> Encapsulation For our encapsulation, we use industry-compatible materials and processes. First, ribbons (Ulbrich Solar Technologies) are soldered to the electrodes of the devices to extend the connections. The device is encapsulated between two glasses and two layers of encapsulant films. We use edge sealant (PVS 101) to prevent moisture ingress from the sides of the device. The stack is vacuum laminated in an industrial laminator (Ecolam5 Ecoprogetti) at 120°C for 20 min. All processes were done in ambient air. It should be noted that the perovskite devices are stable during the encapsulation process.   . The slope of VOC versus the light intensity gives kT/q, where kB, T, and q are the Boltzmann constant, temperature in Kelvin, and the elementary charge, respectively. The larger the kT/q value, the greater the probability of trap-assisted recombination. The plot slope for the 2D passivation-based devices was lower (~1.29 kBT/q) than that of the control-based devices (~1.54 kBT/q), which indicates reduced trapassisted bimolecular recombination at 3D/C60 interfaces. Before the measurement, all devices were applied a bias voltage of 2 V to the electrodes by a source meter (Keithley 2400) for about a few minutes to induce the ion migration. All fresh devices have similar capacitance throughout a wide frequency range. However, after the stability test, the control device exhibits a significant increase of capacitance at low frequency (&lt;1 kHz) which is almost one order of magnitude higher than that of the device with 2D perovskite passivation. It is known that the increase of capacitance at low frequency is due to the response of mobile ions in perovskites  (21) . Such a large increase of capacitance in the control device suggests the number of mobile ions within perovskites has been significantly increased, especially after stability stress. Contrastingly, the 2D passivated-based devices did not show any significant change before and after stability stress, suggesting the speculation that the ion dissociation and migration are effectively suppressed by stabilizing 3D perovskite surfaces through the 2D perovskite passivation approach. (D-F) Trap density of states (tDOS) deduced from C-f plots of each sample. Thermal admittance spectroscopy (TAS) was performed to elucidate the distribution of trap-states in the perovskite layers. It shows tDOS (denoted as N T) with respect to energetic defect levels from TAS, which were obtained from the relation: NT (Eω )=-(Vbi .dCω )/(qW kB T.dω), where C is the capacitance, ω is the angular frequency, q is the elementary charge, kB is Boltzmann's constant, and T is the temperature. It was reported that shallow traps were related to traps in grain boundaries, while deeper traps form primarily at the interfaces or surfaces. The trap density of the control 3D was 10 times higher than that for 2D passivated-based samples. Overall, the tDOS of 2D passivated-based devices has lower tDOS values in all regions (both shallow and deep traps levels), indicating sufficient defect passivation at 3D/C60 interfaces.   fig. S2B show two-dimensionalities of 2D layers in 2D-RT samples as the reduction of the density of C, Pb, and I elements, which correspond to n = 1 and n = 2 layers. In comparison, 2D-TA samples showed only n = 1 (fig. S2D). Further, profiling the position of 2D perovskites from TEM images confirmed the dimensionality of n = 2 and n = 1 by analyzing average distances between the two closest octahedral inorganic sheets. As a result, higher dimensionality (n = 2) had a wider distance (~1.5 nm) relative to n = 1 (~1.2 nm) (fig. S2, E to H). </text>
+      <annotation id="23">
+        <infon key="type">treated_voc</infon>
+        <infon key="identifier">1.29</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T05:50:51Z</infon>
+        <location offset="29089" length="4"/>
+        <text>1.29</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">control_voc</infon>
+        <infon key="identifier">1.54</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T05:50:43Z</infon>
+        <location offset="29142" length="4"/>
+        <text>1.54</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>31798</offset>
+      <text> Fig. 1 . 1 Fig. 1. Structure of 2D perovskite dimensionality control by tuning the annealing conditions. (A) Schematic illustration of 2D perovskite passivation with different n layers under thermal annealing at 100°C (TA) and roomtemperature process (RT). (B) Integrated intensity of GIWAXS data along q z . </text>
+    </passage>
+    <passage>
+      <offset>32109</offset>
+      <text> Fig. 2 . 2 Fig. 2. Optical characterization and energetic alignments of perovskite films with and without 2D perovskite passivation. (A) PL images of control 3D, 2D-TA, and 2D-RT films at wavelength ~570 nm, which corresponds to n = 2 layers (images extracted using PHySpecV2). (B) Normalized PL spectra </text>
+    </passage>
+    <passage>
+      <offset>32414</offset>
+      <text> Fig. 3 . 3 Fig. 3. Device performance and stability of 2D/3D perovskite heterojunction. (A) Device architecture of inverted PSCs. (B) Cross-sectional SEM image of inverted cells. (C) J-V scan of champion PSCs. (D) Variation of PCEs during damp-heat test of encapsulated devices. The continuous lines are guides to the eye; error bars denote SD. (E) Continuous MPPT for the encapsulated control and 2D-RT cells under AM 1.5 illumination in ambient air. Inset: Photograph of the encapsulated device. </text>
+    </passage>
+    <passage>
+      <offset>32913</offset>
+      <text> Fig. S1 . S1 Fig. S1. (A) Normalized PL emission of 2D-passivated sample at various temperature (room temperature, 40 and 80 and 100 o C). (B)The evolution of PL peak intensity (extracted from panel A) plots of each n = 1, 2 and 3 for various annealing temperatures. Thermal annealing of 2D perovskite is for 10 min as described in experimental method. All 2D-TA samples show a dominant peak at ~510 nm which correspond to n = 1 peak, while higher-dimensionality (n ≥ 2) becomes more pronounced by decreasing temperature annealing process. </text>
+    </passage>
+    <passage>
+      <offset>33456</offset>
+      <text> 1 Fig. S3 .Fig. S4 .Fig. S5 . 1S3S4S5 Fig. S3. Morphological properties of perovskite films. Top-view SEM images of perovskite films with and without 2D perovskite passivation at various magnifications, (A) 25,000 and (B) 10,000 times. Over a large area of SEM images, the PbI2 species (higher contrast) are most likely at grain boundaries of control 3D perovskite films. These PbI2 species were disappeared after OLAI post-treatment (on both 2D-TA and -RT samples), confirming the effective conversion of PbI2 to 2D perovskite layer by post-treatment. The scale bar is 1 µm. (C) Atomic force microscopy images of perovskite films-based control, 2D-TA, and 2D-RT under the area of 20 µm × 20 µm. The 2D perovskite layers help reducing the surface roughness of 3D perovskite films by filling regions close to the grain boundaries, as indicated by reducing the RRMS values. </text>
+      <annotation id="16">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">oleylammonium iodide</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T05:26:57Z</infon>
+        <location offset="33871" length="19"/>
+        <text>OLAI post-treatment</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>34333</offset>
+      <text> Fig. S7. (A) Water contact angles of control, 2D-TA, and 2D-RT samples. The improved water contact angles of perovskite films for 2D-RT (85.6±1.8°) and TA (71.2±2.1°) compared to control (51.4±2.7°) indicates the coverage of 2D perovskite coatings with long ligand molecules, thus dramatically enhancing the hydrophobicity of the films. The measurements were done with more than five samples with different spots on the films to see the adequate coverage of 2D perovskite layers. (B) After a few hours of contact angle measurements, the photograph of control and treated perovskite films from top and backside view. The higher hydrophobicity of the films shows the effectiveness of water droplets blocking into 3D perovskite underneath. Contrastingly, control films demonstrated a reverse reaction to form PbI2 species that confirms the control 3D perovskite films could not resist the water or humidity ingress. </text>
+    </passage>
+    <passage>
+      <offset>35253</offset>
+      <text> Fig. S14. Damp-Heat anti chamber photographs in our lab (KAUST). The temperature and relative humidity levels were maintained at 85 °C and 85%, respectively, following International Electrotechnical Commission (IEC) 61215:2016 standards. </text>
+      <annotation id="20">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">ISOSD2</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T20:46:32Z</infon>
+        <location offset="35383" length="4"/>
+        <text>85 °</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">humidity</infon>
+        <infon key="identifier">ISOSD2</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T20:46:38Z</infon>
+        <location offset="35393" length="3"/>
+        <text>85%</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>35493</offset>
+      <text> Fig. S16. Structural and optical properties of fresh and aged samples under thermal (85 °C) stress for &gt;500 h in dark. (A-C) X-ray diffraction (XRD) patterns of fresh and aged perovskite films. After 2D passivation, the films show no significant changes with only a tiny PbI2 peak appearance, indicates the effective 2D perovskite capping on 3D perovskite layers. Besides, 2D perovskite peaks were consistently appeared, confirming the robustness of 2D perovskite themselves after a thermal stress test. Contrastingly, the control 3D perovskite films were partially degraded by forming a nonperovskite δ phase and enhanced PbI2 peak.(D-F) Optical emission peaks of fresh and aged perovskite films. The control 3D perovskite films were partially degraded, as indicated by reducing the emission intensity after thermal stress, following the XRD result. Contrastingly, 2D passivated-based films demonstrated more robust emission peak intensity with the same level of intensities at prominent peaks (~802 nm), indicates the effective approach of our 2D perovskite passivation strategy. In addition, the 2D perovskite emission at a shorter wavelength also showed no significant change, indicating a robust 2D perovskite itself, in accordance with the structural XRD patterns results. </text>
+    </passage>
+    <passage>
+      <offset>36775</offset>
+      <text> Fig. S19. (A) Evolution of PCE of non-encapsulated devices at 85 o C (hot plate) under ambient air with relative humidity was &gt;50% for 40 h test. (B) Evolution of PCE of non-encapsulated control and OLAItreated devices, measured before and after annealing at different temperatures (at 85, 125 and 160 o C, respectively) in an ambient environment with RH &gt;50%. The annealing time is one hour. </text>
+      <annotation id="17">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">oleylammonium iodide</infon>
+        <infon key="annotator">dap002@ucsd.edu,ncoleban@ucsd.edu</infon>
+        <infon key="updated_at">2024-11-16T05:26:57Z</infon>
+        <location offset="36975" length="19"/>
+        <text>OLAItreated devices</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>37169</offset>
+      <text>			 of 5 RESEARCH | REPORT Downloaded from https://www.science.org at University of California San Diego on November 07, 2024</text>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Perovskite Solar Cells</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014-09-01">September 1, 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Ian</forename><forename type="middle">C</forename><surname>Smith</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Eric</forename><forename type="middle">T</forename><surname>Hoke</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Prof. H. I</roleName><forename type="first">Diego</forename><surname>Solis-Ibarra</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">D</forename><surname>Mcgehee</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Hemamala</forename><forename type="middle">I</forename><surname>Karunadasa</surname></persName>
+							<email>hemamala@stanford.edu</email>
+						</author>
+						<author>
+							<persName><surname>Karunadasa</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Prof. M. D</roleName><surname>Mcgehee</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">Stanford University Stanford</orgName>
+								<address>
+									<postCode>94305</postCode>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">Stanford University</orgName>
+								<address>
+									<postCode>94305</postCode>
+									<settlement>Stanford</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Perovskite Solar Cells</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014-09-01">September 1, 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2FE3BB4DEAAD46AB4FCDDE27FF41619C</idno>
+					<idno type="DOI">10.1002/anie.201406466</idno>
+					<note type="submission">Received: June 22, 2014 Revised: July 30, 2014</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T17:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>layered compounds</term>
+					<term>materials science</term>
+					<term>perovskite</term>
+					<term>photovoltaics</term>
+					<term>solar cells</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Two-dimensional hybrid perovskites are used as absorbers in solar cells. Our first-generation devices containing (PEA) 2 (MA) 2 [Pb 3 I 10 ] (1; PEA = C 6 H 5 (CH 2 ) 2 NH 3 + , MA= CH 3 NH 3 +</p><p>) show an open-circuit voltage of 1.18 V and a power conversion efficiency of 4.73 %. The layered structure allows for high-quality films to be deposited through spin coating and high-temperature annealing is not required for device fabrication. The 3D perovskite (MA)[PbI 3 ] (2) has recently been identified as a promising absorber for solar cells. However, its instability to moisture requires anhydrous processing and operating conditions. Films of 1 are more moisture resistant than films of 2 and devices containing 1 can be fabricated under ambient humidity levels. The larger bandgap of the 2D structure is also suitable as the higher bandgap absorber in a dual-absorber tandem device. Compared to 2, the layered perovskite structure may offer greater tunability at the molecular level for material optimization.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Three-dimensional (3D) hybrid perovskites of the form (MA) [PbX 3 ] (MA = CH 3 NH 3 + ; X = Cl, Br, or I) have recently emerged as promising absorbers for solar cells. <ref type="bibr" target="#b38">[1]</ref> The first reported perovskite solar cell with (MA)[PbI 3 ] showed a power conversion efficiency (PCE) of 3.81 %. <ref type="bibr">[1a]</ref> Rapid material and device optimization has led to PCEs exceeding 15 % in just a few years. <ref type="bibr" target="#b39">[2]</ref> Though progress in device efficiencies has been remarkable, the lead-halide perovskites have two main drawbacks: the toxicity of the water-soluble source of lead and the instability of the material to atmospheric moisture. Recently, the lead perovskite was replaced by the significantly less toxic tin analogue in solar cells with efficiencies of up to approximately 6 %. <ref type="bibr" target="#b40">[3]</ref> However, the moisture sensitivity of the lead perovskite has not yet been addressed. Motivated by our observations that the structurally related two-dimensional (2D) perovskites readily formed high-quality films that appeared more resistant to humidity than the 3D analogues, we sought to assess if the layered materials could function as solar-cell absorbers. Herein, we report the structure of the layered perovskite (PEA) 2 (MA) 2 [Pb 3 I 10 ] (1; PEA = C 6 H 5 (CH 2 ) 2 NH 3 + ) that can act as an absorber in a solar cell with an open-circuit voltage of 1.18 V and a PCE of 4.73 %. Although our first-generation devices have lower efficiencies than current solar cells with 3D perovskite absorbers, the layered structure brings distinct advantages. In contrast to (MA)[PbI 3 ] (2), high-quality films of 1 can be obtained through one-step spin coating under ambient conditions without annealing. Films of 1 are also more resistant to moisture compared to 2, and devices containing 1 can be fabricated under humid conditions. Importantly, the layered structure affords greater tunability, which may provide additional routes for material optimization.</p><p>Layered perovskites can be structurally derived from the 3D analogue by slicing along specific crystallographic planes. <ref type="bibr">[4]</ref> The interlayer separation and thickness of the inorganic layers can be controlled through the choice of organic cations. <ref type="bibr" target="#b42">[5]</ref> The inorganic layers of most layered perovskites comprise a single sheet (n = 1) of corner-sharing metal-halide octahedra sandwiching layers of organic cations. <ref type="bibr">[4]</ref> These 2D materials do not have electronic properties typically associated with good solar-cell absorbers. Along with larger bandgaps compared to the 3D analogue (n = 1), the spatial confinement of the 2D structure and dielectric mismatch between organic and inorganic layers lead to strongly bound excitons with low mobility. <ref type="bibr">[6]</ref> Such tightly bound excitons are difficult to dissociate into free carriers at room temperature and the localized charge carriers are unlikely to reach the electron/hole selective contacts in a typical solarcell geometry. To access the more favorable electronic properties of the 3D structure, we sought an intermediate structure between the n = 1 and n = 1 materials. We synthesized the n = 3 member of the series (PEA) 2 (MA) nÀ1 [Pb n I 3n+1 ] (n = number of Pb-I sheets in each inorganic layer), by combining (PEA)I, (MA)I, and PbI 2 in a 2:2:3 stoichiometric ratio in a solvent mixture of nitromethane/acetone. Slow solvent evaporation afforded dark red crystals of (PEA) 2 (MA) 2 [Pb 3 I 10 ] (1), the first crystallographically characterized n = 3 lead perovskite (Figure <ref type="figure" target="#fig_0">1</ref>).</p><p>Decreasing the dimensionality of the inorganic components from the 3D structure causes an increase in the bandgap and the exciton binding energy. The reported n = 1 and 2 structures have bandgaps of 2.57 and 2.32 eV, respectively, and exciton absorption bands at 2.35 and 2.15 eV, respectively. <ref type="bibr">[7]</ref> Their exciton binding energies can be estimated as the difference between bandgap and exciton absorption energies to be 220 and 170 meV for the n = 1 and 2 structures, respectively. <ref type="bibr">[7]</ref> Absorbance measurements of 1 show the exciton band at 2.06 eV, which lies close to an estimated bandgap of approximately 2.1 eV, indicating that the exciton binding energy is significantly smaller and close to the value of 2 (circa 40 meV). <ref type="bibr">[6]</ref> The bandgap of 1 is larger than that of 2 (1.61 eV) <ref type="bibr" target="#b17">[8]</ref> and larger than the ideal value of 1.34 eV calculated by Shockley and Queisser for the highest efficiency obtainable by a single-junction solar cell (circa 34 %). <ref type="bibr" target="#b18">[9]</ref> However, 1 can absorb a significant fraction of the solar spectrum to afford a theoretical PCE of approximately 20 %. The bandgap of 1 is also close to the ideal value (1.9 eV) for the higher bandgap absorber in a dual-absorber tandem device, <ref type="bibr" target="#b19">[10]</ref> which can exceed the Shockley-Queisser limit. <ref type="bibr">[11]</ref> High-quality films of 1 can be deposited from precursor solutions through one-step spin coating. Similar processing of 2 does not afford continuous films (see Figure <ref type="figure" target="#fig_0">S1</ref> in the Supporting Information). The layered structure of 1 likely aids film formation: unlike 2 that crystallizes as rhombic dodecahedra at room temperature, <ref type="bibr">[12]</ref> 1 forms plates (Figure <ref type="figure" target="#fig_1">S2</ref>). Powder X-ray diffraction (PXRD) patterns of films of 1 show reflections indicating a preferential orientation of crystallites (Figure <ref type="figure" target="#fig_1">2</ref>, top). To confirm the n = 3 perovskite structure in these films, we scraped the films into a powder, loaded it into a glass capillary, and obtained unoriented PXRD patterns (Figure <ref type="figure" target="#fig_1">2</ref>, middle). These unoriented PXRD data show the reflections calculated from the single-crystal Xray structure of 1 (Figure <ref type="figure" target="#fig_1">2</ref>, bottom). The absorption spectrum of films of 1 shows exciton absorption bands at 2.06, 2.19, and 2.41 eV (Figure <ref type="figure" target="#fig_3">S4</ref>). We assign the peak at 2.06 eV to the n = 3 material. The peaks at 2.19 and 2.41 eV match the exciton absorption energies of the n = 2 and n = 1 structures, respectively. <ref type="bibr">[5c, 13]</ref> These phases are not visible in the PXRD patterns of films of 1, suggesting defect layers of less than n = 3 within the structure. Small amounts of n = 1 and 2 phases can show in the absorption spectrum because of the high oscillator strength of excitons in these materials. <ref type="bibr" target="#b24">[13]</ref> Slight shoulders at 1.94 and 1.87 eV may be caused by trace amounts of n = 4 and 5 phases, respectively. The absorption spectrum does not show peaks corresponding to 2 (Figure <ref type="figure" target="#fig_3">S4</ref>). When excited at 2.54 eV, the emission spectrum of 1 shows a peak at 1.68 eV (Figure <ref type="figure">S5</ref>). This energy lies between the emission maxima for 2D perovskites with lower values of n (n = 1 at 2.36 eV <ref type="bibr" target="#b24">[13]</ref> and n = 2 at 2.15 eV <ref type="bibr" target="#b25">[14]</ref> ) and the 3D perovskite (n = 1 at 1.58 eV). A weak emission at 2.36 eV is likely because of photoluminescence (PL) from n = 1 layers.</p><p>Devices utilizing 1 as the absorber were constructed employing TiO 2 as the electron-selective contact and 2,2',7,-7'-tetrakis-(N,N-di-p-methoxyphenylamine)-9,9'-spirobifluorene (spiro-OMeTAD) as the hole-selective contact. Films of 1 were deposited from a N,N-dimethylformamide solution containing stoichiometric quantities of PbI 2 , (MA)I, and (PEA)I using a single spin-coating step. Importantly, devices containing 1 can be processed in humid air, which does not affect film quality or device performance. In contrast, devices with 2 must be processed under low-humidity levels for optimal performance. High-quality films of 2 also require high-temperature thermal evaporation <ref type="bibr">[2b]</ref> or multistep deposition methods, such as heat-assisted conversion of spincoated PbI 2 films to the perovskite through exposure to (MA)I solution <ref type="bibr" target="#b26">[15]</ref> or vapor, <ref type="bibr">[2a]</ref> or simultaneous deposition of PbCl 2 and (MA)I and high-temperature annealing. <ref type="bibr" target="#b27">[16]</ref> A scanning electron microscopy (SEM) image of a fully constructed device is shown in Figure <ref type="figure" target="#fig_2">3</ref> A. Typical thicknesses of TiO 2 , 1, spiro-OMeTAD, and gold layers are 50, 425, 125, and 75 nm, respectively. We obtained current-voltage (JV) curves of these devices using simulated AM1.5G solar illumination (Figure <ref type="figure" target="#fig_2">3 B</ref>). The open-circuit voltages (V oc ) for these devices  routinely exceed 1.0 V; the best device shows a value of 1.18 V. Owing to the larger bandgap of the 2D material, these V oc values are higher than for cells containing 2 (highest reported V oc = 0.924-1.07 V). <ref type="bibr">[2a-c, 15]</ref> The increase in V oc value of approximately 0.1 eV correlates well with the measured 0.1 eV increase in the peak PL energy (Figure <ref type="figure">S5</ref>), indicating that carriers are extracted from the same energy levels where radiative recombination occurs.</p><p>The JV curve characteristics of these devices are sensitive to measurement speed. Faster scan rates afforded a maximum current density of 11.53 mA cm À2 , a V oc value of 1.21 V, and a PCE of 7.02 %, but the forward and reverse scans showed a large hysteresis (Figure <ref type="figure" target="#fig_8">S8</ref>). Similar effects have been detected in thin-film devices with 2. <ref type="bibr" target="#b28">[17]</ref> To minimize these effects, the current densities were measured at each voltage after a delay period (70 s) to allow the current to approach steady-state conditions (Figure <ref type="figure">S9</ref>). Even at this slow measurement rate, there is a slight overestimation of photocurrent near the maximum-power point as a result of slow, capacitive effects. We therefore fit the data to the characteristic solar-cell equation (Figure <ref type="figure">S9</ref>) in order to obtain more reliable values of 0.60 for the fill factor (FF) and 4.73 % for the PCE. The current density under short-circuit conditions (J sc ) is 6.72 mA cm À2 . The external quantum efficiency (EQE) spectrum matches the profile of the absorption spectrum of 1 (Figure <ref type="figure" target="#fig_10">S10</ref>). The integrated current from the EQE spectrum yields a net current density of 7.47 mA cm À2 , corroborating the J sc value obtained through steady-state measurements. We calculate an internal quantum efficiency of 70 %, assuming 10 % parasitic absorbance by non-absorber components of the device. This indicates that charge extraction could be limited, caused likely by the layered structure of 1, which has no direct path between adjacent inorganic layers. Low-dimensional inorganic materials have previously been effectively used in photovoltaic devices, <ref type="bibr">[18]</ref> and device optimization should afford improvements in J sc values and overall efficiency.</p><p>Upon exposure to ambient humidity at room temperature, opaque black films of 2 convert into a translucent yellow solid. <ref type="bibr">[12b, 19]</ref> Finished devices containing 2 can be encapsulated to avoid exposure to water. However, inherent stability to moisture will likely be necessary for large-scale manufacture or for achieving the long lifetimes required for broad commercialization. To compare the stability of 1 and 2 to moisture, we exposed spin-coated films of both materials to humidity-controlled environments. Because direct spin coating results in poor-quality, discontinuous films of 2 (denoted 2 a), we also formed higher-quality films of (MA)[PbI 3 ] (denoted 2 b) by depositing a 1:3 molar ratio of PbCl 2 :(MA)I and annealing the films at 100 8C. <ref type="bibr" target="#b27">[16]</ref> All films were exposed to a relative humidity level of 52 % for up to approximately 40 days and their PXRD patterns were periodically recorded (Figure <ref type="figure" target="#fig_3">4</ref>). Upon humidity exposure, the PXRD patterns of 2 a and 2 b show a new phase after circa 4-5 days, which can be indexed to the PXRD pattern of PbI 2 (Figure <ref type="figure" target="#fig_12">S11</ref>). These new reflections completely dominate the PXRD patterns after approximately 40 days. Absorption spectra of 2 a and 2 b show a decrease in absorbance near the bandgap and an increase in absorbance above 2.4 eV (Figures <ref type="figure" target="#fig_11">S12</ref> and<ref type="figure" target="#fig_2">13</ref>) as the higherbandgap PbI 2 phase grows as yellow patches on the films (Figure <ref type="figure" target="#fig_3">S14</ref>). In contrast, the PXRD pattern of 1 does not show additional reflections over a period of 46 days of humidity exposure and the absorption spectra show no significant changes over this time (Figure <ref type="figure" target="#fig_0">S15</ref>).</p><p>We show that a layered Pb-I perovskite can act as a solarcell absorber. The n = 3 perovskite takes an intermediate  position between n = 1 perovskites with strongly bound excitons and n = 1 perovskites with weakly bound excitons. Strongly bound excitons in n = 1 Pb-I perovskites lead to green PL, <ref type="bibr" target="#b32">[20]</ref> and green electroluminescence, <ref type="bibr" target="#b25">[14,</ref><ref type="bibr">21]</ref> and we recently reported on broadband white PL from Pb-Br perovskites. <ref type="bibr" target="#b35">[22]</ref> In contrast, weakly bound excitons and shallow trap states could contribute to the unusually long carrier diffusion lengths seen in n = 1 perovskites. <ref type="bibr">[23]</ref> These dramatic changes in electronic properties as a function of the structural evolution from n = 1 to n = 1 are of both fundamental and technological interest.</p><p>Solar cells containing 1 display PCEs up to 4.73 %. Though devices containing 2 have exceeded PCEs of 15 %, <ref type="bibr">[2a-c]</ref> their moisture sensitivity remains a concern for large-scale device fabrication or their long-term use. The layered structure of 1 aids the formation of high-quality films that show greater moisture resistance compared to 2. The larger bandgap of 1 also affords a higher V OC value of 1.18 V compared to devices with 2. Further improvements in material structure and device engineering, including making appropriate electronic contact with the anisotropic inorganic sheets, should increase the PCEs of these devices. In particular, higher values of n as single-phase materials or as mixtures may allow for lower bandgaps and higher carrier mobility in the inorganic layers while the organic layers provide additional tunability. For example, hydrophobic fluorocarbons could increase moisture stability, conjugated organic layers could facilitate charge transport, and organic photosensitizers could improve the absorption properties of the material. We are focused on manipulating this extraordinarily versatile platform through synthetic design.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental details</head><p>All manipulations were conducted in air unless otherwise stated. N,N-dimethylformamide (DMF) was dried and degassed using the JC Meyer solvent purification system. All reagents were purchased from commercial vendors and used as received. Abbreviations used: PEA = phenylethylammonium, MA = methylammonium, spiro-OMeTAD = 2,2′,7,7′-tetrakis-(N,N-di-p-methoxyphenylamine)9,9′spirobifluorene (PEA)I Unstabilized HI was purified using a 0.36-M tributyl phosphate solution in chloroform. After 3-5 extractions a clear, colorless solution was obtained. The HI solution was added dropwise to a cold (0 °C), stirred solution of phenylethylamine (5.0 mL, 40 mmol) in ethanol (5.0 mL) until a colorless precipitate formed. The solid was filtered through paper and washed repeatedly with diethyl ether. Cooling a hot (60 °C), saturated isopropanol solution of the solid to -10 °C afforded (PEA)I in ca. 90% yield.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(MA)I</head><p>Purified HI was added dropwise to a 2.0-M solution of methylamine (10 mL, 20 mmol) in tetrahydrofuran. The solvent was removed under reduced pressure and the colorless solid was washed repeatedly with diethyl ether and recrystallized in isopropanol as described above to afford (MA)I in 60% yield.</p><p>(PEA) 2 (MA) 2 [Pb 3 I 10 ] (1) films Solid (PEA)I (144 mg, 0.578 mmol), (MA)I (92.0 mg, 0.578 mmol), and PbI 2 (400 mg, 0.868 mmol) were dissolved in N,N-dimethylformamide (0.87 mL) and filtered through paper. This solution was deposited on the substrate (60 L) and spun at 3000 rpm for 45 seconds. This procedure was used for device fabrication, powder x-ray diffraction, and optical measurements.  <ref type="formula">2</ref>.30 mg, 0.0145 mmol), and PbI 2 (10.0 mg, 0.0217 mmol) were dissolved in acetone (10 mL) and nitromethane (5 mL). Solid NaI (6.50 mg, 0.0434 mmol) was added to this solution to enhance solubility. Slow solvent evaporation over 6 days afforded dark red, plate-shaped crystals suitable for x-ray structure determination. Anal. Calcd. for 1: C, 9.83; N, 2.55; H,  1.65. Found: C, 10.00; N, 2.40; H, 2.10. IR(neat): 3418(br), 3055(br), 2387(m), 1817(w). 1602(w), 1558(m), 1496(m), 1377(w), 1351(w), 1303(w), 1232(s), 1098(m), 1072(m), 1057(m), 1012(m), 962(w), 915(m), 877(m), 840(m), 745(s), 695(s), 569(m), 486(s), and 411(s) cm -1 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device fabrication</head><p>Substrate Preparation. Devices were fabricated on FTO (fluorine-doped tin oxide) coated glass slides ( <ref type="formula">15</ref>Ωsq -1 ). The FTO was removed from one edge of the substrate to avoid a shunt pathway upon contacting the finished device with the anode. Scotch tape was applied as a mask and the FTO in the unmasked area was etched with Zn powder and 2-M HCl. These etched substrates were sequentially cleaned with Extran detergent, acetone, isopropanol, and oxygen plasma. The TiO 2 hole-blocking layer was deposited by spray pyrolysis. Titanium diisopropoxide bis(acetylacetonate) (3.0 mL, 6.2 mmol) was diluted in ethanol (27 mL) and sprayed on the FTO substrates maintained at 500 °C. The substrates were cooled to room temperature, heated at 70 C for 0.5 h in a 0.04-M aqueous solution of TiCl 4 , and then washed in deionized water. Top contacts. A film of 1 was spincoated on the TiO 2 /FTO substrate as described above (ca. 425 nm thick). A solution containing 12 mol% pre-oxidized spiro-OMeTAD was made by combining spiro(TFSI) 2 (spiro-OMeTAD oxidized with silver bis(trifluoromethanesulfonyl)imide) 1 (12 mg, 0.007 mmol) and as-purchased spiro-OMeTAD (62 mg, 0.051 mmol) in chlorobenzene (1 mL) and heating at 75 C for 1 h. Upon cooling, a 1.9-M lithium bis(trifluoromethane)sulfonamide solution in acetonitrile (17.5 L) and 4-tert-butylpyridine (28.8 L, 0.197 mmol) were added and the solution was filtered through a 2-m PTFE syringe filter. This solution was deposited at 4000 rpm over the film of 1. A gold contact was then deposited by thermal evaporation at 10 -6 -10 -7 Torr and a deposition rate of 0.1 nm/s.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device characterization</head><p>Current-voltage (JV) curves were collected using a Keithley 2400 source meter under simulated AM 1.5G solar illumination from a xenon lamp that was calibrated by a reference silicon diode. Fast scans were performed by reducing the delay time between voltages to 10 -3 s. Steady-state measurements were collected by holding the device at sequential voltages for 70 s and allowing for the current density to reach a constant value. The external quantum efficiency (EQE) of the devices was measured as a function of wavelength using a Keithley 236 source meter. A Princeton Instruments SpectraPro 150 monochromator was used with a 100-W tungsten lamp from Newport to provide the excitation light. Data were collected every 5 nm with an integration time of 2 s. An internal quantum efficiency value was calculated from the EQE data and absorption data (collected using an integrating sphere and the same equipment used to collect the EQE spectrum).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Powder x-ray diffraction (PXRD)</head><p>Experiments on oriented films were conducted on a Panalytical X'Pert Pro diffractometer with a Bragg-Brentano geometry and PIXCEL 1D detector equipped with a nickel filter. Experimental conditions are given in Table <ref type="table" target="#tab_0">S1</ref>. Unoriented scans were collected on powders loaded into a 0.1-mm diameter glass capillary on a Bruker D8 Venture diffractometer using monochromated Mo K 1 (0.71073 Å) radiation and a PHOTON 100 area detector. Images were collected and integrated using the APEX2 software package.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Crystal structure determination</head><p>Crystals were coated with Paratone-N oil, attached to a Kapton loop, and transferred to a Bruker D8 Venture diffractometer equipped with a Photon 100 CMOS detector. Frames were collected using ω and ψ scans and the unit-cell parameters were refined against all data. Data were integrated and corrected for Lorentz and polarization effects using SAINT 8.27b, and were corrected for absorption effects using SADABS V2012. <ref type="bibr" target="#b39">2</ref> The space-group assignment was based upon systematic absences, E-statistics, agreement factors for equivalent reflections, and successful refinement of the structure. The structure was solved by the charge-flipping method implemented in OLEX2. <ref type="bibr" target="#b40">3</ref> It was refined against all data using SHELXTL and OLEX2 software. <ref type="bibr" target="#b40">3,</ref><ref type="bibr">4</ref> Hydrogen atoms were inserted at idealized positions and refined using a riding model with an isotropic thermal parameter 1.2 or 1.5 times that of the attached carbon or nitrogen atom, respectively. Thermal parameters for all non-hydrogen atoms were refined anisotropically. Due to similar electron density and equivalent geometry, definitive assignment of the nitrogen and carbon atoms in the methylammonium groups was not possible. Current assignments are based on improved statistics and thermal-ellipsoid shape. Three out of the four methylammonium ions do not show any evidence of positional disorder, although carbon/nitrogen disorder cannot be ruled out with the current data. The fourth methyl ammonium group is disordered in two different positions. This group was modeled using similarity restraints on 1,2-distances as well as rigid-bond restraints for anisotropic displacement parameters. The occupancies of the disordered groups were allowed to refine freely while constraining the sum of the occupancies to unity. Similar rigid-bond restraints were also applied to atoms not involved in the disorder to stabilize the refinement. Details regarding data quality and a summary of the residual values of the refinements are listed in Table <ref type="table" target="#tab_1">S2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Optical measurements</head><p>Transmission measurements were collected on a Shimadzu UV-2600 spectrometer equipped with an integrating sphere. Emission spectra were collected on films using a Horiba Jobin-Yvon Spex Fluorolog-3 fluorimeter equipped with a 450-W xenon lamp and a thermoelectrically-cooled R928P detector. Incident light was passed through a double-grating monochromator and data were collected using the FluorEssence 2.3.15 software.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Humidity studies</head><p>Perovskites films deposited on clean quartz slides (ca. 900 nm thick) were placed inside sealed glass jars containing a saturated solution of Mg(NO 3 ) 2 , exposing them to a relative-humidity level of 52%. <ref type="bibr" target="#b42">5</ref> The films were not in direct contact with the solution and were periodically analyzed with PXRD (Figure <ref type="figure" target="#fig_3">4</ref>).       <ref type="formula">1</ref>) as the absorber. The steady-state current density at each voltage was used to construct a JV curve (inset) and the data were fitted to the characteristic solar cell equation 6 (shown at the bottom of the figure) to find J sc , V oc , FF, and PCE. I is current, I SC is short-circuit current, I 0 is reverse-saturation current, V is applied voltage, R S is series resistance, n is the diode ideality factor, k is Boltzmann's constant, T is temperature, and R SH is shunt resistance.   </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. A) Crystal structures of the 3D perovskite (MA)[PbI 3 ] (2, from Ref. [12a]) and B) the 2D perovskite (PEA) 2 (MA) 2 [Pb 3 I 10 ] (1). The inorganic layers in 1 can be structurally derived from 2 by slicing along specific crystallographic planes (turquoise sheets in (A)). Inset: a PEA cation in the organic layers. Atom colors: Pb = turquoise; I = purple; N = blue; C = gray. Disordered atoms and hydrogens omitted for clarity.</figDesc><graphic coords="2,56.30,59.81,230.62,245.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Powder X-ray diffraction (PXRD) patterns of (PEA) 2 (MA) 2 -[Pb 3 I 10 ] (1) as an oriented film (top) and as powder scraped from a film and measured in a glass capillary (middle), and the calculated PXRD pattern from the single-crystal X-ray structure of 1 (bottom).</figDesc><graphic coords="2,322.24,59.81,203.27,164.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. A) SEM cross section and device configuration of planar devices utilizing (PEA) 2 (MA) 2 [Pb 3 I 10 ] (1) as the absorber layer. Scale bar = 500 nm. B) Current-voltage (JV) curves for the devices fabricated as given in (A).</figDesc><graphic coords="3,60.44,59.81,222.23,259.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. PXRD patterns of films of (PEA) 2 (MA) 2 [Pb 3 I 10 ] (1), (MA)[PbI 3 ] formed from PbI 2 (2 a), and (MA)[PbI 3 ] formed from PbCl 2 (2 b), which were exposed to 52 % relative humidity. Annealing of films of 2 a (15 minutes) and 2 b (80 minutes) was conducted at 100 8C prior to humidity exposure. Asterisks denote the major reflections from PbI 2 .</figDesc><graphic coords="3,308.64,341.69,230.38,170.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>Solid (PEA)I (3.60 mg, 0.0145 mmol), (MA)I (</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>a</head><label></label><figDesc>Obtained with monochromated Mo Kα (λ = 0.71073 Å) radiation b R 1 = ||F o | -| F c ||/|F o |, wR 2 = [w(F o 2 -F c 2 ) 2 /(F o 2 ) 2 ] 1/2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>Figure S5. Photoluminescence (PL) spectra of (PEA) 2 (CH 3 NH 3 ) 2 [Pb 3 I 10 ] (1, red) and (MA)[PbI 3 ] (2a, blue). Inset: weaker emissions at higher energies are more easily visible when viewing the logarithm of PL intensity.</figDesc><graphic coords="12,161.04,72.00,288.16,235.50" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>Figure S6. Solid-state vibrational spectrum of (PEA) 2 (CH 3 NH 3 ) 2 [Pb 3 I 10 ] (1) crystals.</figDesc><graphic coords="12,160.80,442.50,288.00,242.70" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure S8 .</head><label>S8</label><figDesc>Figure S8. Current-voltage (JV) curves of devices with (PEA) 2 (CH 3 NH 3 ) 2 [Pb 3 I 10 ] (1) showing hysteresis at fast scan speeds. When scanned from higher to lower voltages, these devices display artificially high PCE values up to 7.02%. When scanned from lower to higher voltages, the devices exhibit worse performance.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure S7 .Figure S9 .</head><label>S7S9</label><figDesc>Figure S7. Energy levels of a planar device utilizing (PEA) 2 (MA) 2 [Pb 3 I 10 ] (1) as the absorber layer. Energy levels of 1 were estimated by photoelectron spectroscopy in air (PESA) and absorption data.</figDesc><graphic coords="13,198.00,72.00,216.21,246.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure S10 .</head><label>S10</label><figDesc>Figure S10. External quantum efficiency (EQE, red) and transmission (blue) spectra of (PEA) 2 (CH 3 NH 3 ) 2 [Pb 3 I 10 ] (1) films. Integration of the EQE spectrum yields a current density of 7.47 mA/cm 2 .</figDesc><graphic coords="14,162.00,432.96,288.00,233.70" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure S12 .</head><label>S12</label><figDesc>Figure S12. Absorption spectra of films of (MA)[PbI 3 ] formed from PbI 2 (2a) upon exposure to 52% relative humidity. Increased absorption above 520 nm corresponds to the absorption onset of PbI 2 (black).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure S11 .</head><label>S11</label><figDesc>Figure S11. PXRD scans of films of (MA)[PbI 3 ] formed from PbI 2 (2a) and PbCl 2 (2b) after exposure to 52% relative humidity. The appearance of impurity phases (marked) matches the (00l) reflections of PbI 2 . 7</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table S1 .</head><label>S1</label><figDesc>Experimental details for powder x-ray diffraction experiments</figDesc><table><row><cell>Step size (° 2Theta)</cell><cell>0.01</cell></row><row><cell>Divergence slit type</cell><cell>Automatic</cell></row><row><cell>Anode material</cell><cell>Cu</cell></row><row><cell>K 1 (Å)</cell><cell>1.54060</cell></row><row><cell>K 2 (Å)</cell><cell>1.54443</cell></row><row><cell>K 2 / K 1 ratio</cell><cell>0.50000</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table S2 .</head><label>S2</label><figDesc>Crystallographic data for (PEA) 2 (MA) 2 [Pb 3 I 10 ] (1). a</figDesc><table><row><cell>Empirical formula</cell><cell>C 18 H 36 N 8 Pb 3 I 10</cell></row><row><cell>Formula weight, g mol -1</cell><cell>1268.80</cell></row><row><cell>Temperature, K</cell><cell>100(2)</cell></row><row><cell>Crystal system, space group</cell><cell>Triclinic, P1</cell></row><row><cell>a, Å</cell><cell>8.7284(5)</cell></row><row><cell>b, Å</cell><cell>8.7333(5)</cell></row><row><cell>c, Å</cell><cell>28.803(1)</cell></row><row><cell>, º</cell><cell>92.734(2)</cell></row><row><cell>, º</cell><cell>95.878(2)</cell></row><row><cell>, º</cell><cell>90.254(2)</cell></row><row><cell>Volume, Å 3</cell><cell>2181.5(2)</cell></row><row><cell>Z, Calculated density (g cm -3 )</cell><cell>1, 3.348</cell></row><row><cell>Absorption coefficient, mm -1</cell><cell>18.640</cell></row><row><cell>F(000)</cell><cell>1896</cell></row><row><cell>Crystal size, mm 3</cell><cell>0.05 × 0.05 × 0.01</cell></row><row><cell>Theta range, degree</cell><cell>2.1 to 28.3</cell></row><row><cell></cell><cell>11 ≤ h ≤ 11</cell></row><row><cell>Index ranges</cell><cell>11 ≤ k ≤ 11</cell></row><row><cell></cell><cell>37 ≤ l ≤ 37</cell></row><row><cell>Reflections collected/unique</cell><cell>68782 / 19959</cell></row><row><cell>Completeness to theta max, %</cell><cell>99.8</cell></row><row><cell>Max. and min. transmission</cell><cell>0.296 and 0.190</cell></row><row><cell>Data / restraints / parameters</cell><cell>19959 / 459 / 659</cell></row><row><cell>Goodness-of-fit on F 2</cell><cell>0.985</cell></row><row><cell>Final R indices [I&gt;2sigma(I)] b</cell><cell>R 1 = 0. 0271 wR 2 = 0. 0473</cell></row><row><cell>Final R indices (all data) b</cell><cell>R 1 = 0. 0362 wR 2 = 0. 0494,</cell></row><row><cell cols="2">Largest diff. peak and hole, eÅ -3 1.89 and 0.99</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2014" xml:id="foot_0"><p>Wiley-VCH Verlag GmbH &amp; Co. KGaA, Weinheim  Angew. Chem. Int. Ed. 2014, 53, 11232 -11235   </p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Angew. Chem.Int. Ed. 2014, 53, 11232 -11235  2014  Wiley-VCH Verlag GmbH &amp; Co. KGaA, Weinheim www.angewandte.org 15213773, 2014, 42, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/anie.201406466 by University Of California, Wiley Online Library on [07/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2014" xml:id="foot_2"><p>Wiley-VCH Verlag GmbH &amp; Co. KGaA, Weinheim  Angew. Chem. Int. Ed. 2014, 53, 11232 -11235   15213773, 2014, 42, Downloaded from  https://onlinelibrary.wiley.com/doi/10.1002/anie.201406466 by University Of California, Wiley Online Library on [07/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Teshima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shirai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja809598r</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="6050" to="6051" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J.-H</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-R</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-W</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-G</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c1nr10867k</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nanoscale</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="4088" to="4093" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Teuscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1228604</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="page" from="643" to="647" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Etgar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Chandiran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja307789s</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="17396" to="17399" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burschka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pellet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Humphry-Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature12340</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">499</biblScope>
+			<biblScope unit="page" from="316" to="319" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature12509</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">501</biblScope>
+			<biblScope unit="page" from="395" to="398" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="133" to="138" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kazim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ahmad</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ange.201308719</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="2854" to="2867" />
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+	<note>Angew. Chem.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Stoumpos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kanatzidis</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nphoton.2014.82</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="489" to="494" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Noel</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C4EE01076K</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="3061" to="3068" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Mitzi</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9780470166499.ch1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Inorg. Chem</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1" to="121" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Mitzi</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b007070j</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Soc. Dalton Trans</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Mitzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Feild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T A</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Guloy</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/369467a0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">369</biblScope>
+			<biblScope unit="page" from="467" to="469" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Mitzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Feild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Chess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Guloy</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.267.5203.1473</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">267</biblScope>
+			<biblScope unit="page" from="1473" to="1476" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Calabrese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Harlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Herron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Thorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja00006a076</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="2328" to="2330" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Muljarov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Tikhodeev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Gippius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ishihara</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevB.51.14370</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="14370" to="14378" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ishihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lumin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0022-2313(94)90145-7</idno>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+			<biblScope unit="page" from="269" to="274" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yasuhiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Toru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Masaru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Atsushi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yoshihiko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Express</title>
+		<imprint>
+			<date type="published" when="2014">2014, 7, 032302</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shockley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Queisser</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1736034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="510" to="519" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Vos</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0022-3727/13/5/018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. D</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="839" to="846" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Physica</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1386-9477(02)00364-8</idno>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="96" to="100" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">M</forename><surname>Beiley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mcgehee</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c2ee23073a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="9173" to="9179" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Stoumpos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Malliakas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kanatzidis</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ic401215x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inorg. Chem</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="9019" to="9038" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Baikie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Kadro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schreyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Mhaisalkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graetzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>White</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c3ta10518k</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="5628" to="5641" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ishihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Nurmikko</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevB.45.6961</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="6961" to="6964" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ishihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Nurmikko</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0038-1098(92)90210-Z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Solid State Commun</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="657" to="661" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-S</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja411509g</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="622" to="625" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Burlakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Docampo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Goriely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adfm.201302090</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="151" to="157" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jz500113x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1511" to="1515" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Ngo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chavhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kosta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Miguel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Grande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tena-Zaera</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/am405416a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="2836" to="2841" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Calixto-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T S</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Nair</surname></persName>
+		</author>
+		<idno type="DOI">10.1149/2.027304jss</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ECS J. Solid State Sci. Technol</title>
+		<imprint>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="69" to="Q73" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Heo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Mandal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1764" to="1769" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gauthron</surname></persName>
+		</author>
+		<idno type="DOI">10.1364/OE.18.005912</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="5912" to="5919" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Era</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Morimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tsutsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saito</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.112265</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="676" to="678" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chondroudis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Mitzi</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cm990561t</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="3028" to="3030" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Dohner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Hoke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">I</forename><surname>Karunadasa</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja411045r</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="1718" to="1721" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mathews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mhaisalkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Sum</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1243167</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page" from="344" to="347" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grancini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Menelaou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J P</forename><surname>Alcocer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leijtens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petrozza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1243982</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page" from="341" to="344" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Enhancing the hole-conductivity of spiro-OMeTAD without oxygen or lithium salts by using spiro(TFSI) 2 in perovskite and dye-sensitized solar cells</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Bailie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Unger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mcgehee</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>manuscript submitted</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Sadabs; Bruker Axs</forename><surname>Saint</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Inc</surname></persName>
+		</author>
+		<editor>Madison, WI</editor>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">V</forename><surname>Dolomanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Bourhis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Gildea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A K</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Puschmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. App. Cryst</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="339" to="341" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">SHELXL-97, Program for crystal structure refinement; Göttingen, 1997. (b) Sheldrick, G. M</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Sheldrick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Cryst. Sect. A</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="112" to="122" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E M</forename><surname>Brien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sci. Instrum</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="73" to="76" />
+			<date type="published" when="1948">1948</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Solar Cells -Operating Principles, Technology and System Application</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of NSW: Kensington, Australia</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Palosz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys.: Condens. Matter</title>
+		<imprint>
+			<date type="published" when="1990">1990, 2, 5285</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

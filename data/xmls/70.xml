@@ -1,0 +1,2249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Not All That Glitters Is Gold: Metal-Migration-Induced Degradation in Perovskite Solar Cells</title>
+				<funder ref="#_bey4WQw">
+					<orgName type="full">European Union</orgName>
+				</funder>
+				<funder ref="#_EcjVRNc #_bMHS5rX">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">King Abdulaziz City for Science and Technology</orgName>
+					<orgName type="abbreviated">KACST</orgName>
+				</funder>
+				<funder ref="#_DYxE5Cf">
+					<orgName type="full">Swiss Federal Office of Energy (SYNERGY)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">CCEM-CH</orgName>
+				</funder>
+				<funder ref="#_aUTmDfX">
+					<orgName type="full">University of Bern</orgName>
+				</funder>
+				<funder ref="#_p25Vghu">
+					<orgName type="full">SNSF</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-05-17">May 17, 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Konrad</forename><surname>Domanski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="laboratory">Laboratory for Photonics and Interfaces and ‡ Laboratory of Photomolecular Science</orgName>
+								<orgName type="institution">E ćole Polytechnique Fedeŕale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="laboratory">Laboratory for Photonics and Interfaces</orgName>
+								<orgName type="institution">École Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>-Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Juan-Pablo</forename><surname>Correa-Baena</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">S Supporting Information</orgName>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">S Supporting Information</orgName>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="laboratory">Laboratory of Photomolecular Science</orgName>
+								<orgName type="institution">École Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>-Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicolas</forename><surname>Mine</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Swiss Federal Laboratories for Materials Science and Technology</orgName>
+								<orgName type="laboratory">Laboratory for Nanoscale Materials Science</orgName>
+								<address>
+									<postCode>CH-8600</postCode>
+									<settlement>Dubendorf</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">Swiss Federal Laboratories for Materials Science and Technology</orgName>
+								<orgName type="laboratory">Laboratory for Nanoscale Materials Science</orgName>
+								<address>
+									<postCode>CH-8600</postCode>
+									<settlement>Dübendorf</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mohammad</forename><forename type="middle">Khaja</forename><surname>Nazeeruddin</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Group for Molecular Engineering of Functional Materials</orgName>
+								<orgName type="department" key="dep2">Institute of Chemical Science and Engineering</orgName>
+								<orgName type="department" key="dep3">E ćole Polytechnique Fedeŕale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1950</postCode>
+									<settlement>Sion</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department" key="dep1">Group for Molecular Engineering of Functional Materials</orgName>
+								<orgName type="department" key="dep2">Institute of Chemical Science and Engineering</orgName>
+								<orgName type="institution">École Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1950</postCode>
+									<settlement>Sion</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Antonio</forename><surname>Abate</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="laboratory">Laboratory for Photonics and Interfaces and ‡ Laboratory of Photomolecular Science</orgName>
+								<orgName type="institution">E ćole Polytechnique Fedeŕale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Adolphe Merkle Institute</orgName>
+								<orgName type="institution">University of Fribourg</orgName>
+								<address>
+									<postCode>CH-1700</postCode>
+									<settlement>Fribourg</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="laboratory">Laboratory for Photonics and Interfaces</orgName>
+								<orgName type="institution">École Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>-Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="institution" key="instit1">Adolphe Merkle Institute</orgName>
+								<orgName type="institution" key="instit2">University of Fribourg</orgName>
+								<address>
+									<postCode>CH-1700</postCode>
+									<settlement>Fribourg</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Saliba</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="laboratory">Laboratory for Photonics and Interfaces and ‡ Laboratory of Photomolecular Science</orgName>
+								<orgName type="institution">E ćole Polytechnique Fedeŕale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="laboratory">Laboratory for Photonics and Interfaces</orgName>
+								<orgName type="institution">École Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>-Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wolfgang</forename><surname>Tress</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="laboratory">Laboratory for Photonics and Interfaces and ‡ Laboratory of Photomolecular Science</orgName>
+								<orgName type="institution">E ćole Polytechnique Fedeŕale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="laboratory">Laboratory for Photonics and Interfaces</orgName>
+								<orgName type="institution">École Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>-Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anders</forename><surname>Hagfeldt</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="laboratory">Laboratory of Photomolecular Science</orgName>
+								<orgName type="institution">École Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>-Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Graẗzel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="laboratory">Laboratory for Photonics and Interfaces and ‡ Laboratory of Photomolecular Science</orgName>
+								<orgName type="institution">E ćole Polytechnique Fedeŕale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Grätzel</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="laboratory">Laboratory for Photonics and Interfaces</orgName>
+								<orgName type="institution">École Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>-Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Not All That Glitters Is Gold: Metal-Migration-Induced Degradation in Perovskite Solar Cells</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-05-17">May 17, 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6092A6626AE7DB418DB5A02707975EC7</idno>
+					<idno type="DOI">10.1021/acsnano.6b02613</idno>
+					<note type="submission">Received: April 18, 2016 Accepted: May 17, 2016</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T17:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>perovskite solar cells</term>
+					<term>stability</term>
+					<term>degradation</term>
+					<term>secondary ion mass spectrometry</term>
+					<term>gold</term>
+					<term>metal electrodes</term>
+					<term>buffer layers Perovskite Solar Cells</term>
+					<term>Stability</term>
+					<term>Degradation</term>
+					<term>Secondary Ion Mass Spectrometry</term>
+					<term>Gold</term>
+					<term>Metal Electrodes</term>
+					<term>Buffer layers</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Perovskite solar cells (PSCs) have now achieved efficiencies in excess of 22%, but very little is known about their long-term stability under thermal stress. So far, stability reports have hinted at the importance of substituting the organic components, but little attention has been given to the metal contact. We investigated the stability of state-of-the-art PSCs with efficiencies exceeding 20%. Remarkably, we found that exposing PSCs to a temperature of 70 °C is enough to induce gold migration through the hole-transporting layer (HTL), spiro-MeOTAD, and into the perovskite material, which in turn severely affects the device performance metrics under working conditions. Importantly, we found that the main cause of irreversible degradation is not due to decomposition of the organic and hybrid perovskite layers. By introducing a Cr metal interlayer between the HTL and gold electrode, high-temperature-induced irreversible long-term losses are avoided. This key finding is essential in the quest for achieving high efficiency, long-term stable PSCs which, in order to be commercially viable, need to withstand hard thermal stress tests.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>W hile the power conversion efficiencies (PCEs) of organic-inorganic perovskite solar cells (PSCs) have rapidly achieved remarkable values of 22.1%, <ref type="bibr">1</ref> this has not been matched by equal developments in long-term stability. <ref type="bibr">2,</ref><ref type="bibr" target="#b2">3</ref> At this stage, operational stability is considered one of the main obstacles for the commercialization of PSCs. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> The perovskites used in photovoltaics commonly employ an ABX 3 formula, where A is a monovalent cation (methylamonium, MA; formamidinium, FA; Cs, etc.), B is a divalent metal, such as Sn or Pb, and X is I, Br, or Cl. In previous studies, perovskite films have been subjected to different environmental conditions such as temperature, humidity, and illumination. <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> It has been found that the stability of this material class varies greatly depending on the mixing of A and X ions. <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref> Perovskites are thermally stable at temperatures not exceeding those typically achieved by solar cells in operation (up to 85 °C), <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> with humidity identified as the main degradation trigger. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b12">13</ref> Similarly, stability of complete PSC devices has been investigated with relation to the same environmental factors. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref> Interestingly, in addition to the perovskite-related degradation, the stability of the devices was found to greatly depend on device architecture. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref> This was explained partly by interfacial degradation <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b24">25</ref> and also by degradation of the charge-transporting layers. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b21">22</ref> Recently, there have been efforts to substitute the widely used organic spiro-MeOTAD holetransporting layer (HTL) with inorganic materials to improve the stability of PSCs. <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b25">26</ref> However, it is still unclear what the mechanism increasing the stability is. Furthermore, while most of the published reports focus on dark "shelf stability", <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b26">27</ref> only a handful have investigated devices under load and illumination <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b27">28</ref> and even fewer attempted to match the realistic operation conditions of solar cells by subjecting them simultaneously to temperatures in excess of 70 °C, <ref type="bibr" target="#b28">29</ref> which are routinely achieved on a hot, sunny day. <ref type="bibr" target="#b29">30</ref> Here, we investigate the stability of state-of-the-art perovskite devices with PCEs above 20%. We show that operating devices, employing a spiro-MeOTAD HTL and a Au or Ag back contact (the most widely used architectures, currently yielding the highest PCEs), at temperatures exceeding 70 °C causes irreversible changes to the devices, which results in a dramatic performance loss. By means of elemental analysis on aged devices, we observe that considerable amounts of Au from the electrode diffuse across the HTL into the perovskite layer. We pinpoint the diffused Au to cause the irreversible loss of opencircuit voltage (V oc ), fill factor (FF), and short-circuit current density (J sc ) in the aged devices. We further show that introduction of a Cr interlayer alleviates the problem of fast device aging at elevated temperatures. This is an encouraging  finding as it shows that neither perovskite nor spiro-MeOTAD is the limiting factor for the high-temperature stability of PSCs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS AND DISCUSSION</head><p>The PSCs were fabricated on fluorine-doped tin oxide (FTO) glass and composed of a typical stack of compact TiO 2 / mesoporous TiO 2 /perovskite/spiro-MeOTAD/Au as recently reported by us. <ref type="bibr" target="#b30">31</ref> The active layer of the device consists of a perovskite-filled mesoporous TiO 2 scaffold and a solid perovskite layer sitting on top of it. The chemical composition of the perovskite precursor is a Cs-containing FA 0.83 MA 0.17 Pb-(I 0.83 Br 0.17 ) 3 formulation, referred to as "triple cation" perovskite in this work. <ref type="bibr" target="#b11">12</ref> Figure <ref type="figure" target="#fig_0">1a</ref> shows the cross-sectional scanning electron microscopy (SEM) image of the device with a thin perovskite-infiltrated mesoporous TiO 2 layer (an electron selective layer, ESL) of ca. 200 nm and a 500 nm perovskite capping layer composed of large crystals. A 200 nm layer of spiro-MeOTAD (as HTL) sits atop the perovskite layer, and finally, a gold top electrode is deposited to contact the device. With this architecture, we achieved very high PCEs of up to 20.6% (stabilized at 20.0%; Figure <ref type="figure" target="#fig_0">1b</ref>).</p><p>The aging experiments were conducted by keeping the devices at controlled temperature (20 or 75 °C), in nitrogen atmosphere and under 1 sun equivalent white light-emitting diode (LED) illumination at maximum power point (MPP) for over 15 h (see Scheme S1). Figure <ref type="figure" target="#fig_1">2a</ref> shows the currentvoltage (J-V) curves of the device aged at 20 °C: before, at the end of the aging experiments, and after 7 h of recovery (in dark, under nitrogen flow and 20 °C; cf. Figure <ref type="figure" target="#fig_6">S1a</ref> for the evolution of J-V parameters), while Figure <ref type="figure" target="#fig_1">2c</ref> shows the evolution of PCE, V MPP , and J MPP over the course of the experiment. The 20 °C device has shown very high stability overall, with V oc being the most stable parameter individually. The limited decrease in PCE was mostly due to a small and temporary loss of J sc , and the device regained its performance following 7 h of recovery (Table <ref type="table" target="#tab_0">1</ref>).</p><p>On the other hand, the degradation of the device aged at 75 °C was much more severe (Figure <ref type="figure" target="#fig_1">2b</ref>,d and Figure <ref type="figure" target="#fig_6">S1b</ref>), and no recovery was seen. All J-V metrics saw a substantial reduction, with J sc /J MPP suffering the most and the earliest into the experiment. Additionally, a large, irreversible loss of V oc was observed. This pattern of small, reversible PCE loss for devices aged around room temperature and a severe, permanent PCE loss including a substantial reduction in V oc after aging at 75 °C is reproducible, and we confirmed this by repeating the experiment several times (Figure <ref type="figure" target="#fig_7">S2</ref>). A similar pattern was found for samples aged under the identical conditions but by keeping the devices at V oc , indicating that the degradation was not primarily due to the load on the device (Figure <ref type="figure" target="#fig_8">S3</ref>). Moreover, a similar observation was made for devices aged at 75 °C in the dark (Figure <ref type="figure" target="#fig_4">4c</ref>), confirming that light was only partially responsible for the degradation. Hence, we concluded that the heating is responsible for most of the degradation.</p><p>In order to investigate the effect of aging on perovskite, we performed UV-visible absorption spectroscopy (Figure <ref type="figure" target="#fig_4">S4</ref>) and X-ray diffraction (XRD) measurements (Figure <ref type="figure" target="#fig_5">S5</ref>) before and after the aging experiments (Au electrode was removed). No major difference was found in the material's structural and optical properties with the temperature treatment. The absorption of aged devices was independent of the aging temperature. Similarly, XRD analysis showed no correlation between temperature of aging and perovskite degradation. However, the peak indicating the presence of PbI 2 (2θ = ∼12.8°; the devices are fabricated with a small PbI 2 excess) has slightly increased in both devices aged at 20 and 75 °C.</p><p>Since the structural and optical changes of the perovskite are not the main cause of the dramatic device performance loss, the elemental composition of the aged devices was investigated. Time of flight secondary ion mass spectroscopy (ToF-SIMS) elemental depth profiling is a perfectly suited technique for this, and it has been proven to work well to characterize perovskitebased devices. <ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref> By rastering an energetic beam of ions across a sample and analyzing the debris of those collisions, spatially resolved elemental maps can be obtained. Figure <ref type="figure" target="#fig_3">3a</ref> shows a depth profile of an as-fabricated control device, which has never been exposed to high-intensity light, electric field, or temperature higher than room temperature. The Au -ion trace is indicative of the top electrode; the CN -ion can be ejected from either the spiro-MeOTAD HTL or the perovskite layer. I - comes from the perovskite layer, TiO 2 -is from either the mesoporous scaffold or the ESL; and SnO 2 -is from the FTO electrode. The relative intensity of CN -and I -from the HTL to the FTO layer is beyond the scope of this publication and will be the subject of future work. Further, these ions are sensitive to diffusion and segregation at the surface because of the primary ion bombardment/implantation, which can explain their long diffusion tails in the FTO and the substrate. <ref type="bibr" target="#b34">35</ref> We clearly see a sharp interface between Au and HTL; however, roughness induced by the primary ion erosion explains the sharpness decrease with the increased fluence. Moreover, passing the TiO 2 mesoporous layer also affects the interface evaluation.</p><p>When comparing the control device with the aged ones (see Figure <ref type="figure">S6</ref> for full SIMS profiles and the Methods section for an explanation of how ToF-SIMS profiles can be compared), one striking observation for the device aged at 70 °C is the occurrence of a Au -signal (in yellow) in the mesoporous TiO 2 perovskite, which peaks close to the TiO 2 /SnO 2 interface. This unexpected occurrence of the high Au peak is the first ever reported direct evidence of metal migrating from the electrode to inside the perovskite layer. This phenomenon, however, has been observed previously in inorganic semiconductors for several different metals such as Au, Ag, Ni, Cu, and Fe. <ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref> Figure <ref type="figure" target="#fig_3">3b</ref> presents the 3D distribution of the ions shown in Figure <ref type="figure" target="#fig_3">3a</ref> across a 100 μm 2 region of the samples (see Movie S1 for an animated 3D reconstruction). One can clearly see that the respective ions are distributed uniformly in the xy plane of the device. At 70 °C, a considerable amount of Au has diffused inside the perovskite layer and accumulated close to the TiO 2 / SnO 2 interface.</p><p>Inductively coupled plasma mass spectrometry (ICP-MS) was used to quantify the amount of Au diffused in the    instrument (∼1 ng for the amount of solution used). This translated to a concentration of 1.45 nM cm -2 of Au (or 8.9 × 10 14 Au atoms cm -2 ; compared to ∼10 17 Pb atoms cm -2 ) in the perovskite layer of the aged device.</p><p>Based on the evidence (ToF-SIMS, ICP-MS), it was concluded that Au from the top electrode can diffuse across the organic spiro-MeOTAD HTL and into the perovskite before it is stopped at the TiO 2 /perovskite interface. Since some Au was already found within the HTL of the control device (Figure <ref type="figure" target="#fig_3">3</ref>), it shows that spiro-MeOTAD is a very poor barrier for the migration of Au. Therefore, even heat produced during back contact evaporation is sufficient to cause Au diffusion into the HTL. Subsequently, the Au -signal in HTL increases in the device aged at 30 °C. However, this does not seem to have a detrimental effect on the performance of the device. When the aging temperature is increased to 70 °C, Au appears to easily pass through the HTL and accumulate within the perovskite layer. It appears that only when inside the perovskite, Au critically degrades the performance of PSCs.</p><p>Au diffusing inside the perovskite can have several detrimental effects. First of all, it can produce shunts across the device, reducing the FF. <ref type="bibr" target="#b23">24</ref> Moreover, Au atoms can create deep trap states within the semiconductor, which enhances nonradiative recombination and consequently degrades V oc as well as J sc . Indeed, we observe a severe, irreversible reduction in V oc , J sc , and FF in the devices aged at high temperature. The phenomenon of Au creating mid-band-gap states for silicon devices has been reported before. <ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37</ref> In order to pinpoint the observed degradation to Au diffusion into perovskite and to exclude possible influence of interfacial or HTL degradation, we performed dark heating experiments on two identically fabricated devices, one of which had the Au electrode temporarily removed for the duration of the heating phase (see Methods). We found that the device heated without the Au electrode did not degrade significantly and later recovered almost all of its initial performance (Figure <ref type="figure" target="#fig_4">4a</ref>). On the other hand, the device aged with Au on top has seen a severe degradation (Figure <ref type="figure" target="#fig_4">4c</ref>) similar to that shown above. While replacing the Au electrode of the degraded devices with a fresh one helped to partially recover J sc , the loss of V oc and FF was permanent. The reason for the recovered J sc is likely due to the partially reversible nature of degradation in PSCs when they are left in the dark. We note that the process of replacing the electrode takes around 1.5 h. However, it may also indicate degradation of the Au/spiro-MeOTAD interface.</p><p>Next, Au was compared to the other most widely used electrode for PSCs, namely, Ag. The average initial efficiency of Ag-contacted devices was 11.8% compared to 18.3% for Aucontacted devices from the same batch. By heating the devices to 75 °C in the dark and in a nitrogen atmosphere, we found that devices with a Ag electrode degrade dramatically, as seen for the Au analogues (Figure <ref type="figure">S7</ref>). While the loss of V oc was relatively lower, the increased degradation may come from the fact that iodine can migrate through the HTL, reacting with Ag and altering the electronic properties of the Ag/HTL interface. <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b26">27</ref> A similar phenomenon has been also shown for Al-contacted devices. <ref type="bibr" target="#b26">27</ref> This further confirms that metal electrodes (Au and Ag) are intrinsically incompatible with organic spiro-MeOTAD HTL-based perovskite devices such as solar cells, <ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref> photodetectors, <ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref><ref type="bibr" target="#b45">[46]</ref> lasers, <ref type="bibr" target="#b46">47</ref> and LEDs. <ref type="bibr" target="#b47">48</ref> The problem of metal-induced degradation cannot be simply resolved by sealing the devices, and metal diffusion must be stopped by an alternative HTL or an interfacial layer preventing this phenomenon.</p><p>Several strategies were explored to resolve the issue of metalmigration-induced degradation of PSCs. First, the HTL was modified by mixing spiro-MeOTAD with Al 2 O 3 nanoparticles. This approach has been proposed by Guarnera et al. to stop metal diffusion across the HTL. <ref type="bibr" target="#b23">24</ref> While the stability of asprepared devices aged under MPP conditions and 75 °C was improved significantly, the extent of degradation proved unacceptable and a linear degradation component was observed (Figure <ref type="figure" target="#fig_5">5b</ref> and Figure <ref type="figure">S8</ref>).</p><p>Thin interlayers of Cr (10 nm) were deposited as diffusion barriers between the spiro-MeOTAD HTL and Au. The initial performance of these devices was 13.0%, which was lower than that without a Cr layer and likely due to high series resistance or work function mismatch of the Au/Cr/spiro-MeOTAD stack. By subjecting the Cr/Au devices to realistic solar cell operating conditions (75 °C, 1 sun illumination, and MPP tracking), the stability was found to improve critically (Figure <ref type="figure" target="#fig_5">5c</ref>), and any degradation was reversible (due to an increase of V oc , the device outperformed itself following 9 h of recovery, Figure <ref type="figure">S9a</ref>). After an early period of exponential decay, the PCE stabilized at 83% of the initial value. Importantly, no degradation of V oc in the aged devices occurred (Figure <ref type="figure">S9</ref>), indicating that Au diffusion across the HTL into perovskite has been hindered by the Cr interlayer. We have confirmed this by performing ICP-MS spectrometry on the aged Cr/Au devices and not finding any trace of Au or Cr inside the perovskite layer. Furthermore, we imaged the fresh and degraded Au electrodes of the three devices with different HTL/electrode configurations (Figure <ref type="figure" target="#fig_5">5b</ref>). While the Au electrode of the spiro-MeOTAD + Au device became evidently porous following high-temperature exposure, both devices with spiro-MeOTAD/ Al 2 O 3 + Au and spiro-MeOTAD + Cr/Au architectures had no visible evidence of electrode degradation or decomposition. This finding suggests that it is plausible that the spiro-MeOTAD layer cracks when heat-stressed, which in turn creates pores and a point of contact between Au/perovskite. This effect could be hindered by a Cr interlayer, or cracking of spiro-MeOTAD could be considerably reduced by mixing it with Al 2 O 3 .</p><p>The high-temperature stability of Cr/Au devices is unprecedented, and such behavior has never been observed in devices using Au or Ag as contacts. In addition, deposition of a thin Cr interlayer is industrially feasible as Cr can be evaporated from Cr-plated W wires by sublimation. Finally, this work brings to light the misconception that the perovskite materials and HTLs are the main contributors to the long-term degradation of device performance. Several reports of successful employment of inorganic HTLs, inorganic interfacial layers, or transparent conductive oxide electrodes have shown considerable improvement of PSC stability. <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b49">50</ref> Although not directly acknowledged, the improvement in stability may have come from hindering metal diffusion from the contact across the HTL into the perovskite rather than more efficient protection of perovskite from oxygen or humidity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>We investigated the stability of state-of-the-art, "triple cation" perovskite devices with PCEs above 20%. We show that operating devices employing a spiro-MeOTAD HTL and a Au or Ag back contact at temperatures exceeding 70 °C causes irreversible changes to the devices, which results in a dramatic performance loss. By means of elemental analysis on aged devices, we observe that considerable amounts of the Au from the electrode diffuse across the HTL into the perovskite layer. We pinpoint the diffused Au to cause the irreversible loss of V oc , FF, and J sc in the aged devices. We further show that insertion of a thin Cr interlayer between the HTL and Au alleviates the problem of severe device degradation at elevated temperatures. This shows that neither perovskite nor spiro-MeOTAD is the primary limiting factor for high-temperature stability of PSCs in the current configuration, as it has previously been suggested. Our study creates a roadmap for high-temperature stability measurements of PSCs by taking into consideration metal migration. Therefore, it is important for the field to investigate other interlayer materials that can hinder this phenomenon.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>Device Fabrication. Perovskite Precursor Solution and Film Preparation. Nippon sheet glass (10 Ω cm -2 ) was cleaned by sonication in a 2% Hellmanex water solution for 30 min. After being rinsed with deionized water and ethanol, the substrates were further cleaned with UV ozone treatment for 15 min. Subsequently, a 30 nm TiO 2 compact layer was deposited on FTO via spray pyrolysis at 450 °C from a precursor solution of titanium diisopropoxide bis-(acetylacetonate) in anhydrous ethanol. After being sprayed, the substrates were left at 450 °C for 45 min and left to cool to room temperature. Then, a mesoporous TiO 2 layer was deposited by spincoating for 20 s at 4000 rpm with a ramp of 2000 rpm s -1 , using a 30 nm particle paste (Dyesol 30 NR-D) diluted in ethanol to achieve a 150-200 nm thick layer. After the spin-coating, the substrates were dried at 100 °C for 10 min and then sintered again at 450 °C for 30 min under dry air flow.</p><p>Li-doping of mesoporous TiO 2 , as described elsewhere, <ref type="bibr" target="#b30">31</ref> is accomplished by spin-coating a 0.1 M solution of Li-TFSI in acetonitrile at 3000 rpm for 10 s followed by another sintering step at 450 °C for 30 min. After being cooled to 150 °C, the substrates were immediately transferred in a nitrogen atmosphere glovebox to deposit the perovskite films.</p><p>Perovskite Precursor Solution and Film Preparation. The organic cations were purchased from Dyesol, the lead compounds from TCI, and CsI from abcr GmbH. The triple cation perovskite precursor solutions were prepared from a precursor solution containing FAI (1 M), PbI 2 (1.1 M), MABr (0.2 M), and PbBr 2 (0.2 M) in anhydrous DMF/DMSO 4:1 (v/v). <ref type="bibr" target="#b50">51,</ref><ref type="bibr" target="#b51">52</ref> Then CsI, which was predissolved in DMSO, was added to this perovskite precursor to achieve the 5 mol % triple cation composition. We note that this composition contains a lead excess as reported elsewhere. <ref type="bibr" target="#b11">12</ref> The perovskite solution was spin-coated in a two-step program at 1000 and 6000 rpm for 10 and 20 s, respectively. During the second step, 100 μL of chlorobenzene was poured on the spinning substrate 5 s prior to the end of the program. Films with Cs-containing perovskite turned dark immediately after spin-coating. The substrates were then annealed (at 100 °C) for 1 h in a nitrogen-filled glovebox.</p><p>Hole-Transporting Layer and Top Electrode. After the perovskite was annealed, the substrates were cooled for few minutes and a spiro-MeOTAD (Merck) solution (70 mM in chlorobenzene) was spincoated at 4000 rpm for 20 s. Spiro-MeOTAD was doped with bis(trifluoromethylsulfonyl)imide lithium salt (Li-TFSI, Sigma-Aldrich), tris(2-(1H-pyrazol-1-yl)-4-tert-butylpyridine)cobalt(III) tris-(bis(trifluoromethylsulfonyl)imide) (FK209, Dynamo), and 4-tertbutylpyridine (TBP, Sigma-Aldrich). The molar ratio of additive spiro-MeOTAD was 0.5, 0.03, and 3.3 for Li-TFSI, FK209, and TBP, respectively.</p><p>Finally, 70-80 nm of the Au top electrode was thermally evaporated under high vacuum. The active area of the device, as defined by the overlap of Au and FTO electrodes, was 0.26 cm -2 . The Cr interlayer between spiro-MeOTAD and Au was thermally evaporated. The vacuum was not broken between evaporation of Cr and Au.</p><p>J-V and Stability Measurements. The initial efficiency of the record devices was measured under AM 1.5G illumination provided by 450 W xenon lamp (Oriel) fitted with a Schott K113 Tempax filter (Prazisions Glas &amp; Optik GmbH). The light intensity was calibrated with a Si photodiode equipped with an IR cutoff filter (KG3, Schott). All the other J-V curves were measured with a Biologic SP 300 potentiostat under a 1 sun equivalent white LED lamp. The light intensity of the LED lamp was adjusted so that the stabilized J sc of the devices matched their stabilized J sc measured under aforementioned calibrated xenon lamp setup. The devices were masked to 0.16 cm 2 , cooled to 20 °C, and flushed with nitrogen with an in-house developed sample holder. The stability measurements were performed by tracking the maximum power point of the devices illuminated with a white 1 sun equivalent LED lamp with a Biologic SP 300 potentiostat. The MPP was updated every 60 s by a standard perturb and observe method. The temperature of the devices was precisely controlled with a Peltier element in direct contact with the films, and the temperature was measured via a surface thermometer inserted between the Peltier element and the film. Before the beginning of each experiment, J-V curves of the devices were measured (at 10 mV s -1 ). Additionally, J-V curves were taken every 15 min (at 100 mV s -1 ; only backward scan) during the aging in order to track the evolution of J-V metrics. Finally, several hours after the end of the experiment, the J-V characteristics of the devices were remeasured (the devices being stored in the dark, at 20 °C, and under nitrogen flow between the measurements).</p><p>The experiment shown in Figure <ref type="figure" target="#fig_4">4</ref> with Au electrode removal was performed in the following way. Two devices (pixels) were fabricated on one substrate. J-V characteristics of both pixels were measured, and subsequently, the Au electrode was removed from one pixel. The devices were left in the dark under a nitrogen flow and at 75 °C overnight. Subsequently, the pixel aged with Au was remeasured, and then it had the electrode removed. Finally, the Au electrode was redeposited on both pixels (the process took approximately 1.5 h), and their J-V characteristics were remeasured immediately and then measured again after 7 h or recovery in the dark, under nitrogen flow and 20 °C.</p><p>ToF-SIMS Spectrometry. A dual-beam ToF-SIMS V (IONTOF) was used with Cs + primary ions (1 keV, 65 to 72 nA, 250 × 250 μm 2 ) for the erosion and a Bi + pulsed primary ion beam for the analysis (30 keV, 1.2 pA, 100 × 100 μm 2 ). The analysis area was centered inside the cesium raster area. The noninterlaced mode was used, with 2.5 s sputtering after each bismuth analysis cycle (128 × 128 pixels). The gold electrodes were connected to the sample holder with carbon tape for a better charge compensation using the electron flood gun. The analyzer reflectron voltage was adjusted 25 V over the cutoff voltage on the secondary ion image.</p><p>The depth profiles (Figures <ref type="figure" target="#fig_3">3a</ref> and<ref type="figure">S7</ref>) were normalized to the SnO 2 -signal (from the FTO substrate). The SnO 2 -interface of the control devices was used as a reference for the fluence scale on each batch of samples. Indeed, the deposited layer thicknesses are similar, although small variations of the cesium sputtering current and of the interface positions are expected in the same batch of measurements. It is important to note that the relative fluence scale of the subsequent layers does not reflect their actual thickness. The apparent thickness of each layer depends on the erosion rate of the cesium primary ion beam in different materials.</p><p>Although ToF-SIMS is a sensitive analytical technique, the relative secondary ion intensities cannot be related to their relative concentration/amount because it depends on their ionization probability. For a given departing secondary ion, the ionization probability depends on factors such as the surrounding chemical element or the probability of neutralization when it escapes the surface. <ref type="bibr" target="#b48">49</ref> Hence, a meaningful comparison can only be made for the same element within the same layers for different devices.</p><p>ToF-SIMS analysis was performed on devices based on FA 0.83 MA 0.17 Pb(I 0.83 Br 0.17 ) 3 . However, the formulation of the later devices used for aging experiments contained a small addition of Cs. We found identical degradation patterns (Figure <ref type="figure" target="#fig_6">S10</ref>) for both types of devices, and hence, we concluded that the addition of a small amount of Cs to the perovskite blend does not affect the phenomena of metal-induced degradation of PSCs.</p><p>ICP Spectrometry. The Au electrodes of complete devices were removed from the samples with a piece of scotch tape. This step was repeated three times using a fresh piece of tape each time. Subsequently, the samples were cut into three pieces (the areas of the electrodes were cut off the central piece), and only the central region which contained the active area was taken for further processing. Next, the samples were immersed in a bath of chlorobenzene for 5 min in order to dissolve the spiro-MeOTAD layer with any remains of Au. Then, each sample was rinsed with chlorobenzene individually, dried, and, finally, placed in a vial containing 10 mL of 4:1 HCl (37%)/HNO 3 (67%) aqua regia. The vials were subsequently sonicated for 1 min, and the samples were left overnight to dissolve. The ICP analysis was performed with Shhimadzu ICPE-9000 on the aqua regia solution diluted in a 1:1 ratio with water. The detection limit for Au was ∼1 ng in 20 mL of the solution. The active area of the device, as defined by the overlap of Au and FTO electrodes in the central part of the device, was 0.26 cm 2 .</p><p>SEM, XRD, and UV-Visible Absorption Spectrometry. A Zeiss Merlin HR-SEM was used to characterize the morphology of asfabricated device cross sections. XRD and absorption measurements were performed on complete devices, just prior to evaporation of the Au contact. Following Au contact evaporation and subsequent aging, the Au electrode was removed from the devices with a piece of scotch tape and XRD and absorption characterization were repeated. Hence, the aging, absorption, and XRD data shown here were obtained physically from the same devices. XRD analysis was performed using a Bruker D8 Advance X-ray diffractometer using Cu Kα radiation (λ = 0.154178 nm) at a scanning rate of 2°min -1 in the 2θ range from 11 to 40°and separately with a rate of 0.5°min -1 in the range from 12.5 to 15°. UV-visible absorption measurements were performed on a Varian Cary 5.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ASSOCIATED CONTENT * S Supporting Information</head><p>The Supporting Information is available free of charge on the ACS Publications website at DOI: 10.1021/acsnano.6b02613.</p><p>Schematics of the aging program, sample preparation procedure for ICP MS, additional aging data, UV-vis and XRD spectra of fresh and aged devices, complete SIMS profiles of the aged and fresh devices (PDF) Movie S1 (MPG)         </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Structure of the PSCs studied in this work. (a) SEM image of the cross section of full devices containing the triple cation perovskite. (b) J-V curve of a high efficiency device used in this study. The J-V curve is recorded at 10 mV s -1 . The inset shows stabilized power output by maximum power point (MPP) tracking for 55 s. The MPP tracking begins around V oc and is updated every 150 ms.</figDesc><graphic coords="2,121.10,69.17,382.79,168.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Performance of devices composed of the triple cation perovskite operated at maximum power point at different temperatures. (a,b) J-V characteristics of the devices aged at 20 and 75 °C, respectively: before, at the end of the 15 h aging experiment, and after 7 h of recovery in the dark at 20 °C and under nitrogen flow. J-V curves are recorded at 20 °C and with a 10 mV s -1 scan rate. (c,d) Evolution of PCE, V MPP , and J MPP during aging at maximum power point. The values are normalized to the initial ones. See Scheme S1 for the explanation of the experimental procedure.</figDesc><graphic coords="2,117.47,289.19,389.99,322.53" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>a</head><label></label><figDesc>The data were extracted from the backward scan of the devices shown in Figure2. J-V curves were all recorded at 20 °C and 10 mV s -1 . perovskite in one control device and one device aged at 70 °C. This was done by removing the Au electrode and dissolving the active layers of the devices (for more information, see Scheme S2). The measurement found a large amount of Au in the sample aged at 70 °C (72.8 ng), while the level of Au found in the control sample was below the detection limit of the</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. ToF-SIMS depth profiles of the aged PSC devices. (a) Profile showing the concentration of selected species across the control device. The profile of Au -is compared to that of the devices aged at 30 and 70 °C. (b) Reconstructed elemental 3D maps for the ions traced in the depth profile. The xy dimensions of the analyzed area are 10 × 10 μm.</figDesc><graphic coords="4,108.34,69.17,408.19,171.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Pinpointing the degradation to Au diffusion. (a,c) J-V curves of two identically prepared Au-contacted devices (two pixels fabricated on the same substrate) heated in the dark at 75 °C in N 2 atmosphere for 16 h. (b,d) Step-by-step treatment of the respective devices. The device in (a) had the electrode removed before the heating phase. For the device in (c), the original Au electrode remained in place during the aging and was removed directly afterward. Both devices had the electrode redeposited subsequently. Devices were exposed to light only during J-V measurements. The recovery of all devices was in the dark at 20 °C and nitrogen flow. J-V curves were recorded at 20 °C with a 10 mV s -1 scan rate.</figDesc><graphic coords="4,155.51,291.18,313.91,356.83" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Solving the problem of metal-migration-induced degradation. (a) Schematics of three devices with different HTL/electrode configurations. (b) Top view SEM images of fresh/degraded Au electrodes of the devices. (c) Results of maximum power point tracking aging of the corresponding devices. The aging was done under 1 sun illumination at 75 °C and N 2 flow. The values are normalized to the initial ones.</figDesc><graphic coords="5,146.61,69.17,331.65,170.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure S1</head><label>S1</label><figDesc>Figure S1 JV metrics evolution of devices aged at a) 20 o C and b) 75 o C. Note that the initial PCE of the device at 75 o C is considerably lower than its performance at 20 o C.</figDesc><graphic coords="13,70.80,56.60,453.60,207.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure S2</head><label>S2</label><figDesc>Figure S2 The repeat of the ageing experiment shown in Figure 2. a and b J-V characteristics of the devices aged at 30 o C and 75 o C respectively: before, at the end of the 16 h ageing experiment and after 25 h of recovery in the dark at 20 o C and under nitrogen flow. c and d the evolution of PCE, Voc, Jsc and FF over the course of the ageing experiment for the respective devices. The values are normalized to the initial ones.</figDesc><graphic coords="14,70.80,79.40,453.60,396.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure S3 a</head><label>S3</label><figDesc>Figure S3 a and b J-V characteristics of the devices aged at 30 o C and 75 o C respectively: initial, after 6 h of ageing and after 17 h of recovery in the dark. The devices were exposed to 1-Sun equivalent LED illumination while being left under nitrogen flow and open-circuit conditions. The J-V curves were measured at 20 o C with 10 mV s -1 scan speed.</figDesc><graphic coords="15,70.80,56.60,453.60,210.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure</head><label></label><figDesc>Figure S4 UV-vis absorption spectra of devices aged at a 20 o C and b 75 o C. c comparison of absorption spectra of the two devices.</figDesc><graphic coords="16,70.80,56.60,453.60,154.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure S5 2 Figure S6</head><label>S52S6</label><figDesc>Figure S5 XRD spectra of devices aged at a, b 20 o C and c, d 75 o C. b and d slower scans performed in the region where main PbI2 and perovskite peaks are observed.An increase in the peak indicating the presence of PbI2 was observed. However, since this effect is seen in both temperature experiments, it can be excluded that this small amount of PbI2 is detrimental to device performance, given that the 20 ˚C sample did not degrade. Moreover, there exist multiple reports that a small amount of PbI2 is actually beneficial for device performance.1, 2    </figDesc><graphic coords="17,70.80,56.60,453.60,600.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure</head><label></label><figDesc>Figure S7 J-V curves of 8 identically prepared devices made within the same batch with a, c, e, g Ag or b, d, f, hAu electrodes heated in dark at 75 o C and N2 atmosphere for 17 h. Devices were exposed to light only during J-V measurements. The J-V curves were measured at 20 o C with 10 mV s -1 scan speed.</figDesc><graphic coords="19,80.80,56.60,433.60,672.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure</head><label></label><figDesc>Figure S8 J-V characteristics of the device with Al2O3/Spiro-MeOTAD HTL and Au electrode aged at 75 o C: before, at the end of the 59 h ageing experiment and after 10 h of recovery in the dark at 20 o C and under nitrogen flow. d the evolution of PCE, Voc, Jsc and FF over the course of the ageing experiment for the Cr/Au device. The values are normalized to the initial ones. The recovery was in dark at 20 o C and nitrogen flow. J-V curves in a were recorded at 20 o C with 10 mV s -1 scan speed.</figDesc><graphic coords="20,70.80,77.80,453.60,207.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure</head><label></label><figDesc>Figure S9 J-V characteristics of the device with Cr/Au electrode aged at 75 o C: before, at the end of the 12 h ageing experiment and after 9 h of recovery in the dark at 20 o C and under nitrogen flow. d the evolution of PCE, Voc, Jsc and FF over the course of the ageing experiment for the Cr/Au device. The values are normalized to the initial ones. The recovery was in dark at 20 o C and nitrogen flow. J-V curves in a were recorded at 20 o C with 10 mV s -1 scan speed.</figDesc><graphic coords="21,70.80,56.60,453.60,209.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure</head><label></label><figDesc>Figure S10 J-V characteristics of the devices aged at 70-75 o C: a FA0.83MA0.17Pb(I0.83Br0.17)3-based device and b device based on FA0.83MA0.17Pb(I0.83Br0.17)3 with a small addition of CsI as outlined in the Experimental section at the beginning and at the end of an ageing test (MPP tracking) at elevated temperature and nitrogen atmosphere. J-V curves in were recorded at 20 o C with 10 mV s -1 scan speed.</figDesc><graphic coords="22,70.80,56.60,453.60,207.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="11,70.80,56.60,453.60,186.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="12,70.80,56.60,453.60,216.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="18,70.80,56.60,453.60,346.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>J-V Parameters of Aged PSCs a PCE (%) V oc (mV) J sc (mA cm -2 ) FF</figDesc><table><row><cell>initial</cell><cell>17.7</cell><cell>1105</cell><cell>23.3</cell><cell>0.69</cell></row><row><cell>after aging at 20 °C</cell><cell>16.5</cell><cell>1097</cell><cell>22.8</cell><cell>0.66</cell></row><row><cell>after 7 h recovery</cell><cell>19.7</cell><cell>1138</cell><cell>23.3</cell><cell>0.74</cell></row><row><cell>initial</cell><cell>19.4</cell><cell>1142</cell><cell>23.2</cell><cell>0.73</cell></row><row><cell>after aging at 75 °C</cell><cell>4.9</cell><cell>922</cell><cell>9.5</cell><cell>0.57</cell></row><row><cell>after 7 h recovery</cell><cell>5.3</cell><cell>991</cell><cell>9.6</cell><cell>0.55</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>DOI: 10.1021/acsnano.6b02613 ACS Nano 2016, 10, 6306-6314</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p><rs type="person">Dr. Shaik M. Zakeeruddin</rs> is gratefully acknowledged for his help in handling and administration of funding. We thank <rs type="person">S. Coudret</rs> for performing ICP MS analysis. <rs type="person">Dr. L. Bernard</rs> is gratefully acknowledged for the first contact and discussions. We thank <rs type="person">T. Matsui</rs> for providing devices for optimization studies. K.D. thanks the <rs type="institution">SNF</rs> for funding within the framework of <rs type="projectName">Umbrella</rs> project (Grant Agreement Nos. <rs type="grantNumber">407040-153952</rs> and <rs type="grantNumber">407040-153990</rs>). N.M. would like to thank the <rs type="programName">BNF program</rs> of the <rs type="funder">University of Bern</rs> and <rs type="person">Prof. Dr. Hans J. Hug</rs> for his Empa affiliation. HR-SEM images were taken at the <rs type="institution">Centre for Electron Microscopy (CIME)</rs> at <rs type="institution">EPFL</rs>. A.A. has received funding from the <rs type="funder">European Union</rs>'s <rs type="programName">Seventh Framework Programme</rs> for research, technological development, and demonstration under Grant Agreement No. <rs type="grantNumber">291771</rs>. M.S. acknowledges support from the <rs type="grantName">cofunded Marie Skłodowska Curie fellowship</rs>, <rs type="grantNumber">H2020</rs> Grant Agreement No. <rs type="grantNumber">665667</rs>. M.G. thanks the <rs type="institution">SNSF-NanoTera (SYNERGY)</rs> and <rs type="funder">Swiss Federal Office of Energy (SYNERGY)</rs>, <rs type="funder">CCEM-CH</rs>, in the ninth call proposal 906: CONNECT PV, the <rs type="funder">SNSF</rs> <rs type="grantNumber">NRP70</rs> "<rs type="programName">Energy Turnaround</rs>", and the <rs type="funder">King Abdulaziz City for Science and Technology (KACST)</rs> for financial support.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_EcjVRNc">
+					<idno type="grant-number">407040-153952</idno>
+					<orgName type="project" subtype="full">Umbrella</orgName>
+				</org>
+				<org type="funding" xml:id="_aUTmDfX">
+					<idno type="grant-number">407040-153990</idno>
+					<orgName type="program" subtype="full">BNF program</orgName>
+				</org>
+				<org type="funding" xml:id="_bey4WQw">
+					<idno type="grant-number">291771</idno>
+					<orgName type="grant-name">cofunded Marie Skłodowska Curie fellowship</orgName>
+					<orgName type="program" subtype="full">Seventh Framework Programme</orgName>
+				</org>
+				<org type="funding" xml:id="_bMHS5rX">
+					<idno type="grant-number">H2020</idno>
+				</org>
+				<org type="funding" xml:id="_DYxE5Cf">
+					<idno type="grant-number">665667</idno>
+				</org>
+				<org type="funding" xml:id="_p25Vghu">
+					<idno type="grant-number">NRP70</idno>
+					<orgName type="program" subtype="full">Energy Turnaround</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR INFORMATION</head><p>Corresponding Author *E-mail: juan.correa@epfl.ch.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Notes</head><p>The authors declare no competing financial interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information</head><p>Not All That Glitters Is Gold: Metal Migration-Induced Degradation In Perovskite solar cells Scheme S1 Schematics of the program used to age the devices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scheme S2 Sample preparation for ICP MS analysis.</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Nrel</surname></persName>
+		</author>
+		<ptr target="http://www.nrel.gov/ncpv/images/efficiency_chart.jpg" />
+		<imprint>
+			<date type="published" when="2016-03-12">Mar 12, 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Trend of Perovskite Solar Cells: Dig Deeper to Build Higher</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mora-Sero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="2315" to="2317" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Perovskite Photovoltaics: Signs of Stability</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Leo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Nanotechnol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="574" to="575" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Recent Advances in Improving the Stability of Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Tiep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Fan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<date type="published" when="2016">2016, 6, 1501420</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Organometal Halide Perovskite Solar Cells: Degradation and Stability</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Berhe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-J</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L.-Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Dubale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Hwang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="323" to="356" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Temperature-and Component-Dependent Degradation of Perovskite Photovoltaic Materials under Concentrated Sunlight</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Misra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Aharon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mogilyansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Visoly-Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Etgar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Katz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="326" to="330" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The Role of Chlorine in the Formation Process of &quot;CH3NH3PbI3-xClx&quot; Perovskite</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="7102" to="7108" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Impedance Spectroscopic Indication for Solid State Electrochemical Reaction in (CH3NH3)PbI3 Films</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zohar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kedem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Levine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zohar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vilan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ehre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hodes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cahen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="191" to="197" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Chemical Management for Colorful, Efficient, and Stable Inorganic-Organic Hybrid Nanostructured Solar Cells</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Heo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Mandal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1764" to="1769" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Cesium Lead Halide Perovskites with Improved Stability for Tandem Solar Cells</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Beal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Slotcavage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leijtens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Bowring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Belisle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Burkhard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Hoke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mcgehee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="746" to="751" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Bandgap-Tunable Cesium Lead Halide Perovskites with High Thermal Stability for Efficient Solar Cells</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Sutton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Miranda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Parrott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Kamino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Horantner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Haghighirad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<date type="published" when="2016">2016, 6, 1502458</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Cesium-Containing Triple Cation Perovskite Solar Cells: Improved Stability, Reproducibility and High Efficiency</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Domanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Correa-Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Mohammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graẗzel</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C5EE03874J</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Study on the Stability of CH 3 NH 3 PbI 3 Films and the Effect of Post-Modification by Aluminum Oxide in All-Solid-State Hybrid Solar Cells</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qiu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="705" to="710" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Photo-Induced Degradation of Lead Halide Perovskite Solar Cells Caused by the Hole Transport Layer/metal Electrode Interface</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Mbengue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="1991">2016. 1991-1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Stability of Metal Halide Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leijtens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Noel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Habisreutinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petrozza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">1500963</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Review of Recent Progress in Chemical Stability of Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="8970" to="8980" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Improved Performance and Stability of Perovskite Solar Cells by Crystal Crosslinking with Alkylphosphonic Acid Omega-Ammonium Chlorides</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Dar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tschumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graẗzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="703" to="711" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Giordano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Correa-Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Dahmen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Silolothiophene-Linked Triphenylamines as Stable Hole Transporting Materials for High Efficiency Perovskite Solar Cells</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2946" to="2953" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Enhanced UV-Light Stability of Planar Heterojunction Perovskite Solar Cells with Caesium Bromide Interface Modification</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Reenen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Sutton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Haghighirad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="490" to="498" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Improved Air Stability of Perovskite Solar Cells via Solution-Processed Metal Oxide Transport Layers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-B</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-F</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>De Marco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Nanotechnol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="75" to="81" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Boosting the Efficiency and the Stability of Low Cost Perovskite Solar Cells by Using CuPc Nanorods as Hole Transport Material and Carbon as Counter Electrode</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Energy</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="108" to="116" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Pinhole-Free and Surface-Nanostructured NiOx Film by Room-Temperature Solution Process for High-Performance Flexible Perovskite Solar Cells with Good Stability and Reproducibility</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K Y</forename><surname>Jen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C H</forename><surname>Choy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1503" to="1511" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Silver Iodide Formation in Methyl Ammonium Lead Iodide Perovskite Solar Cells with Silver Top Electrodes</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Ono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Raga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater. Interfaces</title>
+		<imprint>
+			<date type="published" when="2015">2015, 2, 1500195</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Improving the Long-Term Stability of Perovskite Solar Cells with a Porous Al2O3 Buffer-Layer</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guarnera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petrozza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="432" to="437" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Interfacial Degradation of Planar Lead Halide Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guerrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aranda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Garcia-Belmonte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bisquert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="218" to="224" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Efficient and Stable Large-Area Perovskite Solar Cells with Inorganic Charge Extraction Layers</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ashraful</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graẗzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">350</biblScope>
+			<biblScope unit="page" from="944" to="948" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Achieving Long-Term Stable Perovskite Solar Cells via Ion Neutralization</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Back</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1258" to="1263" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Rong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hole</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fully Printable Mesoscopic Perovskite Solar Cell with High Stability</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page" from="295" to="298" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>Science</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Outdoor Performance and Stability under Elevated Temperatures and Long-Term Light Soaking of Triple-Layer Mesoporous Perovskite Photovoltaics</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tschumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Babkair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Alzubaydi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Ansari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Habib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graẗzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Technol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="551" to="555" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Estimation of Photovoltaic Module Yearly Temperature and Performance Based on Nominal Operation Cell Temperature Calculations</title>
+		<author>
+			<persName><forename type="first">Alonso</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Balenzategui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable Energy</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<date type="published" when="1997">2004. 1997-2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Enhanced Electronic Properties in Mesoporous TiO2 via Lithium Doping for High-Efficiency Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Giordano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Correa Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graetzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<date type="published" when="2016">2016, 7, 10379</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Large Formamidinium Lead Trihalide Perovskite Solar Cells Using Chemical Vapor Deposition with High Reproducibility and Tunable Chlorine Concentrations</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Leyden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Raga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="16097" to="16103" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Interface and Composition Analysis on Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Matteocci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Busby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-J</forename><surname>Pireaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Divitini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cacovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ducati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Di Carlo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="26176" to="26183" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Impact of Microstructure on Local Carrier Lifetime in Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>De Quilettes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Vorpahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nagaoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Ziffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Ginger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="page" from="683" to="686" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Secondary Ion Mass Spectrometry: A Practical Handbook for Depth Profiling and Bulk Impurity Analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Mcgee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Wilson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+			<publisher>Wiley</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">An Introduction to Gold Gettering in Silicon</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Baginski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gold Bull</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="47" to="53" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Complex Nature of Gold-Related Deep Levels in Silicon</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Grimmeiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Meijer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jaros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B: Condens. Matter Mater. Phys</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="3917" to="3934" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Mechanism and Kinetics of the Diffusion of Gold in Silicon</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Gosele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Seeger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="361" to="368" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Diffusion and Thermodynamic Properties of Silver in Silicon</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rollert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stolwijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mehrer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Solubility</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. D: Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">1148</biblScope>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Dissociative Diffusion of Nickel in Silicon and Self-Diffusion of Silicon</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Saito</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Jpn. J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">573</biblScope>
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Sequential Deposition as a Route to High-Performance Perovskite-Sensitized Solar Cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burschka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pellet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Humphry-Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graẗzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">499</biblScope>
+			<biblScope unit="page" from="316" to="319" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Dar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Renevier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schenk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Giordano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><forename type="middle">C</forename><surname>Baena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Efficient Luminescent Solar Cells Based on Tailored Mixed-Cation Perovskites. Sci. Adv</title>
+		<imprint>
+			<date type="published" when="2016">2016, 2, e1501170</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Compositional Engineering of Perovskite Materials for High-Performance Solar Cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">517</biblScope>
+			<biblScope unit="page" from="476" to="480" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Working Principles of Perovskite Photodetectors: Analyzing the Interplay Between Photoconductivity and Voltage-Driven Energy-Level Alignment</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Domanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graẗzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="6936" to="6947" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A Switchable High Sensitivity Photodetecting and Photovoltaic Device with Perovskite Absorber</title>
+		<author>
+			<persName><forename type="first">H.-W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sakai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Jena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sanehira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ikegami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-C</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1773" to="1779" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">High Performance Organic-Inorganic Perovskite-Optocoupler Based on Low-Voltage and Fast Response Perovskite Compound Photodetector</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">7902</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">High Photoluminescence Efficiency and Optically Pumped Lasing in Solution-Processed Mixed Halide Perovskite Semiconductors</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Deschler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pathak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Klintberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-D</forename><surname>Jarausch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Higler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huẗtner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leijtens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Atature</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Friend</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1421" to="1426" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Bright Visible-Infrared Light Emitting Diodes Based on Hybrid Halide Perovskite with Spiro-OMeTAD as a Hole-Injecting Layer</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Jaramillo-Quintero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rincon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mora-Sero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1883" to="1890" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Unravelling the Secrets of Cs Controlled Secondary Ion Formation: Evidence of the Dominance of Site Specific Surface Chemistry, Alloying and Ionic Bonding</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wittmaack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surf. Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="108" to="230" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Thermal and Environmental Stability of Semi-Transparent Perovskite Solar Cells for Tandems Enabled by a Solution-Processed Nanoparticle Buffer Layer and Sputtered ITO Electrode</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Bush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Bailie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Bowring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leijtens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Moghadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mcgehee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="page">1505279</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Highly Efficient Planar Perovskite Solar Cells through Band Alignment Engineering</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Correa Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Steier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Neutzner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Giordano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Jacobsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Srimath Kandada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petrozza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gratzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2928" to="2934" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Unbroken Perovskite: Interplay of Morphology, Electro-optical Properties, and Ionic Movement</title>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Correa-Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Anaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Domanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Jacobsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Calvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graẗzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Míguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<idno>1600624. Bibliography</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Dar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Renevier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schenk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Giordano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><forename type="middle">C</forename><surname>Baena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Efficient Luminescent Solar Cells Based on Tailored Mixed-Cation Perovskites. Sci. Adv</title>
+		<imprint>
+			<date type="published" when="2016">2016, 2, e1501170</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Beneficial Effects of PbI2 Incorporated in Organo-Lead Halide Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Yun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ho-Baillie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seidel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2016">2016. 201502104</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

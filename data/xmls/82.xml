@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Defect passivation in hybrid perovskite solar cells using quaternary ammonium halide anions and cations</title>
+				<funder ref="#_Ahhs4WW">
+					<orgName type="full">Nebraska Materials Research Science and Engineering Center</orgName>
+					<orgName type="abbreviated">MRSEC</orgName>
+				</funder>
+				<funder ref="#_gnTdvFx">
+					<orgName type="full">National Science Foundation</orgName>
+					<orgName type="abbreviated">NSF</orgName>
+				</funder>
+				<funder ref="#_zTSUYrT">
+					<orgName type="full">Air Force Office of Scientific Research</orgName>
+					<orgName type="abbreviated">AFOSR</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<address>
+									<addrLine>7 SUPPLEMENTARY INFORMATION 0.0 0.2 0.4 0.6 0.8 1.0 1.2 8 SUPPLEMENTARY INFORMATION 0.0 0.2 0.4 0.6 0.8 1.0 1.2 5 9 SUPPLEMENTARY INFORMATION -0.2 0.0 0.2 0.4 0.6 0.8 1.0 -25 -20 -15 -10 -5 0 5</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Mechanical and Materials Engineering</orgName>
+								<orgName type="institution">University of Nebraska-Lincoln</orgName>
+								<address>
+									<postCode>68588</postCode>
+									<region>Nebraska</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Nebraska-Lincoln</orgName>
+								<address>
+									<postCode>68588</postCode>
+									<region>Nebraska</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Applied Physical Sciences</orgName>
+								<orgName type="institution">University of North Carolina</orgName>
+								<address>
+									<postCode>27599</postCode>
+									<settlement>Chapel Hill</settlement>
+									<region>North Carolina</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Defect passivation in hybrid perovskite solar cells using quaternary ammonium halide anions and cations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">81BE145A6339DD90733EE70E279C0CB6</idno>
+					<idno type="DOI">10.1038/nenergy.2017.102</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T18:02+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Supplementary Figure <ref type="figure">2</ref>: SEM images for MAPbI 3 film after quaternary ammonium halides (QAHs) deposition. No obvious damage to the morphology of the film was observed.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The ionic defects at the surfaces and grain boundaries of organic-inorganic halide perovskite films are detrimental to both the e ciency and stability of perovskite solar cells. Here, we show that quaternary ammonium halides can e ectively passivate ionic defects in several di erent types of hybrid perovskite with their negative-and positive-charged components. The e cient defect passivation reduces the charge trap density and elongates the carrier recombination lifetime, which is supported by density-function-theory calculation. The defect passivation reduces the open-circuit-voltage deficit of the p-i-n-structured device to 0.39 V, and boosts the e ciency to a certified value of 20.59 ± 0.45%. Moreover, the defect healing also significantly enhances the stability of films in ambient conditions. Our findings provide an avenue for defect passivation to further improve both the e ciency and stability of solar cells.</p><p>O rganic-inorganic halide perovskite (OIHP) semiconductors embrace a unique set of intriguing optoelectronics attributes, such as strong light absorption <ref type="bibr" target="#b0">1</ref> , high charge carrier mobility <ref type="bibr" target="#b1">2</ref> , and long intrinsic carrier recombination lifetime <ref type="bibr" target="#b2">3</ref> , achieving impressive power conversion efficiencies (PCEs) with a relatively simple and low-cost route. The history of PCE enhancement for thin-film and polycrystalline photovoltaic cells has witnessed the importance of reducing charge-recombination loss both inside the photoactive layer and at the electrode contacts <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> . Passivation of defects at the film surface becomes critical when the charge recombination inside the OIHP layer is negligible <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b8">9</ref> . The insensitivity to point defects and easy crystallization of OHIP materials give rise to negligible charge recombination in perovskite polycrystalline thin films. However, the much shorter measured photoluminescence recombination lifetime of the polycrystalline films than the intrinsic carrier recombination lifetime from a singlecrystal interior indicates that there is still a high density of defects at the surface and grain boundaries of polycrystalline grains that are not benign electronically <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref> . These defects most likely originate from the low thermal stability, or low formation energy of OHIP materials containing organic components that easily evaporate from the surface during the thermal annealing process <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> .</p><p>These surface and grain boundary (GB) defects may not dramatically reduce device photocurrent output, because some of the trapped charges may still escape over a long time and be collected by the electrodes, as evidenced by the relatively large short circuit current (J SC ) of many non-optimized devices, while they would significantly impact the open circuit voltage (V OC ) of the devices due to their energy disorder and reduced carrier concentration, which pull down the quasi-Fermi level splitting <ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref> . In addition, these defects can cause other device instability issues, including ion migration and associated current hysteresis, and device degradation in ambient environment <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22</ref> . Our recent study of moisture-dependent perovskite grain stability clearly showed that the degradation of perovskite grains was initialized by the defective surface and GBs, while some single crystals with low surface defect density and no GBs could be stable in air for several years <ref type="bibr" target="#b22">23</ref> . The ionic defects (for example, iodine or methylammonium vacancies) in the polycrystalline film have a small migration activation energy (&lt;0.1 eV) under 1 sun illumination <ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref> . The defects could also initialize the permeation of moisture or oxygen into the perovskite films to accelerate the degradation of perovskite devices. Thus, it is highly desirable to electronically passivate the defects at surface and GB to boost the PCE, and to heal these defects to prolong the durability of OIHP solar cells.</p><p>The ionic nature of OIHP materials imposes different requirements for defect passivation than covalent-bonding semiconductors such as silicon (Si), because the defects in OIHP materials are charged, either positively or negatively. The passivation of Si is mainly achieved by the elimination of the Si dangling bonds by formation of Si-O, Si-N or Si-H covalent bonds <ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref> , which is however not applicable to strong ionic OIHPs. So far, different passivation molecules have been reported to perform as electron donors or electron acceptors that can interact with the charged defects of OIHPs, and thereafter annihilate the relevant defectinduced charge traps <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref> . Lewis acids, such as phenyl-C61-butyric acid methyl ester (PCBM), as a good electron transporting material could accept an electron from the negative-charged Pb-I antisite defects PbI 3</p><p>-or under-coordinated halide ions and thus passivate the halide-induced deep traps <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b30">31</ref> . Lewis base molecules, such as thiophene or pyridine, usually perform as the electron donors, which could bind to the positively charged under-coordinated Pb 2+ ions <ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref> . However, most of these passivation molecules could only passivate one type of defect, either positive or negative charged defects. The passivation of charge defects in OIHP should take the charge neutrality into consideration.</p><p>In this study, we report that quaternary ammonium halides (QAHs) with a structure of NR + 4 X -, where R is an alkyl or aryl group and X is halide, can efficiently passivate charged defects in OIHP with quaternary ammonium and halide ions. The QAH passivation remarkably reduces the trap density and prolongs the carrier lifetime, which universally enhances the V OC of the OIHP planar heterojunction devices with different bandgaps and consequently increases the PCE by 10%-35% compared with the devices with PCBM passivation. This strategy can also enhance the stability of OIHP devices, with almost no efficiency loss after 800 h of storage in ambient conditions. These results highlight the importance of allround passivation of charged ionic defects for improvement of the efficiency and durability of OIHP devices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Photovoltaic device architecture and performance</head><p>The planar heterojunction perovskite solar cells in this study were structured as poly[bis(4-phenyl)(2,4,6-trimethylphenyl)amine] (PTAA)/CH 3 NH 3 PbI 3 /functional layer/fullerene (C 60 )/2,9-dimethyl-4,7-diphenyl-1,10-phenanthroline (BCP)/copper (Cu), as shown in Fig. <ref type="figure" target="#fig_1">1a</ref>. Here the active layers of CH 3 NH 3 PbI 3 were formed by the low-temperature two-step interdiffusion of lead iodide (PbI 2 ) and a methyl ammonium iodide (MAI) stacking layer, and then followed by a solvent annealing process <ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref> . In our previous studies, the fullerene derivative PCBM is used as the perovskite passivation material, which is used for the control device here. With an initial objective to enhance their moisture stability, we replaced PCBM by amphiphilic molecules with different functional groups, including L-α-phosphatidylcholine, Tween 20 and polyethyleneblock-poly(ethylene glycol) (PE-PEG) whose chemical structures are shown in Fig. <ref type="figure" target="#fig_1">1c,</ref><ref type="figure">d</ref>. Our parallel studies showed that converting the surface of the electron transport layer to hydrophobic could enhance the water resistance of the perovskite films and device stability in moisture <ref type="bibr" target="#b38">39</ref> . The application of amphiphilic materials was designed to attach them to the perovskite layer with the hydrophilic side, and expose the hydrophobic side to air <ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b40">41</ref> . Figure <ref type="figure">2a</ref>   <ref type="figure">J-V</ref>) characteristics of two-step-processed MAPbI 3 devices with di erent passivation layers: PCBM (blue), Tween 20 (orange), L-α-phosphatidylcholine (red) and polyethylene-block-poly(ethylene glycol) (PE-PEG) (green). b, J-V curves for the two-step-processed MAPbI 3 devices passivated by PCBM (blue), L-α-phosphatidylcholine (green), choline chloride (red) and choline iodide (violet). c, The statistics of V OC distribution for devices with PCBM (blue), L-α-phosphatidylcholine (green), choline iodide (violet) and choline chloride (red). (Statistics from 16 samples on the same type of substrates for each passivation molecule.) The solid lines represent the Gauss distribution fitting for the statistic of V OC . d, J-V characteristics of one-step-processed FA 0.83 MA 0.17 Pb(I 0.83 Br 0.17 ) 3 devices with choline chloride layers (red). e, J-V curves of the champion device prepared by choline chloride passivation measured in both reverse (red) and forward (blue) scanning directions.</p><p>with deposition of different passivation layers. The control device with the PCBM layer showed typical performance with a short circuit current density (J SC ) of 22.5 ± 0.39 mA cm -2 , a V OC of 1.04 ± 0.02 V, a fill factor (FF) of 73.0 ± 2.05%, and a PCE of 17.1 ± 1.1%. Compared with the device with PCBM layers, the performances of the MAPbI 3 devices with Tween and PE-PEG buffer layers were even worse with maximum PCE between 13.6% and 15.5%, even after we optimized the concentration of Tween and PE-PEG. This indicates that Tween and PE-PEG cannot passivate the surface defects on MAPbI 3 . In striking contrast, the devices with the L-α-phosphatidylcholine layer showed a significantly improved performance with a J SC of 22.7 mA cm -2 , a V OC of 1.08 V, a FF of 80.0%, and a PCE of 19.6% for the best device. The average PCE of the devices with L-α-phosphatidylcholine reached 18.7 ± 0.9%.</p><p>The performance enhancement and hysteresis-free behaviour (Fig. <ref type="figure">2a</ref> and Supplementary Fig. <ref type="figure" target="#fig_1">1</ref>) were tentatively attributed to the passivation effect of L-α-phosphatidylcholine molecules.</p><p>The distinct performance led us to think about what is unique about the L-α-phosphatidylcholine molecule in passivating MAPbI 3 . In comparison with Tween and PE-PEG, L-α-phosphatidylcholine has the same long alkyl chain, while the difference is that L-α-phosphatidylcholine has a choline phosphate zwitterion structure that is a type of neutral molecule with both positive and negative electrical charges. Thus, we speculate that its zwitterion structure with the choline group passivates MAPbI 3 .</p><p>To verify this, we used two other choline zwitterion molecules, also known as quaternary ammonium halides, including choline iodide and choline chloride, which have no long alkyl chain, as the interfacial layer. As shown in Fig. <ref type="figure">2b</ref>, the V OC of the perovskite devices was significantly increased by choline iodide and choline chloride as passivation layers without sacrificing the J SC and FF of the devices, which confirmed our speculation. The devices with choline iodide and choline chloride showed higher V OC of 1.14 and 1.15 V. Consequently, the highest PCEs of the CH 3 NH 3 PbI 3 Figure <ref type="figure">2c</ref> shows the V OC distribution of the devices with different passivation layers. The average V OC values are 1.04, 1.09, 1.13 and 1.13 V for the devices with PCBM, L-α-phosphatidylcholine, choline iodide and choline chloride, respectively. The larger average V OC of the devices passivated by QAHs than by L-α-phosphatidylcholine indicates that there is an additional passivation effect from the halide ions, because both of them have the quaternary ammonium component. Supplementary Fig. <ref type="figure">2</ref> shows scanning electron micrographs for MAPbI 3 film after QAH deposition, which reveals no obvious damage to the morphology of the film. There are both positively charged cationic and negatively charged anionic defects in OIHPs, such as I -and MA + vacancies, respectively, while quaternary ammonium ions are expected to passivate only MA + vacancies by occupying cuboctahedral sites to compensate the MA + loss on the film surfaces, as illustrated in Fig. <ref type="figure" target="#fig_1">1b</ref>. Loss of halide ions by the evaporation of MAI during the thermal annealing process needs to be compensated by additional halide ions. Therefore, a complete defect passivation is critical in achieving the high-efficiency device reported here. The notable better passivation effect of choline chloride than choline iodide can be explained by the stronger Pb-Cl bonding than Pb-I bonding, and a small amount of Cl addition has been broadly reported <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b41">42</ref> to enhance the charge-recombination lifetime in MAPbI 3 . On the basis of the mechanism of passivation presented here, any zwitterion molecular structure should have a good passivation effect, because they have both negative and positive electric charges. A zwitterion molecule may passivate both cationic and anion defects if the spacing of these defects happens to be the same as the size of the zwitterion molecule. However, the defects at the surface of perovskite films may have very complicated distributions and compositions. The positive and negative charge defects may distribute away from each other, and their molar ratio may not be 1:1, because the perovskite film surface does not necessarily reach thermal dynamic stable states right after annealing processing, and the surface defects may pair up with bulk defects. In this context, the QAH molecule with separated positive and negative ions has the advantage of selfadaptive selection of defects with opposite charges for passivation, which is not limited by the complicated surface defect composition or distribution.</p><p>To test the passivation effect of QAH for perovskite films fabricated by different methods and with different compositions, various perovskite absorbers were fabricated by various approaches including a one-step anti-solvent method <ref type="bibr" target="#b42">43</ref> and a two-step interdiffusion method <ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref> , and with different compositions of OIHPs whose bandgaps vary from 1.51 to 1.72 eV. The device fabrication method, composition and performance are summarized in Table <ref type="table" target="#tab_0">1</ref>. For the FA 0.83 MA 0.17 Pb(I 0.83 Br 0.17 ) 3 perovskite films made by one-step anti-solvent methods, choline chloride passivation can also greatly improve the photovoltaic performance, as shown in Fig. <ref type="figure">2d</ref>. The best PCE of 21.0 % was achieved by choline-chloridepassivated FA 0.85 MA 0.15 Pb(I 0.85 Br 0.15 ) 3 with a J SC of 23.7 mA cm -2 , V OC of 1.13-1.14 V, and FF of 78.0 % under forward and reverse scanning with negligible hysteresis, as shown in Fig. <ref type="figure">2e</ref>. The photovoltaic parameters of the FA 0.85 MA 0.15 Pb(I 0.85 Br 0.15 ) 3 devices (20 cells) with different passivation treatments are summarized in Supplementary Fig. <ref type="figure" target="#fig_4">4</ref>, indicating significant V OC enhancement and excellent reproducibility for the devices with choline chloride passivation. The average PCE of the devices with choline chloride is 20.1 ± 0.42%. One of the unencapsulated devices was sent to an accredited independent photovoltaic test laboratory (Newport Corporation PV Lab, Montana, USA) for certification. The device with a photomask area of 7.16 mm 2 displayed a certified PCE of 20.59 ± 0.45% and an absence of photocurrent hysteresis (Supplementary Fig. <ref type="figure" target="#fig_3">3</ref>), which represents a record PCE for p-i-n structured OIHP solar cells. The reported certified PCEs of the planar heterojunction OIHP solar cells reached 19.9% and 20.1% based on SnO 2 and chlorine-capped TiO 2 electron transport layers, respectively <ref type="bibr" target="#b43">44,</ref><ref type="bibr" target="#b44">45</ref> .</p><p>The passivation effect on FA 0.83 MA 0.17 Pb(I 0.6 Br 0.4 ) 3 with a bandgap of 1.72 eV demonstrated significant improvement with an increased PCE of 17.2% after QAH passivation (Supplementary Fig. <ref type="figure">5</ref>), which is among the highest PCEs for perovskite solar cells with a similar bandgap. The average PCE of the FA 0.83 MA 0.17 Pb(I 0.6 Br 0.4 ) 3 devices is 16.1 ± 1.1%. Two-step-processed FA x MA 1-x Pb(Br 1-x I x ) 3 perovskites with an optical bandgap of 1.51 eV were also used to test the passivation effect of the QAH. It should be noted that it is difficult to exactly determine the composition of the perovskite films processed by the two-step method, so we write the composition of FA x MA 1-x Pb(Br 1-x I x ) 3 here. The V OC increased from 1.04 to 1.12 V and the highest PCE was boosted from 18.7% to 20.2% after replacing PCBM with choline chloride, as shown in Supplementary Fig. <ref type="figure">6</ref>. A smallest V OC deficit of 0.39 V was achieved. The average PCEs of the FA x MA 1-x Pb(Br 1-x I x ) 3 devices with PCBM and choline chloride layers are 17.5 ± 1.2% and 19.3 ± 0.9%, respectively. Furthermore, we incorporated choline chloride into the FA 0.83 MA 0.17 Pb(I 0.83 Br 0.17 ) 3 perovskite films by blending the choline chloride in the perovskite precursor solution before depositing it on the PTAA layers. The V OC of such devices is comparable to those with only surface treatment by choline chloride (Supplementary Fig. <ref type="figure">7</ref>). It should be noted that we do not expect the choline chloride blended in precursor solution would be incorporated into the perovskite lattice due to its too large molecular size, and thus the choline chloride is expected to stay at the film surface and/or grain boundaries during perovskite film formation. This result basically confirms that the surface charge traps cause the majority of the V OC losses in perovskite solar cells. Nevertheless, the capability of directly blending the choline chloride in the precursor solution for film fabrication does reduce an additional step of coating with choline chloride. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanistic study of passivation e ect of QAHs</head><p>Time-resolved photoluminescence decay measurements (Fig. <ref type="figure" target="#fig_1">1e</ref>) of MAPbI 3 perovskite films with different passivation layers were performed to find the origin of the improved efficiency. The timeresolved photoluminescence decay of perovskite films with different passivation layers showed a bi-exponential decay with a fast and a slow component. Previous studies of charge recombination in perovskite films suggest that the fast decay process is caused by bimolecular recombination of photo-generated free carriers, and the slow decay process is attributed mainly to trap-assisted recombination <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b19">20</ref> .</p><p>Here the choline chloride passivation mainly impacted the slow decay process, agreeing with the proposed mechanism that choline chloride passivates charge traps at the film surface. For the trapassisted recombination, we deduced an increased recombination lifetime from 82.3 ns for the pristine film to 903.4 ns after choline chloride treatment. The steady-state photoluminescence spectrum (Supplementary Fig. <ref type="figure">8</ref>) shows that the choline-chloride-treated OIHP film had a sixfold stronger photoluminescence intensity than the control film. To find out how passivation affects the chargerecombination process in the operating devices, transient photovoltage measurement of the MAPbI 3 perovskite device was conducted. The devices were soaked under AM 1.5 simulated illumination, and laser pulses (337 nm, 4 ns) were applied to disturb the opencircuited devices to trigger a small transient photovoltaic signal. As seen in Fig. <ref type="figure" target="#fig_1">1f</ref>, the charge-recombination lifetime of the device with choline chloride passivation was increased to 0.56 µs in comparison with the 0.23 µs of the device with PCBM passivation. The transient photovoltage result also shows that the device with choline chloride passivation had a larger average photovoltage of 1.13 V than the devices with a PCBM layer (1.04 V), which is in accordance with the J -V measurement.</p><p>For polycrystalline MAPbI 3 perovskite films, the reported trap densities are generally in the order of 10 17 -10 19 m -3 , which are much larger than that of the single crystals (10 10 m -3 ), giving much room for improvement <ref type="bibr" target="#b45">46</ref> . To further analyse the passivation effect of the QAH, the trap density of states (tDOS) was measured for the devices fabricated by two-step-processed MAPbI 3 perovskite with choline chloride or PCBM passivation. We extracted the trap densities from the thermal admittance spectroscopy analysis, which is a well-established and effective technique to characterize both shallow and deep defects of thin-film and organic solar cells <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b46">47</ref> . Figure <ref type="figure" target="#fig_3">3a</ref> shows that the device with choline chloride layers had overall the lowest tDOS over the whole trap depth region. The device with choline chloride layers had low tDOS in the deeper trap region (0.40-0.52 eV), which was assigned to defects at the film surface <ref type="bibr" target="#b10">11</ref> . In addition, the density of shallower trap states (0.35-0.40 eV), which was assigned to traps at GBs, in the choline-chloride-passivated devices was about three times smaller than in the PCBM-passivated devices. This indicates that choline chloride may also diffuse into grain boundaries to passivate them. The better passivation effect of choline chloride than PCBM verifies that both cationic and anionic defects in OIHPs need to be considered in passivation techniques.</p><p>As proof of the concept, two typical surface defect sites that have been reported to generate deep charge traps in OIHPs, an anionic Pb-I antisite defect on a PbI 2 -terminated surface and a cationic Pb cluster on a MAI-terminated surface, were investigated to demonstrate the trap passivation effect of the selected molecules <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b29">30</ref> . We used a Pb-I antisite defect on a PbI 2 -terminated surface, and uncoordinated Pb clusters on MAI-terminated surface slabs that have a 2 × 2 periodicity in the xy plane, and the representative structure model can be found in Fig. <ref type="figure" target="#fig_3">3b-e</ref> in Supplementary Fig. <ref type="figure" target="#fig_1">12</ref>, the bond distances of d Pb1 -I1 and d Pb1 -I2 are 4.76 Å and 3.14 Å in the unpassivated system, and 3.54 Å and 3.39 Å in the passivated system. In the resulting binding structure of the Pb cluster after the passivation, the Pb cluster on the top of the MAI surface is bonded with Cl -and two I -of the top layer of MAI. The enhanced interaction between Pb and the surface slab resulted in an increase of the overlap between the wavefunction of the Pb cluster and the surface slab. This enhanced interaction between the Pb ion cluster and the MAI-terminated surface causes new hybridized states that bridge the trap states with conduction band edge states of the surface slabs, which prevents the trapping of charges. This enhanced interaction between Pb and the surface slab could also induce a slight shift of the band edge. For the PbI 3 antisite defects, the simulation shows that the gap states are almost eliminated after passivation, which has a better passivation effect as compared with PCBM <ref type="bibr" target="#b29">30</ref> . Besides, the passivated surface also has a slightly larger bandgap than the unpassivated one. The shifts of trap states and band edges are primary due to the charge transfer between the passivation molecule and perovskite surface. The Bader charge analysis shows that the choline molecule can transfer about 0.8 electrons to the surface in the case of PbI 3 -antisite defects. When adding choline chloride in the system, the defects undergo</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NATURE ENERGY</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ARTICLES</head><p>a migration process (Supplementary Fig. <ref type="figure" target="#fig_3">13</ref>): the antisite I -moves to the top position of its neighbouring Pb <ref type="bibr">2+</ref> and bonds with that Pb 2+ , leaving a Pb 2+ vacancy on the surface, and this Pb 2+ vacancy defect is reported to be benign <ref type="bibr" target="#b13">14</ref> . Since choline chloride contains both positive and negative charges, we expect that it also interacts strongly with other charged defects. The density functional theory calculations indicate that QAHs could passivate trap states induced by both the cationic and anionic defect sites, a special feature for the passivation agents selected. It should be noted that the types of defect present at the perovskite films surface might be sensitive to the film formation process. It is not technically feasible yet to find out what types of defect are present in the perovskite films presented here. Therefore, it is not yet feasible to conclude that QAHs could passivate all types of defect at the film surface. Understanding the nature of surface defects will still be needed to ultimately understand the functions of the QAHs reported here.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stability of the perovskite solar cells with QAHs</head><p>The stability of OIHP devices in ambient conditions is challenged by their sensitivity to moisture and oxygen due to the hygroscopic nature of the OIHP films. Recent studies revealed that the degradation of perovskite films was generally initialized at the defect sites at the film surface and grain boundaries where the molecules have highest activity and diffusivity and are more susceptible to attack by moisture and oxygen <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b40">41</ref> . It should be noted that the defects that cause charge trapping and initialize material degradation might be different. Although surface defects such as MA + vacancies formed by the evaporation of MAI during annealing do not cause deep traps in the perovskite material or impact the device efficiency, they may initialize the film degradation. Nevertheless, QAH ions are expected to have strong interaction with such ionic defects to neutralize the charges. We thus speculate that the interaction of the perovskite films with the choline chloride layer should also enhance the stability of the perovskite films in ambient environment, because covering the defective sites on the film surface with QAH ions should inhibit the permeation of moisture and oxygen through the defects. To verify this, the stability of FA 0.83 MA 0.17 Pb(I 0.83 Br 0.17 ) 3 devices with choline chloride and L-α-phosphatidylcholine functional layers was monitored by putting the unencapsulated devices in an ambient atmosphere at room temperature and relative humidity of 50-85%, and the device performances are summarized in Fig. <ref type="figure" target="#fig_4">4</ref>. The devices with choline chloride layers retained almost 100% of the initial PCEs after storage in ambient conditions for over one month. Interestingly, the V OC of the devices increased during the first 5 days of storage in both types of device with choline chloride passivation. The L-α-phosphatidylcholine-modified devices showed inferior performance, 30% loss of the initial PCE after 800 h storage in ambient conditions, despite the fact that the long hydrophobic alkane tails could hinder the permeation of moisture. The difference in stability of the devices with two passivation layers highlighted the importance of healing both types of defect. Figure <ref type="figure" target="#fig_4">4e</ref> shows the maximum power point tracking of the devices with choline chloride. The results show that the PCE decreased from 21.1% to 18.1%, and maintained 86% of the initial PCE under 1 sun continuous illumination for 26 h. The humidity stability test for the bare OIHP films (Fig. <ref type="figure" target="#fig_4">4f-k</ref>) shows that the films with QAHs have a much slower degradation rate than the control films without QAHs when they were exposed to humidity of 90 ± 5% for the same time intervals of 2.5 h, and the corresponding X-ray diffraction results are shown in Supplementary Fig. <ref type="figure" target="#fig_4">14</ref>. The much slower reduction of the perovskite (110) plane peak and the slower appearance of the PbI 2 peak in the perovskite films with L-α-phosphatidylcholine and choline chloride treatment demonstrate the better moisture resistance capability enabled by the surface modification. This result conclusively confirmed that the healing of the defect sites by choline chloride could effectively improve the moisture stability of OIHP films.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>In summary, we have demonstrated that the passivation of ionic defects in OIHPs by QAHs is a general passivation approach to remarkably improve the efficiency and stability of OIHP solar cells. This strategy could lead to further increasing the PCE of perovskite solar cells by passivating both types of charged ionic defect in OIHPs. There is still room to further improve the passivation effect, as indicated by the photoluminescence lifetime of the perovskite films, which still have not reached that of the single crystals. Further understanding of the nature of the surface defects in polycrystalline OIHPs, including the defect type, defect concentration and defect distribution, will be very important to guide the design of nextgeneration passivation molecules to fully passivate all of the defects. We anticipate that the precision defect healing will be an important direction to improve the efficiency of perovskite solar cells to the theoretical limit, as well as to stabilize perovskite-based materials and devices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Device fabrication. The MAPbI 3 films made by the two-step method were fabricated by the thermal annealing-induced interdiffusion method according to our previous publication <ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref> . The hole transport layer poly(bis(4-phenyl)(2,4,6-trimethylphenyl)amine) (PTAA) with a concentration of 2 mg ml -1 dissolved in toluene was spin-coated at the speed of 6,000 r.p.m. for 35 s and then annealed at 100 • C for 10 min. PbI 2 beads (99.999% trace metals basis) were purchased from Sigma-Aldrich. After dissolving in N ,N -dimethylformamide (DMF) at a temperature of 100 • C, around 50 µl of hot (∼90 • C) 630 mg ml -1 PbI 2 DMF precursor solution was quickly dropped onto the substrate and spin-coated at the speed of 6,000 r.p.m. The as-fabricated PbI 2 films were dried and annealed at 90 • C for 10 min. After the PbI 2 films cooled to 70 • C, 60 µl of 63 mg ml -1 methylammonium iodide (MAI) 2-propanol (IPA) precursor solution at the temperature of 70 • C was spun on the PbI 2 films. Subsequently, the sample was annealed at 70 • C for 20 min and 100 • C for 60 min. During the thermal annealing process, around 10 µl of DMF was added to the edge of the Petri dish when the temperature reached 100 • C. Two-step-processed FA x MA 1-x Pb(Br 1-x I x ) 3 perovskites were made by a similar procedure to the MAPbI 3 films made by the two-step method. The main differences are: the concentration of PbI 2 solution used for spin-coating is 680 mg ml -1 ; the mixed halide precursor solution contains 90 wt% of FAI and 10 wt% MABr with a concentration range from 70 mg FAI/7 mg MABr to 75 mg FAI/7 mg MABr per millilitre.</p><p>One-step-processed narrow-bandgap perovskite FA 0.83 MA 0.17 Pb(Br 0.17 I 0.83 ) 3 and wide-bandgap perovskite FA 0.83 MA 0.17 Pb(Br 0.4 I 0.6 ) 3 were fabricated by the solvent-and interface-engineering method as reported previously <ref type="bibr" target="#b42">43</ref> . The process for making the hole transport layer PTAA film is exactly the same as the fabrication method mentioned in the two-step method. The perovskite precursor solution composed of mixed cations (lead (Pb), formamidinium (FA) and methylammonium (MA)) and halides (I, Br) was dissolved in mixed solvent (DMF/DMSO = 4:1). To improve the wetting property of the perovskite precursor on the PTAA film, the PTAA-coated ITO substrate was pre-wetted by spinning 50 µl DMF at 4,000 r.p.m. for 8 s. Then 100 µl precursor solution was spun onto PTAA at 2,000 r.p.m. for 2 s and 4,000 r.p.m. for 20 s, and the sample was quickly washed with 130 µl toluene at 13 s of the second-step spin-coating. Subsequently, the sample was annealed at 65 • C for 10 min and 100 • C for 10 min.</p><p>The passivation material solution was coated onto the perovskite substrate by spin-coating at 4,000 r.p.m. for 35 s, and annealed at 100 • C for 30 min. The PCBM, Tween and PE-PEG were dissolved in DCB, and the choline chloride and choline iodide were dissolved in IPA with a concentration of 1 mg ml -1 . The devices were finished by thermally evaporating C 60 (23 nm), BCP (8 nm) and copper (80 nm) in sequential order. Device characterization. Simulated AM 1.5G irradiation (100 mW cm -2 ) was produced by a xenon-lamp-based solar simulator (Oriel 67005, 150 W Solar Simulator) for current density-voltage (J-V ) measurements. The light intensity was calibrated by a silicon (Si) diode (Hamamatsu S1133) equipped with a Schott visible-colour glass filter (KG5 colour-filter). A Keithley 2400 Source-Meter was used for J -V measurement. The scanning rate was 0.1 V s -1 . The steady-state V OC and J SC were measured by zero bias current and zero bias voltage versus time, respectively. The steady-state PCE was measured by monitoring current with the largest power output bias voltage and recording the value of the photocurrent.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ARTICLES NATURE ENERGY</head><p>X-ray diffraction measurements were performed with a Rigaku D/Max-B X-ray diffractometer with Bragg-Brentano parafocusing geometry, a diffracted beam monochromator, and a conventional cobalt target X-ray tube set to 40 kV and 30 mA. External quantum efficiency curves were characterized with a Newport QE measurement kit by focusing a monochromatic beam of light onto the devices. The scanning electron micrographs were taken with a Quanta 200 FEG environmental scanning electron microscope. For the transient photovoltage measurements, the device was serially connected to a digital oscilloscope (DOS-X 3104A) and the input impedance of the oscilloscope was set to 1 M to form the open-circuit conditions, respectively, for monitoring the charge density decay. The transient photovoltage was measured under 1 sun illumination. An attenuated UV laser pulse (SRS NL 100 Nitrogen Laser) was used as a small perturbation to the background illumination on the device. The laser-pulse-induced photovoltage variation ( V ) and the V OC is produced by the background illumination. The wavelength of the N 2 laser was 337 nm, the repeating frequency was about 10 Hz, and the pulse width was less than 3.5 ns.</p><p>First-principles calculation. First-principles calculation was carried out in the framework of density functional theory as implemented in the VASP program. The generalized gradient approximation in the form of Perdew-Burke-Ernzerhof was used for the exchange-correlation function. The ion-electron interaction is treated with the projector-augmented wave method. Surface slabs were modelled as PbI 2 -terminated or MAI-terminated symmetric (001) slabs of the tetragonal structure, which has 9 layers of MAI and PbI 2 in total. About 30 Å vacuum was added on top of the slab surface to minimize the interaction between the adjacent slabs.</p><p>Humidity stability test. The perovskite OIHP films were stored at room temperature in a controlled-humidity glass chamber. The relative humidity calibrated by a digital hygrometer was controlled by the speed of nitrogen gas that flowed through the water, and the nitrogen gas eventually carries the moisture into the glass chamber. The relative humidity was maintained at 90 ± 5%.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 |</head><label>1</label><figDesc>Figure 1 | Device structure and passivation mechanism by quaternary ammonium halides. a, The device structure of perovskite planar heterojunction solar cells. b, Schematic illustration of quaternary ammonium halides (QAHs) assembled on the defect sites. The red and blue symbols represent the N atom and O atom of the choline chloride molecule, respectively. c, Chemical structures of phenyl-C61-butyric acid methyl ester (PCBM), Tween 20, polyethylene-block-poly(ethylene glycol) (PE-PEG). d, Chemical structures of L-α-phosphatidylcholine, choline iodide and choline chloride.e, Time-resolved photoluminescence (PL) decay of perovskite films with choline chloride layers (red) compared with control film without a passivation layer (blue). The fluence and the excitation density were 2.0 nJ cm -2 and 4.07 × 10 14 cm -3 , respectively. f, Charge carrier lifetime of a choline chloride-treated device (red) and a control device with PCBM layers (blue), determined from transient photovoltage measurement under open-circuit conditions. The y axis shows the V OC of the devices with di erent treatments.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>3 Figure 2 |</head><label>32</label><figDesc>Figure2| Passivation-layer-dependent device performance. a, Current density-voltage (J-V) characteristics of two-step-processed MAPbI 3 devices with di erent passivation layers: PCBM (blue), Tween 20 (orange), L-α-phosphatidylcholine (red) and polyethylene-block-poly(ethylene glycol) (PE-PEG) (green). b, J-V curves for the two-step-processed MAPbI 3 devices passivated by PCBM (blue), L-α-phosphatidylcholine (green), choline chloride (red) and choline iodide (violet). c, The statistics of V OC distribution for devices with PCBM (blue), L-α-phosphatidylcholine (green), choline iodide (violet) and choline chloride (red). (Statistics from 16 samples on the same type of substrates for each passivation molecule.) The solid lines represent the Gauss distribution fitting for the statistic of V OC . d, J-V characteristics of one-step-processed FA 0.83 MA 0.17 Pb(I 0.83 Br 0.17 ) 3 devices with choline chloride layers (red). e, J-V curves of the champion device prepared by choline chloride passivation measured in both reverse (red) and forward (blue) scanning directions.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 |</head><label>3</label><figDesc>Figure 3 | Passivation mechanism. a, Trap density of states obtained by thermal admittance spectroscopy for devices with PCBM (blue), and choline chloride passivation layers (red). The vertical dashed lines define trap bands with di erent trap energy depths, shallow trap states (band 1, 0.35-0.40 eV), deep trap states (band 2 and band 3, &gt;0.4 eV). b-e, The isosurface plots of the highest occupied valence band (b) and the lowest unoccupied conduction band (c) of the choline-chloride-passivated PbI 2 surface with the Pb-I antisite defect and isosurface plots of the highest occupied valence band (d) and the lowest unoccupied conduction band (e) of the choline-chloride-passivated MAI surface with a Pb cluster defect. f, Density of states of the passivated Pb-I antisite defect surface with choline chloride (orange) and choline iodide (green); DOS of the pristine PbI 2 surface (brown) and the unpassivated surface (blue) are also plotted for comparison. The arrows show that the gap states are shifted to the band edge. g, DOS of the choline chloride-passivated (red), choline iodide-passivated (green) and unpassivated MAI-terminated surface (blue) with a Pb cluster defect. h, Zoomed DOS (from -0.5 to 0.5 eV) near the lowest conduction band of g.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 |</head><label>4</label><figDesc>Figure 4 | Stability assessment of perovskite solar cells with di erent passivation layers. a-d, Evolution of PCE (a), J SC (b), V OC (c) and FF (d) relative to the initial parameters for the device with L-α-phosphatidylcholine (blue) and choline chloride (red) over 35 days of storage in air. Each average (symbol) and standard deviation (error bar) was calculated from six solar cells. e, Maximum power point tracking for 26 h of an unencapsulated device under continuous 1 sun illumination.f-h, Photographic images of the OIHP films without a passivation layer (f), with L-α-phosphatidylcholine (g), and with choline chloride (h), respectively, before exposure to humidity. i-k, Photographs of the OIHP films without a passivation layer (i), with L-α-phosphatidylcholine (j), and with choline chloride (k), respectively, after exposure to humidity of 90 ± 5% for 2.5 h (the size of the films is 15 × 15 mm).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="1,162.22,192.72,270.80,536.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="3,160.49,65.93,260.08,239.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="5,47.71,65.92,468.13,306.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="5,46.88,393.88,465.91,313.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="12,74.45,65.93,405.19,237.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="13,146.48,65.93,306.14,197.09" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="14,142.48,65.93,314.15,210.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="15,78.20,65.93,442.70,155.07" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="16,158.00,65.93,297.29,174.83" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="17,76.53,91.81,428.00,137.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 | Summary of the best device performance for the choline chloride and PCBM passivated devices with di erent perovskite composition.</head><label>1</label><figDesc></figDesc><table><row><cell>Perovskite composition</cell><cell>Bandgap (eV)</cell><cell>Passivation layer</cell><cell>J SC (mA cm -2 )</cell><cell>V OC (V)</cell><cell>FF</cell><cell>PCE</cell></row><row><cell>MAPbI 3</cell><cell>1.55</cell><cell>PCBM Choline chloride</cell><cell>22.5 22.9</cell><cell>1.04 1.15</cell><cell>73% 76%</cell><cell>17.1% 20.0%</cell></row><row><cell>FA 0.85 MA 0.15 Pb(I 0.85 Br 0.15 ) 3</cell><cell>1.55</cell><cell>PCBM Choline chloride</cell><cell>23.7 23.7</cell><cell>1.03 1.14</cell><cell>79% 78%</cell><cell>19.2% 21.0%</cell></row><row><cell>FA 0.83 MA 0.17 Pb(I 0.6 Br 0.4 ) 3</cell><cell>1.72</cell><cell>PCBM Choline chloride</cell><cell>17.1 19.4</cell><cell>1.12 1.15</cell><cell>66% 77%</cell><cell>12.6% 17.2%</cell></row><row><cell cols="3">devices with choline iodide and choline chloride passivation lay-</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">ers were increased to 20.1% and 20.0%, respectively. The average</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">PCE of the devices with choline iodide and choline chloride pas-</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">sivation layers are 19.3 ± 0.8% and 19.4 ± 0.6%, respectively.</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>NATURE ENERGY | DOI: 10.1038/nenergy.2017.102 | www.nature.com/natureenergy</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved. NATURE ENERGY | DOI: 10.1038/nenergy.2017.102 | www.nature.com/natureenergy</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved. NATURE ENERGY 2, 17102 (2017) | DOI: 10.1038/nenergy.2017.102 | www.nature.com/natureenergy</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_3"><p>© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved. NATURE ENERGY 2, 17102 (2017) | DOI: 10.1038/nenergy.2017.102 | www.nature.com/natureenergy</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6" xml:id="foot_5"><p>© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved. NATURE ENERGY 2, 17102 (2017) | DOI: 10.1038/nenergy.2017.102 | www.nature.com/natureenergy</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6"><p>NATURE ENERGY 2, 17102 (2017) | DOI: 10.1038/nenergy.2017.102 | www.nature.com/natureenergy © 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was supported in part by the <rs type="funder">Air Force Office of Scientific Research (AFOSR)</rs> (Grant No. <rs type="grantNumber">A9550-16-1-0299</rs>) and the <rs type="funder">National Science Foundation (NSF)</rs> through the <rs type="funder">Nebraska Materials Research Science and Engineering Center (MRSEC)</rs> (Grant No. <rs type="grantNumber">DMR-1420645</rs>), and by the <rs type="funder">NSF</rs> Grant <rs type="grantNumber">OIA-1538893</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_zTSUYrT">
+					<idno type="grant-number">A9550-16-1-0299</idno>
+				</org>
+				<org type="funding" xml:id="_Ahhs4WW">
+					<idno type="grant-number">DMR-1420645</idno>
+				</org>
+				<org type="funding" xml:id="_gnTdvFx">
+					<idno type="grant-number">OIA-1538893</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data availability. The data that support the presented plots of this study and other relevant findings are available from the corresponding author on request. Received 3 October 2016; accepted 19 May 2017; published 26 June 2017</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTARY INFORMATION</head><p>Supplementary Figure <ref type="figure">3</ref>: Independent PCE certification of perovskite solar cells by an accredited PV laboratory of Newport Corporation confirming a PCE of 20.59±0.45% with negligible hysteresis, which is a record certified efficiency for planar structured perovskite solar cells.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTARY INFORMATION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTARY INFORMATION</head><p>Supplementary Figure <ref type="figure">14</ref>: Identification of the composition of the degraded perovskite film by the evolution XRD patterns. XRD patterns of OIHP films without passivation layer (control), with L-α-Phosphatidylcholine, and with choline chloride, respectively, before and after exposure to humidity of 90 ± 5% for 2.5 h.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>J.H. and X.Z. conceived the idea and designed the experiments. X.Z. fabricated most of the devices and conducted the characterization. B.C. fabricated the wide-bandgap solar cells. J.D. and X.C.Z. conducted the simulation modelling. Y.B. and H.W. synthesized the relevant chemicals. Y.F. performed the physical characterizations of the devices. J.H., X.Z., J.D. and Y.L. wrote the paper, and all authors reviewed the paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head><p>Supplementary information is available for this paper.</p><p>Reprints and permissions information is available at www.nature.com/reprints.</p><p>Correspondence and requests for materials should be addressed to J.H. How to cite this article: Zheng, X. et al. Defect passivation in hybrid perovskite solar cells using quaternary ammonium halide anions and cations. Nat. Energy 2, 17102 (2017).</p><p>Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing financial interests.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Solvent annealing of perovskite-induced crystal growth for photovoltaic-device efficiency enhancement</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="6503" to="6509" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">High charge carrier mobilities and lifetimes in organolead trihalide perovskites</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wehrenfennig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1584" to="1589" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Electron-hole diffusion lengths exceeding 1 micrometer in an organometal trihalide perovskite absorber</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page" from="341" to="344" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Efficiency enhancements in solid-state hybrid solar cells via reduced charge recombination and increased light capture</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="3372" to="3376" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Self-formed grain boundary healing layer for highly efficient CH 3 NH 3 PbI 3 perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">D.-Y</forename><surname>Son</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">16081</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Colloidal-quantum-dot photovoltaics using atomic-ligand passivation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="765" to="771" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">An 18.2%-efficient black-silicon solar cell achieved through control of carrier recombination in nanostructures</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-C</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Branz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Nanotech</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="743" to="748" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Efficient luminescent solar cells based on tailored mixed-cation perovskites</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">1501170</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Facile fabrication of large-grain CH 3 NH 3 PbI 3-x Br x films for high-efficiency solar cells via CH 3 NH 3 Br-selective Ostwald ripening</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">12305</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Electron-hole diffusion lengths &gt;175 µm in solution-grown CH 3 NH 3 PbI 3 single crystals</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Dong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="page" from="967" to="970" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Origin and elimination of photocurrent hysteresis by fullerene passivation in CH 3 NH 3 PbI 3 planar heterojunction solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">5784</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Low trap-state density and long carrier diffusion in organolead trihalide perovskite single crystals</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="page" from="519" to="522" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Impact of microstructure on local carrier lifetime in perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>De Quilettes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="page" from="683" to="686" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Unusual defect physics in CH 3 NH 3 PbI 3 perovskite solar cell absorber</title>
+		<author>
+			<persName><forename type="first">W.-J</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page">63903</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Carriers trapping and recombination: the role of defect physics in enhancing the open circuit voltage of metal halide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Eperon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="3472" to="3481" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Light-induced annihilation of Frenkel defects in organo-lead halide perovskites</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mosconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meggiolaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Angelis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="3180" to="3187" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Defect migration in methylammonium lead iodide and its role in perovskite solar cell operation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Azpiroz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mosconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bisquert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Angelis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2118" to="2127" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Correlation of energy disorder and open-circuit voltage in hybrid perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">15001</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Guanidinium: a route to enhanced carrier lifetime and open-circuit voltage in hybrid perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Marco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1009" to="1016" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Controllable self-induced passivation of hybrid lead iodide perovskites toward high performance solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="4158" to="4163" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Improved performance and stability of perovskite solar cells by crystal crosslinking with alkylphosphonic acid ω-ammonium chlorides</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="703" to="711" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Study on the stability of CH 3 NH 3 PbI 3 films and the effect of post-modification by aluminum oxide in all-solid-state hybrid solar cells</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Niu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="705" to="710" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Scaling behavior of moisture-induced grain degradation in polycrystalline hybrid perovskite thin films</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="516" to="552" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Inverted current-voltage hysteresis in mixed perovskite solar cells: polarization, energy barriers, and defect recombination</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Correa Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graetzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1600396</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Discerning the surface and bulk recombination kinetics of organic-inorganic halide perovskite single crystals</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1600551</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Native defect-induced hysteresis behavior in organolead iodide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1411" to="1419" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Surface passivation of crystalline silicon solar cells: a review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Aberle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Photovolt. Res. Appl</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="473" to="487" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Nanostructure formation and passivation of large-area black silicon for solar cell applications</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1392" to="1397" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Innovative dual function nc-SiOx: H layer leading to a &gt;16% efficient multi-junction thin-film silicon solar cell</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page">113512</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Perovskite-fullerene hybrid materials suppress hysteresis in planar diodes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7081</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Supramolecular halogen bond passivation of organic-inorganic halide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="3247" to="3254" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Enhanced photoluminescence and solar cell performance via Lewis base passivation of organic-inorganic lead halide perovskites</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Noel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="9815" to="9821" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Highly reproducible perovskite solar cells with average efficiency of 18.3% and best efficiency of 19.7% fabricated via Lewis base adduct of lead (II) iodide</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="8696" to="8699" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Lewis acid-base adduct approach for high efficiency perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-G</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acc. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="311" to="319" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Defect passivation of organic-inorganic hybrid perovskites by diammonium iodide towards high-performance photovoltaic devices</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-C</forename><surname>Chueh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rajagopal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Jen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">-Y</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="757" to="763" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Non-wetting surface-driven high-aspect-ratio crystalline grain growth for efficient hybrid perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7747</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Large fill-factor bilayer iodine perovskite solar cells fabricated by a low-temperature solution-process</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="2359" to="2365" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Efficient, high yield perovskite photovoltaic devices grown by interdiffusion of solution-processed precursor stacking layers</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="2619" to="2623" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Enhancing stability and efficiency of perovskite solar cells with crosslinkable silane functionalized and doped fullerene</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">21806</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">High-performance perovskite solar cells with enhanced environmental stability based on amphiphile-modified CH 3 NH 3 PbI 3</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="2910" to="2915" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Phenylalkylamine passivation of organolead halide perovskites enabling high-efficiency and air-stable photovoltaic cells</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="9986" to="9992" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The optoelectronic role of chlorine in CH 3 NH 3 PbI 3 (Cl)-based perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7269</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Solvent engineering for high-performance inorganic-organic hybrid perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="897" to="903" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Enhanced electron extraction using SnO 2 for high-efficiency planar-structure HC(NH 2 ) 2 PbI 3 -based perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">16177</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Efficient and stable solution-processed planar perovskite solar cells via contact passivation</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page" from="722" to="726" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Hybrid organic-inorganic perovskites: low-cost semiconductors with intriguing charge-transport properties</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Brenner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Egger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kronik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hodes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cahen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mater</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">15007</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Determination of defect distributions from admittance measurements and application to Cu(In, Ga) Se 2 based heterojunctions</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Herberholz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="4411" to="4420" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

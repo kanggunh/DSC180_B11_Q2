@@ -1,0 +1,2236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Cation and anion immobilization through chemical bonding enhancement with fluorides for stable halide perovskite solar cells</title>
+				<funder ref="#_e7zdzAx">
+					<orgName type="full">Natural Science Foundation of Beijing, China</orgName>
+				</funder>
+				<funder ref="#_yn4zfTt #_mQXqcKn">
+					<orgName type="full">National Key Research and Development Program of China</orgName>
+				</funder>
+				<funder ref="#_rmuucaE">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_7EeHWZV">
+					<orgName type="full">Computational Sciences for Energy Research tenure track programme of Shell</orgName>
+				</funder>
+				<funder ref="#_E7fbyGV #_DVGejGx">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_mzcepSb">
+					<orgName type="full">FOM</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-05-13">13 May 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Nengxu</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Faculty of Science and Technology and MESA+ Institute for Nanotechnology</orgName>
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials, Key Laboratory of Polymer Chemistry and Physics of Ministry of Education</orgName>
+								<orgName type="institution" key="instit1">Computational Materials Science</orgName>
+								<orgName type="institution" key="instit2">University of Twente</orgName>
+								<address>
+									<settlement>Enschede</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff21">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shuxia</forename><surname>Tao</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Materials Science and Engineering</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="laboratory">Laboratory of Polymer Chemistry and Physics of Ministry of Education</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff12">
+								<orgName type="department" key="dep1">Center for Computational Energy Research</orgName>
+								<orgName type="department" key="dep2">Applied Physics</orgName>
+								<orgName type="institution">Eindhoven University of Technology</orgName>
+								<address>
+									<addrLine>5600MB</addrLine>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff22">
+								<orgName type="department" key="dep1">Department of Materials Science and Engineering</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="laboratory">Laboratory of Polymer Chemistry and Physics of Ministry of Education</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yihua</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Faculty of Science and Technology and MESA+ Institute for Nanotechnology</orgName>
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials, Key Laboratory of Polymer Chemistry and Physics of Ministry of Education</orgName>
+								<orgName type="institution" key="instit1">Computational Materials Science</orgName>
+								<orgName type="institution" key="instit2">University of Twente</orgName>
+								<address>
+									<settlement>Enschede</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff21">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiuxiu</forename><surname>Niu</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Center for Computational Energy Research</orgName>
+								<orgName type="department" key="dep2">Applied Physics</orgName>
+								<orgName type="laboratory">Experimental Center for Advanced Materials</orgName>
+								<orgName type="institution">Eindhoven University of Technology</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff13">
+								<orgName type="department" key="dep1">Experimental Center for Advanced Materials</orgName>
+								<orgName type="department" key="dep2">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff23">
+								<orgName type="department" key="dep1">Center for Computational Energy Research</orgName>
+								<orgName type="department" key="dep2">Applied Physics</orgName>
+								<orgName type="laboratory">Experimental Center for Advanced Materials</orgName>
+								<orgName type="institution">Eindhoven University of Technology</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chidozie</forename><forename type="middle">K</forename><surname>Onwudinanti</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff14">
+								<orgName type="department">DIFFER -Dutch Institute for Fundamental Energy Research</orgName>
+								<orgName type="institution">Center for Computational Energy Research</orgName>
+								<address>
+									<addrLine>De Zaale 20</addrLine>
+									<postCode>5612 AJ</postCode>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff24">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chen</forename><surname>Hu</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Center for Computational Energy Research</orgName>
+								<orgName type="institution" key="instit2">DIFFER-Dutch Institute for Fundamental Energy Research</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff15">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">The Hong Kong University of Science and Technology</orgName>
+								<address>
+									<addrLine>Clear Water Bay</addrLine>
+									<settlement>Kowloon Hong Kong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff25">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Center for Computational Energy Research</orgName>
+								<orgName type="institution" key="instit2">DIFFER-Dutch Institute for Fundamental Energy Research</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhiwen</forename><surname>Qiu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Faculty of Science and Technology and MESA+ Institute for Nanotechnology</orgName>
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials, Key Laboratory of Polymer Chemistry and Physics of Ministry of Education</orgName>
+								<orgName type="institution" key="instit1">Computational Materials Science</orgName>
+								<orgName type="institution" key="instit2">University of Twente</orgName>
+								<address>
+									<settlement>Enschede</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff21">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ziqi</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Faculty of Science and Technology and MESA+ Institute for Nanotechnology</orgName>
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials, Key Laboratory of Polymer Chemistry and Physics of Ministry of Education</orgName>
+								<orgName type="institution" key="instit1">Computational Materials Science</orgName>
+								<orgName type="institution" key="instit2">University of Twente</orgName>
+								<address>
+									<settlement>Enschede</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff21">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Guanhaojie</forename><surname>Zheng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Faculty of Science and Technology and MESA+ Institute for Nanotechnology</orgName>
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials, Key Laboratory of Polymer Chemistry and Physics of Ministry of Education</orgName>
+								<orgName type="institution" key="instit1">Computational Materials Science</orgName>
+								<orgName type="institution" key="instit2">University of Twente</orgName>
+								<address>
+									<settlement>Enschede</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff21">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ligang</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Faculty of Science and Technology and MESA+ Institute for Nanotechnology</orgName>
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials, Key Laboratory of Polymer Chemistry and Physics of Ministry of Education</orgName>
+								<orgName type="institution" key="instit1">Computational Materials Science</orgName>
+								<orgName type="institution" key="instit2">University of Twente</orgName>
+								<address>
+									<settlement>Enschede</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff21">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yu</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Faculty of Science and Technology and MESA+ Institute for Nanotechnology</orgName>
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials, Key Laboratory of Polymer Chemistry and Physics of Ministry of Education</orgName>
+								<orgName type="institution" key="instit1">Computational Materials Science</orgName>
+								<orgName type="institution" key="instit2">University of Twente</orgName>
+								<address>
+									<settlement>Enschede</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff21">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Liang</forename><surname>Li</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Huifen</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Faculty of Science and Technology and MESA+ Institute for Nanotechnology</orgName>
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials, Key Laboratory of Polymer Chemistry and Physics of Ministry of Education</orgName>
+								<orgName type="institution" key="instit1">Computational Materials Science</orgName>
+								<orgName type="institution" key="instit2">University of Twente</orgName>
+								<address>
+									<settlement>Enschede</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff21">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yingzhuo</forename><surname>Lun</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">School of Aerospace Engineering</orgName>
+								<orgName type="institution">The Hong Kong University of Science and Technology</orgName>
+								<address>
+									<country>Hong Kong, China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Faculty of Science and Technology and MESA+ Institute for Nanotechnology</orgName>
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials, Key Laboratory of Polymer Chemistry and Physics of Ministry of Education</orgName>
+								<orgName type="institution" key="instit1">Computational Materials Science</orgName>
+								<orgName type="institution" key="instit2">University of Twente</orgName>
+								<address>
+									<settlement>Enschede</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff16">
+								<orgName type="department">School of Aerospace Engineering</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff21">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff26">
+								<orgName type="department">School of Aerospace Engineering</orgName>
+								<orgName type="institution">The Hong Kong University of Science and Technology</orgName>
+								<address>
+									<country>Hong Kong, China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jiawang</forename><surname>Hong</surname></persName>
+							<idno type="ORCID">0000-0002-9915-8072</idno>
+							<affiliation key="aff5">
+								<orgName type="department">School of Aerospace Engineering</orgName>
+								<orgName type="institution">The Hong Kong University of Science and Technology</orgName>
+								<address>
+									<country>Hong Kong, China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff16">
+								<orgName type="department">School of Aerospace Engineering</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff26">
+								<orgName type="department">School of Aerospace Engineering</orgName>
+								<orgName type="institution">The Hong Kong University of Science and Technology</orgName>
+								<address>
+									<country>Hong Kong, China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xueyun</forename><surname>Wang</surname></persName>
+							<idno type="ORCID">0000-0001-5264-9539</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Yuquan</forename><surname>Liu</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">School of Aerospace Engineering</orgName>
+								<orgName type="institution">The Hong Kong University of Science and Technology</orgName>
+								<address>
+									<country>Hong Kong, China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">College of Physics and Electronics</orgName>
+								<orgName type="laboratory">Hunan Key Laboratory for Super-Microstructure and Ultrafast Process</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff16">
+								<orgName type="department">School of Aerospace Engineering</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff17">
+								<orgName type="department">Collage of Physics and Electronics</orgName>
+								<orgName type="laboratory">Hunan Key Laboratory for Super-microstructure and Ultrafast Process</orgName>
+								<orgName type="institution">Central South University</orgName>
+								<address>
+									<postCode>410012</postCode>
+									<settlement>Changsha</settlement>
+									<region>Hunan</region>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff26">
+								<orgName type="department">School of Aerospace Engineering</orgName>
+								<orgName type="institution">The Hong Kong University of Science and Technology</orgName>
+								<address>
+									<country>Hong Kong, China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff27">
+								<orgName type="department">College of Physics and Electronics</orgName>
+								<orgName type="laboratory">Hunan Key Laboratory for Super-Microstructure and Ultrafast Process</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Haipeng</forename><surname>Xie</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">College of Physics and Electronics</orgName>
+								<orgName type="laboratory">Hunan Key Laboratory for Super-Microstructure and Ultrafast Process</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff17">
+								<orgName type="department">Collage of Physics and Electronics</orgName>
+								<orgName type="laboratory">Hunan Key Laboratory for Super-microstructure and Ultrafast Process</orgName>
+								<orgName type="institution">Central South University</orgName>
+								<address>
+									<postCode>410012</postCode>
+									<settlement>Changsha</settlement>
+									<region>Hunan</region>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff27">
+								<orgName type="department">College of Physics and Electronics</orgName>
+								<orgName type="laboratory">Hunan Key Laboratory for Super-Microstructure and Ultrafast Process</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yongli</forename><surname>Gao</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">College of Physics and Electronics</orgName>
+								<orgName type="laboratory">Hunan Key Laboratory for Super-Microstructure and Ultrafast Process</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">Department of Physics and Astronomy</orgName>
+								<orgName type="institution">Central South University</orgName>
+								<address>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff17">
+								<orgName type="department">Collage of Physics and Electronics</orgName>
+								<orgName type="laboratory">Hunan Key Laboratory for Super-microstructure and Ultrafast Process</orgName>
+								<orgName type="institution">Central South University</orgName>
+								<address>
+									<postCode>410012</postCode>
+									<settlement>Changsha</settlement>
+									<region>Hunan</region>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff18">
+								<orgName type="department">Department of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Rochester</orgName>
+								<address>
+									<postCode>14627</postCode>
+									<settlement>Rochester</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff27">
+								<orgName type="department">College of Physics and Electronics</orgName>
+								<orgName type="laboratory">Hunan Key Laboratory for Super-Microstructure and Ultrafast Process</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff28">
+								<orgName type="department">Department of Physics and Astronomy</orgName>
+								<orgName type="institution">Central South University</orgName>
+								<address>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yang</forename><surname>Bai</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Center for Computational Energy Research</orgName>
+								<orgName type="department" key="dep2">Applied Physics</orgName>
+								<orgName type="laboratory">Experimental Center for Advanced Materials</orgName>
+								<orgName type="institution">Eindhoven University of Technology</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff13">
+								<orgName type="department" key="dep1">Experimental Center for Advanced Materials</orgName>
+								<orgName type="department" key="dep2">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff23">
+								<orgName type="department" key="dep1">Center for Computational Energy Research</orgName>
+								<orgName type="department" key="dep2">Applied Physics</orgName>
+								<orgName type="laboratory">Experimental Center for Advanced Materials</orgName>
+								<orgName type="institution">Eindhoven University of Technology</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shihe</forename><surname>Yang</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Center for Computational Energy Research</orgName>
+								<orgName type="institution" key="instit2">DIFFER-Dutch Institute for Fundamental Energy Research</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="institution">University of Rochester</orgName>
+								<address>
+									<settlement>Rochester</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff15">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">The Hong Kong University of Science and Technology</orgName>
+								<address>
+									<addrLine>Clear Water Bay</addrLine>
+									<settlement>Kowloon Hong Kong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff19">
+								<orgName type="department" key="dep1">School of Chemical Biology and Biotechnology</orgName>
+								<orgName type="department" key="dep2">Shenzhen Graduate School</orgName>
+								<orgName type="institution" key="instit1">Guangdong Key Lab of Nano-Micro Material Research</orgName>
+								<orgName type="institution" key="instit2">Peking University</orgName>
+								<orgName type="institution" key="instit3">Xili University Town</orgName>
+								<address>
+									<postCode>518055</postCode>
+									<settlement>Shenzhen Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff25">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution" key="instit1">Center for Computational Energy Research</orgName>
+								<orgName type="institution" key="instit2">DIFFER-Dutch Institute for Fundamental Energy Research</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff29">
+								<orgName type="institution">University of Rochester</orgName>
+								<address>
+									<settlement>Rochester</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Geert</forename><surname>Brocks</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Materials Science and Engineering</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="laboratory">Laboratory of Polymer Chemistry and Physics of Ministry of Education</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="department" key="dep1">School of Chemical Biology and Biotechnology</orgName>
+								<orgName type="department" key="dep2">Shenzhen Graduate School</orgName>
+								<orgName type="institution" key="instit1">Guangdong Key Lab of Nano-Micro Material Research</orgName>
+								<orgName type="institution" key="instit2">Peking University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff12">
+								<orgName type="department" key="dep1">Center for Computational Energy Research</orgName>
+								<orgName type="department" key="dep2">Applied Physics</orgName>
+								<orgName type="institution">Eindhoven University of Technology</orgName>
+								<address>
+									<addrLine>5600MB</addrLine>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff20">
+								<orgName type="department" key="dep1">Faculty of Science and Technology</orgName>
+								<orgName type="department" key="dep2">MESA + Institute for Nanotechnology</orgName>
+								<orgName type="institution" key="instit1">Computational Materials Science</orgName>
+								<orgName type="institution" key="instit2">University of Twente</orgName>
+								<address>
+									<postCode>7500 AE</postCode>
+									<settlement>Enschede</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff22">
+								<orgName type="department" key="dep1">Department of Materials Science and Engineering</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="laboratory">Laboratory of Polymer Chemistry and Physics of Ministry of Education</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff30">
+								<orgName type="department" key="dep1">School of Chemical Biology and Biotechnology</orgName>
+								<orgName type="department" key="dep2">Shenzhen Graduate School</orgName>
+								<orgName type="institution" key="instit1">Guangdong Key Lab of Nano-Micro Material Research</orgName>
+								<orgName type="institution" key="instit2">Peking University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Qi</forename><surname>Chen</surname></persName>
+							<idno type="ORCID">0000-0002-9647-5873</idno>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Center for Computational Energy Research</orgName>
+								<orgName type="department" key="dep2">Applied Physics</orgName>
+								<orgName type="laboratory">Experimental Center for Advanced Materials</orgName>
+								<orgName type="institution">Eindhoven University of Technology</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff13">
+								<orgName type="department" key="dep1">Experimental Center for Advanced Materials</orgName>
+								<orgName type="department" key="dep2">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff23">
+								<orgName type="department" key="dep1">Center for Computational Energy Research</orgName>
+								<orgName type="department" key="dep2">Applied Physics</orgName>
+								<orgName type="laboratory">Experimental Center for Advanced Materials</orgName>
+								<orgName type="institution">Eindhoven University of Technology</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Huanping</forename><surname>Zhou</surname></persName>
+							<idno type="ORCID">0000-0002-0070-5540</idno>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Faculty of Science and Technology and MESA+ Institute for Nanotechnology</orgName>
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials, Key Laboratory of Polymer Chemistry and Physics of Ministry of Education</orgName>
+								<orgName type="institution" key="instit1">Computational Materials Science</orgName>
+								<orgName type="institution" key="instit2">University of Twente</orgName>
+								<address>
+									<settlement>Enschede</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff21">
+								<orgName type="laboratory">Beijing Key Laboratory for Theory and Technology of Advanced Battery Materials</orgName>
+								<address>
+									<settlement>Key</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff11">
+								<orgName type="department" key="dep1">Department of Materials Science and Engineering</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff31">
+								<orgName type="department">Faculty of Science and Technology and MESA+ Institute for Nanotechnology</orgName>
+								<orgName type="institution" key="instit1">Computational Materials Science</orgName>
+								<orgName type="institution" key="instit2">University of Twente</orgName>
+								<address>
+									<settlement>Enschede</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Cation and anion immobilization through chemical bonding enhancement with fluorides for stable halide perovskite solar cells</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-05-13">13 May 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">04DCD4FE14E60B25755F8EFA69140EC6</idno>
+					<idno type="DOI">10.1038/s41560-019-0382-6</idno>
+					<note type="submission">Received: 2 August 2018; Accepted: 27 March 2019;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T17:55+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Nature Research wishes to improve the reproducibility of the work that we publish. This form is intended for publication with all accepted papers reporting the characterization of photovoltaic devices and provides structure for consistency and transparency in reporting. Some list items might not apply to an individual manuscript, but all fields must be completed for clarity.</p><p>For further information on Nature Research policies, including our data availability policy, see Authors &amp; Referees.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental design</head><p>Please check: are the following details reported in the manuscript?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Dimensions</head><p>Area of the tested solar cells Yes No The area of the tested solar cells is 0.09408 cm2 (Methods, Material Characterization) Method used to determine the device area Yes No The active area was determined by the shading mask which certified by National Institute of Metrology, China (Methods, Material Characterization) 2. Current-voltage characterization Current density-voltage (J-V) plots in both forward and backward direction Yes No Figure 4b, Supplementary Figure 12 and Table 1 Voltage scan conditions For instance: scan direction, speed, dwell times Yes No JV curves were measured by reverse scan (1.2 V to -0.2 V) and forward scan (-0.2 V to 1.2 V) with a scanning rate of 100 mV/s (voltage step of 10 mV and delay time of 100 ms) (Main text) Test environment For instance: characterization temperature, in air or in glove box Yes No Performance measurements were carried in both nitrogen and air ambient environments (Main text) Protocol for preconditioning of the device before its characterization Yes No No preconditioning was used Stability of the J-V characteristic Verified with time evolution of the maximum power point or with the photocurrent at maximum power point; see ref. 7 for details.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>No tandem cells reported in this manuscript</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Calibration</head><p>Light source and reference cell or sensor used for the characterization</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>Newport Thermal Oriel 91192 1000 W solar simulator is used for the measurements (Methods, Material Characterization)</p><p>Confirmation that the reference cell was calibrated and certified</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>The light intensity was calibrated by reference solar cell by Newport</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Figure <ref type="figure" target="#fig_6">4</ref>, the mean diameter of PbI2-dimethyl sulfoxide (DMSO) complexes in the reference is measured to be 334.3 nm, while in the case NaF is added, the PbI2-DMSO complex diameter increases to 455.8 nm. We speculate that the stronger interaction between PbI2 and F leads to larger colloidal particles. Interestingly, the morphology of PbI2 films (Supplementary Figure <ref type="figure" target="#fig_7">5</ref>) is also modified by NaF. Larger PbI2 crystals are formed if NaF is added, and the PbI2 film has a larger number of voids per unit volume, regardless of the annealing process. We attribute the increased void density to the inhomogeneity of the PbI2 precursor solution, caused by larger PbI2 colloidal particle sizes with the introduction of NaF. Such a "porous PbI2" film with larger grain size obtained by NaF addition may possess fewer nucleation sites, resulting in a reduced nucleation rate during perovskite formation. Hence the slower nucleation rate in a PbI2 film in the presence of NaF, results in a larger grain size in the perovskite film, if the growth rate is fixed, consistent with other reports <ref type="bibr">3</ref> . perovskite semiconductor, the defect activation energy (Ea) can be calculated by the trap state energy level (ET) and the perovskite VBM energy level (EVBM) (Ea = ET -EVBM). Ea and the characteristic transition angular frequency (ω0) can be formulated in the following equation: ω0 = βT 2 exp(-</p><formula xml:id="formula_0">𝐸 𝑎 𝑘 𝐵 𝑇</formula><p>), where β is a temperature dependent parameter, T is the temperature and kB is the Boltzmann's constant. The derivative of the capacitance spectrum can be used to determine ω0. According to this relation, the value of Ea can be obtained from the slope of the graph by fitting the Arrhenius formula: ln( ), where Vbi is the builtin potential, W is the depletion width, q is the elementary charge, C is the capacitance, and ω is the applied angular frequency. The Mott-Schottky junction was obtained by capacitancevoltage measurement, which was analyzed to obtain Vbi and W. According to the depletion approximation <ref type="bibr">12</ref> , the C, Vbi, and W at the junction can be expressed in the relation： , where A is the active area, ε is the static permittivity of perovskite, ε0 is the permittivity of free space, N is the apparent doping profile in the depleted layer, and V is the applied bias. A Mott-Schottky plot ： O rganic-inorganic halide perovskites (ABX 3 , where A is an organic cation, such as methylamine (MA) or formamidine (FA); B is lead or tin; X is a halide ion) have emerged as exciting new materials for solar cells due to their unique combination of properties, such as strong light absorption 1 , superb charge carrier mobility <ref type="bibr">2</ref> and low-cost fabrication <ref type="bibr">3</ref> . Power conversion efficiencies (PCEs) of perovskite solar cells (PSCs) have risen from 3.8% to a certified 23.7% <ref type="bibr">1,</ref><ref type="bibr">[4]</ref><ref type="bibr">[5]</ref><ref type="bibr">[6]</ref><ref type="bibr">[7]</ref><ref type="bibr">[8]</ref><ref type="bibr">[9]</ref><ref type="bibr">[10]</ref> , close to that of crystalline silicon solar cells. In spite of the unparalleled growth in photovoltaic performance, the industrial application of PSCs is hampered by instability issues. One of the main sources of the instability is the defect chemistry of perovskites. In particular, owing to the ionic nature of perovskite materials <ref type="bibr">11</ref> , as well as their solution-based fabrication processes, numerous defects are formed at the surfaces and grain boundaries of polycrystalline perovskite films <ref type="bibr">[12]</ref><ref type="bibr">[13]</ref><ref type="bibr">[14]</ref><ref type="bibr">[15]</ref> . In particular, point defects such as halide anion vacancies and organic cation vacancies are easily produced in perovskite materials due to their low formation energies <ref type="bibr">[16]</ref><ref type="bibr">[17]</ref><ref type="bibr" target="#b34">[18]</ref> . Although these defects mostly create shallow electronic levels near the band edges <ref type="bibr">8,</ref><ref type="bibr" target="#b35">19</ref> , they still have profound unwanted effects on carrier dynamics and the I-V hysteresis of PSCs <ref type="bibr" target="#b36">[20]</ref><ref type="bibr" target="#b37">[21]</ref><ref type="bibr" target="#b38">[22]</ref><ref type="bibr" target="#b39">[23]</ref> . Even more importantly, such defects are believed to play an important role in the chemical degradation of the perovskite material and of the interfaces with the charge transport layers, leading to long-term instability of the PSCs <ref type="bibr" target="#b40">[24]</ref><ref type="bibr" target="#b41">[25]</ref><ref type="bibr" target="#b42">[26]</ref><ref type="bibr" target="#b43">[27]</ref> . Ion vacancies diffuse into the crystallites, and promote the diffusion of cations and anions to the surfaces and grain boundaries. Decomposition reactions at these locations, such as evaporation of the organic species MA or FA, then lead to degradation of the material. Therefore, control and mitigation of the number of organic cation or halide anion vacancies has become an important research direction towards more efficient and stable PSCs.</p><p>As organic components such as MA or FA easily evaporate from the surface during the thermal annealing process <ref type="bibr">11,</ref><ref type="bibr" target="#b44">28</ref> , thereby creating organic cation vacancies, one way to suppress the formation of such vacancies is to use excess MA/FA during or after the perovskite annealing process <ref type="bibr" target="#b45">29</ref> . Another approach to prevent the formation of organic cation vacancies is to create a two-dimensional layered structure by introducing a small amount of larger organic molecules, such as phenethylamine, polyethylenimine and trifluoroethylamine, which are difficult to evaporate <ref type="bibr" target="#b46">30</ref> . Similar methods have also been reported to be effective for passivating or suppressing halide anion vacancies <ref type="bibr">8,</ref><ref type="bibr" target="#b47">31,</ref><ref type="bibr" target="#b48">32</ref> . Previously, iodide ions have been introduced into the organic cation solution, which decreases the concentration of iodide vacancies <ref type="bibr">8</ref> . Elsewhere, guanidinium, an organic ion that probably forms hydrogen bonds, has been used to suppress the formation of iodide vacancies <ref type="bibr" target="#b47">31</ref> . Addition of KI to perovskites has also demonstrated a positive effect of small alkali ions on Defects play an important role in the degradation processes of hybrid halide perovskite absorbers, impeding their application for solar cells. Among all defects, halide anion and organic cation vacancies are ubiquitous, promoting ion diffusion and leading to thin-film decomposition at surfaces and grain boundaries. Here, we employ fluoride to simultaneously passivate both anion and cation vacancies, by taking advantage of the extremely high electronegativity of fluoride. We obtain a power conversion efficiency of 21.46% (and a certified 21.3%-efficient cell) in a device based on the caesium, methylammonium (MA) and formamidinium (FA) triple-cation perovskite (Cs 0.05 FA 0.54 MA 0.41 )Pb(I 0.98 Br 0.02 ) 3 treated with sodium fluoride. The device retains 90% of its original power conversion efficiency after 1,000 h of operation at the maximum power point. With the help of firstprinciples density functional theory calculations, we argue that the fluoride ions suppress the formation of halide anion and organic cation vacancies, through a unique strengthening of the chemical bonds with the surrounding lead and organic cations. passivating I -vacancies, which consequently improves the efficiency and stability of PSCs <ref type="bibr" target="#b49">[33]</ref><ref type="bibr" target="#b50">[34]</ref><ref type="bibr" target="#b51">[35]</ref> . In addition, small ions (Cl and Cd) were doped into the perovskite lattice to suppress the formation of halide vacancies via lattice strain relaxation <ref type="bibr" target="#b42">26</ref> . Although significant advances have been made in defect engineering of the bulk and grain boundaries of perovskites, most strategies focus on passivating or preventing only one type of defect, either the organic cation or the halide anion vacancy. Only recently, choline chloride was used to passivate both positive and negative charged defects by quaternary ammonium and halide ions <ref type="bibr">11</ref> . This 'charged components compensation' provides a possible method of multi-vacancy defects passivation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cation and anion immobilization through chemical bonding enhancement with fluorides for stable halide perovskite solar cells</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nengxu Li</head><p>Here we report a chemical bonding modulation of perovskite films by tuning the bond strength of the additives with the perovskites. We start from the state-of-the-art triple-cation perovskite (Cs 0.05 FA 0.54 MA 0.41 )Pb(I 0.98 Br 0.02 ) 3 absorber and add a small amount of alkali halide, NaX (X = I, Br, Cl or F), using a twostep solution process (for details, see Methods). Although all alkali halides improve the quality of the perovskite, the fluoride-containing material gives by far the best performance. Planar n-i-p solar cells made on the basis of the fluoride-containing perovskite yield a PCE of 21.46% (and a certified 21.3%-efficient solar cell). More importantly, non-encapsulated PSCs using the fluoride-containing materials exhibit an excellent long-term stability. They retain 90% of their original PCE after 1,000 h of continuous illumination under maximum power point (MPP) operating conditions, or under thermal stress of 85 °C. From results obtained with a wide range of experimental characterization techniques and density functional theory (DFT) calculations, we argue that the fluoride ions are very effective in passivating both the organic cation and halide anion vacancies by forming strong hydrogen bonds (N-H•••F) with organic cations (MA/FA) and strong ionic bonds with lead in the perovskite films.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Properties of CsFaMa-X films</head><p>Passing through the halide series I, Br, Cl and F (Fig. <ref type="figure" target="#fig_3">1a</ref>), the electronegativity increases and the ionic radius becomes smaller. This leads to an increased chemical bonding between the halide anions with the A and B cations. In the following, we first compare the properties of the (Cs 0.05 FA 0.54 MA 0.41 )Pb(I 0.98 Br 0.02 ) 3 perovskite, modified by adding 0.1% NaX (X = I, Br, Cl, or F), to those of the unmodified perovskite as a reference. We denote the reference perovskite as 'CsFAMA' and the NaX-containing perovskite as 'CsFAMA-X' .</p><p>Figure <ref type="figure" target="#fig_3">1b</ref> shows the reflectance micro-Fourier transform infrared spectra of CsFAMA and CsFAMA-X films. Compared to the reference CsFAMA, the spectrum of the CsFAMA-F film shows a substantial shift of the N-H vibration modes (3,500-3,350 cm -1 ) towards a lower wavenumber. This kind of shift is absent in the CsFAMA-X (X = I, Br, Cl) samples. We attribute this shift to the formation of hydrogen bonds N-H•••F between the FA/MA and F species <ref type="bibr" target="#b52">36</ref> . This hydrogen bond results in a delocalization of the electronic cloud of the N-H bond. It weakens the N-H chemical bond, which decreases the corresponding vibrational frequency. Our solid-state 1 H NMR measurements also confirm the formation of hydrogen bonds between the fluoride and the MA ions, as evidenced by the larger chemical shift of NH 3 protons in the CsFAMA-F sample (Supplementary Fig. <ref type="figure" target="#fig_3">1</ref>). These experimental findings are supported by DFT calculations (Supplementary Fig. <ref type="figure" target="#fig_4">2</ref>). Our calculations show that the presence of a fluoride ion at the surface induces the reorientation of several adjacent FA cations, and the formation of N-H•••F hydrogen bonds. As a result, the stretching modes of the corresponding N-H groups shift to lower frequencies. Averaged over the stretching modes of all N-H groups of the affected FA ions, this leads to an overall shift of 63 cm -1 . DFT results also indicate that the inclusion of a sodium ion has negligible effects on these vibration modes, confirming that fluoride is responsible for the change in the vibration dynamics of the FA cations. As we will discuss later, the strong fluoride-organic cation interaction significantly stabilizes the perovskite surface and suppresses the formation of organic cation vacancies.</p><p>The effects of NaX additives on the optical properties and the structure of the perovskite thin films are carefully investigated by a range of techniques. The bandgap of the CsFAMA-X films is the same as that of the reference CsFAMA, according to ultraviolet-visible and photoluminescence (PL) spectra (Fig. <ref type="figure" target="#fig_3">1c</ref>). Neither shifts in the peaks, nor new peaks are observed in the X-ray diffraction patterns (Supplementary Fig. <ref type="figure" target="#fig_5">3</ref>), indicating that addition of NaX does not alter the crystal structure of the perovskite films. Whereas these basic optical and crystal structural properties of all CsFAMA-X films are similar, time-resolved PL (TRPL) results (Fig. <ref type="figure" target="#fig_3">1d</ref> and Supplementary Table <ref type="table" target="#tab_1">1</ref>) reveal an important difference in the lifetime of free charge carriers between the CsFAMA and the CsFAMA-X films. The CsFAMA-F sample exhibits carrier lifetimes (τ 1 : 97.16 ns, τ 2 : 401.64 ns) that are much longer than those of the CsFAMA reference (τ 1 : 30.82 ns, τ 2 : 193.29 ns). In contrast, the carrier lifetimes of the other CsFAMA-X (X = I, Br, Cl) samples are much closer to those of the reference. This implies that non-radiative recombination is effectively suppressed by the addition of fluoride.</p><p>It should be noted here that another difference between the CsFAMA-X films can be found from field-emission scanning electron microscopy (FE-SEM) images (Fig. <ref type="figure" target="#fig_3">1f</ref>). We observe that CsFAMA-Cl and CsFAMA-F films exhibit a slightly larger grain size than that of CsFAMA-Br and CsFAMA-I, which is probably due to the fact that the chloride and fluoride may influence the crystal nucleation and crystallization kinetics of perovskites (Supplementary Figs. <ref type="figure" target="#fig_6">4</ref> and<ref type="figure" target="#fig_7">5</ref>). As shown from the TRPL results above and thermal stability properties in the following paragraph, the effect of the NaF additive is much more pronounced than that of NaCl, implying that the larger grain size, while a contributing factor, does not explain all of the improvements found in CsFAMA-F films.</p><p>We explore the thermal stability of the perovskite films by maintaining them at 85 ο C in a nitrogen atmosphere, followed by a thermal annealing at 100 °C in air. During these ageing tests, we monitor the relative content of PbI 2 via X-ray diffraction patterns (Supplementary Fig. <ref type="figure" target="#fig_5">3</ref>), given that PbI 2 is one of the known decomposition products of perovskites. Figure <ref type="figure" target="#fig_3">1e</ref> summarizes the relative X-ray diffraction intensity of PbI 2 and perovskite in the films. Clearly the CsFAMA-F film has a much lower PbI 2 content than all of the other films, which confirms the outstanding thermal stability of this material. The main degradation reactions caused by thermal stress are the deprotonation and desorption of volatile organic cations <ref type="bibr" target="#b53">37</ref> . The improvement in thermal stability observed in the CsFAMA-F sample is attributed to the hydrogen bonds between the fluoride and MA/FA ions inhibiting the diffusion and dissociation of organic cations.</p><p>In short, of the halide salts studied, NaF enables the greatest improvements in terms of thermal stability and carrier lifetimes in CsFAMA perovskites. Therefore, in the following, we focus on CsFAMA-F and the role played by the fluoride in the context of photovoltaics performance of solar cells made with this material. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Possible location of fluoride and its passivation effects</head><p>To investigate the presence and distribution of NaF in the perovskite film, time-of-flight secondary-ion mass spectroscopy (ToF-SIMS) is employed to probe the depth profiles of the atomic species in the CsFAMA-F perovskite sample (Fig. <ref type="figure" target="#fig_4">2a</ref>). The maximum signals of Na and F are observed on the surface of the perovskite thin film and at the perovskite/ITO interface. Nevertheless, signals with appreciable intensity are observed along the entire film thickness. The presence of NaF in the film is also confirmed by the energy-dispersive X-ray spectroscopy results, as shown in Supplementary Fig. <ref type="figure">6</ref>. As no significant peak shifts are observed in X-ray diffraction results, it rules out the possibility of NaF entering the CsFAMA crystal lattice (Supplementary Fig. <ref type="figure" target="#fig_5">3</ref>). As analysed above, we therefore suggest that NaF is indeed in the film, possibly concentrated at the surface, as illustrated by Fig. <ref type="figure" target="#fig_4">2b</ref>.</p><p>To probe the effect of NaF at the surface of the perovskite film, we apply scanning Kelvin probe microscopy <ref type="bibr" target="#b54">38,</ref><ref type="bibr" target="#b55">39</ref> , and combine a threedimensional spatial map of the topography and a map of the surface potential. In the reference sample (CsFAMA), the surface potential at the boundaries of the grains is 40 mV higher than in the middle of the grains (see Fig. <ref type="figure" target="#fig_4">2c</ref>). In the CsFAMA-F sample (Fig. <ref type="figure" target="#fig_4">2d</ref>), this surface potential difference is only about 20 mV. We conclude that NaF modifies the surface potential (Supplementary Fig. <ref type="figure">7</ref>), which further suggests that NaF species are probably located at the surface.</p><p>To gather more atomistic information regarding the possible location of NaF and its effect on the stability of the perovskite, we calculate the relative energies of incorporation of Na and F ions in the bulk and on surfaces, using DFT. The Na ion is found to be more stable on surfaces than in the bulk by 0.2 to 0.3 eV. On both FAI-and PbI 2 -terminated surfaces, Na preferentially occupies an interstitial site, rather than an A site (Supplementary Fig. <ref type="figure">8</ref>). A detailed chemical analysis (Fig. <ref type="figure" target="#fig_5">3c</ref>) shows that incorporation of a Na ion increases the ionic charge on the nearby I ions. It indicates that Na may play a role in suppressing the diffusion of halide ions.</p><p>We find that incorporating a F ion into the perovskite lattice is extremely difficult, and it has a strong preference for staying at the surface. By far the most energetically favourable position of a F ion is substitution of an I ion at an FAI-terminated surface. Positions of F ions either in the perovskite bulk, or in a PbI 2 -terminated surface, have an energy that is about 3.5 eV higher (Supplementary Fig. <ref type="figure">9</ref>). The size mismatch between I and F ions probably prevents the latter from being incorporated comfortably inside the perovskite lattice, as it would induce too much strain. This is avoided by incorporating F ions on the FAI surface.</p><p>However, the incorporation of F ions on the FAI surface changes the local bonding at the surface and subsurface layers. The most dramatic change is that the FA cations surrounding a F site reorient towards the F ion, in such a way as to maximize their interactions with this ion (Fig. <ref type="figure" target="#fig_5">3a,</ref><ref type="figure">b</ref>). This is in agreement with the N-H vibration mode analysis discussed above (Fig. <ref type="figure" target="#fig_3">1b</ref> and Supplementary Fig. <ref type="figure" target="#fig_4">2</ref>), supporting the finding that FA ions closest to a F site form hydrogen bonds with the F ion. In addition, the ionic charge on the Pb ions surrounding a F site also increases (Fig. <ref type="figure" target="#fig_5">3c</ref>), indicating that the F ions form stronger ionic bonds. In summary, the introduction of F at FAI-terminated surfaces stabilizes the local structure via increased bonding with Pb, and via hydrogen bonds with FA ions.</p><p>To further elucidate the effect of incorporation of F ions, we calculate the formation energies of FA cation vacancies on the surface of the clean perovskite, and that on the surfaces incorporated with NaI or NaF species (Fig. <ref type="figure" target="#fig_5">3d</ref> and Supplementary Fig. <ref type="figure" target="#fig_3">10</ref>). Whereas the FA vacancy formation energy close to a NaI species increases by a mere 0.12 eV, compared to the pristine perovskite, close to a F ion it increases by a sizeable 0.55 eV. The presence of F therefore significantly prevents the formation of FA vacancies at the surface. This result supports the excellent thermal stability of the CsFAMA-X perovskite films (Fig. <ref type="figure" target="#fig_3">1e</ref>), where the creation of organic cation vacancies is typically believed to be responsible for the degradation of the perovskites under thermal stress.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Solar cell performance</head><p>To investigate the photovoltaics performance based on our improved material, we fabricate n-i-p planar PSCs using CsFAMA and CsFAMA-F perovskites as the absorbers. The cross-sectional SEM image in Fig. <ref type="figure" target="#fig_6">4a</ref> shows the device structure, which comprises an ITO glass substrate covered by a 50-nm-thick SnO 2 electron transport layer. On top of that we deposit a 600-nm-thick perovskite film, covered with a layer of Spiro-OMeTAD as the hole transport layer (200 nm), and an 80-nm-thick gold electrode as the back contact.</p><p>As summarized in Table <ref type="table" target="#tab_1">1</ref> and shown in Fig. <ref type="figure" target="#fig_6">4b</ref>, the CsFAMA-F cells give rise to a PCE of 21.46% (average value from reverse and forward scan results) with negligible J-V hysteresis. This is to be compared to the reference CsFAMA with an average PCE of 19.03% with moderate J-V hysteresis. Examples of CsFAMA and CaFAMA-X cells with stabilized PCEs of 19.37% and 20.96%, respectively, are shown in Fig. <ref type="figure" target="#fig_6">4c</ref>. The statistics of 60 devices with or without NaF are shown in Supplementary Fig. <ref type="figure" target="#fig_3">11</ref> and Supplementary Table <ref type="table">2</ref>. The average PCEs for the CsFAMA and CaFAMA-F devices are 18.86% and 20.56%, respectively. The short-circuit current density (J sc ) increases only slightly in CsFAMA-F cells (the spectral responses of the external quantum efficiency of these devices are shown in Supplementary Fig. <ref type="figure" target="#fig_5">13</ref>), while the most dramatic enhancement is found in the open-circuit voltage (V oc ) and fill factor (FF). We attribute this improvement to the immobilization of mobile ions and vacancy defects such as iodide and MA (FA) due to the incorporation of fluoride ions. The best CsFAMA-F device has been certified by a third party (Supplementary Fig. <ref type="figure" target="#fig_4">12</ref>). The certified PCEs are 21.7% under the reverse scan direction (1.2 to -0.1 V) and 20.8% under the forward scan direction (-0.1 to 1.2 V), with a slow scan rate (33 mV s -1 ) under AM1.5G full-sun illumination (1,000 W m -2 ). This certified efficiency of 21.3% (average value from certified reverse and forward scan results) agrees well with measured performances in our own laboratory.</p><p>To examine the effects of incorporation of NaF on the defects in the perovskite absorber, we use admittance spectroscopy, and conduct a Mott-Schottky analysis to analyse the defects profile. We first conduct temperature-dependent admittance spectroscopy measurements on the CsFAMA and CsFAMA-F devices with the temperature rising from 210 to 350 K without illumination (Supplementary Fig. <ref type="figure" target="#fig_6">14a,</ref><ref type="figure">b</ref>). Subsequently, the defect activation energies (E a ) in the CsFAMA and CsFAMA-F samples are calculated to be 0.275 and 0.201 eV, respectively (Fig. <ref type="figure" target="#fig_6">4d</ref>). The trap density-of-states distribution and their energy levels are presented in Fig. <ref type="figure" target="#fig_6">4e</ref>. Incorporation of fluoride effectively reduces the energy level of trap states from 0.26 to 0.18 eV, as well as their density of states from 22.4 × 10 15 to 14.9 × 10 15 cm -3 eV -1 .</p><p>We have further carried out PL quantum efficiency (PLQE) measurements. Figure <ref type="figure" target="#fig_6">4f</ref> shows that the CsFAMA-F sample has a higher PLQE compared to the CsFAMA sample. Moreover, its PLQE increases more rapidly with increasing laser intensity. Spacecharge-limited current measurements, transient photovoltage, transient photocurrent decay experiments and ultraviolet photoelectron spectroscopy (UPS) measurements all show agreement with our finding that NaF effectively passivates electronic defects in PSCs, which is responsible for the improved PCE (see Supplementary Notes 11-13 and Supplementary Figs. 15-17).  To establish the stability of our improved CsFAMA-F material, we carry out a series of investigations on unencapsulated devices. The results of stability tests under continuous one-sun illumination, or at a fixed temperature of 85 °C in a nitrogen atmosphere, are shown in Fig. <ref type="figure" target="#fig_7">5a,</ref><ref type="figure">b</ref>. The photo-stability of CsFAMA-F-based cells is superior to that of the reference cells, maintaining 95% of their original PCE after 1,000 h of illumination. As shown in Fig. <ref type="figure" target="#fig_7">5b</ref>, the thermal stability of F-containing devices shows an even more significant improvement. The CsFAMA-F-based devices retain 90% of their initial PCE after annealing at 85 °C for 1,000 h, while CsFAMA PSCs retain only 50% of their initial PCE. We attribute this to the excellent thermal stability of NaF-containing perovskite films (Fig. <ref type="figure" target="#fig_3">1e</ref>).</p><p>In addition, we probe the storage lifetime of devices in an environment with humidity of about 25%-45% at a temperature of about 25-40 °C (Fig. <ref type="figure" target="#fig_7">5c</ref>). The evolution of the normalized PCE shows that CsFAMA-F cells exhibit a significantly improved long-term stability, retaining 90% of their original PCE after over 6,000 h of storage in ambient air.</p><p>Most importantly, we investigate the operational stability of unencapsulated devices under MPP tracking with a continuous one-sun irradiation in a nitrogen atmosphere (Fig. <ref type="figure" target="#fig_7">5d</ref>). The reference cells show a rapid loss of PCE (below 40% of the original PCE after working for 600 h), while the CsFAMA-F cell exhibits a long lifetime, retaining over 90% of its initial PCE after 1,000 h. In addition, we also investigate the operational stability of unencapsulated PSCs under MPP tracking with continuous light irradiation (solar simulator source, 100 mW cm -2 ) in air (Supplementary Fig. <ref type="figure" target="#fig_3">18</ref>). It can be found that CsFAMA-F PSCs exhibit superior stability performance compared with reference cells (CsFAMA): the CsFAMA-F cells retain 85% of their PCE after 350 min, while the PCE of the CsFAMA reference cells drops below 60% in less than 50 min, which further confirms that the incorporation of NaF in the perovskite film brought about remarkable improvements in the long-term stability of PSCs.</p><p>It is important to emphasize that the effect of NaF is different from that of other sodium halides NaX (X = Cl, Br, I). To demonstrate this, we fabricate PSCs based on CsFAMA absorbers treated with other sodium halides. The corresponding PCEs are then slightly improved compared to the untreated CsFAMA (Supplementary Fig. <ref type="figure" target="#fig_3">19a</ref>), which is in line with other reports <ref type="bibr" target="#b56">40</ref> . However, these devices exhibit an obvious J-V hysteresis (larger hysteresis index), while the NaF-containing devices show an almost negligible J-V hysteresis (Supplementary Fig. <ref type="figure" target="#fig_3">19b</ref>). It is possible that the Na ion can penetrate the perovskite film under an external bias because of its small size 34 (about 0.102 nm). Mobile ions and their accumulation at interfaces are reported to be responsible for the J-V hysteresis <ref type="bibr" target="#b57">41</ref> . When using NaF, however, Na is bonded more closely to F, and is therefore localized mostly. The above analysis emphasizes the uniqueness of fluoride to immobilize the counter ions, as compared to other halides.</p><p>To test the generality of these findings, we also consider the use of KF as an additive. We fabricate KF-containing PSCs (CsFAMA-K), using the same procedure as for NaF-containing PSCs (CsFAMA-Na). Supplementary Fig. <ref type="figure" target="#fig_4">20</ref> shows that KF-containing PSCs exhibit almost the same PCE as NaF-containing PSCs. In addition, both KF-and NaF-containing PSCs show negligible hysteresis, indicating that KF is also effective in passivating both anions and cations for efficient and stable PSC devices. The analysis above highlights the fact that fluoride ions are desirable for both chemical and electronic passivation in perovskites, and can be combined with a number of alkali metals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>In summary, we have explored an effective approach for simultaneous passivation of both the cation and anion vacancy defects in perovskite materials via chemical bonding enhancement, to improve the efficiency and stability of PSCs. By adding NaF to the triple-cation perovskite absorber, we obtain a PCE of 21.46% (and a certified efficiency of 21.3%) in planar PSCs, which is among the top efficiencies for this type of solar cells. Without any encapsulation, these solar cells exhibit remarkable long-term stability, retaining 90% of their original PCE after 1,000 h under MPP operation conditions at continuous illumination. The addition of NaF also results in a superb thermal and environmental stability of materials as well as devices. It is found that NaF is indeed present in the perovskite film and forms hydrogen bonds with organic cations within the perovskite crystals, which effectively retards the diffusion of these cations and their dissociation. Fluoride ions also increase the ionic bonding, thus immobilizing both organic cations and halide anions. Passivating the surfaces and grain boundaries through increased chemical bonding, the fluoride ions effectively block the materials degradation pathway at the corresponding interfaces. The present passivation approach that makes use of the high electronegativity of F is generally applicable for improving the stability of perovskite materials by suppressing the formation of halide anion and organic cation vacancies. These findings provide a new approach to the fabrication of highly efficient and stable PSCs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Materials. Materials used in experiments include PbI 2 (99.999%, Sigma-Aldrich), CsI (99.9%, Sigma-Aldrich), NaF (AR 98%, Aladdin Industrial Corporation), spiro-OMeTAD (Lumtec), SnO 2 colloid precursor (Alfa Aesar, tin(iv) oxide, 15% in H 2 O colloidal dispersion), N,N-dimethylformamide (DMF; 99.99%, Sigma-Aldrich), dimethylsulfoxide (DMSO; 99.5%, Sigma-Aldrich), isopropanol (99.99%, Sigma-Aldrich), chlorobenzene (99.9%, Sigma-Aldrich), acetone (AR Beijing Chemical Works), ethanol (AR Beijing Chemical Works), aminomethane (CP Beijing Chemical Works), hydrogen iodide (57%, Aladdin Industrial Corporation) and ITO substrate (Shanghai B-Tree Tech. Consult.).</p><p>MAX (MAI, MACl, MABr) and FAI were synthesized using the methods reported previously <ref type="bibr" target="#b58">42</ref> . The details are as follows: 16 ml methylamine water solution (0.1 mol) was added to a 100 ml three-neck flask immersed in a water/ice bath. A certain amount (0.1 mol) of HX acid was slowly dropped into the bottle with continuous stirring. The mixture was refluxed for 2 h under a N 2 atmosphere. Subsequently, the solution was concentrated to a dry solid by using rotary evaporation at 80 °C. This crude product was re-dissolved into 20 ml ethanol, then 100 μl diethyl ether was slowly dropped along the bottle wall and a white product deposited. This recrystallization was repeated three times, and the obtained precipitate was dried in a vacuum oven for 10 h at 40 ℃. The final products were sealed in a N 2 -filled glovebox for future use. The synthesis procedure for FAI was similar to MAI, except that HI acid was added into an 8.8 g formamidine acetate (0.10 mol) ethanol solution.</p><p>Solar cell device fabrication. The ITO substrate was cleaned with ultrapure water, acetone, ethanol and isopropanol successively. After 45 min of ultraviolet-O 3 treatments, a SnO 2 nanocrystal solution was spin-coated on the substrate at 4,000 r.p.m. for 30 s to form a 50-nm-thick film, which was then annealed at 150 °C for 30 min in air. The reference perovskite film was fabricated by a two-step solution process: the PbI 2 (1.3 M, dissolved in DMF/DMSO (9:1, v/v)) mixed with 5% CsI was spin-coated on ITO/SnO 2 at 2,500 r.p.m. for 30 s and annealed at 70 °C for 1 min in a nitrogen glovebox. After cooling the PbI 2 -coated substrate to room temperature in a nitrogen glovebox, a mixed organic cation solution (MAI 0.12 M; MABr 0.05 M; MACl 0.07 M; FAI 0.23 M, dissolved in isopropanol) was spin-coated at 2,300 r.p.m. for 30 s and then annealed at 150 °C for 15 min in air. Then the HTM solution, in which a spiro-OMeTAD/chlorobenzene (75 mg ml -1 ) solution was employed with the addition of 35 μl Li-TFSI/acetonitrile (260 mg ml -1 ), and 30 μl 4-tertbutylpyridine, was deposited by spin-coating at 3,500 r.p.m. for 30 s. The device was finished by thermal evaporation of Au (80 nm) under vacuum. For the NaX-containing perovskite film, we dissolved a certain amount of NaX with DMF/ DMSO (9:1, v/v), and used it as a solvent to dissolve the PbI 2 powder. The optimal content for NaF was about 0.1% mol relative to PbI 2 (Supplementary Fig. <ref type="figure" target="#fig_4">21</ref>), and we assumed that all NaF added was successfully incorporated in the final perovskite films because of its high vaporization enthalpy. The other steps are all the same as for the reference sample. For PSC stability tests, we changed the organic cation solution components (MABr 0.05 M; MACl 0.07 M; FAI 0.35 M, dissolved in isopropanol), and the HTM solution was replaced by polymer-modified spiro-MeOTAD to achieve better performance and stability. The other steps are all the same as for the reference and NaF-containing perovskite films.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Material characterization.</head><p>The morphology of perovskite and PbI 2 thin films and cross-sectional SEM image were measured using a cold field-emission scanning electron microscope (Hitachi S-4800). The X-ray diffraction patterns were collected using a PANalytical X'Pert Pro X-ray powder diffractometer with Cu Kα radiation (λ = 1.54050 Å). PL was measured by the FLS980 (Edinburgh Instruments Ltd) with an excitation at 470 nm. The ultraviolet-visible absorption spectra were obtained using an UV-visible diffuse reflectance spectrophotometer (UV-vis DRS, Japan Hitachi UH4150). UPS measurements were carried out on an XPS AXIS Ultra DLD (Kratos Analytical). The transient photovoltage and transient photocurrent measurements were performed on a Molex 180081-4320 simulating one-sun working conditions, and the carriers were excited by a 532 nm pulse laser. The electrochemical impedance spectroscopy measurements were determined on an electrochemical workstation (Zahner Company), employing light-emitting diodes (LEDs) driven by Export (Zahner Company). The thermal admittance spectroscopy analyses were conducted on a Zahner Zennium pro Electrochemical Workstation at various temperatures (T = 210-350 K) in the dark from 10 0 to 10 6 Hz. A small a.c. voltage of 50 mV was used, and the d.c. bias was kept at zero to avoid the influence of the ferroelectric effect for perovskite material during measurement. For temperature-dependent characterization, the sample was mounted in Cryo Industries Liquid Nitrogen Dewars with a Lake Shore model 335 cryogenic temperature controller. The current density-voltage characteristics of the perovskite devices were obtained using a Keithley 2400 source-measure unit under AM1.5G illumination at 1,000 W m -2 with a Newport Thermal Oriel 91192 1,000 W solar simulator. The shading mask and one of our best devices were sent to the National Institute of Metrology, China for certification. The active area was defined as 0.09408 cm 2 . External quantum efficiencies were measured by an Enli Technology EQE measurement system. Scanning Kelvin probe force microscopy was performed on perovskite samples in ambient conditions using an MFP 3D-Classic Scanning Probe Microscope (Asylum Research, Inc.). This technique relies on an a.c. bias applied to the tip to produce an electric force on the cantilever that is proportional to the potential difference between the tip and the sample. The scanning was carried out in a dual-pass scan mode; during the first scan the spatial variations in the surface potential were directly measured, and the second scang gives the workfunction by nulling the local electrostatic force gradient arising from the contact potential differences between the AFM tip and the sample surface. The conductive AFM probe was ASYELEC-01-R2 with a Ti/Ir coating and a resonant frequency of 75 kHz. The PLQE data were obtained from a three-step technique through the combination of a 445 nm continuous wave laser, a spectrometer, an optical fibre and an integrating sphere.</p><p>Computational methods. Since FA as a cation and I as an anion are the most abundant species in the experimentally studied (Cs 0.05 FA 0.54 MA 0.41 )Pb(I 0.98 Br 0.02 ) 3 system, the incorporation of Na and F ions at different locations on the surfaces and bulk was investigated using FAPbI 3 as a model system. The DFT-optimized lattice parameter of cubic FAPbI 3 is 6.360 Å. The surfaces were modelled using slab models consisting of (2 × 2) cells in the x and y direction and 5 repeating FAPbI 3 units constructed from the bulk structure with a vacuum of 15 Å in the z direction. Structural optimizations of all structures were performed using DFT implemented in the Vienna ab initio simulation package <ref type="bibr" target="#b59">43,</ref><ref type="bibr" target="#b60">44</ref> . The Perdew, Burke and Ernzerhof functional within the generalized gradient approximation was used <ref type="bibr" target="#b61">45</ref> . The outermost s, p and d (in the case of Pb) electrons were treated as valence electrons, whose interactions with the remaining ions were modelled by pseudopotentials generated within the projector-augmented wave method <ref type="bibr" target="#b62">46,</ref><ref type="bibr" target="#b63">47</ref> . During the structural optimization, all ions were allowed to relax. An energy cutoff of 500 eV and a k-point scheme of 3 × 3 × 1 were used to achieve energy and force convergence of 0.1 meV and 20 meV Å -1 , respectively. Information on chemical bonding analysis and formation energies of FA + vacancies in the reference, NaI-and NaF-containing perovskites is presented in Supplementary Notes 7 and 8.</p><p>Reporting Summary. Further information on research design is available in the Nature Research Reporting Summary linked to this article.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>, the distribution of trap state density can be derived from the equation11  : NT (Eω) = -</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>describes a straight line where the intersection on the bias axis determines Vbi and the slope gives the impurity doping density N. Then, the depletion width 𝑊 = √ 2𝜀𝜀 0 𝑉 𝑏 𝑖 𝑞𝑁 corresponding to the zero bias can be calculated. Supplementary Figure 14a-b display the temperature-dependent AS of the CsFAMA and CsFAMA-F devices measured at temperatures ranging from 210 to 350 K without illumination. Shown in Fig. 4d, the corresponding Arrhenius plots of these two devices describe the relationship between the characteristic transition frequencies and temperatures. The calculated defect activation energies (Ea) of the CsFAMA and CsFAMA-F samples are 0.275 and 0.201 eV, respectively. The built-in potential (Vbi) and the depletion width (W) are determined from the Mott-Schottky analysis of the data measured at a frequency of 1 kHz with bias potential from 0 to 1.2 V. Supplementary Figure 14c indicates that the built-in potentials of the CsFAMA and CsFAMA-F samples are 0.80 and 0.90 V, and the corresponding depletion widths are 133 and 207 nm, respectively. The density distribution and energy levels of trap states in these two devices are presented in Fig. 4e. Supplementary Figure 14 Admittance spectroscopy (AS) and Mott-Schottky analysis of perovskite solar cells. (a) Admittance spectra of CsFAMA cell. (b) Admittance spectra of CsFAMA-F cell. These are measured at gradient temperatures between 210 and 350 K with a step of 20 K. (c) Mott-Schottky analysis at 1 kHz.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 1 |</head><label>1</label><figDesc>Fig. 1 | The characterization of perovskite thin films (CsFaMa and CsFaMa-X). a, A schematic illustration of enhancing the hydrogen bond between the halogen and MA/FA ions, and strengthening the ionic bond between the halogen and metal ions through increasing the electronegativity of halogen. b, Reflectance micro-Fourier transform infrared spectroscopy. The black dotted line indicates the N-H vibrations of the MA/FA ions. c, Ultraviolet-visible absorption spectra and steady-state PL spectra. d, TRPL spectra with a log scale for the y axis. e, The evolution of the relative content of the PbI 2 phase in the perovskite film, expressed as the ratio of the X-ray diffraction peak areas for the PbI 2 and the perovskite signals; the results are for films maintained at 85 °C in nitrogen (456 h) and subsequently annealed at 100 °C (12 h) in air. f, Top-view FE-SEM images of perovskite films. Scale bars, 2 µm.</figDesc><graphic coords="36,94.25,304.09,74.54,56.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 2 |</head><label>2</label><figDesc>Fig. 2 | Surface and bulk characterization of perovskite films. a, ToF-SIMS depth profile analysis of a CsFAMA-F perovskite sample. b, A scheme of the possible location of NaF (pink circles) across the perovskite films. c,d, Scanning Kelvin probe microscopy measurements: combining topography spatial maps and surface potential values of CsFAMA (c) and CsFAMA-F (d) perovskites. Scale bars, 1 µm. The colour scale bar from black to white represents the surface potential varied from -21 mV to 21 mV in c and d.</figDesc><graphic coords="37,137.70,220.85,157.82,102.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 3 |</head><label>3</label><figDesc>Fig. 3 | Location of Na and F ions and effects on chemical bonding strength and formation energy of Fa vacancies. a,b, Optimized structures of a Na-I unit (a) and a Na-F unit (b) adjacent to the FAPbI 3 surface. The yellow, blue, purple, black, grey, brown and orange spheres denote the Na, F, I, Pb, N, C and H ions, respectively. c, Net atomic charges of I and Pb ions on the FAPbI 3 surface with incorporation of NaI species (FA-I) or NaF species (FA-F), and without any incorporation (FA). d, Formation energy of a surface FA vacancy in the clean FAPbI 3 (FA), and in the NaI (FA-I) or NaF (FA-F) species incorporated surfaces.</figDesc><graphic coords="38,378.95,160.06,102.86,85.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 4 |</head><label>4</label><figDesc>Fig. 4 | Performance of PSCs. a, A cross-sectional SEM image. b, J-V curves with reverse (1.2 V to -0.2 V) and forward (-0.2 V to 1.2 V) scans of devices made with the untreated material (CsFAMA) and with the NaF-treated perovskite (CsFAMA-F). The scan rate is 100 mV s -1 . c, Stabilized PCEs at the MPP (voltage 0.92 V for the CsFAMA sample, 0.94 V for the CsFAMA-F sample). d, Arrhenius plots (obtained by linear fitting of data points) of the characteristic transition frequencies determined from the derivative of the admittance spectra. e, Trap state density (N T ) of the perovskite solar devices measured at 290 K. f, PLQE of perovskite films as a function of excitation power.</figDesc><graphic coords="39,70.47,193.37,136.10,101.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 5 |</head><label>5</label><figDesc>Fig. 5 | Stability performance of PSCs under various conditions. All devices are unencapsulated and CsFAMA devices are compared with NaF-containing devices. a, Evolution of normalized PCEs of devices on continuous one-sun illumination in a nitrogen atmosphere. b, Devices kept at 85 °C in a nitrogen atmosphere. In a and b, the error bars represent the standard deviation for six devices. c, Devices in ambient air with a relative humidity of about 25%-45%, and a temperature of about 25-40 °C. The error bars represent the standard deviation for eight devices. d, Devices under MPP tracking and continuous light irradiation with a white LED lamp, 100 mW cm -2 in a nitrogen atmosphere. Note that the initial efficiencies of these PSCs are about 19% for CsFAMA, and 20% for CsFAMA-F.</figDesc><graphic coords="40,131.94,170.73,150.38,80.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="4,174.35,401.94,246.59,211.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="5,77.83,429.25,439.65,250.17" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="6,70.90,73.85,455.32,242.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="8,140.90,77.95,313.17,235.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="9,107.60,75.55,380.10,271.19" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="11,70.90,322.45,453.43,213.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="14,71.15,71.65,452.65,310.19" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="15,70.90,74.20,453.45,320.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="18,70.90,78.25,447.53,249.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="19,91.85,72.22,411.60,293.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="20,99.65,70.90,395.60,308.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="20,99.65,379.45,396.00,311.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="21,131.90,253.30,331.25,227.39" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="23,70.90,193.27,475.21,114.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="24,151.25,400.89,292.74,197.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="25,70.90,253.05,443.70,166.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="26,83.33,388.62,428.57,222.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="27,70.90,77.95,469.00,234.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="28,70.90,271.89,447.95,144.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="29,77.40,74.20,440.44,165.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="30,138.65,72.85,317.33,214.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>1,11 , Shuxia Tao 2,11 , Yihua Chen 1 , Xiuxiu Niu 3 , Chidozie K. Onwudinanti 4 , Chen Hu 5 , Zhiwen Qiu 1 , Ziqi Xu 1 , Guanhaojie Zheng 1 , Ligang Wang 1 , Yu Zhang 1 , Liang Li 1 , Huifen Liu 1 , Yingzhuo Lun 6 , Jiawang Hong 6 , Xueyun Wang 6 , Yuquan Liu 7 , Haipeng Xie 7 , Yongli Gao 7,8 , Yang Bai 3 , Shihe Yang 5,9 , Geert Brocks 2,10 , Qi Chen 3 and Huanping Zhou 1 *</head><label></label><figDesc></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 | Photovoltaics parameters for the best CsFaMa solar cell and the best CsFaMa-F cell under the forward (-0.2 to 1.2 V) and reverse (1.2 to -0.2 V) scan directions Sample V oc (V) J sc (ma cm</head><label>1</label><figDesc></figDesc><table><row><cell>-2 )</cell><cell>FF (%)</cell><cell>PCe (%)</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10" xml:id="foot_0"><p>, where it has proven to be effective. As the previous literature reported</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="11" xml:id="foot_1"><p>, for a p-type</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>NaTure eNerGY | VOL 4 | MAY 2019 | 408-415 | www.nature.com/natureenergy</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>acknowledgements This work is supported by the <rs type="funder">National Natural Science Foundation of China</rs> (<rs type="grantNumber">51722201</rs>; <rs type="grantNumber">51672008; 91733301</rs>), <rs type="funder">National Key Research and Development Program of China</rs> grant no. <rs type="grantNumber">2017YFA0206701</rs>, the <rs type="funder">Natural Science Foundation of Beijing, China</rs> (grant no. <rs type="grantNumber">4182026</rs>), the <rs type="programName">Young Talent Thousand Program</rs>, <rs type="funder">National Key Research and Development Program of China</rs> grant no. <rs type="grantNumber">2016YFB0700700</rs>, the <rs type="funder">National Natural Science Foundation of China</rs> (<rs type="grantNumber">51673025</rs>) and Beijing <rs type="projectName">Municipal Science and Technology Project</rs> no. <rs type="grantNumber">Z181100005118002</rs>. S.T. acknowledges funding from the <rs type="funder">Computational Sciences for Energy Research tenure track programme of Shell</rs>, <rs type="institution">NWO</rs> and <rs type="funder">FOM</rs> (project no. <rs type="grantNumber">15CST04-2</rs>). The authors would like to thank <rs type="person">W. Zou</rs> and <rs type="person">J. Wang</rs> (<rs type="affiliation">Nanjing Tech University</rs>) for the PLQE measurement during the revision process, and <rs type="person">Z. Dai</rs> for providing the dynamic light scattering measurement.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_E7fbyGV">
+					<idno type="grant-number">51722201</idno>
+				</org>
+				<org type="funding" xml:id="_yn4zfTt">
+					<idno type="grant-number">51672008; 91733301</idno>
+				</org>
+				<org type="funding" xml:id="_e7zdzAx">
+					<idno type="grant-number">2017YFA0206701</idno>
+				</org>
+				<org type="funding" xml:id="_mQXqcKn">
+					<idno type="grant-number">4182026</idno>
+					<orgName type="program" subtype="full">Young Talent Thousand Program</orgName>
+				</org>
+				<org type="funding" xml:id="_DVGejGx">
+					<idno type="grant-number">2016YFB0700700</idno>
+				</org>
+				<org type="funded-project" xml:id="_rmuucaE">
+					<idno type="grant-number">51673025</idno>
+					<orgName type="project" subtype="full">Municipal Science and Technology Project</orgName>
+				</org>
+				<org type="funding" xml:id="_7EeHWZV">
+					<idno type="grant-number">Z181100005118002</idno>
+				</org>
+				<org type="funding" xml:id="_mzcepSb">
+					<idno type="grant-number">15CST04-2</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The data that support the plots within this paper and other findings of this study are available from the corresponding author upon reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTARY INFORMATION</head><p>In the format provided by the authors and unedited.</p><p>NaTure eNerGY | www.nature.com/natureenergy</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cation and anion immobilization through chemical bonding enhancement with fluorides for stable halide perovskite solar cells</head><p>Nengxu Li <ref type="bibr">1,</ref><ref type="bibr">11</ref> , Shuxia Tao <ref type="bibr">2,</ref><ref type="bibr">11</ref> , Yihua Chen <ref type="bibr">1</ref> , Xiuxiu Niu 3 , Chidozie K. Onwudinanti 4 , Chen Hu <ref type="bibr">5</ref> , Zhiwen Qiu <ref type="bibr">1</ref> , Ziqi Xu 1 , Guanhaojie Zheng <ref type="bibr">1</ref> , Ligang Wang <ref type="bibr">1</ref> ,Yu Zhang 1 , Liang Li <ref type="bibr">1</ref> , Huifen Liu <ref type="bibr">1</ref> , Yingzhuo Lun <ref type="bibr">6</ref> , Jiawang Hong <ref type="bibr">6</ref> , Xueyun Wang <ref type="bibr">6</ref> , Yuquan Liu <ref type="bibr">7</ref> , Haipeng Xie <ref type="bibr">7</ref> , Yongli Gao <ref type="bibr">7,</ref><ref type="bibr">8</ref> , Yang Bai 3 , Shihe Yang <ref type="bibr">9,</ref><ref type="bibr">5</ref> , Geert Brocks <ref type="bibr">2,</ref><ref type="bibr">10</ref> , Qi Chen <ref type="bibr">3</ref> , Huanping Zhou * 1 Supplementary Note 1: Solid-state <ref type="bibr">1</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>H NMR results</head><p>Clean perovskite (MAPbI3) samples, NaI-containing (MAPbI3-I) and NaF-containing (MAPbI3-F) perovskite samples are characterized by solid-state 1 H NMR measurements. The spectra (Supplementary Figure <ref type="figure">1</ref>) show two signals, which correspond to protons of NH3 (left peak) and CH3 (right peak) <ref type="bibr">1</ref> , respectively. It can be observed that the chemical shift of the NH3 protons in MAPbI3-F (δ: 6.606) is larger than that in MAPbI3 (δ: 6.376), and in MAPbI3-I (δ: 6.378). The formation of a hydrogen bond weakens the shielding of protons and results in shifting the resonance to a lower magnetic field, corresponding to higher δ-value. In addition, because the protons of NH3 are easily split up, the corresponding peak signal has larger half width (both reference and NaI-containing perovskite). It is noteworthy that MAPbI3-F shows a sharper NH3 peak, which indicates that these protons are more immobile than in the MAPbI3 and MAPbI3-I samples. This can also be explained by the formation of hydrogen bonds in MAPbI3-F. The 1 H NMR measurements support the Micro-FTIR results discussed in the main manuscript.</p><p>Supplementary Figure <ref type="figure">1</ref> Solid state 1 H NMR spectrum of reference perovskite (MAPbI3), NaIcontaining perovskite (MAPbI3-I), and NaF-containing perovskite (MAPbI3-F) samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 2: Vibration modes of FA cation from DFT calculations</head><p>Diagonalizing the dynamical matrix, constructed by means of DFT calculations, we obtain the vibrational modes of the FA cations in FAPbI3. These calculations are performed on a slab of FAPbI3, where either a NaI unit, or a NaF unit is added at a FAI-terminated surface. The structures are shown in Fig. <ref type="figure">3a-b</ref>. Using selective dynamics, we calculate the vibrational modes of the organic cations. In Supplementary Figure <ref type="figure">2</ref> the hydrogen stretch modes are depicted of FA ions at the clean FAI-terminated surface of FAPbI3, and of FA ions near NaI or NaF. Adding NaI hardly changes the frequencies of these modes, whereas adding NaF leads to substantial shifts. In the clean system and in the NaI system, the five hydrogen stretch modes can be divided into two N-H doublets with frequencies ~3420 cm 1 and ~3220 cm 1 , respectively, and a single C-H mode at ~2970 cm 1 . This pattern is dictated by the symmetry of the FA ion, where the coupling between vibrations of hydrogen atoms bonded to different atoms is small. This symmetry is clearly broken in the NaF system, and the two N-H doublets are split up. Note that the frequency of the hydrogen atom closest to an F ion is shifted to a much lower frequency (2775 cm 1 ), which is a clear sign of the formation of a hydrogen bond. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 3: SEM results and analyses</head><p>SEM images of perovskite thin films without and with NaX additives are shown in Fig. <ref type="figure">1f</ref>. All these films are pinhole-free. However, using the same fabrication parameters, the grain sizes in the CsFAMA-F and CsFAMA-Cl films are larger than those in the CsFAMA film, while grain sizes in CsFAMA-Br and CsFAMA-I films are almost as in CsFAMA. The increased grain size of the Cl-containing material has also been reported in a recent study <ref type="bibr">2</ref> .</p><p>However, this is the first time where it is shown that CsFAMA-F sample also has a larger grain size. To understand this, we conduct dynamic light scattering (DLS) measurements on the PbI2 solutions with and without NaF, using the latter as a reference. As seen in Supplementary Supplementary Figure <ref type="figure">4</ref> Size distributions of PbI2-DMSO complexes in reference (PbI2) and NaFcontaining (PbI2-F) precursor solutions detected by dynamic light scattering (DLS).  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 4: EDX results and analyses</head><p>We collected the energy dispersive X-ray spectroscopy (EDS) signals of F and Na on both CsFAMA and CsFAMA-F samples, keeping the same fabrication and measurement conditions.</p><p>It can be found that even on reference (CsFAMA) samples, we still find a certain amount of signals of NaF (Supplementary Figure <ref type="figure">6b-c</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 5: SKPM results and analyses</head><p>From the SKPM results (Fig. <ref type="figure">2c-d</ref>) of CsFAMA and CsFAMA-F samples, we observe that the CsFAMA perovskite film exhibits a higher surface potential at GBs than in the grain centers of about 40 mV. The corresponding value for CsFAMA-F perovskite films is only about 20 mV.</p><p>Therefore, we speculate that a small amount of NaF may be beneficial for decreasing the charge accumulation at GBs, leading to lower GB potential in CsFAMA-F perovskite. Furthermore, as the surface potential at GBs is higher than in the grain bulks, passivated GBs may reduce the probability of electron flow from the grain bulk to grain boundaries, and may also facilitate hole extraction by decreasing the barriers at the GBs. As illustrated in the scheme shown in Supplementary Figure <ref type="figure">7</ref>, the CsFAMA perovskite has a deeper downward band bending around GBs. Therefore, the electrons are attracted while the holes are repelled. The potential profile follows a similar pattern found in Cu(In,Ga)Se2 films <ref type="bibr">4</ref> . However, in contrast to the latter, </p><note type="other">in</note></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 6: Computational models and optimized structure</head><p>To investigate the energetics of incorporation of Na or F ions into a perovskite lattice, we have constructed slab models of FAPbI3. The slabs consist of 5 perovskite layers in the z direction, and have a FAI-terminated surface on one side, and a PbI2-terminated surface on the other side. The in-plane structure is modelled using a 2x2 cell in the x and y directions. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 7: Chemical bonding analyses</head><p>In addition to the energy calculations, we have carried out an in-depth analysis of the chemical bonding for a thorough understanding of the bonding in the perovskites. The bonds of main interest are those between I-Pb, Na-I, Na-F and F-Pb on the FAI-and PbI2-terminated surfaces. We investigate the strength of the chemical bonding by analyzing both the ionic and covalent contributions to a bond. The ionic contribution to a bond can be characterized by a net atomic charge, which quantifies the electron transfer between atoms <ref type="bibr">[5]</ref><ref type="bibr">[6]</ref> . The covalent contribution can be identified by the bond order, which correlates with the electron density at a bond-critical point (a saddle-point of the electron density along the bond path) <ref type="bibr">[5]</ref><ref type="bibr">[6]</ref> . The higher the bond order, the stronger a covalent bond.</p><p>Our chemical bonding analysis allows us to identify the change in bonding strength induced by the incorporation of Na and F. As discussed in the main text (Fig. <ref type="figure">3c</ref>) we observe that (i) Na ions slightly increase the ionic bonding with the surrounding I ions and (ii) F ions significantly increase the ionic bonding with Pb.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 8: Formation energy of FA + vacancy on perovskite surfaces</head><p>Supplementary Figure <ref type="figure">10</ref> shows the optimized structure of a cation (Na) and an anion (F) incorporated on the FAI-terminated surface. We replace one FA + cation with Na + and one I - with F -. We calculate the formation energies of FA cation vacancies at the surface of this structure. As references, we also calculate the same formation energy for a surface where F is replaced by I, and for an unmodified FAI-terminated surface. The details of the computational procedure are as follows.</p><p>The FA + defect formation energy is defined as:</p><p>Where ETot [FA + vac] and Etot [surface] are the total energies of the surfaces with and without FA + vacancy, respectively, and EFermi and μ[FA] are the Fermi energy, and the chemical potential of FA, respectively. The latter two are assumed to be the same for all three perovskites. This approximation is valid since the important parameters during synthesis of these perovskites, such as precursor concentration, the source of FA + , temperature and deposition procedure, are kept the same in our experiments. In addition, experimentally the Fermi energy levels in the three perovskites only vary by about 0.1 eV (Supplementary Figure <ref type="figure">17</ref>).</p><p>Inspired by Saidaminov et al <ref type="bibr">7</ref> , we define the suppression of FA vacancy formation due to the introduction of Na + and F -, or Na + and I -, as:</p><p>Where  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 9: EQE results and analyses</head><p>Supplementary Figure <ref type="figure">13</ref> shows the spectral response of the external quantum efficiency (EQE) of the devices, as well as the integrated current derived by calculating the overlap integral between EQE spectrum and standard AM1.5 solar emission. Although both types of devices exhibit the same shape of spectrogram, the CsFAMA-F cells have slightly higher EQE values and integrated current (23.48 mA/cm 2 and 23.79 mA/cm 2 for CsFAMA and CsFAMA-F PSCs, respectively). This result also agrees well with the value of short-circuit current density obtained from J-V results.</p><p>Supplementary Figure <ref type="figure">13</ref> External quantum efficiency spectrum together with integrated JSC for the CsFAMA and CsFAMA-F PSCs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 10: AS and Mott-Schottky analyses</head><p>Admittance spectroscopy (AS) combined with Mott-Schottky analysis is a powerful technique to find out both the energy levels and the density distribution of trap states. This technique has been extensively applied to Cu2ZnSnS4 solar cells, organic solar cells, and PSCs 8-</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 11: SCLC results and analyses</head><p>To quantitatively confirm the reduced density of defects, we fabricate perovskite devices by sandwiching the perovskite films between ITO and Au. We then characterize the evolution of the space-charge-limited current as a function of bias voltage (Supplementary Figure <ref type="figure">15</ref>).</p><p>At low bias voltage, the mobile carriers accounting for the current give a linear I-V curve, which is called the ohmic region. If the bias voltage increases, injected carriers start to fill the trap states, until the trap-filled limit (TFL) is reached at a voltage VTFL. Within this bias voltage regime (below VTFL), called the child region, the current is proportional to the square of the voltage (I ∝ V 2 ) <ref type="bibr">13</ref> . The defect density can be calculated according to the following equation <ref type="bibr">14</ref> :</p><p>, where ε is the relative permittivity of perovskite, ε0 is the vacuum permittivity, L is the thickness of the perovskite film, and e is the elementary charge. We estimate the defect density (Ndefects) to be 6.86 × 10 15 cm 3 and 4.54 × 10 15 cm 3 for the CsFAMA and CsFAMA-F devices, respectively. This result is in agreement with the values obtained from AS, indicating that the CsFAMA-F perovskite has fewer defects.</p><p>Supplementary Figure <ref type="figure">15</ref> The dark current-voltage characteristics of devices with ITO/perovskite/Au configuration. Supplementary Table <ref type="table">3</ref>. Photovoltage decay time (τrecombination) and photocurrent decay time (τtransport) of perovskite solar cells without (CsFAMA) and with NaF (CsFAMA-F).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 12: TPC &amp; TPV results and analyses</head><p>Sample τrecombination τtransport CsFAMA 3.31μs 286ns CsFAMA-F 6.39μs 198ns</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 13: UPS results and analyses</head><p>Supplementary Figure <ref type="figure">17</ref> shows the Fermi levels (EF) and the valence band (VB) regions derived from ultraviolet photoelectron spectroscopy (UPS) spectra. The EF of the CsFAMA and CsFAMA-F perovskites are 4.45 and 4.32 eV, respectively. The corresponding valence band maxima (VBM) are located at 1.49 and 1.48 eV below the EF, respectively. In combination with the band gap acquired from the UV-visible spectra (Fig. <ref type="figure">1c</ref>), one then obtains the energy levels of the CsFAMA and CsFAMA-F perovskite samples shown in Supplementary Figure <ref type="figure">17c</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 14: NaX (X=F, Cl, Br, I) containing PSCs performance</head><p>According to Supplementary Figure <ref type="figure">19b</ref> we find that CsFAMA samples have a moderate J-V hysteresis. We speculate that this phenomenon can be linked to 1) more defects and more mobile ions such as iodide, MA (FA) in the reference sampleand 2) Excess PbI2 existed in the reference sample (Supplementary Figure <ref type="figure">3</ref>) also lead to obvious hysteresis as previously reported <ref type="bibr">[16]</ref><ref type="bibr">[17]</ref> .</p><p>Hysteresis can be diminished by the immobilization of mobile ions and vacancy defects such Supplementary Figure <ref type="figure">21</ref> The optimal content of NaF. The PCE distribution of the multi-PSCs based on reference (CsFAMA), NaF incorporation with different ratio (CsFAMA-0.05% F, CsFAMA-0.1% F, CsFAMA-0.2% F, CsFAMA-0.5% F).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>Maximum power point measurements were conducted (Figure <ref type="figure">4c</ref>, Figure <ref type="figure">5d</ref> and Supplementary Figure <ref type="figure">18</ref>)  A comparison between the integrated response under the standard reference spectrum and the response measure under the simulator</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Hysteresis or any other unusual behaviour</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The integrated Jsc from EQE spectra is consistent with the Jsc from JV measurements (Figure <ref type="figure">4b</ref> and Supplementary Figure <ref type="figure">13</ref>)</p><p>For tandem solar cells, the bias illumination and bias voltage used for each subcell author contributions </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>nature research | solar cells reporting summary</head><p>November 2017</p><p>1 Corresponding author(s): Huanping Zhou</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Solar Cells Reporting Summary</head><p>Nature Research wishes to improve the reproducibility of the work that we publish. This form is intended for publication with all accepted papers reporting the characterization of photovoltaic devices and provides structure for consistency and transparency in reporting. Some list items might not apply to an individual manuscript, but all fields must be completed for clarity.</p><p>For further information on Nature Research policies, including our data availability policy, see Authors &amp; Referees.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental design</head><p>Please check: are the following details reported in the manuscript? </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>Maximum power point measurements were conducted (Figure <ref type="figure">4c</ref>, Figure <ref type="figure">5d</ref> and Supplementary Figure <ref type="figure">18</ref>)  A comparison between the integrated response under the standard reference spectrum and the response measure under the simulator</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Hysteresis or any other unusual behaviour</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The integrated Jsc from EQE spectra is consistent with the Jsc from JV measurements (Figure <ref type="figure">4b</ref> and Supplementary Figure <ref type="figure">13</ref>)</p><p>For tandem solar cells, the bias illumination and bias voltage used for each subcell</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>No tandem cells reported in this manuscript   </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Multinuclear NMR as a tool for studying local order and dynamics in CH3NH3PbX3 (X = Cl, Br, I) hybrid perovskites</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Roiland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="27133" to="27142" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The optoelectronic role of chlorine in CH3NH3PbI3(Cl)-based perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7269</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Thermal-induced Volmer-Weber growth behavior for planar heterojunction perovskites solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="5116" to="5121" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Investigating the role of grain boundaries in CZTS and CZTSSe thin film solar cells with scanning probe microscopy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chawla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Clemens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="720" to="723" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Introducing DDEC6 atomic population analysis: part 1. Charge partitioning theory and methodology</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Nidia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RSC Adv</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="47771" to="47801" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Introducing DDEC6 atomic population analysis: part 3. Comprehensive method to compute bond orders</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RSC Adv</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="45552" to="45581" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Suppression of atomic vacancies via incorporation of isovalent small ions to increase the stability of halide perovskite solar cells in ambient air</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Makhsud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="648" to="654" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Investigation of defects by admittance spectroscopy measurements in poly (3-hexylthiophene):(6,6)-phenyl C61-butyric acid methyl ester organic solar cells degraded under air exposure</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khelifi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">94509</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The role of sulfur in solution-processed Cu2ZnSn(S,Se)4 and its effect on defect properties</title>
+		<author>
+			<persName><forename type="first">H.-S</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-J</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1466" to="1471" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A breakthrough efficiency of 19.9% obtained in inverted perovskite solar cells by using an efficient trap state passivator Cu(thiourea)I</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ye</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="7504" to="7512" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The identification and characterization of defect states in hybrid organic-inorganic perovskite photovoltaics</title>
+		<author>
+			<persName><forename type="first">H.-S</forename><surname>Duan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="112" to="116" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Vereinfachte und erweiterte Theorie der Randschicht-gleichrichter</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Schottky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zeitschrift für Physik</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="539" to="592" />
+			<date type="published" when="1942">1942</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The intrinsic properties of FA(1-x)MAxPbI3 perovskite single crystals</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="8537" to="8544" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Chemical reduction of intrinsic defects in thicker heterojunction planar perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">1606774</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Mechanism of carrier accumulation in perovskite thin-absorber solar cells</title>
+		<author>
+			<persName><forename type="first">H.-S</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">2242</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Native defect-induced hysteresis behavior in organolead iodide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1411" to="1419" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Planar-Structure Perovskite Solar Cells with Efficiency beyond 21%</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">1703852</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Organometal halide perovskites as visible-light sensitizers for photovoltaic cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Teshima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shirai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="6050" to="6051" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">High charge carrier mobilities and lifetimes in organolead trihalide perovskites</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wehrenfennig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1584" to="1589" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Perovskites: the emergence of a new era for low-cost, highefficiency solar cells</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="3623" to="3630" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Lead iodide perovskite sensitized all-solid-state submicron thin film mesoscopic solar cell with efficiency exceeding 9%</title>
+		<author>
+			<persName><forename type="first">H.-S</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">591</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Efficient hybrid solar cells based on meso-superstructured organometal halide perovskites</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Teuscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="page" from="643" to="647" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Interface engineering of highly efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page" from="542" to="546" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">High-performance photovoltaic perovskite layers fabricated through intramolecular exchange</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="page" from="1234" to="1237" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Iodide management in formamidinium-lead-halide-based perovskite layers for efficient solar cells</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">356</biblScope>
+			<biblScope unit="page" from="1376" to="1379" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Efficient and stable solution-processed planar perovskite solar cells via contact passivation</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page" from="722" to="726" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<ptr target="https://www.nrel.gov/pv/assets/pdfs/pv-efficiency-chart.20181221.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Best Research-Cell Efficiencies (NREL</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Defect passivation in hybrid perovskite solar cells using quaternary ammonium halide anions and cations</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">17102</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Defects in perovskite-halides and their effects in solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petrozza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">16149</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Recombination in perovskite solar cells: significance of grain boundaries, interface traps, and defect ions</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Sherkar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1214" to="1222" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The role of intrinsic defects in methylammonium lead iodide perovskite</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-H</forename><surname>Hong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1312" to="1317" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The identification and characterization of defect states in hybrid organic-inorganic perovskite photovoltaics</title>
+		<author>
+			<persName><forename type="first">H.-S</forename><surname>Duan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="112" to="116" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Ionic transport in hybrid lead iodide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Eames</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7497</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Defect migration in methylammonium lead iodide and its role in perovskite solar cell operation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Azpiroz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mosconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bisquert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">D</forename><surname>Angelis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2118" to="2127" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Iodine chemistry determines the defect tolerance of lead-halide perovskites</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meggiolaro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="702" to="713" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Unique properties of halide perovskites as possible origins of the superior solar cell performance</title>
+		<author>
+			<persName><forename type="first">W.-J</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="4653" to="4658" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Efficient carrier transport in halide perovskites: theoretical perspectives</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Du</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="9091" to="9098" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Native defect-induced hysteresis behavior in organolead iodide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1411" to="1419" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Giant switchable photovoltaic effect in organometal trihalide perovskite devices</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="193" to="198" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Trap-assisted non-radiative recombination in organic-inorganic perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">G.-J</forename><forename type="middle">A H</forename><surname>Wetzelaer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1837" to="1841" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Organometal halide perovskite solar cells: degradation and stability</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Berhe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="323" to="356" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Fast oxygen diffusion and iodide defects mediate oxygeninduced degradation of perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Aristidou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">15218</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Suppression of atomic vacancies via incorporation of isovalent small ions to increase the stability of halide perovskite solar cells in ambient air</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Saidaminov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="648" to="654" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Accelerated degradation of methylammonium lead iodide perovskites induced by exposure to iodine vapour</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Juarez-Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Ono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">16195</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Thermal degradation of CH 3 NH 3 PbI 3 perovskite into NH 3 and CH 3 I gases observed by coupled thermogravimetry-mass spectrometry analysis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Juarez-Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hawash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Raga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Ono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="3406" to="3410" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Facile fabrication of large-grain CH 3 NH 3 PbI 3-x Br x films for high-efficiency solar cells via CH 3 NH 3 Br-selective Ostwald ripening</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">12305</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Phenylalkylamine passivation of organolead halide perovskites enabling high-efficiency and air-stable photovoltaic cells</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="9986" to="9992" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Guanidinium: a route to enhanced carrier lifetime and open-circuit voltage in hybrid perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Marco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1009" to="1016" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Enhanced photoluminescence and solar cell performance via Lewis base passivation of organic-inorganic lead halide perovskites</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Noel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="9815" to="9821" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Maximizing and stabilizing luminescence from halide perovskites with potassium passivation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abdi-Jalebi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">555</biblScope>
+			<biblScope unit="page" from="497" to="501" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Universal approach toward hysteresis-free perovskite solar cell via defect engineering</title>
+		<author>
+			<persName><forename type="first">D.-Y</forename><surname>Son</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="1358" to="1364" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Interstitial occupancy by extrinsic alkali cations in perovskites and its impact on ion migration</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">X</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Bobbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-P</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">1707350</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">A theoretical study on the red-and blue-shift hydrogen bonds of cis-trans formic acid dimer in excited states</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cent. Eur. J. Chem</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="171" to="179" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Chemical and electronic structure characterization of lead halide perovskites and stability behavior under different exposures-a photoelectron spectroscopy investigation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Philippe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1720" to="1731" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Controllable self-induced passivation of hybrid lead iodide perovskites toward high performance solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="4158" to="4163" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The optoelectronic role of chlorine in CH 3 NH 3 PbI 3 (Cl)-based perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7269</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Impact of monovalent cation halide additives on the structural and optoelectronic properties of CH 3 NH 3 PbI 3 perovskite</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abdi-Jalebi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1502472</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Anomalous hysteresis in perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1511" to="1515" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">A-site cation effect on growth thermodynamics and photoconductive properties in ultrapure lead iodine perovskite monocrystalline wires</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="25985" to="25994" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kresse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Furthmüller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="15" to="50" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kresse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Furthmüller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="11169" to="11186" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Generalized gradient approximation made simple</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Perdew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ernzerhof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="3865" to="3868" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Projector augmented-wave method</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Blöchl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="17953" to="17979" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">From ultrasoft pseudopotentials to the projector augmented-wave method</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kresse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Joubert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="1758" to="1775" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

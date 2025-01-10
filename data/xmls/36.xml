@@ -1,0 +1,2278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Understanding Performance Limiting Interfacial Recombination in pin Perovskite Solar Cells</title>
+				<funder ref="#_GTn5B9k">
+					<orgName type="full">European Research Council</orgName>
+				</funder>
+				<funder ref="#_stENASr #_EkPQZFa">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_e956te4">
+					<orgName type="full">Welsh Government</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">European Regional Development Fund</orgName>
+				</funder>
+				<funder ref="#_hRUFY6k">
+					<orgName type="full">EPSRC</orgName>
+				</funder>
+				<funder ref="#_Hc73JDM">
+					<orgName type="full">Deutsche Forschungsgemeinschaft (DFG, German Research Foundation</orgName>
+				</funder>
+				<funder ref="#_dk9EhMv">
+					<orgName type="full">German Academic Foreign Service (DAAD)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Engineering and Physical Sciences Research Council</orgName>
+				</funder>
+				<funder ref="#_5SNqNwN">
+					<orgName type="full">Federal Ministry for Economic Affairs and Energy</orgName>
+				</funder>
+				<funder ref="#_5ekKmXb">
+					<orgName type="full">Royal Society and Tata Group</orgName>
+				</funder>
+				<funder ref="#_WkmAxxW">
+					<orgName type="full">Alexander von Humboldt Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-02-09">February 9, 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jonathan</forename><surname>Warby</surname></persName>
+							<email>warby@uni-potsdam.de</email>
+						</author>
+						<author>
+							<persName><forename type="first">Fengshuo</forename><surname>Zu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Stefan</forename><surname>Zeiske</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Emilio</forename><surname>Gutierrez-Partida</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Norbert</forename><surname>Koch</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ardalan</forename><surname>Armin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Filippo</forename><surname>De Angelis</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Samuel</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dieter</forename><surname>Neher</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><surname>Stolterfoht</surname></persName>
+							<email>stolterf@uni-potsdam.de</email>
+						</author>
+						<author>
+							<persName><forename type="first">F</forename><surname>Lang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Shah</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">F</forename><surname>Peña-Camargo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">L</forename><surname>Frohloff</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Kahmann</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">K</forename><surname>Frohna</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><surname>Mosconi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><surname>Radicchi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><surname>Hempel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><surname>Unold</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Lennart Frohloff</orgName>
+								<orgName type="institution" key="instit2">Simon Kahmann</orgName>
+								<address>
+									<addrLine>Edoardo Mosconi Eros Radicchi Felix Lang Sahil Shah</addrLine>
+									<settlement>Kyle Frohna</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Physics and Astronomy</orgName>
+								<orgName type="institution">Francisco Peña-Camargo</orgName>
+								<address>
+									<addrLine>Hannes Hempel Thomas Unold</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Potsdam</orgName>
+								<address>
+									<addrLine>Karl-Liebknecht-Str. 24-25</addrLine>
+									<postCode>D-14476</postCode>
+									<settlement>Potsdam-Golm</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">Humboldt-Universitat zu Berlin Institut für Physik</orgName>
+								<address>
+									<addrLine>&amp; IRIS Adlershof Brook-Taylor Straße 6</addrLine>
+									<postCode>D-12489</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Physics Cavendish Laboratory</orgName>
+								<orgName type="institution">Swansea University Singleton Campus</orgName>
+								<address>
+									<postCode>SA2 8PP</postCode>
+									<settlement>Swansea</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Computational Laboratory for Hybrid/Organic Photovoltaics (CLHYO) Istituto</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<postCode>CB3 0HE</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Structure and Dynamics of Energy Materials</orgName>
+								<orgName type="institution">CNR di Scienze e Tecnologie Chimiche &quot;Giulio Natta&quot; (CNR-SCITEC)</orgName>
+								<address>
+									<addrLine>Via Elce di Sotto 8 Perugia 06123 Helmholtz-Zentrum-Berlin</addrLine>
+									<postCode>D-14109</postCode>
+									<settlement>Berlin</settlement>
+									<country>Italy Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">Department of Chemistry, Biology and Biotechnology</orgName>
+								<orgName type="institution">University of Perugia</orgName>
+								<address>
+									<addrLine>Via Elce di Sotto 8</addrLine>
+									<postCode>06123</postCode>
+									<settlement>Perugia</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Natural Sciences &amp; Mathematics College of Sciences</orgName>
+								<orgName type="institution">Human Studies Prince Mohammad Bin Fahd University</orgName>
+								<address>
+									<postBox>P.O. Box 1664</postBox>
+									<postCode>31952</postCode>
+									<settlement>Al Khobar</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="department">Department of Chemical Engineering &amp; Biotechnology</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<postCode>CB3 0AS</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<orgName type="department">Department of Structure and Dynamics of Energy Materials</orgName>
+								<address>
+									<addrLine>Helmholtz-Zentrum-Berlin</addrLine>
+									<postCode>D-14109</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff11">
+								<orgName type="department">Department of Chemistry, Biology and Biotechnology</orgName>
+								<orgName type="institution">University of Perugia</orgName>
+								<address>
+									<addrLine>Via Elce di Sotto 8</addrLine>
+									<postCode>06123</postCode>
+									<settlement>Perugia</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff12">
+								<orgName type="department" key="dep1">Department of Natural Sciences &amp; Mathematics</orgName>
+								<orgName type="department" key="dep2">College of Sciences &amp; Human Studies</orgName>
+								<orgName type="institution">Mohammad Bin Fahd University</orgName>
+								<address>
+									<postBox>P.O. Box 1664</postBox>
+									<postCode>31952</postCode>
+									<settlement>Al Khobar Kingdom</settlement>
+									<country>Prince Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Understanding Performance Limiting Interfacial Recombination in pin Perovskite Solar Cells</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-02-09">February 9, 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C5A8F6B40CA2824FA37945E2D2E7C2BB</idno>
+					<idno type="DOI">10.1002/aenm.202103567</idno>
+					<note type="submission">Received: November 13, 2021 Revised: January 11, 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T17:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>C 60</term>
+					<term>defects</term>
+					<term>interface recombination</term>
+					<term>loss mechanisms</term>
+					<term>perovskites</term>
+					<term>solar cells</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Since their discovery in 2009 perovskite solar cells have spurred enormous interest due to highly impressive power conversion efficiencies (in excess of 25%) <ref type="bibr">[1]</ref> with the use of far less stringent manufacturing techniques and more impure materials than other technologies. In order to achieve such high performance, the community has adopted the key principle that to reach the full potential of perovskite solar cells, one must minimize nonradiative recombination in the device. <ref type="bibr">[2,</ref><ref type="bibr">3]</ref> This will in turn decrease dark currents and increase open circuit voltage (V OC ). In general, perovskite solar cells can be classified into two architecture types, nip and pin, where the difference is defined by the order of deposition of the electron Perovskite semiconductors are an attractive option to overcome the limitations of established silicon based photovoltaic (PV) technologies due to their exceptional opto-electronic properties and their successful integration into multijunction cells. However, the performance of single-and multijunction cells is largely limited by significant nonradiative recombination at the perovskite/organic electron transport layer junctions. In this work, the cause of interfacial recombination at the perovskite/C 60 interface is revealed via a combination of photoluminescence, photoelectron spectroscopy, and firstprinciple numerical simulations. It is found that the most significant contribution to the total C 60 -induced recombination loss occurs within the first monolayer of C 60 , rather than in the bulk of C 60 or at the perovskite surface. The experiments show that the C 60 molecules act as deep trap states when in direct contact with the perovskite. It is further demonstrated that by reducing the surface coverage of C 60 , the radiative efficiency of the bare perovskite layer can be retained. The findings of this work pave the way toward overcoming one of the most critical remaining performance losses in perovskite solar cells. and hole selective contacts relative to the transparent conductive oxide (TCO) substrate. The highest performing cells are currently made in the nip architecture; <ref type="bibr">[1]</ref> however, pin-type perovskite solar cells are also of significant interest due to their high operational stability <ref type="bibr">[4]</ref> and their successful integration into multijunction tandem solar cells with other established and emerging photovoltaic technologies. <ref type="bibr">[5,</ref><ref type="bibr">6]</ref> The success of pin type cells in this regard can be largely attributed to the simple processability of the charge transport layers, which can be fabricated at low temperatures (≈100 °C) or by thermal evaporation without the need for chemical dopants which could negatively affect the device stability. <ref type="bibr" target="#b6">[7]</ref> As such, pin-type perovskite cells are currently the preferred platform for high efficiency tandems. <ref type="bibr">[5]</ref> However, it is well known that even the highest performing pin cells are limited by substantial nonradiative recombination induced by the electron transport layer. <ref type="bibr" target="#b7">[8]</ref> The highest efficiency silicon/perovskite and perovskite/perovskite tandem solar cells to date all use fullerene electron transport layers, which are likely the limiting factor to their performance. <ref type="bibr">[5,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10]</ref> As we show in Figure <ref type="figure" target="#fig_0">1a</ref>, a C 60 -induced nonradiative loss is limiting the performance of most of the metal halide perovskite systems we have studied, including hybrid organic/inorganic metal halides with mixed cation and halide compositions over a large range of bandgaps, inorganic perovskites, and even 2D/3D perovskites. Figure <ref type="figure" target="#fig_0">1a</ref> summarizes reported photoluminescent quantum yield (PLQY) values (where the generation current, J G = 1 sun) obtained on bare perovskite and perovskite/C 60 films and complete cell stacks, for mono, double, and triple cation perovskites with different bandgaps, inorganic and 2D/3D layered perovskites. In all systems, the recombination loss induced by the C 60 layer greatly outweighs the recombination in the neat layer by 1-3 orders of magnitude, and dominates the PLQY losses of the complete devices in all cases. Moreover, the PLQY of the perovskite/C 60 stack layers ends up at low values (&lt;1 × 10 -3 ), quite irrespective of the perovskite composition, although the PLQY of C 60 stacks was found to decrease with higher Br or MAPbBr 3 content. <ref type="bibr" target="#b10">[11]</ref> Contrastingly, cells in the nip configuration can have an external radiative efficiency of nearly 10%, where the injected current is equal to the short circuit current density (J injected = J SC ). <ref type="bibr" target="#b11">[12]</ref> Particularly important for tandem cells applications is the low PLQY in presence of C 60 in case of the triple cation perovskites with a bandgap between  [8,11,13-18].) C 60 appears to lower the PL yield (PLQY) to ≈1 × 10 -4 -1 × 10 -3 of the neat layer, relatively independent of the composition. We note that these different perovskites are denoted as methyl ammonium lead iodide (MAPbI 3 ), double cation is denoted as FA 0.8 MA 0.2 PbI 3 , triple cation perovskite (Cs 0.05 FA x MA y Pb(I x Br y ) 3 ) is abbreviated as "TC," where the x:y ratio reflects the molar ratio of FAPbI 3 versus MAPbBr 3 , 2D/3D perovskites are denoted by the spacer cation butylammonium (BA) and the number of layers of octahedra between spacer cations, e.g., n = 4 is BA4. b) PLQY of an 83:17 TC perovskite on different transport layers, showing that fullerenes limit the performance of pin cells and spiro-OMeTAD limits nip cells; overall the pin cells are more limited by interface recombination. Dashed line indicates the PLQY of the neat perovskite on glass. c) Possible recombination pathways at the C 60 interface (C 60 -induced surface trap states, across-interface recombination, and recombination within the C 60 layer directly at the interface or in the bulk).</p><p>1.63 eV to 1.88 eV. Figure <ref type="figure" target="#fig_0">1b</ref> further highlights that with the use of self-assembled monolayers and also poly[bis(4-phenyl) (2,4,6-trimethylphenyl)amine (PTAA): poly(9,9-bis(3'-(N,Ndimethyl)-N-ethylammoinium-propyl-2,7-fluorene)-alt-2,7-(9,9dioctylfluorene))dibromide (PFN) one can achieve no additional losses compared to the nonradiative bulk recombination in case of a triple cation perovskite, and that the use of metal oxides in nip type cells with a triple cation perovskite layer also cause less losses compared to C 60 . However, despite the huge importance of the C 60 -induced recombination losses in determining the radiative efficiency of pin-type solar cells, the origins of nonradiative recombination at this interface and the interfacial recombination pathways have not been widely explored yet and remain elusive today. In principle, as shown in Figure <ref type="figure" target="#fig_0">1c</ref>, there could be four pathways for nonradiative recombination when the C 60 is in contact with the perovskite: I) Interface recombination within the perovskite layer, where both the electrons and holes recombine in the perovskite via new surface traps which are created due to changes in surface stoichiometry or reactions with the C 60 (mechanism 1); II) Across-interface recombination, where the electron is extracted to the C 60 and it recombines with a hole in the perovskite via trap states (mechanism 2); III) Interface recombination within the C 60 , where the electron and hole are extracted to the C 60 and recombine at the interface via trap states in the C 60 (mechanism 3); IV) Recombination within the bulk of C 60 , where electrons and holes are extracted to the C 60 and recombine via trap states in the C 60 (mechanism 4). This is distinct from mechanism 3 as the holes can travel throughout the C 60 also introducing the possibility of recombination at the electrode.</p><p>Each of these mechanisms will have different implications for optimization pathways to circumvent the loss. Thus, to further advance single-and multijunction cells, we need to understand if, or to what extent each mechanism contributes.</p><p>In this work, we disentangle the involvement of each of these mechanisms to the increased nonradiative recombination in perovskite/C 60 systems. We first performed ultrasensitive photovoltaic external quantum efficiency (EQE) measurements of conventional and lateral devices which revealed a large increase in trap state density when interfaced with C 60 . We then measured the PLQY in perovskite/C 60 films as a function of the C 60 thickness or C 60 coverage (from sub-nm to 30 nm). These experiments revealed a remarkable direct correlation between the loss of PLQY and the C 60 thickness in a regime where the C 60 only partially covers the perovskite surface, ruling out bulk C 60 recombination (mechanism 4). By examining the highest molecular orbital (HOMO) features of the sequentially deposited C 60 layers using ultraviolet photoelectron spectroscopy (UPS), we demonstrate that the PLQY drops to its lowest value, once the perovskite surface is completely covered with the C 60 . Following this, we are able to develop a quantitative model based on PLQY being inversely proportional to C 60 surface coverage which fits our experimental data very well. We then performed confocal microscopy and hyperspectral PL imaging, which confirmed that the decrease in PL intensity was homogenous in the XY plane. After this, in order to understand the possibility of C 60 -induced mid-gap states on the perovskite surface, we modeled the perovskite-C 60 interaction for different terminated surfaces, showing no formation of mid-gap states in the perovskite, considering two different surface terminations. This, in combination with the EQE and additional PL measurements on perovskite/C 60 stacks allowed us rule out increased nonradiative recombination in the perovskite (mechanism 1). We then compared the PL emission of C 60 films, with perovskite/C 60 stacks. These measurements revealed the presence of excitonic states in the C 60 which could be well aligned with the valence band of the perovskites, facilitating hole transfer (mechanism 3). However, we did not observe any C 60 photoluminescence or electroluminescence in the photovoltaic devices which ruled out this theory. This indicates that the remaining acrossinterface recombination (mechanism 2) is the operational loss mechanism. With further UPS measurements and modeling of the perovskite/C 60 interaction, we propose either C 60 density of states (DOS) broadening creating low lying states or a charge transfer state is the source of additional traps at this interface. Finally, strategies are proposed to reduce the nonradiative loss at this interface.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Evidence of Traps</head><p>We begin by looking for subgap features in devices with C 60 , and performed ultrasensitive EQE measurements on a perovskite solar cell in a pin device architecture [(indium tin oxide, ITO (150nm)/PTAA:PFN (8nm)/perovskite (400-500nm)/C 60 (30nm)/bathocuproine, BCP (8nm)/ Cu (100nm)]. We employ a triple cation (TC) absorber which is widely used in literature, (Cs 0.05 (FA 0.83 MA 0.17 ) 0.95 Pb(I 0.83 Br 0.17 ) 3 , with a bandgap of 1.63 eV and a PCE of 20%). The average performance parameters of the cells are displayed in Figure <ref type="figure" target="#fig_0">S1</ref> and Table <ref type="table" target="#tab_1">1</ref> (Supporting Information). Figure <ref type="figure" target="#fig_2">2a</ref> shows the EQE of the solar cells (diode structure), which reveals the presence of sub gap states density (at very low EQEs of 10 -7 -10 -6 ). As discussed in Note S1 (Supporting Information), this cannot be explained by bulk recombination based on a transfer matrix model. <ref type="bibr" target="#b18">[19]</ref> Importantly, upon inserting a LiF layer in between the perovskite and the C 60 , the sub gap feature is reduced, while the V OC of the cell increases by 40 meV. <ref type="bibr" target="#b7">[8]</ref> Interestingly, the increased trap state density is also visible from the increased trap-assisted EQE signal in ultrasensitive EQE measurements in a photoresistor structure (Figure <ref type="figure" target="#fig_2">2b</ref>). We note that the EQE in the sub gap range appears at higher EQE values than in Figure <ref type="figure" target="#fig_2">2a</ref>, which is due to the increased recombination in the wide photoresistor channel and consequently lower EQE signal above the gap. These measurements confirm a large increase of trap state density when the perovskite is in direct contact with the C 60 layer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Location of Nonradiative Recombination</head><p>With strong evidence of traps when C 60 is in contact with the perovskite, we attempt to better determine the precise spatial location of the recombination. We evaporate C 60 with varying thickness onto the TC perovskite and measure the PLQY (inset Figure <ref type="figure" target="#fig_1">3a</ref>). Intriguingly we observe that the majority of the PLQY loss with respect to the neat occurs in samples with only 1 nm of C 60 and we see no further loss beyond samples with 4 nm. We repeat this experiment on a double cation (DC) perovskite (FA 0.8 MA 0.2 PbI 3 with a bandgap of 1.54 eV and cells with a PCE of around 21%, performance parameters, Figure <ref type="figure" target="#fig_0">S1</ref>, Supporting Information) which we recently reported to have a PLQY in neat films of up to 0.2 and a Shockley-Read-Hall (SRH) lifetime over 10 µs. <ref type="bibr" target="#b13">[14]</ref> This will afford us a larger dynamic range to investigate PLQY losses (Figure <ref type="figure" target="#fig_1">3a</ref>). In this case, we find the same result where almost all loss occurred in the first nm, and, the loss is very large (5 × 10 -3 after 1 nm). Therefore, to better resolve the range where the PLQY drops rapidly, we investigate the sub-nm regime of C 60 thickness on the DC and TC perovskites, with high resolution using multiple samples and measurements for each thickness (Figure <ref type="figure" target="#fig_1">3b</ref>).  ). The relative trap density appears to be reduced if the LiF layer is inserted between perovskite and C 60 , which improves the device performance from ≈20% to 21% through a better V OC (40 mV) and better FF (≈2%). <ref type="bibr" target="#b7">[8]</ref> The inset shows a simplified solar cell device stack. b) Sensitive EQE of triple cation perovskite devices fabricated in photoresistor architecture plotted as a function of photon energy, and compared for the case with (blue) and without (red) a C 60 layer. The inset shows a simplified device stack, where the triple cation layer is sandwiched between glass and top electrodes (gold).</p><p>We observe that there is an initial plateau of the PLQY with very low thicknesses of C 60 (&lt;0.01 nm), followed by a decrease inversely proportional to the C 60 thickness until ≈3 nm and then remaining constant until an operational C 60 thickness of ≈30 nm. If we consider the unit cell of crystalline C 60 , it adopts a face centered cubic (FCC) structure with a lattice parameter a = 1.41 nm (Figure <ref type="figure" target="#fig_1">3c</ref>). Assuming a perfectly smooth surface, we should expect full surface coverage at ≈1 nm (the interplanar spacing of the hexagonally close packed planes is 1 nm). Hence, a nominal sub-nm C 60 thickness (as determined by the rate and duration of thermal evaporation), should be considered as a partial coverage of the perovskite layer. This saturation of the quenching with increased thickness beyond 3 nm is very interesting and indicative of a surface mediated process. However, all of the recombination did not happen in precisely the first nm as would have been predicted above.</p><p>As we deposit C 60 via thermal evaporation and the perovskite surface is multicrystalline, it is likely that film growth occurs through the formation terraces and islands of C 60 on the perovskite surface rather than epitaxiallly. <ref type="bibr" target="#b19">[20]</ref> In addition to this the perovskite film has a root mean square roughness of 21.5 nm. <ref type="bibr" target="#b16">[17]</ref> As such, we hypothesize that full surface coverage of C 60 on the perovskite will not be complete at 1 nm and that the PLQY is related to the surface coverage, saturating when it is complete. In order to investigate this, sequentially deposited C 60 layers on the DC perovskite were studied by UPS. Given the very surface sensitive nature of UPS, the photoemission spectra are expected to consist of perovskite valence bands and C 60 highest occupied molecular orbital (HOMO) features until the surface is fully covered by C 60 molecules. It is clearly shown in Figure <ref type="figure" target="#fig_1">3d</ref> that the C 60 HOMO features start to dominate and saturate at the thickness of 2.3 nm, indicating a complete coverage of C 60 molecules on the perovskite surface already at 2.3 nm. The same experiment was also performed on the TC perovskite, which showed the same result with the C 60 feature dominating from 2.3 nm onward (Figure <ref type="figure" target="#fig_2">S2</ref>, Supporting Information).</p><p>We now seek to accurately describe our PLQY versus C 60 thickness data by developing a numerical model based on known recombination kinetics in metal halide perovskites. To this end, we consider that the PLQY is the ratio of the radiative recombination rate (k 2 n 2 ) to the total recombination rate (k 1 n + k 2 n 2 ), which is the sum of all nonradiative recombination rates (k 1 n) and the radiative rate, neglecting Auger recombination which occurs at ≈1000 suns in perovskites <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref> </p><formula xml:id="formula_0">PLQY 2 2 1 2 2 = + k n k n k n (1)</formula><p>The first-order nonradiative recombination rate constant depends in turn on the number of trap states</p><formula xml:id="formula_1">N traps k N v 1 t raps th σ = (2)</formula><p>where v th σ is the product of the capture cross-section and the thermal velocity; we do not attempt to measure v th σ, but simply note that the nonradiative recombination rate is proportional to the trap density (N traps cm -3 ). We will call these intrinsic traps (N traps(intrinsic) ), which (together with v th σ) determine the PLQY of our control films (1 × 10 -2 and 2 × 10 -1 for TC and DC, respectively). In our model, as we deposit C 60 on the surface, we are increasing the total number of traps (N traps(total) ) by introducing extrinsic traps N traps(external) . When the number of C 60 molecules is low, then k 1(intrinsic) &gt;&gt; k 1(extrinsic) and there is little effect on the PLQY; this is characterized by the plateau region of the PLQY in Figure <ref type="figure" target="#fig_1">3b</ref>. There is then a transition until k 1(extrinsic) &gt;&gt; k 1(intrinsic) upon which there is an inversely proportional relationship between C 60 surface coverage and the PLQY. Finally, the PLQY will saturate when full surface coverage is achieved as no more surface traps can be created. Using this simple model and a thickness for complete surface coverage of 2.3 nm (from UPS) we can closely fit the experimentally obtained PLQY data (red lines Figure <ref type="figure" target="#fig_1">3b</ref>). Therefore, with the combination of the PLQY, UPS and a close fit of the model we conclude that all of nonradiative recombination happens exactly at the surface allowing us to exclude mechanism 4 (predominant recombination in the bulk of C 60 ). The fact that the PLQY decays inversely with the number of C 60 molecules</p><formula xml:id="formula_2">(PLQY α N C60 -1</formula><p>), indicates that N traps ∝ N C60 . Additionally, this type of recombination analysis is only valid for deep traps indicating that C 60 is making deep rather than shallow traps at the surface. The correlation of surface coverage and PLQY opens up possibilities to improve device performance by reducing contact area of the C 60 with the perovskite through the use of a patterned interlayer; this "point contacts" strategy is well known for silicon <ref type="bibr" target="#b22">[23]</ref> and has been demonstrated on the substrate side for nip perovskite solar cells. <ref type="bibr" target="#b23">[24]</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Origin of Interfacial Traps</head><p>A possible origin of traps can be found in Figure <ref type="figure" target="#fig_1">S3</ref> (Supporting Information) where we observe the lowest-unoccupied molecular orbital (LUMO) is positioned ≈100 meV below the conduction band minimum (CBM) of the perovskite at the interface and upon increasing the thickness of C 60 , the LUMO bends upward (by ≈0.3 eV). This low lying LUMO of the C 60 at the interface could potentially introduce trap states which cause the increased nonradiative recombination. Such an effect has been previously observed in organic semiconductors in contact with inorganic materials, <ref type="bibr" target="#b24">[25]</ref> and attributed to broadening of the organic DOS at the interface because of spatial variation (inhomogeneity) in the electrostatic potential of the inorganic material. <ref type="bibr" target="#b25">[26]</ref> Note, a broad DOS throughout the C 60 could also be related to packing faults or impurities causing energetic disorder. To test the packing fault hypothesis we try solvent and thermal annealing the C 60 electron transport layer (ETL) in case of a TC absorber layer to increase crystallinity and order as reported for PCBM by Shao et al. <ref type="bibr" target="#b26">[27]</ref> (Figure <ref type="figure" target="#fig_3">S4</ref>, Supporting Information) which showed, however, no improvement. We then fabricate TC/C 60 stacks with different purities of C 60 which showed that the PLQY was the same for all samples, ruling out recombination via impurity defects (Figure <ref type="figure" target="#fig_4">S5</ref>, Supporting Information). Therefore, the observed pinning of the C 60 LUMO below the conduction band is more likely due to the C 60 DOS broadening through inhomogenous electrostatics of the perovskite surface.</p><p>As we have pinned down the location of the recombination to the interface, we now inspect samples of our DC and TC Adv. Energy Mater. 2022, 12, 2103567 perovskite with subsurface coverage of C 60 with confocal microscopy (Figure <ref type="figure" target="#fig_3">4</ref>) and hyperspectral imaging (Figure <ref type="figure">S6</ref>, Supporting Information) to see if there was any heterogeneity in PL intensity in the xy-plane for subsurface coverage samples. Through this technique, we can potentially resolve the length scale of the clustering/islands of C 60 by the evolution of darker or brighter regions in the PL maps (confocal PL can have a high spatial resolution ≈100 nm). However, these measurements revealed that the multicrystalline surface of the DC and TC films displays the same degree of heterogeneity of the PL signal (within our resolution limit) irrespective of surface coverage. While these results do not demonstrate any heterogeneity (or clustering of C 60 ), they reveal individual grains (especially for the DC perovskite) and would warrant further research in the future if point contact methods are found to improve the PLQY at this interface. Now that we have identified the location of the recombination to the interface, we seek to determine whether the traps originate from the perovskite or the C 60 . First, we discuss the possibility that C 60 induces deep traps on the perovskite surface (i.e., mechanism 1). In general, the closed shell nature of C 60 should make it relatively unreactive to redox reactions on the surface and it is an apolar molecule so there should be no electrostatic repulsion of ions causing a change of surface stoichiometry. Nevertheless, we investigate whether the reduction in PLQY was surface independent. To do this we fabricate samples of TC perovskite where the perovskite is either deposited on top of a glass/C 60 substrate, or, C 60 is deposited on a glass/perovskite substrate (Figure <ref type="figure">S7</ref>, Supporting Information). We measure the PLQY of these samples with incidence of the excitation light from both sides in order to account for the generation of carriers either next to or away from the C 60 . We find that the PLQY is almost identical between these two samples when the illumination pathway is matched, e.g., through the perovskite. We note that the bottom and top surfaces of the perovskite film are different in chemical nature; for example, the surface of 83:17 TC perovskite can be effectively passivated with tri-octyl phosphine oxide which results in a PLQY in excess of 0.2, indicating that the trap concentration of the bottom interface is much lower. <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b27">28]</ref> This, therefore, supports the hypothesis that the C 60 -induced loss does not significantly depend on the surface chemistry.</p><p>To further investigate possible trap states induced by the C 60 -perovskite interactions, we perform first principle calculations. The interaction of C 60 with the MAPbI 3 perovskite surface has been previously modeled by Quarti et al. <ref type="bibr" target="#b28">[29]</ref> Here we consider two surface terminations representing a more stable/ less reactive MAI-terminated surface (Figure <ref type="figure">S8b</ref>, Supporting Information) and a less stable/more reactive PbI 2 -terminated perovskite surface (Figure <ref type="figure">S8a</ref>, Supporting Information). These interfaces were geometry optimized by Perdew-Burke-Ernzerhof (PBE), <ref type="bibr" target="#b29">[30]</ref> including D3 dispersion corrections. <ref type="bibr" target="#b30">[31]</ref> The alignment of energy levels was determined by accurate hybrid Heyd-Scuseria-Ernzerhof (HSE) calculations <ref type="bibr" target="#b31">[32]</ref> including spin-orbit coupling (hereafter HSE-SOC). All calculations were carried out by the Quantum Espresso program package. <ref type="bibr" target="#b32">[33]</ref> The HSE-SOC calculated electronic DOS is reported in Figure <ref type="figure">S8</ref> (Supporting Information) for both surface terminations. Firstly, both simulations do not show the formation of mid-gap states in the perovskite further ruling out mechanism 1. For both systems, a C 60 /perovskite shortest C-Pb distance of ≈3Å is calculated, with an interaction energy of ≈0.5 eV dominated by the dispersion term. Moreover, the simulations of the noninteracting and interacting DOS show appreciable interfacial electronic coupling (200 meV) and in the case of the PbI 2 terminated surface, a stabilization of the C 60 LUMO by 200 meV. Therefore, a lower energy charge transfer state could exist at this interface and a DOS broadening of the C 60 LUMO from electrostatic variations of the perovskite surface potential is also possible; both could be a source of traps at the perovskite/C 60 interface.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discerning between Across-Interface Recombination and Hole Transfer</head><p>Now that we have ruled out recombination in the perovskite (mechanism 1) and recombination in the bulk of the C 60 (mechanism 4), we investigate the relative contribution of the hole recombining from perovskite across the interface (mechanism 2), or from within the C 60 layer (mechanism 3) (Figure <ref type="figure" target="#fig_4">5a</ref>). We begin by measuring the UV-vis of a 30 nm thin film C 60 (as we use in our devices) to better understand the energetic distribution of states in the C 60 layer (Figure <ref type="figure">S9</ref>, Supporting Information). We observe vibronic peaks whose origin and energy are summarized in the inset of the figure. Of particular interest is a small shoulder at ≈1.9 eV (526 nm) which is the spin forbidden HOMO to LUMO (h u → t 1u ). As shown from the UPS results in Figure <ref type="figure" target="#fig_1">S3</ref> (Supporting Information), the C 60 LUMO has a favorable energetic alignment with the CBM of the 1.54-1.63 eV perovskites, and a large energy offset of ≈200-300 meV is present for holes. Therefore, hole transfer to the C 60 HOMO levels is highly unlikely (given k B T is ≈25 meV) to occur. Next, we measure the PL of the same C 60 film to understand the nature of its radiative transitions (Figure <ref type="figure" target="#fig_4">5b</ref>). We observe a broad emission which is the convolution of 3 peaks centered at 1.63, 1.52 (ΔE = 90 meV) and 1.41 eV (ΔE = 180 meV) in accordance with literature. <ref type="bibr" target="#b33">[34]</ref> The 1.63 eV peak is attributed to the (t 1u → h u ) transition which luminesces weakly due to relaxation of the spin forbidden selection rule when a localized exciton state forms. The binding energy of this exciton of ≈270 meV lowers the energy of the luminescent transition considerably. The two lower states are vibronic replicas of the 1.63 eV peak associated with the primary "breathing mode" in the Raman spectrum at 1469 cm -1 (182 meV-same energy as the peak spacing). <ref type="bibr" target="#b34">[35]</ref> What is most intriguing about the PL spectrum is that the lower energy transitions open the possibility of hole transfer to such states (if the electron and hole are equally stabilized by the exciton) which we illustrate in Figure <ref type="figure" target="#fig_0">S10</ref> (Supporting Information).</p><p>Following this understanding, we look for a signature of C 60 PL in our perovskite/ C 60 stacks. At open circuit conditions, we calculate that the recombination current at the TC perovskite/C 60 interface is ≈20 mA cm -2 . <ref type="bibr" target="#b16">[17]</ref> We then measured the C 60 PL where the generated carrier flux was equivalent to 20 mA cm -2 in the perovskite (full details in Note S2, Supporting Information) and compared this with the PL of a pintype TC solar cell (at 1 sun) (Figure <ref type="figure" target="#fig_4">5c</ref>). However, we do not observe a significant contribution of any of the C 60 peaks in the PL of the TC solar cell. Notably, if all the recombination is happening through this pathway, we could expect the 1.41 eV peak to be visible. Further, we measure the electroluminescence (EL) of the same device at varying current densities from 83 µA cm -2 to 18.3 mA cm -2 and do not observe any evidence of C 60 electroluminescence (Figure <ref type="figure" target="#fig_0">S10</ref>, Supporting Information) which with the lack of C 60 PL allows us to rule out mechanism 3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Further Discussion</head><p>For mechanism 2 to operate there needs to be a source of trap states to partake in nonradiative recombination. To this end, we have shown significant evidence of trap states in perovskite/ C 60 half stacks and complete devices through sensitive EQE measurements (Figure <ref type="figure" target="#fig_2">2a,</ref><ref type="figure">b</ref>). These states could be due to DOS broadening causing low lying LUMO states at the surface which we measured with UPS (Figure <ref type="figure" target="#fig_1">S3</ref>, Supporting Information) or a charge transfer state at the interface (Figure <ref type="figure">S8</ref>, Supporting Information). These two possible sources of traps are summarized schematically in Figure <ref type="figure" target="#fig_4">5d</ref>. Viable optimization pathways to reduce the loss while keeping C 60 as the ETL should be; i) significantly reduce the concentration of holes at the perovskite C 60 interface, ii) the insertion of a hole blocking layer to prevent hole transfer or physically decouple the electronic perovskite/ C 60 interaction, and, iii) reduce the contact area between perovskite and C 60 using a "point contacts" strategy, possibly through a lithographic process to pattern the surface. With regard to the point contacts strategy a gentle lithographic process which patterns the surface with an insulator and does not damage the perovskite will need to be developed. The insulator should be patterned to reduce surface contact of the C 60 to less than 10% for significant improvement (ideal case is ≈ 3%) with distances between contact points being less than the diffusion length of the perovskite (calculated to be ≈5 µm in case of the TC and 40 µm in case of DC, using a perovskite mobility of 1 cm 2 V -1 s -1 as reported <ref type="bibr" target="#b35">[36]</ref> ). We have included detailed schematics and further description of how ideal point contacts would look in Figure <ref type="figure" target="#fig_2">S12</ref> (Supporting Information). As a proof of concept, we attempted to spontaneously form point contacts through a discontinuous film of poly(methyl methacrylate) (PMMA) (Figure <ref type="figure" target="#fig_1">S13</ref>, Supporting Information) by simply modifying the concentration. The results showed a ≈30 mV improvement in V OC but was quickly limited by the insulating nature of PMMA causing the V OC to drop again (further discussion in Figure <ref type="figure" target="#fig_3">S14</ref>, Supporting Information). <ref type="bibr" target="#b36">[37]</ref> This validates the strategy but shows the need for a lithographic or wet chemical step to better pattern the insulator for it to reach its true potential (for the TC this would be roughly a 100 mV improvement over the control). Patterning on this length scale is typically achieved using photolithographic techniques, which one could envision causing some damage to the perovskite through deep-UV light exposure and subsequent etching steps. However, there exists a great number of so called "soft" lithographic techniques which could be suitable methods to make a patterned film of insulator on this length scale. For example, one could use polymer blend lithography, <ref type="bibr" target="#b37">[38]</ref> self-assembly of block copolymers, <ref type="bibr" target="#b38">[39]</ref> nanosphere lithography <ref type="bibr" target="#b39">[40]</ref> or nanoimprint lithography. <ref type="bibr" target="#b40">[41]</ref> These methods would allow processing and etching with orthogonal solvents like chlorobenzene and isopropanol which do not significantly damage the perovskite layer with short exposure. As can be seen there are many different possibilities and avenues of exploration to develop such a process. It is not without challenges and efforts are ongoing in our lab to achieve this, it is however beyond the scope of this work.</p><p>Overall, it is clear that C 60 is not without its problems when being used as an ETL in pin perovskite solar cells -which begs the question; "Why are C 60 and other fullerenes (e. g. PCBM) so frequently used?" To that end we believe that it is because fullerenes have; i) a high electron affinity and mobility, ii) an appropriate alignment of their LUMO to many popular perovskites and, iii) a spherical shape which facilitates good vertical electron transport regardless of the processing conditions. This is opposed to most other small molecule organic ETLs which are planar thus requiring more care during fabrication to ensure proper alignment of π-orbitals with respect to the direction of charge transport. These benefits have outweighed the nonradiative recombination loss until now, but the rapid progress of the field has left fullerene transport layers as a significant roadblock to further performance improvements. Strategies which very strongly reduce the minority carrier concentration at the perovskite/Spiro-OMeTAD interface have been shown to work very well in nip cells (e.g. 2D perovskite interlayers <ref type="bibr" target="#b41">[42]</ref> ) and LiF is known to improve pin cells by this mechanism via a surface dipole repelling the holes. <ref type="bibr" target="#b9">[10]</ref> However, in the case of higher bandgap perovskites (&gt;1.7eV), hole transfer to the C 60 may also occur, requiring ETLs with a deeper HOMO.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Conclusions</head><p>In summary, we have qualitatively explained the interfacial recombination at the perovskite/C 60 heterojunction. Sensitive EQE measurements revealed a large number of subgap states induced by C 60 in perovskite devices. The PLQY of perovskite/ C 60 stacks illuminated through the glass/perovskite and C 60 side and ab initio simulations were inconsistent with C 60 inducing trap states on the perovskite thus implicating nonradiative recombination happens via states in C 60 . Coverage dependent PLQY and UPS measurements revealed that the most critical loss process in most high performing pin-type cells is a surface mediated process, which happens at the first monolayer of C 60 . We are able to model our thickness dependent PLQY data well by making the additional trap density directly proportional to the number of C 60 molecules at the perovskite surface, which saturates when surface coverage is complete. Having pinned down the location of the recombination process, we examined whether holes from the perovskite go directly to trap states at the interface or to the HOMO of C 60 . However, we didn't find any evidence of hole transfer to either the HOMO or an excitonic state of C 60 through PL and EL measurements of a TC </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2103567">(9 of 10)</head><p>© 2022 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH perovskite device allowing us to rule out this mechanism. We conclude that recombination across the interface via C 60 trap states is the operational mechanism and that the traps originate either from charge transfer states or DOS broadening at the interface pinning the LUMO below the conduction band of the perovskite. The investigation laid out here and proof of concept devices demonstrates that reducing the hole concentration at the perovskite C 60 interface and "point contact" strategies will allow one to improve the device V OC , paving the way for further strategies to eliminate this loss pathway.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental</head><p>Absolute Photoluminescence Measurements: Excitation for the PL measurements was performed with a 520 nm CW laser (Insaneware) through an optical fibre into an integrating sphere. The intensity of the laser was adjusted to a 1 sun equivalent intensity by illuminating a 1 cm 2 -size perovskite solar cell under short-circuit and matching the current density to the 𝐽SC under the sun simulator (22.0 mA/cm 2 at 100 mWcm -2 , or 1.375x10 21 photons m -2 s -1 ). A second optical fiber was used from the output of the integrating sphere to an Andor SR393iB spectrometer equipped with a silicon CCD camera (DU420A-BR-DD, iDus). The system was calibrated by using a calibrated halogen lamp with specified spectral irradiance, which was shone into to integrating sphere. A spectral correction factor was established to match the spectral output of the detector to the calibrated spectral irradiance of the lamp. The spectral photon density was obtained from the corrected detector signal (spectral irradiance) by division through the photon energy (ℎ𝑓), and the photon numbers of the excitation and emission obtained from numerical integration using Matlab. In a last step, three fluorescent test samples with high specified PLQY (~70%) supplied from Hamamatsu Photonics where measured where the specified value could be accurately reproduced within a small relative error of less than 5%.</p><p>Relative Photoluminescence and Electroluminescence measurements: Excitation for the PL imaging measurements was performed with a 520 nm CW laser (Insaneware) which was incident on the sample at a ~20 o angle. The intensity of the laser was adjusted to a 1 sun equivalent intensity by illuminating a 0.06 cm 2 -size perovskite solar cell under short-circuit and matching the current density to the 𝐽SC under the sun simulator (22.0 mA/cm 2 at 100 mWcm -2 , or 1.375x10 21 photons m -2 s -1 ). The PL which was emitted from the sample was then focussed into an Andor SR393iB spectrometer equipped with a silicon CCD camera (DU420A-BR-DD, iDus) through a large lens (diameter approx. 50 mm) that was at a 90 o angle relative to the substrate. This afforded more sensitivity than the integrating sphere setup. In order to ensure fair comparison between samples the incident angle of the laser onto the substrate (and thus the spot size) was kept the same. Electroluminescence measurements were performed using the same lens focussing setup without any laser excitation -a voltage was applied with a Kiethley 2400 series and the current was allowed to stabilise for 5 seconds before a spectrum acquired and the current was read off.</p><p>Sensitive External Quantum Efficiency: Sensitive external quantum efficiency (s-EQEpv) was measured over 8 orders of magnitude with a home-built apparatus using a high-performance double grating monochromator (PerkinElmer, Lambda 950) as a light source providing excitation wavelengths from 175 nm up to 3300 nm. The probe light beam was physically chopped at 273 Hz by a multi-blade chopper wheel from Thorlabs (MC2000B). Long-pass filters (Edmunds Optics, OD 4) were used to filter out remaining stray light, while the device photocurrent was passed through a low noise currentamplifier with variable gain (Femto, DLPCA-200) prior detecting the photocurrent signal with a lock-in amplifier (Stanford Research, SR860). Different electrical bandwidths between 1 Hz and 0.001 Hz were used to increase the dynamic range of the EQE measurement. A NIST-calibrated silicon (Newport, 818-UV) and germanium (Newport, 818-IR) photodiode sensor were used for the calibration process. A detailed description of the EQE apparatus is provided elsewhere.1 Current density-voltage characteristics: 𝐽𝑉-curves were obtained in a 2-wire source-sense configuration with a Keithley 2400. An Oriel class AAA Xenon lamp-based sun simulator was used for illumination providing approximately 100 mW cm-2 of AM1.5G irradiation and the intensity was monitored simultaneously with a Si photodiode. The exact illumination intensity was used for efficiency calculations, and the simulator was calibrated with a KG5 filtered silicon solar cell (certified by Fraunhofer ISE). The temperature of the cell was fixed to 25 °C and a voltage ramp of 67 mV/s was used. A spectral mismatch calculation was performed based on the spectral irradiance of the solar simulator, the EQE of the reference silicon solar cell and 3 typical EQEs of our cells. This resulted in 3 mismatch factors of 𝑀 = 0.9949, 0.9996 and 0.9976. Given the very small deviation from unity the measured 𝐽SC was not corrected by the factor 1/𝑀. Photoemission Spectroscopy Measurements: Photoemission experiments were performed at an ultrahigh vacuum (UHV) system consisting of sample preparation and analysis chambers (both at base pressure: 1 × 10 -10 mbar) as well as a load lock (base pressure: 1 × 10 -6 mbar). All of the samples were transferred to the UHV chamber using a transfer rod under rough vacuum (1 × 10 -3 mbar). Ultraviolet photoemission spectroscopy (UPS) was performed using a helium discharge lamp (21.22 eV) with a filter to reduce the photoflux and to block visible light from the source hitting the sample. All spectra were recorded at room temperature and normal emission using a hemispherical Specs Phoibos 100 analyzer, and the overall energy resolution was 140 meV. For the C60 thickness experiment,films were deposited onto the film Confocal Photoluminescence Mapping: We used a confocal single-photon counting fluorescence microscope from Picoquant to record photoluminescence lifetime maps of the various perovskite films with and without C60. In all cases, excitation was performed at λ = 636 nm using a 100x long working distance air objective (NA = 0.8), and the photoluminescence was collected through a dichroic mirror, a λ = 640 nm long-pass filter, and a 50 µm pinhole onto a single photon counting SPAD detector. The excitation and emission were raster-scanned using a galvo mirror system, where both the objective and sample remain at a fixed position. Excitation densities and repetition rates, as well as the used filters, are given in the main text.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device Fabrication of pin-type Cells:</head><p>Substrates and HTL: Pre-patterned 2.5x2.5 cm <ref type="bibr">2</ref> 15 Ω/sq. ITO substrates (Psiotech Ltd., United Kingdom) were cleaned with acetone, 3% Hellmanex solution, DI water and iso-propanol, by sonication for 10 min in each solution. After a microwave plasma treatment (3 min, 200 W), the samples were transferred to a N2-filled glovebox. The first layer was a PTAA (Sigma Aldrich) layer with thickness of 8 nm was spin coated from a 2 mg mL -1 PTAA/toluene solution at 6000 rpm for 30 seconds (acceleration 2000 rpm s -1 ). After 10 min annealing on a hotplate at 100 °C, the films were cooled down to room temperature and a 60 µL solution of PFN-Br (1-Material, 0.5 mg/mL in methanol) was deposited onto PTAA while the substrate was being spun (dynamic) at 4000 rpm for 30 s resulting in a film with thickness below the detection limit of our AFM (&lt; 5 nm). No further annealing occurred.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Perovskite solutions:</head><p>For the double cation perovskite, 2 different solutions were prepared. The first solution was prepared by dissolving 1.5 M PbI2 (TCI, 691.55 mg) in 1 mL DMF:DMSO (9:1 volume ratio, v:v). Then a solution containing the cations was prepared by dissolving FAI (Dyenamo, 90 mg), MAI (Lumtec, 6.4 mg) and MACl (Sigma-Aldrich, 9mg) in 1 mL Isopropanol (IPA). Both solutions were left under stirring overnight (14h) to completely dissolve the materials. We note that the addition of MACl improves the crystallization of the perovskite film but evaporates in the final annealing step.</p><p>The triple cation perovskite solution was prepared by mixing two 1.2 M FAPbI3 and MAPbBr3 perovskite solutions in DMF:DMSO (4:1 volume ratio, v:v) in a specific ratio of x:y (FAPbI3:MAPbBr3, e.g. 83:17) which we call "MAFA" solution. The 1.2 M FAPbI3 solution was thereby prepared by dissolving FAI (722 mg) and PbI2 (2130 mg) in 2.8 mL DMF and 0.7 mL DMSO which contains a 10 molar% excess of PbI2. The 1.2 M MAPbBr3 solution was made by dissolving MABr (470 mg) and PbBr2 (1696 mg) in 2.8 mL DMF and 0.7 mL DMSO which contains a 10 molar% excess of PbBr2. Lastly, 42 μL of a 1.5 M CsI solution in DMSO (389 mg CsI in 1 mL DMSO) was mixed with 1000 μL of MAFA solution resulting in a nominal perovskite stoichiometry of Cs0.05(FA0.83MA0.17)0.95Pb(I0.83Br0.17)3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Perovskite film fabrication:</head><p>For the double cation perovskite, a 2-step interdiffusion method was employed. The first step was the deposition of the PbI2 layer. This was achieved by dropping 150 µL of the lead iodide solution in a N2filled glovebox and spin-coating at 1500 rpm for 30 s, the films were then annealed at 70 °C for 1 min resulting in a yellow-transparent layer. We note that if the PbI2 layers are left for too long before proceeding to the next step, the lead iodide's appearance would change to a rougher yellow color and the performance of the complete devices would be substantially lower. Afterwards the formation of the perovskite was achieved by dropping 150 µL of the cation solution on top of the lead iodide layer which turned the film into a brown-transparent layer, then rapidly starting the spin-coating at 2500 rpm for 30 s, which resulted in a red film. This was followed by an annealing step at 150 °C for 15 min outside of the glovebox under ambient conditions (at a relative humidity of 25%) which resulted in a dark brown or black perovskite film. For the second-annealing step, a transport-box was used to transfer the samples out of the glovebox and in order to keep the layers in a nitrogen atmosphere right before the annealing on a preheated plate (150 °C). We note that as soon as the perovskite layers gets into contact with air, the crystallization and a phase-change process starts and we noticed that a rapid transfer to the hotplate directly after opening the transport-box was beneficial for the cell performance and high PLQY.</p><p>For the triple cation perovskite, the film was deposited via spincoating in an N2 filled glovebox. First, 120 μL of the perovskite solution was placed on the static substrate. The film was then spun at 4000 rpm (acceleration 1333 rpm s -1 ) for 40 seconds. 10 seconds into the spin program 300 μL of ethyl acetate was dispensed onto the still spinning substrate in one continuous flow which lasts for approximately 1 second. Once the spin program was completed the films were immediately transferred to a hotplate and annealed for 30 minutes at 100 °C ETL and Metal contacts: After annealing, the samples were transferred to an evaporation chamber where C60 (Sigma-Aldrich, 30 nm) at 0.2 A/s , 8 nm BCP (Sigma-Aldrich) at 0.2 A/s and 100 nm copper (Sigma-Aldrich) at 0.6 Å/s were deposited under vacuum (p = 10 -7 mbar).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PL sample fabrication:</head><p>After annealing the samples were transferred to an evaporation chamber where varying thicknesses of C60 were deposited onto the substrate typically at a rate of 0.2 A s -1 . For samples with low apparent C60 thickness (e.g 0.1 A) the rate was reduced to approximately 0.03 A s -1 .  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. a) C 60 -induced recombination losses in various perovskite systems. (Data taken from refs.[8,11,13-18].) C 60 appears to lower the PL yield (PLQY) to ≈1 × 10 -4 -1 × 10 -3 of the neat layer, relatively independent of the composition. We note that these different perovskites are denoted as methyl ammonium lead iodide (MAPbI 3 ), double cation is denoted as FA 0.8 MA 0.2 PbI 3 , triple cation perovskite (Cs 0.05 FA x MA y Pb(I x Br y ) 3 ) is abbreviated as "TC," where the x:y ratio reflects the molar ratio of FAPbI 3 versus MAPbBr 3 , 2D/3D perovskites are denoted by the spacer cation butylammonium (BA) and the number of layers of octahedra between spacer cations, e.g., n = 4 is BA4. b) PLQY of an 83:17 TC perovskite on different transport layers, showing that fullerenes limit the performance of pin cells and spiro-OMeTAD limits nip cells; overall the pin cells are more limited by interface recombination. Dashed line indicates the PLQY of the neat perovskite on glass. c) Possible recombination pathways at the C 60 interface (C 60 -induced surface trap states, across-interface recombination, and recombination within the C 60 layer directly at the interface or in the bulk).</figDesc><graphic coords="2,116.23,319.02,360.00,317.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. a,b) PLQY versus C 60 thickness for a double cation perovskite (FA 0.8 MA 0.2 PbI 3 ), and triple cation perovskite (inset), showing that the PL emission is quenched within the first few nm of C 60 indicating the importance of recombination directly across the interface. c) FCC crystal structure of C 60 with lattice parameter of 14 Å. d) Ultraviolet photoelectron spectra of partially covered perovskite surfaces with C 60 .</figDesc><graphic coords="4,116.23,403.22,360.00,282.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. a) Sensitive external quantum efficiency (EQE) measurements of triple cation perovskite solar cells plotted as a function of photon energy and compared for the case with (blue) and without (red) a LiF layer, highlighting the presence of deep traps at low EQEs (10 -7). The relative trap density appears to be reduced if the LiF layer is inserted between perovskite and C 60 , which improves the device performance from ≈20% to 21% through a better V OC (40 mV) and better FF (≈2%).<ref type="bibr" target="#b7">[8]</ref> The inset shows a simplified solar cell device stack. b) Sensitive EQE of triple cation perovskite devices fabricated in photoresistor architecture plotted as a function of photon energy, and compared for the case with (blue) and without (red) a C 60 layer. The inset shows a simplified device stack, where the triple cation layer is sandwiched between glass and top electrodes (gold).</figDesc><graphic coords="4,116.22,70.87,360.00,145.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. a-f) Confocal PL intensity maps of double cation (DC) and triple cation (TC) perovskite with different thicknesses of C 60 on top revealing no change in the heterogeneity of PL intensity across the film with respect to coverage converse to possible clustering of C 60 molecules, or darkening of individual grains.</figDesc><graphic coords="6,56.19,70.87,480.06,276.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. a) Possible mechanisms which contribute to nonradiative losses in C 60 . b) Photoluminescence characterization of a C 60 film, which is fitted to show the three peaks contributing to the shape, black line is the cumulative fit of all 3 peaks. c) Comparison of the PL of an 83:17 TC cell at one sun with the PL of C 60 adjusted such that the recombination current in the C 60 is ≈ 20 mA cm -2 . d) Final proposed mechanism and causes of C 60 induced nonradiative losses showing increased nonradiative recombination either via a charge transfer state or low lying C 60 states at the interface due to D.O.S broadening. Adv. Energy Mater. 2022, 12, 2103567</figDesc><graphic coords="7,119.06,372.42,360.00,302.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="17,199.18,70.85,196.95,289.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="18,70.85,70.85,453.60,360.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="19,70.85,419.76,453.56,255.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="20,70.85,70.85,453.57,255.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="20,154.35,394.49,286.60,249.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="22,154.40,70.85,286.08,259.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="22,134.83,376.79,325.65,289.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="23,118.73,239.76,357.84,274.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="25,70.85,70.85,453.59,393.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Adv.Energy Mater. 2022, 12, 2103567 16146840, 2022, 12, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/aenm.202103567 by University Of California, Wiley Online Library on [07/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Figure S1. Boxplots demonstrating performance parameters of triple cation (83-17) and double cation solar cells used in this investigation. Average performance parameters of devices from Supplementary Figure S1. Champion performance parameters are displayed in brackets.</figDesc><table><row><cell></cell><cell>PCE (%)</cell><cell>FF</cell><cell>VOC (V)</cell><cell>JSC (mA cm -2 )</cell></row><row><cell>Double Cation</cell><cell>21.2 (22.46)</cell><cell>81.5 (82.9)</cell><cell>1.079 (1.098)</cell><cell>23.9 (24.7)</cell></row><row><cell>Triple Cation</cell><cell>19.6 (20.4)</cell><cell>78.0 (78.0)</cell><cell>1.135 (1.149)</cell><cell>22.1 (22.8 )</cell></row><row><cell>Supplementary</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Adv.Energy  Mater. 2022, 12, 2103567 16146840, 2022, 12, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/aenm.202103567 by University Of California, Wiley Online Library on [07/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2103567" xml:id="foot_1"><p>(4 of 10) © 2022 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>16146840, 2022, 12, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/aenm.202103567 by University Of California, Wiley Online Library on [07/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2103567" xml:id="foot_3"><p>(6 of 10) © 2022 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2103567" xml:id="foot_4"><p>(7 of 10) © 2022 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors acknowledge funding from the <rs type="funder">Deutsche Forschungsgemeinschaft (DFG, German Research Foundation</rs>) within the <rs type="programName">SPP 2196</rs> (<rs type="grantNumber">SURPRISE 423749265</rs> and <rs type="grantNumber">HIPSTER 424709669</rs>) as well as through the <rs type="grantName">SFB 951</rs> (<rs type="projectName">HIOS</rs>, project number <rs type="grantNumber">182087777</rs>). The authors further acknowledge financial support by the <rs type="funder">Federal Ministry for Economic Affairs and Energy</rs> within the framework of the <rs type="programName">7th Energy Research Programme</rs> (<rs type="grantNumber">P3T-HOPE, 03EE1017C</rs>) and HyPerCells (a joint graduate school of the Potsdam University and the HZB). F.L. acknowledges financial support from the <rs type="funder">Alexander von Humboldt Foundation</rs> via the <rs type="programName">Feodor Lynen program</rs>. S.K. is grateful for a postdoctoral fellowship (<rs type="grantNumber">91793256</rs>) from the <rs type="funder">German Academic Foreign Service (DAAD)</rs>. A.A. acknowledges support from the <rs type="funder">Welsh Government</rs><rs type="grantName">'s Sêr Cymru II Rising Star and Capacity Builder Accelerator Programs</rs> through the <rs type="funder">European Regional Development Fund</rs>, Welsh European Funding Office, and <rs type="institution">Swansea University Strategic Initiative in Sustainable Advanced Materials</rs>. S.D.S. acknowledges the <rs type="funder">Royal Society and Tata Group</rs> (<rs type="grantNumber">UF150033</rs>). The work has received funding from the <rs type="funder">European Research Council</rs> under the European Union's <rs type="programName">Horizon 2020</rs> research and innovation programme (HYPERION -grant agreement no. <rs type="grantNumber">756962</rs>). The authors acknowledge the <rs type="funder">Engineering and Physical Sciences Research Council</rs> (<rs type="funder">EPSRC</rs>, <rs type="grantNumber">EP/R023980/1</rs>) for funding. K.F. acknowledges a <rs type="grantName">George and Lilian Schiff Studentship, Winton Studentship</rs>, an <rs type="grantName">EPSRC studentship, Cambridge Trust Scholarship</rs>, and <rs type="person">Robert Gardiner Scholarship. Open</rs> access funding enabled and organized by <rs type="person">Projekt DEAL</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Hc73JDM">
+					<idno type="grant-number">SURPRISE 423749265</idno>
+					<orgName type="program" subtype="full">SPP 2196</orgName>
+				</org>
+				<org type="funded-project" xml:id="_stENASr">
+					<idno type="grant-number">HIPSTER 424709669</idno>
+					<orgName type="grant-name">SFB 951</orgName>
+					<orgName type="project" subtype="full">HIOS</orgName>
+				</org>
+				<org type="funding" xml:id="_5SNqNwN">
+					<idno type="grant-number">182087777</idno>
+					<orgName type="program" subtype="full">7th Energy Research Programme</orgName>
+				</org>
+				<org type="funding" xml:id="_WkmAxxW">
+					<idno type="grant-number">P3T-HOPE, 03EE1017C</idno>
+					<orgName type="program" subtype="full">Feodor Lynen program</orgName>
+				</org>
+				<org type="funding" xml:id="_dk9EhMv">
+					<idno type="grant-number">91793256</idno>
+				</org>
+				<org type="funding" xml:id="_e956te4">
+					<orgName type="grant-name">&apos;s Sêr Cymru II Rising Star and Capacity Builder Accelerator Programs</orgName>
+				</org>
+				<org type="funding" xml:id="_5ekKmXb">
+					<idno type="grant-number">UF150033</idno>
+				</org>
+				<org type="funding" xml:id="_GTn5B9k">
+					<idno type="grant-number">756962</idno>
+					<orgName type="program" subtype="full">Horizon 2020</orgName>
+				</org>
+				<org type="funding" xml:id="_hRUFY6k">
+					<idno type="grant-number">EP/R023980/1</idno>
+					<orgName type="grant-name">George and Lilian Schiff Studentship, Winton Studentship</orgName>
+				</org>
+				<org type="funding" xml:id="_EkPQZFa">
+					<orgName type="grant-name">EPSRC studentship, Cambridge Trust Scholarship</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement</head><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>Supporting Information is available from the Wiley Online Library or from the author. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of Interest</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Understanding performance limiting interfacial recombination in pin perovskite solar cells</head><p>Jonathan Warby*, <ref type="bibr">1</ref> Fengshuo Zu, <ref type="bibr">2</ref> Stefan Zeiske, <ref type="bibr">3</ref> Emilio Gutierrez-Partida, <ref type="bibr">1</ref> Lennart Frohloff, <ref type="bibr">2</ref> Simon Kahmann, <ref type="bibr">4</ref> Kyle Frohna, <ref type="bibr">4</ref> Edoardo Mosconi, <ref type="bibr">5</ref> Eros Radicchi, <ref type="bibr">5</ref> Felix Lang, 1 Sahil Shah, <ref type="bibr">1</ref> Francisco Peña-Camargo, <ref type="bibr">1</ref> Hannes Hempel, <ref type="bibr">6</ref> Thomas Unold, <ref type="bibr">6</ref> Norbert Koch, 2 Ardalan Armin, <ref type="bibr">3</ref> Filippo De Angelis, <ref type="bibr">5,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> Samuel Stranks, <ref type="bibr">4</ref> Dieter Neher,  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note S1</head><p>Sensitive external quantum efficiency (EQE) measurements were conducted on Triple Cation perovskite devices with different perovskite and C60 layer thicknesses (see Figure <ref type="figure">1</ref>). EQE absorption features were observed at photon energies well below the bandgaps pointing towards the presence of mid-gap traps. The variation of spectral line shapes with thickness of perovskite and/or C60 indicates the effect of low finesse cavity. The sub-gap EQE spectra could not be globally fitted using an optical modelling approach. <ref type="bibr">1</ref> This implies that (i) trap states are present, and (ii) the exact density and distribution of those trap states remain unknown as spectral line shapes are manipulated by interference. The fact that the spectra cannot globally fitted with the optical model considering bulk distribution for the trap states indicate that the traps are not evenly distributed in the bulk and maybe more at the interface. <ref type="figure">S2</ref>. UPS measurements of triple cation perovskite with increasing thickness of C60 evaporated on top. Supplementary Figure <ref type="figure">S4</ref>. Investigation into the effect of thermal and solvent annealing on device performance of 83:17 TC solar cells. All C60 films were thermally evaporated and taken out of the vacuum chamber, the solvent annealed device was treated using a previous literature methodology 2 and the thermally annealed film was heated at 100 o C for 10 minutes. The devices were then returned to the chamber and devices were finished with BCP/Cu. There was either a decrease or no change in the VOC of the treated devices which indicates that increased crystallinity/ order in the C60 films does not reduce non-radiative recombination. We therefore conclude that packing disorder in the C60 films is not the likely source of deep traps.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Figure</head><p>Supplementary Figure <ref type="figure">S5</ref>. PLQY of the triple cation perovskite with different purities of C60 deposited on top. The control sample has no C60 on top, the 99.999% C60 is the purity used for all other studies in this manuscript. There is no correlation between the PLQY and the purity of the C60 allowing us to rule out impurities as the source of deep traps.</p><p>Control 98% 99% 99.5% 99.999% 10 -4 Supplementary Figure <ref type="figure">S7</ref>. The C60-induced loss is independent if the C60 is below or on-top of a triple cation perovskite (Cs0.05(FA0.87MA0.13)0.95Pb(I0.87Br0.13)3).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Figure S8. First principle calculations of shows the DOS of PbI2 and MAI terminated</head><p>MAPbI3 perovskite (which is as a good approximation for a triple cation perovskite, in this case) alone and when interacting with a C60 molecule. The calculated alignment of energy levels, were determined by accurate hybrid HSE calculations 3 including spin-orbit coupling (hereafter HSE-SOC). All calculations were carried out by the Quantum Espresso program package. <ref type="bibr">4</ref> The simulations show no formation of mid-gap states in the perovskite. They also show stabilisation of orbitals between the interacting and non-interacting case -for example in the PbI2 case one can see a stabilisation from 4.2 eV to approximately 4.0 eV of the LUMO of C60. <ref type="figure">S9</ref>. UV-Vis of a 30 nm film of C60 with transitions labelled and schematically represented (inset) Supplementary Figure <ref type="figure">S10</ref>. Illustration of the possibility of hole transfer to excitonic states of C60. We are able to rule out this mechanism for the TC and DC perovskites studied here, however it could be an important loss mechanism for wider bandgap (&gt;1.7 eV) perovskites.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Figure</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary note S2</head><p>We calculate in the triple cation system under 1 sun illumination there is a generation current of approx. 22 mA cm -2 ; if all of the additional non-radiative recombination (which decreases the PLQY from 4x10 -3 to 2x10 -4 ) is happening within the C60 (mechanism 3), then 95% of the previous steady state population would need to be flowing into the C60 which is a recombination current of ~20 mA cm -2 and a carrier flux of 1.3x10 17 cm -2 s -1 . In order to compare the spectrum of a perovskite/C60 stack with the PL of C60, we measure the absorptance of our 83:17 and C60 films at 520 nm to be 0.92 and 0.37 respectively. This allows us to calculate the required relative increase in laser power to generate a carrier flux in the C60 of 1.3 x10 17 cm -2 s -1 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Figure S11. Electroluminescence of a triple cation perovskite at varying current densities showing no evidence of C60 emission.</head><p>Supplementary Figure <ref type="figure">S12</ref>. a Top view of ideal point contacts based on hexagonally close packed holes in an insulator film deposited on perovskite. Before deposition of C60 one will need to prepare a patterned layer of insulator which does not cause an increase in non-radiative recombination. The percentage of the total film area that is exposed perovskite needs to be less than 10% (ideally this should be less approximately 3%) for there to be a noticeable improvement in the VOC. The distance between the exposed areas of perovskite should be less than the diffusion length (LD) of carriers in the perovskite so that they can be collected without inducing any further transport losses (i.e. loss in fill factor) which is indicated in the figure. We estimate the diffusion length to be 5 μm by the relationship: 𝐿 𝐷 = √ 𝜇 • 𝜏 using a lifetime of 240 ns for our TC perovskite on PTAA:PFN 5 and a mobility of 1 cm 2 V -1 s -1 which has been shown to be a realistic in film mobility in literature. 6 b Side view of ideal point contacts. The patterned insulator film which we have fabricated on top of the perovskite is of sufficient thickness to block all electronic contact between the perovskite and C60 where it is deposited and should be completely absent from the holes so C60 can make a good contact with the perovskite. c Side view of completed point contacts device. Now we deposit C60 via thermal evaporation where it is deposited everywhere and have C60 only contacting the perovskite at certain points thus reducing nonradiative recombination through reduced surface coverage. Then we can finish the device as normal which is the same as in all of the state-of-the-art p-i-n perovskite cells. We purposefully began at a very low concentration where PMMA should not fully cover the surface, thus spontaneously patterning the surface of the perovskite with an insulator which is the first step in the point contacts strategy above. We see that up to 0.5 mg/mL there is an improvement in PCE and also in VOC. From the knowledge that we have gained in this study about the effect of surface coverage of C60 on the PLQY (and thus the VOC) of the perovskite film with surface coverage, we can conclude that the improvement of VOC is due to spontaneously formed point contacts. However, at concentrations of 1 mg/mL and above the VOC is lower again which we discuss in Supplementary Figure <ref type="figure">S14</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ideal point contacts</head><p>Supplementary Figure <ref type="figure">S14</ref>. QFLS and best VOC of the devices from study in Supplementary Figure <ref type="figure">S11</ref>.</p><p>A strong mismatch between the VOC and the QFLS has been attributed to low mobility interlayers in literature by Kavadiya et al. <ref type="bibr" target="#b6">7</ref> and this begins to appear at 1 mg/mL PMMA. This indicates that the continuity/ thickness of the PMMA interlayer at 1 mg/mL is enough to significantly reduce the mobility of the transport layer assembly. This is likely where the film begins to be continuous and the point contacts regime is broken. In fact, the QFLS continues to increase all the way up to the 4 mg/mL sample which should be due to the film thickness increasing and physically separating the perovskite from the C60. Clearly there is still some electronic contact still at 4 mg/mL as the devices still function further demonstrating the benefit of a lithographic process as the thickness could be increased further still.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary References:</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Yoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rotermund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Correa-Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bulović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Bawendi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">590</biblScope>
+			<biblScope unit="page">587</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">U</forename><surname>Rau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B: Condens. Matter Mater. Phys</title>
+		<imprint>
+			<biblScope unit="page">85303</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wurfel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. C: Solid State Phys</title>
+		<imprint>
+			<biblScope unit="page">3967</biblScope>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sakai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Da</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Sansom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ramadan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mahesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D J</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Aspitarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Madhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Morales-Vilches</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Nayak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R M</forename><surname>Grovenor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Labram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Durrant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wenger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stannowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="page">96</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Al-Ashouri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Köhnen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Magomedov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hempel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caprioglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Márquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B M</forename><surname>Vilches</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kasparavicius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Phung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Menzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grischek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kegelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Skroblin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gollwitzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Malinauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jošt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Matič</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schlatmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Topič</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Korte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stannowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Unold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Getautis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albrecht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="page">1300</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Al-Ashouri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Magomedov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roß</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jošt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Talaikis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chistiakova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bertram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Márquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Köhnen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kasparavičius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Levcenco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gil-Escrig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Hages</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schlatmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Malinauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Unold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Kaufmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Korte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Niaura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Getautis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albrecht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">3356</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Momblona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gil-Escrig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bandiello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Hutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sessolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lederer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Blochwitz-Nimoth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Bolink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">3456</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Márquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Hages</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rothhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Burn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Meredith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Unold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">847</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">-Y</forename><surname>Jen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="page">142</biblScope>
+			<date type="published" when="2020">2020. 20134</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Köhnen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Warby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grischek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Korte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett. 2021</title>
+		<imprint>
+			<biblScope unit="page">3982</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Peña-Camargo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caprioglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gutierrez-Partida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Brinkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riedl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<date type="published" when="2020-05">2020, 5, 2728</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>You</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">460</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grischek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caprioglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gutierrez-Partida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Peña-Camargo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rothhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raoufi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wolansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abdi-Jalebi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kirchartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<date type="published" when="2020">2020. 2000080</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gutierrez-Partida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hempel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Caicedo-Dávila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raoufi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Peña-Camargo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grischek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gunder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Diekmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caprioglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">O</forename><surname>Brinkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Köbler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riedl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Abou-Ras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Unold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1045</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caprioglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">J</forename><surname>Sandberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Armin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2020">2020. 2000502</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Le Corre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feuerstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caprioglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J A</forename><surname>Koster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Energy</forename><surname>Acs</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Lett</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019, 4, 2887</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caprioglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Márquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nordmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rothhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Hörmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Amir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Redinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kegelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kirchartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Unold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">2778</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Hosseini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gunder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petsiuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caprioglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shoaee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Meredith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Unold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Burn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="page">31</biblScope>
+			<date type="published" when="2019">2019. 1901090</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kaiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zeiske</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Meredith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Armin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Opt. Mater</title>
+		<imprint>
+			<date type="published" when="2020">2020, 8, 1901542</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Koma</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Prog</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Cryst</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Growth Charact</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mater</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/aenm.202103567by</idno>
+		<idno>07/11/2024</idno>
+		<ptr target="https://onlinelibrary.wiley.com/terms-and-conditions" />
+		<title level="m">See the Terms and Conditions</title>
+		<imprint>
+			<publisher>Wiley Online Library for rules of use</publisher>
+			<date type="published" when="1995">1995, 30, 129. Adv. Energy Mater. 2022, 12, 2103567 16146840, 2022</date>
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>University Of California, Wiley Online Library</orgName>
+		</respStmt>
+	</monogr>
+	<note>OA articles are governed by the applicable Creative Commons License</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abdi-Jalebi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sadhanala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tabachnyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P H</forename><surname>Rivett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Pazos-Outón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Gödel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Deschler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Friend</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<date type="published" when="2016">2016, 7, 13941</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Staub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hempel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-C</forename><surname>Hebig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">W</forename><surname>Paetzold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Rau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Unold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kirchartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Appl</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">44017</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vermang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fjällström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pettersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Salomé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Edoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sol. Energy Mater. Sol. Cells</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page">505</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tebyetekerwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Duong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mahmud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">L C</forename><surname>Lem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kremer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-Y</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Catchpole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">371</biblScope>
+			<biblScope unit="page">390</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Kotadiya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">329</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Baldo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Forrest</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="page">85201</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<date type="published" when="2016">2016, 1, 15001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Dequilettes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Paranji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Shropshire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Ziffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Ginger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">438</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Quarti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Angelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Beljonne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">958</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Perdew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ernzerhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="page">9982</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grimme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Antony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ehrlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Krieg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="page">154104</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Heyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Scuseria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ernzerhof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page">8207</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Giannozzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Baseggio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bonfà</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brunato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Car</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Carnimeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cavazzoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>De Gironcoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Delugas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ferrari Ruffino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ferretti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Marzari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Timrov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Urru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Baroni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="page">154105</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Negri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Orlandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zerbetto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="page">6496</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Capozzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Casamassima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Lorusso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Minafra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Piccolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Trovato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valentini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Solid State Commun</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page">853</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Hörantner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sakai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mahesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Noel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Mcmeekin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wenger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">169</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kavadiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Onno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cetta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mcgehee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">C</forename><surname>Holman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sol. RRL</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="page">2100107</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moosmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Heiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Walheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schimmel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Beilstein J. Nanotechnol</title>
+		<imprint>
+			<date type="published" when="2012">2012, 3, 620</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N L</forename><surname>Albert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Epps</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mater</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Haynes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Van Duyne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. B</title>
+		<imprint>
+			<biblScope unit="page">5599</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Vac. Sci. Technol., B: Microelectron. Nanometer Struct.-Process., Meas., Phenom</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">4129</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Sutanto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caprioglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Drigo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Hofstetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Garcia-Benito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I E</forename><surname>Queloz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Vaynzof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grancini</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1903">Chem 2021, 7, 1903</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<author>
+			<persName><forename type="first">Adv</forename><forename type="middle">Energy</forename><surname>Mater</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/aenm.202103567by</idno>
+		<idno>07/11/2024</idno>
+		<ptr target="https://onlinelibrary.wiley.com/terms-and-conditions" />
+		<title level="m">See the Terms and Conditions</title>
+		<imprint>
+			<publisher>on Wiley Online Library for rules of use</publisher>
+			<date type="published" when="2022">2022, 12, 2103567 16146840, 2022</date>
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>University Of California, Wiley Online Library</orgName>
+		</respStmt>
+	</monogr>
+	<note>OA articles are governed by the applicable Creative Commons License</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Determining Ultralow Absorption Coefficients of Organic Semiconductors from the Sub-Bandgap Photovoltaic External Quantum Efficiency</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kaiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zeiske</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Meredith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Armin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Opt</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Mater</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1901542</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Correlation of energy disorder and open-circuit voltage in hybrid perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2016">2016 11. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Heyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Scuseria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ernzerhof</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page">8207</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Quantum ESPRESSO toward the exascale</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Giannozzi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page">154105</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Visualization and suppression of interfacial recombination for high-efficiency large-area pin perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="847" to="854" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Elucidating the long-range charge carrier mobility in metal halide perovskite thin films</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="169" to="176" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

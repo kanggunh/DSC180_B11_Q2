@@ -1,0 +1,3133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Side-Chain Engineering on Dopant-Free Hole-Transporting Polymers toward Highly Efficient Perovskite Solar Cells (20.19%)</title>
+				<funder ref="#_uHEWPe9">
+					<orgName type="full">Shenzhen Development and Reform Committee</orgName>
+				</funder>
+				<funder ref="#_Zx8bAfe #_2gMv8Hj">
+					<orgName type="full">Ministry of Science and Technology of the People&apos;s Republic of China</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Key Research and Development Project</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Peacock Team</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Shenzhen Engineering R&amp;D Center for Flexible Solar Cells</orgName>
+				</funder>
+				<funder ref="#_xZSC3Zv #_T4nqCsJ">
+					<orgName type="full">Shenzhen Science and Technology Innovation Committee</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-08-01">August 1, 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Luozheng</forename><forename type="middle">Z</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Chang</forename><surname>Liu</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Xingzhu</forename><forename type="middle">Z</forename><surname>Wang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yanqing</forename><surname>Tian</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alex</forename><forename type="middle">K Y</forename><surname>Jen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Baomin</forename><surname>Xu</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Prof. Y</roleName><forename type="middle">Q</forename><surname>Tian</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Prof. B</roleName><forename type="middle">M</forename><surname>Xu</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Prof</roleName><forename type="middle">A K Y</forename><surname>Jen</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">SUSTech Academy for Advanced Interdisciplinary Studies</orgName>
+								<orgName type="institution">Southern University of Science and Technology</orgName>
+								<address>
+									<postCode>518055</postCode>
+									<settlement>Shenzhen</settlement>
+									<region>Guangdong Province</region>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">Southern University of Science and Technology</orgName>
+								<address>
+									<postCode>518055</postCode>
+									<settlement>Shenzhen</settlement>
+									<region>Guangdong Province</region>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Shenzhen Engineering Research and Development Center for Flexible Solar Cells</orgName>
+								<orgName type="institution">Southern University of Science and Technology</orgName>
+								<address>
+									<postCode>518055</postCode>
+									<settlement>Shenzhen</settlement>
+									<region>Guangdong Province</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Materials Science and Engineering</orgName>
+								<orgName type="department" key="dep2">Department of Chemistry</orgName>
+								<orgName type="institution">City University of Hong Kong</orgName>
+								<address>
+									<settlement>Hong Kong SAR</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Shenzhen Engineering Research and Development Center for Flexible Solar Cells Southern</orgName>
+								<orgName type="institution">University of Science and Technology Shenzhen</orgName>
+								<address>
+									<postCode>518055</postCode>
+									<settlement>Guangdong Province</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">University of Washington Seattle</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">Department of Materials Science and Engineering Department of Chemistry City</orgName>
+								<orgName type="institution">University of Hong</orgName>
+								<address>
+									<addrLine>Kong Kowloon 999077</addrLine>
+									<settlement>Hong Kong SAR</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Side-Chain Engineering on Dopant-Free Hole-Transporting Polymers toward Highly Efficient Perovskite Solar Cells (20.19%)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-08-01">August 1, 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">15C91C062AFB8C35AD381B1B4D3E9AAB</idno>
+					<idno type="DOI">10.1002/adfm.201904856</idno>
+					<note type="submission">Received: June 17, 2019 Revised: July 15, 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T17:57+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>dopant-free</term>
+					<term>hole-transporting</term>
+					<term>perovskite solar cells</term>
+					<term>polymers</term>
+					<term>side chains</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Synthesis of the polymer</head><p>Materials: 5,5'-bis(trimethylstannyl)-2,2'-bithiophene was purchased from SunaTech Inc., and the other reagents and solvents were from Aladdin, J&amp;K Scientific Ltd., or Sigma-Aldrich. Scheme S1. Synthetic route to the monomer Ph(DEG).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1-bromo-2-(2-methoxyethoxy)ethane (Br-DEG):</head><p>Into a 500 mL flask were charged with 2-(2-methoxyethoxy)ethanol (DEG-OH, 12.02 g) and anhydrous dichloromethane (125 mL). The mixture was cooled to 0 o C, and then PPh 3 (31.50 g)   was introduced. Afterwards, N-Bromosuccinimide (NBS, 19.58 g) was slowly added, and the mixture was allowed to gradually be warmed to room temperature, kept at this temperature overnight, and finally concentrated with a rotary evaporator to yield a solid. Subsequently, hexane was added to rinse the solid, which was then filtered. The filtrate was concentrated and distilled at 55 o C to obtain a colorless liquid. 12.3 g, yield: 67.1%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ph(DEG):</head><p>Into a pre-dried 250 mL flask were charged with 2,5-dibromobenzene-1,4diol (1.5 g) and K 2 CO 3 (3.1 g). The flask was successively evacuated and refilled with argon for 3 cycles. Then DMF (56 mL) was added, and Br-DEG (2.87 g) was introduced in one portion with a syringe after the completely dissolution of the mixture. The flask was subsequently stirred at 100 o C for 20 hours. After cooling to room temperature, the reaction mixture was concentrated with a rotary evaporator and the organic layer was extracted with chloroform and rinsed with water. Further purification was performed by column chromatography with dichloromethane/methanol (v/v: 99/1 to 96/4) as the eluent. The final product was obtained by recrystallization from ethanol. 2.31 g, yield: 87.4%. <ref type="bibr">1</ref> H NMR (500 MHz, CDCl 3 , δ): 7.13 (s, 2H), 4.11 (m, 4H), 3.85 (m, 4H), 3.74 (m, 4H), 3.55 (m, 4H), 3.37 (s, 6H).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Polymer DTB(xDEG):</head><p>The polymer was synthesized with the same procedure as reported in our previous work <ref type="bibr">[1]</ref> except that a certain percentage of 1,4-dibromo-2,5bis((2-ethylhexyl)oxy)benzene (Ph(EH)) was replaced by Ph(DEG).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.</head><p>General characterization <ref type="bibr">1</ref> H NMR spectrum in CDCl 3 was measured on a Bruker Ascend 500M magnet equipped with BBFO SmartProbe. The absorption spectrum was measured with a PerkinElmer Lambda 650 S UV/VIS spectrometer. Gel permeation chromatography (GPC) was performed on Polymer Laboratories GPC-PL220 high temperature GPC/SEC system at 150 °C using polystyrene as the standard and trichlorobenzene as the eluent. Grazing incidence x-ray diffraction (GIWAXS) was performed at BL16B1 beamline of Shanghai Synchrotron Radiation Facility. The sample-to-detector distance is 300 mm and the wavelength of incident X-ray is 0.124 nm. The incidence angle of X ray is 0.10°. Then the data were collected by a mar165CCD. The samples used for GIWAXS measurements were prepared by spin-coating the blend solutions onto Si wafers. Atomic Force Microscopy (AFM) was conducted on a Bruker Multimode 8 system in a tapping mode and ZEISS Merlin system, respectively.</p><p>Steady-state and time-resolved photoluminescence spectra were checked on Edinburgh FLS920 spectroscopy system with a pulsed laser and an excitation wavelength of 405 nm.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cyclic Voltammetry measurement</head><p>Cyclic Voltammetry (CV) measurements were carried out using an electrochemical workstation (CHI660E) with a scanning rate of 20 mV s -1 and ferrocene/ferrocene + (Fc/Fc + ) as the internal standard. The polymer was drop-cast from chloroform solution (1.0 mg mL -1 ) to form a film on a Pt working electrode. Then CV curves were measured under an argon atmosphere using solutions in CH     </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>7.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thermal analyses</head><p>Thermogravimetric analysis (TGA) and Differential Scanning Calorimetry (DSC) was conducted at the atmosphere of nitrogen on METTLER TOLEDO TGA STAR e and METTLER TOLEDO DSC1 systems, respectively, while the heating and cooling rates were set to be 10 °C/min.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>9.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Forward scanning results</head><p>The J-V curve was measured with a step of 0.01 V, a delay time of 0.01 s, and a response time of 0.01 s. 10.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Long-term stability under continuous illumination</head><p>The  12.   <ref type="bibr">[10]</ref> a)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cross-sectional images of PSC devices</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Photovoltaic properties for special HTMs</head><p>Planar configured PSC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>14.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Time-resolved photoluminescence results</head><p>The time-resolved photoluminescence (TRPL) spectra were fitted with a bicomponent exponential decay model based on the following equation according to the literature, <ref type="bibr">[11]</ref> ( ) = exp -+ exp - 15.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thermal admittance spectroscopy (TAS)</head><p>TAS was carried out on a CHI660e electrochemical workstation at 0 V bias in dark, and a tuned frequency from 10 Hz to 1 MHz and an AC amplitude of 10 mV were employed. The static permittivity and the attempt-to-escape frequency were chosen to be 25 and 5.0×10 10 rad/s due to the limited experimental conditions.  yielded the highest PCE so far of 24.2%, <ref type="bibr">[1]</ref> however, it requires doping treatment by oxidants to enhance its hole conductivity, which always inevitably leads to the consequences of long fabrication duration and poor long-term stability for the PSC devices. <ref type="bibr">[3]</ref><ref type="bibr">[4]</ref><ref type="bibr">[5]</ref> As a result, numerous dopant-free organic substitutes including small molecules  and polymers <ref type="bibr" target="#b41">[29]</ref><ref type="bibr" target="#b42">[30]</ref><ref type="bibr" target="#b43">[31]</ref><ref type="bibr" target="#b44">[32]</ref><ref type="bibr" target="#b45">[33]</ref><ref type="bibr" target="#b46">[34]</ref><ref type="bibr" target="#b47">[35]</ref><ref type="bibr" target="#b48">[36]</ref><ref type="bibr" target="#b49">[37]</ref><ref type="bibr" target="#b50">[38]</ref><ref type="bibr" target="#b51">[39]</ref><ref type="bibr" target="#b52">[40]</ref><ref type="bibr" target="#b53">[41]</ref><ref type="bibr" target="#b54">[42]</ref><ref type="bibr" target="#b55">[43]</ref><ref type="bibr" target="#b56">[44]</ref> have been developed, and reports of PCE values of over 19% <ref type="bibr" target="#b41">[29,</ref><ref type="bibr" target="#b43">31,</ref><ref type="bibr" target="#b57">45,</ref><ref type="bibr" target="#b58">46]</ref> have been frequently issued. Although PCEs of 20.5 <ref type="bibr" target="#b59">[47]</ref> and 23.3% <ref type="bibr" target="#b60">[48]</ref> were also released, this high efficiency was obtained through optimizing the ETM layer <ref type="bibr" target="#b59">[47]</ref> or the perovskite layer, <ref type="bibr" target="#b60">[48]</ref> while the HTM itself was earlier designed/ employed and reported with a PCE of only 18.3 <ref type="bibr" target="#b61">[49]</ref> or 0.52% <ref type="bibr" target="#b62">[50]</ref> at its first appearance. Therefore, strictly speaking there are no dopant-free organic HTMs reported yet to present a PCE of over 20%. Previously, designing of HTMs was mainly focused on the bulky properties of the HTM layer, especially the hole mobilities, and consequently the well-known face-on molecular orientation where the plane of polymer's main chain is parallel or intermolecular π-π stacking direction is perpendicular to the substrate was widely adopted as a criterion when one designs an HTM. <ref type="bibr" target="#b41">[29,</ref><ref type="bibr" target="#b43">[31]</ref><ref type="bibr" target="#b44">[32]</ref><ref type="bibr" target="#b45">[33]</ref><ref type="bibr" target="#b61">49]</ref> Later, the interfaces between the perovskite and HTM layer were paid attention to be modified by small molecules <ref type="bibr" target="#b63">[51]</ref><ref type="bibr" target="#b64">[52]</ref><ref type="bibr" target="#b65">[53]</ref> and polymers, <ref type="bibr" target="#b66">[54,</ref><ref type="bibr" target="#b67">55]</ref> so that the defects on the surface and/or in the bulk of the perovskite layer could be passivated, leading to an enhanced photovoltaic performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Perovskite solar cells (PSCs), as one of the most promising alternatives to the conventional silicon-based solar cells, have achieved tremendous progress in the last decade since their advent, and a power conversion efficiency (PCE) of over 23.0% has been realized based on the n-i-p type device configuration where n is composed of an electron-transporting material (ETM), i is the perovskite layer, and p stands for a hole-transporting material (HTM) layer. <ref type="bibr">[1,</ref><ref type="bibr">2]</ref> As a classic and standard HTM, 2,2′,7,7′-tetrakis(N,Ndi-p-methoxyphenyl-amine)-9,9′-spirobifluorene (spiro-OMeTAD)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Side-Chain Engineering on Dopant-Free Hole-Transporting Polymers toward Highly Efficient Perovskite Solar Cells (20.19%)</head><p>Nowadays, researchers have gradually recognized that the interaction between the perovskite layer and the HTM is also very crucial, and this interaction now turns to be an important designing factor for the HTMs. Wang and co-workers <ref type="bibr" target="#b43">[31]</ref> constructed a copolymer with carbazole and benzothiadiazole (BT), where the oxygen atoms in the side chain attached on BT units were believed to bring about a defect-passivation effect, leading to a PCE of 19.1%. Park and co-workers <ref type="bibr" target="#b41">[29]</ref> replaced the alkyl side chain with tetraethylene glycol (TEG) group on the BT units, and the resulting polymer yielded a higher hole mobility due to the increased π-π stacking and an improved contact with the perovskite layer owing to the lifted surface energy, giving a PCE of 19.8%. Besides this side-chain modification, very recently we designed a simple structured copolymer DTB with 2,5-dialkoxyl-1,4-phenylene unit and bithiophene unit, where an intensive exposure of its main chain to the perovskite layer was acquired, resulting in a superior passivation effect to the defects on the surface of the perovskite, a higher extraction efficiency of photogenerated holes, and a comparable PCE of 19.68% compared with the typical spiro-OMeTAD (19.81%). <ref type="bibr" target="#b57">[45]</ref> Although the HTM/ perovskite interface was optimized, the polymer itself owned a relatively low hole mobility, limiting its further improvement. Therefore, it would be of great interest and a further advance in PCE could be expected if the bulky properties, especially the hole mobility, are simultaneously increased for our copolymers.</p><p>To this end, we tune the polarity of DTB polymer in this work through the side-chain engineering and introduce diethylene glycol (DEG) groups to replace part of the alkyl groups in the side chains. Contrary to the previous reports, <ref type="bibr" target="#b41">[29,</ref><ref type="bibr" target="#b68">[56]</ref><ref type="bibr" target="#b69">[57]</ref><ref type="bibr" target="#b70">[58]</ref><ref type="bibr" target="#b71">[59]</ref> here the π-π stacking is unexpectedly weakened while the lamellar packing is strengthened after the introduction of DEG groups. The properties of DTB polymers (noted as DTB(xDEG), Scheme 1) do not monotonically vary with the percentage of the DEG group. When 3% of the alkyl side chains are substituted, a synergistic effect between the bulky properties of the HTM layer and the interfacial interaction of perovskite/HTM is realized. Consequently, a nearly doubled hole mobility is achieved, and a champion PCE of 20.19% with a certified value of 20.10% is accomplished, which is the first one of over 20% reported for dopant-free organic HTMs including small molecules and polymers. The champion device also holds a superior long-term stability to the rest where the PCE remains its initial 92.25% after being kept in air for 30 d without any encapsulation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Results and Discussions</head><p>The molecular structures of DTB(xDEG) polymers are shown in Scheme 1. The synthetic procedures for monomers of Ph(EH) and Ph(DEG) and polymers are similar to those in our previous work (Scheme S1, Supporting Information), <ref type="bibr" target="#b57">[45]</ref> and the polymers with x values of 0, 3, and 10% were synthesized. The absorption spectra of polymers in Figure <ref type="figure" target="#fig_12">1a</ref> demonstrate that the absorption band edges are almost the same and the optical bandgap energies are calculated to be 2.14 eV for the three polymers. The absorption shoulder at around 542 nm which can be assigned to the intermolecular π-π stacking is moderated after the introduction of DEG groups, indicating that the DEG group forces the polymer turn to be a random packed copolymer and weaken the interchain π-π interaction. As presented in Figure <ref type="figure" target="#fig_2">S3</ref> (Supporting Information), the light absorption coefficient monotonically increases with the DEG amount, probably caused by the increased crystallinity of the films. Through the cyclic voltammetry (CV) test (Figure <ref type="figure" target="#fig_15">S4</ref>, Supporting Information), the highest occupied molecular orbitals (HOMOs) of the polymers are determined to be -4.99, -4.97, and -4.94 eV when x increases from 0% to Adv. Funct. Mater. 2019, 29, 1904856   Scheme 1. Synthetic route to the polymers DTB(xDEG) (x is the feed percentage of Ph(DEG)). 3% and 10%. Combined with the bandgap values, the lowest unoccupied molecular orbitals (LUMOs) are obtained and schematically illustrated in Figure <ref type="figure" target="#fig_12">1b</ref>. As for the variation of HOMO levels, the DEG group is an electron-donating group, thus the electrons in the HOMO of polymers with DEG groups would be of higher energy than the ones for the pristine DTB(0%DEG), and as a result the HOMO level would rise after the introduction of DEG. The more DEG groups introduced, the higher the HOMO level of polymers goes. As suggested by Figure <ref type="figure" target="#fig_12">1b</ref>, all the three polymers could not only effectively block the photogenerated electrons in the perovskite from reaching the positive electrode (here is Au electrode) but also fluently extract the photogenerated holes due to their large HOMO offsets with the perovskite layer and freely pass these holes to the Au electrode due to the ohmic contact.</p><p>The molecular packing was examined by the grazingincidence wide-angle X-ray scattering (GIWAXS). As shown in Figure <ref type="figure" target="#fig_13">2</ref> and Figure <ref type="figure" target="#fig_3">S5</ref> (Supporting Information), when 3% of DEG groups are introduced to the polymer, the molecular packing does not change apparently, but the diffraction intensity is improved, further demonstrating the increased crystallinity. If the content of DEG groups further increases to 10%, the π-π stackings in both the edge-on and the faceon arranging modes (as illustrated in Figure <ref type="figure">S6</ref>, Supporting Information) are remarkably weakened, whereas the lamellar packing patterns in the edge-on mode are obviously strengthened. As observed from Figure <ref type="figure" target="#fig_3">S5a</ref> (Supporting Information), the diffraction peak for lamellar packing at around 4.6° shifts to a higher degree, indicating the decreased lamellar distance. On the contrary, the peak for the π-π stacking at around 15.7° in Figure <ref type="figure" target="#fig_3">S5b</ref> (Supporting Information) moves to a lower degree, indicative of a larger π-π stacking spacing (summarized in Table <ref type="table" target="#tab_1">S1</ref>, Supporting Information). This loosened π-π stacking interaction is opposite to the previous reports where the incorporation of ethylene glycol oligomers generally led to a closer π-π stacking, <ref type="bibr" target="#b68">[56]</ref><ref type="bibr" target="#b69">[57]</ref><ref type="bibr" target="#b70">[58]</ref><ref type="bibr" target="#b71">[59]</ref><ref type="bibr" target="#b72">[60]</ref> and the tightened lamellar packing has seldom been reported. We suspect that the weakened π-π stacking is caused by the lowered symmetry of the random DTB(xDEG) copolymer in comparison to the previous alternating copolymers, and the lamellar distance is shortened due to the interdigitation of the side chains in neighboring layers (Figure <ref type="figure">S6a</ref>, Supporting Information) or stacks (Figure <ref type="figure">S6b</ref>, Supporting Information) stemming from the higher flexibility of oligo(ethylene glycol) chains compared with the alkyl chains. <ref type="bibr" target="#b70">[58]</ref> It should be noticed that the lamellar packing patterns only exist in the edge-on mode for all the three samples, suggesting that the majority of these polymers adopt an edge-on arrangement in the solid state, which is consistent with our previous observation. <ref type="bibr" target="#b57">[45]</ref> The hole mobility was measured through the space-charge-limited-current (SCLC) method (Figure <ref type="figure">S7</ref>, Supporting Information), and the values for DTB(xDEG) are extracted to be 1.74 × 10 -4 , 3.22 × 10 -4 , and 2.02 × 10 -4 cm 2 V -1 s -1 for x is 0, 3, and 10%, respectively. Although the gradually weakened π-π stackings, especially those in the face-on mode, decrease the hole transportation, the lamellar packing interaction increases as the DEG percentage rises, which could engender the enhancement of hole mobility. As a consequence, the mobility touches its maximum around x = 3%, which is nearly as twice as that of without DEG groups.</p><p>To guarantee the long-term stability of PSC devices, the thermal stability of the polymers is of great importance and was tested by thermogravimetric analysis (TGA) and differential scanning calorimetry (DSC) (Figure <ref type="figure" target="#fig_5">S8</ref>, Supporting Information). The polymers could stay stable up to over 375 °C and undergo no obvious phase transitions in the tested temperature  range (up to 300 °C), showing their high tolerance to temperature variation. The contact angles against water were also measured, which are 97.5°, 99.7°, and 95.7° when x turns from 0% to 3% and 10%. Although introducing DEG groups could lift the hydrophilicity of the polymer, the simultaneously improved intermolecular interaction, which is reflected by the increased crystallinity, let the adjacent polymer chains hold tight with each other and protect the film against the invasion of water, leading to a nonlinear changing trend for the contact angle.</p><p>The photovoltaic performance of the three polymers is characterized on the PSC devices with a configuration of FTO/c-TiO 2 /m-TiO 2 /Cs 0.05 FA 0.81 MA 0.14 PbI 2.55 Br 0.45 /HTM/Au, where FTO stands for a layer of fluorine-doped tin oxide and c-TiO 2 /m-TiO 2 are the compact and mesoporous TiO 2 layers. Figure <ref type="figure" target="#fig_14">3a</ref> shows the current density-voltage (J-V) characteristics of the three optimized devices for the polymers. As summarized in Table <ref type="table" target="#tab_7">1</ref>, when x comes to 3%, a champion PCE of 20.19% is attained with an open-circuit voltage (V OC ) of 1.14 V, a shortcircuit current density (J SC ) of 23.64 mA cm -2 , and a fill factor (FF) of 75.08% (the certified PCE is 20.10%, Figure <ref type="figure" target="#fig_6">S9</ref>, Supporting Information). The distribution of all the four photovoltaic parameters can be found in Figure <ref type="figure" target="#fig_14">3b,c</ref> and<ref type="figure" target="#fig_12">Table 1</ref>, where almost all of them catch its maximum at x = 3%. The stabilized PCE values measured at the biases of the maximum power points (MPPs) are 19.09, 19.90, and 16.71%, respectively (the biases are 0.85, 0.96, and 0.82 V, respectively), which are very close to these extracted from J-V characterization (Figure <ref type="figure" target="#fig_14">3d</ref>). External quantum efficiencies (EQEs) of the devices were also recorded to verify the photovoltaic properties. As can be seen in Figure <ref type="figure" target="#fig_14">3e</ref>, the polymers exhibit strong photoresponses across the range of 350-750 nm, revealing their high effectivity of being HTMs. The integrated current densities from these EQE charts are 24.81, 24.32, and 23.01 mA cm -2 , respectively, and thus relative deviations of as low as 0.8, 2.9, and 2.2% in comparison to the corresponding J SC values are obtained, which are much lower than the generally acceptable deviation limit of 5% and demonstrate the validity of our J-V measurement. The stability of PSCs at ambient atmosphere (room temperature and 20-30% relative humidity) was also tested. As described in Figure <ref type="figure" target="#fig_14">3f</ref>, all the polymers could render their devices remain over 87% of the initial PCEs, and DTB(3%DEG) holds the best long-term stability, which may be ascribed to its better hydrophobicity. The PCE evolution under continuous 100 mW cm -2 illumination also suggests that the PSCs based on DTB(xDEG) polymers own a good long-term stability (Figure <ref type="figure" target="#fig_8">S11</ref>, Supporting Information).</p><p>As stated before, the DTB(3%DEG) presents the champion PCE value, which should be mainly because of its highest hole  The average values with a standard deviation are calculated from 15 devices; b) In the parenthesis are the values of the champion devices.</p><p>mobility. The corresponding J SC of its device is also much higher than those for the reported dopant-free organic HTMs (Table <ref type="table" target="#tab_3">S2</ref>, Supporting Information); however, it is still a little smaller than that of the control polymer without DEG groups, contradictory to the expectation of a larger J SC value from a higher hole mobility. In order to unveil the underlying mechanism and provide a strategy for the future improvement, investigation on the HTM/perovskite interface beside the HTM bulk is needed, and to this end, we conducted further experiments based on photoluminescence (PL). The PL spectra were recorded on the sample of FTO/c-TiO 2 /m-TiO 2 /perovskite/HTM. As shown by the steady-state PL (SSPL) spectra in Figure <ref type="figure" target="#fig_15">4a</ref>, the DTB(3%DEG) sample owns the highest PL intensity, revealing the charge transfer at its HTM/perovskite interface is the poorest. The locations of PL peaks for the three samples are also different, which are 766, 768, and 763 nm, respectively. The redshift of PL peak signifies there are more defects existing in the perovskite layer for the DTB(3%DEG) sample, whereas the blueshift for DTB(10%DEG) is just the opposite when compared with the DTB(0%DEG) one. <ref type="bibr" target="#b73">[61]</ref> Fitting the time-resolved PL (TRPL) spectra (Figure <ref type="figure" target="#fig_15">4b</ref>) with the bicomponent decay model, we obtained the time constants for the two decaying processes (Table <ref type="table" target="#tab_4">S3</ref>, Supporting Information). The fast decay, which is believed to arise from the chargetransfer at the HTM/perovskite interface, has a constant of 1.44, 1.61, or 1.38 ns for the sample with x of 0, 3, or 10%, respectively. The biggest value for the 3% sample suggests free carriers in the sample cannot be taken away timely to quench the PL, consistent with the inference from SSRL. To know the exact quantity and distribution of these defects in the perovskite layer, we turned to thermal admittance spectroscopy (TAS, Figure <ref type="figure" target="#fig_15">4c</ref>). According to the literature, <ref type="bibr" target="#b73">[61,</ref><ref type="bibr" target="#b74">62]</ref> the region with energy lower than 0.40 eV is the shallow trap state that can be assigned to the defects in the bulk of the perovskite layer, while the one over 0.40 eV belongs to the deep trap state that stems from the defects on the surface of the perovskite layer. The specific concentrations of these defects are consequently calculated by integrating the TAS spectra. As summarized in Table <ref type="table" target="#tab_5">S4</ref> (Supporting Information), the defects in the device of DTB(3%DEG) touch the maximum concentrations on all the three indexes, including shallow trap state, deep trap state, and the sum, whereas those for DTB(10%DEG) are the lowest. As mentioned before, with the increased DEG content, the crystallinity of HTM film and the concentration of hydrophilic groups increase, leading to a maximum hydrophobicity when x = 3%. The perovskite layer is hydrophilic, and its interaction with HTM layer should be quite similar to that of water. In such condition, the DTB(3%DEG) is supposed to interact poorly with the perovskite layer, and the DTB(10%DEG) film interacts strongly. Accordingly, the defects of the perovskite layer could then be passivated by DTB(xDEG) to different extent, and it is also reasonable for DTB(3%DEG) to present the strongest PL intensity, the longest time for the PL decay, and the moderate J SC value. Combining the results from PL and TAS analyses, we can infer that a better hydrophilicity would be ideal if the HTMs want to passivate the defects more effectively in and extract the holes more efficiently from the perovskite layer, which could be another important factor for designing HTMs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Conclusion</head><p>In summary, a highly efficient polymeric HTM was develo ped through the incorporation of DEG polar group. With the increased DEG content, crystallinity of the polymer gradually increased, while the hydrophilicity, hole mobility, defect passivation ability, and photovoltaic performance varied nonmonotonically and achieved their extreme values when 3% DEG were introduced, mainly due to the linearly and unexpectedly weakened π-π stacking and strengthened lamellar packing interactions. A PCE of 20.19% with a certified value of 20.10% was realized based on the DTB(3%DEG) polymer, which is the first report of over 20% values for the dopant-free organic HTMs. The champion device also possessed a superior longterm stability of keeping its initial 92.25% PCE after storing in air for 30 d due to its enhanced hydrophobicity. Our results further demonstrate that both the interface of HTM/perovskite and the bulk of HTM layer are of great significance, and a better ability of defect passivation and/or hole extraction for the HTMs may be realized if possessing a higher hydrophilicity. Moreover, the intermolecular interaction including the π-π stacking and lamellar packing ones should be delicately tailored when one designs HTMs, not just the π-π stacking interaction as regarded previously.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Experimental Section</head><p>Fabrication of PSC Devices: A PSC device having the structure of FTO/ c-TiO 2 /m-TiO 2 /Cs 0.05 FA 0.81 MA 0.14 PbI 2.55 Br 0.45 /HTL/Au was fabricated, wherein the FTO was the bottom layer. The process for fabricating the optoelectronic device is summarized as follows. FTO glasses (Nippon Sheet Glass) were cleaned with detergent, deionized water, and acetone and sonicated with ethanol in an ultrasonic bath for 30 min. After that, FTO glasses were treated in a UV cleaner for 30 min. The cleaned FTO glasses were coated with titanium diisopropoxide bis(acetylacetonate) (0.15 m) in 1-butanol solution by the spin-coating method at 2000 rpm for 60 s, followed by heating at 125 °C for 5 min. The films were cooled to room temperature and a titanium diisopropoxide bis(acetylacetonate) solution (0.15 m) in 1-butanol was spin-coated again to ensure a pinholefree dense TiO 2 film is obtained. Then the substrates were calcinated in a box furnace at 450 °C for 30 min. Mesoporous TiO 2 (m-TiO 2 ) layer was deposited on the compact TiO 2 (c-TiO 2 ) layer by spin-coating the TiO 2 ethanol solution containing TiO 2 (14.3 wt%) paste at 4000 rpm for 20 s, which was then calcinated at 500 °C for 0.5 h. The precursor solution of mixed perovskite consists of FAI (172 mg), PbI 2 (507 mg), MABr (22.4 mg), and PbBr 2 (73.4 mg) dissolved in 1 mL mixed solvent of DMF and DMSO with a volume ratio of 9:1. Then, a stock solution of 1.5 m CsI in DMSO was added to the mixed perovskite precursor to obtain the Cs 0.05 FA 0.81 MA 0.14 PbI 2.55 Br 0.45 precursor solution. The perovskite films were deposited onto the TiO 2 substrates using a two-step spin-coating procedure. The first step was 1000 rpm for 10 s with an acceleration of 500 rpm s -1 . The second step was 4000 rpm for 35 s with a ramp-up of 2000 rpm s -1 . Chlorobenzene (around 100 µL) was quickly dropped on the spinning substrate during the second spin-coating step at 15 s before the end of the procedure. Afterward, the as-prepared films were heated at 100 °C for ≈2 h until the color changed to dark red. The HTL was prepared by spin-coating the dissolved polymer in chlorobenzene (30 mg mL -1 ) which was preheated at 60 °C. The HTM solution was spin-coated onto the perovskite layer at 4000 rpm for 30 s with a ramp-up of 2000 rpm s -1 . Finally, a 100 nm thick Au layer was thermally evaporated under vacuum of 4 × 10 -5 Torr at a rate of ≈0.05 nm s -1 to finish the device fabrication. The effective area of the obtained device was 0.10 cm 2 .</p><p>Characterization of Perovskite Solar Cells: The J-V measurements of the devices under AM1.5G solar 100 mW cm -2 simulator illumination (Enlitech Solar Simulator SS-F7-3A) were performed on a computercontrolled Keithley 2400 Source Measure Unit in air (60% humidity) at room temperature without encapsulation, with a sweep delay time 100 ms. The light intensity was calibrated by a standard silicon solar cell 91150. The EQE was measured under ambient atmosphere at room temperature using a DSR100UV-B spectrometer with a SR830 lock-in amplifier. The steady-state PCE was measured by monitoring photocurrent with a bias voltage at the maximum power point. A xenon lamp was used as the light source.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure S1. 1 H</head><label>1</label><figDesc>Figure S1. 1 H NMR spectrum of Ph(DEG).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure S2 .</head><label>S2</label><figDesc>Figure S2. GPC results of the polymers (a) Ph(0%DEG), (b) Ph(3%DEG) and (c)</figDesc><graphic coords="7,110.64,367.44,390.48,280.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure S3 .</head><label>S3</label><figDesc>Figure S3. UV-vis light absorption of the polymer films.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure S5 .</head><label>S5</label><figDesc>Figure S5. (a) Out-of-plane and (b) in-plane modes of the XRD patterns of the DTB(xDEG) films on silicon substrate.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure S6 .Figure S7 .</head><label>S6S7</label><figDesc>Figure S6. Schematic images of (a) edge-on and (b) face-on packing modes for the polymers.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure S8 .</head><label>S8</label><figDesc>Figure S8. (a) TGA and (b) DSC charts for the polymers.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure S9 .</head><label>S9</label><figDesc>Figure S9. Certification report.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure S10 .</head><label>S10</label><figDesc>Figure S10. J-V curves with different scanning directions (R: reverse, F: forward).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure S11 .</head><label>S11</label><figDesc>Figure S11. PCE evolution of un-encapsulated PSC devices examined under continuous 100</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure S12 .</head><label>S12</label><figDesc>Figure S12. AFM images of the polymer films with different DEG group contents atop the</figDesc><graphic coords="18,123.60,138.96,120.24,111.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure S13 .</head><label>S13</label><figDesc>Figure S13. Cross-sectional SEM images of the PSC devices: (top) 0%, (middle) 3%, and</figDesc><graphic coords="19,110.64,276.00,389.76,66.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>A</head><label></label><figDesc>variety of dopant-free hole-transporting materials (HTMs) is developed to serve as alternatives to the typical dopant-treated ones; however, their photovoltaic performance still falls far behind. In this work, the side chain of a polymeric HTM is engineered by partially introducing diethylene glycol (DEG) groups in order to simultaneously optimize the properties of both the bulk of the HTM layer and the HTM/perovskite interface. The intermolecular π-π stacking interaction in the HTM layer is unexpectedly weakened after the incorporation of DEG groups, whereas the lamellar packing interaction is strengthened. A doubled hole mobility is obtained when 3% of the DEG groups replace the original alkyl side chains, and a champion power conversion efficiency (PCE) of 20.19% (certified: 20.10%) is then achieved, which is the first report of values over 20% for dopant-free organic HTMs. The device maintains 92.25% of its initial PCE after storing at ambient atmosphere for 30 d, which should be due to the enhanced hydrophobicity of the HTM film.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. a) Normalized absorption spectra of the films of DTB(xDEG) and b) the energy diagram of the polymers and other components in the PSC device.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. a-c) GIWAXS patterns of the DTB(xDEG) films on silicon substrate: 0, 3, and 10%.</figDesc><graphic coords="26,307.50,70.87,238.80,546.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. a) J-V characteristics, b) V OC and J SC , c) FF and PCE distributions, d) stabilized power outputs at the maximum power points, e) EQE charts, and f) PCE evolutions at ambient atmosphere for the PSC devices.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. a,b) SSPL and TRPL spectra of the FTO/c-TiO 2 /m-TiO 2 /perovskite/HTM films. c) TAS spectra of the PSC devices.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>3 CN containing 0.1 M Bu 4 NPF 6 with a Pt plate as the counter electrode and Ag/Ag + with 0.05 M AgNO 3 in CH 3 CN solution as the reference electrode.</figDesc><table><row><cell>3%</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>0%</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Fc/Fc</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>-0.2 -0.1 0.0</cell><cell>0.1</cell><cell>0.2</cell><cell>0.3</cell><cell>0.4</cell><cell>0.5</cell></row></table><note><p>+ 10% Potential (V) Figure S4. CV results of the polymers.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table S1 .</head><label>S1</label><figDesc>Corresponding distances calculated from GIWAXS.</figDesc><table><row><cell>HTM</cell><cell>lamellar spacing [Å]</cell><cell>π-π stacking spacing [Å]</cell></row><row><cell>DTB(0%DEG)</cell><cell>15.73</cell><cell>4.55</cell></row><row><cell>DTB(3%DEG)</cell><cell>15.73</cell><cell>4.55</cell></row><row><cell>DTB(10%DEG)</cell><cell>15.44</cell><cell>4.62</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table S2 .</head><label>S2</label><figDesc>Summary of PSCs based on dopant-free organic HTMs with J SC ≥22.0 mA cm -2 .</figDesc><table><row><cell>Year</cell><cell>VOC (V)</cell><cell>JSC (mA cm</cell><cell>-2 )</cell><cell>FF (%)</cell><cell>PCE (%)</cell></row><row><cell>2016</cell><cell>1.02</cell><cell>23.2</cell><cell></cell><cell>79</cell><cell>18.6 [2]</cell></row><row><cell>2017</cell><cell>1.099</cell><cell>22.689</cell><cell></cell><cell>71.3</cell><cell>17.78 [3]</cell></row><row><cell>2017</cell><cell>1.14</cell><cell>22.5</cell><cell></cell><cell>77.0</cell><cell>19.8 a)[4]</cell></row><row><cell>2017</cell><cell>1.07</cell><cell>22.6</cell><cell></cell><cell>77.5</cell><cell>18.8 [5]</cell></row><row><cell>2017</cell><cell>1.11</cell><cell>22.4</cell><cell></cell><cell>73.2</cell><cell>18.3 [6]</cell></row><row><cell>2017</cell><cell>1.09</cell><cell>22.2</cell><cell></cell><cell>81</cell><cell>19.6 [7]</cell></row><row><cell>2017</cell><cell>1.07</cell><cell>23.15</cell><cell></cell><cell>66.7</cell><cell>16.97 [8]</cell></row><row><cell>2017</cell><cell>1.04</cell><cell>22.32</cell><cell></cell><cell>81.15</cell><cell>18.80 [9]</cell></row><row><cell>2018</cell><cell>1.1</cell><cell>22.2</cell><cell></cell><cell>78.2</cell><cell>19.1</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table S3 .</head><label>S3</label><figDesc>Time constants extracted from the fitted TRPL.</figDesc><table><row><cell>sample</cell><cell>1 [ns]</cell><cell>A1 [%]</cell><cell>2 [ns]</cell><cell>A2 [%]</cell><cell>av [ns]</cell></row><row><cell>0%</cell><cell>1.44</cell><cell>90.85</cell><cell>23.10</cell><cell>9.15</cell><cell>3.45</cell></row><row><cell>3%</cell><cell>1.61</cell><cell>86.01</cell><cell>27.79</cell><cell>13.99</cell><cell>5.38</cell></row><row><cell>10%</cell><cell>1.38</cell><cell>94.15</cell><cell>19.59</cell><cell>5.85</cell><cell>2.46</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table S4 .</head><label>S4</label><figDesc>The concentrations of defects for the perovskite layers.</figDesc><table><row><cell>sample</cell><cell cols="3">Shallow state</cell><cell>Percentage</cell><cell cols="3">Deep state</cell><cell>Percentage</cell><cell>Total</cell></row><row><cell></cell><cell>[10</cell><cell>16 cm</cell><cell>-3 ]</cell><cell>[%]</cell><cell>[10</cell><cell>16 cm</cell><cell>-3 ]</cell><cell>[%]</cell><cell>[10 16 cm</cell><cell>-3 ]</cell></row><row><cell>0%</cell><cell cols="2">1.05</cell><cell></cell><cell>6.02</cell><cell cols="2">16.29</cell><cell></cell><cell>93.98</cell><cell>17.34</cell></row><row><cell>3%</cell><cell cols="2">1.17</cell><cell></cell><cell>4.44</cell><cell cols="2">25.25</cell><cell></cell><cell>95.56</cell><cell>26.42</cell></row><row><cell>10%</cell><cell cols="2">0.92</cell><cell></cell><cell>6.42</cell><cell cols="2">13.42</cell><cell></cell><cell>93.58</cell><cell>14.34</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 1 .</head><label>1</label><figDesc>Summary of the photovoltaic properties.</figDesc><table><row><cell>DEG content</cell><cell>V OC [V]</cell><cell>J SC [mA cm -2 ]</cell><cell>FF [%]</cell><cell>PCE [%]</cell></row><row><cell>0%</cell><cell>1.07 ± 0.03 a) (1.10) b)</cell><cell>25.02 ± 0.44 (25.01)</cell><cell>69.67 ± 1.37 (71.48)</cell><cell>18.57 ± 0.56 (19.65)</cell></row><row><cell>3%</cell><cell>1.09 ± 0.03 (1.14)</cell><cell>24.42 ± 0.52 (23.64)</cell><cell>72.05 ± 2.22 (75.08)</cell><cell>19.22 ± 0.52 (20.19)</cell></row><row><cell>3% (certified)</cell><cell>1.106</cell><cell>25.22</cell><cell>72.20</cell><cell>20.10</cell></row><row><cell>10%</cell><cell>1.05 ± 0.02 (1.05)</cell><cell>24.02 ± 0.66 (23.53)</cell><cell>66.54 ± 3.40 (72.42)</cell><cell>16.78 ± 0.82 (17.82)</cell></row></table><note><p>a)</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>16163028, 2019, 39, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adfm.201904856 by University Of California, Wiley Online Library on [07/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1904856" xml:id="foot_1"><p>(3 of 7) © 2019 WILEY-VCH Verlag GmbH &amp; Co. KGaA, Weinheim</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1904856" xml:id="foot_2"><p>(4 of 7) © 2019 WILEY-VCH Verlag GmbH &amp; Co. KGaA, Weinheim</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1904856" xml:id="foot_3"><p>(5 of 7)© 2019 WILEY-VCH Verlag GmbH &amp; Co. KGaA, Weinheim</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1904856" xml:id="foot_4"><p>(6 of 7) © 2019 WILEY-VCH Verlag GmbH &amp; Co. KGaA, Weinheim</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements L.Z.Z. and C.L. contributed equally to this work. This work was supported by the <rs type="funder">National Key Research and Development Project</rs> funding from the <rs type="funder">Ministry of Science and Technology of the People's Republic of China</rs> (Grant Nos. <rs type="grantNumber">2016YFA0202400</rs> and <rs type="grantNumber">2016YFA0202404</rs>), the <rs type="funder">Peacock Team</rs> Project funding from <rs type="funder">Shenzhen Science and Technology Innovation Committee</rs> (Grant No. <rs type="grantNumber">KQTD2015033110182370</rs>), the <rs type="funder">Shenzhen Engineering R&amp;D Center for Flexible Solar Cells</rs> project funding from <rs type="funder">Shenzhen Development and Reform Committee</rs> (Grant No. <rs type="grantNumber">2019-126</rs>), and the Fundamental Research Project funding from <rs type="funder">Shenzhen Science and Technology Innovation Committee</rs> (Grant No. <rs type="grantNumber">JCYJ20180302174321291</rs>). The authors would like to appreciate the help from <rs type="person">Prof. Xugang Guo</rs> and <rs type="person">Shengbin Shi</rs> for GPC measurement.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Zx8bAfe">
+					<idno type="grant-number">2016YFA0202400</idno>
+				</org>
+				<org type="funding" xml:id="_2gMv8Hj">
+					<idno type="grant-number">2016YFA0202404</idno>
+				</org>
+				<org type="funding" xml:id="_xZSC3Zv">
+					<idno type="grant-number">KQTD2015033110182370</idno>
+				</org>
+				<org type="funding" xml:id="_uHEWPe9">
+					<idno type="grant-number">2019-126</idno>
+				</org>
+				<org type="funding" xml:id="_T4nqCsJ">
+					<idno type="grant-number">JCYJ20180302174321291</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>Supporting Information is available from the Wiley Online Library or from the author.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of Interest</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>-Y. Jen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">1804028</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Heremans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K Y</forename><surname>Jen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="page">2528</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kloo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-K</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acs Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">13231</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G.-W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1701935</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. H. Noh, S. I. Seok, J. Seo, Energy Environ. Sci</title>
+		<imprint>
+			<date type="published" when="2017">2017, 10, 2109</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Malekshahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Byranvand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page">12175</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-Q</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Fang, Acs Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">31357</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Power Sources</title>
+		<imprint>
+			<biblScope unit="volume">344</biblScope>
+			<biblScope unit="page">160</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Pearson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">1702613</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Gurney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Iraqi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Energy</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">28</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>So</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">7357</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Luozheng</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chang</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xingzhu</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yanqing</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alex</forename><forename type="middle">K Y</forename><surname>Jen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Baomin</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">*</forename><surname>Doi</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adfm.201904856</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Guangdong Province 518055</title>
+		<author>
+			<persName><forename type="middle">L Z</forename><surname>Dr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dr</forename><forename type="middle">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">L Z</forename><surname>China Dr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dr</forename><forename type="middle">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dr</forename><forename type="middle">X Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Prof</forename><forename type="middle">Y Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Prof</forename><forename type="middle">B M</forename><surname>Tian</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adfm.201904856</idno>
+		<ptr target="https://doi.org/10.1002/adfm.201904856" />
+		<imprint/>
+		<respStmt>
+			<orgName>SUSTech Academy for Advanced Interdisciplinary Studies Southern University of Science and Technology Shenzhen ; Xu Department of Materials Science and Engineering Southern University of Science and Technology Shenzhen</orgName>
+		</respStmt>
+	</monogr>
+	<note>Guangdong Province 518055. P. R. China E-mail: xubm@sustc.edu.cn Hole Transporting Materials The ORCID identification number(s) for the author(s) of this article can be found under</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Nrel</surname></persName>
+		</author>
+		<ptr target="https://www.nrel.gov/pv/cell-efficiency.html" />
+		<imprint>
+			<date type="published" when="2019-06">June 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">G</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-W</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">682</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hawash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Ono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Raga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leijtens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Giovenzana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Habisreutinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Tinkham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Noel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Kamino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sadoughi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sellinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">5981</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="page">8970</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Yun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Scully</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Z</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">B</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1800538</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Pearson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">1702613</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kloo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<date type="published" when="2015-05">2015, 5, 1401720</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Do</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Charbonneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Manzhos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Feron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Tsoi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Durrant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sonar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1703007</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Dar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pellet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page">8516</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Seo, Energy Environ. Sci</title>
+		<imprint>
+			<date type="published" when="2017">2017, 10, 2109</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Energy</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">241</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">K</forename><surname>Aryal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nishikubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saeki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Jin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Energy</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">10</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-S</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-B</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">11940</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jacopin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<date type="published" when="2016">2016, 6, 1600401</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Azmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sinaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">A</forename><surname>Akbar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-L</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-Y</forename><surname>Jang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Energy</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page">191</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Grice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Awni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ellingson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<date type="published" when="2017-05">2017, 5, 23319</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<date type="published" when="2017-05">2017, 5, 24416</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grancini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Oveisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gratia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rakstys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Al-Muhtaseb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">1606555</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mingorance</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ruan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vlachopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lira-Cantú</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Boschloo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M J</forename><surname>Johansson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1602736</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rakstys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gratia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Marszalek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grancini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Genevicius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Jankauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Pisula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">7811</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kloo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-K</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">13231</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z.-K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z.-X</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemSusChem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">2833</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-W</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-Q</forename><surname>Shan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z.-X</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G.-J</forename><surname>Fang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Energy</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">322</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Power Sources</title>
+		<imprint>
+			<biblScope unit="volume">344</biblScope>
+			<biblScope unit="page">160</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-C</forename><surname>Chueh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K Y</forename><surname>Jen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page">11833</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Heremans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K Y</forename><surname>Jen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="page">2528</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kloo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nano</forename><surname>Energy</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">40</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G.-W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1701935</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Res</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">185</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Gurney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Iraqi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Energy</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">28</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H.-C</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L D</forename><surname>Tam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Manley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M M</forename><surname>Soe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Wasielewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kanatzidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Facchetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Marks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1600502</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kranthiraja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gunasekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-N</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-G</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nishikubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saeki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Jin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">1700183</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Bao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<date type="published" when="2016">2016, 8, 2652</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemSusChem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">2578</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nagarjuna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Narayanaswamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Swetha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Sharma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page">21</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-G</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemPhysChem</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">2595</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kwon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Back</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<date type="published" when="2014">2014, 2, 17291</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nakamura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<date type="published" when="2014">2014, 2, 13827</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dubey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Adhikari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Venkatesan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Khatiwada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mohammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Qiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sol. Energy Mater. Sol. Cells</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="page">193</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Conings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Baeten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>D'haen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Manca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-G</forename><surname>Boyen</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mater</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014, 2, 081505</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Bao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. C</title>
+		<imprint>
+			<biblScope unit="page">10070</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qiu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">1480</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G.-W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pyeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">2326</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>-Y. Jen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">1804028</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-Q</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Fang, ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">31357</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G.-W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">3238</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Y</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">567</biblScope>
+			<biblScope unit="page">511</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Byranvand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page">12175</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Edri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kirmayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cahen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hodes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">897</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Y</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1703143</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">C</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">1604545</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Sci</title>
+		<imprint>
+			<date type="published" when="2017">2017, 4, 1700025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chaudhary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kulkarni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Jena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ikegami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Udagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kunugita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemSusChem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">2473</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Dequilettes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jariwala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">De</forename><surname>Marco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Deblock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Ginger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<date type="published" when="2017">2017, 3, e1700106</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="page" from="55" to="10376" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">V</forename><surname>Hoang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Shin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page">3918</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page">4357</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kanimozhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yaacobi-Gross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Burnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Briseno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Anthopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Salzner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Patil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">17253</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<date type="published" when="2014">2014, 26, 2744</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">5784</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">C</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<date type="published" when="2017">2017, 2, 17102</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

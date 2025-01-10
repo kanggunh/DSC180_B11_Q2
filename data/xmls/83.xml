@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Planar p-n homojunction perovskite solar cells with efficiency exceeding 21.3%</title>
+				<funder ref="#_xF7HE8T">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_PuCgTS7">
+					<orgName type="full">Natural Science Foundation of Beijing Municipality</orgName>
+				</funder>
+				<funder ref="#_X3YBQE9">
+					<orgName type="full">Beijing Municipal Science and Technology Project</orgName>
+				</funder>
+				<funder ref="#_XyAfGHj">
+					<orgName type="full">Fundamental Research Funds for the Central Universities</orgName>
+				</funder>
+				<funder ref="#_KeYzXUg">
+					<orgName type="full">China Scholarship Council</orgName>
+				</funder>
+				<funder ref="#_8sB3mYg">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-02-04">4 February 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Peng</forename><surname>Cui</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<postCode>102206</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<postCode>102206</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dong</forename><surname>Wei</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<postCode>102206</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<postCode>102206</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jun</forename><surname>Ji</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<postCode>102206</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hao</forename><surname>Huang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<postCode>102206</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<postCode>102206</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Endong</forename><surname>Jia</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Electrical Engineering</orgName>
+								<orgName type="laboratory">Key Laboratory of Solar Thermal Energy and Photovoltaic System</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<region>China</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Institute of Electrical Engineering</orgName>
+								<orgName type="laboratory">Key Laboratory of Solar Thermal Energy and Photovoltaic System</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<postCode>100190</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="institution">University of Chinese Academy of Sciences (UCAS)</orgName>
+								<address>
+									<postCode>100049</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Electrical Engineering</orgName>
+								<orgName type="laboratory">Key Laboratory of Solar Thermal Energy and Photovoltaic System</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<region>China</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<postCode>102206</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Institute of Electrical Engineering</orgName>
+								<orgName type="laboratory">Key Laboratory of Solar Thermal Energy and Photovoltaic System</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<postCode>100190</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="institution">University of Chinese Academy of Sciences (UCAS)</orgName>
+								<address>
+									<postCode>100049</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shangyi</forename><surname>Dou</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<postCode>102206</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<postCode>102206</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tianyue</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<postCode>102206</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wenjing</forename><surname>Wang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Electrical Engineering</orgName>
+								<orgName type="laboratory">Key Laboratory of Solar Thermal Energy and Photovoltaic System</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<region>China</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Institute of Electrical Engineering</orgName>
+								<orgName type="laboratory">Key Laboratory of Solar Thermal Energy and Photovoltaic System</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<postCode>100190</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="institution">University of Chinese Academy of Sciences (UCAS)</orgName>
+								<address>
+									<postCode>100049</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Electrical Engineering</orgName>
+								<orgName type="laboratory">Key Laboratory of Solar Thermal Energy and Photovoltaic System</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<region>China</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<postCode>102206</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Institute of Electrical Engineering</orgName>
+								<orgName type="laboratory">Key Laboratory of Solar Thermal Energy and Photovoltaic System</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<postCode>100190</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="institution">University of Chinese Academy of Sciences (UCAS)</orgName>
+								<address>
+									<postCode>100049</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Meicheng</forename><surname>Li</surname></persName>
+							<email>mcli@ncepu.edu.cn</email>
+							<idno type="ORCID">0000-0002-0731-741X</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<postCode>102206</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">School of Renewable Energy</orgName>
+								<orgName type="laboratory">State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources</orgName>
+								<orgName type="institution">North China Electric Power University</orgName>
+								<address>
+									<postCode>102206</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Planar p-n homojunction perovskite solar cells with efficiency exceeding 21.3%</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-02-04">4 February 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2239D47E697FA0F0808B0A63130CBE0F</idno>
+					<idno type="DOI">10.1038/s41560-018-0324-8</idno>
+					<note type="submission">Received: 26 March 2017; Accepted: 21 December 2018;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T18:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>scan direction</term>
+					<term>speed</term>
+					<term>dwell times</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Nature Research wishes to improve the reproducibility of the work that we publish. This form is intended for publication with all accepted papers reporting the characterization of photovoltaic devices and provides structure for consistency and transparency in reporting. Some list items might not apply to an individual manuscript, but all fields must be completed for clarity.</p><p>For further information on Nature Research policies, including our data availability policy, see Authors &amp; Referees.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental design</head><p>Please check: are the following details reported in the manuscript?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Dimensions</head><p>Area of the tested solar cells</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The active area was 0.1 cm2, which is a rectangle (0.2cm*0.5cm).</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Films</head><p>relative scales of the surface corrugation and potential. The areas between the two dashed white lines are mark locations to extract averaged potential profiles displayed in Fig. <ref type="figure" target="#fig_10">4d</ref> of the main text for the homojunction device and in Supplementary Figure <ref type="figure" target="#fig_7">12</ref> for the control device. Supplementary Table <ref type="table">2</ref>. Photovoltaic parameters extracted from J-V curves (Supplementary Fig.    Supplementary Table <ref type="table">3</ref>. The wxAMPS parameters set for the MAPbI 3 standard p-i-n PSC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Parameters and units</head><p>Compact TiO 2 Undoped CH 3 NH 3 PbI 3 Spiro ε r 100 [2]  25 [4]  3 [6]   E g (eV) 3.2 1.5 [5]  2.91 [7]   χ (eV) 4 3.93 [5]  2.2 [7]   Thickness (nm) 20 540 200</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Electron and Hole</head><p>Mobility (cm 2 /V/S) 0.006 [10]  10 0.001 N a (cm -3 ) 0 0 1×10 <ref type="bibr" target="#b26">18</ref> N d (cm -3 ) 5×10 <ref type="bibr" target="#b27">19</ref> [2] 0 0</p><formula xml:id="formula_0">N c (cm -3 ) 1×10 21 [3] 2.5×10 20 [10] 1×10 18 N v (cm -3 ) 2×10 20 [10] 2.5×10 20 [10] 1×10 18</formula><p>Supplementary Table <ref type="table">4</ref>. The wxAMPS parameters set for the MAPbI 3 homojunction PSC.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Parameters and units</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Compact</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Related experimental data Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>We provide hysteresis scans in Figure <ref type="figure" target="#fig_11">5</ref> and Supplementary Figures 16.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Efficiency</head><p>External quantum efficiency (EQE) or incident photons to current efficiency (IPCE)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>Yes, the EQE data for the devices have been provided as shown in Supplementary Figure <ref type="figure" target="#fig_8">13</ref> and<ref type="figure" target="#fig_6">18</ref>.</p><p>Explain why this information is not reported/not relevant.</p><p>A comparison between the integrated response under the standard reference spectrum and the response measure under the simulator</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>The integrated short-circuit current from the EQE spectrum matches the short-circuit current from the JV scan (of masked cells) within the setup measurement error of about 2%.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>nature research | solar cells reporting summary</head><p>November 2017</p><p>2</p><p>For tandem solar cells, the bias illumination and bias voltage used for each subcell</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>State where this information can be found in the text.</p><p>N.A.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Calibration</head><p>Light source and reference cell or sensor used for the characterization</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>The light source: the solar simulator (XES-301S+EL-100) with standard AM 1.5G irradiation (100mW•cm-2). The reference cell: the KG-5 mono-Si cell.</p><p>Explain why this information is not reported/not relevant.</p><p>Confirmation that the reference cell was calibrated and certified</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>Yes, the reference cell was certified by the National Institute of Metrology of China.</p><p>Explain why this information is not reported/not relevant.</p><p>Calculation of spectral mismatch between the reference cell and the devices under test</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>State where this information can be found in the text.</p><p>The light spectrum used in measurement is match with the reference silicon cell, and we have not calculated the spectral mismatch between the reference cell and the tested devices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Mask/aperture</head><p>Size of the mask/aperture used during testing Yes</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>A mask with an aperture area of 0.07 cm2 was used for measurements.</p><p>Explain why this information is not reported/not relevant.</p><p>Variation of the measured short-circuit current density with the mask/aperture area</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>There is no obvious change in the measured short-circuit current density with or without masks.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Performance certification</head><p>Identity of the independent certification laboratory that confirmed the photovoltaic performance</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>The National Institute of Metrology of China</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A copy of any certificate(s)</head><p>Provide in Supplementary Information</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>Certified measurements are shown in Supplementary Figures 14.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Statistics Number of solar cells tested Yes No</head><p>There are more than 90 MAPbI3-based PSCs (with or without the homojunction structure) have been test.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis of the device performance Yes</head><p>No A statistical analysis of the performance has been included in Figure <ref type="figure" target="#fig_11">5</ref> and Supplementary Figure <ref type="figure" target="#fig_11">15</ref> and<ref type="figure" target="#fig_1">17</ref>.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9.">Long-term stability analysis Type of analysis, bias conditions and environmental conditions</head><p>For instance: illumination type, temperature, atmosphere humidity, encapsulation method, preconditioning temperature</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The long-term stability of PSCs is studied under AM 1.5G irradiation in air. We examine the performance of unencapsulated PSCs stored in ambient air (25 °C and 40±10 % RH) under dark conditions for 792 hours.</p><p>Explain why this information is not reported/not relevant. O rganic-inorganic halide perovskite solar cells (PSCs) have attracted much interest thanks to their high power conversion efficiency (PCE) <ref type="bibr">[1]</ref><ref type="bibr">[2]</ref><ref type="bibr">[3]</ref><ref type="bibr">[4]</ref><ref type="bibr">[5]</ref> , which has increased from 3.8% up to 23.7% in less than 10 years <ref type="bibr">6,</ref><ref type="bibr" target="#b6">7</ref> , facile processing methods <ref type="bibr">8,</ref><ref type="bibr">9</ref> and outstanding optoelectronic properties <ref type="bibr">[10]</ref><ref type="bibr" target="#b19">[11]</ref><ref type="bibr" target="#b20">[12]</ref><ref type="bibr" target="#b21">[13]</ref><ref type="bibr" target="#b22">[14]</ref><ref type="bibr" target="#b23">[15]</ref> . Many effective strategies have been implemented to improve the performance of PSCs, such as solvent engineering <ref type="bibr" target="#b24">[16]</ref><ref type="bibr" target="#b25">[17]</ref><ref type="bibr" target="#b26">[18]</ref> , compositional engineering <ref type="bibr" target="#b27">19,</ref><ref type="bibr" target="#b28">20</ref> and alternative architecture design <ref type="bibr" target="#b29">[21]</ref><ref type="bibr" target="#b30">[22]</ref><ref type="bibr" target="#b31">[23]</ref> . In particular, recent works <ref type="bibr" target="#b32">[24]</ref><ref type="bibr" target="#b33">[25]</ref><ref type="bibr" target="#b34">[26]</ref><ref type="bibr" target="#b35">[27]</ref> show that minimizing the carrier recombination losses, both in the perovskite layer and at the interfaces between different layers, enables a PCE closer to the theoretical value <ref type="bibr">1</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head><p>One strategy for reducing carrier recombination losses is to minimize defects on polycrystalline perovskite films <ref type="bibr">5,</ref><ref type="bibr" target="#b32">24,</ref><ref type="bibr" target="#b34">26</ref> . For instance, additional iodide ions can be introduced into the organic cation solution, which decrease the concentration of the deeplevel defects <ref type="bibr">5</ref> . Another strategy is to engineer the device architecture employing mesoporous, planar or embedded structures to reduce the carrier losses during charge transport/extraction in PSCs <ref type="bibr" target="#b30">22,</ref><ref type="bibr" target="#b36">28,</ref><ref type="bibr" target="#b37">29</ref> . Furthermore, the use of a bulk heterojunction active layer has been demonstrated to shorten the carrier transport distance in the perovskite films, thus reducing carrier losses <ref type="bibr" target="#b31">23,</ref><ref type="bibr" target="#b38">30,</ref><ref type="bibr" target="#b39">31</ref> . Moreover, to decrease further the recombination losses and to improve the photoelectron collection, an inverted device architecture with a graded heterojunction structure has also been reported <ref type="bibr" target="#b40">32</ref> . These results illustrate that improving the device architecture in heterojunction PSCs is a valid approach to decrease the carrier losses. While the heterojunction is constituted between the perovskite and electron/hole transport materials, the perovskite itself is also able to form a homojunction thanks to its unique self-doping property <ref type="bibr" target="#b41">[33]</ref><ref type="bibr" target="#b42">[34]</ref><ref type="bibr" target="#b43">[35]</ref><ref type="bibr" target="#b44">[36]</ref><ref type="bibr" target="#b45">[37]</ref> , which would minimize the presence of impurities that can act as carrier recombination centres <ref type="bibr" target="#b46">38</ref> . Within the perovskite homojunction, a built-in electric field is formed that could enhance the oriented transport of the photo-induced electrons/holes, thus decreasing further carrier recombination in the perovskite layer. Therefore, it is a promising route to further improve the performances of PSCs.</p><p>Here, we fabricate a perovskite p-n homojunction structure, via a combined deposition processing method, which is then integrated into planar PSCs. The built-in electric field in the homojunction, identified by cross-sectional Kelvin probe force microscopy (KPFM), induces the oriented transport of the photo-induced carriers, thus reducing the carrier recombination losses as further corroborated by wxAMPs simulations. Planar PSCs with a MAPbI 3 (MA, methylammonium) p-n homojunction exhibit a steady-state efficiency of 20.80%. Furthermore, an average PCE of 21.38% is achieved by utilizing a FA 0.15 MA 0.85 PbI 3 (FA, formamidinium) p-n homojunction, exceeding the previously reported efficiency for planar PSCs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fabrication of the planar homojunction PSC</head><p>The proposed homojunction structure is composed of two perovskite layers with different doping, p-type and n-type perovskites, placed in junction with one another. A built-in electric field is therefore established at the p-n junction. Theoretical simulations and experimental evidence show that perovskites can be either p-type or n-type depending on the growth conditions and the ratio of the main precursors <ref type="bibr" target="#b41">[33]</ref><ref type="bibr" target="#b42">[34]</ref><ref type="bibr" target="#b43">[35]</ref><ref type="bibr" target="#b44">[36]</ref><ref type="bibr" target="#b45">[37]</ref> . The MAPbI 3 films with Pb 2+rich/MA + -deficient/I --deficient precursors are n-doped and those with MA + -rich/Pb 2+ -deficient precursors are p-doped, due to the presence of the defects induced by vacancies or interstitial elements. Previously, we have demonstrated that self-doping in perovskites can be tuned serially by controlling the process conditions, such as annealing temperatures <ref type="bibr" target="#b47">39,</ref><ref type="bibr" target="#b48">40</ref> . Hence, it is feasible to fabricate a perovskite homojunction structure.</p><p>We integrate the homojunction into PSCs based on the standard planar p-i-n <ref type="bibr" target="#b49">41,</ref><ref type="bibr" target="#b50">42</ref>  structure are displayed in Fig. <ref type="figure" target="#fig_6">1a,</ref><ref type="figure">b</ref>. Figure <ref type="figure" target="#fig_6">1c</ref> presents a cross-sectional scanning electron microscopy (SEM) image of a homojunction PSC, where a smooth and uniform n-type MAPbI 3 layer can be clearly observed. Meanwhile, the dense and small-grain p-type MAPbI 3 layer with a thickness of ~60 nm is deposited on the top of the ~480 nm n-type MAPbI 3 layer.</p><p>To realize the perovskite homojunction structure, we propose a combined deposition method that combines a one-step spincoating method for the deposition of the bottom n-type perovskite layer on top of the TiO 2 compact layer and a vacuum vapour deposition followed by a dipping step for the deposition of the top p-type perovskite layer over the n-type perovskite layer.</p><p>The one-step spin-coating method allows control of the morphology, coverage, roughness and grain size of the n-type perovskite film. By varying the stoichiometry of the PbI 2 /MAI precursor ratio (1, 1.05, 1.10 and 1.15, respectively), we are able to induce the n-type doping in the perovskite. The deposition of the top p-type perovskite layer of the homojunction should not degrade the bottom n-type perovskite layer. While spin-coating would dissolve the bottom layer, vacuum vapour deposition has been reported to avoid damage of the organic/inorganic thin films underneath while enabling highquality films <ref type="bibr" target="#b30">22,</ref><ref type="bibr" target="#b51">43,</ref><ref type="bibr" target="#b52">44</ref> . We therefore choose this technique for depositing PbI 2 thin films on top of the n-type perovskite layer, followed by a dipping step in MAI/isopropanol solution to form MAPbI 3 . By adjusting the dipping time, we control the amount of MAI and thus the p-type doping. Finally, we choose the top p-type perovskite layer with a PbI 2 thickness of 60 nm followed by a dipping time of 60 s, whose precursor ratio is measured at ~0.91 (PbI 2 /MAI). The SEM images, X-ray diffraction patterns and high-resolution transmission electron microscope images (Supplementary Note 1) of perovskite layers are shown in Supplementary Figs. <ref type="figure" target="#fig_6">1</ref><ref type="figure" target="#fig_7">2</ref><ref type="figure" target="#fig_8">3</ref>, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Carrier generation and recombination in homojunction PSC</head><p>Figure <ref type="figure" target="#fig_7">2a</ref> shows a schematic energy level diagram and the working principle of the homojunction PSC and how carriers are transported across the layers. As photons are absorbed by both the p-type and n-type perovskites, the photo-induced carriers are generated in two perovskite layers. Then, the electrons and holes at the homojunction drift in opposite directions. Finally, the electrons are injected into the compact TiO 2 layer, the electron transport layer (ETL), and transported to the FTO cathode whereas the holes are injected into the spiro-OMeTAD layer, the hole transport layer (HTL), and transported to the Au anode.</p><p>In PSCs with the standard p-i-n structure, the carrier transport in the perovskite film has no preferred direction, which can lead to unwanted carrier recombination. The extraction of photo-induced electrons and holes mostly occurs at the perovskite/ETL and the perovskite/HTL interfaces, respectively <ref type="bibr" target="#b35">27</ref> . Hence, we design the homojunction structure to provide an extra built-in electric field in the perovskite film, in which electrons and holes move in opposite directions towards the ETL and the HTL, respectively, as shown in Fig. <ref type="figure" target="#fig_7">2b</ref>, with a view to reducing carrier recombination.</p><p>To verify the reduction in carrier recombination losses, carrier generation and recombination in PSCs is simulated with wxAMPS, which has been used to simulate thin-film solar cells <ref type="bibr" target="#b47">39,</ref><ref type="bibr" target="#b53">45,</ref><ref type="bibr" target="#b54">46</ref> . The simulated structures for these two PSCs are shown in Supplementary Fig. <ref type="figure" target="#fig_10">4a</ref>. In Fig. <ref type="figure" target="#fig_7">2c</ref>, under short-circuit conditions, the rates of carrier generation are similar for both devices whereas the carrier recombination rate for PSCs with the homojunction is dramatically reduced near the p-type/n-type perovskite interface. We suggest that this is due to the electric field (Supplementary Fig. <ref type="figure" target="#fig_10">4b</ref>) induced by the homojunction that favours the oriented transport of electrons and holes. As a result of the influence of the homojunction, the concentration of the free holes increases in the p-type perovskite region away from the interface, whereas the concentration of the electrons decreases (Supplementary Fig. <ref type="figure" target="#fig_10">4c,</ref><ref type="figure">d</ref>), providing evidence for carrier oriented transport. Besides, the simulated photocurrent density-voltage (J-V) curve (Supplementary Fig. <ref type="figure" target="#fig_11">5</ref> and Supplementary Note 2) in the homojunction PSC shows an obvious enhancement in open-circuit voltage (V OC ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Optoelectronic properties of the perovskite homojunction</head><p>To detect the doping property of as-prepared perovskite films, X-ray photoemission spectroscopy (XPS) is carried out on perovskite films with various contents of PbI 2 in precursor solution. The valence spectra and the schematic energy level of the perovskite films are shown in Fig. <ref type="figure" target="#fig_8">3a,</ref><ref type="figure">b</ref>. The energy difference between the valence band and the Fermi level (E F ) is 0.50 eV for the top p-type perovskite film with a PbI 2 /MAI ratio of 0.91, which confirms the p-type doping due to the perovskite's bandgap of 1.55 eV. For the perovskite films containing excess PbI 2 , the E F is shifted close to the conduction band, with the increase in PbI 2 content in the precursor solution. This illustrates that the doping of the perovskite can be tuned from p-type to n-type by changing the PbI 2 content in the precursor solution. The full XPS spectra of the MAPbI 3 films are shown in Supplementary Fig. <ref type="figure" target="#fig_12">6</ref>. The position of the XPS peaks, especially for I and Pb, does not vary across the samples, thus indicating that the changes in the valence spectra are due to the perovskite materials, not measurement errors.</p><p>The doping of the films is also characterized by Hall effect measurements. As shown in Fig. <ref type="figure" target="#fig_8">3c</ref> and Supplementary Table <ref type="table">1</ref>, the carrier transport type converts from p-type to heavily n-type with increasing molar ratios of PbI 2 . In addition, KPFM, which is employed to characterize the surface potentials, also confirms the results presented above. Figure <ref type="figure" target="#fig_8">3d,</ref><ref type="figure">e</ref> shows KPFM potential images of the p-type perovskite films with a PbI 2 /MAI ratio of 0.91 and the n-type perovskite with a PbI 2 /MAI ratio of 1.15 (other ratios are reported in Supplementary Fig. <ref type="figure">7</ref>), respectively, whereas the insets show the atomic force microscope (AFM) topographic images. It can be seen from Fig. <ref type="figure" target="#fig_8">3d</ref> that the surface potential of the p-type perovskite film is lower than that of the n-type perovskite film (Fig. <ref type="figure" target="#fig_8">3e</ref>), because of accumulated holes that lead the Fermi level to be located close to the valence band <ref type="bibr" target="#b47">39</ref> . Contrarily, the higher surface potential of the n-type perovskite film shown in Fig. <ref type="figure" target="#fig_8">3e</ref> correlates with the n-type doping of the sample, which is consistent with the XPS and Hall results. To get a quantitative comparison, the profiles of the surface potentials of the films are compared in Fig. <ref type="figure" target="#fig_8">3f</ref>. The surface potential on the n-type perovskite film is approximately 0.1 V whereas that of the p-type perovskite film is about -0.3 V.</p><p>The time-resolved photoluminescence (TRPL) and the steady PL measurements are performed for the single n-type perovskite film (PbI 2 /MAI ratio of 1.15) and the perovskite homojunction film (n-type layer with a PbI 2 /MAI ratio of 1.15 and p-type layer with PbI 2 /MAI ratio of 0.91). As shown in Fig. <ref type="figure" target="#fig_8">3g</ref>, TRPL decay of perovskite films showed a bi-exponential decay with a fast and a slow component. The bimolecular recombination rate, a, and the decay lifetime, τ, are estimated by fitting the decay curves with the expressions I = I 0 (1 + at) -2 and I = I 0 × exp(-(t/τ) β ), respectively, and reported in the inset table of Fig. <ref type="figure" target="#fig_8">3g</ref>. Previous studies of carrier recombination in perovskite films suggest that the fast decay process is caused by bimolecular recombination of photo-generated free carriers, whereas the slow decay process is attributed mainly to trap-assisted recombination <ref type="bibr" target="#b34">26,</ref><ref type="bibr" target="#b47">39</ref> . Here, the perovskite homojunction film possesses a higher bimolecular recombination rate (a = 2.9 × 10 8 s -1 ) and a shorter fast decay lifetime (τ 1 = 6.3 ns) than the n-type perovskite film while the slow decay lifetime (τ 2 ) is  similar in the two samples. This indicates that efficient carrier transfer occurs between the two type perovskite layers in the homojunction without introducing more traps in the homojunction, possibly because of the built-in field at the p-n junction. PL spectra of these two films are consistent with the results of TRPL. As shown in Fig. <ref type="figure" target="#fig_8">3h</ref>, the intensity of PL for the perovskite homojunction film is quenched by over 80% relative to that of the single n-type perovskite film, proving the efficient oriented transport of carriers between the n-type and p-type perovskite layers of the homojunction induced by the built-in potential, which can potentially enable higher performances in PSCs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evidence for the perovskite p-n homojunction formation</head><p>To further verify the formation of the p-n junction between the two perovskite layers, KPFM measurements have been performed on the cross-section of the homojunction structure under dark conditions, which can be used to study the electrical potential distribution across the internal interfaces in solar cells <ref type="bibr" target="#b45">37,</ref><ref type="bibr" target="#b55">[47]</ref><ref type="bibr" target="#b56">[48]</ref><ref type="bibr" target="#b57">[49]</ref> . A schematic of the KPFM measurement principle is shown in Supplementary Fig. <ref type="figure">8</ref>. We fabricate the homojunction device based on FTO/n-type perovskite/p-type perovskite/Au and we cleave it to expose the cross-section without applying any treatments (for example, polishing or ion milling) to avoid complications and artefacts. Moreover, to exclude the influence of surface charges (defects) created on the cleaved cross-sectional surface, we employ a method for measuring the potential changes based on a series of bias voltages (V b ) that are sufficiently small (from the -1.0 V to + 0.5 V) <ref type="bibr" target="#b56">48,</ref><ref type="bibr" target="#b57">49</ref> . We can obtain the obvious potential change caused by the transport and extraction of carriers at the junction, because the configuration of surface charges trapped at defects would not change significantly with such a small V b (ref. <ref type="bibr" target="#b56">48</ref> ). Figure <ref type="figure" target="#fig_10">4a</ref>,b shows the AFM topography of the homojunction device and the corresponding KPFM potential image at V b = 0, respectively. As shown in the potential profile in Fig. <ref type="figure" target="#fig_10">4c</ref>, a potential drop is observed at the interface of the n-type/p-type perovskite layers caused by the carrier transport at the interface. This demonstrates the existence of a built-in electric field and thus the existence of the p-n junction. Besides, the dark and photoelectric J-V curves of homojunction devices show the typical rectifying characteristic of the p-n junction (Supplementary Fig. <ref type="figure">9</ref>). Remarkably, this simple homojunction device composed of two perovskite layers and relative electrodes but without an HTL and an ETL exhibits a PCE of up to 8.08%, corroborating the presence of the p-n junction.</p><p>To obtain accurate information about the bulk property by cross-sectional potential measurements, we measured the potential changes on the same area induced by applying various V b (Supplementary Fig. <ref type="figure" target="#fig_6">10</ref>). The averaged line profiles of the potential under different V b are shown in Fig. <ref type="figure" target="#fig_10">4d</ref>. We subtract the V b = 0 potential profile from the -1.0 V (reverse) up to the + 0.5 V (forward) potential profiles, calculate the potential difference curves at the various V b (Fig. <ref type="figure" target="#fig_10">4e</ref>) and then take the first derivative of the curves to obtain electrical field differences (Fig. <ref type="figure" target="#fig_10">4f</ref>).</p><p>In Fig. <ref type="figure" target="#fig_10">4d</ref>, we note that the potential in the FTO changes slightly with the different V b , even though the FTO is grounded. One reason could be the non-negligible resistance of FTO (~16 Ω sq -1 ) and the contact resistance (~2 Ω ), which act as series resistors with a voltage drop across them. Hence, the actual voltage applied on the homojunction is not the entire V b . Another reason is that cleaving the sample cross-section would create shunts and decrease the shunt resistance, so the current under V b is larger than that of a non-cleaved device under the same bias voltage <ref type="bibr" target="#b56">48,</ref><ref type="bibr" target="#b57">49</ref> . In addition, we also check for possible topographic effects. The topography of the cross-section is not very smooth because of the restriction of the sample preparation without further treatment. We choose two line-scan potential profiles whose locations are across large particles in topography maps (Supplementary Fig. <ref type="figure" target="#fig_6">11</ref>). Although the topographic height changes significantly, the potential along the two lines appears to have an almost identical distribution, therefore suggesting minimal crosstalk between the topography and KPFM potential measurements (Supplementary Note 3).</p><p>From the potential and field difference curves (Fig. <ref type="figure" target="#fig_10">4e</ref>,f, respectively), the significant potential drops and the electric field enhancement are observed across the n-type/p-type perovskite interface. Moreover, the position of maximum electric field corresponds to the n-type/p-type perovskite boundary, indicating a junction at the interface. Due to the p-n junction characteristic, the potential change trends at the junction area are different under the forward and reverse V b , and the electric field directions are also opposite under the forward and reverse V b . Besides, we use the same method to measure the control device (FTO/TiO 2 /undoped perovskite/ spiro-OMeTAD/Au) (Supplementary Figs. <ref type="figure" target="#fig_6">11</ref> and<ref type="figure" target="#fig_7">12</ref>). We observe a potential drop and a rise at the TiO 2 /perovskite and the perovskite/ spiro-OMeTAD interfaces, respectively, at V b = 0. Under different bias voltages, two major electric fields are located across the two interfaces, which demonstrates that the control device works as a p-i-n junction as opposed to a homojunction device.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The homojunction-enhanced solar cell performance</head><p>To check the effects of the homojunction on the performance of PSCs, MAPbI 3 -based and FA 0.15 MA 0.85 PbI 3 -based perovskite layers are chosen for fabricating planar PSCs. The performances of PSCs with and without the homojunction are presented in Fig. <ref type="figure" target="#fig_11">5</ref>. First, we fabricate the MAPbI 3 homojunction PSCs. The top p-type perovskite layer is fabricated with a PbI 2 thickness of 60 nm followed by a dipping time of 60 s (that corresponds to a PbI 2 /MAI ratio of ~0.91) and the n-type perovskite layer (480 nm) is fabricated with a PbI 2 /MAI ratio of 1.10. The performance-optimized results with the PbI 2 thickness for the top p-type perovskite and the self-doping concentration for the bottom n-type perovskite can be found in Supplementary Fig. <ref type="figure" target="#fig_8">13</ref>. The perovskite layer in MAPbI 3 standard p-i-n PSCs is deposited by solution processing to a thickness of about 540 nm, similarly to that of the homojunction film as shown in Supplementary Fig. <ref type="figure" target="#fig_6">1i,</ref><ref type="figure">j</ref>. As shown in Fig. <ref type="figure" target="#fig_11">5a</ref>, the performances of the champion MAPbI 3 PSCs with and without the homojunction are compared. The homojunction PSC exhibits a better performance than the standard p-i-n PSC with an increase in the PCE from 17.76% to 20.80%. Among the photovoltaic parameters, the short-circuit current density (J SC ) shows the greatest improvement, increasing from 22.54 mA cm -2 to 23.86 mA cm -2 . To understand the reason behind the J SC increase, we measure the absorbance spectra of these perovskite films and the external quantum efficiency (EQE) of the corresponding PSCs. The absorption curves of these two perovskite films are similar, which indicates that the perovskite homojunction does not induce additional absorption (Supplementary Fig. <ref type="figure" target="#fig_10">14a</ref>). The EQE spectra and the corresponding integrated J sc estimated for the MAPbI 3 PSCs with and without the homojunction are shown in Supplementary Fig. <ref type="figure" target="#fig_10">14b</ref>. The EQE of the homojunction PSC is higher than the standard p-i-n PSC, especially at long wavelengths (from 500 nm to 800 nm). The homojunction probably suppresses the carrier recombination. The integrated J SC matches well with the measured J SC . Hence, the notable increase in J SC , V OC and fill factor (FF) of the homojunction PSC is mainly attributed to the effective oriented transport of photo-generated carriers induced by the built-in field of the homojunction, which minimizes the loss in the photovoltaic performance. A 20.5% efficiency for the MAPbI 3 homojunction PSCs is certified by the National Institute of Metrology in China (Supplementary Fig. <ref type="figure" target="#fig_11">15</ref>).</p><p>Besides, the stabilized electric power output and the photocurrent density at the maximum power point are measured over a period of 200 s and shown in Fig. <ref type="figure" target="#fig_11">5b</ref>. By holding a bias near the maximum power output point (+ 0.95 V), we obtained a stabilized PSC of ~20.6%, which is similar to the non-stabilized PCE of 20.80% measured for the same cell. As shown in Fig. <ref type="figure" target="#fig_11">5c</ref>, the homojunction greatly improves the performance and reproducibility compared to the standard structure (other parameters are reported in Supplementary Fig. <ref type="figure" target="#fig_12">16</ref>). The average PCE for 45 standard p-i-n PSCs is 15.92% with a J sc of 22.27 mA cm -2 , V oc of 1.06 V and FF of 67.20%. For the 45 homojunction PSCs, the average PCE reaches up to 19.95% with an average J sc of 23.43 mA cm -2 , V oc of 1.12 V and FF of 76.09%.</p><p>Hysteresis has frequently been observed in PSCs, so its assessment is important to evaluate the performance of PSCs accurately. We perform serial forward/reverse scanned J-V measurements on one of the most efficient MAPbI 3 homojunction PSCs to examine the influence of the biasing history. We observe little difference between the J-V curves measured under reverse and forward scans (Supplementary Fig. <ref type="figure" target="#fig_1">17</ref>), which indicates that the doping of the perovskite for the homojunction within the stoichiometry explored in this work does not lead to significant hysteresis. We obtained a mean PCE of 20.1% from 8 measurements (Supplementary Table <ref type="table">2</ref>), based on the averaged values of the reverse and forward scanned J-V curves with the MAPbI 3 homojunction PSC. The discrepancy in the PCEs derived from the two scanned direction curves (that is, reverse and forward) is only 0.7%, revealing that the homojunction PSCs have small hysteresis.  </p><formula xml:id="formula_1">V b = 0 V b = +0.25 V V b = +0.5 V V b = -0.5 V V b = -1.0 V V b = +0.25 V V b = +0.5 V V b = -0.5 V V b = -1.0 V V b = +0.25 V V b = +0.5 V V b = -0.</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stability of the homojunction films and solar cells</head><p>To study the stability of the homojunction, transmission electron microscope (TEM) studies are carried out to investigate the possible ion diffusion issue in the grain boundaries between the p-type and n-type perovskite layers. The whole PSC is cross-sectioned by means of a focused ion beam (FIB). Figure <ref type="figure" target="#fig_12">6a</ref>-d shows the cross-sectional PSCs of the standard p-i-n structure and the homojunction structure, respectively. The interface between the p-type and n-type perovskite layers is clearly visible as a neat boundary. To verify the stability of the homojunction, we store the homojunction PSC without encapsulation in ambient air under dark conditions for 160 h. In Fig. <ref type="figure" target="#fig_12">6e</ref>,f, the interface between the p-type and n-type perovskite layers is still clearly visible after 160 h of storage compared with the fresh condition. Moreover, we mark the p-type perovskite layer with bromide and employ TEM with energy-dispersive X-ray analysis to inspect the ion migration in the homojunction (Supplementary Fig. <ref type="figure" target="#fig_7">20</ref>). We note that little or no ion migration between the two types of perovskite layer after the PSC was measured under AM1.5 illumination and stored for 160 h. Therefore, the results suggest that the homojunction with self-doped perovskite layers is a stable structure under the conditions investigated. The long-term stability of PSCs is studied to evaluate the effects of the homojunction. We examine the performance of unencapsulated PSCs stored in ambient air (25 °C and 40 ± 10% relative humidity) under dark conditions for 792 h. As shown in Fig. <ref type="figure" target="#fig_12">6g</ref>, the evolution of the PCE over time reveals a similar trend for PSCs with and without the homojunction. The result shows that the PCE of a MAPbI 3 homojunction PSC decreased from 20.27% to 19.56%, which maintained 96% of the initial PCE after 792 h, whereas the PCE of a MAPbI 3 standard p-i-n PSC maintained 94% of the initial PCE (from 17.39% to 16.29%). This indicates that the homojunction PSCs are relatively stable even in the presence of moisture and oxygen, which are known to be critical factors in perovskite degradation. The FA 0.15 MA 0.85 PbI 3 homojunction PSC shows a marginal decrease in PCE, from 21.23% to 20.66%, after 792 h, thus retaining 97% of the initial PCE (other parameters shown in Supplementary Fig. <ref type="figure" target="#fig_4">21</ref>). Hence, it is clear that the as-fabricated PSCs with the homojunction possess excellent long-term stability, which can be ascribed to the fact that the large grains of the n-type perovskite layer and the film compactness of the p-type perovskite layer can minimize the negative impact of oxygen and moisture.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>In summary, we have demonstrated a perovskite homojunction structure to enhance the performance of planar PSCs using a p-type perovskite/n-type perovskite bilayer fabricated by a combined deposition method. The formation of the p-n junction in the homojunction structure has been verified by cross-sectional KPFM measurements under a series of bias voltages. The planar homojunction PCSs show an enhanced PCE with respect to standard p-i-n PSCs as a consequence of oriented charge transport and reduced carrier recombination. A certified efficiency exceeding 20% is achieved in the MAPbI 3 homojunction PSCs. Furthermore, FA 0.15 MA 0.85 PbI 3 homojunctions are investigated and integrated into PSCs, enabling efficiencies of up to 21.38%. This work demonstrates that the perovskite homojunction is a valid alternative approach to the p-i-n traditional heterojunction PSCs for fabricating highly efficient PSCs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Preparation of the perovskite homojunction. The perovskite homojunction is formed by n-type and p-type perovskite layers. To fabricate the n-type perovskite layer, a one-step spin-coating method was used as in previous published papers <ref type="bibr" target="#b47">39,</ref><ref type="bibr" target="#b48">40</ref> . To prepare the perovskite precursor solution, 159 mg MAI (Xi'an Polymer Light Technology Corp.), and 462 mg 1.0 M, 485 mg 1.05 M, 508 mg 1.1 M and 531 mg 1.15 M PbI 2 were mixed in anhydrous dimethylformamide/ dimethylsulphoxide (600 mg/78 mg) solution (Sigma-Aldrich, 99.8%), which was stirred at room temperature in a glove box. It was spin-coated directly on FTO/ compact TiO 2 substrate at 4,000 r.p.m. for 30 s. During the spin-coating step, 0.5 ml of diethyl ether was poured on the surface at 25 s before the end. The light-yellow transparent films were converted into brownish-red perovskite films by heating at 130 °C for 5 min. From this process, n-type perovskite films with various doping concentrations were obtained with PbI 2 /MAI ratios of 1, 1.05, 1.10 and 1.15. For depositing the p-type perovskite film on the n-type film, a new formation method combining evaporating and dipping processes was developed. PbI 2 films with thicknesses of 10 nm, 20 nm, 40 nm, 60 nm and 80 nm were evaporated directly on the surface of n-type perovskite films, respectively. Then, these films were dipped in 40 mg ml -1 MAI/isopropanol solution. After rinsing with isopropanol (Sigma-Aldrich), the prepared films were heated at 100 °C. We chose a PbI 2 thickness of 60 nm followed by a dipping time of 60 s, whose precursor ratio is measured at ~0.91 (PbI 2 /MAI). Then the perovskite homojunction formed by n-type and p-type perovskite films was obtained through the above process.</p><p>PSC fabrication. FTO glass substrates were cleaned by dust-free paper first, and then washed with deionized water, ethanol and acetone twice. Then the FTO substrates were dried by blowing with high-purity nitrogen. A compact TiO 2 layer </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>17 .</head><label>17</label><figDesc>Photovoltaic performance. a, J-V curves of one MAPbI 3 standard p-i-n PSC, measured in forward and reverse scans. b, J-V curves of one MAPbI 3 homojunction PSC, measured in serial forward and reverse scans.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>J</head><label></label><figDesc>sc / mA cm -</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>2 )Supplementary Figure 19 .</head><label>219</label><figDesc>External quantum efficiency (EQE). EQE spectrum (black) and EQE-based integrated short-circuit current density (red) of the best planar FA 0.15 MA 0.85 PbI 3 homojunction PSC. Supplementary Figure 20. TEM-EDX analysis of the homojunction PSC (The top p-type perovskite layer is synthesized with Bromine). a, one of fresh homojunction PSCs of which the p-type perovskite layer was synthesized as MAPbI 2 Br. b, the marked homojunction PSC was stored without encapsulation in ambient air (25 o C, ~40% humidity) under dark conditions for 160 hours, which was carried out the J-V measurement for 4 times during this period. The dashed red lines are used to identify the layers in the homojunction structure.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>21 .</head><label>21</label><figDesc>The stability of the planar PSCs with and without the homojunction. Evolution of J sc (a), FF (b), V oc (c) relative to the initial parameters for PSCs without encapsulation stored in ambient air under dark conditions (at 25 o C and 40±10 % RH). d, J-V curves (reverse scan) of the FA 0.15 MA 0.85 PbI 3 homojunction PSC shown in a-c at various storage time (0h, 120h and 792h).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>structure (Au/spiro-OMeTAD/MAPbI 3 /compact TiO 2 /fluorine-doped tin oxide (FTO)). Schematic illustrations of PSCs with the standard p-i-n structure and the homojunction Planar p-n homojunction perovskite solar cells with efficiency exceeding 21.3% Peng Cui 1,4 , Dong Wei 1,4 , Jun Ji 1 , Hao Huang 1 , Endong Jia 2,3 , Shangyi Dou 1 , Tianyue Wang 1 , Wenjing Wang 2,3 and Meicheng Li 1 * Perovskite solar cells (PSCs) have emerged as an attractive photovoltaic technology thanks to their outstanding power conversion efficiency (PCE). Further improvement in the device efficiency is limited by the recombination of the charge carriers in the perovskite layer even when employing heterojunction-based architectures. Here, we propose and demonstrate a p-type perovskite/n-type perovskite homojunction whose built-in electric field promotes oriented transport of the photo-induced carriers, thus reducing carrier recombination losses. By controlling the stoichiometry of the perovskite precursors, we are able to induce n-type or p-type doping. We integrate the homojunction structure in a planar PSC combining a thermally evaporated p-type perovskite layer on a solution-processed n-type perovskite layer. The PSC with a MAPbI 3 homojunction achieves a PCE of 20.80% (20.5% certified PCE), whereas the PSC based on a FA 0.15 MA 0.85 PbI 3 homojunction delivers a PCE of 21.38%. We demonstrate that the homojunction structure is an effective approach, beyond existing planar heterojunction PSCs, to achieve highly efficient PSCs with reduced carrier recombination losses.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 1 |</head><label>1</label><figDesc>Fig. 1 | Structure of planar PSCs with and without the homojunction and fabrication schematic of the homojunction PSC fabricated by the combined deposition method. a, The standard p-i-n PSC without the homojunction. b, The PSC with the homojunction composed by p-type and n-type perovskite layers. c, A cross-sectional SEM image of a homojunction PSC. The thicknesses of the TiO 2 , n-type perovskite, p-type perovskite, spiro-OMeTAD and Au electrode are about 20 nm, 480 nm, 60 nm, 200 nm and 100 nm, respectively. d, The bottom n-type perovskite layer is deposited by a one-step spincoating method. The top p-type perovskite layer is deposited by vacuum vapour deposition followed by a dipping process.</figDesc><graphic coords="34,91.05,208.74,415.70,173.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 2 |</head><label>2</label><figDesc>Fig. 2 | Carrier generation and recombination of the planar PSCs with and without the homojunction. a, An energy bandgap diagram of the homojunction PSC. E F and Δ µ represent the Fermi levels of the n-type and p-type perovskites and the Fermi level difference, respectively. Electrons (red circles) are transported through the n-type perovskite and collected at the FTO electrode. Holes (yellow circles) are transported through the p-type perovskite and collected at the Au electrode. b, Carrier generation and transport in PSCs with (bottom) and without (top) the homojunction. The solid black and dashed green arrows represent the built-in electric field direction and the carrier transport direction, respectively. The blue circles indicate electrons and the yellow circles indicate holes. The HTL and the ETL are shown in orange and blue, respectively. c, Simulated generation and recombination rates of the photoinduced carriers across PSCs on illumination (AM1.5G) and under short-circuit conditions. The position refers to the cross-sections of the homojunction PSC, TiO 2 (20 nm)/n-type perovskite (480 nm)/p-type perovskite (60 nm)/spiro-OMeTAD (200 nm), and the standard p-i-n PSC, TiO 2 (20 nm)/undoped perovskite (540 nm)/spiro-OMeTAD (200 nm), respectively. The dashed blue lines are used to identify the layers in the PSCs.</figDesc><graphic coords="35,248.17,61.29,82.70,167.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 3 |</head><label>3</label><figDesc>Fig. 3 | Doping, carrier transport and optical properties of the doped perovskite films. a, XPS valence spectra of MAPbI 3 films with different molar ratios of PbI 2 /MAI. The ratio of 0.91 indicates the p-type perovskite whereas the ratios of 1.05 and 1.1 indicate n-type perovskites. b, The energetic levels of the corresponding n-type (blue) and p-type (orange) perovskite films. CB, conduction band; VB, valence band. c, The carrier concentration (red symbols) and mobility (black symbols) for electrons (circle) and holes (square) in the perovskite films extracted by Hall measurements. The area colours of orange and blue represent the p-type and n-type doping, respectively, for different PbI 2 /MAI ratios. d,e, Surface potential maps (KPFM) of MAPbI 3 films; low surface potentials are found for the p-type perovskite with a PbI 2 /MAI ratio of 0.91 (d) whereas high surface potentials are found for the n-type perovskite with a PbI 2 /MAI ratio of 1.15 (e); the topography maps (AFM) of these two films are shown in the insets. The colour scale bar of the KPFM indicates the relative scale of the surface potential. The blue and black lines across the images (d,e) mark the locations to extract the potential profiles in f. f, Surface potential line profiles of the corresponding perovskite films (the blue line in d and the black line in e). g, TRPL decay profiles excited by a 485 nm pulse laser and measured at 760 nm for the FTO/n-type perovskite/PMMA and FTO/homojunction (n-type perovskite/p-type perovskite)/PMMA films. The values of the recombination rate (a) and the decay lifetime (τ 1 and τ 2 ) corresponding to the fast and slow decay component of these two films are estimated by fitting the TRPL decay curves and reported in the inset table. h, Steady PL spectra of n-type perovskite film (black line) and homojunction film (n-type perovskite/ p-type perovskite, red line). In g,h, the n-type perovskite is from the PbI 2 /MAI ratio of 1.15, whereas the p-type perovskite is from the PbI 2 /MAI ratio of 0.91.</figDesc><graphic coords="36,354.53,431.54,170.90,153.62" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 4 |</head><label>4</label><figDesc>Fig. 4 | Cross-sectional KPFM measurement for the perovskite homojunction device under different bias voltages. a, AFM topography images of the device (V b = 0). The dashed blue lines are used to identify the layers in the device. b, The corresponding KPFM images. The colour scale bars of the AFM and KPFM indicate the relative scales of the surface corrugation and the potential. The cyan line (b) marks the location to extract the potential profiles in c. c, The line scan potential profile along the cyan line in b. d, Potential profiles of the device under the various bias voltages. e, Potential difference profiles with respect to the V b = 0. f, Electric field profiles under the various bias voltages. The potential profiles in d are averaged from the potential images along the device lateral direction. The potential differences in e are obtained by subtracting the potential under V b = 0 from the potentials under the various V b . The profiles of the electric field difference in f are deduced by taking a derivative of the potential differences in e. The device structure is FTO/homojunction (n-type perovskite/p-type perovskite)/Au. The dashed grey lines are used to identify the layers in the device in c-f. Furthermore, FTO (grounded) and Au are connected to a voltage source to realize different bias voltages (V b ) to the device.</figDesc><graphic coords="38,108.85,385.51,145.10,96.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 5 |</head><label>5</label><figDesc>Fig. 5 | Photovoltaic performance of the planar PSCs with and without the homojunction. a, J-V curves (reverse scan) of the champion MAPbI 3 PSCs. b, Steady-state photocurrent and efficiency at the maximum power point (0.95 V) for the optimized MAPbI 3 homojunction PSC. c, PCEs of 45 MAPbI 3 standard p-i-n PSCs and 45 MAPbI 3 homojunction PSCs. d, J-V curves for the champion FA 0.15 MA 0.85 PbI 3 homojunction PSC.</figDesc><graphic coords="39,156.23,218.79,108.86,119.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 6 |</head><label>6</label><figDesc>Fig. 6 | The perovskite film analysis and stability assessment of the standard p-i-n PSC and the homojunction PSC. a,b, Cross-sectional TEM images of the standard p-i-n PSC (a) and the homojunction PSC (b). c,d, Local cross-sectional TEM images of the undoped perovskite (c) and the homojunction (d).e,f, Cross-sectional TEM images of the fresh (0 h; e) and 160 h-later (store at 25 °C and ~40% relative humidity; f) homojunction structures, respectively. g, Evolution of PCE relative to the initial parameters for PSCs without encapsulation stored in ambient air under dark conditions.</figDesc><graphic coords="40,143.48,382.85,322.10,82.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="3,89.90,151.72,415.25,353.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="4,89.90,123.45,415.27,175.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="5,89.85,147.85,415.10,141.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="6,89.85,109.22,415.30,375.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="7,134.68,123.05,325.93,270.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="8,110.73,149.97,373.85,263.03" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="11,151.78,120.55,291.71,181.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="11,97.95,459.94,399.40,189.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="14,89.85,115.60,415.60,331.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="16,173.65,76.80,248.00,424.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="18,89.85,109.20,415.60,173.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="22,89.90,119.35,415.30,121.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="25,149.28,121.17,296.75,227.03" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="27,89.85,108.62,415.60,376.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Supplementary Figure 18. Photovoltaic metrics of 20 FA 0.15 MA 0.85 PbI 3 -based PSCs without and with the homojunction.</head><label></label><figDesc></figDesc><table><row><cell>2</cell><cell>23.45</cell><cell>23.02</cell><cell>23.39</cell><cell>22.92</cell><cell>23.31</cell><cell>22.98</cell><cell>23.24</cell><cell>23.00</cell></row><row><cell>V oc / mV</cell><cell>1.13</cell><cell>1.12</cell><cell>1.13</cell><cell>1.12</cell><cell>1.13</cell><cell>1.12</cell><cell>1.13</cell><cell>1.12</cell></row><row><cell>FF / %</cell><cell>76.18</cell><cell>76.01</cell><cell>76.95</cell><cell>76.56</cell><cell>77.81</cell><cell>76.68</cell><cell>77.89</cell><cell>76.96</cell></row><row><cell>PCE / %</cell><cell>20.27</cell><cell>19.64</cell><cell>20.43</cell><cell>19.69</cell><cell>20.58</cell><cell>19.77</cell><cell>20.54</cell><cell>19.86</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TiO 2 N-type CH 3 NH 3 PbI 3 P-type CH 3 NH 3 PbI 3</head><label></label><figDesc></figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Spiro</cell></row><row><cell>ε r</cell><cell>100 [2]</cell><cell>25 [4]</cell><cell>25</cell><cell>3 [6]</cell></row><row><cell>E g (eV)</cell><cell>3.2</cell><cell>1.5 [5]</cell><cell>1.5</cell><cell>2.91 [7]</cell></row><row><cell>χ (eV)</cell><cell>4</cell><cell>3.93 [5]</cell><cell>3.93</cell><cell>2.2 [7]</cell></row><row><cell>Thickness (nm)</cell><cell>20</cell><cell>480</cell><cell>60</cell><cell>200</cell></row><row><cell>Electron and Hole</cell><cell>0.006 [10]</cell><cell>10</cell><cell>10</cell><cell>0.001</cell></row><row><cell>Mobility (cm2/V/S)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>N a (cm -3 )</cell><cell>0</cell><cell>0</cell><cell>5×10 17 [9]</cell><cell>1×10 18</cell></row><row><cell>N d (cm -3 )</cell><cell>5×10 19 [2]</cell><cell>3×10 17 [8]</cell><cell>0</cell><cell>0</cell></row><row><cell>N c (cm -3 )</cell><cell>1×10 21 [3]</cell><cell>2.5×10 20 [10]</cell><cell cols="2">2.5×10 20 [10] 1×10 18</cell></row><row><cell>N v (cm -3 )</cell><cell>2×10 20 [10]</cell><cell>2.5×10 20 [10]</cell><cell cols="2">2.5×10 20 [10] 1×10</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc><ref type="bibr" target="#b26">18</ref> </figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5 .</head><label>5</label><figDesc>Photovoltaic parameters extracted from J-V curves (Supplementary Fig.13a)</figDesc><table><row><cell>Supplementary Thicknesses of PbI 2</cell><cell>J sc (mA cm -2 )</cell><cell>V oc (V)</cell><cell>FF</cell><cell>PCE (%)</cell></row><row><cell>10 nm</cell><cell>22.83</cell><cell>1.100</cell><cell>71.83</cell><cell>18.05</cell></row><row><cell>20 nm</cell><cell>23.04</cell><cell>1.113</cell><cell>72.72</cell><cell>18.64</cell></row><row><cell>40 nm</cell><cell>23.33</cell><cell>1.125</cell><cell>74.20</cell><cell>19.48</cell></row><row><cell>60 nm</cell><cell>23.43</cell><cell>1.142</cell><cell>73.90</cell><cell>19.79</cell></row><row><cell>80 nm</cell><cell>22.49</cell><cell>1.125</cell><cell>69.71</cell><cell>17.65</cell></row><row><cell>Supplementary</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 6 .</head><label>6</label><figDesc>Photovoltaic parameters extracted from J-V curves (Supplementary Fig.13b)</figDesc><table><row><cell>Radios of PbI 2 /MAI,</cell><cell>J sc (mA cm -2 )</cell><cell>V oc (V)</cell><cell>FF</cell><cell>PCE (%)</cell></row><row><cell>1.0:1</cell><cell>23.33</cell><cell>1.125</cell><cell>73.23</cell><cell>19.23</cell></row><row><cell>1.05:1</cell><cell>23.46</cell><cell>1.125</cell><cell>75.98</cell><cell>20.04</cell></row><row><cell>1.10:1</cell><cell>23.59</cell><cell>1.125</cell><cell>76.40</cell><cell>20.30</cell></row><row><cell>1.15:1</cell><cell>23.51</cell><cell>1.138</cell><cell>73.25</cell><cell>19.59</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>https://doi.org/10.1038/s41560-018-0324-8 1</head><label></label><figDesc>State Key Laboratory of Alternate Electrical Power System with Renewable Energy Sources, School of Renewable Energy, North China Electric Power University, Beijing, China.2  Key Laboratory of Solar Thermal Energy and Photovoltaic System, Institute of Electrical Engineering, Chinese Academy of Sciences, Beijing, China.3  University of Chinese Academy of Sciences , Beijing, China.</figDesc><table /><note><p><p><p><p>4  </p>These authors contributed equally: Peng Cui, Dong</p>Wei</p>. *e-mail: mcli@ncepu.edu.cn</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>NaTurE ENErgy | VOL 4 | FEBRUARY 2019 | 150-159 | www.nature.com/natureenergy</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>acknowledgements This work is supported partially by the <rs type="funder">National Natural Science Foundation of China</rs> (grant no. <rs type="grantNumber">51772096</rs>), the <rs type="funder">Natural Science Foundation of Beijing Municipality</rs> (<rs type="grantNumber">L172036</rs>), <rs type="programName">Joint Funds of the Equipment Pre-Research and Ministry of Education</rs> (<rs type="grantNumber">6141A020225</rs>), the <rs type="programName">Par-Eu Scholars Program, the Science and Technology Beijing 100 Leading Talent Training Project</rs>, the <rs type="funder">Beijing Municipal Science and Technology Project</rs> (<rs type="grantNumber">Z161100002616039</rs>), the <rs type="funder">Fundamental Research Funds for the Central Universities</rs> (<rs type="grantNumber">2016JQ01</rs> and <rs type="grantNumber">2017ZZD02</rs>) and the <rs type="institution">NCEPU `Double First-Class</rs>' <rs type="programName">Graduate Talent Cultivation Program</rs>. We thank <rs type="person">Z. Cheng</rs>, <rs type="person">R. Xu</rs> and <rs type="person">Z. Liu</rs> for KPFM measurements and analysis, and <rs type="person">X. Han</rs> and <rs type="person">Z. Li</rs> for high-resolution TEM measurements. P.C. acknowledges the scholarship from the <rs type="funder">China Scholarship Council</rs> and thanks <rs type="person">G. Cao</rs> for fruitful discussions.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_8sB3mYg">
+					<idno type="grant-number">51772096</idno>
+				</org>
+				<org type="funding" xml:id="_PuCgTS7">
+					<idno type="grant-number">L172036</idno>
+					<orgName type="program" subtype="full">Joint Funds of the Equipment Pre-Research and Ministry of Education</orgName>
+				</org>
+				<org type="funding" xml:id="_X3YBQE9">
+					<idno type="grant-number">6141A020225</idno>
+					<orgName type="program" subtype="full">Par-Eu Scholars Program, the Science and Technology Beijing 100 Leading Talent Training Project</orgName>
+				</org>
+				<org type="funding" xml:id="_XyAfGHj">
+					<idno type="grant-number">Z161100002616039</idno>
+				</org>
+				<org type="funding" xml:id="_xF7HE8T">
+					<idno type="grant-number">2016JQ01</idno>
+				</org>
+				<org type="funding" xml:id="_KeYzXUg">
+					<idno type="grant-number">2017ZZD02</idno>
+					<orgName type="program" subtype="full">Graduate Talent Cultivation Program</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The data that support the plots within this paper and other findings of this study are available from the corresponding author upon reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTARY INFORMATION</head><p>In the format provided by the authors and unedited. </p><note type="other">NaTurE</note></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 1:</head><p>High-resolution TEM images with the lattice fringes reported in Supplementary Figure <ref type="figure">3</ref> a and b, show inter-planar spacings of 0.37 nm, 0.31 nm and 0.28 nm which are indexed as the (211), (220)   and (310) planes of the crystalline MAPbI 3 grains. This result is consistent with the XRD patterns (Supplementary Figure <ref type="figure">2</ref>). Besides, a new lattice fringe at 0.36 nm is observed in Supplementary Figure <ref type="figure">3a</ref> for the p-type perovskite layer, which can be assigned to the (110) plane of MAI (JCPDF card no. 010-0737), indicating the presence of MAI excess. Meanwhile, a lattice fringe at 0.69 nm in Supplementary Figure <ref type="figure">3b</ref> for the n-type perovskite layer can be assigned to the (001) plane of PbI 2 (JCPDF card no. 7-235), indicating the presence of PbI 2 excess. Hence, these observations agree well with the self-doping types discussed above.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 2:</head><p>In the PSCs, the net direct recombination rate of the carriers is given by 𝑅 D (𝑛) = 𝛽(𝑛𝑝 -𝑛 𝑖 2 ) <ref type="bibr">[1]</ref> ,</p><p>which is proportional to the carrier concentration n, as the intrinsic carrier concentration 𝑛 𝑖 can be considered as constant. Since the n in the depletion region of built-in electric field is much less than that in the both sides of p-type and n-type perovskite layers, the recombination rate 𝑅 D (𝑛) is minimised near the junction interface. Therefore, the homojunction does not only promote carriers oriented-transport but also reduces the carrier recombination losses, both of which increase the short-circuit current density (J SC ). Moreover, the low recombination rate adjacent to the homojunction facilitates carrier collection, which leads to the enhancement of open-circuit voltage (V OC ), which is consistent with the simulated results in Supplementary Figure <ref type="figure">5</ref>.</p><p>Supplementary Figure <ref type="figure">6</ref>. XPS spectra of the perovskite films.</p><p>Supplementary Table <ref type="table">1</ref>. Hall measurement parameters of the perovskite films. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 3:</head><p>The surface charge distribution depends on local cross-section cleaving, which can get many uncontrollable surface topographies. The large particle can be observed at the perovskite layer in Supplementary Figure <ref type="figure">11a</ref>, which affects a little the potential imaging in Supplementary Figure <ref type="figure">11b</ref>. We note that potential profiles are similar on the same layer, independent of whether the AFM line profile is decreasing or increasing or has a dip. For example, the AFM line profiles are quite different in the Spiro layer and perovskite layer of which the grains have different sizes. However, the two potential profiles present almost the same trend in the same layer. Overall, there is no significant topographic effect, as compared the AFM and KPFM line profiles. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Reference</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NATurE ENErgy</head><p>To demonstrate the generalizability of the homojunction in PSCs, planar FA 0.15 MA 0.85 PbI 3 PSCs with and without the homojunction have been fabricated and tested. The J-V curves indicate that the performance of FA 0.15 MA 0.85 PbI 3 homojunction PSCs is improved markedly in terms of all the photovoltaic parameters as shown in Supplementary Fig. <ref type="figure">18</ref>. Notably, the champion FA 0.15 MA 0.85 PbI 3 homojunction PSC shows a PCE of 21.88% with an FF of up to 80.50% under reverse scanning and a PCE of 20.88% under forward scanning, leading to an average PCE of 21.38% (as shown in Fig. <ref type="figure">5d</ref>; the EQE and integrated J sc are shown in Supplementary Fig. <ref type="figure">19</ref>). We demonstrated that the performances are significantly improved when using the homojunction structure for planar MAPbI 3 or FA 0.15 MA 0.85 PbI 3 PSCs. Moreover, the feasibility of the single-homojunction PSC without an HTL and an ETL for highly efficient PSCs is worth further study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NATurE ENErgy</head><p>with a thickness of approximately 20 nm was fabricated on FTO by TiCl 4 treatment at 70 °C for 60 min as shown in previous papers <ref type="bibr" target="#b37">29,</ref><ref type="bibr" target="#b47">39,</ref><ref type="bibr" target="#b54">46</ref> . After drying in a drying oven at 50 °C for 2 h, the perovskite homojunction was deposited directly on these substrates by the process mentioned above. The hole transport layer (150 nm) was obtained by spin-coating the 2,20,7,70-tetrakis[N,N-di(4-methoxyphenyl) amino]-9,90-spirobifluorene (spiro-OMeTAD) solution (80 mg ml -1 dissolved in chlorobenzene, Xi'an Polymer Light Technology Corp.) with the standard additives tertbutylpyridine (28.5 μ l in 1 ml chlorobenzene) and lithiumbis-(trifluoromethanesulfonyl) imide (8.75 mg ml -1 ) at a speed of 4,000 r.p.m. for 30 s in a glove box, followed by oxidation in clean air for 6 h. After that, the Au electrode with a thickness of 100 nm was prepared by the vacuum evaporation equipment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Perovskite film characterization.</head><p>The morphologies of the as-prepared MAPbI 3 films were characterized by SEM (Hitachi S-4800). The chemical compositions and structures of the perovskite films were analysed by X-ray diffraction (Bruker D8 Advance X-ray diffractometer, Cu-Kα radiation λ = 0.15406 nm). The valence spectra were measured by XPS (ESCSLAB 250Xi). All spectra were shifted to account for sample charging using inorganic carbon at 284.80 eV as a reference. The static PL spectra of the perovskite films on FTO substrates were measured by an Edinburgh PLS 980. TRPL decay was measured using a transient-state spectrophotometer (Edinburgh Ins. F900) under the irradiation of a 485 nm pulse laser.</p><p>Hall. The sample was characterized using a Nanometrics HL5500 Hall System. An 80 nm gold layer was thermally evaporated onto the perovskite films to serve as metal contacts. All of the measurements were performed at room temperature (25 °C) and aphotic conditions. Other condition parameters are as follows: the current measuring range is 10 pA (d.c.), and the magnetic field is 0.503 T.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PSC characterization.</head><p>Current-voltage curves were measured using a source meter (Keithley 2400) under AM1.5G irradiation with a power density of 100 mW cm -2 from a solar simulator (XES-301S+ EL-100) by forward (-0.1 V to 1.2 V) or reverse (1.2 V to -0.1 V) scans. The step voltage was fixed at 12 mV and the delay time was set at 10 ms. The light intensity was calibrated by a standard silicon cell (the KG-5 mono-Si cell). All of the PSCs had no encapsulation and were tested in ambient air (25 °C, ~40% humidity) and employed a mask with an aperture area of 0.07 cm 2 . The EQE was measured using QE-R systems (Enli Tech.). PSC simulation. PSC simulation was carried out using wxAMPS software, based on the standard p-i-n PSC, FTO/TiO 2 (20 nm)/undoped perovskite (540 nm)/ spiro-OMeTAD (200 nm)/Au, and the homojunction PSC, FTO/TiO 2 (20 nm)/n-type perovskite (480 nm)/p-type perovskite (60 nm)/spiro-OMeTAD (200 nm)/Au. The doping concentrations, mobility and other properties of the materials are reported in Supplementary Tables <ref type="table">3</ref> and<ref type="table">4</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AFM and KPFM.</head><p>The surface AFM and KPFM were carried out using an Agilent SPM 5500 with the sample chamber filled with high-purity N 2 . The cross-sectional AFM and KPFM were carried out using an Asylum Research MFP3d with the sample chamber filled with high-purity N 2 . For the cross-sectional KPFM measurements, the devices were cleaved to expose the cross-section from the film side, and no further treatment. We cut a notch at the side of the substrate (outside the active area of the solar cells) using a diamond cutter, and fractured the device by tension rather than by compression to expose the cross-section. The sample was fixed in a custom-made vertical sample holder with electrical connections to both electrodes. The FTO layer of the device was grounded. The measurement was carried out in the dark.</p><p>The potential images were recorded in tapping mode using a conductive PtSi-FM probe (NANOSENSORS, Pt-coated Si with a frequency of ~75 KHz and a nominal tip radius of ~25 nm). Amplitude-modulation KPFM measurements were carried out. The contact potential difference (CPD) between the probe and the sample was measured simultaneously with the topographic signal by the single-pass mode. The CPD signals reflect the potential distribution of the sample surface, as the workfunction of the probe is constant during the measurement. The topographic height was obtained by maintaining the amplitude of the first cantilever resonance (~71 kHz). To separate topographic from CPD signals, increase the accuracy and minimize probe convolution effects, the a.c. electrostatic force component was generated at the second resonance (~420 kHz) of the cantilever by applying a small a.c. voltage of 0.5 V. The scan rate was 0.6 Hz.</p><p>KPFM measurements were performed under different bias voltages (V b ) from + 0.5 to -1.0 V on the same area of the cross-section of the device. The V b was applied to the device using a Keithley 2400 source meter. The ion migration had no significant effect on the potential distributions during the KPFM scanning with the V b from -1 V to + 0.5 V within 20 min. We applied the V b for 2 min, and then started testing for a stable result. The electric field profiles were obtained by taking the first derivative of the potential profiles. As a small change in noise level potential would tremendously enhance the electric field profiles, the raw data must be smoothed before taking the derivative.</p><p>TEM. The cross-sectional morphologies of the full cells and interface characterization of the homojunction were investigated using a high-resolution TEM. The samples were prepared by vertical etching using FIB equipment (FEI Helios Nanolab 600i). The cross-sectional surface was in situ-coated with platinum using an FEI gas injection system to protect the surface from damage during FIB milling. A cross-sectional specimen approximately 80 nm in thickness was obtained. Then the images were obtained using a high-resolution TEM (FEI Titan G2) at an acceleration voltage of 300 kV.</p><p>Reporting Summary. Further information on research design is available in the Nature Research Reporting Summary linked to this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>author contributions</head><p>M.L. supervised the project. P.C. and M.L. conceived and designed the experiments. P.C. and D.W. performed the main experiments and characterization, and wrote the manuscript. J.J. helped with device optimization and fabrication. H.H. helped with KPFM measurements. E.J. performed Hall measurements and analysed the data. T.W. performed the simulation with wxAMPs. P.C., D.W., J.J., H.H., E.J., S.D., T.W., W.W. and M.L. contributed to the data analysis, discussed the results and commented on the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>nature research | solar cells reporting summary</head><p>November 2017 1 Corresponding author(s): Meicheng Li Solar Cells Reporting Summary Nature Research wishes to improve the reproducibility of the work that we publish. This form is intended for publication with all accepted papers reporting the characterization of photovoltaic devices and provides structure for consistency and transparency in reporting. Some list items might not apply to an individual manuscript, but all fields must be completed for clarity.</p><p>For further information on Nature Research policies, including our data availability policy, see Authors &amp; Referees.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental design</head><p>Please check: are the following details reported in the manuscript?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Dimensions Area of the tested solar cells</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The active area was 0.1 cm2, which is a rectangle (0.2cm*0.5cm).</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method used to determine the device area Yes</head><p>No Optical Microscope.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Current-voltage characterization</head><p>Current density-voltage (J-V) plots in both forward and backward direction</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>We provide hysteresis scans in Figure <ref type="figure">5</ref> and Supplementary Figures 16.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Voltage scan conditions</head><p>For instance: scan direction, speed, dwell times</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The voltage scan conditions: forward (-0.1V to 1.2V) and reverse (1.2V to -0.1V), 0.012V/step, 10 ms delay.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Test environment</head><p>For instance: characterization temperature, in air or in glove box</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The test environment: 25 °C, 30%-40% humidity in ambient air. All of the devices have no encapsulation.</p><p>Explain why this information is not reported/not relevant.</p><p>Protocol for preconditioning of the device before its characterization</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>No preconditioning protocol was used.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stability of the J-V characteristic</head><p>Verified with time evolution of the maximum power point or with the photocurrent at maximum power point; see ref. 7 for details.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>We provide maximum power point tracking data in Figure <ref type="figure">5</ref> as well as stabilized certified efficiencies in the Supplementary Figure <ref type="figure">14</ref>. In addition, we performed longterm (up to 792hours) efficiency tracking of the PSCs in air (Figure <ref type="figure">6</ref> and Supplementary Figures 20).</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Hysteresis or any other unusual behaviour</head><p>Description of the unusual behaviour observed during the characterization</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>No unusual behaviour was observed and no significant hysteresis (about 0.7% change in efficiency in forward or backward scan for the homojunction PSCs).</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Related experimental data Yes No</head><p>We provide hysteresis scans in Figure <ref type="figure">5</ref> and Supplementary Figures 16.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Efficiency</head><p>External quantum efficiency (EQE) or incident photons to current efficiency (IPCE)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head><p>No Yes, the EQE data for the devices have been provided as shown in Supplementary Figure <ref type="figure">13</ref> and<ref type="figure">18</ref>.</p><p>Explain why this information is not reported/not relevant.</p><p>A comparison between the integrated response under the standard reference spectrum and the response measure under the simulator</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>The integrated short-circuit current from the EQE spectrum matches the short-circuit current from the JV scan (of masked cells) within the setup measurement error of about 2%.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>nature research | solar cells reporting summary</head><p>November 2017</p><p>2</p><p>For tandem solar cells, the bias illumination and bias voltage used for each subcell</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>State where this information can be found in the text.</p><p>N.A.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Calibration</head><p>Light source and reference cell or sensor used for the characterization</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The light source: the solar simulator (XES-301S+EL-100) with standard AM 1.5G irradiation (100mW•cm-2). The reference cell: the KG-5 mono-Si cell.</p><p>Explain why this information is not reported/not relevant.</p><p>Confirmation that the reference cell was calibrated and certified</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>Yes, the reference cell was certified by the National Institute of Metrology of China.</p><p>Explain why this information is not reported/not relevant.</p><p>Calculation of spectral mismatch between the reference cell and the devices under test</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>State where this information can be found in the text.</p><p>The light spectrum used in measurement is match with the reference silicon cell, and we have not calculated the spectral mismatch between the reference cell and the tested devices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Mask/aperture</head><p>Size of the mask/aperture used during testing Yes No A mask with an aperture area of 0.07 cm2 was used for measurements.</p><p>Explain why this information is not reported/not relevant.</p><p>Variation of the measured short-circuit current density with the mask/aperture area</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>There is no obvious change in the measured short-circuit current density with or without masks.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Performance certification</head><p>Identity of the independent certification laboratory that confirmed the photovoltaic performance</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The National Institute of Metrology of China</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A copy of any certificate(s)</head><p>Provide in Supplementary Information</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>Certified measurements are shown in Supplementary Figures 14.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Statistics Number of solar cells tested Yes No</head><p>There are more than 90 MAPbI3-based PSCs (with or without the homojunction structure) have been test.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis of the device performance Yes</head><p>No A statistical analysis of the performance has been included in Figure <ref type="figure">5</ref> and Supplementary Figure <ref type="figure">15</ref> and 17.</p><p>Explain why this information is not reported/not relevant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9.">Long-term stability analysis Type of analysis, bias conditions and environmental conditions</head><p>For instance: illumination type, temperature, atmosphere humidity, encapsulation method, preconditioning temperature</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The long-term stability of PSCs is studied under AM 1.5G irradiation in air. We examine the performance of unencapsulated PSCs stored in ambient air (25 °C and 40±10 % RH) under dark conditions for 792 hours.</p><p>Explain why this information is not reported/not relevant.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">The physics of solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Jenny</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<publisher>World Scientific Publishing Company</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Sub-150 ℃ processed meso-superstructured perovskite solar cells with enhanced efficiency</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wojciechowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energ Environ Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1142" to="1147" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Influence of the TiCl 4 treatment on nanocrystalline TiO 2 films in dye-sensitized solar cells. 2. Charge density, band edge shifts, and quantification of recombination losses at short circuit</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">O</forename><surname>Brian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. C</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="14001" to="14010" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">High-efficiency solution-processed perovskite solar cells with millimeter-scale grains</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Nie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="page" from="522" to="525" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Depleted hole conductor-free lead halide iodide heterojunction solar cells</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Waleed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lioz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energ. Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="3249" to="3253" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Nondispersive hole transport in amorphous films of methoxy-spirofluorene-arylamine organic compound</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dmitry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Jenny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page">341</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Surface design in solid-state dye sensitized solar cells: effects of zwitterionic co-adsorbents on photovoltaic performance</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="2163" to="2172" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Qualifying composition dependent p and n self-doping in CH 3 NH 3 PbI 3</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Qi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page">163508</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Managing carrier lifetime and doping property of lead halide perovskite by postannealing processes for highly efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. C</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="22812" to="22819" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Numerical simulation: toward the design of high-efficiency planar perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page">253508</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">High-performance photovoltaic perovskite layers fabricated through intramolecular exchange</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="page" from="1234" to="1237" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A vacuum flash-assisted solution process for high-efficiency large-area perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">353</biblScope>
+			<biblScope unit="page" from="58" to="62" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Incorporation of rubidium cations into perovskite solar cells improves photovoltaic performance</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">354</biblScope>
+			<biblScope unit="page" from="206" to="209" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Highly efficient perovskite solar cells with a compositionally engineered perovskite/hole transporting material interface</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Cho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="21" to="627" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Iodide management in formamidinium-lead-halide-based perovskite layers for efficient solar cells</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">356</biblScope>
+			<biblScope unit="page" from="1376" to="1379" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Organometal halide perovskites as visible-light sensitizers for photovoltaic cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Teshima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shirai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="6050" to="6051" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A hole-conductor-free, fully printable mesoscopic perovskite solar cell with high stability</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Anyi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page" from="295" to="298" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Low-temperature-processed efficient semi-transparent planar perovskite solar cells for bifacial and tandem applications</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">8932</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Hybrid perovskites for photovoltaics: charge-carrier recombination, diffusion,and radiative efficiencies</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acc. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="146" to="154" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Electron-hole diffusion lengths exceeding 1 micrometer in an organometal trihalide perovskite absorber</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page" from="341" to="344" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Electron-hole diffusion lengths &gt; 175 μ m in solution-grown CH 3 NH 3 PbI 3 single crystals</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Dong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="page" from="967" to="970" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Optical properties of photovoltaic organic-inorganic lead halide perovskites</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Soufiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ho-Baillie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="4774" to="4785" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Low trap-state density and long carrier diffusion in organolead trihalide perovskite single crystals</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="page" from="519" to="522" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Direct measurement of the exciton binding energy and effective masses for charge carriers in organic-inorganic tri-halide perovskites</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Miyata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Phys</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="582" to="587" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Solvent engineering for high-performance inorganic-organic hybrid perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="897" to="903" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Solvent engineering boosts the efficiency of paintable carbon-based perovskite solar cells to beyond 14%</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1502087</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Highly reproducible perovskite solar cells with average efficiency of 18.3% and best efficiency of 19.7% fabricated via Lewis base adduct of lead(II) iodide</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="8696" to="8699" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Compositional engineering of perovskite materials for high-performance solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">517</biblScope>
+			<biblScope unit="page" from="476" to="480" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Effects of formamidinium and bromide ion substitution in methylammonium lead triiodide toward high-performance perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Energy</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="328" to="337" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Lead iodide perovskite sensitized all-solid-state submicron thin film mesoscopic solar cell with efficiency exceeding 9%</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">591</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Efficient planar heterojunction perovskite solar cells by vapour deposition</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">501</biblScope>
+			<biblScope unit="page" from="395" to="398" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Bulk heterojunction perovskite-PCBM solar cells with high fill factor</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photon</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="196" to="200" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Self-formed grain boundary healing layer for highly efficient CH 3 NH 3 PbI 3 perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Son</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">16081</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Polymer-templated nucleation and crystal growth of perovskite films for solar cells with efficiency greater than 21%</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">16142</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Defect passivation in hybrid perovskite solar cells using quaternary ammonium halide anions and cations</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">2017102</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Enhanced electron extraction using SnO 2 for high-efficiency planar-structure HC(NH 2 ) 2 PbI 3 -based perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">16177</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Sequential deposition as a route to high-performance perovskite-sensitized solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burschka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">499</biblScope>
+			<biblScope unit="page" from="316" to="319" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">TiO 2 embedded structure for perovskite solar cells with anomalous grain growth and effective electron extraction</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1406" to="1414" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Bulk heterojuntion perovskite hybrid solar cells with large fill-factor</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1245" to="1255" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">A strategy to simplify the preparation process of perovskite solar cells by co-deposition of a hole-conductor and a perovskite layer</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ye</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="9648" to="9654" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Perovskite solar cells with 18.21% efficiency and area over 1 cm 2 fabricated by heterojunction engineering</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">16148</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The role of intrinsic defects in methylammonium lead iodide perovskite</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Hong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1312" to="1317" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Unusual defect physics in CH 3 NH 3 PbI 3 perovskite solar cell absorber</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page">63903</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Qualifying composition dependent p and n self-doping in CH 3 NH 3 PbI 3</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page">163508</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The chemical origin of the p-type and n-type doping effects in the hybrid methylammonium-lead iodide (MAPbI 3 ) perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Lyubov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Nadezhda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Pavel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page">14917</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Perovskite-perovskite homojunctions via compositional doping</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Benedikt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="2770" to="2775" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Defects in metal triiodide perovskite materials towards high-performance solar cells: origin, impact, characterization, and engineering</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Soc. Rev</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="4581" to="4610" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Managing carrier lifetime and doping property of lead halide perovskite by postannealing processes for highly efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. C</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="22812" to="22819" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Highly efficient electron-selective layer free perovskite solar cells by constructing effective p-n heterojunction</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Solar RRL</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">1600027</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">p-i-n/n-i-p type planar hybrid structure of highly efficient perovskite solar cells towards improved air stability: synthetic strategies and the role of p-type hole transport layer (HTL) and n-type electron transport layer (ETL) metal oxides</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Mali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Hong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nanoscale</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="10528" to="10540" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Lead halide perovskite photovoltaic as a model p-i-n diode</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Miyano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tripathi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yanagida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shirai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acc. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="303" to="310" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Mixed iodide-bromide methylammonium lead perovskite-based diodes for light emission and photovoltaics</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gil-Escrig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Miquel-Sempere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sessolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Bolink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="3743" to="3748" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Photovoltaic devices employing vacuum-deposited perovskite layers</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sessolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Momblona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gil-Escrig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Bolink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MRS Bull</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="660" to="666" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">A new simulation software of solar cells-wxAMPS</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rockett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sol. Energy Mater. Sol. C</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="124" to="128" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Dual function interfacial layer for highly efficient and stable lead halide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="6091" to="6097" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Real-space observation of unbalanced charge distribution inside a perovskite-sensitized solar cell</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">W</forename><surname>Bergmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">5001</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Carrier separation and transport in perovskite solar cells studied by nanometre-scale profiling of electrical potential</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">8397</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Junction quality of SnO 2 -based perovskite solar cells investigated by nanometer-scale electrical potential profiling</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">38373</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

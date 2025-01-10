@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Efficient, stable and scalable perovskite solar cells using poly(3-hexylthiophene)</title>
+				<funder ref="#_QfRW9RB #_nAJFUSU">
+					<orgName type="full">South Korean government (MSIP)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NRF</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Korea Institute of Energy Technology Evaluation and Planning</orgName>
+					<orgName type="abbreviated">KETEP</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ministry of Trade Industry &amp; Energy</orgName>
+				</funder>
+				<funder ref="#_yZUQWCw">
+					<orgName type="full">Korea Research Institute of Chemical Technology</orgName>
+					<orgName type="abbreviated">KRICT</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Research Foundation of Korea</orgName>
+					<orgName type="abbreviated">NRF</orgName>
+				</funder>
+				<funder ref="#_PXVyc2p">
+					<orgName type="full">Ministry of Science, ICT &amp; Future Planning</orgName>
+					<orgName type="abbreviated">MSIP</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-03-27">27 March 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Eui</forename><surname>Hyuk</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nam</forename><forename type="middle">Joong</forename><surname>Jeon</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Eun</forename><forename type="middle">Young</forename><surname>Park</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chan</forename><forename type="middle">Su</forename><surname>Moon</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Joo</forename><surname>Shin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Youl</forename><surname>Yang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jun</forename><surname>Hong Noh</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jangwon</forename><surname>Seo</surname></persName>
+						</author>
+						<title level="a" type="main">Efficient, stable and scalable perovskite solar cells using poly(3-hexylthiophene)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-03-27">27 March 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3DDC76B3176D8D8569E6A5A530D2A195</idno>
+					<idno type="DOI">10.1038/s41586-019-1036-3</idno>
+					<note type="submission">Received: 4 June 2018; Accepted: 4 February 2019;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T18:03+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Perovskite solar cells typically comprise electron-and hole-transport materials deposited on each side of a perovskite active layer. So far, only two organic hole-transport materials have led to state-of-theart performance in these solar cells 1 : poly(triarylamine) (PTAA) 2-5 and 2,2ʹ,7,7ʹ-tetrakis(N,N-di-p-methoxyphenylamine)-9,9ʹspirobifluorene (spiro-OMeTAD) 6,7 . However, these materials have several drawbacks in terms of commercialization, including high cost 8 , the need for hygroscopic dopants that trigger degradation of the perovskite layer 9 and limitations in their deposition processes 10 . Poly(3-hexylthiophene) (P3HT) is an alternative hole-transport material with excellent optoelectronic properties 11-13 , low cost 8,14 and ease of fabrication 15-18 , but so far the efficiencies of perovskite solar cells using P3HT have reached only around 16 per cent <ref type="bibr" target="#b17">19</ref> . Here we propose a device architecture for highly efficient perovskite solar cells that use P3HT as a hole-transport material without any dopants. A thin layer of wide-bandgap halide perovskite is formed on top of the narrow-bandgap light-absorbing layer by an in situ reaction of n-hexyl trimethyl ammonium bromide on the perovskite surface. Our device has a certified power conversion efficiency of 22.7 per cent with hysteresis of ±0.51 per cent; exhibits good stability at 85 per cent relative humidity without encapsulation; and upon encapsulation demonstrates long-term operational stability for 1,370 hours under 1-Sun illumination at room temperature, maintaining 95 per cent of the initial efficiency. We extend our platform to large-area modules (24.97 square centimetres)-which are fabricated using a scalable bar-coating method for the deposition of P3HT-and achieve a power conversion efficiency of 16.0 per cent. Realizing the potential of P3HT as a hole-transport material by using a wide-bandgap halide could be a valuable direction for perovskite solar-cell research.</p><p>Despite the potential advantages of P3HT as an organic hole-transport material (HTM) in perovskite solar cells (Extended Data Table <ref type="table">1</ref>), the resulting devices have a low open-circuit voltage (V OC ) due to additional non-radiative recombination at the perovskite/P3HT interface 20 . It has also been suggested that strong electronic coupling between the flat P3HT molecules and the perovskite results in a relatively lower</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Letter reSeArCH electron lifetime (as compared with spiro-OMeTAD <ref type="bibr" target="#b19">21</ref> ), and physically poor contact hampers efficient hole transfer from the perovskite to P3HT <ref type="bibr" target="#b20">22</ref> . To overcome these issues, here we introduce a double-layered halide architecture (DHA) in which an ultrathin wide-bandgap halide (WBH) is stacked onto a narrow-bandgap-halide (NBH) light-absorbing layer, prior to deposition of the HTM (Fig. <ref type="figure" target="#fig_0">1a</ref>). The aim of inserting the WBH layer is to effectively reduce recombination at the perovskite/ P3HT interface. This DHA concept is analogous to that of a heterojunction with an intrinsic thin-layer structure, which is a successful strategy for high-performance silicon-based solar cells <ref type="bibr" target="#b21">23</ref> . The WBH layer is formed simply by the in situ reaction of n-hexyl trimethyl ammonium bromide (HTAB) on the perovskite surface. The HTAB molecule comprises a functionalized moiety (N + (CH 3 ) 3 -) and an aliphatic moiety (C 6 H 13 -), the latter of which could enable favourable van der Waals interactions between the organic HTM and the perovskite. In particular, when P3HT is deposited onto the surface of the DHA, interdigitation of its alkyl chains and the analogous alkyl chains of HTAB (C 6 H 13 -) should promote the self-assembly of P3HT. Moreover, it has previously been reported that the N + (CH 3 ) 3 -moiety renders a perovskite surface more resistant to degradation under humid conditions <ref type="bibr" target="#b22">24</ref> .</p><p>Figure <ref type="figure" target="#fig_0">1b</ref>, c shows 2D grazing-incidence wide-angle X-ray scattering (GIWAXS) patterns of the control perovskite (NBH) and DHA (WBH/NBH). Compared to the control, a distinct signal at a q z of 0.39 Å -1 along the perpendicular direction to the substrate was detected for the DHA. Another intense signal was observed at a q xy of 0.67 Å -1 along the direction parallel to the substrate, which could be associated with lateral ordering in the WBH layer of the DHA (Extended Data Fig. <ref type="figure" target="#fig_0">1</ref>). The distinct crystalline phase forms only at a composition of HTAB 0.3 (FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05 (where FAPbI 3 is formamidinium lead iodide and MAPbBr 3 is methylammonium lead bromide; Extended Data Fig. <ref type="figure" target="#fig_1">2a</ref>). Figure <ref type="figure" target="#fig_0">1d</ref>, e shows scanning electron microscopy images of the surface of the control and the DHA samples. In the DHA sample, the surface of the perovskite is fully covered with the WBH layer, which is thin enough to discern the grain boundaries underneath it. The concentration of the HTAB solution is a critical factor in the fabrication of the WBH layer (Extended Data Fig. <ref type="figure" target="#fig_3">3</ref>).</p><p>In order to distinguish the two different halide layers, a cross-section of the DHA was observed by high-resolution transmission electron microscopy (HRTEM) (Fig. <ref type="figure" target="#fig_0">1f,</ref><ref type="figure">g</ref>). As compared to a cross-sectional HRTEM image of the control, a thin WBH layer with a thickness of around 12 nm could be clearly discerned. The results obtained from high-angle annular dark-field (HAADF) scanning TEM and energydispersive X-ray spectroscopy show that the WBH layer contains a lower content of lead atoms as compared with the underlying NBH layer; this is a result of the lower proportion of lead in the WBH due to the incorporation of HTAB molecules (Extended Data Fig. <ref type="figure" target="#fig_5">4</ref>). The energy levels of each layer in the DHA device were determined by ultraviolet photoelectron spectroscopy and ultraviolet-visible absorption spectroscopy (Extended Data Figs. <ref type="figure" target="#fig_1">2b,</ref><ref type="figure">5</ref>). The enhanced V OC of HTMfree DHA-based perovskite solar cells and the longer charge lifetime in the DHA device demonstrate that the WBH layer effectively passivates charge traps on the perovskite surface (Extended Data Fig. <ref type="figure">6</ref>).</p><p>We next investigated the effect of the aliphatic moiety of HTAB in the WBH on the deposition of P3HT. We observed the morphology of the P3HT layer on top of a pristine perovskite (NBH) and in the DHA (WBH/NBH) using atomic force microscopy (Fig. <ref type="figure" target="#fig_1">2a,</ref><ref type="figure">b</ref>). In the control sample, the P3HT layer showed a smooth morphology along the perovskite grains. In the DHA sample, a fibril structure of selfassembled P3HT was observed. The charge-transporting properties of the P3HT polymer are known to be highly dependent on the morphology <ref type="bibr" target="#b10">12,</ref><ref type="bibr" target="#b11">13</ref> ; amorphous P3HT has a low charge mobility <ref type="bibr" target="#b11">13</ref> of the order of 10 -5 cm 2 V -1 s -1 , whereas self-assembled P3HT nanofibrils with strong π-π interactions lead to a considerably higher mobility of 0.1 cm 2 V -1 s -1 without any dopants <ref type="bibr" target="#b10">12</ref> .</p><p>The different morphologies of the P3HT layer on the control and the DHA surface were also confirmed by other analytical methods. Raman spectra of both the control and the DHA samples covered with P3HT show a symmetric C=C stretch (around 1,446 cm -1 ) and a </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Letter reSeArCH</head><p>C-C intraring stretch (around 1,380 cm -1 ) corresponding to the main in-plane ring-skeleton modes of the thiophene units <ref type="bibr" target="#b23">25</ref> (Fig. <ref type="figure" target="#fig_1">2c</ref>). The Raman intensities of P3HT on the DHA surface are much higher than those of P3HT on the control perovskite surface. This suggests that more of the P3HT polymers on the DHA surface are oriented along the preferred direction. Raman spectra were then obtained for P3HT on DHA surfaces that had been treated with alkyl trimethyl ammonium bromides of different chain lengths. It was found that treatment with HTAB produces DHAs with the optimal surface for interaction with P3HT, with these devices showing the highest photovoltaic performance among those treated with other alkyl ammonium bromides (Extended Data Fig. <ref type="figure">7</ref>). This is also evidenced by the azimuthal cuts along the (100) peak of P3HT on the control and DHA obtained from GIWAXS measurements with various incidence angles (Fig. <ref type="figure" target="#fig_1">2d,</ref><ref type="figure">e</ref>). The full-width at half-maximum of the corresponding azimuthal cuts indicates that the extent of edge-on orientation of the P3HT polymers on DHA is higher in all regions-regardless of the location on the P3HT film-than that of P3HT polymers on the control (Fig. <ref type="figure" target="#fig_1">2f</ref>). We consider that the alkyl chain of HTAB in the WBH interacts with the P3HT polymer, resulting in a highly oriented, self-assembled P3HT layer.</p><p>We attained a power conversion efficiency (PCE) of 23.3% for the best-performing DHA-based perovskite solar cell, along with a stabilized PCE of 23.0% in a maximum power point tracking system (Fig. <ref type="figure" target="#fig_3">3a</ref>). It is especially notable that a PCE of greater than 23.0% is achieved by P3HT without any dopants as a HTM. Figure <ref type="figure" target="#fig_3">3b</ref> compares the photovoltaic performance of control and DHA devices using P3HT as the HTM. The DHA device achieved a certified photovoltaic performance of 22.7% with negligible hysteresis of ±0.51% at a credible photovoltaic laboratory (Extended Data Fig. <ref type="figure">8</ref>). The DHA configuration thus shows a marked improvement in PCE, which is associated with an enhanced V OC and fill factor as well as an absence of hysteresis. Figure <ref type="figure" target="#fig_3">3c</ref> shows Mott-Schottky plots of control and DHA devices without electron-transport layers. These plots directly demonstrate the higher flat-band potential of the DHA device compared with the control device, which is related to an increase in V OC . To further investigate this, we fabricated DHA devices using other dopant-free HTMs. Although these devices also showed an enhanced V OC , the largest improvement was obtained using P3HT as the HTM (Extended Data Fig. <ref type="figure">9</ref>, Extended Data Table <ref type="table">2</ref>). This suggests that, among the tested HTMs, P3HT shows the greatest synergistic effect on photovoltaic performance in the DHA devices, because the WBH layer not only leads to a higher flat-band potential but also to the self-assembly of P3HT. Moreover, we found that the DHA device with P3HT has a lower series resistance (R s ) than the control device with P3HT, whereas the DHA film has a higher R s than the control perovskite film due to the high aliphatic content of the WBH (Extended Data Fig. <ref type="figure" target="#fig_0">10</ref>). The lower R s in the DHA device supports interfacial charge transfer and transport through the WBH and P3HT layers under operation conditions, and accounts for the enhanced fill factor. A statistical analysis of the photovoltaic parameters of 27 corresponding devices reveals that the performance of the DHA device is reproducible (Fig. <ref type="figure" target="#fig_3">3d</ref>). Therefore, our strategy of constructing a DHA device with P3HT is considered to be effective in improving the interfacial contact between the perovskite and the P3HT, thereby achieving a considerable enhancement of the PCE.</p><p>To explore the effect of the configuration of the DHA on its resistance to moisture, we monitored the long-term stability of control and DHA devices without any encapsulation under 85% relative humidity at room temperature (Fig. <ref type="figure" target="#fig_5">4a</ref>). The DHA device maintained nearly 80% of its initial efficiency after 1,008 h, whereas the control device was   Letter reSeArCH completely degraded within 200 h. Furthermore, we tested the operational stability of devices that were encapsulated with a face-sealing adhesive sheet, under continuous 1-Sun illumination at room temperature by tracking their maximum power point (Fig. <ref type="figure" target="#fig_5">4b</ref>). The DHA device showed substantial long-term stability, maintaining more than 95% of its initial PCE for 1,370 h, whereas the control device showed severe degradation within 100 h. Better interfacial contact between the perovskite and the HTM is therefore crucial for facilitating hole transfer at the interface, reducing the hysteresis of the device, and achieving long-term device stability against bias and light.</p><p>As well as the performance of perovskite solar cells, another issue of importance to commercialization is their large-scale production. Recently, some promising progress has been made in the fabrication of highly uniform large-area perovskite films via scalable coating methods <ref type="bibr" target="#b24">26</ref> . However, with the exception of spin-coating approaches, there have been few reports of the deposition of HTM on large-area modules <ref type="bibr" target="#b8">10,</ref><ref type="bibr" target="#b14">16</ref> . We fabricated DHA-based modules at a size of 5 cm × 5 cm (Fig. <ref type="figure" target="#fig_5">4c</ref>, Extended Data Fig. <ref type="figure" target="#fig_0">11</ref>) and used two different deposition methods-spin-coating and bar-coating-for deposition of the P3HT layer. The performance of both modules was similar, with high PCEs of 16.3% and 16.0% (average values obtained under reverse-and forward-bias scan directions) for devices fabricated using spin-coating and bar-coating, respectively (Fig. <ref type="figure" target="#fig_5">4d</ref>). This demonstrates that scalable methods for P3HT deposition can be applied to a DHA configuration without a reduction in performance. Our work establishes the potential of P3HT as a HTM using a double-layered halide architecture, and could contribute towards the realization of commercial perovskite solar cells. Voltage (V)  </p><formula xml:id="formula_0">J SC (mA cm -2 ) V OC (V) FF (%) (%)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Letter reSeArCH</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MEthods</head><p>Materials. Titanium diisopropoxide bis(acetylacetonate), hydriodic acid, bis(trifluoromethane) sulfonamide lithium salt and methyl ammonium chloride were purchased from Sigma-Aldrich. Formamidine acetate was purchased from Alfa Aesar. Lead iodide, lead bromide, methyl ammonium bromide, and n-hexyl trimethyl ammonium bromide were purchased from TCI. Mesoporous titanium dioxide paste was purchased from Share Chem. Poly(3-hexylthiophene) (P3HT), poly[2,1,3-benzothiadiazole-4,7-diyl(4,4-bis(2-ethylhexyl)-4Hcyclopenta[2,1-b:3,4-bʹ]dithiophene-2,6-diyl)] (PCPDTBT), and poly [4,8-bis  ((2-ethylhexyl) [3,4-b]thiophenediyl] (PTB7) were purchased from 1-Material. Poly(triarylamine) was purchased from EM Index. 2,2ʹ,7,7ʹtetrakis(N,N-di-4-methoxyphenylamine)-9,9ʹ-spirobifluorene (spiro-OMeTAD) was purchased from Lumtec. All of the purchased chemicals were used as received without further purification. DHA device fabrication. A dense TiO 2 layer was deposited on a fluorine-doped SnO 2 (FTO, Pilkington, TEC8) substrate by spray pyrolysis using a 10 vol% titanium diisopropoxide bis(acetylacetonate) solution in ethanol at 450 °C. A mesoporous TiO 2 was coated on the dense TiO 2 /FTO substrate using mesoporous TiO 2 dispersed solution diluted in mixed solvent (2-methoxylethanol:terpineol = 3.5:1 w/w) and heat-treated at 500 °C for 1 h for calcination. Bis(trifluoromethane) sulfonamide lithium salt was treated on the substrate. Then, for fabrication of the perovskite film, the perovskite solution was prepared by dissolving 889 mg ml -1 of formamidinium lead iodide (FAPbI 3 ), 33 mg ml -1 of methylammonium lead bromide (MAPbBr 3 ) and 33 mg ml -1 of methylammonium chloride (MACl) in N,Ndimethyl formamide/dimethyl sulfoxide (8:1 v/v) mixed solvent. The solution was deposited by two consecutive spin-coating steps of 1,000 r.p.m. and 5,000 r.p.m. for 5 s and 20 s, respectively. During the second spin-coating step (5,000 r.p.m.), 1 ml of diethyl ether was quickly poured onto the substrate after 15 s. The intermediate phase film was put on a hotplate at 150 °C for 10 min. After the fabrication of perovskite film, for the development of the double-layered halide architecture, 1.0 mM n-hexyl trimethylammonium bromide solution in mixed solvent (o-dichlorobenzene:isopropanol = 97:3 v/v) was spin-coated on the perovskite film at 5,000 r.p.m. for 10 s. Then, the substrate was heat-treated at 150 °C for 30 s. The hole-transport layer was deposited by spin-coating P3HT solution (10 mg ml -1 ) in mixed solvent (chlorobenzene:diphenyl ether = 97:3 v/v) at 3,000 r.p.m. For the deposition of other organic hole-transport layers, PTAA solution (7.5 mg ml -1 ) in toluene, spiro-OMeTAD solution (20 mg ml -1 ) in chlorobenzene, and PCPDTBT and PTB7 solution (10 mg ml -1 ) in chlorobenzene were stacked. Finally, a gold electrode was deposited by thermal evaporation. Fabrication of 5 cm × 5 cm DHA modules. The module composed of eight-strip cells connected in series was scribed using CO 2 laser RF type (EL-MKRF Series, South Korea). For fabrication of solar modules, 7 cm × 7 cm FTO substrates were patterned by a laser with a power of 85 W and a scribing width of 150 μm. Next, dense TiO 2 /mesoporous TiO 2 /DHA/P3HT layers were scribed by a laser with a power of 50 W and a scribing width of 150 μm. Finally, gold layers were scribed by a laser with a power of 30 W and a scribing width of 100 μm. We designed the modules to have a geometric fill factor of 94.4%. A dense TiO 2 layer was deposited on the pattered FTO substrate by same method with unit-cell case. A mesoporous TiO 2 was spin-coated with 1 ml of the mesoporous TiO 2 dispersed solution at 2,500 r.p.m. and heat-treated. On the mesoporous TiO 2 layer, bis(trifluoromethane) sulfonamide lithium salt was treated by same method with unit-cell case. Then, for fabrication of the perovskite film, 0.3 ml of the perovskite solution was loaded on a mesoporous TiO 2 /dense TiO 2 /FTO substrate and deposited by two consecutive spin-coating steps of 1,000 r.p.m. and 3,000 r.p.m. for 5 s and 20 s, respectively. During the second spin-coating step (3,000 r.p.m.), 4 ml of diethyl ether was poured onto the substrate. The intermediate phase film was put on a hotplate at 150 °C for 10 min. For double-layered halide architecture development, 2.7 ml of n-hexyl trimethylammonium bromide solution was spin-coated at 3,000 r.p.m. and put on a hotplate at 150 °C for 30 s. For P3HT deposition on the perovskite modules by spin-coating, 630 μl of the P3HT solution was spin-coated onto the DHA surface. When using the bar-coating method, 40 μl of P3HT was loaded in the gap (around 140 μm) between the bar and the DHA surface, and the bar was advanced towards the opposite side at a speed of 15 mm s -1 . Finally, a gold electrode was deposited by thermal evaporation. Characterization. GIWAXS measurements were conducted at the PLS-II 6D UNISTPAL beamline of Pohang Accelerator Laboratory in South Korea. The X-rays coming from the bending magnet were monochromated (λ = 1.069 Å).</p><formula xml:id="formula_1">oxy)benzo[1,2-b:4,5-bʹ]dithiophene-2,6-diyl] [3-fluoro-2- ((2-ethylhexyl)carbonyl) thieno</formula><p>The incidence angle of the X-ray beam was set to 0.10°, which is close to the critical angle of the surface of samples. For the depth profile analysis of the thin film, various incidence angles were applied (0.08°, 0.10°, 0.12°, 0.14° and 0.19°). Two-dimensional GIWAXS patterns were recorded with a 2D charge-coupled device detector (Rayonix MX 225-HS). Diffraction angles were calibrated by a pre-calibrated sucrose sample (monoclinic, P21, a = 10.8631 Å, b = 8.7044 Å, c = 7.7624 Å, β = 102.938°) and the sample-to-detector distance was 248.5 mm. The surface morphologies of the film were observed using a field-emission scanning electron microscope (MIRA3 LMU, Tescan) and cross views of samples close to the surface were observed using a field-emission transmission electron microscope and a high-angle annular dark-field scanning transmission electron microscope (Tecnal G 2 F30S-Twin, FEI). P3HT surfaces were observed using an atomic force microscope (MultiMode 8 non-contact mode, Bruker). Raman spectra of P3HT were obtained using a high-resolution dispersive Raman microscope (LabRAM HR Evolution, Horiba) equipped with an argon ion continuous-wave laser (λ = 514 nm) at room temperature. To estimate photovoltaic performance, perovskite solar cells were measured using a solar simulator (Newport, Oriel Class A, 91195A) with a source meter (Keithley 2420) of 100 mA cm -2 under illumination at AM 1.5G and a calibrated Si-reference cell certificated by NREL. The J-V curves were obtained by scanning along the reverse scan direction and the forward scan direction in the range of -0.2 V to 1.5 V in the case of unit cells and -0.2 V to 9.0 V in the case of modules. The step voltage was set at 10 mV for unit cells and 54 mV for modules, and the scan speed was fixed at 150 mV s -1 . The designated illumination area of the module is defined as shown in Extended Data Fig. <ref type="figure" target="#fig_0">11</ref> and estimated by averaging values of five separate measurements from the open-source image processing program 'ImageJ' . The photovoltaic performance measurements were carried out at room temperature under air. For Mott-Schottky analysis, capacitance-voltage measurements were performed at fixed frequency (1 kHz), using FTO/NBH/(WBH)/P3HT/Au devices without an electron-transport layer (Autolab PGSTAT302N, Metrohm AG). The X-ray diffraction spectra were measured using a Rigaku SmartLab X-ray diffractometer with an X-ray tube (Cu Kα, λ = 1.5406 Å). Ultraviolet-visible absorption spectra were obtained using a Shimadzu UV 2550 spectrophotometer. Valence-band maxima and work functions of each layer were obtained from a photoelectron spectroscopy system (Thermo VG Scientific, Sigma Probe) using a HeI (21.22 eV) discharge lamp with 0.47 eV full-width at half-maximum energy resolution under ultra-high vacuum (10 -9 Torr). Time-correlated single-photon counting measurements were performed using a single-mode pulsed diode laser (470 nm with an instrument response function of around 30 ps and an average power of around 0.1 μW) as an excitation source at Korea Basic Science Institute, Daegu centre in South Korea. A single photon avalanche diode (PDM series, MPD) was used to collect emissions from the samples. Device stability testing. For conducting stability tests against humidity, bare devices were kept in a thermo-hygrostat (TH-DG-150, JEIO TECH) which was set under 85% relative humidity at 25 °C. Photovoltaic performance of the aged devices was measured under ambient conditions. Maximum power point tracking was carried out to estimate long-term operational stability. Power conversion efficiency of the encapsulated device under AM 1.5G simulated white LED light (LSH-7320, Newport) was measured by using a source meter (Keithley 2420), and a maximum power point tracking system was operated by a program designed in our laboratory with a perturb-observe algorithm. The environmental conditions during operation were maintained at 25 °C with a relative humidity of around 30%. The device was encapsulated by laminating face-sealing adhesive sheets developed for organic electronic devices. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Extended Data</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 |</head><label>1</label><figDesc>Fig. 1 | Double-layered halide architecture of P3HT-based perovskite solar cells. a, Left, the structure of an n-i-p perovskite solar cell based on a DHA using P3HT as the hole-transport material. FTO, fluorine-doped tin oxide; d-TiO 2 , dense titanium dioxide; mp-TiO 2 , mesoporous titanium dioxide. Right, schematic structure of the interface between the WBH and P3HT. b, c, GIWAXS patterns of the NBH (b) and the DHA (c). To obtain surface crystalline information for the corresponding samples, the incidence angle of the X-ray beam was set to 0.10°. d, e, Scanning electron microscopy images of a pristine NBH surface (d) and the WBH surface of the DHA (e). f, g, Crosssectional HRTEM images of the NBH (f) and DHA (g) near the surface. Scale bars: 1 μm (d, e); 10 nm (f, g).</figDesc><graphic coords="1,301.33,548.60,79.94,80.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>ig. 2 |</head><label>2</label><figDesc>Van der Waals interactions between the WBH and P3HT. a, b, Atomic force microscopy phase images of P3HT on a control perovskite (a) and P3HT on the DHA (b). Scale bars, 600 nm. c, Raman spectra of the control and DHA samples with a P3HT layer (FTO/d-TiO 2 / mp-TiO 2 /NBH/(WBH)/P3HT), under 514 nm excitation. d, e, Polar azimuthal cuts of control (d) and DHA (e) devices along the (100) peak of P3HT, with the X-ray beam at various incidence angles (0.08°, 0.10°, 0.12°, 0.14° and 0.19°). f, Full-width at half-maximum of azimuthal cuts obtained from the corresponding data in d and e.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 |</head><label>3</label><figDesc>Fig. 3 | Photovoltaic performance of the DHA-based perovskite solar cells incorporating P3HT. a, Current density-voltage (J-V) curves of the best-performing DHA-based perovskite solar cell using P3HT. The inset shows the stabilized performance measured by maximum power point tracking of the device under AM 1.5G illumination. b, Comparison of the performance of control and DHA devices containing P3HT. The J-V curves (blue) of the DHA-based perovskite solar cell were measured and certified by Newport Corporation. The J-V curves of the control perovskite solar cell containing P3HT (FTO/d-TiO 2 /mp-TiO 2 /NBH/</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 4 |</head><label>4</label><figDesc>Fig. 4 | Environmental stability and large-scale fabrication of P3HTbased DHA solar cells. a, Results of humidity stability tests on the unencapsulated control and DHA devices under 85% relative humidity at room temperature. Inset, photographs of the control (left) and the DHA (right) device after 200 h under 85% relative humidity at room temperature. b, Results of operational stability tests on the encapsulated control and DHA devices by tracking at their maximum power points</figDesc><graphic coords="4,133.25,247.94,125.06,125.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 5 | 7 |</head><label>57</label><figDesc>Energy-level alignment in DHA-based perovskite solar cells containing P3HT. a, Ultraviolet photoelectron spectra of NBH, WBH and P3HT. b, Energy-level diagram of NBH, WBH and P3HT. The Fermi levels and valence-band maxima were obtained by ultraviolet photoelectron spectroscopy, and the conduction band minima were determined by adding the optical bandgaps to the valence-band maxima. Extended Data Fig. Optimized alkyl chain length of the alkyl trimethylammonium bromide for high-performance perovskite solar cells containing P3HT. a, Raman spectra of control and DHA devices treated with various alkyl trimethylammonium bromides (butyl-(C4), hexyl-(C6), octyl-(C8) and decyl-(C10)) and covered with P3HT under excitation at 514 nm. b, Maximum intensity of the symmetric C=C stretch mode (around 1,446 cm -1 ) obtained from the corresponding samples. c, J-V curves of DHA devices treated with various alkyl trimethylammonium bromides, containing P3HT as an HTM. d, Summary of photovoltaic parameters obtained from the corresponding J-V curves. Extended Data Fig. 9 | Effects of DHA configuration on photovoltaic performance using various dopant-free organic HTMs. a-d, J-V curves of the control device (red) and the DHA device (blue) using PTAA (a), spiro-OMeTAD (b), PCPDTBT (c) and PTB7 (d) without any dopants. Solid and dashed lines indicate J-V curves measured along the reversescan and the forward-scan direction, respectively. Letter reSeArCH Extended Data Fig. 10 | Series resistance of control and DHA devices with or without P3HT. a, I-V plots of control and DHA films without an electron-transport layer and a hole-transport layer. b, J-V curves of control and DHA devices under 1-Sun illumination, and J-V curves shifted by the short-circuit current density (J SC ) of the corresponding devices under dark conditions 30 . Letter reSeArCH Extended Data Fig. 11 | Schematic architecture of the perovskite module. a, Top view of the entire module, including the glass substrate. The active strips, gold electrode, designated illumination area and glass substrate are indicated in black, yellow, red and blue, respectively. b, Top view of the eight active strips in the module. The units in a and b are miliimetres. c, Side view of an interval between adjacent active strips in the module. The vertical length scale is arbitrarily set to show the structure of the interval.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="9,158.51,57.56,283.92,214.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="10,152.84,57.56,283.92,284.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="12,103.46,56.15,382.68,141.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="13,109.13,56.15,382.68,316.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="14,153.08,57.56,283.44,368.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="15,158.51,57.56,283.92,247.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="16,103.46,56.85,382.68,143.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="17,158.69,57.56,283.56,264.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="18,36.85,72.74,451.20,249.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="19,42.52,72.74,451.44,421.92" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>Division of Advanced Materials, Korea Research Institute of Chemical Technology (KRICT), Daejeon, South Korea.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1"><p>School of Civil, Environmental and Architectural Engineering, Korea University, Seoul, South Korea.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_2"><p>Central Research Facilities, Ulsan National Institute of Science and Technology (UNIST), Ulsan, South Korea. *e-mail: junhnoh@korea.ac.kr; jwseo@krict.re.kr</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>Extended Data Fig. 4 | The distribution of lead in cross-sections of control and DHA films. Scanning TEM images of the control (a) and DHA (c) films, near to the film surface. HAADF scanning TEM images of the control (b) and DHA (d) films.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>Extended Data Fig. 6 | Reduced trap-assisted recombination. a, J-V curves of control and DHA devices without hole-transport material (FTO/d-TiO 2 /mp-TiO 2 /NBH/(WBH)/Au). b, Time-resolved photoluminescence decays of control perovskite and DHA.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>Extended Data Fig.8| Certificate of photovoltaic performance obtained from DHA solar cells using P3HT. The photovoltaic parameters are summarized in the table on the certificate. The external quantum efficiency spectrum was obtained from the corresponding device.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6"><p>Extended data table 1 | Comparison of P3ht, PtAA and spiro-oMetAd in terms of hole-transport materials for perovskite solar cells a Certified power conversion efficiency in the accredited laboratory by NREL.b  We assume that the volume solution used is equal regardless of HTM for the deposition of hole-transport layers. We consider only the expense of the HTM, and not the solvent or other dopants such as bis(trifluoromethane) sulfonamide lithium salt or tert-butyl pyridine. c Prices were obtained from the Sigma-Aldrich website (http://www.sigmaaldrich.com; February 2019). d The values were determined by field-effect transistor devices and obtained from the pristine hole-transport materials<ref type="bibr" target="#b25">[27]</ref><ref type="bibr" target="#b26">[28]</ref><ref type="bibr" target="#b27">[29]</ref> . e This value was obtained even from a spiro-OMeTAD single-crystal device. The thin-film device had a hole mobility of 1.69 × 10 -6 cm 2 V -1 s -1 .</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements This work was supported by a grant from the <rs type="funder">Korea Research Institute of Chemical Technology (KRICT)</rs>, <rs type="person">South Korea</rs> (<rs type="grantNumber">KK1802-A01</rs>); the <rs type="funder">Korea Institute of Energy Technology Evaluation and Planning (KETEP)</rs> and the <rs type="funder">Ministry of Trade Industry &amp; Energy</rs> (MOTIE) of South Korea (20163010012470); and by a grant from the <rs type="funder">National Research Foundation of Korea (NRF)</rs> funded by the <rs type="funder">Ministry of Science, ICT &amp; Future Planning (MSIP) of South Korea</rs> (<rs type="grantNumber">NRF-2016M3A6A7945503</rs>). J.H.N. acknowledges financial support from an <rs type="funder">NRF</rs> grant funded by the <rs type="funder">South Korean government (MSIP)</rs> (<rs type="grantNumber">2017R1A2B2009676</rs>, <rs type="grantNumber">2017R1A4A1015022</rs>).</p><p>Reviewer information Nature thanks <rs type="person">Ardalan Armin</rs> and the other anonymous reviewer(s) for their contribution to the peer review of this work.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_yZUQWCw">
+					<idno type="grant-number">KK1802-A01</idno>
+				</org>
+				<org type="funding" xml:id="_PXVyc2p">
+					<idno type="grant-number">NRF-2016M3A6A7945503</idno>
+				</org>
+				<org type="funding" xml:id="_QfRW9RB">
+					<idno type="grant-number">2017R1A2B2009676</idno>
+				</org>
+				<org type="funding" xml:id="_nAJFUSU">
+					<idno type="grant-number">2017R1A4A1015022</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Online content</head><p>Any methods, additional references, Nature Research reporting summaries, source data, statements of data availability and associated accession codes are available at <ref type="url" target="https://doi.org/10.1038/s41586-019-1036-3">https://doi.org/10.1038/s41586-019-1036-3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The data that support the plots within this paper and other findings of this study are available from the corresponding authors upon reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Author contributions E.H.J., J.H.N. and J.S. conceived the idea and wrote the manuscript. E.H.J. and T.J.S. performed GIWAXS experiments and analysed the data. E.H.J. performed scanning electron microscopy, HRTEM, atomic force microscopy, Raman spectroscopy and Mott-Schottky analysis. E.H.J. fabricated and characterized perovskite solar cells with support from N.J.J. and C.S.M. E.H.J., N.J.J., J.H.N. and J.S. obtained the certified performance of devices at Newport Corporation. N.J.J. estimated the long-term stability of the devices with input from T.-Y.Y. E.Y.P. fabricated and characterized perovskite solar modules. J.H.N. and J.S. supervised this project. All authors discussed the results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head><p>Extended Data Fig. <ref type="figure">1</ref> | Linecut profiles of GIWAXS patterns. a, b, Out-of-plane (a) and in-plane (b) linecut profiles of NBH and DHA films. These patterns correspond to Fig. <ref type="figure">2b,</ref><ref type="figure">c</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Letter reSeArCH</head><p>Extended Data Fig. <ref type="figure">2</ref> | Investigation of the composition of HTAB x (FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05 for development of the WBH. a, X-ray diffraction spectra of HTAB x (FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05 films (x = 0.0, 0.1, 0.2, 0.3 and 0.4). Only the spectrum of the film in which x = 0.3 shows a distinct peak at a 2θ value of 5.4°, corresponding to the signal at a q z of 0.39 Å -1 along the direction perpendicular to the substrate that was obtained from the DHA film in the GIWAXS pattern of Fig. <ref type="figure">1c</ref> and Extended Data Fig. <ref type="figure">1a</ref>. This indicates that the crystalline WBH thin layer in the DHA configuration should be formed with a composition close to x = 0.3. b, Tauc plots of (FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05 (NBH) and HTAB 0. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Extended data table 2 | summary of photovoltaic parameters</head><p>These parameters were obtained from the J-V curves in Extended Data Fig. <ref type="figure">9</ref>.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Iodide management in formamidinium-lead-halide-based perovskite layers for efficient solar cells</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">356</biblScope>
+			<biblScope unit="page" from="1376" to="1379" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Compositional engineering of perovskite materials for high-performance solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">517</biblScope>
+			<biblScope unit="page" from="476" to="480" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">High-performance photovoltaic perovskite layers fabricated through intramolecular exchange</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="page" from="1234" to="1237" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Solvent engineering for high-performance inorganic-organic hybrid perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="897" to="903" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Polymer-templated nucleation and crystal growth of perovskite films for solar cells with efficiency greater than 21%</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">16142</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Sequential deposition as a route to high-performance perovskite-sensitized solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burschka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">499</biblScope>
+			<biblScope unit="page" from="316" to="319" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Stable and low-cost mesoscopic CH 3 NH 3 PbI 2 Br perovskite solar cells by using a thin poly(3-hexylthiophene) layer as a hole transporter</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Eur. J</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="434" to="439" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Beyond efficiency: the challenge of stability in mesoscopic perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Rong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Amorphous hole-transporting layer in slot-die coated perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Qin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Energy</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="210" to="217" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">P3HT Revisited -From Molecular Scale to Solar Cell Devices Ch</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ludwigs</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>Springer</publisher>
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Two-dimensional charge transport in self-organized, high-mobility conjugated polymers</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sirringhaus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Letter reSeArCH</title>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="volume">401</biblScope>
+			<biblScope unit="page">685</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Strong regioregularity effect in self-organizing conjugated polymer films and high-efficiency polythiophene:fullerene solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">197</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Effect of synthetic accessibility on the commercial viability of organic photovoltaics</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Osedach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Andrew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bulović</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="711" to="718" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Advances in molecular design and synthesis of regioregular polythiophenes</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Osaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Mccullough</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acc. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="1202" to="1214" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Toward large scale roll-to-roll production of fully printed perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hwang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1241" to="1247" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Solution-processed organic solar cells</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Brabec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Durrant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MRS Bull</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="670" to="675" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A roll-to-roll process to flexible polymer solar cells: model studies, manufacture and operational stability studies</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Gevorgyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alstrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="5442" to="5451" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">High-efficiency perovskite solar cell based on poly(3-hexylthiophene): influence of molecular weight and mesoscopic scaffold layer</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Nia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Matteocci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Di Carlo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemSusChem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="3854" to="3860" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">The perovskite/transport layer interfaces dominate non-radiative recombination in efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+		<ptr target="https://arxiv.org/abs/1810.01333" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Preprint at</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Effect of different hole transport materials on recombination in CH 3 NH 3 PbI 3 perovskite-sensitized mesoscopic solar cells</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Boschloo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Johansson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1532" to="1536" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Charge transfer dynamics from organometal halide perovskite to polymeric hole transport materials in hybrid solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Brauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Banerji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="3675" to="3681" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">24.7% record efficiency HIT solar cell on thin silicon wafer</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Photovolt</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="96" to="99" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Functionalization of perovskite thin films with moisture-tolerant molecules</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">15016</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The nature of in-plane skeleton Raman modes of P3HT and their correlation to the degree of molecular order in P3HT:PCBM blend thin films</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Tsoi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="9834" to="9843" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A solvent-and vacuum-free route to large-area perovskite films for efficient solar modules</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">550</biblScope>
+			<biblScope unit="page" from="92" to="95" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Increased mobility from regioregular poly(3-hexylthiophene) field-effect transistors</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Swensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moses</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Heeger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page">6137</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Gate insulators in organic field-effect transistors</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Veres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ogier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lloyd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="4543" to="4555" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Spiro-OMeTAD single crystals: Remarkably enhanced chargecarrier transport via mesoscale ordering</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">1501491</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A review and comparison of different methods to determine the series resistance of solar cells</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pysch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Glunz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sol. Energy Mater. Sol. Cells</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="1698" to="1706" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

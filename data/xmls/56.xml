@@ -1,0 +1,2848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Universal Current Losses in Perovskite Solar Cells Due to Mobile Ions</title>
+				<funder ref="#_FBuRDZA">
+					<orgName type="full">EPSRC</orgName>
+				</funder>
+				<funder ref="#_bycTezv">
+					<orgName type="full">Deutsche Forschungsgemeinschaft (DFG, German Research Foundation</orgName>
+				</funder>
+				<funder ref="#_JPN8exQ">
+					<orgName type="full">Helmholtz Association via HI-SCORE</orgName>
+				</funder>
+				<funder ref="#_Sfhc6gr">
+					<orgName type="full">Federal Ministry for Economic Affairs and Energy</orgName>
+				</funder>
+				<funder ref="#_cuByzzY">
+					<orgName type="full">Alexander Von Humboldt Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-07-21">July 21, 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>M. D</roleName><forename type="first">Jarla</forename><surname>Thiesbrummel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Vincent</forename><forename type="middle">M</forename><surname>Le Corre</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Francisco</forename><surname>Peña-Camargo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lorena</forename><surname>Perdigón-Toro</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Felix</forename><surname>Lang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Fengjiu</forename><surname>Yang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Max</forename><surname>Grischek</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Emilio</forename><surname>Gutierrez-Partida</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><surname>Warby</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">D</forename><surname>Farrar</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Suhas</forename><surname>Mahesh</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Pietro</forename><surname>Caprioglio</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Steve</forename><surname>Albrecht</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dieter</forename><surname>Neher</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Henry</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+							<email>henry.snaith@physics.ox.ac.uk</email>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><surname>Stolterfoht</surname></persName>
+							<email>stolterf@uni-potsdam.de</email>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Farrar</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><surname>Mahesh</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Caprioglio</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Snaith</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Physics and Astronomy</orgName>
+								<orgName type="institution">Clarendon Laboratory University of Oxford</orgName>
+								<address>
+									<addrLine>Parks Road</addrLine>
+									<postCode>OX1 3PU</postCode>
+									<settlement>Oxford</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Young Investigator Group Perovskite Tandem Solar Cells</orgName>
+								<orgName type="institution">University of Potsdam</orgName>
+								<address>
+									<addrLine>Karl-Liebknecht-Str. 24-25 Helmholtz-Zentrum Berlin Kekuléstraße 5</addrLine>
+									<postCode>D-14476 12489</postCode>
+									<settlement>Potsdam-Golm Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Universal Current Losses in Perovskite Solar Cells Due to Mobile Ions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-07-21">July 21, 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EFC5002EE46D388117F6B7CF38B8402A</idno>
+					<idno type="DOI">10.1002/aenm.202101447</idno>
+					<note type="submission">Received: May 9, 2021 Revised: June 21, 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T18:02+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>current losses</term>
+					<term>mobile ions</term>
+					<term>non-radiative recombination</term>
+					<term>perovskite solar cells</term>
+					<term>Sn perovskite</term>
+					<term>transient photoluminescence</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Perovskite solar cells have undergone major development from their first discovery in 2009, to a viable technology that is approaching commercialization. <ref type="bibr">[1]</ref> One of their most interesting assets is the wide range of bandgaps which can be fabricated by changing the perovskite composition, opening up the possibility to produce allperovskite multijunction cells that can overcome the Shockley-Queisser (SQ) limit of single junctions. For a tandem cell, the ideal bandgaps for the top and bottom cell are 1.7-1.9 and 0.9-1.2 eV, respectively. <ref type="bibr">[2]</ref> Fully lead-based perovskites are widely investigated and have reached power conversion efficiencies (PCEs) of up to 25.5%. <ref type="bibr">[3]</ref> In order to achieve ideal bandgaps for the low-gap cell in all-perovskite tandem photovoltaics, a mixture of lead and tin atoms at the B-site of the ABX 3 perovskite structure is required. This allows metal halide perovskites to reach bandgaps as low as 1.2 eV. <ref type="bibr">[4,</ref><ref type="bibr">5]</ref> While many studies in the literature focus their efforts into improving the open-circuit voltage (V OC ) and fill factor (FF) of perovskite solar cells (PSCs), there are less reports that investigate the loss in short-circuit current density (J SC ). In fact, highperforming perovskites have been shown to have "only" moderate (≈5-15%) J SC losses compared to the SQ limit making them competitive in this regard with established technologies such as c-Si and GaAs, as shown in Figure <ref type="figure" target="#fig_0">1a</ref>. In many cases, this loss is quickly overlooked and treated as a result of suboptimal light management in the cell which could be solved by optimizing the thickness of the solar cell stack or by using more complex light management strategies such as, for example, textured substrates, <ref type="bibr">[6,</ref><ref type="bibr" target="#b6">7]</ref> cavities &amp; plasmon resonances, <ref type="bibr" target="#b7">[8]</ref> or carefully designed anti-reflective layers. <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10]</ref> However, as we will show, suboptimal light management is not the only cause of J SC losses in perovskite solar cells, even in well performing mixed-cation mixed-halide perovskite cells. Tin-based and mixed PbSn perovskite solar cells are particularly affected by short-circuit current losses and their efficiencies lag behind those of their full-lead equivalents, despite having a band gap closer to the ideal for single junctions, with the best mixed lead/tin cells only reaching certified PCEs Efficient mixed metal lead-tin halide perovskites are essential for the development of all-perovskite tandem solar cells, however they are currently limited by significant short-circuit current losses despite their near optimal bandgap (≈1.25 eV). Herein, the origin of these losses is investigated, using a combination of voltage dependent photoluminescence (PL) timeseries and various charge extraction measurements. It is demonstrated that the Pb/Sn-perovskite devices suffer from a reduction in the charge extraction efficiency within the first few seconds of operation, which leads to a loss in current and lower maximum power output. In addition, the emitted PL from the device rises on the exact same timescales due to the accumulation of electronic charges in the active layer. Using transient charge extraction measurements, it is shown that these observations cannot be explained by doping-induced electronic charges but by the movement of mobile ions toward the perovskite/transport layer interfaces, which inhibits charge extraction due to band flattening. Finally, these findings are generalized to lead-based perovskites, showing that the loss mechanism is universal. This elucidates the negative role mobile ions play in perovskite solar cells and paves a path toward understanding and mitigating a key loss mechanism. of a bit over 20%. <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> Considering reported bandgaps of 1.22 eV for a 50:50 Pb:Sn mixture, this would allow a maximum shortcircuit current density of ≈37.1 mA cm -2 if we assume that an average external quantum efficiency of 95% can be achieved as demonstrated in the best Pb-perovskite cells. <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref> However, even the best APbSnI 3 perovskites achieve significantly lower currents, for example, 32 mA cm -2 have been demonstrated for a bandgap of 1.22 eV in ref. [13]. In most other reports, PbSn perovskites with similar bandgaps delivered even lower shortcircuit current (&lt;30 mA cm <ref type="bibr">-2</ref> ). <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref> This discrepancy between two apparently similar technologies is not often discussed and it is currently not clear why Sn(II) containing perovskites cannot achieve as high currents as their lead counterparts relative to their SQ limits.</p><p>Generally, it is well known that Sn(II)-containing metal halide perovskites are more prone to oxidation to Sn(IV) than their Pb(II) counterparts, due to the inert pair effect stabilizing the 6s electrons in Pb(II). This propensity to oxidize has led researchers to conclude that this is likely the origin of performance losses in PbSn perovskites. In turn, significant efforts have been undertaken to prevent this oxidation, or reduce its negative effects, such as the addition of metallic Sn to the solution to reduce Sn 4+ through comproportionation, <ref type="bibr" target="#b12">[13]</ref> addition of antioxidants and reducing agents, <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21]</ref> or addition of excess Sn 2+ by using salts such as SnF 2 , which also acts as a reducing agent. <ref type="bibr" target="#b21">[22]</ref> Recently, it was also proposed to move away from using dimethylsulfoxide (DMSO) as a co-solvent, as this could oxidize Sn 2+ to Sn 4+ in solution. <ref type="bibr" target="#b22">[23]</ref> However, the exact effect of the increased concentration of "oxidation-induced" mobile charges in the system has only been investigated by a few researchers. <ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref> On the one hand, there has been substantial evidence of a large increase in the dark conductivity of Sn based perovskites upon exposure to oxygen, which is most likely due to electronic doping. For example, in ref. [27,28], a background hole carrier concentration of 10 15 to 10 16 cm -3 has been reported. This led to the conclusion that it is largely the p-doping that is responsible for the significant current losses. <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b29">30]</ref> For example, a high concentration of doping-induced carriers could reduce the lifetime and diffusion length of photoinduced charge or screen the   [13,48,49], as compared to the perovskite cells studied in this work (filled circles). The graph was inspired by ref. [56] Generally, PbSn-perovskites have larger current losses compared to Pb-perovskites, including MAPbI 3 and several triple cation Cs 0.05 (FA x MA y ) 0.95 Pb(I x Br y ) 3 devices made from different (x:y) ratios of FAPbI 3 and MAPbBr 3 . b) A cross-sectional scanning electron microscopy image of a typical FA 0.83 Cs 0.17 Pb 0.5 Sn 0.5 I 3 perovskite pin-type solar cell device. c) Forward and reverse JV scan at a scan rate of 60 mV s -1 under AM1.5G illumination. d) Device absorption (1-reflectance) and external quantum efficiency spectra of a FA 0.83 Cs 0.17 Pb 0.5 Sn 0.5 I 3 perovskite pin-type solar cell, with a graphical representation of the different current losses that occur in the system. It can be seen that, besides parasitic absorption and optical losses that stem from the sample being too thin to absorb all the light, there are also significant charge collection losses. built-in field, which would in turn reduce the charge extraction efficiency, thereby causing short-circuit current losses. <ref type="bibr" target="#b26">[27,</ref><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32]</ref> Although it is expected that high levels of doping can undermine the device performance, the exact underlying mechanisms have not been studied thoroughly experimentally, and the concentration of charge carriers required to induce detrimental effects is not precisely known. Moreover, the charge collection losses at short-circuit conditions in Sn-based perovskites can be caused by an insufficient charge carrier diffusion length due to electronic defects, which would also negatively affect the open-circuit voltage.</p><p>On the other hand, the performance losses could be caused by mobile ions, which may cause screening (or more precisely, a redistribution) of the internal field. Several groups have attempted to quantify mobile ion concentrations in different perovskites, and their outcomes are generally in the range of 10 15 to 10 19 cm -3 . <ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref> Indeed, the presence of mobile ions is expected in PbSn perovskite thin-films. For example, Leijtens et al. <ref type="bibr" target="#b36">[37]</ref> recently investigated the mechanism of oxidation of Sn and PbSn perovskites through X-ray diffraction (XRD), thermogravimetric analysis (TGA), and UV-vis, and demonstrated that mobile ions such as FA + or I -are likely formed. However, the effect of mobile ions on the short-circuit current losses in perovskites has, in general, not been investigated as intensively as, for example, their effect on the V OC , <ref type="bibr" target="#b37">[38]</ref> the hysteresis, <ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref> and device stability. <ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref> In order to further improve PbSn and Pb-based perovskite solar cells and other electronic devices, <ref type="bibr" target="#b44">[45,</ref><ref type="bibr" target="#b45">46]</ref> it is vital to gain a more detailed understanding of the mechanism causing short-circuit current losses and the exact effects of electronic doping and mobile ions on the device operation.</p><p>In this work, we investigated short-circuit current losses in low bandgap, mixed PbSn (FA 0.83 Cs 0.17 Pb 0.5 Sn 0.5 I 3 ) and other lead-based perovskite cells. In particular, we first aimed to understand whether the charge transport losses under short-circuit conditions in mixed PbSn perovskites (FA 0.83 Cs 0.17 Pb 0.5 Sn 0.5 I 3 ) are a result of electronic doping or mobile ions, before generalizing the results to other Pb-based systems. To this end, we recorded the temporal evolution of the current transient and determined a concurrent rise in the photoluminescence (PL) emission intensity after switching the voltage from V OC to short-circuit, which implies an accumulation of electronic charge in the perovskite bulk. We hence attribute the reduced current-density to a reduced charge extraction efficiency. The decay in current directly translates into a loss of the steady-state maximum power point output of the device on the same timescales and to a current loss at slow scan speeds. To distinguish whether background doping or mobile ions are responsible for this loss, we performed bias assisted charge extraction (BACE) and charge extraction by linearly increasing voltage (CELIV) measurements, which allowed us to investigate the density and dynamics of extracted electronic and ionic charges. Overall, these measurements underline the extraction of electronic (bias-induced injected) charges on the µs-timescales, while the characteristic features of mobile ions appear on the ms-s timescales, as observed in the current decay transients. Importantly, the ionic charge density (&gt;1 × 10 17 cm -3 ) was found to exceed the injected and photogenerated electronic charge density (5 × 10 15 cm -3 ) present at V OC by several orders of magnitudes, therefore dominating the observed recombination losses in the transient current decay. Moreover, the density of doping induced equilibrium charges (≈6 × 10 14 cm -3 ) was found to be negligible compared to the capacitive charge density (6 × 10 15 cm -3 ), hence the density of doping-induced charge, in contrast with the mobile ion density, is insufficient to screen or redistribute the built-in potential. Furthermore, we could reproduce both the transient and steady-state performance of the device using numerical simulations, which further corroborated the understanding obtained from the experimental results. Finally, we demonstrated that PbSn based perovskites are not unique with respect to ion-induced current losses, but the same losses appear in various other perovskite compositions and architectures. Overall, the mobile ion induced losses limit the power conversion efficiency of our devices by 1-3% absolute. As such, this work underlines the importance "ionmanagement" to overcome band flattening and to minimize the recombination losses under maximum power point losses and improve device stability.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Results</head><p>Here we studied, low bandgap FA 0.83 Cs 0.17 Pb 0.5 Sn 0.5 I 3 perovskite photovoltaic devices. The device stack is comprised of spin-coated poly(3,4-ethylenedioxythiophene) polystyrene sulfonate (PEDOT:PSS) hole transporting layer (HTL) on a glass substrate coated with an indium-doped tin oxide (ITO) conductive layer. On top of that, the perovskite layer with a thickness of 470 nm is deposited via spin-coating. The stack is completed by an electron transporting layer (ETL) comprised of evaporated C 60 (30 nm) and bathocuproine (BCP) (8 nm), with a copper (Cu) electrode on top. A detailed description of the device preparation can be found in Supporting Information. A crosssection of a complete device is displayed in Figure <ref type="figure" target="#fig_0">1b</ref>. A JV scan of a characteristic efficient device can be seen in Figure <ref type="figure" target="#fig_0">1c</ref>, while more detailed characteristics and statistics can be found in Figure <ref type="figure" target="#fig_0">S1</ref>, Supporting Information. From the device absorption and the external quantum efficiency (EQE), displayed in Figure <ref type="figure" target="#fig_0">1d</ref>, the different current losses in the device can be determined. First of all, the optical losses of the device, as determined from the total reflectance R of the device, are significant. This is caused by the relatively low absorption coefficient of the lead-tin perovskite near the band edge (Figure <ref type="figure" target="#fig_9">S2</ref>, Supporting Information) and the absorber layer being too thin to absorb all the incident photons with energies above the bandgap. On top of that, the lead-tin perovskite devices suffer from significant additional collection losses (≈2 mAcm -2 ), which can be determined from the difference between the device absorption minus parasitic losses in the ITO, PEDOT:PSS and copper (i.e., 1-R-R parasitic ), and the device EQE. The parasitic losses were estimated using a transfer matrix code developed by McGehee, et al. <ref type="bibr" target="#b46">[47]</ref> Although the optical losses can be largely reduced in thicker ≈800 nm devices (Figure <ref type="figure" target="#fig_10">S3</ref>, Supporting Information), the J SC cannot be improved due to enhanced collection losses. Therefore, it can be concluded that the combination of relatively large optical losses in 470 nm thick devices and the large collection losses in our thicker devices (e.g., ≈800 nm), possibly due to traps resulting in an insufficient carrier diffusion length, are among the main reasons for the relatively low J SC of the PbSn-perovskite as compared to Pb-based perovskites, with respect to what is expected from their different band gaps. In the following, however, we focus on understanding the observed charge collection losses at 0 V in the optimum 470 nm-thick devices, which are poorly understood and also significantly contributing to the J SC loss.</p><p>To investigate these collection losses at 0 V, we first measured the time dependence of the photoluminescence quantum yield (PLQY) and the short-circuit current density (J SC ) immediately after switching from V OC to 0 V, while the sample remains under continuous illumination. As can be seen in Figure <ref type="figure" target="#fig_1">2a</ref>, the J SC falls during the initial few seconds of operation at 0 V before eventually reaching a steady-state. On average, we find that freshly prepared FA 0.83 Cs 0.17 Pb 0.5 Sn 0.5 I 3 devices experience current density losses of 1.4 mA cm -2 . This equals about 5% of the initial current density. To reveal the reason for the loss in current, we simultaneously measured the emitted PL from the cell as a function of time. The temporal evolution of the PL spectra is displayed in Figure <ref type="figure" target="#fig_1">2b</ref>, while the corresponding peak height is displayed in Figure <ref type="figure" target="#fig_1">2c</ref>. It can be seen that, when the device bias is changed to 0 V at t = 0 s, the PL is initially nearly completely quenched. Considering that the PL yield is directly proportional to the product of the electron and hole density (n × p), the strong reduction of the PL at 0 V with respect to V OC indicates an efficient initial extraction of electronic charges. <ref type="bibr" target="#b49">[50]</ref> However, after the initial quench, the PLQY starts to quickly rise again despite the fact that the device is still kept under short-circuit conditions. This indicates that the efficiency of the charge extraction is gradually reduced, causing charges to accumulate in the device until the PL and the charge carrier distribution stabilizes after about 3 s. Therefore, the loss of current is not consistent with a deteriorating interface quality Adv. Energy Mater. 2021, 11, 2101447 or defects. At the time of stabilization, the PL has increased to up to ≈6% of the PLQY value at open circuit conditions. Importantly, the decrease in current density and increased PL yield leads also to a direct loss in efficiency, that is, in the initial phase of maximum power point (MPP) tracking measurements, as displayed in Figure <ref type="figure" target="#fig_1">2d</ref>. This has important implications as it indicates that the observed effect also influences cell performance under steady-state working conditions. Figure <ref type="figure" target="#fig_1">2e</ref> displays the field screening due the accumulation of mobile ions at the interfaces over time, which is expected to cause the observed J SC and MPP losses and the increase of the PL on the same timescales. The simplified time dependent band structures displayed in Figure <ref type="figure" target="#fig_1">2e</ref> are extracted from our numerical device simulations (details about the simulations are discussed further below). The corresponding time-dependent simulated band structures are presented in Figure <ref type="figure" target="#fig_11">S4</ref>, Supporting Information, which also includes a more detailed description of the movement of mobile ions in the performed experiments. Interestingly, as shown in Figure <ref type="figure" target="#fig_12">S5</ref>, Supporting Information, we find that there is an approximately linear relationship between the current decay and the increase in PL at 0 V. To explain this, we consider that the PL yield is proportional to the radiative recombination current ( J rad = eϕ PL ), while the current decay is mostly governed by non-radiative recombination (as the overall PLQY yield of the sample is only 10 -4 ). Therefore, a linear relationship between the current decay and the PL increase implies that the radiative and non-radiative recombination losses are directly proportional to each other. In other words, the field screening-induced accumulation of electronic charges in the active layer increases the radiative and non-radiative recombination losses in the same way, which is consistent with the findings of our previous study. <ref type="bibr" target="#b49">[50]</ref> It is important to note that the current losses can occur even if the charge carrier diffusion length in the perovskite exceeds the film thickness. This is because the transport layers can limit the extraction from the device and also interfacial recombination can increase if more charges accumulate in the active layer. To describe the current decay more quantitatively, we performed numerical drift-diffusion simulations of the cell, using the commercially available SETFOS 5.1 software package provided by FLUXiM. The input parameters for the simulations shown in Table <ref type="table" target="#tab_2">S1</ref>, Supporting Information were partially based on our previous simulation work of pin-type triple cation perovskites, <ref type="bibr" target="#b50">[51,</ref><ref type="bibr" target="#b51">52]</ref> and parameters tailored for lead-tin using the literature specified in Table <ref type="table" target="#tab_2">S1</ref>, Supporting Information and our own extraction measurements, as discussed further below. The fit from the numerical simulations is shown in Figure <ref type="figure" target="#fig_1">2a</ref> by the dashed line, which highlights that both the kinetics of the decay can be reproduced with the experimentally obtained effective ion diffusion coefficient (≈10 -10 cm 2 s -1 ) and density (≈10 17 cm -3 ) as well as the overall magnitude of the current losses. Figure <ref type="figure" target="#fig_13">S6</ref>, Supporting Information demonstrates the simulated current decay for other mobile ion densities.</p><p>In the following we demonstrate that the time dependent losses of the short-circuit current are also present in JV hysteresis measurements at slow scan speeds. To clearly visualize this important fact, we performed "fast hysteresis" measurements, where the JV is measured in forward and reverse direction over several orders of magnitude in scan speed (100 mV s -1 to 800 V s -1 ) after keeping the cell under open-circuit conditions and constant AM1.5G illumination. The details of this measurement are presented in Supporting Information. ) ) )</p><p>Figure <ref type="figure" target="#fig_2">3</ref>. a) The current density as obtained from JV scans in forward and reverse direction as a function of scan speed (100 mV s -1 to 800 V s -1 ). b) exemplifies the JV scans in forward and reverse direction at the slowest (top) and fastest scan speed (bottom). At fast enough scan speeds (scan time &lt;&lt; ion transit time), the mobile ions in the perovskite layer are not able to react to the change in the applied voltage, and hence the obtained efficiency can be regarded as a proxy of the ion-free efficiency. At slow scan speeds, however, mobile ions are able to screen the built-in field. This lowers the device efficiency, primarily through increased short-circuit current losses in case of the studied cells. Panel (a) shows lower current density for JV scans taken at slower scan speeds, as opposed to the "mobile-ion free" JV scans taken at the fastest scan speeds. Hence, the current losses also appear in the JV-measurements at slow scan speeds that are representative for steady-state conditions, as shown in Figure <ref type="figure" target="#fig_1">2</ref>.</p><p>800 V s -1 ), the mobile ions do not have enough time to react to the change in the external voltage, hence an "ion-free current density" is obtained if the ions are roughly homogeneously distributed at the starting voltage (V OC ). However, at slower scan speeds (e.g., 1 s per scan), the mobile ions are able to follow the change in internal field by moving from their equilibrium positions toward the transport layers, where they start to screen the field causing the losses in the J SC . Indeed, at the slowest scan speeds (10 -1 V s -1 ), a decrease in J SC of about 1.5 mA cm -2 is observed with respect to the fast-scan (800 V s -1 ). As such, both the timescale (1 ms to 10 s) and the magnitude of the current decay (1.5 mA cm -2 ) in the hysteresis measurements is consistent with the temporal current decay shown previously in Figure <ref type="figure" target="#fig_1">2a</ref>.</p><p>In order to distinguish between different processes that could cause the observed current losses and the suspected band flattening, and to elucidate the density and kinetics of free electronic and ionic charge, we performed different charge extraction measurements. Figure <ref type="figure" target="#fig_3">4a</ref> shows the extracted charge as a function of time from bias assisted charge extraction (BACE), where the (displacement) current is recorded upon a switch from V OC to 0 V. The charge inside the active layer is thereby obtained by integrating the displacement current over time. It is important to note that mobile ions are not extracted from the device rather transported to the transport layers or electrodes, which however, causes an external displacement current. As can be seen in Figure <ref type="figure" target="#fig_3">4a</ref>, the obtained temporal evolution of the charge density displays two features; an initial rise at ≈1 µs and a second rise at ≈300 ms. The initial rise consists itself of two contributions, the extraction of electronic charges that were injected at V OC and the RC decay due to the electrode (capacitive) charge (CU, where U is the V OC ). As shown in Figure <ref type="figure">S7</ref>, Supporting Information, using a separate setup with a home-built amplifier with a relatively low resistance (≈5 Ω), we can distinguish the contribution of these two initial processes to the first bump. As shown in  an injected charge carrier density of 2 × 10 15 cm -3 , while the electrode charge divided by the perovskite volume equals to 6 × 10 15 cm -3 at 0 V (if the V OC is equal to the built-in field). Furthermore, upon applying a constant background illumination with a 1-sun equivalent intensity, the same measurement allows us to quantify the photogenerated charge carrier density that is present at V OC , Figure <ref type="figure" target="#fig_8">S8</ref>, Supporting Information. The details of the measurement are discussed more elaborately in the captions of the corresponding figures in Supporting Information. Coming back to Figure <ref type="figure" target="#fig_3">4a</ref>, the second increase in the extracted (or transported) charge is assigned to the mobile ion density in the system with a characteristic effective displacement time of 300 ms. This corresponds to the timescale observed in the current decay and PL increase. Note, this corresponds to an effective ion mobility of 4 × 10 -9 cm 2 V -1 s -1 and a diffusion coefficient of ≈1 × 10 -10 cm 2 s -1 . Importantly, the obtained ion density in the system is ≈2 × 10 17 cm -3 , which is significantly larger than the electronic charge in the system, including the electrode charge (per volume) that creates the built-in potential. Hence, a significant redistribution of the built-in field is expected due to the obtained ion density (as already shown above in Figure <ref type="figure" target="#fig_1">2e</ref>). We note again, that the obtained ion diffusion coefficient and density was used as an input parameter for the numerical simulations, which allowed us to fit the current decay shown in Figure <ref type="figure" target="#fig_1">2a</ref>.</p><p>In order to further corroborate the BACE measurements, we performed charge extraction by linearly increasing voltage (dark-CELIV) measurements, which are shown in Figure <ref type="figure" target="#fig_3">4b</ref>. In this measurement, the linearly increasing voltage leads to a constant charging current of the electrodes. For a dielectric capacitor in the absence of mobile charges in the active layer, the response to the CELIV voltage pulse is a step function. <ref type="bibr" target="#b52">[53]</ref> Any additional charge present, for example, doping induced equilibrium charges or mobile ions (or photogenerated charges with background light), will cause a "bump" in the transient response, which allows us to estimate their density with respect to the electrode charge (CV max , where V max = -0.4 V is the maximum applied voltage of the triangular pulse in this case). Hence, the absence of an initial bump in the dark-CELIV response, shown in Figure <ref type="figure" target="#fig_3">4b</ref>, indicates that the doping density is insignificant with respect to CV max per cell volume (≪ 5 × 10 15 cm -3 ). To further highlight this important point, we performed a photo-CELIV measurement, where we intentionally photogenerated a charge carrier density of e.g. 1 × 10 15 cm -3 in the perovskite cell. As shown in Figure <ref type="figure" target="#fig_3">4c</ref>, this photogenerated charge carrier density can nicely be seen in the current response and is roughly in the correct ratio compared to the CV max charge. Moreover, the extraction of the photo generated charge carrier density happens on the order of 1 µs, which further confirms the timescale of electronic charge transport. We note the relatively long extraction time is likely limited by the transport layers rather than bulk transport through the perovskite layer, as has been previously shown. <ref type="bibr" target="#b53">[54]</ref> To quantify the doping density in the PbSn perovskite, we performed lateral conductivity measurements which revealed a dark conductivity of 9 × 10 -5 S cm -1 (Figure <ref type="figure">S9</ref>, Supporting Information). Assuming a long-range charge carrier mobility of roughly 1 cm 2 V -1 s -1 (which is lower than the short-range charge carrier mobility as obtained from optical-pump terahertz-probe spectroscopy measurements in ref. [18], since we consider grain boundaries), this would correspond to a doping-induced charge carrier density of ≈6 × 10 14 cm -3 , which is consistent with the absence of a dopinginduced feature in the CELIV response. Turning our attention again to the dark-CELIV transient in Figure <ref type="figure" target="#fig_3">4b</ref>, after ≈1 ms the signal rises again just as observed in the BACE measurements due to the presence of mobile ions until beyond 100 ms, which represents the detection limit of our current setup. Considering that the current does not saturate, only a lower mobile ion density of 1.5 × 10 16 cm -3 , can be specified upon integration of the dark-CELIV signal. Therefore, these transient measurements demonstrate that the mobile ion concentration is much larger than the photogenerated charge carrier density, the injected charge at V OC and the doping induced charge, and sufficiently large to redistribute the device built-in electric field. In contrast, it is important to note that the doping density is much smaller than the CU charge per cell volume (6 × 10 15 cm -3 ), which is too low to screen the electric field. To further highlight this point, we performed numerical simulations, the results of which, displayed in Figure <ref type="figure" target="#fig_3">4d</ref>, demonstrate that the doping density will only start to make a significant impact at densities exceeding ≈1 × 10 16 cm -3 , at which point the built-in field becomes screened. Moreover, it can be seen that electronic doping, although it can affect the device performance at higher concentrations, as is displayed in Figure <ref type="figure" target="#fig_0">S10</ref>, Supporting Information, never leads to a temporal current decay, whereas for mobile ions, temporal current decays are observed for a range of concentrations. Interestingly, we also found that when the mobile ion concentration reaches a certain threshold, the stabilized current still decreases with increasing mobile ion densities, but the temporal decay disappears. We attribute this to the fact that at these high mobile ion densities, the ion concentrations at the TL interfaces are already large enough at t = 0 s to fully screen the field. The simulation results displayed here are for the case of only one mobile ionic species. In Figure <ref type="figure" target="#fig_0">S11</ref>, Supporting Information, results for the case were there are two types of mobile ion present are displayed. Overall, the experimentally measured timescales and carrier densities allow us to conclude that the collection losses of the current stem from the ionic movement in the perovskite causing a redistribution of the internal field, rather than from electronic doping.</p><p>In order to find out whether the loss mechanism described above is unique for tin-containing perovskites, or if it also occurs for other perovskite compositions or architectures, we investigated several different lead-based perovskite systems. Surprisingly, as shown in Figure <ref type="figure" target="#fig_4">5a</ref>, we observed that the exact same charge transport losses are indeed present for all other studied lead-based perovskites, including methyl ammonium lead triiodide, two triple cation perovskites (Cs 0.05 (FA x MA y ) 0.95 Pb(I x Br y ) 3 ), with different x/y ratios as well as for a triple cation perovskite in a nip-configuration based on TiO 2 and Spiro-OMeTAD. Further details of the device fabrication are presented in the Supporting Information. Also for these systems, as displayed in Figure <ref type="figure" target="#fig_4">5b</ref>, the transient current decay is accompanied by an increase in PL over time at 0 V, while the timescales of the current loss and deterioration in charge extraction efficiency corresponds to the timescales at which the ions move in the respective systems. Figure <ref type="figure" target="#fig_4">5c</ref> displays the effects of different scan speeds on the obtained short-circuit current confirming that the current at slow scan speeds is significantly lower than the "ion-free" J SC fast-scan speeds. This confirms that the finding that ionic charge movement is responsible for the observed current losses can be generalized beyond tin-based perovskites to lead halide perovskites. The formation of field-free regions in the perovskite bulk due to mobile ions is thus not only responsible for the JV hysteresis, but also for significant current and efficient losses under realistic operating conditions. The latter is shown in Figure <ref type="figure" target="#fig_4">5d</ref>, which highlights the MPP tracking of several devices with a high time resolution (≈10 ms). Each of these devices displays a quick initial decrease in maximum power output (which might be easily overlooked when tracking the device efficiency over longer times). We point out that light soaking has also shown to have an impact on ion migration and hysteresis. <ref type="bibr" target="#b54">[55]</ref> In order to distinguish between light soaking effects and the studied current losses, we have checked whether the scan-rate dependent hysteresis is reversible, or if there are permanent/light-induced changes in the device performance. Figure <ref type="figure" target="#fig_15">S12</ref>, Supporting Information shows that for the pin-type perovskite cells studied here, the current losses observed are not linked to light soaking induced changes in the device performance. However, on longer timescales, light soaking may have more pronounced effects. Finally, we note that we found the mobile-ion-induced  losses were overall quite similar in PbSn-and Pb-perovskite, hence we attribute the difference in the J SC loss in these two systems more to the difficulties in obtaining thicker active layers in PbSn-perovskites, which are required due to their lower absorption coefficient at the band edge. Nevertheless, preventing the fast-field screening and the corresponding current losses by minimizing the mobile ion density in all studied perovskites, would thus allow a significant improvement of the current in steady-state and in turn a substantial PCE improvement of between 1.5-3% absolute, even in our optimized devices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Conclusions</head><p>To summarize, we have demonstrated that the charge collection losses in mixed lead-tin perovskites are caused by an accumulation of electronic charge in the active layer due to a reduction in the charge extraction efficiency over the first few seconds of operation, which simultaneously increases the emitted PL from the device. Through a series of transient electronic measurements and numerical modeling, we identified this collection loss to be due to the presence of mobile ions in these systems which redistribute the internal field within the first few seconds of operation, rather than an recombination rate of photogenerated carriers with doping-induced background charges or increased defect densities. As far as we could assess in this work, doping of (non-oxidized) mixed lead-tin perovskite is not directly causing current losses through band flattening as the doping density is too low to screen the electric field. Going beyond mixed lead-tin systems, to lead-based perovskites, we show that the same process also occurs for a range of different mixed-ion lead-based perovskite solar cells. As with the low bandgap materials, we again find that the timescales of the current loss correspond to the timescales of ion motion in these different systems. Our findings demonstrate that even in what appear to be "hysteresisfree" perovskite solar cells at typical scan speeds (≈100 mV s -1 ), the role of mobile ions cannot be neglected, since they still have a large and negative impact on device performance. Considering that the ion-free current (measured at fast scan speeds) is typically ≈1.5 mA cm -2 larger, this constitutes a significant PCE loss.</p><p>In order to reduce charge collection losses both in mixed lead tin perovskites, but also in neat lead-based perovskites, it is important to gain further understanding of how to reduce the mobile ion density, or how to engineer the devices so that the charge collection is insensitive to the redistribution of the ions. This will then enable us to move closer to the radiative efficiency limit.</p><p>air from a 1:2 (PEDOT:PSS):methanol solution, that had been filtered using a 0.45 μm GMF filter. The PEDOT:PSS/methanol solution was spin-coated at 4000 rpm for 45 seconds at a ramp of 1500 rpm/s After 20 minutes annealing on a pre-heated hotplate at 150 °C, the films were transferred immediately to N 2 filled glovebox. solution (1-Material, 0.5 mg/ml in methanol) was deposited on top of the PTAA layer dynamically at 4000 rpm for 30 s resulting in a film with thickness below the detection limit of our AFM (&lt; 5 nm). No further annealing of the HTL took place after this.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Perovskite solutions:</head><p>The 1.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Perovskite film fabrication:</head><p>The mixed-metal FA 0.83 Cs 0.17 Pb 0.5 Sn 0.5 I3 perovskite films were deposited by spin-coating at 3000 rpm for 45 s with a ramp of 1000 rpm/s. 25 s after the start of the spinning process, the spinning substrate was washed with 200 µL anisole, which was deposited in the centre of the film. By the end of the spinning process, the perovskite films turned dark brown. The perovskite films were then annealed at 100 °C for 10 minutes on a preheated hotplate inside the N 2 filled glovebox. During the annealing process, the perovskite films turned black.</p><p>All triple cation perovskite films were prepared by depositing 120 μL and spin-coating at 4000 rpm for 400 s at a ramp of 1334 rpm/s. 10 s after the start of the spinning process, the spinning substrate was washed with 300 µL ethylacetate for approximately 1 s (the antisolvent was placed in the center of the film). We note, that by the end of the spinning process the perovskite film turned dark brown. The perovskite film was then annealed at 100 °C for 1 h on a preheated hotplate where the film turned slightly darker.</p><p>The MAPI solution (80 μL) was spin-coated at 1000 rpm for 5 s followed by 3000 rpm for 80 s. 100 μL toluene was added dropwise after 40 s to form a transparent perovskite film. After the spin-coating, the films were dried for 2 min in the glovebox at room temperature until the films changed their color from yellow to light brown. The MAPI perovskite layers were then subsequently annealed at 100 °C on a hotplate where the films turned black immediately.</p><p>For the Cs 0.15 FA 0.85 Pb(I 0.75 Br 0.25 ) 3 perovskite, a volume of 120 μL of the precursor solution was spin-coated at 4000 rpm (with a ramping rate of 1334 rpm/s) for 40 sec. After 10 seconds, the film is quenched by adding 300 μL of ethyl-acetate. Right afterward the film is annealed at 100 °C for 60 min inside the N 2 filled glovebox.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ETL and Top Contact:</head><p>After annealing, the samples were transferred to an evaporation chamber where fullerene C 60 (30 nm), 2,9-Dimethyl-4,7-diphenyl-1,10-phenanthroline BCP (8 nm) and copper (100 nm)</p><p>were deposited under vacuum (p = 10 -7 mbar). The overlap of the copper and the ITO electrodes defined the active area of the pixel (6 mm 2 ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device fabrication of nip-type cells:</head><p>Substrates:</p><p>Pre-patterned (2.5×2.5 cm 2 ) FTO substrates (Advanced Election Technology Co. Ltd., China)</p><p>were sonicated for 10 minutes subsequently in 2% Mucasol solution in deionized (DI) water (Schülke &amp; Mayr GmbH, Germany), acetone and isopropanol. After each sonication in Mucasol solution and acetone, the substrates were thoroughly rinsed with DI water. After sonication in isopropanol, the substrates were dried with a nitrogen gun and further cleaned using a UV-ozone cleaner for 20 minutes just before the deposition of the compact TiO 2 layer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Deposition of compact TiO 2 layer:</head><p>The compact TiO 2 layer was deposited by spray pyrolysis. The solution consisted of 0.72 ml titanium diisopropoxide bis(acetylacetonate) (75 wt.% in isopropanol, Sigma Aldrich) and 0.48 ml acetyl acetone (Sigma Aldrich) in 10.8 ml of ethanol. The sides of the substrates were covered with glass to ensure a direct contact to the FTO for the evaporated electrodes. After heating the substrates to 450 °C and letting the temperature stabilize for 15 min, the full volume of solution was sprayed with oxygen gas flow on 32 substrates (4 rows and 8 columns) by slowly moving over the substrates once every 30s in a distance of approximately 20 cm at an angle of approximately 45°. The substrates were then kept at 450 °C for 30 min and taken off the hot plate after cooling down to below 150 °C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Deposition of mesoporous TiO 2 layer:</head><p>The substrates with compact TiO 2 layer were cleaned using a UV-ozone cleaner for 15 minutes. TiO 2 paste (30NR-T, Greatcell Solar Materials Pty Ltd., Australia) was dissolved in ethanol with a weight ratio of 1:6. It was stirred overnight before spin-coating. The mesoporous TiO 2 layer was prepared by spin-coating 50 μl of the dispersion on the compact TiO 2 layer at a speed of 4000 rpm for 10 s with a ramp of 2000 rpm/s, followed by annealing at 100 °C for a minimum of 5 min. The substrates were then annealed on a hot plate programmed to hold a temperature of 125 °C for 5 min, 325 °C for 5 min, 375 °C for 5 min, and 450 °C for 30 min with 5 min ramping time between each temperature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LiTFSI-doping of mesoporous TiO 2 layer:</head><p>80 μl of a fresh solution consisting of bis(trifluoromethane)sulfonimide lithium salt (LiTFSI, 99.95 %; Sigma-Aldrich) in acetonitrile (10 mg/ml) were spin-coated on the mesoporous TiO 2 layer at a speed of 3000 rpm for 10 s with a ramp of 1000 rpm/s, followed by annealing at 100 °C for a minimum of 5 min. The substrates were then annealed on a hot plate using the same program as for the mesoporous TiO 2 layer. Both TiO 2 layers and the LiTFSI were deposited and annealed in a flow box in ambient air. The surface of the annealed film was finally cleaned using a UV-ozone cleaner for 15 minutes. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Perovskite film fabrication:</head><p>The perovskite layer was prepared by spreading 100 μl of perovskite solution on the substrate and then spinning it with one step of 3500 rpm for 35 s with 5 s acceleration time.</p><p>10 s before the end of the program, 300 μl of the anti-solvent Anisole was dripped on the film. The films were then annealed at 100 °C for 40 min.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HTL and Top Contact:</head><p>For the HTL solution, 36.15 mg of 2,2'7,7'-tetrakis(N,N-di-p-methoxyphenylamin)-9,9'spirobifluoren (Spiro-OMeTAD; Sigma Aldrich) were dissolved in 1 ml of Chlorobenzene. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Numerical drift-diffusion simulations:</head><p>The simulations were performed using Setfos 5.1.</p><p>Details of the parameters used can be found in Table <ref type="table" target="#tab_2">S1</ref> Figure <ref type="figure" target="#fig_0">S1</ref>. JV parameter and cell statistics for the studied PbSn-perovskites.      </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure S9.</head><p>The conductivity in 50/50 mixed-metal lead-tin perovskite, which can be used to estimate doping levels. The conductivity was found to be 9x10 -5 S/m, which, assuming a mobility of 1 cm 2 /Vs would correspond to a doping density of 5.6x10 14 cm -3 . The results of these 2-point-probe measurements were crosschecked against previously obtained 4-pointprobe conductivity measurements, and the values turned out to be consistent.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure S10.</head><p>Simulated JV curves for a mixed-metal lead-tin perovskite cell with different doping concentrations. It can be seen that doping density only starts to affect the performance of the device once the doping density becomes higher than the electrode charge per perovskite volume that creates the built-in field at 0V. These JV curves were simulated using SCAPS-1D, a software developed at the Department for Electronics and Information Systems (ELIS) at the university of Gent, Belgium. This software is freely available upon request to the developers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure S11</head><p>. Simulated current decay (a) and stabilized current (b) for a system with either electronic doping, mobile anions, or mobile anions + mobile cations. It can be seen that, though doping can cause a decrease in stabilized current with increasing concentration, it never leads to a transient current decay. In both cases where mobile ions were present, a current decay is observed. We note that the presence of a second mobile ion species seems to have a mitigating effect both on the temporal current decay observed, but also, importantly, on the reduction of the stabilized current. These simulations were carried out with SETFOS. Supplementary Table <ref type="table" target="#tab_2">S1</ref>, Setfos parameters as used throughout the paper. Vs measured with SCLC in ref. <ref type="bibr">[1]</ref> .</p><p>Hole mobility in PEDOT:PSS /Vs were measured for lead-tin perovskites in Ref. <ref type="bibr">[2]</ref> , lowered to account for grain grain boundaries In order to simulate interface effects, a 1 nm thick perovskite layer with a higher trap density is used at both perovskite -TL interfaces. Other parameters were kept the same as in the bulk perovskite</p><p>Electron trap density at perovskite interface with the ETL  Relative dielectric constant perovskite 40  Measured value from dark-CELIV.</p><p>Relative dielectric constant C 60 3.5 A relative permittivity of 5 was measured at lowest frequencies (1kHz) at 300 K, ref. [4]   Effective electron density of states in HTL Ref. [5]   Effective electron density of states in C 60 1x10 20 cm -3</p><p>Ref. [5]   Effective electron density of states in perovskite Assumed for lead-tin perovskite based on lead-based perovskite value in ref. [6]   Anion mobility in perovskite 5x10 Fit to experimental data</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. a) Comparison of short-circuit current losses in world-record Si, GaAs, Pb-, and PbSn-based perovskites (stars) taken from ref.[13,48,49], as compared to the perovskite cells studied in this work (filled circles). The graph was inspired by ref.[56] Generally, PbSn-perovskites have larger current losses compared to Pb-perovskites, including MAPbI 3 and several triple cation Cs 0.05 (FA x MA y ) 0.95 Pb(I x Br y ) 3 devices made from different (x:y) ratios of FAPbI 3 and MAPbBr 3 . b) A cross-sectional scanning electron microscopy image of a typical FA 0.83 Cs 0.17 Pb 0.5 Sn 0.5 I 3 perovskite pin-type solar cell device. c) Forward and reverse JV scan at a scan rate of 60 mV s -1 under AM1.5G illumination. d) Device absorption (1-reflectance) and external quantum efficiency spectra of a FA 0.83 Cs 0.17 Pb 0.5 Sn 0.5 I 3 perovskite pin-type solar cell, with a graphical representation of the different current losses that occur in the system. It can be seen that, besides parasitic absorption and optical losses that stem from the sample being too thin to absorb all the light, there are also significant charge collection losses.</figDesc><graphic coords="2,50.20,70.87,492.05,336.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. a) The measured (blue line) and simulated (dashed blue line) current decay of a FA 0.83 Cs 0.17 Pb 0.5 Sn 0.5 I 3 perovskite pin-type solar cell device after switching from open-circuit (OC) to short-circuit (SC) at t = 0 s as shown in the inset. b) The photoluminescence (PL) trace over the same time, taken while switching from OC to SC. c) The maximum height of the PL peak a function of time, where t = 0 is the moment where the bias of the device was switched from OC to SC. It can be seen that the PL is initially almost completely quenched, due to efficient charge extraction. However, it quickly comes back up again, indicating that the charge extraction is becoming less efficient and that photogenerated charges accumulate in the perovskite layer. d) The corresponding temporal evolution of the relative device efficiency loss under maximum power point tracking under AM1.5G illumination. e) A schematic representation of the band flattening that is presumably causing the decay in current upon switching to SC conditions. A more elaborate overview of the change in band structures can be found in Figure S4, Supporting Information. Comparing panels (a), (c), and (d) highlights that the decay of the current and the MPP happens on the same timescales as the PL increases.</figDesc><graphic coords="4,141.60,70.76,334.67,351.23" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3</head><label>3</label><figDesc>plots the short-circuit current density obtained as a function of scan speed range. At the fastest scan speeds (here, 1 ms per scan, or Adv. Energy Mater. 2021, 11, 2101447</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. a) Bias assisted charge extraction (BACE) measurement (solid line) upon a switch from open-circuit to short-circuit, including the associated change in the electrode charge (i.e., the capacitance-voltage product 6 × 10 15 cm -3 ) and the injected charge at open-circuit conditions (2 × 10 15 cm -3 ). The extraction of both electronic charge and ionic charge occurs at very different timescales, where the extraction of mobile ions coincides with the current decay observed in Figure 1. b) Current extraction by linearly increasing voltage (CELIV) measurements confirm the results from the BACE measurements,showing that electronic charge extraction occurs much faster than ionic charge, and that the latter occurs on timescales of ms. c) Photo-CELIV transients after a laser excitation with given photocarrier concentrations. The graph demonstrates that a (photogenerated) carrier density of about 1 × 10 15 cm -3 would create an initial bump in the transient response. Considering that the bump is absent in the dark measurement confirms that the doping-induced equilibrium carrier density is significantly lower than this threshold which is consistent with lateral conductivity measurements. d) Simulated stabilized current and current decay as a function of the mobile ion concentration (solid lines) and the doping concentration (dashed lines), respectively.</figDesc><graphic coords="6,50.20,70.87,492.05,337.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. a) Current decay upon switching from open-circuit (OC) to short-circuit (SC) at t = 0 s, depicted for devices from several different perovskite compositions including MAPbI 3 ("MAPI") and two triple cation Cs 0.05 (FA x MA y ) 0.95 Pb(I x Br y ) 3 devices made from different (x/y) ratios of FAPbI 3and MAPbBr 3 ("83/17" and "60/40") in a pin-structure, as well as one device with a FA 0.85 MA 0.15 Pb(I 0.85 Br 0.15 ) 3 perovskite in a nip-structure ("nip"). b) Analogously, to the mixed lead-tin devices, the current decay takes place on the same timescale as the increase in the PL after the initial quench. c) Short-circuit current as a function of scan-speed depicted for different compositions, d) the efficiency decay on short timescales as obtained through maximum power point measurements.</figDesc><graphic coords="8,50.20,70.87,492.05,369.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>For</head><label></label><figDesc>the pin-type Pb-based cells shown in the main text, 60 μL of PTAA (Poly-[bis-(4-phenyl)-(2,4,6-trimethylphenyl)-amin]) solution (Sigma-Aldrich, 1.75 mg/mL in toluene) was spincoated at 6000 rpm for 30 seconds with a ramp of 2000 rpm/s After 10 min annealing on a hotplate at 100 °C, the films were cooled down to room temperature. The estimated thickness of the PTAA layer is 8 nm. Thereafter, 60 µL of PFN-Br (Poly(9,9-bis(3'-(N,Ndimethyl)-N-ethylammoinium-propyl-2,7-fluorene)-alt-2,7-(9,9-dioctylfluorene))dibromide)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>) 3 .</head><label>3</label><figDesc>These 2 triple cation perovskites are respectively named 60/40 and 83/17 in the manuscript. The MAPI solution was prepared by dissolution of MAI powder (Dysol 1.3 M) with PbI 2 (TCI, 1.3 M) in a γ-butyrolactone/dimethyl sulfoxide mixed solvent (7:3 by volume), while stirring at 60 °C for 10 min.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Perovskite solutions: 1 . 5 M</head><label>15</label><figDesc>nominal PbI2 and PbBr2 stock solutions were prepared in DMF:DMSO = 4:1 volume and shaken overnight at 60 °C. PbI2 was added to FAI solution with 9 % PbI2 excess and PbB2 was added to MABr with 9 % PbBr2 excess. The resulting FAPbI3 and MAPbBr3 solutions were then mixed in 85:15 volume ratio. Finally, 5 vol-% of 1.5 M nominal CsI in DMSO was added to the perovskite precursor. The CsI stock solution was prepared one day before mixing.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>8 .</head><label>8</label><figDesc>Photoluminescence measurements (PL): Voltage dependent photoluminescence</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure S2 .</head><label>S2</label><figDesc>Figure S2. Absorption coefficient in PbSn and a Pb-based perovskite, e.g. 83-17 triple cation.</figDesc><graphic coords="21,141.65,350.49,311.79,244.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure S3 .</head><label>S3</label><figDesc>Figure S3. The absorbed current density as a function of perovskite layer thickness, as determined from transfer matrix simulations, taking into account parasitic absorption and reflection losses. The graph highlights that the optical losses can be minimised upon increasing the perovskite thickness. The symbols show the obtained J SC from the JVcharacteristic for cells with different thicknesses. While the collection losses are a more important problem in the devices with thicker active layers, in the main text we focus on the comparatively thin devices, with which we were able to achieve a higher efficiency.</figDesc><graphic coords="22,141.65,70.85,311.77,260.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure S4 .</head><label>S4</label><figDesc>Figure S4. Simulated band structures at V OC conditions (left), at J SC conditions right upon the switch to 0 V (middle), and at J sc conditions after stabilizing (right). While the mobile ions are</figDesc><graphic coords="22,70.85,509.30,451.30,194.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure S5 .</head><label>S5</label><figDesc>Figure S5. The PL peak height versus the observed current loss directly after the switch from open-circuit (OC) to short-circuit (SC), i.e. time = 0. The graph highlights an approximately linear relationship between the emitted PL and the total current loss, which shows that the radiative and non-radiative recombination losses increase proportionally, as the internal field is screened by the mobile ions.</figDesc><graphic coords="23,141.65,303.49,311.80,259.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure S6 .</head><label>S6</label><figDesc>Figure S6. The simulated current decay as function of mobile ion density upon switching from open-circuit to short-circuit using the software Setfos and the parameters in TableS1for different mobile ion densities. As highlighted in the main text, the best fit of the current decay Is found for a mobile ion density of 3.2x10 16 cm -3 , which matches roughly the charge density obtained in the charge extraction measurements (Figure4of the main text).</figDesc><graphic coords="24,70.85,70.85,454.71,250.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure S7 .Figure S8 .</head><label>S7S8</label><figDesc>Figure S7. The current transients and obtained charge carrier density from bias-assisted charge collection measurements in the dark, upon a switch from different prebiases around the Voc to 0 V. The contribution of the capacitative charge to the total extracted charge can be obtained by doing a reference measurement from 0 V to minus Voc. Subtracting the capacitive charge carrier density from the measured charge carrier density yields this the injected charge carrier density at the different prebiases as indicated on the top.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure S12 .</head><label>S12</label><figDesc>Figure S12. PCE as a function of scan speed for an '83/17' Pb-based perovskite solar cell. The JV scans were taken at different scans speeds, while the cell was left on the light in between the different scans. The total time to measure the scan rate dependent JV-curves takes about 15 minutes. In order to check whether light soaking effects could account for the current losses observed, the measurements were performed twice -once starting with the slowest scan speeds and scanning progressively faster, and once starting with the fastest scan speeds and scanning progressively slower. Similar current losses were observed in both scan directions, hence ruling out light soaking is the underlying cause for the observed changes in PCE.</figDesc><graphic coords="29,141.65,70.85,311.80,264.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="26,70.85,70.85,453.50,306.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="27,141.65,70.85,311.75,236.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="27,141.65,488.81,311.80,194.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="28,70.85,112.54,460.60,214.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 ,</head><label>1</label><figDesc>we obtain</figDesc><table /><note><p><p>Adv. Energy Mater. 2021,</p>11, 2101447   </p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 1 .</head><label>1</label><figDesc>Measured charge carrier concentrations from charge extraction measurements.</figDesc><table><row><cell>Charge</cell><cell>Charge concentration [cm -3 ]</cell></row><row><cell>Dark injected charge @ V OC</cell><cell>2 × 10 15</cell></row><row><cell>Electrode charge @ 0 V</cell><cell>6 × 10 15</cell></row><row><cell>Photogenerated charge @ 0 V, 1 sun</cell><cell>3 × 10 15</cell></row><row><cell>Doping density</cell><cell>6 × 10 14</cell></row><row><cell>Ionic charge</cell><cell>2 × 10 17</cell></row></table><note><p>Adv. Energy Mater. 2021, 11, 2101447 © 2021 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>MABr and PbBr 2 in DMF:DMSO (4:1 volume ratio) which contains a 10 %-molar excess of PbBr 2 . The solutions were stirred overnight at room temperature. By mixing these FAPbI 3 and MAPbBr 3 solutions in a ratio of 60:40 or 83:17 respectively, we get what we call "MAFA" solutions. Lastly, 42 of a 1.5 M CsI solution in DMSO was mixed with 958 L of each one of the MAFA solutions resulting in nominal triple cation perovskite stoichiometries of Cs 0.05 (FA 0.60 MA 0.40 ) 0.95 Pb(I 0.60 Br 0.40 ) 3 and Cs 0.05 (FA 0.83 MA 0.17 ) 0.95 Pb(I 0.83 Br 0.17</figDesc><table><row><cell>were stored and weighed in a N 2 -filled glovebox, to prevent contamination of the solution</cell></row><row><cell>with O 2 or H 2 O. The solution was stirred for 2 hours at room temperature. Finally, the</cell></row><row><cell>solution was filtered using a 0.45 μm PTFE filter.</cell></row><row><cell>The solutions for the lead-based perovskites layers were prepared as follows: 1.2 M FAPbI 3</cell></row></table><note><p>2 M mixed-metal lead-tin perovskite solutions were prepared by dissolving FAI, CsI, SnI 2 and PbI 2 , together with, relative to their respective metals, 6 molar % Pb(SCN) 2 and 10 molar &amp; SnF 2 in a 4:1 DMF:DMSO mixture. We note that all precursors used for this solution solution was prepared by dissolving FAI and PbI 2 in DMF:DMSO (4:1 volume ratio) which contains a 10%-molar excess of PbI 2 . The 1.2 M MAPbBr 3 solution was made by dissolving</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Adv. Energy Mater. 2021, 11, 2101447 16146840, 2021, 34, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/aenm.202101447 by University Of California, Wiley Online Library on [07/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2101447" xml:id="foot_1"><p>(4 of 10) © 2021 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>16146840, 2021, 34, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/aenm.202101447 by University Of California, Wiley Online Library on [07/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2101447" xml:id="foot_3"><p>(5 of 10) © 2021 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2101447" xml:id="foot_4"><p>(6 of 10) © 2021 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2101447" xml:id="foot_5"><p>(7 of 10) © 2021 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2101447" xml:id="foot_6"><p>(9 of 10) © 2021 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH Adv. Energy Mater. 2021, 11, 2101447</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2101447" xml:id="foot_7"><p>(10 of 10) © 2021 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH Adv. Energy Mater. 2021, 11, 2101447</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors acknowledge funding from the <rs type="funder">Deutsche Forschungsgemeinschaft (DFG, German Research Foundation</rs>) within the <rs type="programName">SPP 2196</rs> (<rs type="grantNumber">HIPSTER 424709669</rs> and <rs type="grantNumber">SURPRISE 423749265</rs>). The authors further acknowledge financial support by the <rs type="funder">Federal Ministry for Economic Affairs and Energy</rs> within the framework of the <rs type="programName">7th Energy Research Programme</rs> (<rs type="grantNumber">P3T-HOPE, 03EE1017C</rs>) and HyPerCells (a joint graduate school of the Potsdam University and the <rs type="institution">Helmholtz Zentrum Berlin</rs>). This work was partly funded by <rs type="funder">EPSRC</rs>, project number <rs type="grantNumber">EP/ S004947/1</rs>. F.L. acknowledges financial support from the <rs type="funder">Alexander Von Humboldt Foundation</rs> via the <rs type="programName">Feodor Lynen program</rs>. M.G., S.A., and D.N. acknowledge funding from the <rs type="funder">Helmholtz Association via HI-SCORE</rs> (<rs type="projectName">Helmholtz International Research School</rs>).</p><p>Open access funding enabled and organized by <rs type="person">Projekt DEAL</rs>.</p></div>
+			</div>
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The ORCID identification number(s) for the author(s) of this article can be found under <ref type="url" target="https://doi.org/10.1002/aenm.202101447">https://doi.org/10.1002/aenm.202101447</ref>.</p></div>
+			</div>
+
+
+			<listOrg type="funding">
+				<org type="funding" xml:id="_bycTezv">
+					<idno type="grant-number">HIPSTER 424709669</idno>
+					<orgName type="program" subtype="full">SPP 2196</orgName>
+				</org>
+				<org type="funding" xml:id="_Sfhc6gr">
+					<idno type="grant-number">SURPRISE 423749265</idno>
+					<orgName type="program" subtype="full">7th Energy Research Programme</orgName>
+				</org>
+				<org type="funding" xml:id="_FBuRDZA">
+					<idno type="grant-number">P3T-HOPE, 03EE1017C</idno>
+				</org>
+				<org type="funding" xml:id="_cuByzzY">
+					<idno type="grant-number">EP/ S004947/1</idno>
+					<orgName type="program" subtype="full">Feodor Lynen program</orgName>
+				</org>
+				<org type="funded-project" xml:id="_JPN8exQ">
+					<orgName type="project" subtype="full">Helmholtz International Research School</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement</head><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>Supporting Information is available from the Wiley Online Library or from the author. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of Interest</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Universal current losses in perovskite solar cells due to mobile ions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device fabrication of pin-type cells:</head><p>Substrates and HTL: Pre-patterned (2.5×2.5 cm 2 , 15 Ω/sq) ITO substrates (Psiotec, UK) were sonicated for 10 minutes subsequently in acetone, 3% Hellmanex solution in deionized (DI) water, DI-water and isopropanol in order to clean them. After an oxygen plasma treatment (4 min, 120 W), the substates for the mixed-metal lead-tin perovskite devices were transferred to a laminar flow bench, while the other substrates were transferred to a N 2 -filled glovebox.</p><p>For the mixed-metal pin-type cells shown in the main text, a PEDOT:PSS (poly(3,4ethylenedioxythiophene) polystyrene sulfonate) (Heraeus, AL3083) layer was spin-coated in stock solution (520 mg/ml in acetonitrile), 14.6 μl of a tris(bis(trifluoromethylsulfonyl)imide) (FK209, Dyenamo) stock solution (300 mg/ml in acetonitrile), and 14.4μl of 4-tert-butylpyridine (Sigma-Aldrich) were added as dopants. 70 µl of the Spiro-OMeTAD solution containing the doping agents was spin-coated onto the spinning samples at a speed of 1800 rpm for 30 s to form 150 nm thick layers. After spin-coating, the samples were stored in a dry air box overnight at a relative humidity below 0.3 %. The next day, the samples were transferred to an evaporation chamber where 80 nm of gold was deposited under vacuum (p = 10 -6 mbar). The overlap of the gold electrodes and the FTO defined the active area of the pixel (18 mm 2 ).</p><p>Both the perovskite and Spiro-OMeTAD layers were spin-coated and annealed in a glove box under nitrogen atmosphere using a Braun SC-210 spin coater.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Current density-voltage characteristics:</head><p>-curves were obtained in a 2-wire source-sense configuration with a Keithley 2400. An Oriel class AAA Xenon lamp-based sun simulator was used for illumination providing approximately 100 mW cm -2 of AM1.5G irradiation and the intensity was monitored simultaneously with a Si photodiode. The exact illumination intensity was used for efficiency calculations, and the simulator was calibrated with a KG3 filtered silicon solar cell (certified by Fraunhofer ISE). For measurements on the low-bandgap devices, the calibration was cross-checked with a HOQ filtered silicon solar cell (certified by Fraunhofer ISE). The obtained short-circuit current density ( ) is checked by integrating the product of the External Quantum Efficiency and the solar spectrum which matches the obtained within less than 5%. The temperature of the cell was fixed to 25 °C and a voltage ramp (scan rate) of 67 mV/s was used.</p><p>Fast-hysteresis measurements: Fast -curves were obtained by applying a triangular voltage pulse to the cells by holding the cells at the open-circuit voltage for several seconds,</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Teshima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shirai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="page">6050</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leijtens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Bush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Prasanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Mcmeekin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Volonakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Milot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Palmstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Slotcavage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Belisle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Parrott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Sutton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Moghadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Conings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Babayigit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Boyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Giustino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mcgehee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page">861</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><surname>Nrel</surname></persName>
+		</author>
+		<ptr target="https://www.nrel.gov/pv/cell-efficiency.html" />
+	</analytic>
+	<monogr>
+		<title level="j">NREL Best Research-Cell Efficiency Chart</title>
+		<imprint>
+			<date type="published" when="2021-04">April 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Stoumpos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Malliakas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kanatzidis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inorg. Chem</title>
+		<imprint>
+			<biblScope unit="page">9019</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Stoumpos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kanatzidis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="page">8094</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jošt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kegelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lipovšek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krč</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Korte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Topič</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Photonics</title>
+		<imprint>
+			<date type="published" when="1232">2017, 4, 1232</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Martínez-Denegri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Colodrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Toudert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kozyreff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Martorell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Opt. Mater</title>
+		<imprint>
+			<date type="published" when="2019">2019, 7, 1900018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nanoscale</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">6290</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Tavakoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Tsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Fan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">10287</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">W</forename><surname>Paetzold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Finger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Poortmans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cheyns</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="page">173101</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Stoumpos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kanatzidis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">489</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Noel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wehrenfennig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guarnera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-A</forename><surname>Haghighirad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sadhanala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Pathak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petrozza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">3061</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Saidaminov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Sargent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">864</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Yeddu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Saidaminov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Sargent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Huh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Kwak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019, 3, 2179</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">U</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Seok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page">749</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D G I</forename><surname>Jayawardena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M I</forename><surname>Bandara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Monti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Butler-Caddle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pichler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shiozawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jenatsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hinder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Masteghin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Thirimanne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sporea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lloyd-Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R P</forename><surname>Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">693</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Klug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Milot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Milot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Sansom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Farrar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ramadan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Martani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wenger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Langshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petrozza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1776</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sol. Energy</title>
+		<imprint>
+			<biblScope unit="volume">201</biblScope>
+			<biblScope unit="page">589</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Chueh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K Y</forename><surname>Jen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">1701053</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<date type="published" when="2016">2016, 4, 17104</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dharani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Leong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Boix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Prabhakar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Baikie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Asta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graetzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Mhaisalkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mathews</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">7122</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Saidaminov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Spanopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Abed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wicks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kanatzidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Sargent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<date type="published" when="1153">2020, 5, 1153</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Inabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Solid State Chem</title>
+		<imprint>
+			<biblScope unit="page">39</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Seok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Seo, ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">46</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Milot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Klug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kraus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">1804506</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Bowman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Klug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A S</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Farrar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Senanayak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wenger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Divitini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Booker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Andaji-Garmaroudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Macpherson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ruggeri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sirringhaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<date type="published" when="2019">2019, 4, 2301</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Habisreutinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Rudd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Beard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">4498</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Noel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wehrenfennig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guarnera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Haghighirad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sadhanala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Pathak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petrozza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">3061</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Portale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-H</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Blake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Brink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J A</forename><surname>Koster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Loi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1702019</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Savill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Ulatowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Farrar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<date type="published" when="2020">2020. 2005594</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Sci</title>
+		<imprint>
+			<date type="published" when="2020">2020, 7, 1903540</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Belisle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Bowring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Calado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J C</forename><surname>Irvine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mcgehee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R F</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>O'regan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">192</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bertoluzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Belisle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Bush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cheacharoen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mcgehee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>O'regan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="page">12775</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bertoluzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rolston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Prasanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>O'regan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mcgehee</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">Joule 2020, 4, 109</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Futscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mcgovern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Muscarella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Haider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fakharuddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schmidt-Mende</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ehrler</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mater</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Horiz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1497">2019, 6, 1497</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leijtens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Prasanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gold-Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Toney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mcgehee</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017, 2, 2159</date>
+		</imprint>
+		<respStmt>
+			<orgName>ACS Energy Lett</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Herterich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Unmüssig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Loukeris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kohlstädt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Würfel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Technol</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<date>2001104</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Reenen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kemerink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">3808</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Leijtens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mcmeekin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Bastiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petrozza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mater</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">315</biblScope>
+		</imprint>
+	</monogr>
+	<note>Horiz. 2015, 2</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Marinova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">995</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Khenkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Anoop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Katz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Visoly-Fisher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">550</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Walters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Sargent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. C</title>
+		<imprint>
+			<biblScope unit="page">14517</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tumen-Ulzii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Klotz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsushima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Adachi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">33004</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Senanayak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Giesbrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Goedel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Moya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Mcneill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Docampo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sadhanala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Friend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sirringhaus</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Sci. Adv. 2017, 3, e1601935</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zeng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1801460</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Burkhard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Hoke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mcgehee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">3293</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Dunlop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hohl-Ebinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yoshita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kopidakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Prog</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">629</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Yoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rotermund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Correa-Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bulović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Bawendi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">590</biblScope>
+			<biblScope unit="page">587</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Le Corre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feuerstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caprioglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J A</forename><surname>Koster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Energy</forename><surname>Acs</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Lett</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019, 4, 2887</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caprioglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Márquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nordmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rothhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Hörmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Amir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Redinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kegelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kirchartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Unold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">2778</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Diekmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caprioglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Futscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Le Corre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reichert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jaiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arvind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Perdigón</forename><surname>Toro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gutierrez-Partida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Peña-Camargo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Deibel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ehrler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Unold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kirchartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sol</forename></persName>
+		</author>
+		<idno type="DOI">10.1002/solr.202100219</idno>
+		<ptr target="https://doi.org/10.1002/solr.202100219" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Juška</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Arlauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Viliunas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kočka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page">4946</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Amir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paulke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perdigón-Toro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caprioglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1530</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F J</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ho-Baillie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Energy</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">356</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Polman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Garnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ehrler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Sinke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">307</biblScope>
+			<biblScope unit="page">352</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Jarla</forename><surname>Thiesbrummel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vincent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francisco</forename><surname>Le Corre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lorena</forename><surname>Peña-Camargo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Felix</forename><surname>Perdigón-Toro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fengjiu</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Max</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emilio</forename><surname>Grischek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><surname>Gutierrez-Partida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">D</forename><surname>Warby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Suhas</forename><surname>Farrar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pietro</forename><surname>Mahesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steve</forename><surname>Caprioglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dieter</forename><surname>Albrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Henry</forename><forename type="middle">J</forename><surname>Neher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">*</forename><surname>Snaith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Stolterfoht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">* Jarla</forename><surname>Thiesbrummel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">D</forename><surname>Farrar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dr</forename><surname>Suhas Mahesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dr</forename><forename type="middle">Pietro</forename><surname>Caprioglio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prof. Dr. Henry J. Snaith Clarendon Laboratory</title>
+		<imprint/>
+		<respStmt>
+			<orgName>University of Oxford, Parks Road</orgName>
+		</respStmt>
+	</monogr>
+	<note>Oxford OX1 3PU, United Kingdom E-mail: henry.snaith@physics.ox.ac.uk</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><surname>Dr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vincent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francisco</forename><surname>Le Corre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lorena</forename><surname>Peña-Camargo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dr</forename><forename type="middle">Felix</forename><surname>Perdigón-Toro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emilio</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dr</forename><surname>Gutierrez-Partida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Prof</forename><surname>Jonathan Warby</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Dr</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Dieter Neher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dr. Martin Stolterfoht Institute of Physics and Astronomy</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">25</biblScope>
+			<pubPlace>Germany</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of Potsdam, Karl-Liebknecht-Str</orgName>
+		</respStmt>
+	</monogr>
+	<note>D-14476 Potsdam-Golm</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">Steve Albrecht Young Investigator Group Perovskite Tandem Solar Cells</title>
+		<author>
+			<persName><forename type="first">E-Mail</forename></persName>
+		</author>
+		<editor>stolterf@uni-potsdam.de Dr. Fengjiu Yang, Max Grischek, Prof. Dr</editor>
+		<imprint>
+			<publisher>Helmholtz-Zentrum Berlin</publisher>
+			<biblScope unit="page">12489</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Germany</forename><surname>Berlin</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Supplementary References</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mendil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Daoudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Berkai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Belghachi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics: Conference Series</title>
+		<imprint>
+			<biblScope unit="volume">647</biblScope>
+			<biblScope unit="page">12057</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Klug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Milot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Milot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Sansom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Farrar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ramadan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Martani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wenger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Langshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petrozza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy and Environmental Science</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1776</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Torabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jahani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Van Severen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kanimozhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Patil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W A</forename><surname>Havenith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Chiechi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lutsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J M</forename><surname>Vanderzande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Cleij</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Hummelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J A</forename><surname>Koster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Functional Materials</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">150</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mathias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Testardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Seger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schlenoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Superconductivity</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">207</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tessler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Vaynzof</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Energy</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1260">Letters 2020, 5, 1260</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Staub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hempel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Hebig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">W</forename><surname>Paetzold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Rau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Unold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kirchartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Applied</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

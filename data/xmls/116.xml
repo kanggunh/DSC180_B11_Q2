@@ -1,0 +1,3206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Supplementary Materials for Stable perovskite solar cells with efficiency exceeding 24.8% and 0.3-V voltage loss</title>
+				<funder ref="#_hKkAPkR #_93tgY38">
+					<orgName type="full">Korea Institute of Energy Research</orgName>
+					<orgName type="abbreviated">KIER</orgName>
+				</funder>
+				<funder ref="#_2sz4XZJ">
+					<orgName type="full">Ulsan City</orgName>
+				</funder>
+				<funder ref="#_7qpwy55">
+					<orgName type="full">Korea government (MSIP)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NRF</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Korea government (MOTIE)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Korea Institute of Energy Technology Evaluation and Planning</orgName>
+					<orgName type="abbreviated">KETEP</orgName>
+				</funder>
+				<funder ref="#_7tfxFZ7 #_89J3jXZ">
+					<orgName type="full">Ministry of Science and ICT as Global Frontier Project</orgName>
+				</funder>
+				<funder ref="#_SWsWTMm">
+					<orgName type="full">Wearable platform Materials Technology Center</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Research Foundation of Korea</orgName>
+					<orgName type="abbreviated">NRF</orgName>
+				</funder>
+				<funder ref="#_3zFBypD">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Korean Government (MSIT)</orgName>
+				</funder>
+				<funder ref="#_AQkpwPd">
+					<orgName type="full">UNIST (Ulsan National Institute of Science and Technology)</orgName>
+				</funder>
+				<funder ref="#_nN2BBJP">
+					<orgName type="full">Ministry of Science, ICT, and Future Planning</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-09-25">25 September 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mingyu</forename><surname>Jeong</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">In</forename><forename type="middle">Woo</forename><surname>Choi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Eun</forename><forename type="middle">Min</forename><surname>Go</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yongjoon</forename><surname>Cho</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Minjin</forename><surname>Kim</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Byongkyu</forename><surname>Lee</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Seonghun</forename><surname>Jeong</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yimhyun</forename><surname>Jo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Hye</forename><forename type="middle">Won</forename><surname>Choi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jiyun</forename><surname>Lee</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jin-Hyuk</forename><surname>Bae</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sang</forename><forename type="middle">Kyu</forename><surname>Kwak</surname></persName>
+							<email>skkwak@unist.ac.kr</email>
+						</author>
+						<author>
+							<persName><forename type="first">Dong</forename><forename type="middle">Suk</forename><surname>Kim</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Changduk</forename><surname>Yang</surname></persName>
+							<email>yang@unist.ac.kr</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Energy Engineering</orgName>
+								<orgName type="department" key="dep2">School of Energy and Chemical Engineering</orgName>
+								<orgName type="department" key="dep3">Low Dimensional Carbon Materials Center</orgName>
+								<orgName type="institution" key="instit1">Perovtronics Research Center</orgName>
+								<orgName type="institution" key="instit2">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>Ulju-gun</addrLine>
+									<postCode>44919</postCode>
+									<country>Ulsan Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Ulsan Advanced Energy Technology R&amp;D Center</orgName>
+								<orgName type="institution" key="instit2">Korea Institute of Energy Research</orgName>
+								<address>
+									<addrLine>Nam-gu</addrLine>
+									<postCode>44776</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">School of Electronics Engineering</orgName>
+								<orgName type="institution">Kyungpook National University</orgName>
+								<address>
+									<postCode>41566</postCode>
+									<settlement>Daegu</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Energy Engineering</orgName>
+								<orgName type="department" key="dep2">School of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>Ulsan 44919</addrLine>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Supplementary Materials for Stable perovskite solar cells with efficiency exceeding 24.8% and 0.3-V voltage loss</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-09-25">25 September 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5A07875CC81E2C70888993E7B6A111AD</idno>
+					<idno type="DOI">10.1126/science.abb7167</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T17:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head><p>Materials and Measurements: All starting materials and reagents were purchased from Sigma-Aldrich, Alfa Aesar Chemical Company, and Tokyo Chemical Industry Co., Ltd. and used without any further purification. All solvents were ACS and anhydrous grade by distillation. Reference material Spiro-OMeTAD [2,2',7,7'-tetrakis(N,N-di-p-methoxyphenylamine)-9,9'spirobifluorene] was purchased from Lumtech Inc. Elementary analyses were carried out with a Flash 2000 element analyzer (Thermo Scientific). 1 H NMR spectra were recorded on a Varian VNRS 400 MHz spectrometer using deuterated dimethyl sulfoxide (DMSO-d6) as solvent at 300 K. 13 C NMR spectra were recorded on a VNMRS 600 (Agilent, USA) spectrophotometer using DMSO-d6 as the solvent. Ultraviolet-visible absorption (UV-Vis) spectra were recorded on a UV-1800 (SHIMADZU) spectrophotometer. Cyclic voltammetry (CV) measurements were performed on an AMETEK Versa STAT 3 with a three-electrode cell system in a nitrogen bubbled 0.1 M tetra-n-butylammonium hexafluorophosphate (n-Bu4NPF6) solution in dichloromethane at a scan rate of 100 mV -1 s -1 at room temperature. An Ag/Ag + electrode, platinum wire, and glassy carbon electrode were used as the reference electrode, counter electrode, and working electrode, respectively. The Ag/Ag + reference electrode was calibrated using a ferrocene/ferrocenium redox couple as an internal standard whose oxidation potential was set at -5.1 eV with respect to the zero-vacuum level. The HOMO energy levels of the HTMs were obtained from the equation HOMO (eV) = -(E(ox) onset -E(ferrocene) onset + 5.1) and LUMO levels from the equation LUMO (eV) = HOMO + Eg opt . Differential scanning calorimetry analyses were performed by simultaneous DSC instrument (TA Instruments, USA) at a heating rate of 5.0 °C min -1 . The structures of perovskite films were analyzed using X-ray diffractometry (XRD) using a D8 Advance (Bruker) diffractometer equipped with Cu Kα radiation (λ = 0.1542 nm). Steady-state photoluminescence (PL) and time-resolved PL (TRPL) measurements were conducted using PicoQuant FluoTime 300 (PicoQuant GmbH, Germany) equipped with a PDL 820 laser pulse driver. A pulsed laser diode (λ = 375 nm, pulse FWHM &lt;70 ps, repetition rate 200 kHz -40 MHz) was used to excite the sample.</p><p>The solar cells were measured using a solar simulator (McScience, K3000 Lab solar cell I-V measurement system, Class AAA) at 100 mA cm -2 , illumination AM 1.5 G. The light intensity was calibrated using a Si-reference cell certified by NREL before taking measurements. No light soaking was applied before the potential scan. The J-V curves were measured using a reverse scan (from a forward bias (1.2 V) to short circuit (0 V)) and a forward scan (from a forward bias (0 V) to short circuit (1.2 V)). The step voltage was fixed at 100 mV. The cells were masked using a metal mask in order to limit the active cell area 0.0819 cm 2 for small-area devices and 1 cm 2 for large-area devices. External quantum efficiency (EQE) was measured by QuantX 300 (ORIEL). The stability test was conducted without encapsulation. The stability test was performed at 25 °C. The contact angles of all the HTMs were obtained using the Phoenix 300 Model instrument. The hole mobilities were measured via using the space chargelimited current method. Device structures were ITO/PEDOT:PSS/perovskite layer/HTM/Au for hole-only devices. The electrical conductivity of each HTM doped with optimal amount of dopant additives was determined by MMVC3 (MSTECH). The HTM films were coated on the cleaned glass substrates by spin-coated with a film thickness 280 nm. After HTM films spin coating on cleaned glass substrates, the gold electrodes were deposited by thermal evaporator system with a channel length and width of 150 µm and 800 µm, respectively. The two probe method was used to measure the electrical conductivity with a Keithley 2000. The electrochemical impedance spectroscopy (EIS) of each optimized HTM-based full cell was determined by VSP-300 (Bio Logic). The Nyquist plots of the impedance spectra at the frequency range of 1 MHz to 1 Hz with a bias voltage of -1.0 V and amplitude 50 mV. External electroluminescence quantum efficiency (EL-EQE) measurement was performed by applying external voltage/current sources through the devices (ELCT-3010, Enlitech). All devices were prepared for EL-EQE measurement according to the optimized device fabrication conditions. Non-radiative voltage loss was calculated from EL-EQE by following equation <ref type="bibr" target="#b47">(48)</ref>: Synthesis of DPA-oF: DPA-oF was synthesized through same procedure with DPA-mF and 4bromo-3-fluoro-1-methoxybenzene was used. Greenish liquid (4.9 g, 81.3% yield). </p><formula xml:id="formula_0">𝛥𝛥𝛥𝛥 𝑂𝑂𝑂𝑂 𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛 = 𝑘𝑘𝑘𝑘 𝑒𝑒 𝑙𝑙𝑙𝑙</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Synthesis of Spiro-mF:</head><p>To a two-necked round-bottomed flask, 2,2',7,7'-tetrabromo-9,9'spirobifluorene (500 mg, 0.79 mmol), DPA-mF (840.7 mg, 3.40 mmol), tri-tertbutylphosphonium tetrafluoroborate (13.8 mg, 0.047 mmol), and sodium tert-butoxide (456.5 mg, 4.75 mmol) were dissolved in anhydrous toluene (40 mL) and purged with argon for 15 min. Then, 28.9 mg of tris(dibenzylideneacetone)dipalladium(0) (0.032 mmol) were added to reaction mixture, then purged again with argon for 20 min. After that, the reaction mixture was stirred at 120 °C overnight. Water was added to quench the reaction, then the mixture was extracted with ethyl acetate. Combined organic layer was dried with anhydrous MgSO4 and solvent was removed under reduced pressure. The crude products were purified by a silica gel column chromatography using hexane/ethyl acetate (2:1, v/v) as an eluent to obtain the Spiro-mF as a solid. Resulting solid was dissolved in THF and mixed with hydrazine hydrate. After vigorous stirring, the solution was precipitated into methanol (200 mL), filtered and washed with methanol. Dried under high vacuum oven to afford a desired product Spiro-mF as a light yellow solid (550 mg, 53.7% yield). Fabrication of perovskite solar cells: FTO glass (Asahi) was cleaned using the RCA-2 (H2O2/HCl/H2O = 1:1:5) procedure for 15 min in ultrasonic system to make clean surface. Then the FTO was further cleaned sequentially with acetone and isopropyl alcohol (IPA) for 15 min. The compact TiO2 (c-TiO2) layer was deposited on FTO substrates with spray pyrolysis at 450 °C. 70 mL of a titanium diisopropoxide bis(acetylacetonate)/ethanol (1:10 v/v) solution were deposited by spraying. After completing c-TiO2 layer, the substrates were stored at 450 °C for 1 h to improve the electrical properties. After then, a mesoporous TiO2 (mp-TiO2) layer was deposited by spin-coating. The TiO2 paste, approximately 50 nm size of TiO2 (ShareChem), was spin-coated at the c-TiO2 layer. The paste was diluted with 1:6 (g/g) with 2methoxyethanol/terpineol (78:22 w/w). The prepared substrates were one more heated at 500 °C for 1 h to remove pastes. For Li treatment of mp-TiO2 substrate, 0.1 M of lithium bis(trifluoromethanesulfonyl)imide (Li-TFSI) solution with acetonitrile was spin-coated at 3000 rpm for 30 s. Thereafter, Li-treated substrates were subjected to second sintering step at 500 °C for 1 h. To make perovskite solar cells, 1,550 mg mL -1 FAPbI3 and 61 mg MACl were dissolved in a mixture of DMF and DMSO in a 4:1 ratio by volume. For each sample, 70 µL of the filtered solution were spread on mp-TiO2 layer at 8000 rpm. During spin-coating, 1 mL diethyl ether was dropped after spinning for 10 s using a home-made pipette. The film was annealed on a hot plate at 150 °C for 10 min. After cooling the substrate, the 20 mM of noctylammonium iodide was spin-coated on the perovskite layer with 3000 rpm and the film was heated at 100 °C for 1 min. The hole transfer materials were deposited by preparing Spiro-OMeTAD (Lumtech) in chlorobenzene (90.9 mg mL -1 ) and mixing with 39 µL 4-tertbutylpyridine (tBP), 23 µL Li-TFSI (516 mg mL -1 acetonitrile), and 10 µL tris[2-(1H-pyrazol-1-yl)-4-tert-butylpyridine]-cobalt(III)-tris[bis-(trifluoromethylsulfonyl)imide] (FK209, Lumtech) (395 mg mL -1 acetonitrile). In case of Spiro-mF and Spiro-oF (90.9 mg mL -1 ), 15~32 µL of Li-TFSI, 39 µL of tBP, and 10 µL of FK209 were added. To dissolve the Spiro-oF, after adding tBP, Spiro-oF solution was heated at 70 °C for 30 min and after cooling, Li-TFSI and FK209 were added. Finally, a gold counter electrode was deposited on the substrate using a thermal evaporation system. The back and front contacts were formed from 70 nm thick Au films deposited by vapor deposition at a pressure of 10 -6 Torr.</p><p>Simulation details: DFT calculation was performed to find optimal molecular structures of HTMs. Each Spiro-OMeTAD, Spiro-mF, and Spiro-oF was used, respectively, and averaged frontier orbital energies (i.e., HOMO and LUMO) were calculated from five independent structures for each HTM. Generalized gradient approximation (GGA) with Perdew-Burke-Ernzerhof (PBE) functional <ref type="bibr" target="#b48">(49)</ref> was used. Semi-empirical dispersion-correction by Tkatchenko and Scheffler's scheme <ref type="bibr" target="#b49">(50)</ref> and spin-polarized calculations with the DNP 4.4 basis set were included for this calculation. The convergence criteria for the geometry optimization were 1.0 × 10 -5 Ha for energy, 0.002 Ha/Å for force, and 0.005 Å for displacement, respectively. MD simulation was performed for observing the adsorption of HTMs on perovskite surface. We used (0 0 1) plane for FAPbI3 surface model for the perovskite, which was following A. Torres. et al.'s work <ref type="bibr" target="#b50">(51)</ref>. On the surface, noctylammonium iodide was randomly distributed in the pore of FAPbI3 structure. Universal force field and Mulliken charge <ref type="bibr" target="#b51">(52)</ref>, which was obtained from the DFT optimization, was used for perovskite and HTMs. Surface model had box size of 45.7 × 44.9 × 150 Å 3 and the thickness of surface was 20 Å. Bulk HTMs, including 24 molecules, respectively, were randomly adsorbed on the perovskite surface during the simulation. NVT (i.e., isothermal) simulation was performed for 500 ps at 400 K and for 4 ns at 300 K, respectively. The time step was 1 fs and the Berendsen thermostat was applied to control the temperature. RDF, angle distribution, relative concentration, and Rcte were analyzed with the trajectories of final 500 ps.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Text 1. Device performance reproducibility test</head><p>The factors affecting the reproducibility of device performances are significantly affected by the film quality of perovskite and HTM layers. In order to improve accuracy and reproducibility of the device performance metrics, the device fabrication is carefully produced under the same environments with an accurate control of 25 o C temperature and below 30% RH levels as well as exclusion of strong light and oxygen. To elucidate the reproducibility of the device performances reported in this study, we cross-checked the PSC performances of the bestperforming 5 individual devices for each type of PSCs and calculated the average values of the hysteresis index (HI) in additional Table <ref type="table" target="#tab_5">S3</ref>, showing lower HI levels.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Text 2. Relationship between Rcte and hole mobility</head><p>Molecular structure of Spiro-mF with large Rcte induced the favorable adsorption structure on the perovskite (Fig. <ref type="figure" target="#fig_22">S24A</ref>). However, one should be careful when comparing the hole mobility between HTMs with different elements when considering Rcte with hole mobility. In case of Spiro-OMeTAD, the Rcte was 6.44 Å, which was longer than that of Spiro-oF. However, two neighboring methoxyphenyl groups in Spiro-OMeTAD are adsorbed on the perovskite surface in a vertical direction, resulting in the little contact of the spirobifluorene groups on the surface (Fig. <ref type="figure" target="#fig_22">S24B</ref>). To this end, the device performance of isomer HTM can be approximately compared by Rcte values, but for the comparison between HTM molecules with different constituent elements, the adsorption structure on the perovskite surface should be simultaneously considered.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Text 3. Relationship between hole transfer integral and hole mobility</head><p>Hole mobility (µ) is determined with the distance of charge carrier sites (d) and hole transfer rate (ket). According to Marcus theory, the hole transfer rate is related with hole transfer integral, which represents the electron coupling, and it is expressed as follows <ref type="bibr" target="#b52">(53)</ref>, 2  (Eq. S2)</p><formula xml:id="formula_1">𝜇𝜇 = 𝑒𝑒 𝑘𝑘 𝐵𝐵 𝑘𝑘 𝑘𝑘 𝑒𝑒𝑒𝑒 𝑑𝑑</formula><formula xml:id="formula_2">𝑘𝑘 𝑒𝑒𝑒𝑒 = 2𝜋𝜋 ℏ 1 �4𝜋𝜋𝜋𝜋𝑘𝑘 𝐵𝐵 𝑘𝑘 𝑡𝑡 2 exp (- 𝜋𝜋 4𝑘𝑘 𝐵𝐵 𝑘𝑘 ) (Eq. S3)</formula><p>where kB, e, T, 𝜆𝜆, t and ℏ represent Boltzmann constant, elementary charge, temperature, reorganization energy, hole transfer integral, and Planck constant, respectively. From the simulation results, we found that the hole mobility can be approximately predicted by observing the molecular structure of isomer HTMs and the adsorption behavior on the perovskite surface. For more accurate prediction of the tendency of hole mobility for HTMs with different elements, however, the hole transfer integral should be necessarily considered.</p><p>For the DFT calculation and MD simulation, DMol 3 <ref type="bibr" target="#b53">(54,</ref><ref type="bibr" target="#b54">55)</ref> and Forcite program (56) were used, respectively.                  Table <ref type="table">S4</ref>. Photovoltaic parameters of PSCs fabricated using Spiro-mF with adjustment of Li-TFSI.</p><p>Li-TFSI (μL)             Further improvement and stabilization of perovskite solar cell (PSC) performance are essential to achieve the commercial viability of next-generation photovoltaics. Considering the benefits of fluorination to conjugated materials for energy levels, hydrophobicity, and noncovalent interactions, two fluorinated isomeric analogs of the well-known hole-transporting material (HTM) Spiro-OMeTAD are developed and used as HTMs in PSCs. The structure-property relationship induced by constitutional isomerism is investigated through experimental, atomistic, and theoretical analyses, and the fabricated PSCs feature high efficiency up to 24.82% (certified at 24.64% with 0.3-volt voltage loss), along with long-term stability in wet conditions without encapsulation (87% efficiency retention after 500 hours). We also achieve an efficiency of 22.31% in the large-area cell.</p><formula xml:id="formula_3">V OC (V) J SC (mA cm -2 ) FF<label>(</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>T o achieve better and cheaper alternative energy, perovskite solar cells (PSCs) have been the front runner among emerging next-generation solar cells. Power conversion efficiency (PCE) exceeding 25% (1) has been achieved in laboratory-scale</head><p>PSCs by improving the perovskite material formulations (2-5), the device fabrication routines (6-9), and the high-quality film-formation methodologies <ref type="bibr">(10)</ref><ref type="bibr">(11)</ref><ref type="bibr">(12)</ref> on the basis of a comprehensive understanding of the charge dynamics at the interfacial layers. Most high-performance PSCs have a sandwich structure composed of a perovskite absorber between a metal oxidebased electron-transporting material (ETM) and an organic hole-transporting material (HTM) <ref type="bibr">(3,</ref><ref type="bibr">7,</ref><ref type="bibr">13,</ref><ref type="bibr">14)</ref>. Because high-quality perovskite and ETMs can be obtained from various processing methodologies, HTMs are considered to be fundamentally important in further improving PSC performance. Despite efforts to develop better HTMs to replace Spiro-OMeTAD [2,2′,7,7′-tetrakis(N,N-di-p-methoxyphenylamine)-9,9′-spirobifluorene] (15-17), this compound, which was developed by Grätzel et al. for solidstate dye-sensitized solar cells more than two decades ago <ref type="bibr">(18)</ref>, is still recognized as the most efficient HTM in PSCs owing to its amorphous nature, high compatibility with dopants, and energy levels matching those of perovskite. However, it must be chemically doped with hygroscopic dopants to attain efficient hole extraction and sufficient conductivity. Such doping negatively influences the stability of ambient PSCs, thus presenting a major obstacle to truly commercializing PSCs despite PCE being sufficient for practical applications <ref type="bibr">(19)</ref><ref type="bibr">(20)</ref><ref type="bibr">(21)</ref>. Therefore, the PSC community is actively investigating candidate HTMs to replace Spiro-OMeTAD and ultimately achieve stable PSCs simultaneously exhibiting the same or improved performance. Notably, the latest research on cesium cation (Cs + )- <ref type="bibr">(22,</ref><ref type="bibr">23)</ref>, carbon electrode- <ref type="bibr">(24)</ref><ref type="bibr">(25)</ref><ref type="bibr">(26)</ref>, and dopantfree-based PSCs <ref type="bibr">(27,</ref><ref type="bibr">28)</ref> can bring the benefits in improving the device stability but lower PCE levels when compared with that of the Spiro-OMeTAD-based PSC.</p><p>Considering the multiple possible aspects of fluorination of the conjugated materials (e.g., lowering energy levels and enhancing molecular packing and hydrophobicity through the induced dipole along the C-F bond), we developed two fluorinated isomeric analogs (Spiro-mF and Spiro-oF) of Spiro-OMeTAD as HTMs for PSC fabrication and compared their device performance with that of the optimized Spiro-OMeTAD-based PSC. Not only do we report a PCE of 24.82% (certified PCE of 24.64% with 0.3-V loss) achieved from the device fabricated with Spiro-mF, but we also show the long-term stability of fluorinated HTM-based devices without encapsulation on exposure to high relative humidity (RH) (87% PCE retention after 500 hours). Furthermore, the Spiro-mF-based PSC, with an area of 1 cm 2 , represents an efficiency of 22.31%.</p><p>Figure <ref type="figure">1A</ref> presents the chemical structures of the parent Spiro-OMeTAD and its fluorinated analogs (Spiro-mF and Spiro-oF). The two fluorinated isomeric HTMs were synthesized through two Buchwald-Hartwig C-N cross-coupling reactions; detailed synthesis and molecular characterization are described in figs. S1 to S7 and materials and methods. Differential scanning calorimetry analysis revealed that the synthesized HTMs exist in both amorphous and crystalline states, as evidenced by the observation of glass-transition and melting temperatures (fig. <ref type="figure" target="#fig_7">S8</ref>). The ultravioletvisible absorption (UV-Vis) spectra in Fig. <ref type="figure">1B</ref> show that, in addition to the absorption band from 300 to 450 nm, the three HTMs feature a slight redshift as the solution transitions to the solid state, which is commonly observed in many organic semiconductors <ref type="bibr">(29)</ref><ref type="bibr">(30)</ref><ref type="bibr">(31)</ref>. Relative to the Spiro-OMeTAD, both new fluorinated isomeric HTMs, especially Spiro-oF, display obvious blue-shifted absorption maxima and onsets, thus leading to the net widening of their optical bandgaps (E g opt ), which is attributed to the fluorine atoms generating an inductive electron-withdrawing effect on the aromatic rings of the conjugated backbone <ref type="bibr">(32)</ref><ref type="bibr">(33)</ref><ref type="bibr">(34)</ref>. Cyclic voltammetry (CV) was performed on the HTMs to determine the highest occupied molecular orbital (HOMO) energy levels (fig. <ref type="figure" target="#fig_8">S9</ref>); the lowest unoccupied molecular orbital (LUMO) energy levels were derived from the HOMOs and E g opt . The CV and E g opt -derived HOMO and LUMO energies are -4.97 and -2.03, -5.19 and -2.23, and -5.06 and -2.04 eV for Spiro-OMeTAD, Spiro-mF, and Spiro-oF, respectively, thus demonstrating that fluorination can simultaneously lower the HOMO and LUMO levels (Fig. <ref type="figure">1C</ref> and table <ref type="table" target="#tab_3">S1</ref>). These results agree well with the trend estimated from density functional theory (DFT) calculations by using the generalized gradient approximation with Perdew-Burke-Ernzerhof functional (figs. S10 and S11). The same trend is observed for the HOMOs of the doped HTMs (fig. <ref type="figure" target="#fig_10">S12</ref>). Therefore, in addition to reasonably estimating the enhanced oxidation stability of both fluorinated HTMs, more efficient interfacial hole-transport kinetics are observed compared with that of Spiro-OMeTAD. Moreover, the UV-Vis spectra and CV data indicate a strong fluorine positioning effect, the constitutional isomeric effect, on the optical and electrochemical properties. We also observe clear differences in the DFT-calculated structural conformations and electron distributions of Spiro-mF and Spiro-oF (Fig. <ref type="figure">1D</ref>).</p><p>After deciphering their intrinsic properties, we used Spiro-mF and Spiro-oF as HTMs in PSCs fabricated with the conventional n-i-p configuration, specifically fluorine-doped tinoxide substrate/compact TiO 2 /mesoporous TiO 2 / perovskite layer/HTM/Au (fig. <ref type="figure" target="#fig_11">S13</ref>); FAPbI 3 was selected as the perovskite layer because of its narrow bandgap (1.48 eV), thus making it suitable for the absorption of near-infrared light and promoting thermal stability <ref type="bibr">(35,</ref><ref type="bibr">36)</ref>. For a comparative study, we also prepared a control device under the same conditions, using Spiro-OMeTAD as the HTM. The HTM chlorobenzene solution containing 4-tert-butylpyridine, lithium bis(trifluoromethanesulfonyl)imide, and tris[2-(1H-pyrazol-1-yl)-4-tert-butylpyridine]cobalt(III)-tris[bis-(trifluoromethylsulfonyl)imide] as dopant additives was deposited by spincoating on the FAPbI 3 layer. X-ray diffraction (XRD) patterns of the neat FAPbI 3 (fig. <ref type="figure" target="#fig_12">S14</ref>) show strong diffraction peaks at 14.1°and 28.2°, corresponding to the (001) and (002) crystal planes, respectively, and confirming a dense and ordered perovskite crystal structure. Similar results were observed after the films were spin-coated with the doped HTM solutions, indicating that the HTM processing did not damage the perovskite crystal quality. The optimized thicknesses of the FAPbI 3 and HTM layers were ~750 and ~270 nm, respectively. Because PSC performance is sensitive to the dopant type and doping conditions, independent device optimization was also undertaken by carefully screening the ratios and amount of dopant additives. Details about the device fabrication and all device data examined herein are included in the supplementary materials.</p><p>Figure <ref type="figure">2</ref> shows the current density-voltage (J-V) curves of the best PSCs for each given HTM under AM 1.5 G simulated solar illumination at 100 mW cm -2 ; the corresponding photovoltaic parameters are summarized in table <ref type="table" target="#tab_4">S2</ref>. A tiny hysteresis was observed in the J-V scans between reverse and forward scans in all cases. First, under optimized conditions, the control device fabricated with Spiro-OMeTAD achieved a maximum PCE of 23.44% for an area of 0.0819 cm 2 with a short-circuit current density (J SC ) of 26.04 mA cm -2 , an open-circuit voltage (V OC ) of 1.152 V, and a fill factor (FF) of 78.13%; this value is fairly comparable to the previously reported highest PCE of the PSCs in single-junction devices <ref type="bibr">(37)</ref><ref type="bibr">(38)</ref><ref type="bibr">(39)</ref>. Compared with the control device fabricated with doped Spiro-OMeTAD, both fluorinated HTM-based PSCs exhibited nearly identical (J SC ) values of 26.34 to 26.35 mA cm -2 and slightly superior V OC values over 1.16 V, thus reflecting the lower-lying HOMO levels observed in the CV data. The Spiro-mF-based device produced a somewhat higher FF (80.90%) than that of the other devices, ultimately resulting in the best PCE of 24.82%. The slightly lower performance in the forward scan is mainly due to the low FF. The small standard deviation of the PCEs among the tested devices points toward excellent reproducibility (Fig. <ref type="figure">2D</ref>). PSC performance is highly sensitive to environmental conditions. Thus, to provide accuracy and reproducibility of the device performance metrics reported in Fig. <ref type="figure">2D</ref> and table <ref type="table" target="#tab_4">S2</ref>, we fabricated each device under the same conditions: at 25°C and below 30% RH, with exclusion of strong light and oxygen. One of the best Spiro-mF-based devices was sent to an independent solar cell-accredited laboratory (Newport, Irvine, CA, USA) for certification, where a stabilized PCE of 24.64% (with V OC = 1.1814 V, J SC = 26.1783 mA cm -2 , and FF = 79.6%) was confirmed (fig. <ref type="figure" target="#fig_14">S16</ref>). On the basis of the bandgap of FAPbI 3 (1.48 eV), the obtained V OC value quantifies the V OC loss as 0.3 V, thus being close to the theoretical minimum value based on the radiative limit defined by the Shockley-Queisser theory <ref type="bibr">(40,</ref><ref type="bibr">41)</ref>. Because the radiative limit is the near-maximum theoretical PCE of the solar cell, these results suggest that the nonradiative recombination of the device is largely suppressed in the Spiro-mF-based PSC, which is directly evidenced by external electroluminescence quantum efficiency (EL-EQE) measurement (fig. <ref type="figure" target="#fig_15">S17</ref>) <ref type="bibr">(42)</ref>. The reported 0.3-V V OC loss is, to the best of our knowledge, the lowest reported value to date for PSCs in any type of device. To demonstrate practical applicability and scalability of the Spiro-mF-based device, we also prepared a large-area cell with an area of 1 cm 2 , yielding the highest PCE of 22.31% with corresponding V OC , J SC , and FF of 1.178 V, 25.51 mA cm -2 , and 74.22%, as shown in Fig. <ref type="figure">2E</ref>. By using space charge-limited current (SCLC) measurements, the hole mobility (m) of the pristine HTMs is in order of Spiro-OMeTAD (6.5904 × 10 -3 cm 2 V -1 s -1 ) &lt; Spiro-oF (7.2902 × 10 -3 cm 2 V -1 s -1 ) &lt; Spiro-mF (7.4748 × 10 -3 cm 2 V -1 s -1 ) (fig. <ref type="figure" target="#fig_16">S18</ref>). The higher m in Spiro-mF can be explained by denser solid-state packing through noncovalent inter-and intra-interactions induced by F atoms <ref type="bibr">(43,</ref><ref type="bibr">44)</ref>, corresponding to the slightly enhanced J SC and FF values of the Spiro-mF-based PSC. By contrast, in Spiro-oF, the outward appended F atoms of the central HTM unit may act as a steric hindrance such that intermolecular interaction is dampened, hence making it more difficult for the charge to hop between molecules (the more bent structure of Spiro-oF core relative to that of Spiro-mF is shown in the DFT study results).</p><p>We also evaluated the charge dynamics occurring at the perovskite-HTM interface using steady-state photoluminescence (PL) and time-resolved PL (TRPL) decay measurements. Figure <ref type="figure" target="#fig_17">S19A</ref> shows that upon depositing HTM on the perovskite film, the intensity of the steadystate PL spectrum was largely reduced, and the quenching efficacy followed Spiro-mF &gt; Spiro-oF &gt; Spiro-OMeTAD, which is consistent with the hole mobility trend. Figure <ref type="figure" target="#fig_17">S19B</ref> shows the TRPL spectra of the devices based on the each HTM as recorded with the peak emission at 800 nm. The TRPL decay data were modeled by a bi-exponential formula [Y = A 1 exp(-t/t 1 ) + A 2 exp(-t/t 2 )] (45-47), as listed in table <ref type="table" target="#tab_8">S6</ref>, where fast (t 1 ) and slow (t 2 ) decay components are related to nonradiative and radiative recombination, respectively. The fitted decay lifetimes (t 1 , t 2 ) are ( <ref type="formula">1438</ref> enhanced mobility and conductivity (the electrical conductivity data in fig. <ref type="figure" target="#fig_18">S20</ref>), the presented data demonstrate that the best parameters occur in the Spiro-mF-based device.</p><p>To directly ascertain the degradation processes occurring in perovskite films, we conducted long-term stability tests on the three devices without encapsulation under ~50% RH. The PCE of Spiro-OMeTAD-based control device dropped from 23.21 to 13.74%, corresponding to ~60% of its initial PCE after 500 hours; however, the PCE of both fluorinated HTM-based devices was quite stable, resulting in very high PCE retention (&gt;87%) over the same measurement period. The PCE trends are presented in Fig. <ref type="figure">3</ref>, and detailed photovoltaic parameters are found in tables S7 to S9. XRD patterns were tracked at regular intervals to estimate the morphological degradation of the device layers (Fig. <ref type="figure">3C</ref>). The Spiro-OMeTAD-based device exhibited a clear deterioration of the typical perovskite XRD peaks after 500 hours, whereas no apparent impurity peaks were ob-served in the XRD patterns of devices fabricated with fluorinated HTMs. Moreover, after 3 weeks of storage, no deterioration was observed. From the electrochemical impedance spectroscopy (EIS) analysis with varying times (fig. <ref type="figure" target="#fig_19">S21</ref>), relative to Spiro-OMeTAD-based device, the fluorinated HTM-based devices, especially for Spiro-mF, one discloses smaller EIS resistance values, providing additional proof of their better morphological robustness and charge-transfer behavior. Contact-angle measurements were conducted to determine the surface water resistance of the neat and doped HTM layers on perovskite. As shown in Fig. <ref type="figure">3D</ref> and table S10, the water droplet contact angle on fluorinated HTM films is larger than that on Spiro-OMeTAD film, indicating reduced hygroscopicity of the fluorine-doped Spiro-mF and Spiro-oF HTMs. The presence of fluorine atoms induces the creation of kinetic barriers that slow the intrusion of O 2 and H 2 O. The increased hydrophobicity generated by using fluorinated Spiro-type HTMs is a key factor contributing to the enhanced stability of PSC devices.</p><p>We also conducted in-depth atomistic simulations of the DFT-optimized molecular structures of the three HTMs. When examining the free molecular structures, Spiro-mF exhibited a more unfolded structure regarding the angle between the centers of spirobifluorene and two fluorinated methoxyphenyl groups when compared with that of other HTMs (Fig. <ref type="figure">4A</ref>). We also noticed that the fluorine atoms at the ortho-sites caused steric hindrance regarding the free movement of the methoxyphenyl groups. The adsorption state of each HTM on the perovskite surface was investigated by molecular dynamics (MD) simulations (see the "simulation details" section in the materials and methods, as well as Fig. <ref type="figure">4B</ref>). Spiro-mF and Spiro-oF adsorbed closer to the perovskite surface than Spiro-OMeTAD, as determined by observing the radial distribution function (RDF) of all phenyl groups on the perovskite surface (fig. <ref type="figure" target="#fig_20">S22</ref>). In particular, the fluorene units of Spiro-mF were found more on the perovskite surface than that of Spiro-oF (Fig. <ref type="figure">4C</ref>), implying that the adsorbed structure of Spiro-mF and Spiro-oF could be different. We noticed that Spiro-mF featured a specific RDF peak from the perovskite surface due to the stretched structure of fluorene and phenyl groups on the surface; each peak represents the adsorbed components of Spiro-mF (phenyl and fluorene groups) (fig. <ref type="figure" target="#fig_21">S23</ref>). On the basis of the configurations sampled from the MD simulations, fluorene and phenyl groups of Spiro-mF adsorbed together on the perovskite surface, whereas those of Spiro-oF often did not adsorb on the perovskite surface together (Fig. <ref type="figure">4D</ref>). The unfolded structure of Spiro-mF on perovskite is also described by the centerto-end distance (R cte ) of the molecule, where the R cte of Spiro-mF and Spiro-oF was ~6. transport <ref type="bibr">(17)</ref>. Along with the detailed atomistic simulations, a comparative investigation of Spiro-OMeTAD versus its fluorinated analogs demonstrates that the fluorination of HTMs with controlled isomerism is a promising strategy to simultaneously achieve high performance and excellent device stability, thus advancing the realization of commercial PSCs.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Fig. S1. Synthetic procedures of Spiro-mF and Spiro-oF.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. S2 .</head><label>S2</label><figDesc>Fig. S2. The 1 H NMR spectrum of mF-DPA.</figDesc><graphic coords="7,72.00,85.05,446.92,285.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. S3 .</head><label>S3</label><figDesc>Fig. S3. The 1 H NMR spectrum of oF-DPA.</figDesc><graphic coords="7,72.00,398.10,442.43,290.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. S4 .</head><label>S4</label><figDesc>Fig. S4. The 1 H NMR spectrum of Spiro-mF.</figDesc><graphic coords="8,72.00,85.05,447.70,282.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. S5 .</head><label>S5</label><figDesc>Fig. S5. The 13 C NMR spectrum of Spiro-mF.</figDesc><graphic coords="8,72.00,394.80,452.22,285.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. S6 .</head><label>S6</label><figDesc>Fig. S6. The 1 H NMR spectrum of Spiro-oF.</figDesc><graphic coords="9,72.00,85.05,445.44,290.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. S7 .</head><label>S7</label><figDesc>Fig. S7. The 13 C NMR spectrum of Spiro-oF.</figDesc><graphic coords="9,72.00,403.65,447.71,268.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. S8 .</head><label>S8</label><figDesc>Fig. S8. Differential scanning calorimetry curves of Spiro-mF and Spiro-oF.</figDesc><graphic coords="10,72.00,85.05,453.98,195.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. S9 .</head><label>S9</label><figDesc>Fig. S9. Cyclic voltammograms of the HTMs measured in 0.1 M n-Bu4NPF6 solution in dichloromethane at a scan rate of 100 mV s -1 .</figDesc><graphic coords="10,116.52,349.09,362.24,308.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. S10 .</head><label>S10</label><figDesc>Fig. S10. Calculated HOMO and LUMO energy levels of HTMs from DFT calculations. The calculated initial and final systems with optimized energies are shown in Fig. S11.</figDesc><graphic coords="11,165.90,337.09,263.50,263.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. S12 .</head><label>S12</label><figDesc>Fig. S12. (A) UV-Vis absorption spectra of the doped HTM films. (B) Cyclic voltammograms of the doped HTMs measured in 0.1 M n-Bu4NPF6 solution in dichloromethane at a scan rate of 100 mV s -1 and (C) corresponding HOMO levels.</figDesc><graphic coords="13,72.00,85.05,451.30,169.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. S13 .</head><label>S13</label><figDesc>Fig. S13. Schematic diagram of n-i-p perovskite solar cell architecture.</figDesc><graphic coords="13,115.40,323.59,364.44,274.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. S14 .</head><label>S14</label><figDesc>Fig. S14. X-ray diffraction (XRD) patterns of different samples.</figDesc><graphic coords="14,180.40,85.05,234.50,335.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. S15 .</head><label>S15</label><figDesc>Fig. S15. External quantum efficiency (EQE) of perovskite solar cells with various HTMs.</figDesc><graphic coords="16,126.90,85.05,341.50,238.47" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Fig. S16 .</head><label>S16</label><figDesc>Fig. S16. Independent certification of Spiro-mF from Newport Corp.</figDesc><graphic coords="18,72.01,284.53,321.53,227.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Fig. S17 .</head><label>S17</label><figDesc>Fig. S17. Plot of external electroluminescence quantum efficiency (EL-EQE) of PSCs.</figDesc><graphic coords="19,88.10,85.05,419.10,230.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Fig. S18 .</head><label>S18</label><figDesc>Fig. S18. Space charge-limited current (SCLC) fitting of perovskite films with HTMs.</figDesc><graphic coords="20,141.40,85.05,312.46,218.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Fig. S19 .</head><label>S19</label><figDesc>Fig. S19. (A) Steady-state photoluminescence (PL) spectra of perovskite films with and without different HTMs. (B) Corresponding time-resolved PL (TRPL) decay spectra.</figDesc><graphic coords="20,72.00,344.65,453.50,179.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Fig. S20 .</head><label>S20</label><figDesc>Fig. S20. (A) Linear J-V characteristics and (B) derived conductivity plot of the doped HTM films. (C) Corresponding conductivity table.</figDesc><graphic coords="21,72.00,85.05,449.15,226.33" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Fig. S21 .</head><label>S21</label><figDesc>Fig. S21. Impedance spectroscopy characterization with varying times. (A) The Nyquist plots of the impedance spectra at the frequency of 1 MHz with a bias voltage of -1.0 V. (B) Corresponding impedance table.</figDesc><graphic coords="22,72.00,267.89,451.39,224.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Fig. S22 .</head><label>S22</label><figDesc>Fig. S22. RDF of phenyl groups from the perovskite surface.</figDesc><graphic coords="23,148.06,58.37,326.28,311.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><head>Fig. S23 .</head><label>S23</label><figDesc>Fig. S23. RDF of methoxyphenyl (black), fluorinated methoxyphenyl (blue), and fluorene (green) groups of (A) Spiro-OMeTAD, (B) Spiro-oF, and (C) Spiro-mF with perovskite surface. It is noted that methoxyphenyl groups of Spiro-OMeTAD was divided into two groups to compare with Spiro-oF and Spiro-mF. (D) Adsorbed structure of Spiro-mF on the surface and the adsorbed components represented by each RDF peak in (C) are marked by number 1-7. Green and purple represent fluorene groups and red, grey, blue, and light blue represent oxygen, carbon, nitrogen, and fluorine atoms, respectively. Hydrogen atoms are omitted for clarity.</figDesc><graphic coords="23,72.00,373.30,460.52,190.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22"><head>Fig. S24 .</head><label>S24</label><figDesc>Fig. S24. (A) Probability distributions of Rcte of HTMs on the perovskite surface. (B) Relative concentration of fluorene groups along the horizontal direction from the perovskite surface. Inset shows the adsorbed structure of Spiro-OMeTAD on the perovskite surface (black dotted box) and stacked states of Spiro-mF molecules in the region of layer 1 and layer 2 (red dotted box). See Supplementary Text 2 for more details. (C) Hole transfer integral of dimer HTMs.Dimer structure was obtained from the MD simulation results and the hole transfer integral was calculated as half of the energy gap between the HOMO and HOMO-1 for the dimer states, which was following Koopmans' theorem (KT)<ref type="bibr" target="#b55">(57)</ref>. (D) HOMO (blue and yellow) and HOMO-1 (green and pink) for dimer HTMs.</figDesc><graphic coords="24,72.00,85.05,452.61,301.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23"><head></head><label></label><figDesc>terminal, monolithic) LM = lattice matched MM = metamorphic IMM = inverted, metamorphic Two-, three-, and four-junction (concentrator) Three-junction or more (non-concentrator) Two-junction (non-concentrator) REPORT ◥ SOLAR CELLS Stable perovskite solar cells with efficiency exceeding 24.8% and 0.3-V voltage loss Mingyu Jeong 1 *, In Woo Choi 2,3 *, Eun Min Go 4 *, Yongjoon Cho 1 , Minjin Kim 2 , Byongkyu Lee 1 , Seonghun Jeong 1 , Yimhyun Jo 2 , Hye Won Choi 2 , Jiyun Lee 4 , Jin-Hyuk Bae 3 , Sang Kyu Kwak 4 †, Dong Suk Kim 2 †, Changduk Yang 1 †</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_24"><head>6 Fig. 1 .</head><label>61</label><figDesc>Fig. 1. Optical and electrochemical characteristics and DFT calculation of HTMs. (A) Chemical structures of Spiro-OMeTAD and its fluorinated analogs Spiro-mF and Spiro-oF. (B) UV-Vis absorption spectra of Spiro-OMeTAD, Spiro-mF, and Spiro-oF in dilute chlorobenzene solution (sol) and as thin films. a.u., arbitrary units; Norm., normalized. (C) Molecular energy level alignments. (D) Electron density distributions of HOMO and LUMO for Spiro-mF and Spiro-oF.</figDesc><graphic coords="32,214.92,49.32,342.37,193.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_25"><head>Jeongof 6 Fig. 2 .</head><label>62</label><figDesc>Fig. 2. Photovoltaic performance. J-V curves of optimized devices based on (A) Spiro-OMeTAD, (B) Spiro-mF, and (C) Spiro-oF. (D) PCE distribution of each HTM. For each type of device, the solid transverse lines in the boxes are the average values obtained from 15 devices, and the error bars show the highest and lowest values at each point. (E) J-V curve of the Spiro-mF-based device with an area of 1 cm 2 (left); photograph of the device (right).</figDesc><graphic coords="33,214.92,301.83,342.14,412.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_26"><head>of 6 Fig. 3 . 6 Fig. 4 .</head><label>6364</label><figDesc>Fig. 3. Long-term stability and hydrophobicity. (A) Long-term stability of Spiro-OMeTAD-, Spiro-mF-, and Spiro-oF-based devices in air (~50% RH) without encapsulation. (B) Evolution of J-V curves for the unencapsulated PSC devices, based on Spiro-OMeTAD, Spiro-mF, and Spiro-oF over a period of 500 hours. (C) Time evolution of XRD patterns of perovskite films with Spiro-OMeTAD, Spiro-mF, and Spiro-oF. (D) Contactangle measurements of pristine and doped HTM films.</figDesc><graphic coords="34,139.58,144.40,417.60,569.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="12,72.40,85.05,450.50,458.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>After that, the reaction mixture was stirred at 120 °C overnight. Water was added to quench the reaction, then the mixture was extracted with ethyl acetate. Combined organic layer was dried with anhydrous MgSO4 and solvent was removed</figDesc><table><row><cell>1 EL-EQE</cell><cell>(Eq. S1)</cell></row><row><cell cols="2">Synthesis of DPA-mF: To a two-necked round-bottomed flask, p-anisidine (3 g, 24.36 mmol),</cell></row><row><cell cols="2">4-bromo-2-fluoro-1-methoxybenzene (5.49 g, 26.79 mmol), tri-tert-butylphosphonium</cell></row><row><cell cols="2">tetrafluoroborate (212 mg, 0.73 mmol), and sodium tert-butoxide (4.68 g, 48.72 mmol) were</cell></row><row><cell cols="2">dissolved in anhydrous toluene (40 mL) and purged with argon for 15 min. Then, 446 mg of</cell></row><row><cell cols="2">tris(dibenzylideneacetone)dipalladium(0) (0.49 mmol) were added to reaction mixture, then</cell></row><row><cell>purged again with argon for 20 min.</cell><cell></cell></row></table><note><p><p><p>under reduced pressure. The crude products were purified by a silica gel column chromatography using hexane/ethyl acetate (9:1, v/v) as an eluent to afford the DPA-mF as yellow liquid (5.2 g, 86.3% yield).</p>1 </p>H NMR (400 MHz, DMSO-d6), δ (ppm): 7.74 (s, 1H), 6.99 (m, 3H), 6.85 (m, 2H), 6.71 (m, 2H), 3.75 (s, 3H), 3.70 (s, 3H).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>.66, 111.52, 103.56, 56.23, 55.78. Elemental analysis for [C81H64F4N4O8]: C, 74.99; H, 4.97; N, 4.32; Found: C, 74.98; H, 5.01; N, 4.31.</figDesc><table><row><cell>54 (d, 4H),</cell></row><row><cell>7.00 (t, 4H), 6.87 (m, 16H), 6.75 (dd, 4H), 6.68 (dd, 4H), 6.60 (m, 4H), 6.22 (d, 4H), 3.78 (s,</cell></row><row><cell>12H), 3.72 (s, 12H). 13 C NMR (150 MHz, DMSO-d6), δ (ppm): 156.46, 153.16, 151.54,</cell></row><row><cell>149.91, 147.26, 143.28, 141.72, 140.33, 135.24, 126.71, 122.38, 120.94, 119.48, 116.96,</cell></row><row><cell>115.68, 115.45, 111.53, 57.04, 55.79. Elemental analysis for [C81H64F4N4O8]: C, 74.99; H,</cell></row><row><cell>4.97; N, 4.32; Found: C, 75.02; H, 4.98; N, 4.29.</cell></row><row><cell>Synthesis of Spiro-oF: Spiro-oF was synthesized through same procedure with Spiro-mF. DPA-</cell></row><row><cell>oF was used instead of DPA-mF. Light yellow solid (513 mg, 50.1% yield).</cell></row></table><note><p><p><p><p><p>1 </p>H NMR (400 MHz, DMSO-d6), δ (ppm): 7.1 H NMR (400 MHz, DMSO-d6), δ (ppm): 7.45 (d, 4H), 7.04 (t, 4H), 6.80 (m, 24H), 6.59 (dd, 4H) 6.08 (d, 4H), 3.75 (s, 3H), 3.70 (s, 3H).</p>13 </p>C NMR (150 MHz, DMSO-d6), δ (ppm): 159.73, 158.59, 158.08, 155.75, 149.93, 147.</p>26, 140.45, 134.40, 130.40, 127.16, 124.48, 120.41, 119.64,  115.17, 114</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table S1 .</head><label>S1</label><figDesc>Optical and electrochemical properties of HTMs. Eg opt was calculated from the absorption onset. b ELUMO (eV) = EHOMO + Eg opt .</figDesc><table><row><cell>HTM</cell><cell>λ max (nm) sol</cell><cell>λ max (nm) film</cell><cell>λ onset (nm)</cell><cell>opt (eV) E g a</cell><cell>E HOMO (eV)</cell><cell>E LUMO (eV) b</cell></row><row><cell>Spiro-OMeTAD</cell><cell>389</cell><cell>390</cell><cell>422</cell><cell>2.94</cell><cell>-4.97</cell><cell>-2.03</cell></row><row><cell>Spiro-mF</cell><cell>387</cell><cell>385</cell><cell>419</cell><cell>2.96</cell><cell>-5.19</cell><cell>-2.23</cell></row><row><cell>Spiro-oF</cell><cell>376</cell><cell>374</cell><cell>410</cell><cell>3.02</cell><cell>-5.06</cell><cell>-2.04</cell></row><row><cell>a</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table S2 .</head><label>S2</label><figDesc>Summarized photovoltaic performance outcomes from the devices prepared using three HTMs.</figDesc><table><row><cell>HTM</cell><cell></cell><cell cols="2">V OC (V) J SC (mA cm</cell><cell>-2</cell><cell>)</cell><cell>FF (%)</cell><cell>PCE (%)</cell><cell>PCE avg (%) a</cell></row><row><cell>Spiro-OMeTAD</cell><cell>Reverse Forward</cell><cell>1.152 1.153</cell><cell>26.04 25.39</cell><cell></cell><cell></cell><cell>78.13 76.71</cell><cell>23.44 22.45</cell><cell>22.68</cell></row><row><cell>Spiro-mF</cell><cell>Reverse Forward</cell><cell>1.164 1.169</cell><cell>26.35 26.45</cell><cell></cell><cell></cell><cell>80.90 77.05</cell><cell>24.82 23.81</cell><cell>23.86</cell></row><row><cell>Spiro-oF</cell><cell>Reverse Forward</cell><cell>1.161 1.164</cell><cell>26.34 25.85</cell><cell></cell><cell></cell><cell>80.15 75.75</cell><cell>24.50 22.80</cell><cell>23.56</cell></row><row><cell cols="6">a The average PCE values were derived from 15 devices.</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table S3 .</head><label>S3</label><figDesc>Summarized photovoltaic performances with the average values of the hysteresis index (HI) of the best-performing 5 devices for each type of PSCs.</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Spiro-OMeTAD</cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="4">VOC (V) JSC (mA cm -2 ) FF (%) PCE (%)</cell><cell>HI</cell></row><row><cell>R F</cell><cell>1.152 1.153</cell><cell>26.04 25.39</cell><cell>78.13 76.71</cell><cell>23.44 22.45</cell><cell>2.157</cell></row><row><cell>R F</cell><cell>1.14 1.13</cell><cell>25.91 25.79</cell><cell>79.89 75.38</cell><cell>23.40 22.03</cell><cell>3.016</cell></row><row><cell>R F</cell><cell>1.14 1.13</cell><cell>25.78 25.72</cell><cell>79.30 75.72</cell><cell>23.36 22.07</cell><cell>2.840</cell></row><row><cell>R F</cell><cell>1.16 1.14</cell><cell>25.65 25.76</cell><cell>78.32 75.05</cell><cell>23.37 21.92</cell><cell>3.202</cell></row><row><cell>R F</cell><cell>1.13 1.11</cell><cell>26.15 25.88</cell><cell>78.94 75.63</cell><cell>23.36 21.72</cell><cell>3.638</cell></row><row><cell>average</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>2.970</cell></row><row><cell></cell><cell></cell><cell>Spiro-mF</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="4">VOC (V) JSC (mA cm -2 ) FF (%) PCE (%)</cell><cell>HI</cell></row><row><cell>R F</cell><cell>1.164 1.169</cell><cell>26.35 26.45</cell><cell>80.90 77.05</cell><cell>24.82 23.81</cell><cell>2.077</cell></row><row><cell>R F</cell><cell>1.16 1.15</cell><cell>26.04 26.51</cell><cell>81.32 77.53</cell><cell>24.70 23.60</cell><cell>2.277</cell></row><row><cell>R F</cell><cell>1.16 1.14</cell><cell>26.13 26.32</cell><cell>80.77 78.37</cell><cell>24.38 23.40</cell><cell>2.051</cell></row><row><cell>R F</cell><cell>1.16 1.15</cell><cell>25.83 26.37</cell><cell>80.91 77.70</cell><cell>24.33 23.46</cell><cell>1.820</cell></row><row><cell>R F</cell><cell>1.16 1.16</cell><cell>26.04 25.75</cell><cell>81.09 79.01</cell><cell>24.51 23.59</cell><cell>1.913</cell></row><row><cell>average</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>2.</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>028 Spiro-oF VOC (V) JSC (mA cm -2 ) FF (%) PCE (%) HI</head><label></label><figDesc></figDesc><table><row><cell>R F</cell><cell>1.161 1.164</cell><cell>26.34 25.85</cell><cell>80.15 75.75</cell><cell>24.50 22.80</cell><cell>3.594</cell></row><row><cell>R F</cell><cell>1.15 1.14</cell><cell>26.03 25.78</cell><cell>80.28 80.37</cell><cell>24.02 23.53</cell><cell>1.030</cell></row><row><cell>R F</cell><cell>1.16 1.16</cell><cell>25.99 26.02</cell><cell>80.83 76.68</cell><cell>24.26 23.32</cell><cell>1.976</cell></row><row><cell>R F</cell><cell>1.16 1.16</cell><cell>26.36 25.92</cell><cell>79.65 77.63</cell><cell>24.26 23.45</cell><cell>1.698</cell></row><row><cell>R F</cell><cell>1.15 1.14</cell><cell>26.35 26.06</cell><cell>79.39 76.79</cell><cell>24.09 22.75</cell><cell>2.861</cell></row><row><cell>average</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>2.232</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table S5 .</head><label>S5</label><figDesc>Photovoltaic parameters of PSCs fabricated using Spiro-oF with adjustment of Li-TFSI.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>%)</cell><cell>PCE (%)</cell></row><row><cell></cell><cell>0.98</cell><cell>17.41</cell><cell></cell><cell></cell><cell>66.58</cell><cell>11.36</cell></row><row><cell></cell><cell>1.07</cell><cell>25.33</cell><cell></cell><cell></cell><cell>71.55</cell><cell>19.39</cell></row><row><cell></cell><cell>1.09</cell><cell>25.52</cell><cell></cell><cell></cell><cell>75.83</cell><cell>21.09</cell></row><row><cell></cell><cell>1.13</cell><cell>25.7</cell><cell></cell><cell></cell><cell>76.61</cell><cell>22.25</cell></row><row><cell></cell><cell>1.13</cell><cell>25.7</cell><cell></cell><cell></cell><cell>78.64</cell><cell>22.84</cell></row><row><cell></cell><cell>1.15</cell><cell>25.97</cell><cell></cell><cell></cell><cell>79.39</cell><cell>23.71</cell></row><row><cell></cell><cell>1.12</cell><cell>25.74</cell><cell></cell><cell></cell><cell>78.74</cell><cell>22.7</cell></row><row><cell>Li-TFSI (μL)</cell><cell>V OC (V)</cell><cell>J SC (mA cm</cell><cell>-2</cell><cell>)</cell><cell>FF (%)</cell><cell>PCE (%)</cell></row><row><cell></cell><cell>1.08</cell><cell>24.90</cell><cell></cell><cell></cell><cell>69.95</cell><cell>18.81</cell></row><row><cell></cell><cell>1.14</cell><cell>25.99</cell><cell></cell><cell></cell><cell>76.9</cell><cell>22.78</cell></row><row><cell></cell><cell>1.09</cell><cell>24.94</cell><cell></cell><cell></cell><cell>72.76</cell><cell>19.78</cell></row><row><cell></cell><cell>1.09</cell><cell>24.54</cell><cell></cell><cell></cell><cell>69.75</cell><cell>18.66</cell></row><row><cell></cell><cell>1.06</cell><cell>24.32</cell><cell></cell><cell></cell><cell>68.18</cell><cell>17.58</cell></row><row><cell></cell><cell>1.01</cell><cell>22.44</cell><cell></cell><cell></cell><cell>68.82</cell><cell>15.59</cell></row><row><cell></cell><cell>0.99</cell><cell>21.32</cell><cell></cell><cell></cell><cell>68.58</cell><cell>14.47</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>Table S6 .</head><label>S6</label><figDesc>TRPL parameters of perovskite films without and with HTMs.</figDesc><table><row><cell>Samples</cell><cell>τ 1</cell><cell>τ 2</cell></row><row><cell>w/o HTM</cell><cell>1438</cell><cell></cell></row><row><cell>Spiro-OMeTAD</cell><cell>119</cell><cell></cell></row><row><cell>Spiro-mF</cell><cell>104</cell><cell></cell></row><row><cell>Spiro-oF</cell><cell>117</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head>Table S7 .</head><label>S7</label><figDesc>Photovoltaic</figDesc><table><row><cell></cell><cell></cell><cell>-2</cell><cell>)</cell><cell>FF (%)</cell><cell>PCE (%)</cell></row><row><cell>As fabricated</cell><cell>1.09</cell><cell>26.03</cell><cell></cell><cell>81.80</cell><cell>23.21</cell></row><row><cell>24 h</cell><cell>1.10</cell><cell>24.96</cell><cell></cell><cell>82.58</cell><cell>22.67</cell></row><row><cell>50 h</cell><cell>1.08</cell><cell>25.3</cell><cell></cell><cell>79.35</cell><cell>21.68</cell></row><row><cell>100 h</cell><cell>1.08</cell><cell>24.44</cell><cell></cell><cell>74.49</cell><cell>19.66</cell></row><row><cell>200 h</cell><cell>1.00</cell><cell>23.74</cell><cell></cell><cell>73.19</cell><cell>17.38</cell></row><row><cell>300 h</cell><cell>0.98</cell><cell>24.24</cell><cell></cell><cell>71.84</cell><cell>17.07</cell></row><row><cell>400 h</cell><cell>1.04</cell><cell>20.9</cell><cell></cell><cell>71.89</cell><cell>15.12</cell></row><row><cell>500 h</cell><cell>1.03</cell><cell>20.34</cell><cell></cell><cell>67.84</cell><cell>13.74</cell></row></table><note><p><p>parameters of Spiro-OMeTAD-based PSC devices over a period of 500 h.</p>V OC (V) J SC (mA cm</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head>Table S8 .</head><label>S8</label><figDesc>Photovoltaic parameters of Spiro-mF-based PSC devices over a period of 500 h.</figDesc><table><row><cell></cell><cell>V OC (V)</cell><cell>J SC (mA cm</cell><cell>-2</cell><cell>)</cell><cell>FF (%)</cell><cell>PCE (%)</cell></row><row><cell>As fabricated</cell><cell>1.11</cell><cell>26.06</cell><cell></cell><cell></cell><cell>82.43</cell><cell>23.84</cell></row><row><cell>24 h</cell><cell>1.11</cell><cell>26.06</cell><cell></cell><cell></cell><cell>82.57</cell><cell>23.88</cell></row><row><cell>50 h</cell><cell>1.12</cell><cell>25.52</cell><cell></cell><cell></cell><cell>82.64</cell><cell>23.62</cell></row><row><cell>100 h</cell><cell>1.12</cell><cell>25.62</cell><cell></cell><cell></cell><cell>81.86</cell><cell>23.49</cell></row><row><cell>200 h</cell><cell>1.11</cell><cell>25.32</cell><cell></cell><cell></cell><cell>80.89</cell><cell>22.73</cell></row><row><cell>300 h</cell><cell>1.11</cell><cell>25.15</cell><cell></cell><cell></cell><cell>80.19</cell><cell>22.39</cell></row><row><cell>400 h</cell><cell>1.07</cell><cell>25.59</cell><cell></cell><cell></cell><cell>78.59</cell><cell>21.52</cell></row><row><cell>500 h</cell><cell>1.08</cell><cell>25.36</cell><cell></cell><cell></cell><cell>75.81</cell><cell>20.76</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head>Table S9 .</head><label>S9</label><figDesc>Photovoltaic parameters of Spiro-oF-based PSC devices over a period of 500 h.</figDesc><table><row><cell></cell><cell>V OC (V)</cell><cell>J SC (mA cm</cell><cell>-2</cell><cell>)</cell><cell>FF (%)</cell><cell>PCE (%)</cell></row><row><cell>As fabricated</cell><cell>1.12</cell><cell>26.19</cell><cell></cell><cell></cell><cell>81.20</cell><cell>23.82</cell></row><row><cell>24 h</cell><cell>1.12</cell><cell>26.03</cell><cell></cell><cell></cell><cell>81.13</cell><cell>23.65</cell></row><row><cell>50 h</cell><cell>1.12</cell><cell>26.08</cell><cell></cell><cell></cell><cell>79.20</cell><cell>23.13</cell></row><row><cell>100 h</cell><cell>1.12</cell><cell>25.96</cell><cell></cell><cell></cell><cell>78.06</cell><cell>22.69</cell></row><row><cell>200 h</cell><cell>1.12</cell><cell>25.92</cell><cell></cell><cell></cell><cell>77.66</cell><cell>22.55</cell></row><row><cell>300 h</cell><cell>1.11</cell><cell>26.24</cell><cell></cell><cell></cell><cell>76.97</cell><cell>22.42</cell></row><row><cell>400 h</cell><cell>1.09</cell><cell>25.89</cell><cell></cell><cell></cell><cell>76.33</cell><cell>21.54</cell></row><row><cell>500 h</cell><cell>1.06</cell><cell>25.99</cell><cell></cell><cell></cell><cell>75.16</cell><cell>20.71</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head>Table S10 .</head><label>S10</label><figDesc>The contact angle profiles of Spiro-OMeTAD, Spiro-mF, and Spiro-oF (DI).</figDesc><table><row><cell></cell><cell>Theta (M) [deg]</cell><cell>Theta (R) [deg]</cell><cell>Theta (R) [deg]</cell></row><row><cell>Spiro-OMeTAD (Pristine)</cell><cell>76.2</cell><cell>76.2</cell><cell>76.2</cell></row><row><cell>Spiro-mF (Pristine)</cell><cell>81.5</cell><cell>81.4</cell><cell>81.6</cell></row><row><cell>Spiro-oF (Pristine)</cell><cell>80.5</cell><cell>80.5</cell><cell>80.4</cell></row><row><cell>Spiro-OMeTAD (Doped)</cell><cell>53.7</cell><cell>53.7</cell><cell>53.7</cell></row><row><cell>Spiro-mF (Doped)</cell><cell>66.9</cell><cell>66.9</cell><cell>66.9</cell></row><row><cell>Spiro-oF (Doped)</cell><cell>62.5</cell><cell>62.5</cell><cell>62.5</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6" xml:id="foot_0"><p>of 6 RESEARCH | REPORT Downloaded from https://www.science.org at University of California San Diego on November 07, 2024</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>ACKNOWLEDGMENTS Funding: This work was supported by the <rs type="funder">National Research Foundation of Korea (NRF)</rs> grant funded by the <rs type="funder">Korea government (MSIP)</rs> (<rs type="grantNumber">2018R1A2A1A05077194</rs> and <rs type="grantNumber">2014R1A5A1009799</rs>); <rs type="institution">Center for Advanced Soft-Electronics</rs> funded by the <rs type="funder">Ministry of Science and ICT as Global Frontier Project</rs> (<rs type="grantNumber">2012M3A6A5055225</rs>); <rs type="funder">Wearable platform Materials Technology Center</rs> (<rs type="grantNumber">2016R1A5A1009926</rs>) funded by the <rs type="funder">Korean Government (MSIT)</rs>; the <rs type="funder">NRF</rs> funded by the <rs type="funder">Ministry of Science, ICT, and Future Planning</rs> (<rs type="grantNumber">2020M1A2A2080746</rs>); <rs type="funder">Korea Institute of Energy Technology Evaluation and Planning (KETEP)</rs> grant funded by the <rs type="funder">Korea government (MOTIE)</rs> [20193091010460, Development of Super Solar cells for overcoming the theoretical limit of silicon solar cell efficiency (&gt;30%)]; the Research Project Funded by <rs type="funder">Ulsan City</rs> (<rs type="grantNumber">1.200042</rs>) of <rs type="funder">UNIST (Ulsan National Institute of Science and Technology)</rs>; the <rs type="programName">Development Program</rs> of the <rs type="funder">Korea Institute of Energy Research (KIER)</rs> (<rs type="grantNumber">C0-2401</rs> and <rs type="grantNumber">C0-2402</rs>); and computational resource from <rs type="grantNumber">KISTI-HPC (KSC-2019-CRE-0056</rs>). Author contributions: C.Y., D.S.K., and S.K.K. conceptualized and supervised the project. J.-H.B. advised on the research. M.J. synthesized and characterized the HTM materials. I.W.C. fabricated and characterized the perovskite films and solar cells and did the stability test. E.M.G. and J.L. performed the molecular simulations. Y.C. performed CV and contact-angle measurements. M.K. performed the SCLC and XRD measurements. B.L. performed the EL-EQE measurements. S.J. conducted the UV and differential scanning calorimetry measurements. Y.J. and H.W.C. carried out PL and TRPL measurements. C.Y. and M.J. wrote the manuscript and all authors reviewed the manuscript. Competing interests: The authors declare no competing interests. Data and materials availability: All data are available in the manuscript or the supplementary materials.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_7qpwy55">
+					<idno type="grant-number">2018R1A2A1A05077194</idno>
+				</org>
+				<org type="funding" xml:id="_7tfxFZ7">
+					<idno type="grant-number">2014R1A5A1009799</idno>
+				</org>
+				<org type="funding" xml:id="_89J3jXZ">
+					<idno type="grant-number">2012M3A6A5055225</idno>
+				</org>
+				<org type="funding" xml:id="_SWsWTMm">
+					<idno type="grant-number">2016R1A5A1009926</idno>
+				</org>
+				<org type="funding" xml:id="_nN2BBJP">
+					<idno type="grant-number">2020M1A2A2080746</idno>
+				</org>
+				<org type="funding" xml:id="_2sz4XZJ">
+					<idno type="grant-number">1.200042</idno>
+				</org>
+				<org type="funding" xml:id="_AQkpwPd">
+					<orgName type="program" subtype="full">Development Program</orgName>
+				</org>
+				<org type="funding" xml:id="_hKkAPkR">
+					<idno type="grant-number">C0-2401</idno>
+				</org>
+				<org type="funding" xml:id="_93tgY38">
+					<idno type="grant-number">C0-2402</idno>
+				</org>
+				<org type="funding" xml:id="_3zFBypD">
+					<idno type="grant-number">KISTI-HPC (KSC-2019-CRE-0056</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Best research-cell efficiencies chart</title>
+		<ptr target="www.nrel.gov/pv/assets/pdfs/best-research-cell-efficiencies.20200218.pdf" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Renewable Energy Laboratory</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The rise of highly efficient and stable perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.accounts.6b00492</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acc. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="487" to="491" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Compositional engineering of perovskite materials for high-performance solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature14133</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">517</biblScope>
+			<biblScope unit="page" from="476" to="480" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">High-efficiency perovskite solar cells based on the black polymorph of HC(NH2)2 PbI3</title>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-J</forename><surname>Seol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-N</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-G</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.201401137</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="4991" to="4998" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Mixedorganic-cation perovskite photovoltaics for enhanced solar-light harvesting</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pellet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gregori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.201309361</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="3151" to="3157" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Atomic-level passivation mechanism of ammonium salts enabling highly efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Alharbi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Alyamani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Kubicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Uhl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Walder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Q</forename><surname>Alanazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Burgos-Caminal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Albadri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Albrithen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Alotaibi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-E</forename><surname>Moser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Giordano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Emsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-019-10985-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">3008</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Efficient inorganic-organic hybrid heterojunction solar cells containing perovskite compound and polymeric hole conductors</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Heo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Mandal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-S</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nphoton.2013.80</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="486" to="491" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Efficient hybrid solar cells based on meso-superstructured organometal halide perovskites</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Teuscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1228604</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="page" from="643" to="647" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Ultrahydrophobic 3D/2D fluoroarene bilayer-based water-resistant perovskite solar cells with efficiencies exceeding 22</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Uchida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Arora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Milić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hinderhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schreiber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Uhl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Dar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/sciadv.aaw2543</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">2543</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Sequential deposition as a route to high-performance perovskite-sensitized solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burschka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pellet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Humphry-Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature12340</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">499</biblScope>
+			<biblScope unit="page" from="316" to="319" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Solvent engineering for high-performance inorganic-organic hybrid perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat4014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="897" to="903" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Efficient planar heterojunction perovskite solar cells by vapour deposition</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature12509</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">501</biblScope>
+			<biblScope unit="page" from="395" to="398" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Perovskites: The emergence of a new era for low-cost, high-efficiency solar cells</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jz4020162</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="3623" to="3630" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Electron-hole diffusion lengths exceeding 1 micrometer in an organometal trihalide perovskite absorber</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grancini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Menelaou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J P</forename><surname>Alcocer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leijtens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petrozza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1243982</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page" from="341" to="344" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Seok, o-Methoxy substituents in spiro-OMeTAD for efficient inorganic-organic hybrid perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename></persName>
+		</author>
+		<idno type="DOI">10.1021/ja502824c</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="7837" to="7840" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A fluorene-terminated hole-transporting material for highly efficient and stable perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">G</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-W</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Il</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Seo</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41560-018-0200-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="682" to="689" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A molecularly engineered hole-transporting material for efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Orlandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Aghazada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cavazzini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Correa-Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Scopelliti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mosconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-H</forename><surname>Dahmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Angelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pozzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graetzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nenergy.2015.17</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">15017</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Solid-state dye-sensitized mesoporous TiO2 solar cells with high photon-to-electron conversion efficiencies</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Bach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lupo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Comte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Moser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Weissörtel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Salbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Spreitzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/26936</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">395</biblScope>
+			<biblScope unit="page" from="583" to="585" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Rational design of dipolar chromophore as an efficient dopant-free hole-transporting material for perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-C</forename><surname>Chueh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K Y</forename><surname>Jen</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.6b06291</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="11833" to="11839" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A dopant-free hole-transporting material for efficient and stable perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yasuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Islam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Han</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C4EE01589D</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="2963" to="2967" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A novel dopant-free triphenylamine based molecular &quot;Butterfly&quot; hole-transport material for highly efficient and stable perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jacopin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/aenm.201600401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1600401</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Caesium for perovskite solar cells: An overview</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Renzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cavallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gerbaldi</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/chem.201801096</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="12183" to="12205" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Cesium-containing triple cation perovskite solar cells: Improved stability, reproducibility and high efficiency</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Domanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Correa-Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C5EE03874J</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1989" to="1997" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Methods and strategies for achieving high-performance carbon-based perovskite solar cells without hole transport materials</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C9TA04707G</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="15476" to="15490" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Carbon-based materials for stable, cheaper and large-scale processable perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fagiolari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bella</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C9EE02115A</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="3437" to="3472" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Carbon counter electrodes in dye-sensitized and perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ma</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adfm.201906451</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">1906451</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A generic interface to reduce the efficiency-stability-cost gap of perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scheiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Mcmeekin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Killian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Levchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Schrenker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Spiecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stubhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Luechinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schmuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-P</forename><surname>Steinrück</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Fink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Halik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Brabec</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aao5561</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">358</biblScope>
+			<biblScope unit="page" from="1192" to="1197" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Efficient, stable and scalable perovskite solar cells using poly(3-hexylthiophene)</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Y</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-019-1036-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">567</biblScope>
+			<biblScope unit="page" from="511" to="515" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">% Efficiency non-fullerene polymer solar cells with trialkylsilyl substituted 2D-conjugated polymer as donor</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z.-G</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms13651</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">13651</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">High-efficiency and air-stable P3HT-based polymer solar cells with a new non-fullerene acceptor</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Holliday</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Ashraf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wadsworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Yousaf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Dimitrov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gasparini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alamoudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Laquai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Brabec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Salleo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Durrant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mcculloch</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms11585</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">11585</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Solutionprocessed small-molecule solar cells with 6.7% efficiency</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Welch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Leong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Takacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Bazan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Heeger</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat3160</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="44" to="48" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Fluorinated organic materials for electronic and optoelectronic applications: The role of the fluorine atom</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Babudri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Farinola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Naso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ragni</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/B611336B</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="page" from="1003" to="1022" />
+			<date type="published" when="2007">2007. 2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Fluorinated poly(pphenylenevinylene) copolymers: Preparation and use in light-emitting diodes</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Benjamin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Z</forename><surname>Faraggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Avny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Davidov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Neumann</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cm950347e</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="352" to="355" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Effect of fluorination on the properties of a donor-acceptor copolymer for use in photovoltaic cells and transistors</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bronstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Frost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hadipour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Ashraf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Rand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Watkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mcculloch</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cm301910t</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="277" to="285" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Formamidinium lead trihalide: A broadly tunable perovskite for efficient planar heterojunction solar cells</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Menelaou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c3ee43822h</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="982" to="988" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Efficient, stable solar cells by using inherent bandgap of α-phase formamidinium lead iodide</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-U</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aay7044</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="749" to="753" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Surface passivation of perovskite film for efficient solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>You</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41566-019-0398-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="460" to="466" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Methylammonium chloride induces intermediate phase stabilization for efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G.-H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Huh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Kwak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.joule.2019.06.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="2179" to="2192" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Gradient energy alignment engineering for planar perovskite solar cells with efficiency over 23%</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.201905766</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">1905766</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Understanding energy loss in organic solar cells: Toward a new efficiency regime</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Menke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Ran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Bazan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Friend</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.joule.2017.09.020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="25" to="35" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Detailed balance limit of efficiency of p-n junction solar cells</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shockley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Queisser</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1736034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="510" to="519" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">What makes a good solar cell?</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kirchartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Rau</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/aenm.201703385</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1703385</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Influences of the noncovalent interaction strength on reaching high solid-state order and device performance of a low bandgap polymer with axisymmetrical structural units</title>
+		<author>
+			<persName><forename type="first">J.-F</forename><surname>Jheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-Y</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-S</forename><surname>Hsu</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.201300098</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="2445" to="2451" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Implication of fluorine atom on electronic properties, ordering structures, and photovoltaic performance in naphthobisthiadiazole-based semiconducting polymers</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kawashima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukuhara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Suda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Koganezawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ohkita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Osaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takimiya</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.6b05418</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="10265" to="10275" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Emission mechanisms in Alrich AlGaN/AlN quantum wells assessed by excitation power dependent photoluminescence spectroscopy</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Iwata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Banal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ichikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Funato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawakami</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4908282</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page">75701</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Solar cells. Low trap-state density and long carrier diffusion in organolead trihalide perovskite single crystals</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Adinolfi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Comin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alarousu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Buin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoogland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rothenberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Katsiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Losovyj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Dowben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">F</forename><surname>Mohammed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Sargent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Bakr</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aaa2725</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="page" from="519" to="522" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Low surface recombination velocity in solution-grown CH3NH3PbBr3 perovskite single crystal</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Luther</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Beard</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms8961</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7961</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Efficient luminescent solar cells based on tailored mixed-cation perovskites</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Dar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Renevier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schenk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Giordano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Correa Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-D</forename><surname>Decoppet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/sciadv.1501170</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">1501170</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Generalized gradient approximation made simple</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Perdew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ernzerhof</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.77.3865</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="3865" to="3868" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Accurate molecular van der Waals interactions from groundstate electron density and free-atom reference data</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tkatchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scheffler</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.102.073005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page">73005</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Surface effects and adsorption of methoxy anchors on hybrid lead iodide perovskites: Insights for Spiro-MeOTAD attachment</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Torres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G C</forename><surname>Rego</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp510595s</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. C</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="26947" to="26954" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Electronic population analysis on LCAO-MO molecular wave functions. I</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Mulliken</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1740588</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1833" to="1840" />
+			<date type="published" when="1955">1955</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Hopping transport in conductive heterocyclic oligomers: Reorganization energies and substituent effects</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Hutchison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Ratner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Marks</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja0461421</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="2339" to="2350" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">An all-electron numerical method for solving the local density functional for polyatomic molecules</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Delley</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.458452</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="508" to="517" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">From molecules to solids with the DMol 3 approach</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Delley</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1316015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="7756" to="7764" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Charge transport in organic semiconductors</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Coropceanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cornil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Da Silva Filho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Olivier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Silbey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-L</forename><surname>Brédas</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cr050140x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="926" to="952" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<idno>Rev. 10-11-2024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Efficiency (%) Best Research-Cell Efficiencies</title>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Best research-cell efficiencies chart</title>
+		<ptr target="www.nrel.gov/pv/assets/pdfs/best-research-cell-efficiencies.20200218.pdf" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Renewable Energy Laboratory</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acc. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="487" to="491" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">517</biblScope>
+			<biblScope unit="page" from="476" to="480" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-J</forename><surname>Seol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-N</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-G</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="4991" to="4998" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pellet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="3151" to="3157" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Alharbi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">3008</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Heo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="486" to="491" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Teuscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="page" from="643" to="647" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">2543</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burschka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">499</biblScope>
+			<biblScope unit="page" from="316" to="319" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="897" to="903" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">501</biblScope>
+			<biblScope unit="page" from="395" to="398" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="3623" to="3630" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page" from="341" to="344" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="7837" to="7840" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="682" to="689" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">15017</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">U</forename><surname>Bach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">395</biblScope>
+			<biblScope unit="page" from="583" to="585" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="11833" to="11839" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="2963" to="2967" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1600401</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Renzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cavallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gerbaldi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="12183" to="12205" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1989" to="1997" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="15476" to="15490" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fagiolari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bella</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="3437" to="3472" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">1906451</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">358</biblScope>
+			<biblScope unit="page" from="1192" to="1197" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">567</biblScope>
+			<biblScope unit="page" from="511" to="515" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">13651</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Holliday</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">11585</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="44" to="48" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Babudri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Farinola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Naso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ragni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="page" from="1003" to="1022" />
+			<date type="published" when="2007">2007. 2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Benjamin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Z</forename><surname>Faraggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Avny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Davidov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Neumann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="352" to="355" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bronstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="277" to="285" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="982" to="988" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Min</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="749" to="753" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="460" to="466" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="2179" to="2192" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">1905766</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Menke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Ran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Bazan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Friend</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="25" to="35" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shockley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Queisser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="510" to="519" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kirchartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Rau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1703385</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J.-F</forename><surname>Jheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="2445" to="2451" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kawashima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="10265" to="10275" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Iwata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Banal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ichikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Funato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawakami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page">75701</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="page" from="519" to="522" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7961</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

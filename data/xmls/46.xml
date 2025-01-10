@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Visualization and suppression of interfacial recombination for high-efficiency large-area pin perovskite solar cells</title>
+				<funder ref="#_vGz9f9T">
+					<orgName type="full">Australian Government</orgName>
+				</funder>
+				<funder ref="#_mCCGb5t">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Australian Renewable Energy Agency (ARENA) Australian Centre for Advanced Photovoltaics</orgName>
+				</funder>
+				<funder ref="#_ZQyCmSj">
+					<orgName type="full">German Federal Ministry of Education and Research (BMBF)</orgName>
+				</funder>
+				<funder ref="#_JqfkWwt">
+					<orgName type="full">German Federal Ministry for Economic Affairs and Energy (BMWi)</orgName>
+				</funder>
+				<funder ref="#_cu27CMs">
+					<orgName type="full">Welsh European Funding Office</orgName>
+				</funder>
+				<funder ref="#_x3C5X4N">
+					<orgName type="full">Australian Research Council</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-07-30">30 July 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Martin</forename><surname>Stolterfoht</surname></persName>
+							<email>stolterf@uni-potsdam.de</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Potsdam</orgName>
+								<address>
+									<settlement>Potsdam</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Institute of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Potsdam</orgName>
+								<address>
+									<addrLine>Karl-Liebknecht-Str. 24-25</addrLine>
+									<postCode>D-14476</postCode>
+									<settlement>Potsdam-Golm</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christian</forename><forename type="middle">M</forename><surname>Wolff</surname></persName>
+							<idno type="ORCID">0000-0002-7210-1869</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Potsdam</orgName>
+								<address>
+									<settlement>Potsdam</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Institute of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Potsdam</orgName>
+								<address>
+									<addrLine>Karl-Liebknecht-Str. 24-25</addrLine>
+									<postCode>D-14476</postCode>
+									<settlement>Potsdam-Golm</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">José</forename><forename type="middle">A</forename><surname>Márquez</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Structure and Dynamics of Energy Materials</orgName>
+								<address>
+									<addrLine>Helmholtz- Zentrum-Berlin</addrLine>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Deptartment of Structure and Dynamics of Energy Materials</orgName>
+								<address>
+									<addrLine>Helmholtz-Zentrum-Berlin Hahn- Meitner-Platz 1</addrLine>
+									<postCode>D-14109</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shanshan</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Potsdam</orgName>
+								<address>
+									<settlement>Potsdam</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Centre for Organic Photonics &amp; Electronics (COPE)</orgName>
+								<orgName type="department" key="dep2">School of Chemistry and Molecular Biosciences</orgName>
+								<orgName type="institution">The University of Queensland</orgName>
+								<address>
+									<settlement>Brisbane</settlement>
+									<region>Queensland</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Institute of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Potsdam</orgName>
+								<address>
+									<addrLine>Karl-Liebknecht-Str. 24-25</addrLine>
+									<postCode>D-14476</postCode>
+									<settlement>Potsdam-Golm</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Centre for Organic Photonics &amp; Electronics (COPE)</orgName>
+								<orgName type="department" key="dep2">School of Chemistry and Molecular Biosciences</orgName>
+								<orgName type="institution">The University of Queensland</orgName>
+								<address>
+									<postCode>4072</postCode>
+									<settlement>Brisbane</settlement>
+									<region>QLD</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Charles</forename><forename type="middle">J</forename><surname>Hages</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Structure and Dynamics of Energy Materials</orgName>
+								<address>
+									<addrLine>Helmholtz- Zentrum-Berlin</addrLine>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Deptartment of Structure and Dynamics of Energy Materials</orgName>
+								<address>
+									<addrLine>Helmholtz-Zentrum-Berlin Hahn- Meitner-Platz 1</addrLine>
+									<postCode>D-14109</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>Rothhardt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Potsdam</orgName>
+								<address>
+									<settlement>Potsdam</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Institute of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Potsdam</orgName>
+								<address>
+									<addrLine>Karl-Liebknecht-Str. 24-25</addrLine>
+									<postCode>D-14476</postCode>
+									<settlement>Potsdam-Golm</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Steve</forename><surname>Albrecht</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Young Investigator Group Perovskite Tandem Solar Cells</orgName>
+								<orgName type="institution">Helmholtz-Zentrum Berlin für Materialien und Energie GmbH</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="laboratory">Young Investigator Group Perovskite Tandem Solar Cells</orgName>
+								<orgName type="institution">Helmholtz-Zentrum Berlin für Materialien und Energie GmbH</orgName>
+								<address>
+									<addrLine>Kekuléstraße 5</addrLine>
+									<postCode>12489</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paul</forename><forename type="middle">L</forename><surname>Burn</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Centre for Organic Photonics &amp; Electronics (COPE)</orgName>
+								<orgName type="department" key="dep2">School of Chemistry and Molecular Biosciences</orgName>
+								<orgName type="institution">The University of Queensland</orgName>
+								<address>
+									<settlement>Brisbane</settlement>
+									<region>Queensland</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Centre for Organic Photonics &amp; Electronics (COPE)</orgName>
+								<orgName type="department" key="dep2">School of Chemistry and Molecular Biosciences</orgName>
+								<orgName type="institution">The University of Queensland</orgName>
+								<address>
+									<postCode>4072</postCode>
+									<settlement>Brisbane</settlement>
+									<region>QLD</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paul</forename><surname>Meredith</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">Swansea University</orgName>
+								<address>
+									<settlement>Swansea</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">Swansea University</orgName>
+								<address>
+									<addrLine>Singleton Park</addrLine>
+									<postCode>SA2 8PP</postCode>
+									<settlement>Wales</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Unold</surname></persName>
+							<email>unold@helmholtz-berlin.de</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Structure and Dynamics of Energy Materials</orgName>
+								<address>
+									<addrLine>Helmholtz- Zentrum-Berlin</addrLine>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Deptartment of Structure and Dynamics of Energy Materials</orgName>
+								<address>
+									<addrLine>Helmholtz-Zentrum-Berlin Hahn- Meitner-Platz 1</addrLine>
+									<postCode>D-14109</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dieter</forename><surname>Neher</surname></persName>
+							<email>neher@uni-potsdam.de</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Potsdam</orgName>
+								<address>
+									<settlement>Potsdam</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Institute of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Potsdam</orgName>
+								<address>
+									<addrLine>Karl-Liebknecht-Str. 24-25</addrLine>
+									<postCode>D-14476</postCode>
+									<settlement>Potsdam-Golm</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Visualization and suppression of interfacial recombination for high-efficiency large-area pin perovskite solar cells</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-07-30">30 July 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C427F1A83CDB83A345F7C7049CCD2594</idno>
+					<idno type="DOI">10.1038/s41560-018-0219-8</idno>
+					<note type="submission">Certified measurements are shown in Supplementary Figures 10, 12, 16 and 17. Received: 31 December 2017; Accepted: 2 July 2018;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T18:03+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Supplementary Figure 1. Coupled Optical and Shockley-Queisser-Modelling. Fill factor (FF) as a function of ITO thickness and device aspect ratio corresponding to the device simulation in Figure 2b.</p><p>For ITO thicknesses of 150 nm with a sheet resistance 15 Ω/sq a theoretical FF of 80.2% (73.8%) can be achieved for an device aspect ratio of 0.16 (0.64), respectively. The trend is in good agreement with the experimental results in Figure <ref type="figure">2a</ref>.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Supplementary Figure <ref type="figure" target="#fig_4">2</ref>. Fluence-dependent transient photoluminescence. (a, b) TRPL analysis of the bare perovskite absorber and (c, d) the PVK/C60 stack illuminated at 700 nm and 510 nm excitation through the front glass (bare perovskite) and C60 (perovskite/ C60). For the neat absorber the decay is faster for high generation levels due to radiative emission (and/or Auger contributions). At very low injection levels we can recover a single exponential decay, interpreted as the minority carrier SRH lifetime. For the perovskite/C60 stack, the decay times are generally much shorter while 510 nm excitation causes a fast initial drop of the PL intensity (almost an order of magnitude relative to 700 nm), indicating a significant early time loss of carriers at the interface between the perovskite and C60.</p><p>For the bare perovskite, the initial decay is much smaller at 510 nm due to a much better interface to glass.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Note 1. Estimation of achievable Voc based on the monoexponential TRPL lifetime</head><p>As recently demonstrated by Tress, <ref type="bibr" target="#b0">1</ref> the achievable 𝑉 𝑂𝐶 in case of dominant Shockley-Read-Hall recombination can be predicted from the carrier lifetime (𝜏 SRH ) with the additional knowledge of the cells' short-circuit current density (~ 22 mA/cm 2 ), the bandgap (𝜖 G ~ 1.6 eV), the active layer thickness (𝑑 ~ 400 nm), and the electron (hole) effective masses (𝑚 * e(h) ~ 0.25 𝑚 e ). <ref type="bibr" target="#b0">1</ref> 𝑒𝑉 OC = 𝜖 G + 𝑘 B 𝑇 * ln ( 𝑛 e 𝑛 h 𝑁 C 𝑁 V ) (eq. 1)</p><p>𝑑𝑛 e 𝑑𝑡 = 𝐺 -𝑅 = 0 ~ 𝐺 -𝑛 e 𝜏 SRH  → 𝑛 e ~ 𝐺𝜏 SRH (eq. 2)</p><p>Here,</p><formula xml:id="formula_0">𝑘 B 𝑇</formula><p>𝑒 is the thermal voltage, 𝐺 and 𝑅 the generation and recombination rates (𝐺 is approximated by Quantum Efficiency (EQE) of our standard cells (ITO/PTAA/perovskite/C60/BCP/Cu) demonstrating a sharp absorption onset and Urbach tail of 14 meV. This allows the determination of a radiative recombination current J 0,rad of ~4x10 -21 Am -2 , which yields a radiative V OC limit of 1.345 V at room temperature and using a generation (short-circuit) current density of 22 mAcm -2 . Photoluminescence quantum yield (PLQY), PL peak positions and average QFLS splitting values on 1cm <ref type="bibr" target="#b1">2</ref> -sized films on glass to check the reproducibility of the results. We note a relatively large batchto-batch variation for PTAA/perovskite films indicating difficulties to reproduce high quality films using neat PTAA (without PFN). On the other hand, the quasi-Fermi level splitting of other films could be well reproduced. Films marked with "*" are shown and discussed in the main text. The thickness of all layers of the films is identical to the thicknesses used for the final solar cell stack. MAPI). In particular, our CsFAPbI3 perovskite cells compare exceptionally well to previously reported (MA/Br-free) FAPbI3 nip-cells; e.g. ~17.5% for neat FAPbI3 from Seok and co-workers 3 , 19.2% Wang et al. <ref type="bibr" target="#b3">4</ref> for benzylamine-modified FAPbI3 cells, and Yu et al. <ref type="bibr" target="#b4">5</ref> with 19.6% (18.1% forward scan) for FA0.8Cs0.2PbI3 cells. We note that all these studies employed nip cells with strongly doped spiroOMeTAD while we can achieve slightly higher efficiencies for pin-type cells with ultrathin undoped charge transport layers. Lastly, we note, that the application of the absolute PL recombination analysis allows us to confirm the improvements are a result of reduced interfacial recombination at both the n-and p-contact as shown as shown in Supplementary Table <ref type="table" target="#tab_1">2</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Statistics Number of solar cells tested Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>Overall we fabricated and tested more than 250 cells for this study. As for the small area (6 mm2-size) cells, we fabricated approximately 40 cells for each of the 4 studied device architectures. Supplementary Figure <ref type="figure">8</ref> shows the results of three fabricated device batches with 20 cells per device architecture. In addition, we fabricated approximately 20 1cm2-size cells for each of these 4 device configurations. We note that we observed very small efficiency losses when increasing the active area from 6 mm2 to 1 cm2, thus the results in Supplementary Figure <ref type="figure">8</ref> are also representative for the large cells (with the exception of the standard device architecture without interlayers where we experienced scaling difficulties due to the formation of pinholes as we discuss in the text).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis of the device performance Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>In Supplementary Figure <ref type="figure">8</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9.">Long-term stability analysis</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Type of analysis, bias conditions and environmental conditions</head><p>For instance: illumination type, temperature, atmosphere humidity, encapsulation method, preconditioning temperature</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>Long term MPP tracking was performed on encapsulated cells under 1 Sun equivalent white LED irradiation in air (25% relative humidity) for 100 hours. Thereby the cell is continuously held at 25°C and its maximum power voltage which was obtained from an initial JV scan. Maximum power output was ensured by applying a small voltage perturbation (+/-5 mV) to the cell every 5 seconds. Depending on which voltage gave a higher power output, the applied voltage was either increased or decreasing by 5 mV and then held at this voltage for the next 5 seconds.  <ref type="bibr" target="#b3">4</ref> Young Investigator Group Perovskite Tandem Solar Cells, Helmholtz-Zentrum Berlin für Materialien und Energie GmbH, Berlin, Germany. <ref type="bibr" target="#b4">5</ref> Department of Physics, Swansea University, Swansea, UK. <ref type="bibr" target="#b5">6</ref> These authors contributed equally: Martin Stolterfoht, Christian M. Wolff. *e-mail: stolterf@uni-potsdam.de; unold@helmholtz-berlin.de; neher@uni-potsdam.de</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head><p>T he solution processability and potential for simple manufacturing from earth-abundant materials drives research into perovskite solar cells in the search for cheap, printable photovoltaic devices. The discovery that perovskites effectively sensitize titanium dioxide (TiO 2 ) in dye-sensitized solar cells in 2009 <ref type="bibr" target="#b0">1</ref> , and the demonstration of the first thin-film solid-state perovskite solar cells in 2012 <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b2">3</ref> has spurred tremendous research efforts concerning the understanding and optimization of perovskite-based optoelectronic devices. Though power conversion efficiencies (PCEs) of perovskite solar cells <ref type="bibr" target="#b3">4</ref> are rapidly approaching industrially engineered silicon and inorganic thin-film solar cells <ref type="bibr" target="#b4">5</ref> , several key issues remain that need to be understood and overcome. These include fundamental questions regarding recombination losses <ref type="bibr" target="#b5">6</ref> , long-term stability <ref type="bibr" target="#b7">7</ref> and difficulties in scaling to large electrode areas <ref type="bibr" target="#b8">8</ref> . Today it is well known that to unlock the full thermodynamic potential of perovskite solar cells it is imperative to suppress all non-radiative recombination losses, which manifest as increased dark currents and ideality factors greater than one, limiting both the cells' open-circuit voltage (V OC ) and fill factor <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b9">9</ref> . One of the most challenging tasks in this regard is being able to pinpoint the origin of these losses in a complete device under operational conditions. In general, recombination losses may occur either in the perovskite bulk <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b10">10</ref> or close to the interface of an adjacent transport layer as a result of a higher density of trap states at the surface <ref type="bibr" target="#b11">11,</ref><ref type="bibr" target="#b12">12</ref> . Likewise, recombination may also occur across interfaces <ref type="bibr" target="#b13">[13]</ref><ref type="bibr" target="#b14">[14]</ref><ref type="bibr" target="#b15">[15]</ref> between charges in the transport layer and minority carriers in the perovskite, or in the transport layers themselves <ref type="bibr" target="#b15">15</ref> . The situation becomes more challenging for cells with a comparatively large area (for example, 1 cm 2 ), where additional losses come from inhomogeneities of the active perovskite absorber as well as at the interfaces to the transport layers, with transport resistances also becoming an issue <ref type="bibr" target="#b8">8</ref> . Knowing the origin of the non-radiative recombination losses would greatly facilitate targeted improvements in device performance <ref type="bibr" target="#b13">13</ref> . This is particularly relevant for planar perovskite devices in the pin configuration, which still lag behind the most efficient nip cells <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b11">11,</ref><ref type="bibr" target="#b16">[16]</ref><ref type="bibr" target="#b17">[17]</ref><ref type="bibr" target="#b18">[18]</ref><ref type="bibr" target="#b19">[19]</ref> due to their lower opencircuit voltage and higher non-radiative recombination losses (for example, 1.15 V for record pin cells 11 compared to more than 1.23 V for nip cells <ref type="bibr" target="#b13">13,</ref><ref type="bibr" target="#b17">17</ref> ). Nevertheless, pin-type cells are very attractive for single-junction solar cells as they require only ultrathin undoped charge transport layers (for example, 8 nm poly[bis(4-phenyl) (2,4,6-trimethylphenyl)amine] (PTAA), 30 nm C 60 ) <ref type="bibr" target="#b9">9</ref> without the need for extensive chemical doping <ref type="bibr" target="#b9">9</ref> and annealing at temperatures above 100 °C. This renders their fabrication compatible with rollto-roll deposition on flexible plastic substrates. Moreover, a pin perovskite device architecture is required for Si/perovskite tandem applications in combination with well-established solar cell technologies based on p-type silicon <ref type="bibr" target="#b20">20,</ref><ref type="bibr" target="#b21">21</ref> . Thus, a detailed investigation of non-radiative recombination losses and which interface represents the bottleneck for cell efficiency is urgently needed.</p><p>We use a combination of steady-state and time-resolved photoluminescence (PL and TRPL) measurements to pinpoint the origin of non-radiative recombination losses in pin-type perosvkite solar cells. In particular, we determine the recombination kinetics and quasi-Fermi-level splitting (QFLS) in sample stacks consisting of the perovskite absorber-only, and perovskite/charge transport layer heterojunctions on length scales relevant to our solar cells (1 cm 2 ). We identify the main limitation to higher performance to be minority carrier recombination at the heterojunction with the organic charge transport layers. These losses are found to be surprisingly similar at the electron-and hole-selective interfaces. We therefore The performance of perovskite solar cells is predominantly limited by non-radiative recombination, either through trap-assisted recombination in the absorber layer or via minority carrier recombination at the perovskite/transport layer interfaces. Here, we use transient and absolute photoluminescence imaging to visualize all non-radiative recombination pathways in planar pintype perovskite solar cells with undoped organic charge transport layers. We find significant quasi-Fermi-level splitting losses (135 meV) in the perovskite bulk, whereas interfacial recombination results in an additional free energy loss of 80 meV at each individual interface, which limits the open-circuit voltage (V OC ) of the complete cell to ~1.12 V. Inserting ultrathin interlayers between the perovskite and transport layers leads to a substantial reduction of these interfacial losses at both the p and n contacts. Using this knowledge and approach, we demonstrate reproducible dopant-free 1 cm 2 perovskite solar cells surpassing 20% efficiency (19.83% certified) with stabilized power output, a high V OC (1.17 V) and record fill factor (&gt; 81%).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Visualization and suppression of interfacial recombination for high-efficiency large-area pin perovskite solar cells</head><note type="other">Martin</note><formula xml:id="formula_1">NATURe eNeRgy | VOL 3 | OCTOBER 2018 | 847-854 | www.nature.com/natureenergy</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nature eNergy</head><p>optimized the hole-selective interface through the use of a conjugated polyelectrolyte, which almost entirely suppressed interfacial recombination while simultaneously improving the wetting of the perovskite solution on the hole transport layer surface, delivering reproducible 1 cm 2 devices. With the knowledge that the V OC of the final device is now largely defined by the QFLS of the inferior perovskite/C 60 heterojunction we introduced an ultrathin layer of LiF (0.6-1 nm) between the absorber and the electron transport layer. This allowed us to reduce the interfacial recombination loss at the electron-selective interface by 35 meV. Suppressing the nonradiative recombination at both interfaces directly resulted in critical V OC and fill factor improvements in complete devices, allowing 1 cm 2 cells with ~20% efficiency, stabilized maximum power output and high reproducibility. This is currently the highest certified efficiency for a published 1 cm 2 perovskite solar cell structure. Last, numerical simulations highlight the importance of interface optimizations versus bulk optimizations for further perovskite solar cell developments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device architecture</head><p>Our work builds on recent advancements in the understanding and improvement of pin devices <ref type="bibr" target="#b11">11,</ref><ref type="bibr" target="#b19">19,</ref><ref type="bibr" target="#b22">22</ref> . The chemical structures of PTAA, perovskite and C 60 as used in our standard cells with architecture [(indium tin oxide, ITO (150 nm)/PTAA (8 nm)/perovskite (400-500 nm)/C 60 (30 nm)/bathocuproine, BCP (8 nm)/Cu (100 nm)] are shown in Fig. <ref type="figure" target="#fig_2">1a</ref>. For the active layer material, we chose the previously reported 'triple cation perovskite' mixture with the composition CsPbI 0.05 [(FAPbI 3 ) 0.89 (MAPbBr 3 ) 0.11 ] 0.95 , as it delivers among the best photovoltaic performance. We note that though we focus on triple cation cells we have also generalized the results to methylammonium lead iodide MAPbI 3 and caesium formamidinium lead iodide (Cs 0.05 FA 0.95 )PbI 3 absorber layers, as discussed at the end of the manuscript. Figure <ref type="figure" target="#fig_2">1b</ref> displays a schematic energy level diagram based on the results from ultraviolet and inverse photoemission spectroscopy <ref type="bibr" target="#b15">15</ref> , and proposes possible recombination mechanisms.</p><p>One of the most important considerations for scaling the device area is the electrode architecture, due to the relatively high sheet resistance of the transparent conducting electrode (TCE) <ref type="bibr" target="#b8">8</ref> . It is thus essential to minimize the distance carriers have to traverse through the comparatively high resistance electrode (that is, ITO versus copper). Figure <ref type="figure" target="#fig_4">2a</ref> shows the current-voltage characteristics of optimized 1 cm 2 cells with electrode widths of 8 mm and 4 mm, which demonstrate that the fill factor can be increased from 69% to 77.9% simply by reducing the width of the active area. This is also in agreement with numerical solutions of the Shockley equation for different electrode aspect ratios, as illustrated in Fig. <ref type="figure" target="#fig_4">2b</ref>, which confirm a roughly 2% absolute efficiency gain through the fill factor (Supplementary Fig. <ref type="figure" target="#fig_2">1</ref>). This approach is in principle scalable, as the rectangular cells can be connected using laser patterning <ref type="bibr" target="#b23">23</ref> while the electrode width may be slightly increased using a lower-resistance ITO substrate (for instance, 10 Ω sq -1 ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Non-radiative recombination losses</head><p>Among the most widely used and trusted techniques in the community to study the fate of photogenerated charges in perovskite solar cells is TRPL <ref type="bibr" target="#b24">24,</ref><ref type="bibr" target="#b25">25</ref> . At sufficiently low fluences a mono-exponential decay is usually observed, indicative of an underlying non-radiative trap-induced recombination that gradually reduces the density of emitting species, and hence the PL signal <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b10">10,</ref><ref type="bibr" target="#b26">26</ref> . The fluence dependence of the TRPL signals is illustrated in Supplementary Fig. <ref type="figure" target="#fig_4">2</ref>. Figure <ref type="figure" target="#fig_6">3</ref> shows the result of such an experiment on a neat perovskite film, which displays a long PL lifetime of approximately half a microsecond, comparable to previously reported <ref type="bibr" target="#b16">16</ref> perovskite films on TiO 2 . Considerably longer lifetimes have been reported in exceptional cases; for example, a lifetime of 8 µ s was recently realized through surface passivation of the perovskite with tri-n-octylphosphine (TOPO) <ref type="bibr" target="#b26">26</ref> . As demonstrated <ref type="bibr" target="#b5">6</ref> , the achievable V OC in the case of dominant Shockley-Read-Hall (SRH) recombination can be predicted from the monoexponential carrier lifetime (τ SRH ). As we detail in Supplementary Note 1, a SRH lifetime of 500 ns (as deduced from the exponential PL decay of the neat perovskite layer) should limit the open-circuit voltage to approximately 1.215 V at room temperature. The measured V OC of the device is significantly lower, which suggests that addition of the charge transport layers induces substantial non-radiative recombination losses.</p><p>Figure <ref type="figure" target="#fig_6">3</ref> demonstrates the large impact of the addition of charge transporting layers on the TRPL decay, which is consistent with other previously reported studies <ref type="bibr" target="#b16">16</ref> . Notably, large reductions in PL lifetimes </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head><p>Nature eNergy are seen independent of whether the PTAA is added between the glass and the active material or coated on top of the perovskite film (on glass), indicating that differences in perovskite morphology related to the nature of the underlying substrate are of minor importance in determining the PL lifetime (see Supplementary Fig. <ref type="figure" target="#fig_6">3</ref>). Interestingly, all samples comprising one or two transport layers exhibited a similar and fast bi-exponential decay. As pointed out previously <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b27">27</ref> , this may be due either to the rapid extraction of charges on (sub)nanosecond timescales (quenching) or increased non-radiative recombination losses-two processes that are inherently difficult to disentangle from the TRPL signal alone. However, unless one transport layer completely depletes the perovskite bulk of one carrier type, the impact of non-radiative interface recombination will still be visible in the signal. As the bulk recombination happens at rather long timescales (lifetimes of approximately 500 ns), it can be concluded that the TRPL signals from the films with the transport layers present are subjected to additional non-radiative interface recombination. Following this line of reasoning, we attribute the fast initial decay to the loss of carriers at the interfaces due to charge extraction to the transport layers and/or to interface recombination, and the second decay (for which the mono-exponential lifetimes are provided in Fig. <ref type="figure" target="#fig_6">3</ref>) to interface recombination. In accordance with this, the initial decay becomes less pronounced and smeared out when increasing the excitation wavelengththat is, when light penetrates deeper into the perovskite layer (see Supplementary Fig. <ref type="figure" target="#fig_4">2</ref>). The rather similar decays after the initial drop in the samples with either PTAA or C 60 indicate that the two perovskite/organic heterojunctions equally limit the V OC due to additional non-radiative recombination losses at the interfaces. After carriers reach a quasi-equilibrium distribution, the lifetime of the second decay (τ II ) can be described by an equilibrium between the bulk decay time (τ bulk ), the diffusion time to the surface , where d is the perovskite film thickness and D the diffusion constant <ref type="bibr" target="#b24">24,</ref><ref type="bibr" target="#b27">27</ref> .</p><p>Using the bulk lifetime of 500-785 ns, a mobility of 30 cm 2 V -1 s -1 (ref. <ref type="bibr" target="#b28">28</ref> ), d = 400 nm and the measured τ II value of 20-30 ns would result in an interface loss velocity of S 1 ~ 1.6 × 10 3 -2.1 × 10 3 cm s -1 at the interface between the charge transport layer and the perovskite. However, other processes may potentially influence the TRPL signal as well, such as a decelerating charge extraction, light-soaking effects <ref type="bibr" target="#b29">29</ref> , photon recycling <ref type="bibr" target="#b24">24,</ref><ref type="bibr" target="#b25">25</ref> , or a graded generation profile. Thus, it is clear that though TRPL is a useful guide to recombination losses, it by no means provides a definitive mechanistic insight.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Photoluminescence and QFLS</head><p>A much more direct way to quantify the additional non-radiative recombination losses at the perovskite/organic interfaces is steadystate PL, as the absolute PL intensity (I PL ) is a direct measure of the QFLS (or ∆ E F ) <ref type="bibr" target="#b30">[30]</ref><ref type="bibr" target="#b31">[31]</ref><ref type="bibr" target="#b32">[32]</ref><ref type="bibr" target="#b33">[33]</ref><ref type="bibr" target="#b34">[34]</ref><ref type="bibr" target="#b35">[35]</ref> . Here, we use hyperspectral absolute photoluminescence imaging to create depth-averaged maps of the QFLS on the neat perovskite films in comparison to multilayer samples comprising one or both types of transport layer. This approach has been recently used by El-Hajje et al. <ref type="bibr" target="#b31">31</ref> to spatially resolve the opto-electronic quality of evaporated methylammonium lead iodide junctions, and to study the hole blocking of different electron transport layers. Moreover, absolute PL has been recently applied to disentangle interfacial and bulk recombination losses in nip cells by Sarritzu et al. <ref type="bibr" target="#b33">33</ref> , though the QFLS was not compared to the Reducing the active area width from 8 mm (aspect ratio 0.64) to 4 mm (aspect ratio 0.16) while keeping the active area the same improved the fill factor by approximately 9%, as indicated by the arrow. b, Simulated solar cell efficiencies using a combination of optical simulations of the obtainable short-circuit current, and the Shockley equation with a finite ITO series resistance depending on its thickness and the device aspect ratio. An internal cell resistance of 1.5 Ω cm 2 (for a 1 cm 2 cell) and an ideality factor of approximately 1.5 were assumed, as previously determined <ref type="bibr" target="#b9">9</ref> . The two circled points correspond to the two devices from a.  <ref type="bibr" target="#b30">30</ref> , which describes the non-thermal radiation of a semiconductor:</p><formula xml:id="formula_2">= π - -Δ ( ) I E E a E h c ( ) 2 ( ) 1 exp 1 (1) E E k T PL 2 3 2 F B</formula><p>Here, a(E) is the photon energy (E)-dependent absorptivity, c is the speed of light, h is the Planck constant and k B is the Boltzmann constant. Under the assumption that for emission energies above the PL maximum, a(E) approaches unity, equation ( <ref type="formula">1</ref>) can be simplified to</p><formula xml:id="formula_3">             π = - + Δ I E h c E E k T E k T ln ( ) 2 (2) PL 3 2 2 B F B</formula><p>Equation ( <ref type="formula">2</ref>) allows one to deduce ∆ E F simply from fitting the high-energy slope of the PL emission <ref type="bibr" target="#b36">36</ref> . By applying equation ( <ref type="formula">2</ref>) to every spectrum associated with each pixel (10 µ m in diameter) of the hyperspectral images, ∆ E F distribution maps can be created. Figure <ref type="figure" target="#fig_5">4</ref> shows the depth-averaged QFLS maps (1 cm 2 ) of the neat triple cation perovskite film, with either PTAA or C 60 alone, or both transport layers being present. The perovskite absorber exhibits a homogenous profile with a QFLS of approximately 1.21 eV (we note a 20 meV global systematic error on all maps). Though this value is remarkably close to the V OC obtained from the TRPL lifetime according to Supplementary Note 1, it is substantially below the radiative V OC of approximately 1.345 eV. The latter was estimated from the dark generation current J 0,rad ≈ 4 × 10 -21 A cm -2 (see Supplementary Fig. <ref type="figure" target="#fig_5">4</ref>). This approach for calculating the radiative V OC limit has been extensively applied to perovskite solar cells, as shown in refs <ref type="bibr" target="#b37">[37]</ref><ref type="bibr" target="#b38">[38]</ref><ref type="bibr" target="#b39">[39]</ref> , and dates back to Shockley and Queisser <ref type="bibr" target="#b40">40</ref> . We also note that the emitted PL can be influenced by photon recycling <ref type="bibr" target="#b24">24,</ref><ref type="bibr" target="#b25">25</ref> . However, this does not affect our conclusions, because it is the external PL quantum yield that determines the QFLS and maximum achievable device V OC (ref. <ref type="bibr" target="#b41">41</ref> ). Figure <ref type="figure" target="#fig_5">4</ref> also shows that the QFLS of the perovskite/C 60 film is reduced to approximately 1.136 eV ± 10 mV and the PTAA/perovskite film exhibits a QFLS of approximately 1.125 eV ± 10 mV. It is important to note that, compared to the neat absorber material with a PL quantum yield of ~0.5%, addition of PTAA or C 60 results in a large reduction of the average photoluminescence efficiency (for example, 0.017% for a perovskite/C 60 film), which also means a large increase in the nonradiative loss current (approximately 30-fold in case of perovskite/ C 60 compared to the neat absorber material). Yet, despite the different nature of these two interfaces, the non-radiative recombination losses at both interfaces are surprisingly similar (lowering the QFLS by ~80 meV compared to the neat absorber), which is consistent with the TRPL results. For the (unoptimized) pin stack (glass/PTAA/perovskite/C 60 ) we obtain a ∆ E F of approximately 1.121 V ± 10 mV, which perfectly matches the average V OC in complete cells under comparable illumination intensities (see below). Interestingly, this value lies only slightly below the QFLS of samples with only one transport layer present, which indicates that the </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head><p>Nature eNergy non-radiative recombination losses at each individual interface are both reducing the I PL (E), yet the QFLS only through the logarithm in equation (2). We also note a good reproducibility and homogeneity of the QFLS on the neat perovskite film and all films with C 60 , except for the glass/PTAA/perovskite heterojunctions, for which we observed a relatively large batch-to-batch variation (with the average QFLS ranging from 1.09 eV to 1.16 eV, see Supplementary Table <ref type="table" target="#tab_0">1</ref>). On the other hand, no difference in the QFLS was observed between a PTAA/perovskite film on a glass or an ITO substrate, which suggests no additional non-radiative recombination losses at the ITO/ PTAA interface (see Supplementary Fig. <ref type="figure" target="#fig_9">5</ref>). Though Fig. <ref type="figure" target="#fig_5">4</ref> shows that the perovskite absorber imposes a substantial limitation on the V OC , we would expect that it is the weakest component of the (pin) stack that dominates the non-radiative loss current and sets the upper limit for the device V OC (in our case both interfaces equally). To further clarify the importance of interfacial optimizations in relation to bulk optimizations depending on the selectivity of the interlayers, we numerically simulated the opencircuit voltage of a pin device stack by varying the interface recombination velocities and the bulk lifetime using a drift-diffusion simulator (Supplementary Fig. <ref type="figure" target="#fig_10">6</ref>) <ref type="bibr" target="#b42">42</ref> . Applying the measured interface-recombination velocity in our structures before optimization (that is, ~2,000 cm s -1 ) and bulk lifetime (500 ns) as input parameters, the simulation accurately describes the V OC of our standard cells. The simulations clearly show that even if we improved the perovskite bulk lifetime multiple times (to much greater than 500 ns), no V OC improvements are possible when the interface recombination velocities stay at 2,000 cm s -1 . We therefore conclude that the V OC of our cells is entirely limited by the interfaces, and any improvement of the bulk would be lost due to rapid interfacial recombination. Thus, it is essential to systematically improve the interfaces, as we discuss in the following.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Suppression of interfacial recombination</head><p>Following the approach proposed by Lee et al. <ref type="bibr" target="#b43">43</ref> to improve the wettability of hydrophobic charge transport layers, we functionalized the PTAA layer with the interface compatibilizer poly[(9,9-bis(30-((N,N-dimethyl)-N-ethylammonium)-propyl)-2,7-fluorene)alt-2,7-(9,9-dioctylfluorene)] dibromide (PFN-P2)-a conjugated polyelectrolyte (CPE). In line with their findings <ref type="bibr" target="#b43">43</ref> , the amphiphilic properties of PFN-P2 improved the wetting of the perovskite film on the hydrophobic PTAA, thus greatly enhancing the fabri cation yield of our cells without frequent pinhole formation. To reveal possible changes of the layer morphology as a function of the underlying substrate, we performed top and cross-sectional scanning electron microscopy (SEM) measurements of perovskite films deposited on glass, glass/ITO/PTAA and glass/ITO/PTAA/PFN-P2. The images shown in Supplementary Fig. <ref type="figure">7</ref> demonstrate perovskite grains ranging from tens of nanometres to micrometres in size and indicate, at least qualitatively, only small changes of the perovskite bulk morphology across these substrates. Importantly, we find that PFN-P2 causes a substantial reduction of the recombination at the hole transport layer contact, as shown in Fig. <ref type="figure" target="#fig_9">5a,</ref><ref type="figure">b</ref>. This resulted in an average QFLS value (~1.19 eV) very close to the value for the neat perovskite (~1.21 eV) while simultaneously improving the homogeneity of the absolute PL image. To check whether PFN-P2 itself passivates the perovskite surface by reducing trap-assisted recombination independent of the presence of the hole transport layer/ perovskite interface, we compared QFLS maps of glass/perovskite and glass/PFN-P2/perovskite samples (Supplementary Table <ref type="table" target="#tab_0">1</ref>). No differences in the QFLS were found, which allows us to assign the increased QFLS of the hole transport layer/PFN-P2/perovskite junction to suppressed interfacial recombination. In accordance with this, we recorded a significantly slower TRPL decay on samples including PFN-P2 (Fig. <ref type="figure" target="#fig_9">5c</ref>). Motivated by this success, we aimed to reduce the detrimental recombination at the perovskite/electron transport layer interface. Different strategies have been reported to block holes at the n-interface, such as polystyrene <ref type="bibr" target="#b44">44</ref> or choline chloride <ref type="bibr" target="#b11">11</ref> for pin cells or Ga 2 O 3 for nip cells <ref type="bibr" target="#b13">13</ref> . However, for our triple cation pin perovskite solar cells we found the most significant effect on the QFLS and device efficiency when inserting an ultrathin layer (0.6-1 nm) of LiF between the perovskite and C 60 , causing a reduction of the non-radiative interfacial recombination loss by 35 meV (Fig. <ref type="figure" target="#fig_9">5d,</ref><ref type="figure">e</ref>). Again, as shown in Fig. <ref type="figure" target="#fig_9">5f</ref>, the increase in QFLS was correlated with a slower mono-exponential TRPL decay (with a lifetime that increased from 26 ns to 180 ns for a perovskite/C 60 and perovskite/LiF/C 60 film on glass, respectively.)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Photovoltaic performance</head><p>Introducing both interlayers led to considerable improvements of the cell efficiency (from an average of 18% to 20%) through an increase in V OC and fill factor (see Supplementary Fig. <ref type="figure">8</ref> for the performance of 6 mm 2 devices). Importantly, the average V OC of cells with both interlayers present is 1.16 V, which compares well with the average QFLS of the perovskite/LiF/C 60 stack and the complete device stack (~1.17 eV, see Supplementary Table <ref type="table" target="#tab_0">1</ref>). Measuring the V OC as a function of light intensity on cells with and without both interlayers reveals a similar ideality factor but a smaller dark recombination current density for the interlayer-containing device, indicating that these additional layers do affect the rate but not the overall nature of the recombination process (Supplementary Fig. <ref type="figure">9</ref>). From the device manufacturing perspective, introducing PFN-P2 greatly improved the homogeneity of the perovskite films, allowing us to manufacture 1 cm 2 cells without the frequent pinhole formation encountered in our standard cells (without the interlayers), resulting in reproducible high efficiencies. Typically, without PFN-P2, only one out of three 1 cm 2 cells resulted in efficiencies above 18%, while this PCE could be safely achieved with 17 out of 18 cells in two batches with 9 cells each if PFN-P2 was included. Cells with PFN-P2 (but without LiF) reached efficiencies up to 19.6% (J SC = 21.85 mA cm -2 , V OC = 1.143 V, fill factor = 78.6% Supplementary Fig. <ref type="figure" target="#fig_2">10</ref>) when measured with an aperture mask (1.018 cm 2 ) at 25 °C. The short-circuit current matched the integrated external quantum efficiency (EQE) and solar spectrum product (21.5 mA cm -2 ) within an error of less than 2% (Supplementary Fig. <ref type="figure" target="#fig_2">11</ref>). This cell was certified by an independent accredited institute (Institute for Solar Energy, Fraunhofer Freiburg), which gave a stabilized PCE of 19.22% Supplementary Fig. <ref type="figure" target="#fig_4">12</ref>) with a negligible mismatch to our J-V measurement in terms of current. Moreover, encapsulated cells were stable for at least 100 h under maximum power point (MPP) tracking conditions in air and constant illumination from a white light-emitting diode (LED) with 1 Sun equivalent light intensity, with only a small loss in efficiency (0.6% absolute) (Supplementary Fig. <ref type="figure" target="#fig_6">13</ref>). We also note that using 10 Ω sq -1 ITO substrates instead of our standard 15 Ω sq -1 ITO substrates allowed us to achieve fill factors above 81%; values which, to our knowledge, are 3% higher than the highest reported fill factors for 1 cm 2 size cells (Supplementary Fig. <ref type="figure" target="#fig_5">14</ref>) <ref type="bibr" target="#b45">45</ref> . As expected from the QFLS analysis, the V OC of the cells is significantly increased through the introduction of the LiF interlayer (~1.17 V), pushing the PCE of our 1 cm 2 cells up to a value of 20.0%, with virtually no hysteresis and a stable power output, as shown in Fig. <ref type="figure" target="#fig_10">6</ref>.</p><p>However, compared to the highest certified 1 cm 2 cells 46 with a PCE of 20.9% (J SC of 24.9 mA cm -2 , geometry and structure currently unpublished) a remaining limitation of our cells is their relatively low short-circuit current. Thus, to lower the bandgap of the perovskite layer, we optimized the ratio of FAPbI 3 to MAPbBr 3 . We found that using a ratio of 89:11 allows a significant improvement in short-circuit current (0.5-1 mA cm -2 ) with surprisingly minimal loss in V OC and efficiencies up to 21.6% for small 6 mm 2 cells (J SC = 23.2 mA cm -2 , V OC = 1.156 V, fill factor = 80.4%) (Supplementary Fig. <ref type="figure">8</ref>). As for the 1 cm 2 devices, Supplementary Fig. <ref type="figure" target="#fig_9">15a</ref> shows our present hero device with both interlayers 0.89 (MAPbBr 3 ) 0.11 ] 0.95 perovskite with an efficiency of 20.3%, again with very small mismatch versus the integrated EQE-solar spectrum product (Supplementary Fig. <ref type="figure" target="#fig_9">15b</ref>). This cell was certified by Fraunhofer-ISE, resulting in a PCE of 19.83%, which is currently the highest certified efficiency of a 1 cm 2 perovskite cell with published geometry and structure (Supplementary Figs. <ref type="figure" target="#fig_10">16</ref> and<ref type="figure" target="#fig_2">17</ref>) <ref type="bibr" target="#b3">4</ref> . We also highlight the important fact that the efficiency of our cells is stabilized, in contrast to most previous perovskite solar cell certifications, which are denoted as 'not stabilized' <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b46">46</ref> .</p><p>Last, we note that our concept to identify and suppress interfacial recombination can be successfully generalized to other perovskite compositions, including the standard methylammonium lead iodide absorber (MAPI), where we reached efficiencies slightly above 20%; as well as Cs-containing formamidinium lead iodide perovskite cells (Cs 0.05 FA 0.95 )PbI 3 with close to 20% PCE (Supplementary Fig. <ref type="figure" target="#fig_2">18</ref>).    </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nature eNergy</head><p>The latter system is particularly interesting as pure FAPbI 3 exhibits a bandgap of 1.47 eV, which is closer to the optimum bandgap in the Shockley-Queisser model <ref type="bibr" target="#b47">47</ref> . However, reports of FAPbI 3 cells are rare and the efficiencies of such devices lag significantly behind the mixed perovskite systems <ref type="bibr" target="#b47">[47]</ref><ref type="bibr" target="#b48">[48]</ref><ref type="bibr" target="#b49">[49]</ref> . Measurement of the absolute PL from the individual perovskite/charge transport layer junctions proves once again substantial reduction of interfacial recombination by the addition of PFN-P2 and LiF at the p-and n-interfaces, respectively (Supplementary Table <ref type="table" target="#tab_1">2</ref>). Notably, this allowed the devices to reach record efficiencies for MA/Br-free FAPbI 3 perovskite solar cells, which further underlines the potential of our recombination analysis and interfacial engineering approach (Supplementary Fig. <ref type="figure" target="#fig_2">18</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>Hyperspectral photoluminescence imaging allowed us to identify the origin of non-radiative recombination loss channels through mapping of the QFLS of the relevant perovskite/transport layer combinations. We found significant non-radiative recombination losses in the neat perovskite layer that reduce the potential V OC by approximately 135 mV compared to the radiative limit of this type of perovskite (1.345 V). However, interface recombination at each individual hybrid interface (PTAA/perovskite and perovskite/C 60 ) dominates the non-radiative loss current in the stack and results in a significant reduction of the QFLS down to ~1.13 eV. In line with this interpretation, we achieved a considerable improvement of the device performance by applying PFN-P2 and LiF as interfacial layers, which suppressed the recombination losses by 65 meV and 35 meV at the p-and n-interfaces, respectively. The reduced recombination and increased QFLS splitting resulted in significant V OC and fill factor gains, which in combination with an optimized composition of the perovskite layer led to a PCE above 20% for 1 cm 2 cells, with a certified PCE of 19.83% and stabilized power output. This work demonstrates how interfacial recombination losses can be unambiguously identified and suppressed, and paves the way to reach the thermodynamic limit for perovskite solar cells through further minimization of interface and trap-assisted recombination in the absorber layer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Hyperspectral absolute photoluminescence imaging. Excitation for the PL imaging measurements was performed with two 450 nm LEDs equipped with diffuser lenses. The intensity of the LEDs was adjusted to ~1 Sun by illuminating a contacted perovskite solar cell (short circuit) and matching the current density to the short-circuit current measured in the J-V sun simulator (the measured shortcircuit current density of the solar cell under this illumination was 22.2 mA cm -2 ). The photoluminescence image detection was performed with a charge-coupled device (CCD) camera (Allied Vision) coupled with a liquid crystal tunable filter.</p><p>The system was calibrated to absolute photon numbers in two steps in a similar way to the process described by Delamarre and colleagues <ref type="bibr" target="#b50">50</ref> . For this purpose an infrared laser diode and a spectrally calibrated halogen lamp were coupled to an integrating sphere. The pixel resolution of the images corresponds to about 10 μ m in diameter. Sets of images from 650 nm to 1,100 nm taken at a step size of 5 nm were recorded. All absolute PL measurements were performed on films with the same thicknesses as used in the operational solar cells. A global systematic error of 20 meV (or equivalently an approximate factor of two in PL efficiency) was estimated on the basis of uncertainties in the optimum approach to calculate the QFLS (equation ( <ref type="formula">2</ref>)), as well as small uncertainties in the estimation of the bandgap and the temperature.</p><p>Time-resolved PL. PL data was acquired with a TCSPC system (Berger &amp; Lahr) after excitation with a pulse-picked and frequency-doubled output from a modelocked Ti:sapphire oscillator (Coherent Chameleon) with nominal pulse durations ~100 fs and a fluence of ~ 30 nJ cm -2 at a wavelength of 470 nm. The samples were excited from the side of the interface we sought to investigate (that is, the glass side for PTAA and the top side for the other samples). The short-wavelength excitation was chosen to specifically excite the samples close to the interface we were interested in. All TRPL measurements were performed on films with the same thicknesses as used in the operational solar cells.</p><p>Device fabrication. Pre-patterned 2.5 × 2.5 cm² 15 Ω sq -1 ITO substrates (Automatic Research) were cleaned with acetone, 3% Hellmanex solution, deionized water and isopropanol, by sonication for 10 min in each solution. After a microwave plasma treatment (3 min, 200 W), the samples were transferred to a N 2 -filled glovebox. A thin (~8 nm) PTAA (Sigma-Aldrich) layer was spin-coated from a 1.5 mg ml -1 toluene solution at 6,000 r.p.m. for 30 s using an acceleration of 2,000 r.p.m. per second. The layers were subsequently annealed inside a nitrogenfilled glovebox ( &lt; 1 ppm H 2 O and O 2 ) at 100 °C for 10 min. After the substrate was allowed to cool for 5 min, a 60 µ l solution of PFN-P2 (0.5 mg ml -1 in methanol) purchased from 1-Material was added to the spinning substrate at 5,000 r.p.m. for 20 s, resulting in a film with thickness below the detection limit of our atomic force microscopy (less than 5 nm). The perovskite layer was prepared using an anti-solvent treatment and the concentration of the perovskite components in the solution and solvent ratios were detailed in a previous work <ref type="bibr" target="#b9">9</ref> . We found an improvement in V OC and reproducibility by switching the anti-solvent from diethyl ether (DEE) to ethyl acetate, which is miscible with dimethylformamide:dimethyl sulfoxide (DMF:DMSO) mixtures and has a higher boiling point (77.1 °C) and an optimal polarity of approximately 4.5. Therefore, all cells reported here were fabricated using ethyl acetate as the anti-solvent. The perovskite layer was deposited by spin-coating at 4,000 r.p.m. for 35 s. Ten seconds after the start of the spinning process, the spinning substrate was washed with 300 µ l ethyl acetate for approximately 1 s (the anti-solvent was placed in the centre of the film). The perovskite film was then annealed at 100 °C for 1 h on a preheated hotplate. The samples were transferred to an evaporation chamber and LiF (6 Å to 1 nm), C 60 (30 nm), BCP (8 nm) and copper (100 nm) were deposited under vacuum (p = 10 -7 mbar). After completion, the glass side of the 1 cm 2 cells was coated with a Brisbane Materials Technology (Australia Pty Ltd) anti-reflection coating optimized for a broadband spectral response in the AM1.5 window.</p><p>Current density-voltage characteristics. J-V curves were obtained in a two-wire source-sense configuration with a Keithley 2400. An Oriel class AAA Xenon lamp-based sun simulator was used for illumination, providing approximately 100 mW cm -2 of AM1.5 G irradiation, and the intensity was monitored simultaneously with a Si photodiode. The exact illumination intensity was used for efficiency calculations, and the simulator was calibrated with a KG5-filtered silicon solar cell (certified by Fraunhofer ISE). A spectral mismatch calculation was performed based on the spectral irradiance of the solar simulator, the EQE of the reference silicon solar cell and three typical EQEs of our cells. This resulted in three mismatch factors of M = 0.9949, 0.9996 and 0.9976. Given the very small deviation from unity, the measured J SC was not corrected by the factor 1/M. All EQEs presented in this work were measured by ISE-Fraunhofer.</p><p>Coupled optical and Shockley-Queisser modelling. We employed an optical modelling tool <ref type="bibr" target="#b51">51</ref> to calculate the photogenerated current inside the perovskite material depending on the thickness of the ITO layer. To this end, we kept the other layer thicknesses constant (8 nm PTAA, 450 nm perovskite, 20 nm C 60 , 8 nm BCP, 100 nm copper). We employed measured spectral refractive indices n and k for all layers under normal incident illumination. The resulting short-circuit current was used to numerically solve the modified Shockley-Queisser equation (typical voltage steps are 1 mV) including an ideality factor of 1.5 (ref. <ref type="bibr" target="#b9">9</ref> ), a shunt resistance of 4,000 Ω , a luminescent efficiency of 0.1% (ref. <ref type="bibr" target="#b15">15</ref> ) a radiative current of 8 × 10 -20 A cm -2 and an internal series resistance of 1.5 Ω cm 2 in addition to the series resistance imposed by the ITO for any given thickness and geometry. Our standard ITO (Automatic Research GmbH, Germany) has a nominal sheet resistance of 15 Ω sq -1 with a thickness of 150 nm. We extrapolated the resulting sheet resistance starting from this value.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>2 ⁄Figure 3 ,Supplementary Figure 4 .</head><label>234</label><figDesc>𝑛 e/h density of electrons/holes in the conduction/valance band, and 𝑁 C/V ~ 𝑚 e(h) * 3 the effective density of states in the conduction and valence band (3.12x10 21 /m 3 ), respectively. Assuming equal densities for electrons and holes and setting 𝜏 SRH = 500 ns as deduced from the exponential PL decay in the recombination in the perovskite layer should limit the open-circuit voltage to approximately 1.215 V at room temperature. Supplementary Figure 3. Transient photoluminescence decays measured on glass/PTAA /perovskite and glass/perovskite/PTAA stacks. The very similar decays show that the fast recombination is determined by interfacial recombination at the interface to the transport layer and that possible changes of the perovskite morphology when prepared on different substrates (i.e. glass, or glass/PTAA) are of minor importance. The transients were measured at low fluences (~30 nJcm -2 ) and illuminated with a 470 nm laser through PTAA in both cases. Analysis of radiative recombination current in the dark. External</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Stolterfoht 1,6 *, Christian M. Wolff 1,6 , José A. Márquez 2 , Shanshan Zhang 1,3 , Charles J. Hages 2 , Daniel Rothhardt 1 , Steve Albrecht 4 , Paul L. Burn 3 , Paul Meredith 5 , Thomas Unold 2 * and Dieter Neher 1 *</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 1 |</head><label>1</label><figDesc>Fig. 1 | Schematic device architecture and energetics. a, Cross-section of a full device comprising, from bottom to top: the glass and transparent conducting electrode (ITO), the hole-selective polymeric layer of PTAA, the perovskite absorber layer, the electron selective C 60 layer and the metallic top electrode (copper). Chemical structures are shown for PTAA, C 60 and a schematic perovskite crystal structure. The violet sphere represents Pb 2+ , and the blue sphere represents I -. b, Schematic energy level diagram and pathways of non-radiative recombination via traps in the perovskite bulk or at the interfaces as a minority carrier loss. Also shown is the extraction of majority carriers to the transport layers, the quasi-Fermi levels of electrons (E F,e ) and holes (E F,h ), the resulting quasi-Fermi-level splitting (∆ E F,pero ) in the perovskite, and the recombination-limited V OC . VBM, valence band maximum; CBM, conduction band minimum; HOMO, highest occupied molecular orbital; LUMO, lowest unoccupied molecular orbital.</figDesc><graphic coords="21,298.96,521.74,157.70,117.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 2 |</head><label>2</label><figDesc>Fig.2| Optimization of electrode design. a, Experimental J-V curves of 1 cm 2 cells comprising a PTAA/perovskite/C 60 stack with different electrode aspect ratios. Reducing the active area width from 8 mm (aspect ratio 0.64) to 4 mm (aspect ratio 0.16) while keeping the active area the same improved the fill factor by approximately 9%, as indicated by the arrow. b, Simulated solar cell efficiencies using a combination of optical simulations of the obtainable short-circuit current, and the Shockley equation with a finite ITO series resistance depending on its thickness and the device aspect ratio. An internal cell resistance of 1.5 Ω cm 2 (for a 1 cm 2 cell) and an ideality factor of approximately 1.5 were assumed, as previously determined<ref type="bibr" target="#b9">9</ref> . The two circled points correspond to the two devices from a.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 4 |</head><label>4</label><figDesc>Fig. 4 | Visualization of non-radiative interfacial recombination through absolute photoluminescence imaging. a,b, Quasi-Fermi level splitting maps (1 cm 2 ) (a) and corresponding energy histograms (b) on perovskite-only, perovskite/C 60 , PTAA/perovskite and PTAA/perovskite/C 60 films on glass.The neat perovskite absorber allows a QFLS (and thus potential V OC ) of approximately 1.208 eV (at 300 K), which is consistent with the transient photoluminescence decay (Fig.3) but significantly below the QFLS in the radiative limit (1.345 eV), as indicated by the arrow. Addition of only one transport layer (either PTAA or C 60 ) induces additional non-radiative recombination pathways, which lower the QFLS to approximately 1.125-1.135 eV. The pin junction with both transport layers adjacent to the perovskite absorber still has an average QFLS of approximately 1.121 eV. The arrow shows that interfacial recombination dominates the non-radiative recombination losses in the stack. The films were excited at 450 nm with a 1 Sun equivalent intensity and the histograms were recorded on 5 mm × 5 mm squares in the middle of the films without edge effects (PL quenching) due to the encapsulation glue, as visible in samples 1, 3 and 4.</figDesc><graphic coords="23,113.90,498.22,369.26,122.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>NATURe eNeRgy | VOL 3 |</head><label>3</label><figDesc>OCTOBER 2018 | 847-854 | www.nature.com/natureenergy Articles Nature eNergy included (PFN-P2 and LiF) fabricated from a CsPbI 0.05 [(FAPbI 3 )</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 5 |</head><label>5</label><figDesc>Fig. 5 | Suppression of interfacial recombination through interlayers. a,b, QFLS map (1 × 1 cm) (a) and QFLS histogram (b) of a PTAA/PFN-P2/perovskite film on glass, demonstrating a comparatively high average QFLS of approximately 1.19 eV. This represents a significant enhancement of approximately 65 meV compared to the QFLS of the PTAA/perovskite film and approaches the QFLS potential of the neat perovskite within 20 mV. d,e, QFLS map (1 × 1 cm 2 ) (d) and QFLS histogram (e) of a perovskite/LiF/C 60 film on glass, demonstrating the reduced interfacial recombination loss at the n-contact. Importantly, the average QFLS of the perovskite/LiF/C 60 stack (1.169 eV) and the pin device stack (1.173 eV) are both almost identical to the V OC of our optimized cells (1.16-1.17 V). The histograms were recorded on a 5 mm × 5 mm square in the middle of the films, without edge effects (PL quenching) due to the encapsulation glue. c,f, TRPL transients highlighting the significant prolongation of the carrier lifetime when either PFN-P2 (c) or LiF (f) is added as an interlayer.</figDesc><graphic coords="25,55.73,208.51,118.70,100.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 6 |</head><label>6</label><figDesc>Fig. 6 | 20% efficient pin-type perovskite cells with 1 cm 2 active area. a, Photograph of a fabricated 1 cm 2 cell with a rectangular active electrode area.b, 1 cm 2 perovskite cells reaching 20% PCE were achieved using a combination of PFN-P2 and LiF interlayers (J SC = 21.7 mA cm -2 , fill factor = 78.6%, V OC = 1.17 V) as measured with an aperture mask (1.018 cm 2 ) at 25 °C. The inset shows the stabilized power output at 20.1%.</figDesc><graphic coords="25,119.82,450.63,155.06,135.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="3,70.90,383.59,453.60,380.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="5,162.65,70.90,269.60,208.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="5,127.40,418.54,340.13,258.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="7,70.90,70.90,453.31,181.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="7,70.90,350.39,453.60,269.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="8,70.90,394.93,453.60,171.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="9,70.90,70.90,453.31,380.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="10,155.90,127.82,283.42,221.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="10,70.90,503.79,453.34,192.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="11,155.90,127.82,283.44,224.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="11,70.90,472.18,453.50,254.53" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="12,155.90,146.79,283.45,255.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="13,155.90,70.90,283.45,237.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="13,70.90,428.69,453.25,168.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="15,70.90,70.90,453.60,267.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="15,70.90,438.79,453.28,215.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 : Average quasi-Fermi level splitting of perovskite films on glass</head><label>1</label><figDesc></figDesc><table><row><cell>Film</cell><cell>PLQY [%]</cell><cell>PL peak</cell><cell>QFLS [eV]</cell></row><row><cell></cell><cell></cell><cell>maximum [eV]</cell><cell></cell></row><row><cell>Perovskite*</cell><cell>5.02x10 -1</cell><cell>1.611</cell><cell>1.208</cell></row><row><cell>Perovskite</cell><cell>3.58x10 -1</cell><cell>1.630</cell><cell>1.211</cell></row><row><cell>PFN-P2/Perovskite</cell><cell>3.25x10 -1</cell><cell>1.621</cell><cell>1.206</cell></row><row><cell></cell><cell>--</cell><cell></cell><cell></cell></row><row><cell>PTAA/Perovskite*</cell><cell>2.61x10 -2</cell><cell>1.601</cell><cell>1.124</cell></row><row><cell>ITO/PTAA/Perovskite</cell><cell>--</cell><cell></cell><cell>1.123</cell></row><row><cell>PTAA/Perovskite</cell><cell>2.83x10 -2</cell><cell>1.632</cell><cell>1.157</cell></row><row><cell>PTAA/Perovskite</cell><cell>--</cell><cell></cell><cell>1.150</cell></row><row><cell>PTAA/Perovskite</cell><cell>6.56x10 -3</cell><cell>1.612</cell><cell>1.100</cell></row><row><cell>PTAA/Perovskite</cell><cell>4.48x10 -3</cell><cell>1.609</cell><cell>1.087</cell></row><row><cell></cell><cell>--</cell><cell></cell><cell></cell></row><row><cell>Perovskite/C60*</cell><cell>1.66x10 -2</cell><cell>1.625</cell><cell>1.136</cell></row><row><cell>Perovskite/C60*</cell><cell>1.77x10 -2</cell><cell>1.609</cell><cell>1.128</cell></row><row><cell></cell><cell>--</cell><cell></cell><cell></cell></row><row><cell>PTAA/Perovskite/C60*</cell><cell>2.14x10 -2</cell><cell>1.603</cell><cell>1.121</cell></row><row><cell>PTAA/Perovskite/C60</cell><cell>7.68x10 -3</cell><cell>1.631</cell><cell>1.123</cell></row><row><cell></cell><cell>--</cell><cell></cell><cell></cell></row><row><cell>PTAA/PFN-P2/Perovskite*</cell><cell>5.83x10 -1</cell><cell>1.59</cell><cell>1.191</cell></row><row><cell>PTAA/PFN-P2/Perovskite</cell><cell>1.83x10 -1</cell><cell>1.626</cell><cell>1.185</cell></row><row><cell></cell><cell>--</cell><cell></cell><cell></cell></row><row><cell>Perovskite/LiF/C60*</cell><cell>6.67x10 -2</cell><cell>1.625</cell><cell>1.166</cell></row><row><cell>Perovskite/LiF/C60</cell><cell>7.50x10 -2</cell><cell>1.629</cell><cell>1.169</cell></row><row><cell></cell><cell>--</cell><cell></cell><cell></cell></row><row><cell>PTAA/PFN-P2/Perovskite/LiF/C60</cell><cell>9.26x10 -2</cell><cell>1.612</cell><cell>1.173</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 : Average quasi-Fermi level splitting of CsFAPbI3 perovskite films on glass</head><label>2</label><figDesc></figDesc><table><row><cell cols="2">Sample</cell><cell>PLQY [%]</cell><cell>PL peak [eV]</cell><cell>QFLS [eV]</cell></row><row><cell cols="2">perovskite</cell><cell>8.51x10 -2</cell><cell>1.511</cell><cell>1.073</cell></row><row><cell cols="2">PTAA/perovskite</cell><cell>1.23x10 -2</cell><cell>1.489</cell><cell>1.023</cell></row><row><cell cols="2">PTAA/PFN/perovskite</cell><cell>6.98x10 -2</cell><cell>1.494</cell><cell>1.068</cell></row><row><cell cols="2">perovskite/C60</cell><cell>1.51x10 -2</cell><cell>1.496</cell><cell>1.028</cell></row><row><cell cols="2">perovskite/LiF/C60</cell><cell>4.59x10 -2</cell><cell>1.489</cell><cell>1.057</cell></row><row><cell cols="2">Supplementary References</cell><cell></cell><cell></cell></row><row><cell>1.</cell><cell cols="4">Tress, W. Perovskite Solar Cells on the Way to Their Radiative Efficiency Limit -Insights Into</cell></row><row><cell></cell><cell cols="4">a Success Story of High Open-Circuit Voltage and Low Recombination. Adv. Energy Mater. 7,</cell></row><row><cell></cell><cell>1602358 (2017).</cell><cell></cell><cell></cell></row><row><cell>2.</cell><cell cols="4">Burgelman, M., Nollet, P. &amp; Degrave, S. Modelling polycrystalline semiconductor solar cells.</cell></row><row><cell></cell><cell>362, 527-532 (2000).</cell><cell></cell><cell></cell></row><row><cell>3.</cell><cell></cell><cell></cell><cell></cell></row></table><note><p><p><p><p>Photoluminescence quantum yield (PLQY), PL peak positions and average QFLS splitting values for</p>FAPbI3 perovskite films with and without hole and electron transport layers. The results confirm the substantially suppressed recombination at the interfaces through application of the proposed interlayers PFN-P2 and LiF. Moreover, the calculated QFLS of the perovskite/CTL junctions match within a small error the device open-circuit voltages with (~1.05V) and without interlayers (~1.0V). These findings highlight the general applicability of our approach to identifying and suppressing recombination losses at the interface between the perovskite absorber and the charge transporting layers.</p>Yang</p>, W. S. et al. High-performance photovoltaic perovskite layers fabricated through intramolecular exchange. Science (80-. ). 348, 1234-1237 (2015). 4. Wang, F. et al. Phenylalkylamine Passivation of Organolead Halide Perovskites Enabling High-Efficiency and Air-Stable Photovoltaic Cells. Adv. Mater. 28, 9986-9992 (2016). 5. Yu, Y. et al. Improving the Performance of Formamidinium and Cesium Lead Triiodide Perovskite Solar Cells using Lead Thiocyanate Additives. ChemSusChem 9, 3288-3297 (2016).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>https://doi.org/10.1038/s41560-018-0219-8 1</head><label></label><figDesc>Institute of Physics and Astronomy, University of Potsdam, Potsdam, Germany.<ref type="bibr" target="#b1">2</ref> Department of Structure and Dynamics of Energy Materials, Helmholtz-Zentrum-Berlin, Berlin, Germany.<ref type="bibr" target="#b2">3</ref> Centre for Organic Photonics &amp; Electronics (COPE), School of Chemistry and Molecular Biosciences, The University of Queensland, Brisbane, Queensland, Australia.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>| Impact of transport layers on kinetics of charge recombination.</head><label></label><figDesc>voltage, and thus open-circuit voltage losses were not directly quantified. As recently discussed 32 , there are different approaches to calculate ∆ E F from absolute PL spectra, which are all based on Würfel's generalized Planck law</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Perovskite</cell></row><row><cell></cell><cell>1</cell><cell></cell><cell>τ~500 ns</cell><cell cols="2">PTAA/perovskite Perovskite/C 60 PTAA/perovskite/C 60</cell></row><row><cell>Normalized TRPL</cell><cell>0.1</cell><cell>τ τ ~26 ~26 n s τ ~30 n s</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>n s</cell><cell></cell><cell></cell></row><row><cell></cell><cell>0.01</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>0</cell><cell>5 0</cell><cell>1 00</cell><cell>150</cell><cell>2 00</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Time (ns)</cell><cell></cell></row><row><cell cols="6">Fig. 3 Mono-exponential TRPL decay of a neat perovskite film indicating the</cell></row><row><cell cols="6">dominance of trap-assisted recombination in the bulk or the surface. The</cell></row><row><cell cols="6">corresponding mono-exponential lifetime is around 500 ns, potentially</cell></row><row><cell cols="6">allowing a V OC of 1.215 V (see Supplementary Note 1) if no additional</cell></row><row><cell cols="6">interface recombination losses were present. The TRPL signals of</cell></row><row><cell cols="6">perovskite/transport layer heterojunctions show a bi-exponential decay,</cell></row><row><cell cols="6">indicating rapid charge extraction and interfacial recombination on different</cell></row><row><cell cols="6">timescales. The films were illuminated at 470 nm (~30 nJ cm -2 ) through the</cell></row><row><cell cols="5">organic layer, and through C 60 in the case of the pin stack.</cell></row></table><note><p>NATURe eNeRgy | VOL 3 | OCTOBER 2018 | 847-854 | www.nature.com/natureenergy Articles Nature eNergy device</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>NATURe eNeRgy | VOL 3 | OCTOBER 2018 | 847-854 | www.nature.com/natureenergy</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="person">P. Caprioglio</rs> for SEM measurements, <rs type="person">L. Fiedler</rs> for laboratory assistance and <rs type="person">F. Jaiser</rs>, <rs type="person">F. Dornack</rs> and <rs type="person">A. Pucher</rs> for providing measurement and laboratory equipment. P.M. is a <rs type="grantName">Sêr Cymru Research Chair</rs> funded by the <rs type="funder">Welsh European Funding Office</rs> (<rs type="programName">Sêr Cymru II Program</rs>) and is formerly an <rs type="funder">Australian Research Council</rs> <rs type="grantName">Discovery Outstanding Researcher Award Fellow</rs>. P.L.B is an <rs type="grantName">Australian Research Council Laureate Fellow</rs> (<rs type="grantNumber">FL160100067</rs>). S.Z is partly funded by a <rs type="grantName">Chinese Scholarship Council studentship</rs> and the <rs type="funder">Australian Government</rs> through the <rs type="funder">Australian Renewable Energy Agency (ARENA) Australian Centre for Advanced Photovoltaics</rs>. Responsibility for the views, information or advice expressed herein is not accepted by the <rs type="funder">Australian Government</rs>. We thank <rs type="person">M. Harvey</rs> and <rs type="person">Brisbane Materials Technology Pty Ltd</rs> for the provision of their proprietary anti-reflection coating formulation. J.A.M. acknowledges <rs type="person">A. Redinger</rs> for fruitful discussions. S.A. acknowledges funding from the <rs type="funder">German Federal Ministry of Education and Research (BMBF)</rs>, within the project '<rs type="projectName">Materialforschung für die Energiewende</rs>' (grant no. <rs type="grantNumber">03SF0540</rs>), and the <rs type="funder">German Federal Ministry for Economic Affairs and Energy (BMWi)</rs> through the <rs type="programName">'PersiST'</rs> project (grant no. <rs type="grantNumber">0324037C</rs>). Support by the joint University Potsdam-HZB graduate school 'hypercells' is acknowledged.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_cu27CMs">
+					<orgName type="grant-name">Sêr Cymru Research Chair</orgName>
+					<orgName type="program" subtype="full">Sêr Cymru II Program</orgName>
+				</org>
+				<org type="funding" xml:id="_x3C5X4N">
+					<orgName type="grant-name">Discovery Outstanding Researcher Award Fellow</orgName>
+				</org>
+				<org type="funding" xml:id="_mCCGb5t">
+					<idno type="grant-number">FL160100067</idno>
+					<orgName type="grant-name">Australian Research Council Laureate Fellow</orgName>
+				</org>
+				<org type="funding" xml:id="_vGz9f9T">
+					<orgName type="grant-name">Chinese Scholarship Council studentship</orgName>
+				</org>
+				<org type="funded-project" xml:id="_ZQyCmSj">
+					<idno type="grant-number">03SF0540</idno>
+					<orgName type="project" subtype="full">Materialforschung für die Energiewende</orgName>
+				</org>
+				<org type="funding" xml:id="_JqfkWwt">
+					<idno type="grant-number">0324037C</idno>
+					<orgName type="program" subtype="full">&apos;PersiST&apos;</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data availability. The data that support the plots within this paper and other findings of this study are available from the corresponding authors upon reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTARY INFORMATION</head><p>In the format provided by the authors and unedited.</p><p>NATURe eNeRgy | www.nature.com/natureenergy</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Visualization and suppression of interfacial recombination for high-efficiency large-area pin perovskite solar cells</head><p>Martin Stolterfoht 1,+,* , Christian M. Wolff 1,+ , José A. Márquez 2 , Shanshan Zhang <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b2">3</ref> , Charles J. Hages 2 , Daniel Rothhardt 1 , Steve Albrecht <ref type="bibr" target="#b3">4</ref> , Paul L. Burn 3 , Paul Meredith 5 , Thomas Unold 2,* , Dieter Neher 1,* Supplementary Figure <ref type="figure">5</ref>. QFLS maps of PTAA/perovskite films on ITO and glass substrates.</p><p>Despite the different features appearing on the glass substrates the absolute QFLS values are quantitatively similar.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Figure 6. Numerical simulations of open-circuit voltage vs. interface</head><p>recombination velocity for a pin perovskite device stack. The simulations were performed using "SCAPS1D" and details of the program can be found in ref. <ref type="bibr" target="#b1">2</ref> The interface recombination velocities are set equal at the n and p contact consistent with the TRPL data (Figure <ref type="figure">3</ref>). The dashed lines show the measured quasi Fermi-level splitting (QFLS) of the bare perovskite, of the perovskite/PTAA stack and the device 𝑉 OC of our cells prior to optimization, as well as the 𝑉 OC of the optimized device. The measured interface recombination velocities can perfectly reproduce the device 𝑉 OC prior to optimization. Importantly, considering the fast interface recombination velocities (&gt; 1400-2100 cm/s) at the interface to the charge transport layers (see main text), the 𝑉 OC cannot be improved by increasing the bulk lifetime beyond 500 ns while keeping interface recombination rates constant. Clearly, in order to improve the 𝑉 OC , suppressing unwanted recombination at the interface between the perovskite and both charge transporting layers is of most importance. Only when the interfaces become sufficiently selective (with surface recombination velocities &lt; 100 cm/s), significant 𝑉 OC improvements are expected by suppressing bulk recombination beyond 500 ns lifetimes. Interestingly, optimization of the interfaces through application of PFN-P2 and LiF at the hole and electron interface, respectively, results in interface loss velocities between 200-300 cm/s which is still somewhat below this threshold. These values were again obtained from the equation of the equilibrium TRPL decay using the measured lifetimes of the optimized films as shown in Figure <ref type="figure">5c</ref>, f. Notably, these optimized recombination velocities can also predict the 𝑉 OC of the optimized devices within a very small error (&lt; 10mV).</p><p>However, we note a small mismatch (~30 meV) between the predicted and measured QFLS of the neat perovskite film with a lifetime of 500 ns. Parameters used for the simulation are a perovskite film thickness of 400 nm and an effective density of states of 3.12x10 24 /m 3 as discussed in Supplementary Note 1 above. Supplementary Figure <ref type="figure">7</ref>. Top and cross sectional scanning electron microscopy images of perovskite films prepared on glass, glass/ITO/PTAA and glass/ITO/PTAA/PFN. The perovskite morphology on the surface is similar for the three different substrates, with perovskite grains ranging from tens of nanometers to micrometers. The cross sections show that the grains propagate through the whole active layers thickness. We note that the cross section image of perovskite on glass could not be obtained in high resolution due to the lack of a conducting substrate. Supplementary Figure <ref type="figure">8</ref>. Device statistics of 6 mm 2 -size perovskite solar cells demonstrating the impact of the interlayers and the perovskite blend ratio on the solar cell parameters. In the legend, "83:17" means that a perovskite with stoichiometry of CsPbI0.05[(FAPbI3)0.83(MAPbBr3)0.17]0.95 was used while "89:11" refers to a CsPbI0.05[(FAPbI3)0.89(MAPbBr3)0.11]0.95 perovskite. Compared to the standard architecture (ITO/PTAA/perovskite/C60/BCP/Cu) with no interlayers present (red points), introduction of both interlayers (yellow points) delivers efficiencies of up to 21% due to improvements in Voc (+ 40 mV) and FF (1.5%). Interestingly, the cells with PFN-P2 as an interlayer only (blue points) exhibit a similar V OC compared to the standard cells without additional interlayers despite the large reduction of the quasi-Fermi level splitting losses at the p-interface. This suggests that the inferior interface (perovskite/C60) limits the V OC of cells with PFN-P2-only. However, we demonstrate that improvements in V OC are possible by simultaneous reduction of interfacial recombination at both the nand p-contact with PFN-P2 and LiF, respectively. Devices with both interlayers and increased FAPbI3 concentration (green points) enabled further efficiency improvements up to 21.6% due to an increased short-circuit current density. The statistics was done on &gt;20 devices for each device configuration; the black lines show the mean values, the boxes the corresponding standard deviations, the whiskers mark the min-max values, and each point corresponds to one device. Representative current density vs. voltage characteristics of formamidinium lead iodide (FAPI with 5 molar % Cs with respect to FA) and methylammonium lead iodide solar cells (MAPI) with and without the proposed interlayers PFN-P2 and LiF. For both systems, addition of the interlayers yields significant performance improvements (PCE from 15.4% to 19.8% for CsFAPI; and PCE from 17.7% to 20.1% for</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>M.S. planned the project together with C.M.W. and D.N., drafted the manuscript and reviewer response, fabricated most cells and films with help of S.Z. and D.R., performed electrical measurements, measured TRPL with C.J.H. and absolute PL on FAPI cells. C.M.W. provided main conceptual ideas regarding the identification of the recombination losses, contributed to device fabrication and TRPL measurements, and performed coupled optical and Shockley-Queisser modelling. J.A.M. performed all hyperspectral PL measurements and performed corresponding data analysis and interpretation. S.Z. helped with device optimization and fabrication. C.J.H. performed fluence-and wavelengthdependent TRPL measurements and analysed data. T.U. performed numerical drift diffusion simulations with SCAPS1D and analysed and interpreted the optical measurements. D.R. fabricated certified 1 cm 2 cells with M.S., as well as MAPI/FAPI cells and films. D.N. supervised the study, analysed and interpreted all electrical and optical measurements, and contributed to manuscript drafting. All co-authors contributed to data analysis, interpretation, proof reading and addressing reviewer comments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head><p>Supplementary information is available for this paper at <ref type="url" target="https://doi.org/10.1038/s41560-018-0219-8">https://doi.org/10.1038/ s41560-018-0219-8</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reprints and permissions information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Test environment</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>For instance: characterization temperature, in air or in glove box</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The temperature of the cell was fixed to 25 °C during the JV-scan in a glovebox using a sample holder with built-in Peltier element.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Protocol for preconditioning of the device before its characterization</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>No preconditioning protocol was used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stability of the J-V characteristic</head><p>Verified with time evolution of the maximum power point or with the photocurrent at maximum power point; see ref. 7 for details.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>We provide short-term (several minutes) maximum power point tracking data in Figure <ref type="figure">6</ref> as well as several stabilized certified efficiencies in the Supplementary Information. In addition, we performed long-term (up to 100 hours) efficiency tracking of typical encapsulated cells in air.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Hysteresis or any other unusual behaviour Description of the unusual behaviour observed during the characterization</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>No unusual behaviour was observed and no significant hysteresis (usually less than 0.2% change in efficiency in forward or backward scan). We note that efficient pintype perovskite solar cells exhibit in general (and in contrast to nip-type cells) very little hysteresis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Related experimental data Yes No</head><p>We provide hysteresis scans in Figure <ref type="figure">6</ref> and Supplementary Figures 10, 12, 14, 15, 17 and 18.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Efficiency</head><p>External quantum efficiency (EQE) or incident photons to current efficiency (IPCE)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>We provide EQE spectra for the 1 cm2-size cells in Supplementary Figure <ref type="figure">11</ref> and 15 which was measured by Fraunhofer, ISE in the course of the calibration.</p><p>A comparison between the integrated response under the standard reference spectrum and the response measure under the simulator</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>The integrated short-circuit current from the EQE spectrum matches the shortcircuit current from the JV scan (of masked cells) within the setup measurement error of approximately 2%. Confirmation that the reference cell was calibrated and certified</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>The simulator was recently calibrated with a KG5 filtered silicon solar cell (certified by Fraunhofer ISE).</p><p>Calculation of spectral mismatch between the reference cell and the devices under test</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head><p>No A spectral mismatch calculation was performed based on the spectral irradiance of the solar simulator, the EQE of the reference silicon solar cell and 3 typical EQEs of our cells. This resulted in 3 mismatch factors of M = 0.9949, 0.9996 and 0.9976. Given the very small deviation from unity the measured JSC was not corrected by the factor 1/M. (One certificate in Supplementary Figure <ref type="figure">16</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Statistics Number of solar cells tested Yes No</head><p>Overall we fabricated and tested more than 250 cells for this study. As for the small area (6 mm2-size) cells, we fabricated approximately 40 cells for each of the 4 studied device architectures. Supplementary Figure <ref type="figure">8</ref> shows the results of three fabricated device batches with 20 cells per device architecture. In addition, we fabricated approximately 20 1cm2-size cells for each of these 4 device configurations. We note that we observed very small efficiency losses when increasing the active area from 6 mm2 to 1 cm2, thus the results in Supplementary Figure <ref type="figure">8</ref> are also representative for the large cells (with the exception of the standard device architecture without interlayers where we experienced scaling difficulties due to the formation of pinholes as we discuss in the text).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis of the device performance Yes No</head><p>In Supplementary Figure <ref type="figure">8</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9.">Long-term stability analysis Type of analysis, bias conditions and environmental conditions</head><p>For instance: illumination type, temperature, atmosphere humidity, encapsulation method, preconditioning temperature</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes No</head><p>Long term MPP tracking was performed on encapsulated cells under 1 Sun equivalent white LED irradiation in air (25% relative humidity) for 100 hours. Thereby the cell is continuously held at 25°C and its maximum power voltage which was obtained from an initial JV scan. Maximum power output was ensured by applying a small voltage perturbation (+/-5 mV) to the cell every 5 seconds. Depending on which voltage gave a higher power output, the applied voltage was either increased or decreasing by 5 mV and then held at this voltage for the next 5 seconds.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Organometal halide perovskites as visible-light sensitizers for photovoltaic cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Teshima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shirai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="6050" to="6051" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Lead iodide perovskite sensitized all-solid-state submicron thin film mesoscopic solar cell with efficiency exceeding 9%</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">591</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Efficient hybrid solar cells based on meso-superstructured organometal halide perovskites</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Teuscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="page" from="643" to="647" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Iodide management in formamidinium-lead-halide-based perovskite layers for efficient solar cells</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">356</biblScope>
+			<biblScope unit="page" from="1376" to="1379" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Silicon heterojunction solar cell with interdigitated back contacts for a photoconversion efficiency over 26%</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yoshikawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">17032</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Perovskite solar cells on the way to their radiative efficiency limit-insights into a success story of high open-circuit voltage and low recombination</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1602358</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">NATURe eNeRgy | VOL 3 | OCTOBER 2018 | 847-854 | www</title>
+		<idno>nature.com/natureenergy</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">One-year stable perovskite solar cells by 2D/3D interface engineering</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grancini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">15684</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Considerations for upscaling of organohalide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C R</forename><surname>Nagiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Burn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Meredith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Opt. Mater</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">1600819</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Approaching the fill factor Shockley-Queisser limit in stable, dopant-free triple cation perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1530" to="1539" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Enhanced optoelectronic quality of perovskite thin films with hypophosphorous acid for planar heterojunction solar cells</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">10030</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Defect passivation in hybrid perovskite solar cells using quaternary ammonium halide anions and cations</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">17102</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Improving perovskite solar cells: Insights from a validated device model</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Sherkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Momblona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gil-Escrig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Bolink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J A</forename><surname>Koster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1602432</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Identifying and suppressing interfacial recombination to achieve high open-circuit voltage in perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Correa-Baena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1207" to="1212" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Removing leakage and surface recombination in planar perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tvingstedt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="424" to="430" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Reduced interface-mediated recombination for high open-circuit voltages in CH 3 NH 3 PbI 3 solar cells</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wolff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">1700159</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Efficient and stable solution-processed planar perovskite solar cells via contact passivation</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page" from="722" to="726" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Incorporation of rubidium cations into perovskite solar cells improves photovoltaic performance</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">354</biblScope>
+			<biblScope unit="page" from="206" to="209" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A generic interface to reduce the efficiency-stability-cost gap of perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">358</biblScope>
+			<biblScope unit="page" from="1192" to="1197" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Efficient vacuum deposited p-i-n and n-i-p perovskite solar cells employing doped charge transport layers</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Momblona</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="3456" to="3463" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">23.6%-efficient monolithic perovskite/silicon tandem solar cells with improved stability</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Bush</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">17009</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Monolithic perovskite/silicon-heterojunction tandem solar cells processed at low temperature</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albrecht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="81" to="88" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Thermally stable MAPbI 3 perovskite solar cells with efficiency of 19.19% and area over 1 cm 2 achieved by additive engineering</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">170173</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Laser-patterning engineering for perovskite solar modules with 95% aperture ratio</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Palma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Photovolt</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1674" to="1680" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Beyond bulk lifetimes: Insights into lead halide perovskite films from time-resolved photoluminescence</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Staub</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Appl</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">44017</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Enhancing photoluminescence yields in lead halide perovskites by photon recycling and light out-coupling</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Richter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">13941</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Photoluminescence lifetimes exceeding 8 μ s and quantum yields exceeding 30% in hybrid perovskite thin films by ligand passivation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Dequilettes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="438" to="444" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Minority-carrier lifetime in III-V semiconductors</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Ahrenkiel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semicond. Semimet</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="39" to="150" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Charge-carrier mobilities in metal halide perovskites: Fundamental mechanisms and limits</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1539" to="1548" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Photo-induced halide redistribution in organicinorganic perovskite films</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Dequilettes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">11683</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The chemical potential of radiation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wurfel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. C</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="3967" to="3985" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Quantification of spatial inhomogeneity in perovskite solar cells by hyperspectral luminescence imaging</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>El-Hajje</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="6050" to="6051" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Optoelectronic quality and stability of hybrid perovskites from MAPbI 3 to MAPbI 2 Br using composition spread libraries</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">L</forename><surname>Braly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Hillhouse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. C</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="893" to="902" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Optical determination of Shockley-Read-Hall and interface recombination currents in hybrid perovskites</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sarritzu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">44629</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Correlations of Cu(In,Ga)Se 2 imaging with device performance, defects, and microstructural properties</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Unold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Vac. Sci. Technol. A</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="4" to="9" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Structural properties and quality of the photoexcited state in Cu(In 1-x Ga x )Se 2 solar cell absorbers with lateral submicron resolution</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gütay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kniese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Thin Solid Films</title>
+		<imprint>
+			<biblScope unit="volume">480</biblScope>
+			<biblScope unit="issue">481</biblScope>
+			<biblScope unit="page" from="259" to="263" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Advanced Characterization Techniques for Thin Film Solar Cells</title>
+		<editor>Rau, U., Abou-Ras, D. &amp; Kirchartz, T.</editor>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>Wiley</publisher>
+			<pubPlace>Weinheim</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Predicting the open-circuit voltage of CH 3 NH 3 PbI 3 perovskite solar cells using electroluminescence and photovoltaic quantum efficiency spectra: the role of radiative and non-radiative recombination</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">1400812</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Radiative efficiency of lead iodide based perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tvingstedt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">6071</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Detailed balance and reciprocity in solar cells</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kirchartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Rau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Status Solidi A</title>
+		<imprint>
+			<biblScope unit="volume">205</biblScope>
+			<biblScope unit="page" from="2737" to="2751" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Detailed balance limit of efficiency of p-n junction solar cells</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shockley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Queisser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="510" to="519" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Impact of photon recycling on the open-circuit voltage of metal halide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kirchartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Staub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Rau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="731" to="739" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Modelling polycrystalline semiconductor solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burgelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nollet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Degrave</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Thin Solid Films</title>
+		<imprint>
+			<biblScope unit="volume">362</biblScope>
+			<biblScope unit="page" from="527" to="532" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Achieving large-area planar perovskite solar cells by introducing an interfacial compatibilizer</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">1606363</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Thin insulating tunneling contacts for efficient and water-resistant perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gruverman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="6734" to="6739" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Perovskite solar cells with 18.21% efficiency and area over 1 cm 2 fabricated by heterojunction engineering</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">16148</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Solar cell efficiency tables (version 51)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Photovolt. Res. Appl</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="3" to="12" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">High-performance photovoltaic perovskite layers fabricated through intramolecular exchange</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="page" from="1234" to="1237" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">High-performance formamidinium-based perovskite solar cells via microstructure-mediated δ -to-α phase transformation</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="3246" to="3250" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Improving the performance of formamidinium and cesium lead triiodide perovskite solar cells using lead thiocyanate additives</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemSusChem</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="3288" to="3297" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Contactless mapping of saturation currents of solar cells by photoluminescence</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Delamarre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lombez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Guillemoles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page">131108</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Accounting for interference, scattering, and electrode absorption to make accurate internal quantum efficiency measurements in organic and other thin solar cells</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Burkhard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Hoke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mcgehee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="3293" to="3297" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

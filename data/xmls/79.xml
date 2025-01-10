@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Enhanced Electron Extraction Using SnO 2 for High-Efficiency Planar-Structure HC(NH 2 ) 2 PbI 3 -based Perovskite Solar Cells</title>
+				<funder ref="#_TN2xxfC">
+					<orgName type="full">National Science Foundation (NSF</orgName>
+				</funder>
+				<funder ref="#_etHU6Fk">
+					<orgName type="full">Beijing Municipal Science &amp; Technology Commission</orgName>
+				</funder>
+				<funder ref="#_vf6Vv4c">
+					<orgName type="full">National 1000 Young Talents awards, National Key Research and Development Program of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Qi</forename><surname>Jiang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Liuqi</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Haolin</forename><surname>Wang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaolei</forename><surname>Yang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Junhua</forename><surname>Meng</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Heng</forename><surname>Liu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Zhigang</forename><surname>Yin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jinliang</forename><surname>Wu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xingwang</forename><surname>Zhang</surname></persName>
+							<email>xwzhang@semi.ac.cn</email>
+						</author>
+						<author>
+							<persName><forename type="first">Jingbi</forename><surname>You</surname></persName>
+							<email>jyou@semi.ac.cn</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Semiconductors</orgName>
+								<orgName type="laboratory" key="lab1">Supplementary Information</orgName>
+								<orgName type="laboratory" key="lab2">Key Lab of Semiconductor Materials Science, Beijing Key Laboratory of Low Dimensional Semiconductor Materials and Devices</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<postCode>100083</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Semiconductors</orgName>
+								<orgName type="laboratory">Key Lab of Semiconductor Materials Science, Beijing Key Laboratory of Low Dimensional Semiconductor Materials and Devices</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<postCode>100083</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Enhanced Electron Extraction Using SnO 2 for High-Efficiency Planar-Structure HC(NH 2 ) 2 PbI 3 -based Perovskite Solar Cells</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">753F7EF0358DAEC34C947F4AD2409E00</idno>
+					<idno type="DOI">10.1038/NENERGY.2016.177</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T18:04+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Supplementary Figure 1. Scanning electron microscopy (SEM) image of TiO2 nanoparticles films deposited on glass/ITO substrates.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Supplementary Figure <ref type="figure" target="#fig_1">14</ref>. Certificated results from an accredited photovoltaic certification laboratory (Newport， USA). The certificated efficiency is 19.90±0.62%. Our devices area was 0.108 cm 2 , while certification, a mask with the area of 0.0737 cm <ref type="bibr" target="#b1">2</ref>   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>P</head><p>erovskite solar cells have attracted great attention in recent years, as their efficiency has risen from 3.8% to 22.1% via film crystal growth control, interface and device engineering <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> . Up to now, TiO 2 mesoporous structures were commonly the most successful at delivering high efficiency and stable power output for perovskite solar cells <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> . However, one disadvantage of the mesoporous structure is the high-temperature (&gt;450 • C) sintering required for the TiO 2 mesoporous layer, which is a barrier to low cost and stretchable device fabrication <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> . Further interest in perovskite solar cells developed after it was realized that lead halide perovskites have charge carrier diffusion lengths on the micrometre scale and possess ambipolar properties <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> . Therefore, it is possible to remove the high-temperature sintered mesoporous layer to make a simple planar-structure solar cell, in which all of the layers can be processed at low temperature <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref> .</p><p>Planar devices are typically divided into either n-i-p (regular) or p-i-n (inverted) structures, depending on the bottom transporting layer <ref type="bibr" target="#b11">12</ref> . The p-i-n inverted planar structure usually shows negligible hysteresis when using fullerene as the top electron transport layer <ref type="bibr" target="#b11">12</ref> . However, it exhibits lower efficiency due to inferior perovskite crystallinity and imperfect interfacial band alignment <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> . For regular n-i-p planar structures using a TiO 2 condensed layer as the electron transport layer, the device could show high performance under reverse scan (V OC to J SC scan), whereas the forward I-V scan usually showed much lower efficiency (J SC to V OC scan) <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b8">9</ref> , which led to difficulty in obtaining a reliable power conversion efficiency <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b8">9</ref> . Further results indicated that charge accumulation induced by ion migration in the perovskite layer could be the main cause of hysteresis <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref> . It was also found that the electronic contact between perovskite and electron transport layers (ETLs) could significantly affect the behaviour of the hysteresis <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref> (generally, hole transport layers do not affect hysteresis, because the commonly used hole transport layer, Spiro-OMeTAD, can form good electronic contact with perovskite <ref type="bibr" target="#b5">6</ref> ). When the electronic contact is imperfect, the charge accumulation will become worse and aggravate the hysteresis. However, if the electronic contact is perfect and the accumulated charges can be easily extracted, the hysteresis can be alleviated or fully eliminated <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b19">20</ref> . For example, either in the regular or the inverted planar structure, on introducing a fullerene layer with a strong electron extraction ability, the devices showed stable output with reduced hysteresis <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref> . However, fullerene is expensive, as well as unstable for practical applications <ref type="bibr" target="#b11">12</ref> .</p><p>Inorganic metal oxides such as SnO 2 have a bandgap above 3.6 eV, and a deeper conduction band than TiO 2 . Thus, in principle they should facilitate more efficient electron transfer <ref type="bibr" target="#b20">21</ref> . Furthermore, bulk SnO 2 has a mobility of up to 240 cm 2 /(V • s), which is 100 times that of TiO 2 , making it conceptually a more likely candidate for use in high-performance electronic devices <ref type="bibr" target="#b20">21</ref> . Previously, SnO 2 has been used as an electron transport layer in organic solar cells or dye-sensitized solar cells <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22</ref> . Recently, it was also used in perovskite solar cells in order to increase the efficiency and to reduce the hysteresis <ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref> . During the final preparation of this Article, ref. 28 was published, reporting planar perovskite solar cells with an average PCE around 18.5% and a mild hysteresis.</p><p>Here, we develop a regular n-i-p planar structure of perovskite solar cells with solution-processed SnO 2 nanoparticles as the electron transport layer. The devices show a certified efficiency close to 20%, almost free of hysteresis. Given the SnO 2 layer's deep conduction band and high electron mobility, we ascribe the elimination of the I-V hysteresis to the enhanced electron extraction caused by the reduction of the energy barrier at the perovskite/ETL interface. Furthermore, an excess PbI 2 phase was introduced to passivate the traps in perovskite (FAPbI 3 ) 0.97 (MAPbBr 3 ) 0.03 and deliver high device performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Characterization of nanoparticles and perovskite layer</head><p>Transmission electron microscopy (Fig. <ref type="figure" target="#fig_1">1a</ref>) showed the SnO 2 particles we used are very uniform, with particle sizes around ARTICLES 3-4 nm. High-resolution transmission electron microscopy results (Fig. <ref type="figure" target="#fig_1">1b</ref>) indicated the SnO 2 nanoparticles are highly crystallized, which is good for reducing the number of defect traps in SnO 2 , and should also be beneficial for charge transfer when using it as a charge transport layer. Electron diffraction circles from the (110), ( <ref type="formula">101</ref>) and ( <ref type="formula">211</ref>) crystal planes of SnO 2 were observed (Fig. <ref type="figure" target="#fig_1">1c</ref>), indicating that the SnO 2 nanoparticles are polycrystalline. X-ray diffraction (Fig. <ref type="figure" target="#fig_1">1d</ref>) results further confirmed this conclusion. All X-ray diffraction peaks for SnO 2 (Fig. <ref type="figure" target="#fig_1">1d</ref>) are indexable to the tetragonal SnO 2 structure (space group P42/mnm, a = 0.4738 and c = 0.3187 nm), indicating the formation of pure SnO 2 crystals <ref type="bibr" target="#b28">29</ref> . When spin coating SnO 2 nanoparticles solution onto glass/ITO substrate, it can form a dense, pinhole-free film (Fig. <ref type="figure" target="#fig_1">1e</ref>), and the film quality is much better than that of the conventionally used TiO 2 nanoparticles film (Supplementary Fig. <ref type="figure" target="#fig_1">1</ref>). In addition, we found that the SnO 2 films formed showed good transparency, with transmission values greater than 95% in the visible region (Fig. <ref type="figure" target="#fig_1">1f</ref>), with minimized optical loss in the SnO 2 layer.</p><note type="other">NATURE ENERGY</note><p>We have characterized the electronic states and band structures of SnO 2 and perovskite layers with X-ray photoelectron spectroscopy and ultraviolet photoelectron spectroscopy (UPS). The Sn 3d core-level spectrum of SnO 2 nanoparticles is shown in Supplementary Fig. <ref type="figure" target="#fig_2">2</ref>. The peaks at binding energies of 486.9 eV and 495.3 eV correspond to Sn 3d 5/2 and Sn 3d 3/2 , respectively <ref type="bibr" target="#b29">30</ref> . The Sn 3d peaks showed only one symmetric component without any shoulder, which indicates only a Sn 4+ chemical state in the SnO 2 nanoparticles. The O 1s X-ray photoelectron spectrum of SnO 2 exhibits a degree of asymmetry in its shape (Supplementary Fig. <ref type="figure" target="#fig_2">2</ref>), where the peak with a lower binding energy (530.7 eV) corresponds to the O atoms of the SnO 2 crystal and the second peak (532.1 eV) can be attributed to the surface oxygen-group absorbance <ref type="bibr" target="#b29">30</ref> . For comparison, the core-level spectra of TiO 2 have also been given (Supplementary Fig. <ref type="figure">3</ref>), and are similar to SnO 2 (Supplementary Fig. <ref type="figure" target="#fig_2">2</ref>), indicating no additional metal chemical states except for Ti <ref type="bibr">4+ (ref. 31)</ref>.</p><p>The work function (W S ), valance band maximum (VBM) and bandgap (E g ) of the SnO 2 nanoparticles are 4.36 eV (Fig. <ref type="figure" target="#fig_2">2a</ref>), 3.74 eV (Fig. <ref type="figure" target="#fig_2">2b</ref>) and 3.79 eV (Supplementary Fig. <ref type="figure">4</ref>), respectively. It can be calculated that the conduction band (E C ) of the SnO 2 nanoparticles is 4.31 eV, as obtained from E C = W S + VBM -E g based on the semiconductor band structure (Supplementary Fig. <ref type="figure" target="#fig_4">5</ref>); this is much deeper than that of TiO 2 (3.77 eV, Fig. <ref type="figure" target="#fig_2">2a,</ref><ref type="figure">b</ref> and Supplementary Figs <ref type="figure">3</ref> and<ref type="figure">4</ref>) <ref type="bibr" target="#b20">21</ref> . One can also estimate that the conduction band of perovskite (FAPbI 3 ) x (MAPbBr 3 ) 1-x is 4.36 eV from Fig. <ref type="figure" target="#fig_2">2</ref> and Supplementary Figs <ref type="figure">4</ref> and<ref type="figure" target="#fig_4">5</ref>. In principle, the deeper conduction band of SnO 2 compared with TiO 2 could enhance charge transfer from perovskite to the electron transport layer (Supplementary Fig. <ref type="figure" target="#fig_5">6</ref>) <ref type="bibr" target="#b20">21</ref> . The possible band alignment between (FAPbI 3 ) x (MAPbBr 3 ) 1-x and SnO 2 is shown in Fig. <ref type="figure" target="#fig_2">2c</ref>. In addition to energy band alignment, the charge mobility of the electrons also For each material, the highest and the lowest energy levels are conduction band (E C ) and valence band (E V ), respectively. d, log(J)-log(V) plots for the SnO 2 and TiO 2 colloidal film using the space-charge-limited current (SCLC) model with device structure of ITO/Al/metal oxides/Al. Measurement data (circles), which were fitted by a line with a slope of 2 (blue), the intercepts of the fitted line on log(J) were used for the mobility calculation.</p><p>affects the charge transfer. A low mobility of the electron transport layer indicates more traps and will slow down charge transport. This could lead to charge accumulation at the interface, which will induce an energy barrier to suppress the charge transport. We measured the mobility of SnO 2 and TiO 2 colloidal films by means of the spacecharge-limited current (SCLC) model <ref type="bibr" target="#b17">18</ref> , and it was found that the mobility of the SnO 2 film is about 1.9 × 10 -3 cm 2 V -1 • s, which is much higher than that of TiO 2 (3.3 × 10 -5 cm 2 V -1</p><p>• s). The higher mobility of the ETL used could improve charge transport, and the higher injection current from the ITO/SnO 2 /Spiro-OMeTAD/Al device compared ITO/TiO 2 /Spiro-OMeTAD/Al could confirm this argument (Supplementary Fig. <ref type="figure">7</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Charge transfer studies</head><p>Steady photoluminescence (PL) (Fig. <ref type="figure">3a</ref>) showed a significant PL quench when depositing the perovskite layer on SnO 2 . Timeresolved photoluminescence (TRPL) results showed that the lifetime of the perovskite layer can be significantly reduced when depositing it on SnO 2 nanoparticles (Fig. <ref type="figure">3b</ref>), indicating efficient electron transfer occurred from perovskite to SnO 2 . Consistent with our and other groups' results <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref> , the PL intensity and lifetime of perovskite did not change very much when depositing the perovskite layer on TiO 2 (Fig. <ref type="figure">3a,</ref><ref type="figure">b</ref>). This means that electrons cannot be efficiently transferred into the TiO 2 layer <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref> . The less efficient charge transport between TiO 2 and perovskite could be ascribed to the electron barrier at the interface of between TiO 2 and perovskite, which could due to the shallower conduction band and lower electron mobility of TiO 2 , or the interfacial traps at the perovskite/TiO 2 interface <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> . This could be the reason why a mesoporous TiO 2 structure was needed to increase the charge decay channel and reduce charge accumulation at the TiO 2 /perovskite interface, and thus deliver efficient devices without hysteresis <ref type="bibr" target="#b3">4</ref> .</p><p>The enhanced charge transfer from perovskite to the SnO 2 layer indicated that the energy barrier had been reduced or removed, which could be caused by the deeper conduction band and high mobility of SnO 2 . It can be anticipated that the SnO 2 -based device could deliver a better, stabilized efficiency.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device fabrication and performance</head><p>We fabricated devices with the structure ITO/SnO 2 /(FAPbI 3 ) x (MAPbBr 3 ) 1-x /Spiro-OMeTAD/Au using SnO 2 nanoparticles as ETLs. We used a two-step spin coating method to form the perovskite layer by inter-diffusion of lead halide and organic salts <ref type="bibr" target="#b31">32</ref> .</p><p>Here, a mixture of perovskite layers (FAPbI 3 ) x (MAPbBr 3 ) 1-x was selected. FAPbI 3 was chosen due to its lower bandgap than that of MAPbI 3 , in order to increase light harvesting <ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b33">34</ref> . A small amount of MAPbBr 3 was added into FAPbI 3 to improve perovskite phase stabilization <ref type="bibr" target="#b33">34</ref> . The composition of MAPbBr 3 in the perovskite mixture was about 3%, as determined by X-ray photoelectron spectroscopy (XPS) (Supplementary Fig. <ref type="figure">8</ref>), thus giving the form (FAPbI 3 ) 0.97 (MAPbBr 3 ) 0.03 . The obtained perovskite film obtained showed an excellent morphology and was free of pinholes; the crystal size was close to 1 µm. The high quality of perovskite film formation was due to the introduction of Cl and moisture during the film growth <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b34">35</ref> . There is negligible Cl in the final perovskite film (Supplementary Fig. <ref type="figure">8</ref>); the Cl element should have been vaporized, inferring that the Cl acts only as an intermediate element/material for perovskite film growth <ref type="bibr" target="#b10">11</ref> . Moisture can enhance perovskite film growth via recrystallization <ref type="bibr" target="#b34">35</ref> . It must be noted that the 'white phase' was observed when annealing the perovskite layer at higher temperature (for example, 150 • C) (Fig. <ref type="figure">4a</ref>,b and Supplementary Fig. <ref type="figure">9</ref>). X-ray diffraction results (Fig. <ref type="figure">4c</ref>) confirmed that the PbI 2 phase was formed under higher temperature annealing, which is due to partial decomposition of the perovskite layer ( FAPbI 3 →PbI 2 (s)+FAI(g)). In situ energy dispersive X-ray analysis in a scanning electron microscope further confirms that the 'white phase' is a PbI 2 -rich region (Supplementary Fig. <ref type="figure" target="#fig_1">10</ref>). The longer lifetime from the perovskite film with excess PbI 2 indicated that PbI 2 could passivate the defects and reduce recombination in the perovskite film (Supplementary Fig. <ref type="figure" target="#fig_1">11</ref>). The passivation could be explained as follows: while PbI 2 was formed at the grain boundary in the perovskite layer, a type-I band alignment could be formed between perovskite and PbI 2 (ref. 36), which blocks electron from entering the hole transport layer and also reduces recombination. It was found that PbI 2 passivation is beneficial for device performance, as will be shown below <ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37</ref> . A cross-sectional scanning electron microscopy image of the completed device is shown in Fig. <ref type="figure">4d</ref>. The thicknesses of the electron transport layer (SnO 2 ) and the hole transport layer (Spiro-OMeTAD) are 25 nm and 150 nm, respectively. The optimized process for the SnO 2 layer can be found in Supplementary Fig. <ref type="figure" target="#fig_2">12</ref>. To obtain the best performance, the SnO 2 layer should fully cover the ITO substrate, but it must not be so thick as to introduce a high series resistance. Therefore, a decent thickness of SnO 2 should be considered; in our case, the optimized thickness of SnO 2 is 25 nm. In this study, we deposited a thick perovskite layer (770 nm, Fig. <ref type="figure">4c</ref>) to enhance the photo response of the perovskite layer in the infrared region <ref type="bibr" target="#b37">38</ref> .  We compared the device performance with and without the PbI 2 phase. It was found that the perovskite with excess PbI 2 showed better device performance, taking in account all the device performance parameters (Fig. <ref type="figure" target="#fig_4">5a</ref>). In terms of the lifetime enhancement (Supplementary Fig. <ref type="figure" target="#fig_1">11</ref>), it could be assumed that the improvement of the device performance was due to passivation of the traps, including surface or grain boundary defects in the perovskite layer, which were considered as recombination centres <ref type="bibr" target="#b38">39</ref> . In inorganic solar cells, a thin layer of wide bandgap or insulating materials is usually used for passivating the surface traps; for example, a thin layer of SiO 2 or Al 2 O 3 for Si solar cells <ref type="bibr" target="#b39">40</ref> and the wide bandgap of AlGaAs for GaAs solar cells <ref type="bibr" target="#b40">41</ref> . Here, in our study, the PbI 2 phase is expected to have a similar role in passivation for enhancing the device performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NATURE ENERGY</head><note type="other">ARTICLES 25 20</note><p>The best device performances of planar devices using SnO 2 nanoparticles as the ETL are shown in Fig. <ref type="figure" target="#fig_4">5b</ref>. The device showed an open-circuit voltage (V OC ) of 1.09V, a short-circuit current (J SC ) of 24.87 mA cm -2 , a fill factor (FF) of 74.77% and a power conversion efficiency (PCE) of 20.27% under reverse scan (V OC to J SC ). It showed a V OC of 1.09 V, a J SC of 24.88 mA cm -2 , a FF of 75.73%, and a PCE of 20.54% under forward scan (J SC to V OC ). The different scan directions showed almost the same performance, with only a slight difference in fill factor. More importantly, all the device performances are almost independent of the measurement conditions (Supplementary Fig. <ref type="figure" target="#fig_1">13</ref> and Supplementary Table <ref type="table">2</ref>), certainly indicating that the SnO 2 -based planar structure can achieve an efficient and stable power output. This behaviour is different from a traditional TiO 2 -based planar structure, as will be shown below. The typical external quantum efficiency of the devices is shown in Fig. <ref type="figure" target="#fig_4">5c</ref>. The photo response edge has been extended to 820 nm, compared with 780 nm from CH 3 NH 3 PbI 3 . In the visible region, the external quantum efficiency can reach as high as 93%. The integrated short-circuit current (24.2 mA cm -2 ) matched well with the J-V results. The high short-circuit current can be ascribed to the high quality of the thick perovskite absorbing layer.</p><p>To check reproducibility of the device performance, we collected the power conversion efficiency of one batch of devices (40 devices, Fig. <ref type="figure" target="#fig_4">5d</ref>). The power conversion efficiencies range from 17.9% to 20.5%, and most of the device efficiencies are greater than 19%. One of our best devices was sent to an accredited PV calibration laboratory (Newport, USA) for certification, which confirmed a PCE of 20.51% under AM 1.5 G full-sun illumination under reverse scan (V OC to J SC ) and 19.27% under forward scan (J SC to V OC ), with a slow scan rate (0.026 V s -1 ). The measurement details and results can be found in Supplementary Figs <ref type="figure" target="#fig_1">14</ref> and<ref type="figure" target="#fig_4">15</ref>.</p><p>The certified efficiency is 19.9 ± 0.6% (Supplementary Fig. <ref type="figure" target="#fig_1">14</ref>), which is consistent with our internal measurement results. The stability of our devices was tested, and it was found that the devices can maintain almost their original efficiency when stored in dry air conditions for 40 days (Supplementary Fig. <ref type="figure" target="#fig_5">16</ref>). We also have tested the photo-stability of un-encapsulated SnO 2 -and TiO 2based devices under continuous one sun (100 mW cm -2 ) soaking in ambient air (temperature: 28 • C, humidity: 37%). Interestingly, it was found that the SnO 2 -based devices have better photostability than the TiO 2 -based devices (Supplementary Fig. <ref type="figure" target="#fig_1">17</ref>); the mechanism is not entirely clear, and needs further study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hysteresis study</head><p>To further illustrate the role of the SnO 2 layer in reducing the hysteresis, we also made n-i-p planar-structure devices using TiO 2 as ETLs. Consistent with most previous results, the devices with TiO 2 ETLs showed serious hysteresis (Supplementary Fig. <ref type="figure" target="#fig_1">18</ref> and Supplementary Table <ref type="table">3</ref>) <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref> . In previous reports, on modifying the TiO 2 surface with fullerene, for example, the hysteresis could be eliminated. Moreover, it was found that the TiO 2 cannot efficiently transfer electrons from perovskite (Fig. <ref type="figure">3</ref>) <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref> . However, rapid electron extraction took place when introducing fullerene. Therefore, a good electron contact layer with fast charge extraction could reduce charge accumulation at the perovskite/contact layer interface induced by ion migration, and could partially or fully resolve the hysteresis issue <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b19">20</ref> . From the band alignment shown in Fig. <ref type="figure" target="#fig_2">2c</ref>, the conduction band of the SnO 2 layer aligned well with perovskite. Ideally, there will be no electron barrier formed at the perovskite/SnO 2 interface, which should facilitate electron extraction. In addition, the higher mobility of SnO 2 will enhance charge transport and reduce charge accumulation at the interface. Steady photoluminescence and time-resolved photoluminescence (TRPL) results confirmed the significant improvement of charge transfer from perovskite to SnO 2 compared with TiO 2 layers (Fig. <ref type="figure">3</ref>).</p><p>To confirm the enhanced charge extraction in the devices using the SnO 2 electron transport layer, we characterized the devices by means of transient photocurrent decay and photovoltage decay <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b41">42</ref> . It was found that the photocurrent decay time was significantly reduced from 22.53 µs to 4.01 µs (Fig. <ref type="figure" target="#fig_5">6a</ref>), while the decay time of the photovoltage was increased from 6.22 µs to 8.59 µs (Fig. <ref type="figure" target="#fig_5">6b</ref>) on replacing the TiO 2 layer with a SnO 2 layer as the electron transport layer, indicating a dramatic improvement of charge extraction and reduced recombination <ref type="bibr" target="#b41">42</ref> . PL and transient photocurrent/photovoltage results both confirmed the enhancement of charge extraction on using SnO 2 as the ETL; thus, there will be no obvious charge accumulation at the interface between perovskite and SnO 2 , and the hysteresis can be eliminated, as shown in Fig. <ref type="figure" target="#fig_4">5b</ref>.</p><p>In addition, perovskite films grown on SnO 2 and TiO 2 showed similar crystal morphologies and thicknesses (Supplementary Fig. <ref type="figure" target="#fig_1">19</ref>), which further confirms that the different hysteresis behaviours mainly originate from the different electron transport layers. Above all, ion migration in the perovskite layer could induce charge accumulation at the interface and lead to hysteresis <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref> . However, if the electron transport layer has sufficient ability to extract the charges, such as the SnO 2 we used, the hysteresis could be alleviated or fully eliminated <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b43">44</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>In conclusion, we have adopted low-temperature, solutionprocessed SnO 2 nanoparticles as the electron transport for planarstructure solar cells, and close to 20% power conversion efficiency with almost free of hysteresis was obtained. Our study showed the possibility of obtaining highly efficient perovskite solar cells without mesoporous structures. The efficiency of the planar structure could be further improved in the future through perovskite film growth or further passivation of the perovskite surface.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Preparation of SnO 2 and TiO 2 nanoparticles films. The SnO 2 colloid precursor was obtained from Alfa Aesar (tin(IV) oxide, 15% in H 2 O colloidal dispersion). (We have double-checked the solution concentration and the accurate concentration should be 20%, not the 15% labelled on bottle; before use, the particles were diluted by H 2 O to 2.67%). The final solution was spin coated onto glass/ITO substrates at 3,000 r.p.m. for 30 s, and then baked on a hot plate in ambient air at 150 • C for 30 min. The TiO 2 nanocrystals were obtained from a non-hydrolytic sol-gel approach and the synthesis details can be found in ref. 9.</p><p>The final TiO 2 was collected and dispersed in ethanol to make a suspension with a concentration of 6 mg ml -1 . To stabilize the as-obtained TiO 2 solutions, TiAcac was added into the solution, whose final concentration of 15 µl ml -1 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Solar cell fabrication.</head><p>The glass/ITO substrate was sequentially washed with isopropanol, acetone, distilled water and isopropanol. The sheet resistance of ITO is ∼15 / and the thicknesses of glass and ITO are 0.5 mm and 140 nm, respectively. The average transmittance of glass/ITO in the visible region is around 93%. For SnO 2 nanoparticles films, the diluted SnO 2 nanoparticles solution (2.67%) was spin coated on glass/ITO substrates in ambient air, and then annealed at 150 • C for 30 min. For TiO 2 nanoparticles films, 6 mg ml -1 of TiO 2 solution was spin coated on glass/ITO substrates at 2,000 r.p.m. for 30 s, and annealed in ambient air at 150 • C for 30 min. After depositing the electron transport layer, the perovskite layer was deposited by a two-step spin coating method; first, 1.3 M of PbI 2 in dimethylformamide (DMF) was spin coated onto the electron transport layer at 1,500 r.p.m. for 30 s, then annealed at 70 • C for 30 min; second, after the PbI 2 had cooled down, the mixture solution of FAI:MABr:MACl (60 mg:6 mg:6 mg in 1 ml isopropanol) was spin coated onto the PbI 2 at 1,500 r.p.m. for 30 s, and then the film was taken out from the glove box and annealed in ambient air (30%-40% humidity) <ref type="bibr" target="#b34">35</ref> . It was confirmed that humidity is beneficial in obtaining high-quality perovskite films <ref type="bibr" target="#b34">35</ref> . The annealing was under either 135 • C or 150 • C for 20 min; 150 • C annealing can deliver a higher performance due to the formation of the PbI 2 phase in the perovskite layer. After perovskite growth, the film was transferred into a N 2 -filled glovebox for Spiro-OMeTAD hole transport layer coating. The Spiro-OMeTAD solution was coated at 3,000 r.p.m. for 30 s, where 1 ml Spiro-OMeTAD/chlorobenzene (90 mg ml -1 ) solution was employed with the addition of 45 µl Li-TFSI/acetonitrile (170 mg ml -1 ) and 10 µl tBP. Finally, a Au back electrode was deposited by thermal evaporation at a pressure of 3 × 10 -6 torr. The active area was 0.108 cm 2 .</p><p>Characterization. J-V characteristics of photovoltaic cells were taken using a Keithley 2400 source measurement unit under a simulated AM1.5G spectrum. With a solar simulator (Enli Tech, Taiwan), the light intensity was calibrated by means of a KG-5 Si diode. The I-V measurements were carried out in ambient air. The devices are measured both in reverse scan (1.2 V →0 V, step 0.02 V) and forward scan (0 V →1.2 V, step 0.02 V), and the delay time has been selected from 1 ms to 1,000 ms. The devices were taken out for EQE measurements using a Enli Tech (Taiwan) EQE measurement system. We sent our best devices to an accredited PV calibration laboratory (Newport, USA) for certification. High-resolution TEM images were taken on an FEI Tecnai G2 F30 transmission electron microscope operated at 300 kV. The diluted SnO 2 nanoparticles solution was dropped onto the copper mesh and dried, after which the sample was loaded into the TEM chamber for measurement. A field-emission scanning electron microscopy (FEI NanoSEM650) was used to acquire SEM images. The instrument uses an electron beam accelerated at 500 V to 30 kV, enabling operation at a variety of currents. The X-ray diffraction patterns (θ -2θ scans) were taken on a Rigaku D/MAX-2500 system using Cu Kα (λ = 1.5405 Å) as the X-ray source. Scans were taken with 0.5-mm-wide source and detector slits, with X-ray generator settings at 40 kV and 30 mA. The information was obtained from samples of SnO 2 powder and perovskite film deposited on glass substrates. X-ray photoelectron spectroscopy (XPS) was performed on a Thermo Scientific ESCALab 250Xi using 200 W monochromated Al Kα (1,486.6 eV) radiation. A 500 µm X-ray spot was used for XPS analysis. The base pressure in the analysis chamber was about 3 × 10 -10 mbar. Typically, the hydrocarbon C1s line at 284.8 eV from adventitious carbon is used for energy referencing. Ultraviolet photoelectron spectroscopy (UPS) was also carried out on a Thermo Scientific ESCALab 250Xi, with the HeI(21.22 eV) emission line employed for excitation.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>2 ) 2</head><label>22</label><figDesc>PbI 3 -based perovskite solar cells Qi Jiang, Liuqi Zhang, Haolin Wang, Xiaolei Yang, Junhua Meng, Heng Liu, Zhigang Yin, Jinliang Wu, Xingwang Zhang * and Jingbi You * Planar structures for halide perovskite solar cells have recently garnered attention, due to their simple and low-temperature device fabrication processing. Unfortunately, planar structures typically show I-V hysteresis and lower stable device e ciency compared with mesoporous structures, especially for TiO 2 -based n-i-p devices. SnO 2 , which has a deeper conduction band and higher electron mobility compared with traditional TiO 2 , could enhance charge transfer from perovskite to electron transport layers, and reduce charge accumulation at the interface. Here we report low-temperature solution-processed SnO 2 nanoparticles as an e cient electron transport layer for perovskite solar cells. Our SnO 2 -based devices are almost free of hysteresis, which we propose is due to the enhancement of electron extraction. By introducing a PbI 2 passivation phase in the perovskite layer, we obtain a 19.9 ± 0.6% certified e ciency. The devices can be easily processed under low temperature (150 • C), o ering an e cient method for the large-scale production of perovskite solar cells.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 |</head><label>1</label><figDesc>Figure 1 | Properties of SnO 2 nanoparticles. a, Transmission electron microscopy (TEM) image of SnO 2 nanoparticles deposited on a copper mesh. b, High-resolution TEM image of SnO 2 nanoparticles. The crystal lattice of the (110) plane is observed. c, Electron di raction of SnO 2 nanoparticles. Di raction circles from the (110), (101) and (211) planes are observed. d, X-ray di raction pattern of SnO 2 nanoparticles. The di raction peaks from each crystal plane are labelled. e, Scanning electron microscopy (SEM) image of SnO 2 nanoparticles deposited on a glass/ITO substrate. f, Transmission spectrum of SnO 2 films deposited on a glass substrate.</figDesc><graphic coords="24,86.30,234.85,200.68,163.87" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 |</head><label>2</label><figDesc>Figure2| Band structure properties of SnO 2 and TiO 2 nanoparticles and the perovskite layer. a, Ultraviolet photoelectron spectroscopy (UPS) cuto edge of SnO 2 (red), TiO 2 (blue) and perovskite layer (black). b, Valence band spectra of SnO 2 (red), TiO 2 (blue) and perovskite layer (black) from UPS measurements. c, Possible band alignment of SnO 2 and perovskite layer according to their conduction bands. The energy bands of SnO 2 (grey), perovskite (dark red) and Spiro-OMeTAD (blue) are shown. For each material, the highest and the lowest energy levels are conduction band (E C ) and valence band (E V ), respectively. d, log(J)-log(V) plots for the SnO 2 and TiO 2 colloidal film using the space-charge-limited current (SCLC) model with device structure of ITO/Al/metal oxides/Al. Measurement data (circles), which were fitted by a line with a slope of 2 (blue), the intercepts of the fitted line on log(J) were used for the mobility calculation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 |Figure 4 |</head><label>34</label><figDesc>Figure 3 | Charge transport properties between metal oxide and perovskite layer. a, Photoluminescence spectrum of (FAPbI 3 ) 0.97 (MAPbBr 3 ) 0.03 deposited on glass (black), SnO 2 (red) and TiO 2 (blue), respectively. b, Time-resolved photoluminescence (TRPL) of (FAPbI 3 ) 0.97 (MAPbBr 3 ) 0.03 deposited on glass (black), SnO 2 (red) and TiO 2 (blue), respectively.</figDesc><graphic coords="26,109.91,231.95,85.34,154.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 |</head><label>5</label><figDesc>Figure 5 | Device performance of perovskite solar cells with the structure glass/ITO/SnO 2 /perovskite/Spiro-OMeTAD/Au. a, Device performance with (red) and without (black) excess PbI 2 . b, The best device performance under reverse scan (black; 1.2 V →0 V) and forward scan (red; 0 V →1.2 V). c, External quantum e ciency (EQE) of the best device (red) and integrated short-circuit current density (blue). d, Device performance distribution for 40 devices in one batch. The red curve represents a Gaussian function fit to the data.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 |</head><label>6</label><figDesc>Figure 6 | Charge transfer in the devices with di erent electron transport layers. a, Transient photocurrent decay curves using SnO 2 (red) and TiO 2 (black) as electron transport layers. b, Transient photovoltage decay curves using SnO 2 (red) and TiO 2 (black) as electron transport layers.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="3,97.24,122.22,394.24,141.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="4,97.24,182.89,394.18,153.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="5,97.24,124.99,394.24,298.91" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="8,150.95,107.70,286.80,215.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="9,95.87,93.46,394.24,303.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="10,95.87,91.12,394.18,174.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="12,95.87,123.36,394.24,287.43" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="13,95.87,121.83,394.24,305.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="14,95.87,124.05,394.18,286.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="15,97.24,78.45,394.24,510.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="16,97.24,94.88,394.24,152.09" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="17,95.87,109.44,394.24,300.39" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="18,109.37,95.62,369.97,269.09" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="19,95.87,135.21,394.18,293.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="20,142.69,110.43,303.32,269.09" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>The band structure parameters of perovskite, SnO2 and TiO2.</figDesc><table><row><cell>Materials</cell><cell>Eg (eV)</cell><cell></cell><cell cols="2">VBM (eV)</cell><cell cols="2">Ws (eV)</cell><cell>Ec (eV)</cell></row><row><cell>Perovskite</cell><cell>1.55</cell><cell></cell><cell>1.51</cell><cell></cell><cell cols="2">4.40</cell><cell>4.36</cell></row><row><cell>SnO2</cell><cell>3.79</cell><cell></cell><cell>3.74</cell><cell></cell><cell cols="2">4.36</cell><cell>4.31</cell></row><row><cell>TiO2</cell><cell>3.62</cell><cell></cell><cell>3.60</cell><cell></cell><cell cols="2">3.79</cell><cell>3.77</cell></row><row><cell>Supplementary</cell><cell>Table</cell><cell>2|.</cell><cell cols="2">Summary</cell><cell>of</cell><cell>device</cell><cell>performance</cell><cell>of</cell></row><row><cell cols="8">glass/ITO/SnO2/Perovskite/Spiro-OMeAD/Au under different scan conditions.</cell></row><row><cell>Scan directions</cell><cell>Scan rate</cell><cell></cell><cell cols="3">Voc (V) Jsc (mA/cm 2 )</cell><cell>FF (%)</cell><cell>PCE (%)</cell></row><row><cell>Reverse</cell><cell>20000mV/s</cell><cell></cell><cell>1.10</cell><cell>25.28</cell><cell></cell><cell>73.15</cell><cell>20.28</cell></row><row><cell>Forward</cell><cell>20000mV/s</cell><cell></cell><cell>1.10</cell><cell>25.52</cell><cell></cell><cell>71.62</cell><cell>20.10</cell></row><row><cell>Reverse</cell><cell>2000mV/s</cell><cell></cell><cell>1.10</cell><cell>25.17</cell><cell></cell><cell>71.38</cell><cell>19.72</cell></row><row><cell>Forward</cell><cell>2000mV/s</cell><cell></cell><cell>1.10</cell><cell>25.27</cell><cell></cell><cell>72.60</cell><cell>20.20</cell></row><row><cell>Reverse</cell><cell>200mV/s</cell><cell></cell><cell>1.10</cell><cell>25.19</cell><cell></cell><cell>70.78</cell><cell>19.59</cell></row><row><cell>Forward</cell><cell>200mV/s</cell><cell></cell><cell>1.10</cell><cell>25.57</cell><cell></cell><cell>72.00</cell><cell>20.27</cell></row><row><cell>Reverse</cell><cell>20mV/s</cell><cell></cell><cell>1.10</cell><cell>25.36</cell><cell></cell><cell>69.58</cell><cell>19.38</cell></row><row><cell>Forward</cell><cell>20mV/s</cell><cell></cell><cell>1.10</cell><cell>25.60</cell><cell></cell><cell>71.52</cell><cell>20.04</cell></row><row><cell>Scan directions</cell><cell>VOC (V)</cell><cell></cell><cell cols="2">JSC (mA/cm 2 )</cell><cell cols="2">FF (%)</cell><cell>PCE (%)</cell></row><row><cell>Reverse</cell><cell>1.06</cell><cell></cell><cell>24.9</cell><cell></cell><cell></cell><cell>77.51</cell><cell>20.43</cell></row><row><cell>Forward</cell><cell>0.98</cell><cell></cell><cell>25.0</cell><cell></cell><cell></cell><cell>57.64</cell><cell>14.18</cell></row></table><note><p><p><p>has been used. © 2016 Macmillan Publishers Limited, part of Springer Nature. All rights reserved. NATURE ENERGY | www.nature.com/natureenergy</p>Supplementary Table 1|</p>Supplementary Table 3| Summary of device performance of using TiO2 as electron transport layer under different scan directions. The delay time is 1ms, and scan step is 0.02V, and the scan rate is 20 V/s.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2016 Macmillan Publishers Limited, part of Springer Nature. All rights reserved. NATURE ENERGY | www.nature.com/natureenergy</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_1"><p>©</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>NATURE ENERGY 2, 16177 (2016) | DOI: 10.1038/nenergy.2016.177 | www.nature.com/natureenergy</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work is supported by <rs type="funder">National 1000 Young Talents awards, National Key Research and Development Program of China</rs> (Grant No. <rs type="grantNumber">2016YFB0700700</rs>) and <rs type="funder">Beijing Municipal Science &amp; Technology Commission</rs> (Grant No. <rs type="grantNumber">Z151100003515004</rs>), and also by <rs type="funder">National Science Foundation (NSF</rs>, <rs type="grantNumber">61574133</rs>). The authors would like to thank <rs type="person">Yang (Michael) Yang</rs> from <rs type="affiliation">Zhejiang University</rs> for help with transit photocurrent and photovoltage measurements.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_vf6Vv4c">
+					<idno type="grant-number">2016YFB0700700</idno>
+				</org>
+				<org type="funding" xml:id="_etHU6Fk">
+					<idno type="grant-number">Z151100003515004</idno>
+				</org>
+				<org type="funding" xml:id="_TN2xxfC">
+					<idno type="grant-number">61574133</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Supplementary Figure <ref type="figure">4</ref>. The relationship of (h) <ref type="bibr" target="#b1">2</ref> vs energy for perovskite, SnO2 and TiO2, respectively. The bandgap of each material can be determined via linear extrapolation of the leading edges of the (h) <ref type="bibr" target="#b1">2</ref> curve to the base lines. The enlargement of (h) <ref type="bibr" target="#b1">2</ref> -hrelationship for perovskite in 1.4 eV-1.8 eV is shown in inset of Supplementary Figure <ref type="figure">4</ref>. It can be found that the absorption leading edge is at 1.55 eV, indicating that the bandgap of perovskite layer is 1.55 eV. "dark phase", respectively. From EDX results, the "white phase" area showed the less Pb:I ratio (Pb:I=1:2.61) than that of dark phase area (Pb:I=1:2.87), indicating that the white phase could be PbI2 rich area. For FAPbI3 (Pb:I=1:3) and PbI2 (Pb:I=1:2). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTARY INFORMATION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTARY INFORMATION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ARTICLES</head><p>The data were acquired at a bias of -10 V. The work function of the measured samples can be calculated from following equation:</p><p>here, hν = 21.22 eV and E Fermi = 21.08 eV (using Ni as the standard sample for calibration). E cutoff is the cutoff shown in the corresponding figures. The electron mobilities of TiO 2 and SnO 2 films were measured using the SCLC model <ref type="bibr" target="#b17">18</ref> , using a electron-only devices of ITO/Al/metal oxide/Al and taking current-voltage to a space-charge-limited form, where the SCLC is described by J = (9/8)ε r ε 0 µ e (V 2 /L 3 ), where ε 0 is the permittivity of free space, ε r is the dielectric constant of the metal oxide layers, µ e is the electron mobility, V is the voltage drop across the device, and L is the metal oxide thickness. The dielectric constant ε r of SnO 2 and TiO 2 are assumed to be 9 and 50, respectively (refs 45,46). We deposited thicker metal oxide films (300 nm) to form a dense film and avoid leakage; the thick film was produced by several repeated steps of spin coating.</p><p>The mobilities of the SnO 2 and TiO 2 films were calculated to be 1.9 × 10 -3 cm 2 V -1</p><p>• s and 3.3 × 10 -5 cm 2 V -1 • s, respectively. Transient photocurrent and photovoltage measurements were measured on an in-house-built system, similar to that reported previously <ref type="bibr" target="#b17">18</ref> . </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing financial interests.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Organometal halide perovskites as visible-light sensitizers for photovoltaic cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Teshima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shirai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="6050" to="6051" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Lead iodide perovskite sensitized all-solid-state submicron thin film mesoscopic solar cell with efficiency exceeding 9%</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">591</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Efficient hybrid solar cells based on meso-superstructured organometal halide perovskites</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Teuscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="page" from="643" to="647" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Solvent engineering for high-performance inorganic-organic hybrid perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="897" to="903" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<ptr target="www.nrel.gov/ncpv/images/efficiency_chart.jpg" />
+	</analytic>
+	<monogr>
+		<title level="j">Best research-cell efficiencies NREL</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Electron-hole diffusion lengths exceeding 1 micrometer in an organometal trihalide perovskite absorber</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page" from="341" to="344" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Long-range balanced electron-and hole-transport lengths in organic inorganic CH 3 NH 3 PbI 3</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page" from="344" to="347" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Efficient planar heterojunction perovskite solar cells by vapour deposition</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">501</biblScope>
+			<biblScope unit="page" from="395" to="398" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Interface engineering of highly efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page" from="542" to="546" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">CH 3 NH 3 PbI 3 perovskite/fullerene planar-heterojunction hybrid solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Jeng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="3727" to="3732" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Low-temperature solution-processed perovskite solar cells with high efficiency and flexibility</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>You</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1674" to="1680" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Recent advances in the inverted planar structure of perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acc. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="155" to="165" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Understanding the rate-dependent JV hysteresis, slow time component, and aging in CH 3 NH 3 PbI 3 perovskite solar cells: the role of a compensated electric field</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="995" to="1004" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Giant switchable photovoltaic effect in organometal trihalide perovskite devices</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="193" to="198" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Anomalously large interface charge in polarity-switchable photovoltaic devices: an indication of mobile ions in organic-inorganic halide perovskites</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1256" to="1260" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Heterojunction modification for highly efficient organic-inorganic perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wojciechowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="12701" to="12709" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">C 60 as an efficient n-type compact layer in perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wojciechowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="2399" to="2405" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Multifunctional fullerene derivative for interface engineering in perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">W</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="15540" to="15547" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Interfacial electron transfer barrier at compact TiO 2 /CH 3 NH 3 PbI 3 heterojunction</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="3606" to="3613" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Metal-halide perovskites for photovoltaic and light-emitting devices</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Nanotech</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="391" to="402" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">SnO 2 -based dye-sensitized hybrid solar cells exhibiting near unity absorbed photon-to-electron conversion efficiency</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ducati</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1259" to="1265" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Nanoscale dispersions of gelled SnO 2 : material properties and device applications</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bob</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="4725" to="4730" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Insight into perovskite solar cells based on SnO 2 compact electron-selective layer</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Dong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. C</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="10212" to="10217" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Low-temperature SnO 2 -based electron selective contact for efficient and stable perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="10837" to="10844" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Mesoporous SnO 2 nanoparticle films as electron transporting material in perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RSC Adv</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="28424" to="28429" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Low-temperature solution-processed tin oxide as an alternative electron transporting layer for efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="6730" to="6733" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A highly efficient planar perovskite solar cells through band alignment engineering</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P C</forename><surname>Baena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2928" to="2934" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Highly efficient and stable planar perovskite solar cells by solution-processed tin oxide</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Anaraki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="3128" to="3134" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Graphene-based mesoporous SnO 2 with enhanced electrochemical performance for lithium-ion batteries</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="3570" to="3576" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Microstrucural and optical properties of SnO 2 nanoparticles formed by using a solvothermal synthesis method</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Kwak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Korean Phys. Soc</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1803" to="1806" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Electron-pinned defect-dipoles for high-performance colossal permittivity materials</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="821" to="826" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Efficient, high yield perovskite photovoltaic devices grown by interdiffusion of solution-processed precursor stacking layers</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="2619" to="2623" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">NH 2 CH=NH 2 PbI 3 : an alternative organolead iodide perovskite sensitizer for mesoscopic solar cells</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1485" to="1491" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Compositional engineering of perovskite materials for high-performance solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">517</biblScope>
+			<biblScope unit="page" from="476" to="480" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Moisture assisted perovskite film growth for high performance solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>You</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page">183902</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Controllable self-induced passivation of hybrid lead iodide perovskites toward high performance solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="4158" to="4163" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Beneficial effects of PbI 2 incorporated in organo-lead halide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1502104</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Solvent annealing of perovskite-induced crystal growth for photovoltaic-device efficiency enhancement</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="6503" to="6509" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Impact of microstructure on local carrier lifetime in perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>De Quilettes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="page" from="683" to="686" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Surface passivation of crystalline silicon solar cells: a review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Aberle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Photovolt. Res. Appl</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="362" to="376" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A GaAs solar cell with an efficiency of 26.2% at 1000 suns and 25.0% at 2000 suns</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Algora</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE T. Electron Dev</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="840" to="844" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Efficient and stable large-area perovskite solar cells with inorganic charge extraction layers</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">350</biblScope>
+			<biblScope unit="page" from="944" to="948" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Origin of J-V hysteresis in perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Priya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="905" to="917" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Origin and elimination of photocurrent hysteresis by fullerene passivation in CH 3 NH 3 PbI 3 planar heterojunction solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">5784</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Mott-schottky and charge-transport analysis of nanoporous titanium dioxide films in air</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>O'hayre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. C</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="4809" to="4814" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The static dielectric constant of SnO 2</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Daal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="4467" to="4469" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

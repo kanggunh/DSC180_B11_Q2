@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Stabilization of formamidinium lead triiodide α-phase with isopropylammonium chloride for perovskite solar cells</title>
+				<funder ref="#_jGCkyQA">
+					<orgName type="full">Creative-Challenge Research Program</orgName>
+				</funder>
+				<funder ref="#_Dax422b">
+					<orgName type="full">National Research Foundation of Korea</orgName>
+					<orgName type="abbreviated">NRF</orgName>
+				</funder>
+				<funder ref="#_ENCcf9k">
+					<orgName type="full">MSIT</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ministry of Science, ICT &amp; Future Planning</orgName>
+					<orgName type="abbreviated">MSIP</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">POSTECH</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-04-08">8 April 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Byung-Wook</forename><surname>Park</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil Eonyang-eup Ulju-gun</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">School of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hyoung</forename><surname>Woo Kwon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil Eonyang-eup Ulju-gun</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">School of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yonghui</forename><surname>Lee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil Eonyang-eup Ulju-gun</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">School of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Do</forename><forename type="middle">Yoon</forename><surname>Lee</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Min</forename><forename type="middle">Gyu</forename><surname>Kim</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil Eonyang-eup Ulju-gun</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Pohang Accelerator Laboratory (PAL)</orgName>
+								<orgName type="institution" key="instit1">Beamline Research Division</orgName>
+								<orgName type="institution" key="instit2">Pohang University of Science and Technology (POSTECH)</orgName>
+								<address>
+									<postCode>37673</postCode>
+									<settlement>Pohang</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">School of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Pohang Accelerator Laboratory (PAL)</orgName>
+								<orgName type="institution" key="instit1">Beamline Research Division</orgName>
+								<orgName type="institution" key="instit2">Pohang University of Science and Technology (POSTECH)</orgName>
+								<address>
+									<settlement>Pohang</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Geonhwa</forename><surname>Kim</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ki-Jeong</forename><surname>Kim</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Pohang Accelerator Laboratory (PAL)</orgName>
+								<orgName type="institution" key="instit1">Beamline Research Division</orgName>
+								<orgName type="institution" key="instit2">Pohang University of Science and Technology (POSTECH)</orgName>
+								<address>
+									<postCode>37673</postCode>
+									<settlement>Pohang</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Pohang Accelerator Laboratory (PAL)</orgName>
+								<orgName type="institution" key="instit1">Beamline Research Division</orgName>
+								<orgName type="institution" key="instit2">Pohang University of Science and Technology (POSTECH)</orgName>
+								<address>
+									<settlement>Pohang</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Young</forename><forename type="middle">Ki</forename><surname>Kim</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Pohang Accelerator Laboratory (PAL)</orgName>
+								<orgName type="institution" key="instit1">Beamline Research Division</orgName>
+								<orgName type="institution" key="instit2">Pohang University of Science and Technology (POSTECH)</orgName>
+								<address>
+									<postCode>37673</postCode>
+									<settlement>Pohang</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">UNIST Central Research Facilities</orgName>
+								<orgName type="institution" key="instit2">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil Eonyang-eup Ulju-gun</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Korea Research Institute of Chemical Technology</orgName>
+								<address>
+									<addrLine>141 Gajeong-Ro Yuseong-Gu 10,285 278,627 I - 22,829 751,542 C - 644 137,959 120</addrLine>
+									<postCode>34114 704 10 368 393 10 911 22 929 240 22 794 561 438 609 213 164 129 216</postCode>
+									<settlement>Deajeon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Pohang Accelerator Laboratory (PAL)</orgName>
+								<orgName type="institution" key="instit1">Beamline Research Division</orgName>
+								<orgName type="institution" key="instit2">Pohang University of Science and Technology (POSTECH)</orgName>
+								<address>
+									<settlement>Pohang</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="institution" key="instit1">UNIST Central Research Facilities</orgName>
+								<orgName type="institution" key="instit2">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="institution">Korea Research Institute of Chemical Technology</orgName>
+								<address>
+									<settlement>Deajeon</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jino</forename><surname>Im</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Tae</forename><forename type="middle">Joo</forename><surname>Shin</surname></persName>
+							<email>tjshin@unist.ac.kr</email>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">UNIST Central Research Facilities</orgName>
+								<orgName type="institution" key="instit2">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil Eonyang-eup Ulju-gun</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="institution" key="instit1">UNIST Central Research Facilities</orgName>
+								<orgName type="institution" key="instit2">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sang</forename><forename type="middle">Il</forename><surname>Seok</surname></persName>
+							<email>seoksi@unsit.ac.kr</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil Eonyang-eup Ulju-gun</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">School of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Stabilization of formamidinium lead triiodide α-phase with isopropylammonium chloride for perovskite solar cells</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-04-08">8 April 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1F4E22E6941271161C32330A24FB14D6</idno>
+					<idno type="DOI">10.1038/s41560-021-00802-z</idno>
+					<note type="submission">Miller index 100 110 111 200 210 102 Received: 22 June 2020; Accepted: 18 February 2021;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T17:57+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Miller index 100 110 111 200 210 102 One-pot(IPA) q r (Å -1 ) 0.99111 1.40432 1.72119 1.98601 2.2179 d-spacing (nm) 0.633954 0.447418 0.365049 0.316372 0.283294 Miller index 100 110 111 200 210 102 PbI 2 (Hexagonal) P-3m1(164) 2θ 12.672 22.519 22.509 25.917 38.661 d-spacing (nm) 0.698000 0.394500 0.348900 0.343500 0.23270 Miller index 001 100 002 101 003</p><p>Supplementary Figure 8. HR-TEM of FAPbI3 films. The magnified HR-TEM images with FFT patterns of the two represented areas at inter (1: bright yellow colour filled area) and outer (2) regions on the a, sequential, b, one-pot and c, one-pot (IPA) perovskite films (blue solid line scale bar is 1 nm).</p><p>0.31 nm α(200) 0.31 nm 0.68 nm PbI 2 (001) 1-2 2-2 0.24 nm 0.34 nm α[(111) 1-2 3-1 PbI 2 (003) 0.35 nm α(111) PbI 2 (001) 0.69 nm 1-2 2-2 a b c Supplementary Figure 9. Chemical quantifications of sequential, one-pot, and one-pot (IPA) processed perovskite films by ToF-SIMS and Synchrotron-based HR-XPS at valence bands. a, positively charged lead (Pb + ); b, negatively charged iodide (I -); c, negatively charged carbon (C -); d, negatively charged carbon (C2 -); and e, VB edges obtained from the synchrotron assisted high resolution XPS spectra. To justify valence bands (VB) edges, we can clarify doping conditions such as cationic or anionic chemical species, according to a previous investigation by Rudd et al. 1 , for example, to shift deeper VB edge values by more doping cationic species. VB edges of three perovskite films have been defined as such in a previous report. 2 The values of VB edges of the obtained perovskite films were determined as 1.80 eV, 1.50, and 1.65 eV on sequential, one-pot, and one-pot (IPA) processed perovskite films, respectively. The estimated VB edge values of sequential and one-pot (IPA) are similar to those previously reported for RbCsMAFAPbI3 crystals as likely doping cationic species.</p><p>3 Supplementary Table. 2. Chemical quantifications of FAPbI3 perovskite thin layers deposited on mp-TiO2 by ToF-SIMS. Intensities of Pb, I, and C for sequential, one-pot, and one-pot (IPA). Samples (cps) Sequential One-pot One-pot(IPA) Pb +</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FA</head><p>Supplementary Figure <ref type="figure" target="#fig_1">10</ref>. 1 H FT-NMR spectra. <ref type="bibr">1</ref> H FT-NMR spectra with a, iPAmH + in DMF-d7 as a reference and b, the magnified spectra on sites of -CH and -CH3. The full FT-NMR spectra are shown for c, sequential-, one-pot, and one-pot (IPA) processed perovskite films and d, the magnified spectra on the sites of -CH and -CH3. The three annealed perovskite films were re-dissolved in DMF-d7 to prepare the samples. The chemical shift appeared at 8 ~ 9 ppm was assigned to FA <ref type="bibr">4,</ref><ref type="bibr">5</ref> .  ), methylammonium (MA, CH 3 NH 3</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>+</head><p>) and caesium (Cs + ) are mainly used as A-site cations, and they strongly affect the performance and stability of a solar device <ref type="bibr">1</ref> . Of these cations, FA shows the most promising performance because 3D formamidinium lead triiodide (FAPbI 3 ) perovskite has a lower bandgap (E g ) and is thermally more stable than its MA counterpart <ref type="bibr">2,</ref><ref type="bibr">3</ref> . However, 3D FAPbI 3 perovskite (α-phase) is metastable and undergoes phase conversion into a one-dimensional non-perovskite (δ-phase) at room temperature <ref type="bibr">4</ref> . Several methods for stabilizing the α-phase of FAPbI 3 have been reported <ref type="bibr">5</ref> . Generally, FAPbI 3 perovskite films obtained by solution processes are prepared by one-pot <ref type="bibr">[1]</ref><ref type="bibr">[2]</ref><ref type="bibr">[3]</ref><ref type="bibr">[4]</ref><ref type="bibr">6</ref> or sequential <ref type="bibr">7,</ref><ref type="bibr">8</ref> spin-coating methods followed by an annealing process to improve crystallization. The one-pot method usually entails anti-solvent treatment to form a dense FAPbI 3 film. Amongst the solvents used in the dropping process, isopropyl alcohol (IPA) enhances the crystal quality of the FAPbI 3 layer in the one-pot process <ref type="bibr" target="#b16">9</ref> . The sequential process exploits the reaction between organic cation solutions dissolved in IPA and those predeposited in the PbI 2 layer.</p><p>In both the one-pot and sequential processes, additive engineering is an effective strategy for mediating perovskite crystal growth and passivating defect states. In particular, methylammonium chloride (MACl) additives have been used to improve the crystallinity and surface morphology of FAPbI 3 (ref. <ref type="bibr">5</ref> ). However, the impact of the differences in FAPbI 3 perovskite crystallization on the efficiency and stability of the final perovskite solar cells (PSCs) has only been examined in a few cases <ref type="bibr" target="#b18">10</ref> . Moreover, forming a high-quality stabilized α-phase FAPbI 3 perovskite film with large grain size, pre-ferred crystal orientation and low trap density, which facilitates low non-radiative energy loss and long-term stability, is challenging.</p><p>In this study, we explored the differences in the FAPbI 3 perovskite crystals prepared by the one-pot and sequential spin-coating methods by in situ synchrotron-based grazing incidence wide-angle X-ray diffraction (GI-WAXD), high-resolution transmittance electron microscopy (HR-TEM), time-of-flight secondary ion mass spectroscopy (ToF-SIMS) and high-resolution X-ray photoelectron spectroscopy (HR-XPS). Based on the analytical results, we propose the inclusion of isopropylammonium cations (iPAmH + ), mainly located at the grain boundaries of perovskite layers, formed by a secondary chemical side reaction, such as between MACl and IPA, in the sequential spin-coating process. In model experiments we fabricated PSC devices using a one-pot process in which 15 mol% isopropylammonium chloride (iPAmHCl) was added to the FAPbI 3 precursor solution. A substantial amount of the introduced iPAm-HCl volatilizes during the annealing of the FAPbI 3 thin film at 150 °C, with iPAmHCl remaining at the FAPbI 3 grain boundaries contributing to the stabilization of the α-phase, enabling PSCs with high efficiency and stability to be fabricated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison between the two processes using MACl and IPA</head><p>The PSCs were prepared by two representative methods: the one-pot and sequential processes. As shown in Supplementary Fig. <ref type="figure" target="#fig_2">1a</ref>, no important difference was noted between the two processes in terms of efficiency. Because other parameters such as the device structure and charge carriers were the same, the similar efficiency implies that the properties of the perovskite films are similar. However, the sequentially processed PSC device showed better stability</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stabilization of formamidinium lead triiodide α-phase with isopropylammonium chloride for perovskite solar cells</head><p>Byung-wook Park 1,5 , Hyoung Woo Kwon 1,5 , Yonghui Lee Formamidinium lead triiodide (FAPbI 3 ) perovskite solar cells (PSCs) are mainly fabricated by sequentially coating lead iodide and formamidinium iodide, or by coating a solution in which all components are dissolved in one solvent (one-pot process). The PSCs produced by both processes exhibited similar efficiencies; however, their long-term stabilities were notably different. We concluded that the major reason for this behaviour is the stabilization of the α-FAPbI 3 phase by isopropylammonium cations produced by the chemical reaction between isopropyl alcohol, used as solvent, and methylammonium chloride, added during the process. On this basis, we fabricated PSCs by adding isopropylammonium chloride to the perovskite precursor solution for the one-pot process and achieved a certified power conversion efficiency of 23.9%. Long-term operational current density-voltage measurements (one sweep every 84 min under 1-Sun irradiation in nitrogen atmosphere) showed that the as-fabricated device with an initial efficiency of approximately 20% recorded an efficiency of about 23% after 1,000 h that gradually degraded to about 22% after an additional 1,000 h.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Articles</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nature eNergy</head><p>than that fabricated by the one-pot process (Supplementary Fig. <ref type="figure" target="#fig_2">1b</ref>). As the perovskite thin films produced by both processes have almost the same thickness (Supplementary Fig. <ref type="figure" target="#fig_3">2a</ref>), surface morphology (Supplementary Fig. <ref type="figure" target="#fig_3">2b</ref>), light absorbance and bandgap (Supplementary Fig. <ref type="figure" target="#fig_4">3a</ref>), and Cl -concentration (Supplementary Fig. <ref type="figure" target="#fig_4">3b</ref>), we can surmise that other factors stabilize the sequentially produced FAPbI 3 thin film. Regarding the chemical components, the only difference in the as-deposited layers formed by the two different processes is that was used to dissolve the organic ammonia cations in the sequential process. To determine whether the inclusion of IPA affects the stability of the PSCs fabricated by the two processes, a comparison was made by adding IPA to a one-pot solution. We observed that the stability of the device fabricated by adding 20 mol% IPA to the one-pot solution notably increased compared with that fabricated without IPA, as shown in Supplementary Fig. <ref type="figure" target="#fig_2">1c</ref>.</p><p>To understand the two different processes and the effect of the addition of IPA to the one-pot solution, the formation of as-deposited layers coated by the one-pot and sequential processes was monitored by in situ synchrotron GI-WAXD during thermal annealing. The one-pot solution with the addition of IPA is denoted as 'one-pot (IPA)' . Figures <ref type="figure" target="#fig_2">1a-c</ref> present the azimuthally integrated GI-WAXD patterns converted from the temperature-and time-dependent in situ GI-WAXD analyses. Representative two-dimensional (2D) GI-WAXD patterns are shown in Supplementary Fig. <ref type="figure" target="#fig_5">4</ref>. All three processes clearly showed a strong α-FAPbI 3 (100) cubic diffraction peak, denoted as α(100) c , at q = 0.9893 Å -1 (sequential), 0.9959 Å -1 (one-pot) and 0.9888 Å -1 (one-pot (IPA)) in the initial pristine thin films. Note that MACl acts as an important additive for the formation of α(100) c in the as-deposited layers <ref type="bibr">2,</ref><ref type="bibr">3</ref> , which is evident from a comparison with a film prepared by the one-pot process without the MACl additive (Supplementary Fig. <ref type="figure" target="#fig_6">5a</ref>). All the pristine samples also showed many diffraction peaks in the A region, attributed to intermediate phases in the form of (solvent or additive) a (FA or MA) b Pb c I d (refs. <ref type="bibr" target="#b19">11,</ref><ref type="bibr" target="#b20">12</ref> ), with the one-pot (IPA) and one-pot processes showing the smallest and largest number of diffraction peaks, respectively. This suggests that the added IPA inhibits the formation of complex intermediate phases and contributes to the conversion to the crystalline FAPbI 3 phase. The one-pot and one-pot (IPA) processes showed extremely weak or clear δ-FAPbI 3 diffractions of δ4H(002) h , δ2H(100) h and δ6H(101) h (where the subscript h stands for hexagonal) at q = 0.811, 0.839 and 0.866 Å -1 , respectively (Fig. <ref type="figure" target="#fig_2">1b,</ref><ref type="figure">c</ref> and Supplementary Fig. <ref type="figure" target="#fig_6">5a,</ref><ref type="figure">b</ref>) <ref type="bibr" target="#b21">13</ref> , whereas no δ2H(100) h diffraction was observed in the sequential process (Fig. <ref type="figure" target="#fig_2">1a</ref>). To examine the differences in α(100) c crystal formation after annealing at 150 °C, the mutually normalized integrated areas of α(100) c , δ4H(002) h , δ6H(101) h and PbI 2 (001) trigonal , denoted as PbI 2 (001) t , for different annealing times were calculated (Fig. <ref type="figure" target="#fig_2">1d-f</ref>). The integrated areas of α(100) c reveal that more than 60% of α(100) c was obtained in the beginning for all three samples and reached nearly 100% within 15 min of annealing at 150 °C (Fig. <ref type="figure" target="#fig_2">1d</ref>). The ratio of the relative integrated areas of α(100) c for one-pot/one-pot (IPA)/sequential is 1:1.2:1.5, which implies that the sequential process provides the most crystalline film. The integrated area of non-perovskite δ(100) h shows the opposite tendency to that of α(100) c (Fig. <ref type="figure" target="#fig_2">1e</ref>), with δ(100) h of the sequential process disappearing after 3 min. The FAPbI 3 film prepared by the one-pot process did not fully convert from δ(100) h to α(100) c crystals, whereas the one-pot (IPA) achieved an almost complete transformation. The thermal stability of the FAPbI 3 films can be evaluated by observing the changes in the integrated area of PbI 2 (001) t (Fig. <ref type="figure" target="#fig_2">1f</ref>). The integrated area of PbI 2 (100) t of the one-pot (IPA) process showed a slower increase with annealing time at 150 °C than that of the one-pot process, indicating that the one-pot (IPA) process shows better thermal stability than the one-pot process. Moreover, the film prepared by the one-pot (IPA) showed a similar increase to that of the sequential </p><formula xml:id="formula_0">∫ xn x 1 f(x)dx ≈ ∑ n-1 i=1 (x i+1 -x i ) 1 2 [f (x i+1 ) + f (x i )]. NATure eNerGY | VOL 6 | APRIL 2021 | 419-428 | www.nature.com/natureenergy</formula><p>process after annealing for 20 min, suggesting a similar thermal stability after a certain annealing time. The thermal stability can also be predicted by monitoring the variation in the relative amount of α(100) c with annealing time with respect to the total amount of α(100) c , δ(100) h and PbI 2 (001) t (Supplementary Fig. <ref type="figure" target="#fig_6">5c</ref>). Initially, the sequentially processed film was highly stable, regardless of the annealing time; however, after annealing for approximately 25 min, the decrease slope in the sequential and one-pot (IPA) samples was almost the same. In contrast, the film from the one-pot process tended to decrease sharply after annealing for 5 min. This is consistent with the higher stability of the PSCs fabricated by the sequential and one-pot (IPA) processes (Supplementary Fig. <ref type="figure" target="#fig_2">1</ref>). Moreover, the development of crystal orientation over time was also observed to differ for each process (Supplementary Fig. <ref type="figure">6</ref>).</p><p>Although the presence of IPA influences the crystallization of FAPbI 3 , the volatile solvent IPA does not have a important effect on the α-phase stabilization of the FAPbI 3 perovskite film. Thus, the structures of the FAPbI 3 thin films prepared by sequential, one-pot and one-pot (IPA) processes at 150 °C were investigated using HR-TEM. Representative cross-sectional HR-TEM images are shown in Fig. <ref type="figure" target="#fig_3">2a-c</ref>, and the magnifications of selected areas, shown by the yellow solid-line squares, are displayed in Fig. <ref type="figure" target="#fig_3">2d-f</ref>. Two distinct crystal structures can be observed inside and outside the yellow dashed ellipses. The interplanar spacings (ISs) of selected crystals in Fig. <ref type="figure" target="#fig_3">2d-f</ref> were analysed and their d spacings and Miller indices (Supplementary Table <ref type="table">1</ref> and Supplementary Fig. <ref type="figure">7</ref>), together with their magnified HR-TEM images, are compared in Fig. <ref type="figure" target="#fig_3">2g-i</ref> and Supplementary Fig. <ref type="figure">8</ref>. For the FAPbI 3 film obtained by the sequential process, the crystals in the inner regions of the ellipses (IREs) in Fig. <ref type="figure" target="#fig_3">2d</ref>, with an IS of 0.66 nm and a defined fast fourier transform (FFT) pattern, were identified as the typical hexagonal PbI 2 domain. The FAPbI 3 crystals in the outer regions of the ellipses (OREs) appear as a matrix structure in Fig. <ref type="figure" target="#fig_3">2d</ref>,g and Supplementary Fig. <ref type="figure">8a</ref>; the IS values of 0.36 and 0.31 nm are in good agreement with α(111) and α(200) domains, respectively. For the FAPbI 3 layers formed by the one-pot process, the IS values of 0.33-0.35 and 0.24 nm in the IREs shown in Fig. <ref type="figure" target="#fig_3">2e</ref>,h and Supplementary Fig. <ref type="figure">8b</ref> exhibit good agreement with α(111) and PbI 2 (003) domains, respectively. The OREs of the FAPbI 3 layers formed by the one-pot (IPA) process (Fig. <ref type="figure" target="#fig_3">2f</ref>) exhibit α-FAPbI 3 domains and amorphous phases. In the IREs in Fig. <ref type="figure" target="#fig_3">2f</ref>,i and Supplementary Fig. <ref type="figure">8c</ref>, the IS of 0.69 nm and the FFT pattern are almost identical to those of the PbI 2 domain in the IREs of the sequentially processed FAPbI 3 layer. In the OREs of Fig. <ref type="figure" target="#fig_3">2f</ref>,i and Supplementary Fig. <ref type="figure">8c</ref>, the crystal structure and FFT patterns were identified as the α(111) domain, and are highly similar to those of the sequentially processed FAPbI 3 crystal, as shown in Fig. <ref type="figure" target="#fig_3">2g</ref>,i and Supplementary Fig. <ref type="figure">8c</ref>. Here, we recognize that introducing IPA substantially contributes towards the growth of 5-15-nm-sized cubic α-FAPbI 3 domains and the absence of amorphous domains, as compared with those in the one-pot FAPbI 3 layer. This implies that the final FAPbI 3 crystal properties are affected by the addition of IPA, similarly to the different crystallization behaviour observed during the annealing of the as-deposited layers. IPA was not completely removed by volatilization during the heat treatment step, suggesting that some is converted into other materials, which might affect the stabilization of the perovskite crystals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Transamination of IPA with MACl for iPAmHCl in perovskites</head><p>The chemical species inside or outside the FAPbI 3 crystals deposited by the sequential, one-pot and one-pot (IPA) processes were investigated more closely using ToF-SIMS. This technology is one of the few that reveal chemical information on all components of halide perovskites <ref type="bibr">5,</ref><ref type="bibr" target="#b22">14,</ref><ref type="bibr" target="#b23">15</ref> . Three representative elements, namely cationic lead (Pb + ) with positive polarity and anionic iodide (I -) and carbon (C n -, n = 1 and 2) with negative polarity, were selected for analysis because they are the basic components of the FAPbI 3 film. Supplementary Fig. <ref type="figure">9a-d</ref> shows the calculated integrated populations of each element obtained from scanning ToF-SIMS analysis (Supplementary Table <ref type="table">2</ref>). The calculated concentrations of Pb and I were similar for all three FAPbI 3 films. However, the total carbon (C -and C 2 -) concentrations in the sequential and one-pot (IPA) perovskite layers were higher (109.4 and 104.6%, respectively) than that observed in the one-pot film. This means that more organic materials were present in the FAPbI 3 thin films prepared by the processes including IPA.</p><p>Nevertheless, it was difficult to specify the organic compounds based on this analysis. If any inclusions exist inside or outside the FAPbI 3 crystal, the chemical binding energy or the position of the valence band of FAPbI 3 can vary slightly. Figure <ref type="figure" target="#fig_4">3</ref> shows the synchrotron-assisted HR-XPS spectra for C 1s and N 1s for the three perovskite films prepared by the sequential, one-pot and one-pot (IPA) processes. The spectra obtained were deconvoluted using the Voigt function to identify the precise components <ref type="bibr" target="#b24">16</ref> . First, we analysed the C 1s spectra in Fig. <ref type="figure" target="#fig_4">3a-c</ref>, which indicate five components. Four of the components were well assigned to C-C(or CH) <ref type="bibr" target="#b25">17</ref> , C-N <ref type="bibr" target="#b25">17</ref> , FA <ref type="bibr" target="#b26">18</ref> and C-I, in which I is bonded with C in MA or methane (marked as MA(complexes)) <ref type="bibr" target="#b25">17</ref> . A mismatching chemical component is present in the region 286.5-287.0 eV in the C 1s spectra of each of the three perovskite films. Of the three unknown peaks, the two in the sequential and one-pot (IPA) spectra exhibit a highly similar energy at ~286.4 eV with a full-width at half-maximum (FWHM) of 1.36 eV and 1.16 eV, respectively (the normalized fitting parameters are shown in Supplementary Table <ref type="table">3</ref>). In the one-pot spectrum, a peak at 286.9 eV and FWHM of 1.63 eV are indicated as the normalized values (Supplementray Table <ref type="table">3</ref>). We recognize that this component in the one-pot process is different from the other two components. Inamura et. al. <ref type="bibr" target="#b27">19</ref> previously reported that the isopropylamine (iPAm) molecule attached to a Ni catalyst strain-free exhibits a peak at ~285 eV in the C 1s spectrum below 300 K. We presume that this chemical component can be assigned to the two components at 286.4 eV from the sequential and one-pot (IPA) processes. The difference between the FWHM in our observation (1.36 eV and 1.16 eV) and the previously reported value is less than 2.2 eV, and it can be influenced by the states of isolation as an ordered phase at grain boundaries in perovskite films and strain-free as disordered phase of iPAm molecules or iPAmH + cations. The peak at 286.9 eV in the one-pot spectrum can be assigned to the C-N bond of the complexing methylamine molecule <ref type="bibr" target="#b25">17</ref> . In the analysis of the N 1s spectra in Fig. <ref type="figure" target="#fig_4">3g-i</ref>, the three perovskite films each indicate a major peak at ~401.0 eV, attributed to FA, and a minor peak at ~402.0 eV, assigned to MA. We note that sequential and one-pot (IPA) spectra have indicated one more component at ~400 eV with FWHM (full-width at half maximum) of ~2.0 eV (Fig. <ref type="figure" target="#fig_4">3g</ref>) than that of one-pot (Fig. <ref type="figure" target="#fig_4">3i</ref>). This peak corresponds to the amino group of iPAm <ref type="bibr" target="#b27">19</ref> .</p><p>The potential presence of iPAmH + or analogous compounds in the three perovskite films annealed at 150 °C after deposition by a sequential, one-pot and one-pot (IPA) process was also confirmed by Fourier transform nuclear magnetic resonance (FTNMR) spectroscopy (Supplementary Fig. <ref type="figure" target="#fig_1">10</ref>). For the NMR measurements, a bottle containing MACl (40 mol%), PbI 2 (1.6 M) and IPA (20 mol%) in deuteriated N,N-dimethylformamide ([D 7 ]DMF) was sealed and set in the temperature range of 75-85 °C for a reaction time of approximately 12 h. The 1 H FTNMR spectra of three precursor solutions, namely IPA-PbI 2 , iPAmHCl-PbI 2 and MACl-PbI 2 , dissolved in [D 7 ]DMF, were compared with those of MACl-IPA-PbI 2 before and after heating at 80 °C (Supplementary Fig. <ref type="figure" target="#fig_2">11</ref>). Here, note that MACl did not dissolve well without PbI 2 in DMF. Interestingly, the 1 H NMR peak (5.75 ppm) due to the OH of IPA disappeared in the solution of MACl-IPA-PbI 2 , even before prolonged heating. This means that when MACl is added to IPA-PbI 2 , an unspecified intermediate phase forms with the iodoplumbate (multivalent PbI 2 ) dissolved in solution. In particular, the MACl-IPA-PbI 2 precursor solution after heating showed new but very small peaks (3.64 and 1.37 ppm) at the same positions as the NMR chemical shifts found in the spectrum of iPAmHCl. This transamination to iPAmH + when MACl and IPA coexist in lead halide perovskite was further investigated by Fourier transform infrared (FTIR) analysis. In the FTIR spectra of the PbI 2 , MACl-PbI 2 , IPA-MACl-PbI 2 and iPAm-HCl-PbI 2 precursor solutions (Supplementary Fig. <ref type="figure" target="#fig_3">12a</ref>), we found a broad absorption peak at 1,020 cm -1 in only the MACl-IPA-PbI 2 and iPAmHCl-PbI 2 spectra. To assign this peak, we additionally conducted FTIR measurements on MACl (crystal), iPAmHCl (crystal) and IPA (liquid) as reference compounds (Supplementary Fig. <ref type="figure" target="#fig_3">12b</ref>). The peak at 1,020 cm -1 in the iPAmHCl (crystal) spectrum is the same as that in the spectra of the IPA-MACl-PbI 2 and iPAm-HCl-PbI 2 precursor solutions. The peak at 1,000 cm -1 for MACl (crystal) also appears in the spectrum of the IPA-MACl-PbI 2 precursor solution. The broad absorption peak seen for the MACl-PbI 2 solution can also be considered to contain the 1,000 cm -1 peak. This implies that complete transamination did not occur in the MACl-IPA-PbI 2 precursor solution during heating. Nevertheless, the FTIR results provide strong evidence for the formation of iPAmHCl or its analogues in the precursor solution. Furthermore, in recent studies, the decomposition of organic hybrid perovskites under thermal stress, yielding ammonium (NH 4</p><formula xml:id="formula_1">a b c 1-1 2-1 d e f 2-1 2-1 1-1 1-1 1-2 2-2 1-2 1-2 2-2<label>3</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>+</head><p>) and dimethylammonium ((CH 3 ) 2 NH 2</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>+</head><p>) by deprotonation or methyl transfer from methylammonium (CH 3 NH 3</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>+</head><p>) <ref type="bibr" target="#b28">20</ref> , and the alkylation of amines with alcohols <ref type="bibr" target="#b29">21,</ref><ref type="bibr" target="#b30">22</ref> have been discussed. In these studies, the transamination of IPA <ref type="bibr" target="#b31">[23]</ref><ref type="bibr" target="#b32">[24]</ref><ref type="bibr" target="#b33">[25]</ref> might have been possible through the partial secondary chemical reaction of a mixture comprising MACl, IPA, PbI 2 and partially ionized chemical species (for example, PbI 6 n-, Pb n+ (ref. <ref type="bibr" target="#b34">26</ref> ), halide induced compounds (for nucleophilic amination) <ref type="bibr" target="#b35">27</ref> ), with residual DMF and dimethylsulfoxide (DMSO) used as solvents during annealing of the perovskite film at 150 °C (low-temperature amination <ref type="bibr" target="#b30">22,</ref><ref type="bibr" target="#b36">28</ref> ) under a remarkably high uniaxial strain of a few megapascals (the elastic constant of FAPbI 3 is in the gigapascal  <ref type="table">3</ref>.</p><p>range) <ref type="bibr" target="#b37">29</ref> from pre-annealing conditions (Fig. <ref type="figure" target="#fig_2">1a-c</ref>). Considering several peculiarities observed in halide perovskites, we propose that it may be possible to generate iPAmH + molecules in the sequential and one-pot (IPA) processes. Although we cannot explain the precise chemical reaction pathway, we believe that the FAPbI 3 obtained by the IPA processes is likely to contain residual organic cations such as iPAmH + in addition to FA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Performance of iPAmHCl-stabilized FAPbI 3 PSCs</head><p>Based on these findings, we conducted model experiments to fabricate PSCs by adding 15 mol% iPAmHCl to the one-pot solution for the preparation of the FAPbI 3 layer. Further details are provided in the Methods. As shown in Fig. <ref type="figure" target="#fig_5">4a</ref>,b, the grain size in the FAPbI 3 film slightly increased when 15 mol% of iPAmHCl was added.</p><p>Figure <ref type="figure" target="#fig_5">4c</ref>,d presents the 2D GI-WAXD patterns for the perovskite thin films deposited on mesoporous TiO 2 (mp-TiO 2 ) without and with iPAmHCl. Peaks attributed to the δ-FAPbI 3 phase, PbI 2 and other species can barely be observed (Supplementary Fig. <ref type="figure" target="#fig_4">13a</ref>), only those assigned to α-FAPbI 3 . In particular, the peaks of the 2D structures produced by iPAmH + cations larger than those of FA were not visible at low angles. The peak at 13.92° is in full agreement with the (001) peak for single-crystal α-FAPbI 3 (ref. <ref type="bibr" target="#b38">30</ref> ). In addition, as shown in Supplementary Fig. <ref type="figure" target="#fig_4">13b</ref>, we found that the diffraction intensity increased as the number of iPAmH + cations increased. This increase in intensity can be attributed to increased crystallinity or crystal orientation in a particular direction. Because the half-widths of the diffraction peaks were almost the same, the addition of iPAmHCl did not appear to increase the FAPbI 3 crystal and with (d) iPAmHCl (15 mol%) incorporation. q xy , in-plane scattering direction; q z out-of-plane scattering direction. e-g, The optophysical properties of the films are illustrated by their PL spectra (e), Tauc plots (f) and TRPL decay curves (g). The optical bandgaps of the two perovskite films were determined from the Tauc plots from the intercept of the extrapolated linear fits of the (αhν) 2 versus energy plots near the absorption edge, where α is absorption coefficient, h is Plank's constant and ν is frequency. c.p.s., counts per second. The TRPL curves were fitted by the biexponential function y = a 1 exp(-t/τ 1 ) + a 2 exp(-t/τ 2 ), where τ 1 and τ 2 denote the fast and slow decay time constants, which correspond to the radiative and non-radiative lifetimes, respectively, y is the offset, t is the time constant and a n is the amplitude constant (where n is 1 or 2).</p><p>size. Thus, the addition of iPAmHCl to FAPbI 3 with MACl led to the crystallization of pure α-FAPbI 3 and the preferred orientation of (100) c , which was also confirmed by GI-WAXD measurement (Fig. <ref type="figure" target="#fig_5">4c</ref>,d and Supplementary Fig. <ref type="figure" target="#fig_5">14</ref>). This result is attributed to the contribution of the iPAmH + cation to the van der Waals interaction responsible for crystal orientation, similarly to the cases in which organic cations with longer alkyl chains, such as butylammonium and octylammonium, were added <ref type="bibr" target="#b39">31</ref> . Moreover, from a comparison of the 2D GI-WAXD patterns of the sequential, one-pot (IPA) and iPAmHCl-incorporated FAPbI 3 films (Figs. <ref type="figure" target="#fig_2">1a,c</ref> and<ref type="figure" target="#fig_5">4d</ref>), it is believed that iPAmH + contributes importantly to reducing the formation of the δ-, 4H-and 6H-FAPbI 3 phases. For the system in which iPAmHCl has been added, iPAmHCl may partially disappears during the heat treatment process owing to the volatile Cl -ions, as occurs on addition of MACl. However, based on the results of an NMR analysis (Supplementary Fig. <ref type="figure" target="#fig_6">15</ref>), it is believed that a substantial amount of iPAmHCl still remains in the perovskite layer. The residual iPAmHCl in the perovskite layer is present mainly at the FAPbI 3 grain boundaries because no shift in the bandgap or diffraction angle of α-FAPbI 3 was observed after its addition. Furthermore, Cl -ions were not detected on the surfaces of either perovskite film (Supplementary Fig. <ref type="figure" target="#fig_2">16</ref>). By contrast, in the depth profile analysis of the perovskite layer by ToF-SIMS (Supplementary Fig. <ref type="figure" target="#fig_2">17</ref>), we observed that the distribution of Cl -ions is higher in the nanostructured TiO 2 electrode. This (as will be seen later) is one of the main reasons for the excellent stability observed under long-term light irradiation, including ultraviolet irradiation, even when TiO 2 is used as the photoelectrode <ref type="bibr" target="#b40">32</ref> . Figure <ref type="figure" target="#fig_5">4e</ref> shows the photoluminescence (PL) measured for the FAPbI 3 thin film without and with iPAmHCl (15 mol%) incorporation, deposited on a glass substrate. The wavelength of the maximum PL peak did not change, although the intensity notably increased on addition of iPAmHCl. In addition, the iPAmHCl-incorporated perovskite contains a PL peak from pseudo-cubic iPAmHCl-FAPbI 3 (Supplementary Fig. <ref type="figure" target="#fig_2">18</ref>). The maximum peak of the PL coincides with the bandgap determined from the Tauc plot (Fig. <ref type="figure" target="#fig_5">4f</ref>), obtained from ultraviolet/visible (UV/Vis) spectroscopic measurement. This confirms that the addition of the iPAmH + cation has a negligible effect on the macroscopic bandgap (1.51 eV). Figure <ref type="figure" target="#fig_5">4g</ref> shows the time-resolved PL (TRPL) decay curves obtained by the time-correlated single-photon counting technique from the same thin films as used for the previous PL measurement. As shown in Fig. <ref type="figure" target="#fig_5">4g</ref> and Supplementary Fig. <ref type="figure" target="#fig_2">19</ref>, the radiative and non-radiative charge decay lifetimes were longer for the perovskite layer deposited after adding 15 mol% iPAm-HCl, implying a low defect concentration in the α-FAPbI 3 crystals. Accordingly, we conclude that the added iPAmH + cations contribute to the reduction in defect concentration through increased crystal orientation along the (100) plane with pure α-FAPbI 3 as a single crystal without the formation of 2D perovskite or substitution by FA, as shown in Fig. <ref type="figure" target="#fig_5">4d</ref>. In particular, the addition of iPAmHCl appears to contribute to the stabilization of the α-phase of FAPbI 3 , allowing the fabrication of PSCs with favourable photocurrent density because the inherent bandgap of FAPbI 3 was not widened. Although α-FAPbI 3 can be stabilized by alloying <ref type="bibr">1,</ref><ref type="bibr">2,</ref><ref type="bibr">4</ref> and the formation of 2D perovskite at grain boundaries <ref type="bibr" target="#b41">33,</ref><ref type="bibr" target="#b42">34</ref> , we believe that iPAmHCl added to the precursor solution stabilizes the α-phase in a number of complex ways, including the surface passivation of FAPbI 3 crystals, as reported previously <ref type="bibr" target="#b16">9,</ref><ref type="bibr" target="#b41">33,</ref><ref type="bibr" target="#b42">34</ref> and evidenced by our computational simulation (Fig. <ref type="figure" target="#fig_6">5a</ref>), and the induction of single crystal-like grains with few defects <ref type="bibr" target="#b38">30</ref> .</p><p>The addition of 15 mol% iPAmHCl to the precursor solution resulted in a low defect concentration, thereby stabilizing the α-FAPbI 3 phase. Therefore, we fabricated a series of PSCs under the same specifications and investigated their performance. Figure <ref type="figure" target="#fig_6">5b</ref> shows the histograms of the 80 PSCs fabricated, and the average efficiency is higher than 21%. The current density-voltage (J-V) curves for a representative PSC, measured with and without anti-reflection polymer on the glass substrate, are shown in Supplementary Fig. <ref type="figure" target="#fig_3">20a</ref>. The corresponding external quantum efficiencies of the PSC fabricated with the incorporation of iPAmHCl are displayed in Supplementary Fig. <ref type="figure" target="#fig_3">20b</ref>, and it can be noted that the integrated current density (J sc = q/hc(∫λΦ(λ)EQE(λ)dλ), where c is the speed of the light, λ is the wavelength, q is elemental charge, Φ is the solar spectrum of AM1.5G and EQE is external quantum efficiency, agrees with the J sc value from the J-V curve. One of the devices with the highest efficiencies among those fabricated under the same conditions was certified to have an efficiency of 23.9% in an accredited laboratory (Newport, USA), based on the quasi-steady-state method (Supplementary Figs. <ref type="figure" target="#fig_3">21</ref> and<ref type="figure" target="#fig_3">22</ref>). The long-term operation of the PSC was investigated by employing the hallmark J-V measurement long-term stability test <ref type="bibr" target="#b43">35</ref> . In this test, J-V curves were measured by scanning one cycle every 84 min under 1-Sun irradiation in nitrogen atmosphere at room temperature for 2,000 h, without a metal mask using a class A solar simulator. Figure <ref type="figure" target="#fig_6">5c</ref> shows the long-term behaviour of the normalized efficiency of the as-fabricated device. The efficiencies measured accurately with a metal mask and class 3A solar simulator before and after long-term operation are shown in Supplementary Fig. <ref type="figure" target="#fig_4">23</ref>. The efficiency gradually increased up to approximately 1,000 h, and then gradually decreased in the following 1,000 h. We surmise that the initial increase in efficiency of the device reflects the length of time required to optimize the surface and internal structure for charge transfer by the slow redistribution of iPAmH + near the FAPbI 3 grain boundary (Supplementary Fig. <ref type="figure" target="#fig_5">24</ref>). The decrease in efficiency after achieving the maximum efficiency can be attributed to the degradation of the perovskite surface and interface owing to the diffusion of the 4-tert-butylpyridine used as an additive in the organic hole conductor. Another factor is the corrosion of the gold layer used as a counter electrode as a result of iodide migration in FAPbI 3 , with the transformation of the FAPbI 3 α-phase to the δ-phase <ref type="bibr" target="#b44">36</ref> . For reference (Supplementary Fig. <ref type="figure" target="#fig_6">25</ref>), in a phenylethylammonium iodide-stabilized PSC <ref type="bibr" target="#b41">33</ref> , the initial PCE of 22.02% rapidly decreased during the long-term J-V test to 60% of the initial value after approximately 125 h. Therefore, we believe that the relatively good long-term stability achieved following the addition of iPAmHCl is due to multiple factors, including the stabilization of the α-phase by the presence of iPAmH + cations on the surface of FAPbI 3 and the interfacial stabilization of the perovskites by Cl -ions on the surface of the TiO 2 electrodes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>A comparison of the FAPbI 3 perovskite films fabricated with MACl and IPA in the presence of iPAmHCl by one-pot and sequential solution processes suggested the possible incorporation of iPAmH + cations into FAPbI 3 . Based on these findings, the effect of the addition of iPAmHCl to FAPbI 3 was systematically investigated. When 15 mol% iPAmHCl was added to FAPbI 3 in a PSC device, the certified efficiency was 23.9%. Moreover, the initial efficiency of the as-fabricated device was retained, even after 2,000 h of exposure to 1-Sun illumination. These enhanced PSC device characteristics can be attributed to the impact of iPAmHCl, which acts to stabilize the α-phase, reduce defects by surface passivation of FAPbI 3 and increase the preferred crystal orientation of single crystals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Materials. Unless otherwise stated, all materials were purchased from Sharechem, Sigma-Aldrich, Alfa Aesar, Junsei Organics and TCI, and were used as received.</p><p>Fabrication of solar cells. A dense blocking layer of TiO 2 (approximately 60 nm in thickness, bl-TiO 2 ) was deposited onto an F-doped SnO 2 (FTO, Pilkington glass, TEC-8, 2.2T) substrate by spray pyrolysis using titanium diisopropoxide bis(acetylacetonate) in ethanol (1:10, v/v) at 450 °C. A 150-nm-thick layer of nanostructured TiO 2 was spin-coated at 1,500 r.p.m. onto the bl-TiO 2 /FTO substrate using TiO 2 paste (Sharechem) diluted with 2-methoxyethanol and then annealed at 500 °C for 1 h in air to remove the organic components. In the sequential process, PbI 2 (1.30 M) was dissolved in a 1 ml mixture of DMF and DMSO (8:2, v/v) at 80 °C. The dripping solution was prepared by dissolving formamidinium iodide (FAI; 80 mg) in 1 ml IPA containing 10 mg MACl. The PbI 2 precursor solution was spin-coated on the mp-TiO 2 substrate at 3,000 r.p.m. for 30 s to obtain a transparent PbI 2 -DMSO intermediate film. Subsequently, 0.35 ml of the prepared dripping solution that included FAI and MACl was dripped on top of the PbI 2 -DMSO intermediate film and spin-coated at 5,000 r.p.m. for 30 s. The colour of the film changed to dark brown during spin-coating, and the film was then dried on a hot plate at 100 °C for 30 min and then at 150 °C for 30 min. The heat-treated film was washed with IPA and annealed at 100 °C for 30 min. For the one-pot and one-pot(IPA) processes, a 1.6 M precursor solution of FAPbI 3 and 40 mol% MACl in DMF and DMSO (6:1, v/v) was prepared, respectively. For the one-pot (IPA) process, IPA (20 mol%) was additionally added into the one-pot precursor solution.</p><p>To modify the optimized coating-protocol for the formation of FAPbI 3 films incorporating iPAmHCl, 15 mol% iPAmHCl was added to the precursor solution containing 40 mol% MACl and 1.6 M FAPbI 3 (homemade). Then, the precursor solution was coated onto the nanostructured TiO 2 /bl-TiO 2 /FTO substrate at 1,000 r.p.m. for 30 s and 5,000 r.p.m. for 10 s with dripping with chlorobenzene or diethyl ether, respectively. The coated FAPbI 3 films were annealed on a hot plate at 150 °C for 10 min. We used an organic hole conductor prepared with a solution of 86 mg Spiro-MeOTAD (EM Index) in 1 ml chlorobenzene combined with 20 μl lithium bis(trifluoromethanesulfonyl)imide (TFSI)/acetonitrile (500 mg/1 ml), FK 209 Co(III) TFSI/acetonitrile (230 mg/1 ml) and 35 μl 4-tert-butylpyridine, which was spin-coated on the perovskite layer/mp-TiO 2 /bl-TiO 2 /FTO substrate at 3,000 r.p.m. for 30 s. Finally, a gold counter electrode was deposited by thermal evaporation; the active area of this electrode was fixed at 0.16 cm 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Crystallographic investigation.</head><p>The GI-WAXD measurements were performed at the PLS-II 6D UNIST-PAL beamline of the Pohang Accelerator Laboratory (PAL), Korea. The X-rays from the bending magnet were monochromatized to 18.986 keV (λ = 0.6530 Å) using a double-crystal monochromator that was focused both horizontally (H) and vertically (V) (90 (V) × 120 (H) μm 2 FWHM) on the sample position using a sagittal Si(111) crystal and toroidal mirror, respectively. The GI-WAXD sample chamber was equipped with a five-axis motorized stage for fine sample alignment, and the 2D GI-WAXD patterns were recorded with a 2D CCD detector (MX 225-HS, Rayonix). The diffraction angles were calibrated using NIST SRM660b, lanthanum hexaboride of approximately 6g (LaB 6 ) and the sample-to-detector distance was set at 246.4 mm. An incidence angle of 0.80° was used for the in situ GI-WAXD experiments to obtain crystallographic information on the overall thickness of the perovskite films and ensure that all incoming X-rays were directed onto the small length of the perovskite film sample without being blocked by the substrate or sample stage or just passing by. Various incidence angles in the range 0.117-0.8° were used for the static GI-WAXD experiments on the sequential, one-pot, one-pot (IPA) and one-pot (no MACl) samples before and after heat treatment, as well as on the FAPbI 3 film with or without iPAmHCl incorporation. For the static GI-WAXD experiments, an exposure time of 30 s was used at each incident angle. In situ GI-WAXD patterns were obtained every 5 s for the first 10 min, and then every 1 min between 10 and 30 min, with an X-ray exposure time of 3.5 s each. It took 2 min to raise the temperature of the FAPbI 3 film from room temperature to 150 °C, and then the temperature was maintained at 150 °C for 30 min using a fine-tuned temperature controller (Eurotherm 3504 Temperature Controller, Eurotherm). The X-ray diffraction patterns of the iPAmHCl-incorporated FAPbI 3 films were measured in the scattering angle range of 2θ = 5-40° using a SmartLab X-ray diffractometer (Rigaku) with a copper target operated at 45 kV and 200 mA (K α1 optics monochromator, symmetric Johansson Ge(111) curved optic crystal, vertical θ/θ geometry with a horizontal sample mounting geometry and high-speed 1D (D/teX Ultra 250) detector) at the UNIST Central Research Facilities. ×5K magnifications by cold field-emission scanning electron microscopy (FE-SEM; SU-8220, Hitachi) with a beam power of 5 kV. To investigate the local crystal properties, most samples were prepared using a focused ion beam (FIB; Helios NanoLab 450 model, FEI) and analysed by FE-SEM. The FIB milling/ polishing process ensured that the samples had a smooth surface. Furthermore, the FIB-based milling process enabled the sample to be thinned to 100 nm, as required for HR-TEM characterization. HR-TEM images were collected using a JEM-2100F microscope (JEOL). ImageJ v.1.52a and Gatan Digital Micrograph v.3.9 and Gatan Microscopy Suite v.3.4.3 were used to analyse the HR-TEM images.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Observation</head><p>Measurement of optical properties. To measure the optical absorption and bandgaps, the prepared FAPbI 3 samples were scanned using a V-780 UV/Vis/ NIR spectrophotometer (Jasco). The system comprised a Czerny-Tuner mount, a double monochromator, a fully symmetrical double beam (deuterium (spectral range 190-350 nm) and halogen lamps (spectral range 330-1600 nm)) and a photomultiplier tube with a Peltier-cooled InGaAs photodiode. The scan range was 190-1,600 nm with spectral bandwidths of 0.5 and 2.0 nm in the UV/Vis and near-infrared (NIR) regions, respectively; the photometric ranges were ~4-4 Abs for UV/VIS and ~3-3 Abs for NIR. The photometric accuracies were ±0.0015 Abs (0.0-0.5 Abs), ±0.0025 Abs (0.5-1.0 Abs) and ±0.3%T. The root-mean-square noise was 0.00003 Abs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FTIR investigation.</head><p>The FTIR spectra of the perovskite precursors and powders were recorded using a Frontier spectrometer (Series 6800, PerkinElmer) with best-resolution parameters and 20 accumulations in attenuated total reflection mode. The instrument specifications consisted of two temperature-stabilized deuteriated triglycine sulfate detectors (one optimized for mid-infrared (MIR) with an enhanced signal-to-noise ratio (SNR) of 15,000:1 peak-to-peak for a 5-s scan, and one suited to NIR with &lt;10 µA root-mean-square noise over a range of 250 nm for a 1 min scan), an optical system with a KBr beam splitter for MIR for the spectral range 8,300-350 cm -1 and a best resolution of 0.4 cm -1 , a CaF 2 beam splitter for the spectral range 14,700-2,000 cm -1 and a best resolution of 0.5 cm -1 , a standard atmospheric vapour compensation/automatic performance verification/absolute virtual instrument, standard gold optics and standard KBr windows.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FTNMR investigation.</head><p>For NMR analysis, the perovskite films were dissolved in [D 7 ]DMF. The FTNMR investigation was conducted using a VNMRS 600 spectrometer (magnet 14.09 T, 600 MHz).</p><p>Charge carrier dynamics investigation. Steady-state PL spectroscopy and time-correlated single-photon counting (TCSPC) were performed using a FluoTime 300 spectrometer (PicoQuant) equipped with a PMA-C-192-M detector, a high-resolution excitation monochromator and a hybrid photomultiplier detector assembly (PMA Hybrid 40, PicoQuant). The FAPbI 3 samples were installed in an integrating sphere and excited at 512 nm. The excitation fluence intensities were set at 1.5 mW cm -2 , measured using a power meter (Thorlabs PM100D). The diode laser was controlled by a PDL 820 driver to control the picosecond pulses of the excitation light source (internal repetition rates between 196 and 80 MHz), and maintained at 10 MHz during TCSPC scanning. The laser beam was incident on the backside (FAPbI 3 side) of the FAPbI 3 film/glass substrate. TCSPC was performed at the wavelength of maximum PL intensity. The FAPbI 3 samples were coated on quartz glass substrates.</p><p>ToF-SIMS measurement. ToF-SIMS profiling, imaging and 3D tomography were performed to measure the lateral and depth distributions of the perovskite layers and completed devices. The samples were analysed using a ToF-SIMS V spectrometer (IONTOF) in high-current bounce mode (double crossover of beam alignment in the ion lens, 21 ns and 8 pA). The hybrid system consisted of a basic configuration consisting of a ToF-SIMS generation IV sputter gun and detector. The Bi + primary beam was set at 25 keV and 1.2 pA. The sputter beam conditions were set at 1.0 KeV and 35 nA for Cs + for elemental detection at negative polarity, and at 500 eV and 100 nA for O 2 for elemental detection at a non-interlaced positive polarity (1 frame, 2 s pause, 2 s sputter). The time of flight of pulse length was 10.9 ns, the repetition rate was 10 kHz, the acceleration voltage of the secondary ions was 2,000 V, the extraction timing was 0 s, the flight length was 2 m, the ion mirror voltage was 20 V, the acquisition time was 500 s, the incident angle was 45°, the sputter size was 200 μm × 200 μm, the analysis area was 50 μm × 50 μm and the primary ion dose density was 2.04522e + (ref. <ref type="bibr" target="#b22">14</ref> ).</p><p>Investigation of the energy levels and chemical analysis. XPS measurements were conducted in an ultrahigh vacuum using a Scienta 2002 analyser at the PLS-II 10A2 beamline of PAL. To apply a bias potential, a tantalum sheet was put in direct contact with the FAPbI 3 film. The valence bands of the samples were measured at 130 eV. A photon energy of 700 eV was used for the core level measurement of N 1s. iPAmH + or iPAm incorporation was analysed by measurement of C 1s at 900 eV. The measurements were conducted in a vacuum chamber at 10 -9 -10 -10 torr, and three sweeping scans were collected.</p><p>Evaluation of fabricated FAPbI 3 solar cells. The J-V curves were obtained with a source meter (Keithley 2420) using a solar simulator (Newport, Oriel Class AAA, 94043A) with 100 mA cm -2 illumination (AM 1.5G) and a calibrated silicon reference cell (Newport, Model 91150V) certified by National Renewable Energy Laboratory(NREL). The calibrated 1-Sun illumination was sustained automatically using an exposure control instrument (Newport, Model 68951). The J-V curves were measured in reverse scan mode. The step voltage and delay time were fixed at 10 mV and 40 ms, respectively. The delay time was set at each voltage step before measuring the current. The J-V curves of the devices were measured by masking the active area with a metal mask (active areas of 0.096 cm 2 (small cell)). The integrated current densities of PSCs were evaluated using external quantum efficiency system (IQE-200B, Newport, Oriel), which can monitor the range from 350 nm to 1100 nm in high resolution as 0.1 Hz (4-100 Hz chopper frequency), monochrometer band width as 1-30 nm FWHM, wavelength accuracy ±0.5 nm under 100 W xenon lamp. The steady-state current densities of the solar cell devices were measured under N 2 gas using an electrochemical station (Autolab PGSTAT302N, Metrohm Autolab). The dynamic J-V scanning long-term stability of the encapsulated PSC devices was investigated under N 2 gas, with one scan cycle every 84 min under 1-Sun irradiation. This test chamber was composed of stainless steel with a quartz glass window in front of the light source. The gas composition in the chamber was controlled using a vacuum pump and gas injection nozzles. The temperature in the loading stage was controlled by water flowing through the inlet pipeline from an external circulating water bath (RW3-0525, Lab Companion). The J-V curves were measured with a source meter (Keithley 2450) using a solar simulator (Newport, Oriel Class A(ABB), IEC 60904-9 EDITION2) at 100 mA cm -2 illumination (AM 1.5G) and a calibrated silicon reference cell (Newport, Model 91150V) certified by NREL. The calibrated 1-Sun illumination condition was sustained automatically using an exposure control instrument (Newport, Model 68951).</p><p>Density functional theory simulation. Density functional theory calculations were performed to investigate the phase stability of the iPAmHCl-incorporated FAPbI 3 . We modelled supercell structures of the α-, δand thin-film phases accommodating 16 formula units. In each supercell of the αand δ-phases, one iPAm molecule was substituted for one FA molecule at the A site, while two iPAm molecules were attached to the surfaces of the slab model, iPAmH + 2 FA 14 Pb 15 I 46 . To optimize the given supercell structures, we used a plane wave basis set with a cut-off energy of 600 eV within the projector augmented wave method <ref type="bibr" target="#b45">37</ref> implemented in the Vienna Ab initio Simulation Package 38 . To embody the correlation and exchange terms of the electron-electron interactions, we employed the generalized gradient approximation within the Perdew-Burke-Emzerhof formalism <ref type="bibr" target="#b47">39</ref> . Van der Waals interactions were considered according to the Tkatchenko-Scheffler method <ref type="bibr" target="#b48">40</ref> . The internal coordinates as well as the lattice parameters were relaxed until the minimum force became less than 0.03 eV Å -1 . For k-point sampling, we used a regular grid of 3 × 4 × 3 for bulk supercells and 8 × 8 × 1 for the thin-film configuration. The rotational entropy of the FA molecule was evaluated on the basis of the moment of inertia reported previously <ref type="bibr" target="#b49">41</ref> .</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Supplementary Figure 11 . 1 HSupplementary Figure 13 .</head><label>11113</label><figDesc>FT-NMR investigation for amination between IPA and MACl. It displays H FT-NMR spectra on IPA, iPAmHCl, MACl-IPA (before reaction), and MACl-IPA (after reaction) dissolved with PbI2 in DMF-d7. Supplementary Figure 12. FT-IR investigation for amination between IPA and MACl. All chemical compounds were dissolved in DMF: a, FT-IR spectra of PbI2, MACl-PbI2, IPA-MACl-PbI2, and iPAmHCl-PbI2 precursors; b, FT-IR spectra of MACl (powder), iPAmHCl (powder), and IPA (liquid) displayed as references. Here, we note that MACl did not dissolve well without the PbI2 compound in DMF. The broad absorption peak seen in the PbI2-MACl solution can also be considered to contain 1000 cm -1 (figure a) that is associated with its MACl in figure b. This implies that the MACl-IPA-PbI2 precursor solution after heating did not undergo complete transamination. High power XRD patterns. The perovskite layers deposited with iPAmHCl. a, XRD patterns in the 2θ range between 5 and 25, b, magnification of the peaks appeared at around 13.92.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>10 H</head><label>10</label><figDesc>alide perovskite light absorbers of chemical formula APbI 3 (A represents a cation) exhibit typical three-dimensional (3D) structures. Formamidinium (FA, NH 2 CH=NH 2 +</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 1 |</head><label>1</label><figDesc>Fig. 1 | Monitoring the formation of FAPbI 3 films. a-c, Azimuthally integrated GI-WAXD patterns in the region between 0.30 and 1.15 Å -1 of the as-deposited layers formed by the sequential (a), one-pot (b) and one-pot (IPA) (c) processes. The temperature-time profiles for the annealing process for each in situ experiment are shown on the left side of a-c. All the pristine samples showed many diffraction peaks in the A region of a-c, which are due to the formation of intermediate phases in the form of (solvent or additive) a (FA or MA) b Pb c I d . Colour scale bars showing the offset reciprocal scale are shown on the right side of a-c. d-f, Integrated intensities of α-FAPbI 3 (100) cubic (d), δ4H-FAPbI 3 (002) hexagonal + δ6H-FAPbI 3 (101) hexagonal (e) and PbI 2 (001) trigonal (f). The integrated areas of d, e and f were extracted from a, b and c, respectively, by numerical integration using the equation</figDesc><graphic coords="28,65.39,63.95,467.76,207.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 2 |</head><label>2</label><figDesc>Fig. 2 | Hr-TeM characterization of the FAPbI 3 films. a-c, Cross-sectional HR-TEM images of the FAPbI 3 films prepared by the sequential (a), one-pot (b) and one-pot (IPA) (c) processes (scale bars, 200 nm). d-f, Magnifications of the areas in a-c marked by the solid-line squares for the sequential (d), one-pot (e) and one-pot (IPA) (f) processes (scale bars, 10 nm). The numbers in d-f correspond to the crystals for which IS values and FFT patterns were determined. Two areas are represented: inside (1) and outside (2) the yellow dashed-line circles/ellipses. Crystallite FAPbI 3 grains are present inside the dashed-line circles/ellipses. g-i, Magnified HR-TEM images with IS values and FFT patterns of two representative areas: inner (1-1) and outer (2-1) regions on the sequential (g), one-pot (h) and one-pot (IPA) (i) perovskite films (scale bars, 1 nm). The red solid lines and red numbers represent lattice planes and the corresponding IS value, respectively.</figDesc><graphic coords="30,95.18,65.58,416.16,576.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 3 |</head><label>3</label><figDesc>Fig. 3 | Hr-XPS chemical analysis of the three FAPbI 3 perovskite thin films. a-c, The deconvoluted C 1s HR-XPS spectra of the FAPbI 3 films prepared by the sequential (a), one-pot (b) and one-pot (IPA) (c) processes. d-f, Magnification of the C 1s spectra of films from the sequential (d), one-pot (e) and one-pot (IPA) (f) processes in the region between 290.7 and 287.5 eV. g-i, The deconvoluted N 1s HR-XPS spectra of the FAPbI 3 films prepared by the sequential (g), one-pot (h) and one-pot (IPA) (i) processes. The optimized annealing times for the FAPbI 3 films were 15 min for the one-pot and one-pot (IPA) processes and 30 min for the sequential process. The fitted parameters are summarized in Supplementary Table3.</figDesc><graphic coords="31,66.41,346.76,135.48,108.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 4 |</head><label>4</label><figDesc>Fig. 4 | Surface, crystal and optophysical properties. a,b, Field-emission scanning electron microscopy surface morphologies of the perovskite films deposited without (a) and with (b) iPAmHCl (15 mol%) on mp-TiO 2 substrate. c,d, Comparison of the 2D GI-WAXD patterns of the perovskite films deposited without (c)and with (d) iPAmHCl (15 mol%) incorporation. q xy , in-plane scattering direction; q z out-of-plane scattering direction. e-g, The optophysical properties of the films are illustrated by their PL spectra (e), Tauc plots (f) and TRPL decay curves (g). The optical bandgaps of the two perovskite films were determined from the Tauc plots from the intercept of the extrapolated linear fits of the (αhν) 2 versus energy plots near the absorption edge, where α is absorption coefficient, h is Plank's constant and ν is frequency. c.p.s., counts per second. The TRPL curves were fitted by the biexponential function y = a 1 exp(-t/τ 1 ) + a 2 exp(-t/τ 2 ), where τ 1 and τ 2 denote the fast and slow decay time constants, which correspond to the radiative and non-radiative lifetimes, respectively, y is the offset, t is the time constant and a n is the amplitude constant (where n is 1 or 2).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 5 |</head><label>5</label><figDesc>Fig. 5 | Computational investigation and PSC performance. a, Computational investigation of the stabilization of the α-FAPbI 3 crystal by the iPAmHCl molecule located near grain boundaries. Simulated formation energies for α-FAPbI 3 and δ-FAPbI 3 crystals in the bulk and thin-film phases. An iPAmH + cation located at the grain boundary of the α-FAPbI 3 supercell was simulated and found to considerably reduce the formation energy compared with the δ-FAPbI 3 crystal. The formation energies of five different concentrations were compared: the α-(red circle) and δ-phases (blue circle) of bulk FAPbI 3 , and the bulk α-(red circle), δ-(blue circle) and thin-film phases (green circle) of (iPAmH + + FA)PbI 3 . The thin-film configuration of (iPAmH + + FA)PbI 3 is the most stable in terms of free energy. In the right panel, the atomic structure of the thin-film configuration is presented. Inset: simulated model of the super cell (iPAmH) + 2/15 FA 14/15 PbI 46/15 ). f.u., formula unit. b, PCE histograms of 80 different PSCs fabricated with perovskite films incorporating 15 mol% iPAmHCl. The red curve shows the frequency distribution of each efficiency. c, Evolution of the PCE for a representative solar cell, measured over 2,000 h under 1-Sun irradiation and dynamic J-V scanning (repeated sweep every 84 min). The initial PCE and the final PCE after 2,000 h were 19.66 and 22.01%, respectively. The red dashed line indicates the normalized PCE after 2,000 h.</figDesc><graphic coords="33,99.85,71.99,272.00,230.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>of surface morphologies and crystal properties. The scanning surface morphologies of the FAPbI 3 thin films were observed at ×80K and NATure eNerGY | VOL 6 | APRIL 2021 | 419-428 | www.nature.com/natureenergy</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="3,152.90,85.05,289.00,572.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="4,82.30,162.66,430.70,435.47" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="5,72.00,110.92,445.45,196.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="5,72.00,419.33,451.00,205.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="6,154.40,85.05,285.98,520.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="8,109.07,85.05,377.15,293.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="10,98.90,85.05,396.90,461.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="13,90.65,114.14,413.75,324.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="14,136.40,85.05,322.00,493.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="17,144.03,85.05,335.55,259.47" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="17,129.65,410.09,335.95,272.47" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="18,112.48,100.92,370.35,297.49" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="19,72.00,85.05,451.50,342.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="20,119.15,85.05,356.98,534.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="22,126.40,85.05,342.50,555.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="24,72.00,85.05,452.41,191.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="24,72.00,377.47,456.20,181.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="25,116.90,110.92,361.40,577.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>1 , Do Yoon Lee 1 , Min Gyu Kim 2 , Geonhwa Kim 2 , Ki-jeong Kim 2 , Young Ki Kim 3 , Jino Im 4 , Tae Joo Shin 3 ✉ and Sang Il Seok 1 ✉</head><label></label><figDesc></figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>NATure eNerGY | VOL 6 | APRIL 2021 | 419-428 | www.nature.com/natureenergy</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was supported by the <rs type="programName">Basic Science Research Program</rs> (<rs type="grantNumber">NRF-2018R1A3B1052820</rs>) through the <rs type="funder">National Research Foundation of Korea (NRF)</rs> funded by the <rs type="funder">Ministry of Science, ICT &amp; Future Planning (MSIP)</rs>. B.-w.P. acknowledges financial support from the <rs type="funder">Creative-Challenge Research Program</rs> (<rs type="grantNumber">NRF-2020R1I1A1A01063868</rs>). T.J.S. acknowledges financial support under CAP-18-05-KAERI. This work was also supported by a brand project (<rs type="grantNumber">1.210037.01</rs>) of <rs type="institution">UNIST</rs>. Experiments at the PLS-II 6D and 10A2 beamlines were supported in part by <rs type="funder">MSIT</rs> and <rs type="funder">POSTECH</rs>. We thank <rs type="person">S. Y. Lee</rs>, <rs type="person">J. H. Park</rs>, <rs type="person">I. Choi</rs>, <rs type="person">G. A. Lee</rs>, <rs type="person">J. H. Lee</rs>, <rs type="person">H. J. Mun</rs>, <rs type="person">D. H. Lee</rs> and <rs type="person">S.-P. Han</rs> of <rs type="affiliation">UCRF</rs> for their support in powder XRD, FIB sampling, HR-TEM, FESEM, GI-WAXD, ToF-SIMS and NMR analyses.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Dax422b">
+					<idno type="grant-number">NRF-2018R1A3B1052820</idno>
+					<orgName type="program" subtype="full">Basic Science Research Program</orgName>
+				</org>
+				<org type="funding" xml:id="_jGCkyQA">
+					<idno type="grant-number">NRF-2020R1I1A1A01063868</idno>
+				</org>
+				<org type="funding" xml:id="_ENCcf9k">
+					<idno type="grant-number">1.210037.01</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>All data generated or analysed during this study are included in the published article and its Supplementary Information. Source data are provided with this paper.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information for</head><p>Stabilisation of formamidinium lead triiodide α-phase with isopropyl ammonium chloride for perovskite solar cells Supplementary Figure <ref type="figure">1</ref>. Sequential and one-pot device performances. The fabricated hybrid PSC devices by one-pot and sequential processes and their performances, a, J-V curves and b, steady state current densities at the maximum power point are shown and compared for the one-pot and sequential processed PSC devices; c, steady state current densities at maximum power point of PSC fabricated by the one-pot (IPA) method. Steady state current densities were obtained for 900 h under 1 sun radiation conditions in a N2 gas atmosphere. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Rudd</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Metal Ions in Halide Perovskite Materials and Devices. Trends Chem</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="394" to="409" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Chemical and Electronic Structure Characterization of Lead Halide Perovskites and Stability Behavior under Different Exposures-A Photoelectron Spectroscopy Investigation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Philippe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1720" to="1731" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Chemical Distribution of Multiple Cation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Philippe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Perovskite Materials by Photoelectron Spectroscopy</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="3589" to="3596" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>Chem. Mater.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Degradation of the Formamidinium Cation and the Quantification of the Formamidinium-Methylammonium Ratio in Lead Iodide Hybrid Perovskites by Nuclear Magnetic Resonance Spectroscopy</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T M V</forename><surname>Gompel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. C</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="4117" to="4124" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Perovskite Solution Aging: What Happened and How to Inhibit?</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1369" to="1378" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Temperature-dependent photoluminescence properties of mixed-cation methylammonium-formamidium lead iodide [HC(NH2)2]x[CH3NH3]1xPbI3 perovskite nanostructures</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. C</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">12057</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Cation exchange for thin film lead iodide perovskite interconversion</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Horiz</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="63" to="71" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Efficient, stable solar cells by using inherent bandgap of a-phase formamidinium lead iodide</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Min</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="749" to="753" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Cesium-containing triple cation perovskite solar cells: improved stability, reproducibility and high efficiency</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1989" to="1997" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Efficient, stable solar cells by using inherent bandgap of α-phase formamidinium lead iodide</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Min</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="749" to="753" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Methylammonium chloride induces intermediate phase stabilization for efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="2179" to="2192" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Compositional engineering of perovskite materials for high-performance solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">517</biblScope>
+			<biblScope unit="page" from="476" to="480" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Impact of strain relaxation on performance of α-formamidinium lead iodide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="page" from="108" to="112" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Planar perovskite solar cells with long-term stability using ionic liquid additives</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">571</biblScope>
+			<biblScope unit="page" from="245" to="250" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Iodide management in formamidinium-lead-halide-based perovskite layers for efficient solar cells</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">356</biblScope>
+			<biblScope unit="page" from="1376" to="1379" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Sequential deposition as a route to high-performance perovskite-sensitized solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burschka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">499</biblScope>
+			<biblScope unit="page" from="316" to="319" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Improving efficiency of planar hybrid CH 3 NH 3 PbI 3-x Cl x perovskite solar cells by isopropanol solvent treatment</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Electron</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="205" to="211" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<ptr target="www.nature.com/natureenergy" />
+	</analytic>
+	<monogr>
+		<title level="j">NATure eNerGY | VOL</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="419" to="428" />
+			<date type="published" when="2021">APRIL 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Extrinsic ion migration in perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1234" to="1242" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Identifying the molecular structures of intermediates for optimizing the fabrication of high-quality perovskite films</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="9919" to="9926" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Crystal structure of DMF-intermediate phases uncovers the link between CH 3 NH 3 PbI 3 morphology and precursor stoichiometry</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Petrov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. C</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="20739" to="20743" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The many faces of mixed ion perovskites: unraveling and understanding the crystallization process</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gratia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="2686" to="2693" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Design of low bandgap tin-lead halide perovskite solar cells to achieve thermal, atmospheric and operational stability</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Prasanna</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="939" to="947" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Unveiling the relationship between the perovskite precursor solution and the resulting device performance</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="6251" to="6260" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The Gaussian-Lorentzian sum, product, and convolution (Voigt) functions in the context of peak fitting X-ray photoelectron spectroscopy (XPS) narrow scans</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Biesinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Linford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">447</biblScope>
+			<biblScope unit="page" from="548" to="553" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Organic-inorganic halide perovskite formation: in situ dissociation of cation halide and metal halide complexes during crystal formation</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Roghabadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">O</forename><surname>Aghmiuni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. C</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="13532" to="13538" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Unreacted PbI 2 as a double-edged sword for enhancing the performance of perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Jacobsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="10331" to="10343" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">X-ray photoelectron spectroscopic study for the adsorption and the decomposition of alkylamines on nickel</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Inamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ikeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kishi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="173" to="186" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Transamidation of dimethylformamide during alkylammonium lead triiodide film formation for perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="45" to="55" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Electroactivated alkylation of amines with alcohols via both direct and indirect borrowing hydrogen mechanisms</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Appiagyei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bhatia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Keeney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dolmetsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Jackson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Green Chem</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="860" to="869" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The catalytic amination of alcohols</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bhän</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemCatChem</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1853" to="1864" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The challenge of using isopropylamine as an amine donor in transaminase catalysed reactions</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kelefiotis-Stratidakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tyrikos-Ergas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Pavlidis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Biomol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1634" to="1642" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Amination of isopropanol to isopropylamine over a highly basic and active Ni/LaAlSiO catalyst</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Catal</title>
+		<imprint>
+			<biblScope unit="volume">350</biblScope>
+			<biblScope unit="page" from="141" to="148" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Methyl amines from methyl alcohol and ammonium cloride</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Howald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="2663" to="2665" />
+			<date type="published" when="1920">1920</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Catalytic activity of lead</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Madenwald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">O</forename><surname>Henke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">W</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="862" to="866" />
+			<date type="published" when="1927">1927</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Continuous amination of aryl/ heteroaryl halides using aqueous ammonia in a Teflon AF-2400 tube-in-tube micro-flow reactor</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">React. Chem. Eng</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="346" to="350" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Zinc chloride mediated nucleophilic substitution: amination and thioetherification of alcohols at room temperature</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Khurana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Org. Prep. Proced. Int</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="110" to="119" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Elastic softness of hybrid lead halide perovskites</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Ferreira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page">85502</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Strain engineering and epitaxial stabilization of halide perovskites</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">577</biblScope>
+			<biblScope unit="page" from="209" to="215" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Structural features and their functions in surfactant-armoured methylammonium lead iodide perovskites for highly efficient and stable solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="2188" to="2197" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Efficient and stable solution-processed planar perovskite solar cells via contact passivation</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page" from="722" to="726" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">2D perovskite stabilized phase-pure formamidinium perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">3021</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Mixed cation FA x PEA 1-x PbI 3 with enhanced phase and ambient stability toward high-performance perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1601307</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">How measurement protocols influence the dynamic J-V characteristics of perovskite solar cells: theory and experiment</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Nemnes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sol. Energy</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page" from="976" to="983" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Light-induced degradation of perovskite solar cells: the influence of 4-tert-butyl pyridine and gold</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Bastos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1800554</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Projector augmented-wave method</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Blöchl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page">17953</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">From ultrasoft pseudopotentials to the projector augmented-wave method</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kresse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Joubert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">1758</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Generalized gradient approximation made simple</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Perdew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ernzerhof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page">3865</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Accurate molecular van der waals interactions from ground-state electron density and free-atom reference data</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tkatchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scheffler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page">73005</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Entropy-driven structural transition and kinetic trapping in formamidinium lead iodide perovskite</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">1601650</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

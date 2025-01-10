@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Ionic transport in hybrid lead iodide perovskite solar cells</title>
+				<funder ref="#_zthcbV9 #_8VctkXv">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_uXBeGyF #_KJCwFPZ">
+					<orgName type="full">EPSRC</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2015-06-24">24 Jun 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Christopher</forename><surname>Eames</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Bath</orgName>
+								<address>
+									<postCode>BA2 7AY</postCode>
+									<settlement>Bath</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jarvist</forename><forename type="middle">M</forename><surname>Frost</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Bath</orgName>
+								<address>
+									<postCode>BA2 7AY</postCode>
+									<settlement>Bath</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Piers</forename><forename type="middle">R F</forename><surname>Barnes</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">Imperial College London</orgName>
+								<address>
+									<postCode>SW7 2AZ</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Brian</forename><forename type="middle">C</forename><surname>O'regan</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">Imperial College London</orgName>
+								<address>
+									<postCode>SW7 2AZ</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aron</forename><surname>Walsh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Bath</orgName>
+								<address>
+									<postCode>BA2 7AY</postCode>
+									<settlement>Bath</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">&amp;</forename><forename type="middle">M</forename><surname>Saiful Islam</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Bath</orgName>
+								<address>
+									<postCode>BA2 7AY</postCode>
+									<settlement>Bath</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Ionic transport in hybrid lead iodide perovskite solar cells</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2015-06-24">24 Jun 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1C9E126AC1A2186910CD66672736F75F</idno>
+					<idno type="DOI">10.1038/ncomms8497</idno>
+					<note type="submission">Received 9 Feb 2015 | Accepted 14 May 2015 |</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T18:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Solar cells based on organic-inorganic halide perovskites have recently shown rapidly rising power conversion efficiencies, but exhibit unusual behaviour such as current-voltage hysteresis and a low-frequency giant dielectric response. Ionic transport has been suggested to be an important factor contributing to these effects; however, the chemical origin of this transport and the mobile species are unclear. Here, the activation energies for ionic migration in methylammonium lead iodide (CH 3 NH 3 PbI 3 ) are derived from first principles, and are compared with kinetic data extracted from the current-voltage response of a perovskitebased solar cell. We identify the microscopic transport mechanisms, and find facile vacancyassisted migration of iodide ions with an activation energy of 0.6 eV, in good agreement with the kinetic measurements. The results of this combined computational and experimental study suggest that hybrid halide perovskites are mixed ionic-electronic conductors, a finding that has major implications for solar cell device architectures.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>the field-switchable photovoltaic effect to the drift of charged ions or vacancies, although they provided no direct evidence for ion diffusion. In addition to ion migration, ferroelectric and charge-trapping effects have also been suggested as possible mechanisms <ref type="bibr" target="#b12">13</ref> . Recent analysis of quasielastic neutron scattering data <ref type="bibr" target="#b22">23</ref> , as well as polarization and piezoresponse force microscopy measurements <ref type="bibr" target="#b37">38</ref> suggests that ferroelectric behaviour in CH 3 NH 3 PbI 3 is unlikely to be the dominant mechanism behind the observed hysteresis. Simple capture and release of photogenerated charges in bulk or interfacial defects is also unlikely due to the magnitude and duration of the changes in photocurrent during relaxation following biasing.</p><p>Previous electronic structure calculations have been used to examine band structures, spin-orbit coupling and intrinsic defects in CH 3 NH 3 PbI 3 (refs 39-51). The defect studies <ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b45">46</ref> suggest that Pb 2 þ , I À and CH 3 NH 3 þ (MA þ ) vacancies create shallow donor or acceptor levels. Recent simulation work <ref type="bibr" target="#b40">41</ref> shows the prevalence of ionic over electronic disorder in CH 3 NH 3 PbI 3 with low formation energies for Schottky-type defects associated with anion and cation vacancies, shown in the following reaction in the Kro ¨ger-Vink notation for the full Schottky defect,</p><formula xml:id="formula_0">nil ! V 0 MA þ V 00 Pb þ 3V I þ MAPbI 3<label>ð1Þ</label></formula><p>where nil represents the perfect CH 3 NH 3 PbI 3 lattice, V indicates a vacancy, subscripts the ionic species and superscripts the effective defect charge (a dot for each positive charge and prime for each negative charge); recent results <ref type="bibr" target="#b40">41</ref> suggest a significant equilibrium concentration of I À , Pb 2 þ and CH 3 NH 3 þ vacancies at room temperature, which could support vacancy-mediated diffusion.</p><p>Macroscopic conductivity or diffusion experiments, however, have so far not enabled the mobile defect species or the atomistic transport mechanism to be identified. Here, we investigate key issues related to intrinsic defect migration in CH 3 NH 3 PbI 3 using first-principles techniques combined with kinetic experiments monitoring the photocurrent relaxation of devices, extending our previous work on hybrid perovskites <ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref> and ion transport in perovskite-type oxides <ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b51">52</ref> . We have carried out a detailed examination of the pathways and relative activation energies for the vacancy-mediated migration of I À , Pb 2 þ and CH 3 NH 3 þ ions, and compared these values directly with kinetic data extracted from a working CH 3 NH 3 PbI 3 solar cell. The results support a mechanism of vacancy-mediated ion diffusion, pointing to mixed ionic-electronic conduction in these hybrid perovskites. The implications for perovskite solar cell operation and stability are discussed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Migration mechanisms and energies. It is well established that the mobile ionic species in the solid state is associated with some type of vacancy or interstitial defect, the concentration of which is controlled by intrinsic Schottky and Frenkel defect reactions, non-stoichiometry or aliovalent doping <ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b52">53</ref> . In materials with the ABX 3 perovskite structure, vacancy-mediated diffusion is the most common process, which is further supported for CH 3 NH 3 PbI 3 by the ease of formation of Schottky disorder (reaction (1)), with an intrinsic concentration of I À , Pb 2 þ and CH 3 NH 3 þ vacancies predicted to exceed 0.4% at room temperature <ref type="bibr" target="#b40">41</ref> . Interstitial migration has not been observed in inorganic perovskite oxides or halides due to the lack of interstitial space in such close-packed structures.</p><p>In this study, three vacancy transport mechanisms involving conventional hopping between neighbouring positions (illustrated in Fig. <ref type="figure" target="#fig_1">2</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ARTICLE</head><p>migration into a neighbouring vacant A-site cage. Energy profiles for these mechanisms were mapped out by performing a series of transition-state calculations between adjacent equivalent sites. Particular care has to be taken to ensure the starting and end point configurations are well converged to avoid anomalously low migration energies. This approach allows the energy barrier to ion migration to be determined, and has been used successfully in previous studies on oxide-ion, proton and metal-ion migration in perovskite oxides <ref type="bibr" target="#b51">52,</ref><ref type="bibr" target="#b53">54</ref> . One particular challenge is to adequately describe the polarization response to the change in position of the migrating ion, which involves a combination of electronic polarization and lattice relaxation; this required the large supercells employed here to minimize any spurious interactions. The migration activation energies for the three mechanisms are reported in Table <ref type="table" target="#tab_0">1</ref>. The lowest activation energy of 0.58 eV suggests favourable vacancy-assisted diffusion of iodide ions. A higher activation energy of 0.84 eV is found for CH 3 NH 3 þ migration, which involves motion through the unit cell face or bottleneck comprising four I À ions (ion radius of 2.20 Å); this value is probably at the lower limit since we have considered the ideal migration path normal to the unit cell face. In addition, neutron diffraction <ref type="bibr" target="#b54">55</ref> and quasielastic neutron scattering <ref type="bibr" target="#b22">23</ref> studies confirm a high level of orientational motion of the CH 3 NH 3 þ ion at room temperature, which is likely to further inhibit long-range transport. Table <ref type="table" target="#tab_0">1</ref> shows a high energy barrier for Pb 2 þ vacancy migration, suggesting an immobile Pb sublattice. This result is consistent with the thermodynamic stability of the inorganic lead iodide sublattice of the perovskite structure. The high activation energy for Pb 2 þ transport also suggests that such cation diffusion is likely to be rate controlling for crystal growth processes.</p><p>From the calculated activation energies a diffusion coefficient can be estimated. Assuming a Boltzmann-like barrier-hopping process with a typical attempt frequency of 10 12 Hz for ionic species at a temperature of 320 K, we estimate a diffusion coefficient of 10 À 12 cm 2 s À 1 for I À ions, which is four orders of magnitude higher than the value of 10 À 16 cm 2 s À 1 for CH 3 NH 3 þ , suggesting negligible diffusion of CH 3 NH 3 þ ions. These results clearly indicate that hybrid halide perovskites are mixed ionic-electronic conductors with iodide ions as the majority ionic carriers. A key factor for ionic conductivity will be the level of intrinsic iodide ion vacancies in the material, which will be sensitive to the synthesis conditions (equilibrium or nonequilibrium) and thermal processing routes. It is recognized that, as in binary lead halides, there are stability and photodecomposition issues with these hybrid lead perovskites <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b55">56</ref> , which require further investigation.</p><p>With regard to mechanistic features, it is often assumed that the migrating ion takes the shortest path between adjacent sites, that is, a direct linear jump. However, detailed analysis of the migration paths for the iodide ion vacancy mechanism reveals a small deviation from the linear route involving a curved path between iodine sites, with the saddle point slightly bowed away from the neighbouring Pb ion (shown in Fig. <ref type="figure">3</ref> together with the corresponding energy profile); such an atomic-scale mechanism is difficult to extract from an experiment alone. It is worth noting that analogous curved paths have been found from both atomistic simulation <ref type="bibr" target="#b51">52</ref> and neutron diffraction studies <ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b56">57</ref> of oxide-ion conduction in inorganic perovskite oxides such as doped LaGaO 3 . Similar mechanisms may feature in related hybrid halide perovskites. Kinetic measurements. Several recent studies have probed current-voltage hysteresis in hybrid perovskite solar cells <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> . However, there is currently an absence of temperature-dependent kinetic data. Hysteresis is frequently observed when performing a photocurrent-voltage scan on the device. If the voltage is held at forward bias and then swept from forward to reverse, the power conversion efficiency inferred from the measurement can be as much as 90% higher than that inferred if the current-voltage scan proceeds from reverse to forward bias. The size of the difference depends on the scan rates, the preconditioning voltage and time and the light level. Recent studies indicate that there is no direct influence of light on the hysteresis in the photocurrent <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b16">17</ref> . Light may have an indirect effect on hysteresis by generating a photovoltage that influences device performance in a similar way to the application of an external bias. The effect of sweeping voltage with time can be decoupled from the hysteresis phenomenon by making stepped chronophotoampereometry measurements where the relaxation of the photocurrent towards a steady-state value at short circuit is observed following application of a constant bias in the dark.</p><p>By measuring the temperature-and time-dependent photocurrent following forward and reverse biasing in the dark, the rate at which the cell relaxes to equilibrium can be determined and thus activation energies for the relaxation of the device can be estimated (see Fig. <ref type="figure">4a,</ref><ref type="figure">b</ref>). The temperature range covered in this study is representative of typical device-operating temperatures  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Migrating vacancy</head><p>Defect notation E A (eV)</p><formula xml:id="formula_1">I À V I 0.58 Pb 2 þ V 00 Pb 2.31 CH 3 NH 3 þ (MA þ ) V 0 MA 0.84</formula><p>The migration of ion species is mediated by vacancy defects.</p><p>but below the second-order tetragonal-to-cubic phase transition. Following dark reverse bias conditions, the photocurrent rise at short circuit was fitted well by a bi-exponential. The time constant for the initial part of the photocurrent rise after reverse biasing varied between 53 s at À 9.5 °C and 0.36 s at 50 °C. The time constant for the slower phase of the rise was six times longer, with values very similar to those obtained by fitting to single exponential functions to the tail of the photocurrent decay following forward biasing in the dark (Fig. <ref type="figure">4a</ref>). The shape of the photocurrent relaxations remained relatively constant but scaled with time according to the temperature, implying that only the kinetics of the relaxation process had changed. The activation energies for short-circuit photocurrent relaxation from both forward (1 V) and reverse bias ( À 0.5 V) preconditioning were similar: 0.68 eV and 0.60-0.62 eV, respectively. This similarity, combined with the observation that the slow phases of both the rise and fall of the photocurrent have approximately the same time constants for a given temperature, suggests that the underlying process controlling the relaxation is reversible.</p><p>The measured activation energies for hysteresis, 0.60-0.68 eV, are very close to the value calculated for the migration of iodide ion vacancies, 0.58 eV. Our measured and calculated values are also compatible with experimental ionic conductivity studies of inorganic perovskites, which have reported similar activation energies for halide-ion vacancy conduction in perovskite halides (for CsPbCl 3 ) <ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref> and oxide-ion vacancy transport in perovskite oxides <ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b33">34</ref> . In contrast, the activation energies calculated for the migration of MA þ and Pb 2 þ vacancies (0.84 and 2.31 eV, respectively) are higher than the measured values, confirming that significant migration of these ions is unlikely at the temperatures and timescales examined.</p><p>The diffusion length of an iodide vacancy on the timescale of a photocurrent relaxation at room temperature (around 10 s) using our estimated diffusion coefficient (10 À 12 cm 2 s À 1 ) is of the order of 30 nm. The corresponding drift distance in this time due to an °C was E A ¼ 0.60 eV (the measurement duration was insufficient to reliably estimate the slow component at lower temperatures). The photocurrent rise at 50 °C did not reach a stable plateau and started to decline after its peak; we did not fit to this portion of the curve. The red crosses show the rates inferred from a single exponential fit to the tail of the photocurrent decay (k 3 ) following forward bias at 1 V in the dark; the corresponding activation energy is 0.68 eV (red line) evaluated between 15 and 50 °C. Given the spread of points, we consider that the range of activation energies determined is similar to the uncertainty of the estimation.</p><p>electric field that might be found in a device of this thickness (1 V dropped uniformly across 500 nm) is around 80 nm. As an example, the change in potential across a layer of accumulated vacancies of thickness w of 10 nm yields a value of E0.6 V, using the relation qw 2 N/(2e 0 e r ) assuming a relative permittivity (e r ) of 24 and 0.4% Schottky defects (NE1.6 Â 10 19 cm À 3 ) at room temperature <ref type="bibr" target="#b40">41</ref> . Hence, a change of this magnitude in electric potential in the perovskite adjacent to electrodes would certainly result in a significant variation in the observed photocurrent in a solar cell.</p><p>Migration of iodide ion vacancies under the influence of an electric field could change the photogenerated charge collection efficiency of devices with time and so helps to explain hysteresis. The possible influence of iodide ion vacancies on band energies of a perovskite thin film device and its interfaces is described in Figure <ref type="figure" target="#fig_3">5</ref>. We suggest the following model to explain the chronophotoamperometry measurements (see Fig. <ref type="figure" target="#fig_3">5b</ref>). When the cell is short-circuited, a built-in electric field is present in the perovskite layer due to the difference in the work functions of the contacts. This could result in the migration of iodide ion vacancies towards the contacts (while immobile vacancies remain fixed), partially screening the field. As discussed above, we expect the magnitude of the short-circuit photocurrent to be controlled by the extent to which the electric field is screened (as also recently suggested by Tress et al. <ref type="bibr" target="#b16">17</ref> ). A reduced internal field within the device (due to ionic screening) would lead to less efficient collection of photogenerated charge carriers. Prolonged poling of the device under forward bias reduces (or reverses) the built-in field, which could allow a dissipation of ionic charge from the contacts by diffusion. This tempering would result in more efficient collection of photogenerated charges when the device is returned to short circuit, since the built-in field is no longer screened by accumulated ionic or vacancy charge. Conversely, holding the device under reverse bias would accentuate the migration of ions and vacancies to the interfaces, resulting in less efficient collection of photogenerated charges when the device is returned to short circuit.</p><p>Within this model, the rate at which the short-circuit photocurrent relaxes towards equilibrium following poling, under either forward or reverse bias, gives an indication of the rate of ion diffusion. The temperature dependence of iodide ion migration would then correspond to the measured activation energy. The agreement between the measured and predicted activation energies supports ionic transport as one of the primary causes of the anomalous hysteresis in current-voltage curves <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> , and the giant switchable photovoltaic effect <ref type="bibr" target="#b31">32</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Built-in electric field</head><p>Built-in field screened in bulk The detailed behaviour may be more complex owing to additional contributions from, for example, electronic charge redistribution (at faster timescales). Although this investigation is not exhaustive in terms of possible polarization phenomena and direct observation of ion migration, it does highlight a crucial area for further work on this fascinating system. Indeed, large-scale molecular dynamics simulations could be used to explore diffusion mechanisms and defect association effects, while isotope diffusion measurements would provide a direct probe for determining the extent of ion transport in these materials.</p><formula xml:id="formula_2">E c E c E v E v</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Our combined computational and experimental study has provided new atomic-scale insights into the ion transport mechanisms operating in the hybrid perovskite CH 3 NH 3 PbI 3 . We find facile vacancy-assisted diffusion of iodide ions, with good agreement with activation energies derived from kinetic measurements on a CH 3 NH 3 PbI 3 -based solar cell. A key factor influencing the conduction of iodide ions (as the majority ionic carriers) will be the levels of intrinsic iodide ion vacancies in the material, which will be sensitive to the fabrication conditions and sample thermal history.</p><p>Our study provides a framework for understanding ionic transport phenomena in organic-inorganic halide perovskites, including the influence of the migration of iodide ion vacancies to and from interfaces in solar cell devices. Such ion migration has been suggested as a factor contributing to their unusual behaviour, including current-voltage hysteresis and a giant dielectric response at low frequencies. The picture emerging is that hybrid halide perovskites are mixed ionic-electronic conductors. This behaviour has major repercussions for interpreting solar cell device performance and degradation pathways, and for the design of future architectures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Computational. The theoretical framework for modelling ion transport in the solid state is well developed <ref type="bibr" target="#b52">53</ref> , and has been extensively validated for perovskite oxides <ref type="bibr" target="#b51">52,</ref><ref type="bibr" target="#b53">54</ref> . The CH 3 NH 3 PbI 3 perovskite structure and energies were calculated using density functional theory methods (employing the ab initio code VASP 58 ). A 4 Â 4 Â 4 supercell (768 atoms) of the pseudo-cubic unit cell was modelled; a plane wave cutoff energy of 500 eV, k-point sampling at the gamma point, PAW pseudopotentials <ref type="bibr" target="#b58">59</ref> and the PBEsol exchange-correlation functional were employed. For structure relaxation, forces were converged to o0.01 eV Å À 1 . For the hybrid perovskites, PBEsol reproduces the experimental crystal structure in good agreement with neutron diffraction data, and also describes the finite temperature behaviour (lattice vibrations and dynamics) in agreement with Raman and neutron scattering. We obtained an average lattice parameter of 6.28 Å for CH 3 NH 3 PbI 3 , in good agreement with the observed values of 6.28-6.32 Å from X-ray and neutron diffraction experiments (Table <ref type="table" target="#tab_1">2</ref>) <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b54">55,</ref><ref type="bibr" target="#b59">60,</ref><ref type="bibr" target="#b60">61</ref> . The defect results using PBEsol are very similar to those using other functionals, for example, see discussions of LDA/PBE in ref. 50. For migration barriers, the expanded lattice volume for standard GGA functionals (such as PBE) could be a major source of error, which PBEsol avoids.</p><p>Activation energies for diffusion processes can be computed from the total energy difference between the diffusing species in their ground-state configuration and at the saddle point of the diffusion process. Migration mediated by ion vacancies was examined using nudged elastic band and constrained energy minimization methods <ref type="bibr" target="#b57">58</ref> ; in the latter, the migrating species is propagated along the migration direction in a series of small steps with all unconstrained degrees of freedom relaxed at each step. While in a cubic lattice with disordered CH 3 NH 3 þ ions, each iodine site is equivalent, for an ordered cell that we used there are distinct apical and equatorial positions. We previously confirmed <ref type="bibr" target="#b40">41</ref> that the vacancy formation energy is similar on both sites; here, we performed nudged elastic band calculations involving each iodine position, and find that the resulting activation energies are within 0.01 eV, and also insensitive to the alignment of methylammonium ions. Solar cell fabrication. Methylammonium lead iodide solar cells were fabricated using a modification of standard recipes <ref type="bibr" target="#b4">5</ref> . Fluorine-doped tin oxide (F:SnO 2 )coated glass (TEC 15, Hartford Glass Co. Inc.) was patterned by etching with zinc powder and 2 M HCl, cleaned with deionized H 2 O, isoproponal and heated at 450 °C for 30 min. A dense titanium dioxide (B80 nm) blocking layer (d-TiO 2 ) was deposited on SnO 2 :F glass substrates via spray pyrolysis and heated at 450 °C for 30 min 62 . A solution of 2.64 M methylammonium iodide and 0.88 M lead chloride in dry DMF was spun at 2,000 r.p.m. (acceleration 1,000 r.p.m. s À 1 ) onto the substrate and dried at room temperature for 30 min before heating at 90 °C for 3 h in a glove box. Studies suggest that negligible chloride remains in the film following this preparation. The resulting CH 3 NH 3 PbI 3 perovskite film thickness was B500 nm. A solution of 61.6 mM spiro-OMeTAD, 55 mM tBP and 26 mM LiTFSI in dry chlorobenzene was then spun onto the perovskite, as above, to create the hole-transporting layer. A gold electrode was evaporated onto this with an active area of 0.08 cm 2 . The cell was sealed in the glove box using a glass coverslip and a surlyn gasket. Kinetic measurements. Chronophotoampereometry measurements were made using the TRACER system <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b62">63</ref> . The current and voltage were measured while bias light (from white light-emitting diodes), applied voltage and short-circuit/opencircuit status were modulated in an arbitrary sequence of steps. The modulation was accomplished with three MOSFET switches possessing o1 ms switching time and synchronicity (for both the optical and electrical steps). The temperature of the cells was controlled to within ± 1 °C using a Peltier cooler/heater to which the devices were coupled using thermal paste. Devices were stabilized for 5 min at each temperature before measurement. Illumination by the light-emitting diodes was also found to result in o1 °C temperature increase of the device. The chronophotoampereometry measurement sequence was as follows. The current through the cell was recorded with a reverse bias of À 0.5 V for 102 s, the device was then switched to short-circuit mode (0 V) and the light simultaneously turned on (with 1 sun equivalent absorbed photon flux) for a further 102 s. The light was then turned off and a forward bias of 1 V was simultaneously applied to the cell for 102 s. The cell was then returned to short-circuit mode (0 V) and the light simultaneously switched on for a final 102 s.</p><p>Empirically, the rise in the photocurrent (J sc ) towards equilibrium (J sc,equilibrium ) after reverse bias was found to be well fit by a double exponential function:</p><formula xml:id="formula_3">J sc t ð Þ ¼ J sc;equilibrium À J 1 exp½ À k 1 tÀJ 2 exp½ À k 2 t;<label>ð2Þ</label></formula><p>where t is the time after switching, k 1 and k 2 are the rate constants (units: s À 1 ) for the fast and slow phases of the rise and J 1 and J 2 are constants. The decay of the photocurrent towards equilibrium was observed to have a more complicated functional form with a shoulder in the decay at early times. The tail of this decay could be well fit by a single exponential function:</p><formula xml:id="formula_4">J sc t ð Þ ¼ J sc;equilibrium þ J 3 exp½ À k 3 t;<label>ð3Þ</label></formula><p>where k 3 is the rate constant for the decay and J 3 is a constant. As discussed in the main text, we hypothesize that these phenomenological rates of photocurrent relaxation (k 1 , k 2 and k 3 ) are related to the formation or removal of energetic barriers in the material, which change the efficiency of photogenerated charge carrier collection <ref type="bibr" target="#b16">17</ref> . The barriers result from the motion of ionic charge to or from the interfaces following a change in the electric field across the device caused by switching the bias voltage state. Measurements were taken as a function of temperature (T) from 263 to 323 K, representative of device-operating temperatures but below the tetragonalto-cubic phase transition. Associated activation energies (E A ) were determined by fitting the expression ln[k] ¼ C-E A /(k B T) to an Arrhenius plot of the rate (k) data, where C is a constant and k B is Boltzmann's constant. Although the activation energies are derived from the rates of photocurrent relaxation, they are likely to be related to the underlying mechanism that causes the change in photocurrent.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>3 þFigure 1 |</head><label>31</label><figDesc>Figure 1 | Perovskite structure of CH 3 NH 3 PbI 3 . Methylammonium cation (CH 3 NH 3 þ ) occupies the central A site surrounded by 12 nearest-neighbour iodide ions in corner-sharing PbI 6 octahedra.</figDesc><graphic coords="2,77.50,521.46,180.30,180.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 |</head><label>2</label><figDesc>Figure 2 | Transport mechanisms in the CH 3 NH 3 PbI 3 perovskite structure. Schematic illustration of the three ionic transport mechanisms involving conventional vacancy hopping between neighbouring positions: (a) I À migration along an octahedron edge; Pb 2 þ migration along the diagonal direction o1104; (b) CH 3 NH 3 þ migration into a neighbouring vacant A-site cage involving motion normal to the unit cell face composed of four iodide ions.</figDesc><graphic coords="3,83.57,309.73,169.94,226.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 |Figure 4 |</head><label>34</label><figDesc>Figure 3 | Iodide ion vacancy migration from density functional theory calculations. (a) Calculated migration path indicating a slightly curved path and local relaxation/tilting of the octahedra. (b) Corresponding energy profile.</figDesc><graphic coords="4,124.85,251.89,110.68,114.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 5 |</head><label>5</label><figDesc>Figure 5 | Influence of iodide ion vacancies on band energies of a perovskite thin film. (a) Schematic diagrams indicating the influence of vacancy drift on the band energies of a p-i-n device at short circuit. E C is the conduction band energy, E V is the valence band energy and V bi is the built-in potential. Iodide ion vacancies are represented by the squares with 'plus' signs. Implicit in the diagram is that the vacancies with effective positive charges are balanced by immobile cation vacancies (not shown) with effective negative charges. (b) Hypothesized energy level configurations corresponding to different bias conditions and times during the chronophotoamperometry measurements. The variation in the conduction and valence bands corresponds to the redistribution of iodide ion vacancies to and from interfaces with different applied potentials and times.</figDesc><graphic coords="5,136.49,480.61,322.86,189.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 |</head><label>1</label><figDesc>Calculated activation energies for ionic migration in CH 3 NH 3 PbI 3 .</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 |</head><label>2</label><figDesc>Structural parameters of CH 3 NH 3 PbI 3 .</figDesc><table><row><cell>Structural parameter (Å)</cell><cell>DFT (this study)</cell><cell>X-ray 60 diffraction</cell><cell>X-ray 11 diffraction</cell><cell>Neutron 55 diffraction</cell><cell>X-ray 61 diffraction</cell></row><row><cell>Cubic lattice parameter</cell><cell>6.28</cell><cell>6.28</cell><cell>6.31</cell><cell>6.32</cell><cell>6.29</cell></row><row><cell>I-I separation</cell><cell>4.45</cell><cell>-</cell><cell>4.46</cell><cell>4.47</cell><cell>-</cell></row><row><cell>Pb-I bond length</cell><cell>3.16</cell><cell>-</cell><cell>3.16</cell><cell>3.16</cell><cell>-</cell></row><row><cell>C-N bond length</cell><cell>1.48</cell><cell>-</cell><cell>1.48</cell><cell>1.35*</cell><cell>-</cell></row><row><cell>C-H bond length</cell><cell>1.10</cell><cell>-</cell><cell>-</cell><cell>0.99*</cell><cell>-</cell></row><row><cell>N-H bond length</cell><cell>1.04</cell><cell>-</cell><cell>-</cell><cell>0.99*</cell><cell>-</cell></row></table><note><p><p><p>DFT, density functional theory. Calculated (DFT) parameters are compared with experimental data for the cubic phase. *Due to the manner in which orientational disorder is fitted to neutron diffraction data for the cubic system, these bond lengths from ref.</p>55 </p>represent an underestimate; in the refinement of the orthorhombic structure they used bond lengths with soft constraints of 1.46 Å (C-N), 1.13 Å (C-H) and 1.00 Å (N-H), which are comparable to our calculated values.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>NATURE COMMUNICATIONS | 6:7497 | DOI: 10.1038/ncomms8497 | www.nature.com/naturecommunications &amp; 2015 Macmillan Publishers Limited. All rights reserved.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>NATURE COMMUNICATIONS | 6:7497 | DOI: 10.1038/ncomms8497 | www.nature.com/naturecommunications</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>&amp; 2015 Macmillan Publishers Limited. All rights reserved.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We gratefully acknowledge support from the <rs type="funder">EPSRC</rs> for the <rs type="grantName">Energy Materials Programme grant</rs> (<rs type="grantNumber">EP/K016288</rs>), <rs type="person">Archer HPC</rs> facilities through the <rs type="institution">Materials Chemistry Consortium</rs> (<rs type="grantNumber">EP/L000202</rs>), research grant <rs type="grantNumber">EP/M014797/1</rs> and P.R.F.B.'s fellowship (<rs type="grantNumber">EP/J002305/1</rs>). We thank <rs type="person">C.H. Law</rs> for his assistance with device preparation, and <rs type="person">P. Cameron</rs>, <rs type="person">C.A.J. Fisher</rs>, <rs type="person">L.M. Peter</rs> and <rs type="person">M.T. Weller</rs> for useful discussions.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_uXBeGyF">
+					<idno type="grant-number">EP/K016288</idno>
+					<orgName type="grant-name">Energy Materials Programme grant</orgName>
+				</org>
+				<org type="funding" xml:id="_KJCwFPZ">
+					<idno type="grant-number">EP/L000202</idno>
+				</org>
+				<org type="funding" xml:id="_zthcbV9">
+					<idno type="grant-number">EP/M014797/1</idno>
+				</org>
+				<org type="funding" xml:id="_8VctkXv">
+					<idno type="grant-number">EP/J002305/1</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head><p>Competing financial interests: The authors declare no competing financial interests. This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ref type="url" target="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reprints and permission</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The emergence of perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ho-Baillie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photon</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="506" to="514" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The light and shade of perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graetzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="838" to="842" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Organometal halide perovskites as visible-light sensitizers for photovoltaic cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Teshima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shirai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="6050" to="6051" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">6.5% efficient perovskite quantum-dot-sensitized solar cell</title>
+		<author>
+			<persName><forename type="first">J.-H</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-R</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-W</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-G</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nanoscale</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="4088" to="4093" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Efficient hybrid solar cells based on meso-superstructured organometal halide perovskites</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Teuscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="page" from="643" to="647" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Lead iodide perovskite sensitized all-solid-state submicron thin film mesoscopic solar cell with efficiency exceeding 9%</title>
+		<author>
+			<persName><forename type="first">H.-S</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">591</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Sequential deposition as a route to high-performance perovskite-sensitized solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burschka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">499</biblScope>
+			<biblScope unit="page" from="316" to="319" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Efficient planar heterojunction perovskite solar cells by vapour deposition</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">501</biblScope>
+			<biblScope unit="page" from="395" to="398" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Efficient inorganic-organic hybrid heterojunction solar cells containing perovskite compound and polymeric hole conductors</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Heo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photon</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="486" to="491" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Long-range balanced electron-and hole-transport length in organic-inorganic CH 3 NH 3 PbI 3</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page" from="344" to="347" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Semiconducting tin and lead iodide perovskites with organic cations: phase transitions, high mobilities, and near-infrared photoluminescent properties</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Stoumpos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Malliakas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kanatzidis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inorg. Chem</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="9019" to="9038" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Electron-hole diffusion lengths exceeding 1 micrometer in an organometal trihalide perovskite absorber</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page" from="341" to="344" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Anomalous hysteresis in perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1511" to="1515" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Hysteresis and transient behavior in current-voltage measurements of hybrid-perovskite absorber solar cells</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Unger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="3690" to="3698" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Opto-electronic studies of methylammonium lead iodide perovskite solar cells with mesoporous TiO 2 : separation of electronic and chemical charge storage, understanding two recombination lifetimes, and the evolution of band offsets during JV hysteresis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>O'regan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="5087" to="5099" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Parameters affecting I-V hysteresis of CH 3 NH 3 PbI 3 perovskite solar cells: effects of perovskite crystal size and mesoporous TiO 2 layer</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="2927" to="2934" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Understanding the rate-dependent J-V hysteresis, slow time component, and aging in CH 3 NH 3 PbI 3 perovskite solar cells: the role of a compensated electric field</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="995" to="1004" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Mixed-organic-cation perovskite photovoltaics for enhanced solar-light harvesting</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pellet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="3151" to="3157" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Perovskite solar cells employing organic chargetransport layers</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Malinkiewicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photon</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="128" to="132" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Interface engineering of highly efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page" from="542" to="546" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Low-temperature processed electron collection layers of graphene/TiO 2 nanocomposites in thin film perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T-W</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="724" to="730" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Low-temperature solution-processed wavelength-tunable perovskites for lasing</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="476" to="480" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The dynamics of methyl ammonium ions in hybrid organic-inorganic perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M A</forename><surname>Leguy</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms8124</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Solvent engineering for high-performance inorganic-organic hybrid perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="897" to="903" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Perovskite solar cells with a planar heterojunction structure prepared using room-temperature solution processing techniques</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photon</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="133" to="138" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Real-space observation of unbalanced charge distribution inside a perovskite-sensitized solar cell</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bergmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">5001</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Excitons versus free charges in organo-lead tri-halide perovskites</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>D'innocenzo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">3586</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Elucidating the charge carrier separation and working mechanism of CH 3 NH 3 PbI 3-x Cl x perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Edri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">3461</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Planar heterojunction perovskite solar cells via vapor-assisted solution process</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="622" to="625" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Unravelling the mechanism of photoinduced charge transfer processes in lead iodide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marchioro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photon</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="250" to="255" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Impedance spectroscopic analysis of lead iodide perovskitesensitized solid-state solar cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dualeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="362" to="373" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Giant switchable photovoltaic effect in organometal trihalide perovskite devices</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="193" to="198" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Oxide-ion and proton conducting electrolyte materials for clean energy applications: structural and mechanistic features</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Malavasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A J</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Islam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Soc. Rev</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="4370" to="4387" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Electronic and ionic transport properties and other physical aspects of perovskites</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Goodenough</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rep. Prog. Phys</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="1915" to="1993" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Ionic conduction of the perovskite-type halides</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mizusaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Arai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fueki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Solid State Ionics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="203" to="211" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Transport properties of the perovskitetype halides</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Narayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Suryanarayana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="305" to="308" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Ionic transport and galvanic cell discharge characteristics of CuPbI 3</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Kuku</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Thin Solid Films</title>
+		<imprint>
+			<biblScope unit="volume">325</biblScope>
+			<biblScope unit="page" from="246" to="250" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Ferroelectricity of CH 3 NH 3 PbI 3 perovskite</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Fan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1155" to="1161" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Atomistic origins of high-performance in hybrid halide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Frost</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="2584" to="2590" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Structural and electronic properties of hybrid perovskites for high-efficiency thin-film photovoltaics from firstprinciples</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Brivio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Walsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">APL Mater</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">42111</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Self-regulation mechanism for charged point defects in hybrid halide perovskites</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">O</forename><surname>Scanlon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">G</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="1791" to="1794" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Firstprinciples modeling of mixed halide organometal perovskites for photovoltaic applications</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mosconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graetzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Angelis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. C</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="13902" to="13913" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Importance of spin-orbit coupling in hybrid organic/inorganic perovskites for photovoltaic applications</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Even</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pedesseau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Jancu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Katan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="2999" to="3005" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Small photocarrier effective masses featuring ambipolar transport in methylammonium lead iodide perovskite: a density functional analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Giorgi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fujisawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Segawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yamashita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="4213" to="4216" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Unusual defect physics in CH 3 NH 3 PbI 3 perovskite solar cell absorber</title>
+		<author>
+			<persName><forename type="first">W.-J</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page">63903</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The role of intrinsic defects in methylammonium lead iodide perovskite</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-H</forename><surname>Hong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1312" to="1317" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Relativistic GW calculations on CH 3 NH 3 PbI 3 and CH 3 NH 3 SnI 3 perovskites for solar cell applications</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Umari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mosconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Angelis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">4467</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Efficient carrier transport in halide perovskites: theoretical perspectives</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Du</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="9091" to="9098" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Strong covalencyinduced recombination centers in perovskite solar cell material CH 3 NH 3 PbI 3</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Agiorgousis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="14570" to="14575" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Halide perovskite materials for solar cells: a theoretical review</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="8926" to="8942" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Role of dispersive interactions in determining structural properties of organic-inorganic halide perovskites: insights from firstprinciples calculations</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Egger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kronik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="2728" to="2733" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Ionic transport in ABO 3 perovskite oxides: a computer modelling tour</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Islam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1027" to="1038" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Computer simulation studies of transport in solids</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R A</forename><surname>Catlow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Rev. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="517" to="548" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Oxygen diffusion in solid oxide fuel cell cathode and electrolyte materials: mechanistic insights from atomistic simulations</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chroneos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yildiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tarancon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Parfitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Kilner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Energy. Sci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="2774" to="2789" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Complete structure and cation orientation in the perovskite photovoltaic methylammonium lead iodide between 100 and 352K</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Weller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">J</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Di Pumpo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Hansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="4180" to="4183" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Organic-inorganic lead halide peroyskite solar cell materials: a possible stability problem</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schoonman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">619</biblScope>
+			<biblScope unit="page" from="193" to="195" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Conduction path and disorder in the fast oxide-ion conductor</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yashima</surname></persName>
+		</author>
+		<idno>Ga 0.8 Mg 0.15 Co 0.05</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="391" to="396" />
+			<date type="published" when="2003-02-00">La 0.8 Sr 0.2. 2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kresse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Furthmu ¨ller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="11169" to="11186" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Restoring the density-gradient expansion for exchange in solids and surfaces</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Perdew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page">136406</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Synthesis and crystal chemistry of the hybrid perovskite (CH 3 NH 3 ) PbI 3 for solid-state sensitised solar cell applications</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Baikie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="5628" to="5641" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Structural study on cubictetragonal transition of CH 3 NH 3 PbI 3</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mashiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hasebe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Soc. Jpn</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="1694" to="1697" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Preparation and characterization of TiO 2 films by a novel spray pyrolysis method</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kershaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dwight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Res. Bull</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1385" to="1392" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Interpretation of optoelectronic transient and charge extraction measurements in dye-sensitized solar cells</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R F</forename><surname>Barnes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1881" to="1922" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

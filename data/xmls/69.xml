@@ -1,0 +1,1814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Spatial Atmospheric Pressure Atomic Layer Deposition of Tin Oxide as an Impermeable Electron Extraction Layer for Perovskite Solar Cells with Enhanced Thermal Stability</title>
+				<funder ref="#_eeW6YvT #_AfESRfk">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_PJpHszZ">
+					<orgName type="full">European Research Council</orgName>
+					<orgName type="abbreviated">ERC</orgName>
+				</funder>
+				<funder ref="#_XyJzkvc">
+					<orgName type="full">German Federal Ministry for Education and Research (Grants No</orgName>
+				</funder>
+				<funder ref="#_WyBTCby">
+					<orgName type="full">Deutsche Forschungsgemeinschaft (DFG)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-01-22">January 22, 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Lukas</forename><surname>Hoffmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Chair of of Electronic Devices and ‡ Chair of Large Area Optoelectronics</orgName>
+								<orgName type="institution">University of Wuppertal</orgName>
+								<address>
+									<addrLine>Rainer-Gruenter-Strasse 21</addrLine>
+									<postCode>42119</postCode>
+									<settlement>Wuppertal</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">S Supporting Information</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kai</forename><forename type="middle">O</forename><surname>Brinkmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Chair of of Electronic Devices and ‡ Chair of Large Area Optoelectronics</orgName>
+								<orgName type="institution">University of Wuppertal</orgName>
+								<address>
+									<addrLine>Rainer-Gruenter-Strasse 21</addrLine>
+									<postCode>42119</postCode>
+									<settlement>Wuppertal</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">S Supporting Information</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jessica</forename><surname>Malerczyk</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Chair of of Electronic Devices and ‡ Chair of Large Area Optoelectronics</orgName>
+								<orgName type="institution">University of Wuppertal</orgName>
+								<address>
+									<addrLine>Rainer-Gruenter-Strasse 21</addrLine>
+									<postCode>42119</postCode>
+									<settlement>Wuppertal</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Detlef</forename><surname>Rogalla</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Tim</forename><surname>Becker</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Chair of of Electronic Devices and ‡ Chair of Large Area Optoelectronics</orgName>
+								<orgName type="institution">University of Wuppertal</orgName>
+								<address>
+									<addrLine>Rainer-Gruenter-Strasse 21</addrLine>
+									<postCode>42119</postCode>
+									<settlement>Wuppertal</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Detlef</forename><surname>Theirich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Chair of of Electronic Devices and ‡ Chair of Large Area Optoelectronics</orgName>
+								<orgName type="institution">University of Wuppertal</orgName>
+								<address>
+									<addrLine>Rainer-Gruenter-Strasse 21</addrLine>
+									<postCode>42119</postCode>
+									<settlement>Wuppertal</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ivan</forename><surname>Shutsko</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Patrick</forename><surname>Gorrn</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Riedl</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Chair of of Electronic Devices and ‡ Chair of Large Area Optoelectronics</orgName>
+								<orgName type="institution">University of Wuppertal</orgName>
+								<address>
+									<addrLine>Rainer-Gruenter-Strasse 21</addrLine>
+									<postCode>42119</postCode>
+									<settlement>Wuppertal</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">S Supporting Information</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Bochum</orgName>
+								<address>
+									<addrLine>Universitaẗsstr. 150</addrLine>
+									<postCode>44801</postCode>
+									<settlement>Bochum</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Spatial Atmospheric Pressure Atomic Layer Deposition of Tin Oxide as an Impermeable Electron Extraction Layer for Perovskite Solar Cells with Enhanced Thermal Stability</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-01-22">January 22, 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">64D958E0AD4F0AD6B9C740F09E80AF12</idno>
+					<note type="submission">Received: November 20, 2017 Accepted: January 22, 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T18:02+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>spatial ALD</term>
+					<term>tin oxide</term>
+					<term>roll-to-roll compatible solar cells</term>
+					<term>perovskite solar cells</term>
+					<term>stability of perovskite solar cells</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Despite the notable success of hybrid halide perovskite-based solar cells, their long-term stability is still a key-issue. Aside from optimizing the photoactive perovskite, the cell design states a powerful lever to improve stability under various stress conditions. Dedicated electrically conductive diffusion barriers inside the cell stack, that counteract the ingress of moisture and prevent the migration of corrosive halogen species, can substantially improve ambient and thermal stability. Although atomic layer deposition (ALD) is excellently suited to prepare such functional layers, ALD suffers from the requirement of vacuum and only allows for a very limited throughput. Here, we demonstrate for the first time spatial ALD-grown SnO x at atmospheric pressure as impermeable electron extraction layers for perovskite solar cells. We achieve optical transmittance and electrical conductivity similar to those in SnO x grown by conventional vacuum-based ALD. A low deposition temperature of 80 °C and a high substrate speed of 2.4 m min -1 yield SnO x layers with a low water vapor transmission rate of ∼10 -4 gm -2 day -1 (at 60 °C/60% RH). Thereby, in perovskite solar cells, dense hybrid Al:ZnO/SnO x electron extraction layers are created that are the key for stable cell characteristics beyond 1000 h in ambient air and over 3000 h at 60 °C. Most notably, our work of introducing spatial ALD at atmospheric pressure paves the way to the future roll-to-roll manufacturing of stable perovskite solar cells.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>As can be seen in Figure <ref type="figure" target="#fig_4">S3b</ref> the variation in the shape of the perovskite absorption spectra (directly resulting in the EQE spectra of the PSC in Figure <ref type="figure" target="#fig_4">S3a</ref>) can be attributed to variations of the perovskite layer thickness independent of the SnO x thickness. Moreover Figure <ref type="figure" target="#fig_4">S3c</ref> shows that thickness variations that fall within the process fluctuation only result in minor changes in the J sc .  Within the past few years hybrid halide perovskite solar cells (PSCs) have seen an unprecedented progress as power conversion efficiencies (PCEs) have reached a level beyond 20%. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> Nevertheless, a serious concern about stability is coming along with PSCs, as the photoactive perovskites tend to decompose upon exposure to moisture and/or elevated temperatures. <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref> On top of that, halide-containing species resulting from the decomposition of the perovskite can corrode metal electrodes and thereby drastically compromise the device stability. <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> Recently, a number of approaches have been proposed to mitigate these stability issues. Aside from the use of alternative electrodes like carbon, <ref type="bibr" target="#b12">13</ref> a very promising concept is based on the introduction of a protection layer as an electronically functional part of the solar cell stack. The purpose of these layers is to shield the rest of the device from ambient gases and simultaneously to prevent corrosive perovskite constituents to degrade the electrode. Organic, metal-oxide, and even modified two-dimensional perovskite capping layers have been considered for this aim. <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref> Although all of these strategies yield some kind of stability improvement, the respective PSCs still face notable degradation in the long run, especially when exposed to elevated temperatures. This is most likely related to the limited barrier properties of the proposed protecting layers. In general, metaloxide layers prepared by atomic layer deposition (ALD) provide the most promising avenue to realize functional protection layers, as ALD is known to afford extremely dense, conformal, and pinhole-free layers. <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref> The plethora of studies on permeation barriers prepared by ALD is focused on insulating materials, like Al 2 O 3 , etc. A few authors have attempted to introduce ALD-grown Al 2 O 3 into a PSC to protect and to stabilize the photoactive perovskite. <ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref> Although some improvement has been demonstrated, the use of insulating layers inside a device stack is limited to at best a few monolayers through which carriers can still tunnel. For thicker layers (&gt;1 nm) a severe deterioration of the device characteristics is typically observed. It is clear that these ultrathin protection layers do not form serious permeation barriers. <ref type="bibr" target="#b25">26</ref> Likewise, Kim et al. introduced ALD-grown titanium oxide interlayers for stabilization, albeit at the cost of compromised solar cell performance due to the poor electrical conductivity of the low-temperature TiO x . <ref type="bibr" target="#b27">28</ref> Specifically, the resulting solar cells show a notable series resistance and a relatively low FF &lt;50%.</p><p>Recently, we have demonstrated transparent and electrically conductive permeation barriers based on tin oxide grown by ALD. <ref type="bibr" target="#b28">29</ref> We could show that these SnO x layers can be introduced in the stack of a PSC without compromising cell performance, where they efficiently prevented the ingress of moisture and at the same time suppressed the decomposition of the perovskite active layer. <ref type="bibr" target="#b29">30</ref> Concomitantly, the SnO x layer has been shown to protect sensitive metal electrodes against the corrosive halide constituents of the perovskite. <ref type="bibr" target="#b30">31</ref> Thereby, we were able to present highly robust, opaque, and semitransparent PSCs. <ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b31">32</ref> As an important note, the efficiency of PSCs that were only encapsulated with an external permeation barrier, i.e., outside the cell stack, degraded swiftly under the same stress conditions.</p><p>The most severe drawback of our SnO x layers is their preparation by classical batch-based ALD (B-ALD) under vacuum conditions. The limitations of classical ALD contradict the paradigm of low-cost, high-throughput preparation at atmospheric pressure, which is a particular selling point frequently associated with PSCs. There are efforts to overcome the limits of classical B-ALD by the introduction of spatial ALD (S-ALD), which can operate in a continuous fashion at atmospheric pressure. <ref type="bibr" target="#b32">33</ref> Very recently, we have demonstrated that high-performance gas diffusion barriers based on Al 2 O 3 can be prepared by S-ALD at atmospheric pressure. <ref type="bibr" target="#b33">34</ref> In this work, we introduce for the first time S-ALD-grown SnO x at atmospheric pressure as impermeable electron extraction layers in perovskite solar cells. Thereby, we render the use of these key stabilizing constituents to become compatible with the demands of even roll-to-roll manufacturing. We evidence that up to a web speed of 2.4 m min -1 , we can achieve the benefits of continuous processing without sacrificing the excellent electrical and barrier properties of SnO x known from vacuum-based B-ALD. Moreover, we demonstrate that the S-ALD SnO x layer can be grown in a continuous fashion at temperatures as low as 80 °C on top of the photoactive perovskite material. The resulting PSCs show an outstanding long-term stability in excess of 3000 h at elevated temperature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">EXPERIMENTAL SECTION</head><p>Tin oxide thin films were deposited in a home-built S-ALD system, already described in a former work. <ref type="bibr" target="#b33">34</ref> Tetrakis(dimethylamino)tin(IV) (TDMASn) (99.99%, Strem Chemicals) and water were used as precursors. A schematic of the S-ALD setup is shown in Figure <ref type="figure" target="#fig_2">1a</ref>.</p><p>Both precursors were kept in a bubbler at room temperature. N 2 was used as the purge gas. Typically, a flow of 150 sccm of N 2 through the TDMASn bubbler and 8 sccm of N 2 through the H 2 O bubbler have been used with a total gas flow at each precursor line of 2000 sccm. Note, the corresponding density of water molecules is about 3 × 10 15 cm -3 in the delivery zone of the water precursor in the S-ALD setup. This concentration is more than an order of magnitude below the levels of 1 × 10 17 cm -3 that has earlier been identified for the onset of decomposition of an unprotected MAPbI3 layer. <ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36</ref> The deposition temperature has been varied between 80 and 150 °C, and the substrate velocity has been varied between 5 and 160 mm s -1 . For reference, SnO x layers were deposited in a commercial ALD system (Beneq ALD TFS 200) at a base pressure of 1.5 mbar. Further details of the classical ALD growth process for SnO x can be found in ref 29.</p><p>The inverted perovskite solar cells (p-i-n PSCs) are based on a glass/ITO/PEDOT:PSS/CH 3 NH 3 PbI 3 /PCBM/AZO/SnO x /Ag sequence (see Figure <ref type="figure" target="#fig_2">1b</ref>). First, PEDOT:PSS (AI4083) has been spin coated in ambient air and has been dried on a hot plate at 120 °C for 20 min in an N 2 environment. The CH 3 NH 3 PbI 3 perovskite layers have been spin coated under inert atmosphere from a commercially available precursor solution (Ossila Ltd.) and have been post-annealed at 100 °C for 80 min. Afterward, PCBM (American Dye Source Inc., ADS61BFA) was spin coated from a solution in chlorobenzene (1000 rpm, 30 s, concentration: 100 mg/mL). The AZO layer has been spin coated from a commercial nanoparticle dispersion (8000 rpm, 60 s, 2.5 wt % in isopropanol, prod. no. 8045, Avantama AG, Switzerland). The size of the AZO nanoparticles is in the range of 12-18 nm. SnO x layers were deposited by S-ALD or B-ALD, as described above. Finally, Ag electrodes (thickness: 100 nm) were thermally evaporated. J/V characterizations and stabilized power output of the respective solar cells were conducted without encapsulation in air with a Keithley 2400-C source meter and a solar simulator (300W Newport, model 91160, AM1.5G). Calibration to 100 mW cm -2 was done with a commercial IEC 60904-9 compliant and certified Si reference cell (Rera Systems).</p><p>Rutherford backscattering (RBS) and nuclear reaction analysis (NRA) were performed at the 4 MV tandem accelerator of the RUBION facility (University of Bochum, Germany). For RBS, a 2 MeV 4 He + ion beam (beam current of 20-40 nA) in combination with a silicon surface barrier detector at an angle of 160°was used. For a higher sensitivity to atoms with a low atomic number, i.e., C, N, and O, the complementary NRA measurements were performed with a 1 MeV 2 H + beam (beam current of 40-80 nA). A silicon surface barrier detector was placed at an angle of 135°and was shielded by a 6 μm Ni foil to eliminate scattered particles.</p><p>The water vapor transmission rate (WVTR) was measured using an optical calcium test on 7 × 7 cm 2 glass substrates. Details of the Ca test can be found in our previous work. <ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b36">37</ref> The electrical conductivity of our SnO x layers was measured with the Van der Pauw method.</p><p>The transmission/reflection spectra of the SnO x films deposited by ALD were measured with a deuterium halogen lamp (DH-2000-BAL, Ocean Optics, 1 mW cm -2 ) and a fiber spectrometer (USB 2000+XR1-ES, Ocean Optics, from 186 to 1041 nm). Each spectrum is an average of 300 measurements at five different positions on the sample. The absorption spectra (A(λ)) were calculated directly from transmittance (T(λ)) and reflectance (R(λ)) spectra using the following equation:</p><formula xml:id="formula_0">A(λ) = 1 -T(λ) -R(λ).</formula><p>External quantum efficiency (EQE) measurements were carried out with a home-built setup using probe light from a tunable monochromatic light-source consisting of a 50 W tungsten halogen lamp and a monochromator (MSH-150, LOT-Quantum Design GmbH). The current response of the PSC devices was measured using a lock-in amplifier (5610B, NF Electronic Instruments).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">RESULTS AND DISCUSSION</head><p>3.1. Properties of Tin Oxide Grown by S-ALD. Tin oxide thin films were deposited in an S-ALD system at atmospheric pressure. The S-ALD system is described in more detail in previous reports. <ref type="bibr" target="#b33">34</ref> The layout of the S-ALD coating head is shown in Figure <ref type="figure" target="#fig_2">1</ref>. Briefly, in S-ALD, the moving substrate is sequentially exposed to the precursors emerging from the spatially separated precursor outlets in the S-ALD head. Thereby, the time-sequenced delivery of the precursors to a static substrate, as in conventional B-ALD, is mimicked. As a starting point, the substrate speed was set to 20 mm s -1 (=1.2 m min -1 ), and the process temperature was 80 °C. The ALDtypical self-limiting growth behavior at these processing conditions has been verified (Figure <ref type="figure" target="#fig_2">S1</ref>, Supporting Information). The selected N 2 -gas flows of 150 sccm (through the TDMASn bubbler) and 8 sccm (through the H 2 O bubbler) are clearly within the respective saturation regime, with a growth per cycle (GPC) of (0.15 ± 0.01) nm.</p><p>The properties of SnO x layers grown by S-ALD and B-ALD are compared in Table <ref type="table" target="#tab_1">1</ref>. Obviously, S-ALD yields a somewhat higher GPC compared with B-ALD. Note, higher growth rates of atmospheric pressure ALD at low-temperature versus classical vacuum-based ALD have been found before for other metal oxides, e.g., Al 2 O 3 or ZnO, <ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b37">38</ref> and have been attributed to an excess of adsorbed water which leads to some additional CVD type of growth. In our earlier work, we have studied the GPC in the S-ALD of SnO x (from TDMASn/H 2 O) at varied deposition temperatures. <ref type="bibr" target="#b38">39</ref> Specifically, the GPC varied from 0.15 nm (at 80 °C) to 0.07 nm (at 150 °C).</p><p>The optical properties of the SnO x layers have been assessed by absorption spectroscopy and spectral ellipsometry. The respective absorption spectra for SnO x grown by B-ALD and S-ALD at various deposition temperatures are shown in the Supporting Information (Figure <ref type="figure" target="#fig_1">S2</ref>). The optical band gap is determined from the respective Tauc plots. A band gap of 3.8 eV was derived for SnO x deposited by both S-ALD and B-ALD at 80 °C. By increasing the deposition temperature, the optical band gap decreases (to 3.2 eV at 150 °C deposition temperature) and a notable sub-band-gap absorption is found. A similar behavior has been previously reported <ref type="bibr" target="#b39">40</ref> in B-ALD-grown SnO x layers and has been attributed to an increased density of subgap defects related to oxygen deficiency. In any case, a 20 nm thick SnO x layer based on S-ALD shows similar neglectable absorption in the spectral range of 430-780 nm as its low-pressure counterpart.</p><p>The refractive indices of the S-ALD (1.88 @ 633 nm) and B-ALD (1.89) layers are quite similar. Moreover, within the accuracy of the experiment, the S-ALD process yields SnO x that shows the same permeation barrier properties (water vapor transmission rate: WVTR = 2 × 10 -4 gm -2 day -1 ) and electrical conductivity (σ = 10 -4 S cm -1 ) as those of their analogues grown by vacuum-based B-ALD. For thin SnO x layers of 20 nm, their electrical conductivity allows to estimate a very low specific series resistance of 0.02 Ω cm 2 , which is not expected to infer any notable loss of voltage in a PSC.</p><p>3.2. S-ALD Tin Oxide in Perovskite Solar Cells. The characteristics of representative PSCs incorporating an impermeable SnO x electron extraction layer prepared by S-ALD and B-ALD are shown in Figure <ref type="figure" target="#fig_3">2a,</ref><ref type="figure">b</ref>. The typical solar cell figures, as derived from the J/V data, are compared in Table <ref type="table">2</ref>. Note, all current density data were calibrated with dedicated EQE measurements. The corresponding EQE spectra are shown in the Supporting Information (Figure <ref type="figure" target="#fig_0">S3</ref>). Both sets of samples show a remarkable similarity in their cell characteristics. This is even more notable, as the S-ALD technique now paves the way to harvest the benefits of impermeable functional ALD layers even for high-throughput manufacturing.</p><p>To compare the stability of the PSCs, monostress tests under ambient conditions (25 °C/60% RH) (Figure <ref type="figure" target="#fig_3">2c</ref>) and at elevated temperature (60 °C, inert atmosphere) (Figure <ref type="figure" target="#fig_3">2d</ref>) were conducted. Strikingly, under both conditions, excellent long-term stability of PSCs based on SnO x grown by S-ALD is afforded. Note, for PSCs without the SnO x layer, the devices degrade within tens of hours under ambient conditions (25 °C/ 60% RH) and within 200 h at elevated temperature (60 °C, inert atmosphere). <ref type="bibr" target="#b29">30</ref> Please see Figure <ref type="figure">S5</ref> for a full set of cell characteristics (J sc , V oc , and FF) during temperature monostress testing.</p><p>Taken together, SnO x prepared by S-ALD affords PSCs with outstanding thermal stability even on a time scale of &gt;3000 h without noticeable decay in cell characteristics. In an aim to exploit the continuous S-ALD process for a roll-to-roll processing in the future, limitations regarding processing speed in S-ALD are of interest.</p><p>3.3. Deposition Speed in S-ALD. We now evaluate the role of substrate speed in S-ALD on the functionality and stability of the resulting PSCs. First, the GPC versus substrate speed is studied at otherwise fixed process parameters, e.g., gas flows (Figure <ref type="figure" target="#fig_4">3a</ref>). Obviously, the GPC is constant for a substrate speed below 60 mm s -1 . Further increasing the speed results in a reduction of the GPC, as the precursor dose is no longer sufficient to fully saturate the reactive surface sites. The decay of GPC when increasing the substrate speed was approximated with GPC = GPC sat (1exp(at q )), similar to an equation proposed by Poodt et al. <ref type="bibr" target="#b40">41</ref> Here, GPC sat represents the GPC at low substrate speeds, t is the precursor exposure time, and a and q are fit parameters. For a further discussion, see refs 34, 41.  In addition to the drop in GPC, the refractive index decreases with increasing the substrate speed, i.e., from 1.88 at 20 mm s -1 to 1.80 at 160 mm s -1 , indicating not fully saturated ALD film growth and a lower film density. In principle, the regime of constant (saturated) GPC can be extended to even higher substrate speeds by further increasing the amount of precursor delivered to the precursor exposure zone (e.g., by increasing the flow of carrier gas through the bubbler). At the same time, higher amounts of precursor would require higher purge gas flows or a spatial extension of the respective purge gas zones. Unfortunately, both these possibilities cannot be tested due to limitations of our home-built S-ALD system. Aside from the changes of layer properties toward higher processing speeds, a further important characteristic of the ALD growth process is affected. It has to be noted that in the PSCs, the SnO x layer is deposited on top of a porous Al:ZnO layer that has been cast on top of the PCBM from a dispersion of nanoparticles. ALD in general is known for its conformal coating properties of high-aspect-ratio structures and even porous materials. By increasing the substrate speed, the exposure time of the porous layer to the respective precursor species in the S-ALD process is reduced. Thereby, the time for diffusion of precursors into the pores of the AZO layer is shortened. As suggested earlier, <ref type="bibr" target="#b29">30</ref> the functionality of the AZO/ SnO x hybrid layer as a permeation barrier relies critically on the penetration of ALD precursors into the pores of the AZO layer and the concomitant growth of SnO x inside these pores. To further study the consequences of increased substrate speed, we analyzed the resulting AZO/SnO x hybrid layers by Rutherford backscattering (RBS). The degree of penetration of tin atoms into the pores of the AZO layer becomes obvious from the Snrelated RBS spectra (Figure <ref type="figure" target="#fig_4">3b</ref>). For relatively small substrate speeds of 20 and 40 mm s -1 , the Sn peak in the RBS spectrum shows a notable shoulder, indicating the penetration of tin atoms into the AZO layer underneath. As these Sn atoms are located further away from the surface (i.e., deeper inside the AZO layer), they cause backscattered ions with less energy (i.e., smaller channel number). On the contrary, for SnO x grown at elevated substrate speed of 80 mm s -1 , a symmetric Sn peak is found, indicating a substantially reduced penetration of tin into the pores of the AZO layer. Note, for SnO x grown on a flat, nonporous substrate, the tin RBS spectrum is fully symmetric, regardless of the substrate speed. A schematic of the penetration of SnO x inside the AZO is shown in Figure <ref type="figure" target="#fig_4">3c</ref>.</p><p>As a consequence of the penetration of the SnO x into the AZO pores, the barrier properties of the resulting AZO/SnO x hybrid layers are substantially better than those where the SnO x has been prepared at elevated substrate speed without notable pore filling. In addition, the WVTR of SnO x single layers grown For the S-ALD, a substrate velocity of 20 mm s -1 has been used. J/V characteristics (a) and stabilized power output (b). All related current density data were derived from EQE measurements (see Figure <ref type="figure" target="#fig_0">S3</ref>). PCE vs time of storage in ambient air (25 °C, 60% RH) (c) and at elevated temperature (60 °C, inert atmosphere) (d).</p><p>Table <ref type="table">2</ref>. Solar Cell Characteristics Corresponding to the Representative J/V Curves Shown in Figure <ref type="figure" target="#fig_3">2a</ref> for PSCs Based on SnO x Grown by B-ALD and S-ALD a reverse forward a Current density data has been derived from EQE measurements. Statistical data for a set of samples can be found in the Supporting Information (Figure <ref type="figure" target="#fig_6">S4</ref>, Table <ref type="table" target="#tab_1">S1</ref>). at 80 mm s -1 show inferior permeation barrier properties (WVTR ∼ 4 × 10 -3 gm -2 day -1 ) compared with their analogues grown at lower speed. This indicates an overall deterioration of layer density at elevated substrate speed, in agreement with the observed drop of the refractive index, as discussed above.</p><formula xml:id="formula_1">PCE (%) FF (%) V OC (V) J SC (mA cm -2 ) PCE (%) FF (%) V OC (V) J SC (mA cm -2 ) S-</formula><p>As a result, the lifetime of PSCs based on the respective AZO/SnO x is critically affected by the choice of substrate speed, when the devices are exposed to ambient air (25 °C/ 60% RH) (Figure <ref type="figure" target="#fig_4">3d</ref>). The PCE of the PSCs based on the SnO x grown at a substrate speed of 80 mm s -1 , which does not afford filling of the AZO pores, decreases dramatically within the first 300 h in air, whereas the cells in which the SnO x has been grown at 20 mm s -1 show only minimum degradation even after more than 1000 h.</p><p>3.4. Effect of Deposition Temperature. Although we have found that increasing the substrate speed compromises the barrier properties of the AZO/SnO x hybrid layer, deposition temperature is a likewise critical parameter. For other material systems, an elevated growth temperature has been shown to have a beneficial impact on the layer density, electrical conductivity, and reduced concentration of precursor residues of the resulting ALD layers. <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b41">42</ref> The effect of substrate temperature on the electrical conductivity of SnO x grown by both B-ALD and S-ALD using H 2 O as oxidant has been studied previously. <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b38">39</ref> For S-ALD SnO x , the electrical conductivity remained in the range of 10 -4 -10 -3 S cm -1 for a growth temperature between 80 and 150 °C. To analyze the influence of deposition temperature in the case of our SnO x layers grown by S-ALD, we performed a series of RBS studies. Thereby, we identify an elevated level of carbon (∼20%) and nitrogen (∼5%) residues in layers grown at 80 °C (Table <ref type="table" target="#tab_0">S2</ref>). For increasing the processing temperature to 120 and 150 °C, the content of carbon/nitrogen is significantly reduced to levels of 0.3/0.1% and 0.1/&lt;0.1%, respectively. At the same time, the areal density of tin atoms (for a 20 nm thick layer) increases from 3.5 × 10 16 to 3.8 × 10 16 atoms cm -2 by increasing the deposition temperature. Concomitantly, the WVTR decreases by about an order of magnitude from ∼10 -4 to about 10 -5 gm -2 day -1 (Figure <ref type="figure" target="#fig_6">4a</ref>).</p><p>Moreover, for the SnO x /AZO bilayers, the characteristic shoulder in the RBS spectra toward lower channel numbers indicating the partial growth of SnO x in the pores of the AZO layer shows a notable dependence on the deposition temperature (Figure <ref type="figure" target="#fig_6">4b</ref>). Obviously, higher deposition temperatures infer an increased penetration of the SnO x into the porous AZO (Figure <ref type="figure" target="#fig_6">4c</ref>). This is very likely due to the thermally activated precursor diffusion. <ref type="bibr" target="#b18">19</ref> Owing to the improved mass density, lowered WVTR and better pore filling of the SnO x , increasing the deposition temperature appears to be attractive for the application in PSCs. Unfortunately, temperatures in excess of 100 °C result in PSCs with substantially deteriorated characteristics (Figures <ref type="figure" target="#fig_6">4d</ref> and<ref type="figure">S6</ref>). Here, it is important to note that the postdeposition annealing of the perovskite layers was done at 100 °C. It has been shown very recently that for MAPbI 3 , at temperatures higher than 100 °C, thermal degradation is happening at the perovskite surface within minutes time. <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> For both S-ALD and B-ALD, some exposure time to the growth temperature prior to the actual deposition is technologically inevitable. Thus, the observed deterioration of our PSC at an ALD deposition temperature &gt;100 °C is very likely related to the thermal instability of the perovskite. To further exploit the superior properties of SnO x grown at T &gt; 100 °C, the use of more temperature-stable perovskite materials could be very rewarding but is beyond the scope of this work.</p><p>Taken together, an optimum temperature window between 80 and 100 °C affords the best PSC characteristics. At the same time, the barrier properties of the AZO/SnO x hybrid layers grown by S-ALD in this temperature range provide an outstanding long-term cell stability.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">CONCLUSIONS</head><p>In summary, we have demonstrated that spatial ALD at atmospheric pressure affords SnO x with similar optical and electrical properties as those of their analogues deposited by conventional vacuum-based ALD. We unraveled the specific influence of deposition speed and temperature on the ability to form particularly dense hybrid AZO/SnO x electron extraction layers in perovskite solar cells. We identified a low deposition temperature of 80 °C as an optimum choice. The substrate speed can be as high as 2.4 m min -1 , without sacrificing material properties. The low water vapor transmission rate of the SnO x layers (∼10 -4 gm -2 day -1 ) renders them as excellent permeation barriers that limit the ingress of moisture into the devices. Most significantly, the SnO x simultaneously forms a shield that protects constituents of the cell against corrosive halide-containing perovskite decomposition products. The resulting PSCs showed stable characteristics beyond 1000 h in ambient air and over 3000 h at 60 °C. Most notably, the introduction of spatial ALD at atmospheric pressure paves the way to the future roll-to-roll manufacturing of stable perovskite solar cells. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Notes</head><p>The authors declare no competing financial interest. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure S3 .</head><label>S3</label><figDesc>Figure S3. EQE spectra and integrated photocurrent of perovskite solar cells based on S-or B-</figDesc><graphic coords="3,72.00,71.88,457.56,376.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure S2 .</head><label>S2</label><figDesc>Figure S2. Solar cell characteristics for PSCs with SnO x from S-and B-ALD at different</figDesc><graphic coords="6,77.16,71.88,457.56,364.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. (a) Schematic of the spatial ALD assembly. (b) p-i-n solar cell stack used in this work.</figDesc><graphic coords="9,102.44,69.17,419.98,114.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Comparison of PSCs incorporating SnO x grown by B-ALD and S-ALD at 80 °C.For the S-ALD, a substrate velocity of 20 mm s -1 has been used. J/V characteristics (a) and stabilized power output (b). All related current density data were derived from EQE measurements (see FigureS3). PCE vs time of storage in ambient air (25 °C, 60% RH) (c) and at elevated temperature (60 °C, inert atmosphere) (d).</figDesc><graphic coords="11,120.47,69.17,383.98,292.03" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. GPC and refractive index vs substrate velocity at 80 °C deposition temperature (a). RBS signal related to tin of the hybrid AZO/SnO x layer for SnO x deposited at varied substrate speeds (b). Note, the Sn spectra were normalized. Schematic of the diffusion of SnO x (yellow) inside the AZO NP layer (c). Normalized PCE vs time of storage in ambient air (25 °C, 60% RH) for solar cells with SnO x layer grown at 20 and 80 mm s -1 , respectively (d).</figDesc><graphic coords="12,120.47,69.17,383.98,290.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>■</head><label></label><figDesc>ASSOCIATED CONTENT * S Supporting Information The Supporting Information is available free of charge on the ACS Publications website at DOI: 10.1021/acsami.7b17701. Saturation of ALD growth variating the amount of H 2 O and TDMASn, optical absorption and their respective Tauc plots for 20 nm SnO x films, EQE data of PSCs comprising S-ALD-based SnO x , solar cell characteristics vs time under elevated temperature, statistics of PSC, solar cell characteristics of PSCs vs ALD deposition temperature, RBS/NRA data of impurities in S-ALDbased SnO x at different deposition temperatures (PDF) ■ AUTHOR INFORMATION Corresponding Authors *E-mail: lhoffmann@uni-wuppertal.de (L.H). *E-mail: brinkmann@uni-wuppertal.de (K.O.B). *E-mail: t.riedl@uni-wuppertal.de (T.R.). ORCID Lukas Hoffmann: 0000-0003-3150-0879 Author Contributions ∥ L.H. and K.O.B. contributed equally to this work.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Impact of deposition temperature on SnO x as well as on the solar cell. Water vapor transmission rate of SnO x thin films (layer thickness: 100 nm) and tin atom density (by Rutherford Backscattering) for neat S-ALD SnO x layers of each 20 nm thickness (a). RBS spectra of Sn measured on AZO (60 nm)/SnO x hybrid layers with increasing deposition temperature (b). The corresponding partial growth of SnO x inside the pores of the AZO layer is schematically shown in (c). PCE of the corresponding PSCs based on SnO x grown at various temperatures (d). The substrate speed was 20 mm s -1 in this set of experiments.</figDesc><graphic coords="13,120.47,69.17,383.98,293.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="2,72.00,71.88,468.00,187.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="2,72.36,358.44,467.28,187.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="4,101.64,71.88,408.72,385.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="5,77.16,109.44,457.56,364.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table S2 .</head><label>S2</label><figDesc>SnO x and impurities at different S-ALD deposition temperatures measured by NRA</figDesc><table><row><cell>deposition</cell><cell>Areal density of</cell><cell>Areal density of</cell><cell>Areal density of</cell><cell>density of</cell></row><row><cell>temperature / °C</cell><cell>Tin / 10 15 atoms</cell><cell>Oxygen / 10 15</cell><cell>Carbon / 10 15</cell><cell>Nitrogen / 10 15</cell></row><row><cell></cell><cell>/cm 2</cell><cell>atoms /cm 2</cell><cell>atoms /cm 2</cell><cell>atoms /cm 2</cell></row><row><cell>80</cell><cell>35.3</cell><cell>79.5</cell><cell>28.0</cell><cell>7.0</cell></row><row><cell>120</cell><cell>37.1</cell><cell>76.5</cell><cell>0.4</cell><cell>1.6</cell></row><row><cell>150</cell><cell>38.3</cell><cell>70.5</cell><cell>0.1</cell><cell>0.0</cell></row><row><cell>1. INTRODUCTION</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Comparison of the Film Properties of Tin Oxide Layers Deposited via Spatial Atmospheric Pressure ALD (S-ALD) and Low-Pressure Batch ALD (B-ALD) a</figDesc><table><row><cell></cell><cell>S-ALD</cell><cell>B-ALD</cell></row><row><cell>GPC (nm)</cell><cell>0.15</cell><cell>0.11</cell></row><row><cell>refractive index n (at 632 nm)</cell><cell>1.88</cell><cell>1.89</cell></row><row><cell>optical band gap (eV)</cell><cell>3.8</cell><cell>3.8</cell></row><row><cell>electrical conductivity (S cm -1 )</cell><cell>1 0 -4</cell><cell>10 -4</cell></row><row><cell>WVTR (gm -2 day -1 ) (at 60 °C/60% RH)</cell><cell>2 × 10 -4</cell><cell>4 × 10 -4</cell></row></table><note><p>a In both cases, TDMASn and H 2 O were used as precursors at a deposition temperature of 80 °C. The substrate speed in the S-ALD process was 20 mm s -1 .</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Downloaded via UNIV OF CALIFORNIA SAN DIEGO on November 8, 2024 at 06:43:31 (UTC).See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>ACS Appl. Mater. Interfaces 2018, 10, 6006-6013</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>■ ACKNOWLEDGMENTS</head><p>We acknowledge the <rs type="funder">German Federal Ministry for Education and Research (Grants No</rs>. <rs type="grantNumber">03EK3529E</rs>, <rs type="grantNumber">13N13819</rs>, and <rs type="grantNumber">13N12889</rs>) and the <rs type="funder">Deutsche Forschungsgemeinschaft (DFG)</rs> (Grants: <rs type="grantNumber">RI1551/4-2</rs>) for financial support. P.G. acknowledges funding from the <rs type="funder">European Research Council (ERC)</rs> under the European Union's <rs type="programName">Horizon 2020 research and innovation programme</rs> (grant agreement No. <rs type="grantNumber">637367</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_XyJzkvc">
+					<idno type="grant-number">03EK3529E</idno>
+				</org>
+				<org type="funding" xml:id="_eeW6YvT">
+					<idno type="grant-number">13N13819</idno>
+				</org>
+				<org type="funding" xml:id="_WyBTCby">
+					<idno type="grant-number">13N12889</idno>
+				</org>
+				<org type="funding" xml:id="_PJpHszZ">
+					<idno type="grant-number">RI1551/4-2</idno>
+					<orgName type="program" subtype="full">Horizon 2020 research and innovation programme</orgName>
+				</org>
+				<org type="funding" xml:id="_AfESRfk">
+					<idno type="grant-number">637367</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Colloidally Prepared La-Doped BaSnO3 Electrodes for Efficient, Photostable Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Yeom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Seok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">356</biblScope>
+			<biblScope unit="page" from="167" to="171" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">NREL Efficiency Chart. Retrieved</title>
+		<imprint>
+			<date type="published" when="2017-11-20">November 20, 2017</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Renewable Energy Laboratory</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Approaching the Fill Factor Shockley-Queisser Limit in Stable, Dopant-Free Triple Cation Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stolterfoht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Amir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paulke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perdigoń-Toro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caprioglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1530" to="1539" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Iodide Management in Formamidinium-Lead-Halide-based Perovskite Layers for Efficient Solar Cells</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B.-W</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">U</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">356</biblScope>
+			<biblScope unit="page" from="1376" to="1379" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Intrinsic Thermal Instability of Methylammonium Lead Trihalide Perovskite</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Conings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Drijkoningen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gauquelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Babayigit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>D'haen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>D'olieslaeger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ethirajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Verbeeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Manca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mosconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Angelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-G</forename><surname>Boyen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2015">2015. 1500477</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Perovskite-fullerene Hybrid Materials Suppress Hysteresis in Planar Diodes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Buin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Ip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Voznyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Comin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Mcdowell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kanjanaboos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Quan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Maksymovych</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Sargent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">7081</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Study on the Stability of CH3NH3PbI3 Films and the Effect of Post-Modification by Aluminum Oxide in All-Solid-State Hybrid Solar Cells</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qiu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">705</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Thermal Degradation of CH3NH3PbI3 Perovskite into NH3 and CH3I Gases Observed by Coupled Thermogravimetry-mass Spectrometry Analysis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Juarez-Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hawash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Raga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Ono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="3406" to="3410" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Mixed Cation Hybrid Lead Halide Perovskites with Enhanced Performance and Stability</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="11450" to="11461" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Review of Recent Progress in Chemical Stability of Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="8970" to="8980" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Silver Iodide Formation in Methyl Ammonium Lead Iodide Perovskite Solar Cells with Silver Top Electrodes</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Ono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Raga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<date type="published" when="2015">2015. 1500195</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Fully Solution-Processed Transparent Electrodes Based on Silver Nanowire Composites for Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-C</forename><surname>Kwon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-G</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Moon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nanoscale</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="6308" to="6316" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">High Temperature-Stable Perovskite Solar Cell Based on Low-Cost Carbon Nanotube Hole Contact</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Aitola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Domanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Correa-Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sveinbjornsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graẗzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kauppinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M J</forename><surname>Johansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Boschloo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<date type="published" when="2017">2017. 1606398</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Enhancing Stability and Efficiency of Perovskite Solar Cells with Crosslinkable Silane-Functionalized and Doped Fullerene</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2016">2016. 12806</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Not All That Glitters Is Gold: Metal-Migration-Induced Degradation in Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Domanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Correa-Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graẗzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="6306" to="6314" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">One-Year Stable Perovskite Solar Cells by 2D/3D Interface Engineering</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grancini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Roldań-Carmona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mosconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Martineau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Narbey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Oswald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Angelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Graetzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2017">2017. 15684</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Influence of Electrode Interfaces on the Stability of Perovskite Solar Cells: Reduced Degradation Using MoOx/Al for Hole Collection</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Sanehira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Tremolet De Villers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O</forename><surname>Reese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ferrere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Luther</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="38" to="45" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Thermal and Environmental Stability of Semi-Transparent Perovskite Solar Cells for Tandems Enabled by a Solution-Processed Nanoparticle Buffer Layer and Sputtered ITO Electrode</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Bush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Bailie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Bowring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leijtens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Moghadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mcgehee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="3937" to="3943" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Improved Air Stability of Perovskite Solar Cells via Solution-Processed Metal Oxide Transport Layers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-B</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-F</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>De Marco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Nanotechnol</title>
+		<imprint>
+			<biblScope unit="page" from="75" to="81" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Efficient and Stable Large-Area Perovskite Solar Cells with Inorganic Charge Extraction Layers</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ashraful</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gratzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">350</biblScope>
+			<biblScope unit="page" from="944" to="948" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">6%-Efficient Monolithic Perovskite/Silicon Tandem Solar Cells With Improved Stability</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Bush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Palmstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Boccard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cheacharoen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Mailoa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Mcmeekin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L Z</forename><surname>Hoye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Bailie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leijtens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Minichetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rolston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Prasanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sofia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Harwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Moghadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>et al. 23.. Nat. Energy 2017, 2, No. 17009</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Synthesis and Surface Engineering of Complex Nanostructures by Atomic Layer Deposition</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Knez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nielsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Niinisto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="3425" to="3438" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Al2O3/ZrO2 Nanolaminates as Ultrahigh Gas-Diffusion Barriers-A Strategy for Reliable Encapsulation of Organic Electronics</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gorrn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bertram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hamwi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Winkler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-H</forename><surname>Johannes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Weimann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hinze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riedl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kowalsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1845" to="1849" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The Origin of Low Water Vapor Transmission Rates through Al2O3/ZrO2 Nanolaminate Gas-Diffusion Barriers Grown by Atomic Layer Deposition</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kowalsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riedl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<date type="published" when="2010">2010. 243308</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Stabilizing Hybrid Perovskites against Moisture and Temperature via Non-Hydrolytic Atomic Layer Deposited Overlayers</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B F</forename><surname>Martinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="20092" to="20096" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">High-Efficiency Humidity-Stable Planar Perovskite Solar Cells Based on Atomic Layer Architecture</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Koushik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J H</forename><surname>Verhees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Veenstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Verheijen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Creatore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Schropp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="91" to="100" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">High-Performance, Air-Stable, Low-Temperature Processed Semitransparent Perovskite Solar Cells Enabled by Atomic Layer Deposition</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Siao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="5122" to="5130" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Liquid Waterand Heat-Resistant Hybrid Perovskite Photovoltaics via an Inverted ALD Oxide Electron Extraction Layer Design</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Buchholz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Emery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">K</forename><surname>Farha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Hupp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kanatzidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B F</forename><surname>Martinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="7786" to="7790" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Highly Robust Transparent and Conductive Gas Diffusion Barriers Based on Tin Oxide</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Behrendt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Friedenberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gahlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Trost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zilberberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Polywka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gorrn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riedl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="5961" to="5967" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Suppressed Decomposition of Organometal Halide Perov-skites by Impermeable Electron-Extraction Layers in Inverted Solar Cells</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">O</forename><surname>Brinkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pourdavoud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Olthof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Meerholz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gahlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Heiderhoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Oszajca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Luechinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rogalla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riedl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2017">2017. 13938</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Indium-Free Perovskite Solar Cells Enabled by Impermeable Tin-Oxide Electron Extraction Layers</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pourdavoud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">O</forename><surname>Brinkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Heiderhoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gahlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Olthof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Meerholz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tobbens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riedl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<date type="published" when="2017">2017. 1606656</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Self-Encapsulating Thermostable and Air-Resilient Semitransparent Perovskite Solar Cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">O</forename><surname>Brinkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pourdavoud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gahlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Heiderhoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Polywka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gorrn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riedl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1602599</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Stable ZnO Thin Film Transistors by Fast Open Air Atomic Layer Deposition</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Cowdery-Corvan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Irving</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<date type="published" when="2008">2008. 192101</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Gas Diffusion Barriers Prepared by Spatial Atmospheric Pressure Plasma Enhanced ALD</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Theirich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kocak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schlamm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hasselmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Raüpke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gargouri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riedl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="4171" to="4176" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Catalytic Role of H 2 O in Degradation of Inorganic-Organic Perovskite (CH3NH3PbI3) in Air</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Energy Res</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="1063" to="1069" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Investigation of CH3NH3PbI3 Degradation Rates and Mechanisms in Controlled Humidity Environments Using in Situ Techniques</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Siempelkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1955" to="1963" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Gas Permeation Barriers Deposited by Atmospheric Pressure Plasma Enhanced Atomic Layer Deposition</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Theirich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hasselmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Raüpke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schlamm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riedl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Vac. Sci. Technol., A</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">01A114</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Atomic Layer Deposition of Al2O3 and ZnO at Atmospheric Pressure in a Flow Tube Reactor</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Jur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Parsons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="299" to="308" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Atmospheric Pressure Plasma Enhanced Spatial Atomic Layer Deposition of SnOx as Conductive Gas Diffusion Barrier</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Theirich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schlamm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hasselmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">O</forename><surname>Brinkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rogalla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Raüpke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gargouri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riedl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Vac. Sci. Technol., A</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">01A112</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The Conducting Tin Oxide Thin Films Deposited via Atomic Layer Deposition Using Tetrakis-Dimethylamino Tin and Peroxide for Transparent Flexible Electronics</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Maeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-S</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">313</biblScope>
+			<biblScope unit="page" from="585" to="590" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">On the Kinetics of Spatial Atomic Layer Deposition</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Poodt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Lieshout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Illiberi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Knaapen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Roozeboom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Asten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Vac. Sci. Technol., A</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">01A108</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Atomic Layer Deposition of Tin Oxide Films Using Tetrakis(dimethylamino) Tin</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Elam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Hryn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B F</forename><surname>Martinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pellin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Hupp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Vac. Sci. Technol., A</title>
+		<imprint>
+			<biblScope unit="page">244</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

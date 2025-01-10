@@ -1,0 +1,2225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Interfacial engineering from material to solvent: A mechanistic understanding on stabilizing α-formamidinium lead triiodide perovskite photovoltaics</title>
+				<funder ref="#_KytE8Ag">
+					<orgName type="full">DFG</orgName>
+				</funder>
+				<funder ref="#_fy7H8ku">
+					<orgName type="full">European Union</orgName>
+				</funder>
+				<funder ref="#_2DybFGM #_kPWGwJw">
+					<orgName type="full">Swedish Energy Agency Energimyndigheten</orgName>
+				</funder>
+				<funder ref="#_mgR6QNv">
+					<orgName type="full">ERC Starting Grant</orgName>
+				</funder>
+				<funder ref="#_3xZNaUp">
+					<orgName type="full">Swiss National Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-01-10">10 January 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jiajia</forename><surname>Suo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry -Ångström Laboratory</orgName>
+								<orgName type="institution">Uppsala University</orgName>
+								<address>
+									<postCode>SE-75120</postCode>
+									<settlement>Uppsala</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="department" key="dep2">School of Basic Sciences</orgName>
+								<orgName type="laboratory">Laboratory of Photomolecular Science</orgName>
+								<orgName type="institution">Ecole Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bowen</forename><surname>Yang</surname></persName>
+							<email>bowen.yang@kemi.uu.se</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry -Ångström Laboratory</orgName>
+								<orgName type="institution">Uppsala University</orgName>
+								<address>
+									<postCode>SE-75120</postCode>
+									<settlement>Uppsala</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="department" key="dep2">School of Basic Sciences</orgName>
+								<orgName type="laboratory">Laboratory of Photomolecular Science</orgName>
+								<orgName type="institution">Ecole Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jaeki</forename><surname>Jeong</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="department" key="dep2">School of Basic Sciences</orgName>
+								<orgName type="laboratory">Laboratory of Photonics and Interfaces</orgName>
+								<orgName type="institution">Ecole Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tiankai</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Physics, Chemistry and Biology (IFM)</orgName>
+								<orgName type="institution">Linköping University</orgName>
+								<address>
+									<settlement>Linköping</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Selina</forename><surname>Olthof</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Institute for Physical Chemistry</orgName>
+								<orgName type="institution">University of Cologne</orgName>
+								<address>
+									<addrLine>Greinstrasse 4-6</addrLine>
+									<postCode>50939</postCode>
+									<settlement>Cologne</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Feng</forename><surname>Gao</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Physics, Chemistry and Biology (IFM)</orgName>
+								<orgName type="institution">Linköping University</orgName>
+								<address>
+									<settlement>Linköping</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Grätzel</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="department" key="dep2">School of Basic Sciences</orgName>
+								<orgName type="laboratory">Laboratory of Photonics and Interfaces</orgName>
+								<orgName type="institution">Ecole Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gerrit</forename><surname>Boschloo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry -Ångström Laboratory</orgName>
+								<orgName type="institution">Uppsala University</orgName>
+								<address>
+									<postCode>SE-75120</postCode>
+									<settlement>Uppsala</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anders</forename><surname>Hagfeldt</surname></persName>
+							<email>anders.hagfeldt@uu.se</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry -Ångström Laboratory</orgName>
+								<orgName type="institution">Uppsala University</orgName>
+								<address>
+									<postCode>SE-75120</postCode>
+									<settlement>Uppsala</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Institute of Chemical Sciences and Engineering</orgName>
+								<orgName type="department" key="dep2">School of Basic Sciences</orgName>
+								<orgName type="laboratory">Laboratory of Photomolecular Science</orgName>
+								<orgName type="institution">Ecole Polytechnique Fédérale de Lausanne</orgName>
+								<address>
+									<postCode>CH-1015</postCode>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nano</forename><surname>Energy</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Chemistry -Ångström Laboratory</orgName>
+								<orgName type="institution">Uppsala University</orgName>
+								<address>
+									<postCode>SE-75120</postCode>
+									<settlement>Uppsala</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Interfacial engineering from material to solvent: A mechanistic understanding on stabilizing α-formamidinium lead triiodide perovskite photovoltaics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-01-10">10 January 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E5CED95689A22BE7790C8743B4BB5F75</idno>
+					<idno type="DOI">10.1016/j.nanoen.2022.106924</idno>
+					<note type="submission">Received 7 October 2021; Received in revised form 3 January 2022; Accepted 4 January 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T17:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Perovskite solar cells Residual strain Isopropyl alcohol Chloroform Stability</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Formamidinium lead triiodide (FAPbI 3 ) has recently been considered as the most promising candidate to achieve highly efficient perovskite solar cells (PSCs). Excitingly, the state-of-the-art highest efficiency of FAPbI 3 based PSCs have reached over 25%. However, their device stability still lags behind other compositions of mixed-cation and mixed-halide perovskites. Interfacial engineering is a very powerful method to address this issue and passivation agents have been intensively developed, however there is a lack of in-depth understanding regarding the solvent selection during post-treatment. Here, we employed cyclohexylmethylammonium iodide (CMAI) as passivation agent, which is investigated using either isopropanol (IPA) or chloroform (CF) as carrier mediator to study the solvent influence on the stabilization of FAPbI 3 . We observed a suppressed-defect perovskite surface toward distinguished composition with 2D CMA 2 PbI 4 domain and CMAI domain induced by IPA and CF, respectively. Remarkably, post-treatment with solution of CMAI in CF creates a strain-free environment on the perovskite surface, leading to an improved efficiency of approaching 24% and concurrently an extraordinarily stable α-phase FAPbI 3 PSCs under operation condition, retaining 95% of its initial efficiency after 1050-hour aging. Our resulting device stability is one of the most stable FAPbI 3 based PSCs reported in literature.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Hybrid organic-inorganic lead halide perovskite solar cells have seen a rapid expansion of research since their first report in 2009, driven by their low-cost solution processing and outstanding optoelectronic properties, leading to high power conversion efficiencies with a record value of 25.5%, the highest efficiency for thin-film solar cells <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>.</p><p>Among various compositions, α-phase FAPbI 3 has recently emerged as the most promising candidate for highly efficient single-junction PSCs, owing to its optimal bandgap, high absorption coefficient, long carrier diffusion length and excellent thermal stability <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>. However, its photoactive α-phase (black-phase) is not stable at room temperature and undergoes a phase transition to the undesired wide-bandgap δ-phase (yellow phase) <ref type="bibr" target="#b4">[5]</ref>. Compositional engineering via mixing with methylammonium (MA + ), cesium (Cs + ) or bromide (Br -) ions has been reported as an effective method to stabilize the α-phase FAPbI 3 <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>.</p><p>However, this causes a trade-off by reducing the thermal stability, narrowing absorption spectrum, and introducing phase segregation issues under operational conditions <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15]</ref>.</p><p>Instead, additive engineering has been reported as an effective approach to improve the stability of α-phase FAPbI 3 , leading to improved device performance as well as a better long-term stability. For example, several groups reported that methylammonium chloride (MACl) can assist the crystallization and preserve the crystal structure of α-phase FAPbI 3 , thereby providing highly efficient PSCs <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b15">16]</ref>. By optical management and exploiting the absorption spectrum of FAPbI 3 , a certified PCE of 23.7% has been reported via introducing 3.8 mol% methylenediammonium dichloride (MDACl 2 ). Although the bandgap of FAPbI 3 was slightly enlarged, the additive can structurally stabilize the α-phase of FAPbI 3 , resulting in a superb operational stability, retaining more than 90% of the initial efficiency after 600 h light soaking <ref type="bibr" target="#b8">[9]</ref>. Furthermore, it has been recently found that doping a FAPbI 3 precursor solution with small amount of formamidine formate (FAFo) can further suppress the non-radiative recombination of charge carriers in the perovskite films by occupying iodide vacancy defects at the perovskite surface as well as the grain boundaries; this enabled a PCE of PSC of 25.6% (certified 25.2%) <ref type="bibr" target="#b9">[10]</ref>.</p><p>In addition to dopant engineering, surface passivation is another important approach for device optimization since non-radiative losses caused by defect states are most commonly located at the perovskite surface <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref>. Among various passivation agents, isopropyl alcohol (IPA) has become a ubiquitous and default solvent for post-treatment of all kinds of perovskite films, including FAPbI 3 based, mainly due to its ability to dissolve organic ammonium salts and other molecules <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref>. In particular, it was shown to assist in the anchoring process of organic ammonium salts during the post surface reconstruction <ref type="bibr" target="#b25">[26]</ref>. However, exposing the perovskite surface to IPA induces a risk of creating a PbI 2 -rich perovskite surface, which generate defects and facilitate perovskite degradation <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b26">27]</ref>. In contrast, low-polarity solvents, such as chloroform (CF), are expected to have less effect on the perovskite surface <ref type="bibr" target="#b27">[28]</ref>, but have received very little attention so far, mainly due to the limited solubility for the commonly used passivation molecules, such as phenylethylammonium iodide (PEAI) <ref type="bibr" target="#b22">[23]</ref>, formamidinium halide <ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref>, and octylammonium iodide (OAI) <ref type="bibr" target="#b23">[24]</ref>. Thus, in this work, we employed interfacial engineering of FAPbI 3 based perovskites by passivation with cyclohexylmethylammonium iodide (CMAI, shown in Fig. <ref type="figure" target="#fig_0">1a</ref>), which has been recently reported as an efficient passivation material through formation of 2D/3D perovskite heterojunction <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b32">33]</ref>. The solubility of CMAI (&gt;30 mg/mL) in a low-polarity solvent, CF, can be significantly improved due to the presence of the cyclohexane group. In addition, we are able to develop an in-depth understanding by comparing the solvent effect of IPA and CF during post-treatment. Importantly, CMAI always has a positive effect on passivating and stabilizing the FAPbI 3 based PSCs regardless which solvent is used. Interestingly, we found the components of both CMAI and 2D perovskite CMA 2 PbI 4 were formed on the perovskite surface upon post-treatment, however, with different domain component for different solvents, which stems from the solubility variations of FAI in IPA and CF. This induces target perovskite with a more released residual tension strain and prolonged carrier lifetime with treatment of CMAI in CF compare to CMAI in IPA, resulting in a better device stability of the PSCs under various conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Results and discussion</head><p>According to the previous work <ref type="bibr" target="#b7">[8]</ref>, a precursor solution containing FAPbI 3 powder and additional 35 mol% methylammonium chloride (MACl) was used to fabricate black α-phase FAPbI 3 perovskite films. CMAI solution dissolved in IPA or CF (5 mg/mL) was spin-coated onto the perovskite film, without further processing. Here, we use CMAI (IPA) and CMAI (CF) to further refer to solution of CMAI dissolving in IPA and CF, respectively.</p><p>To investigate the effect of post-treatment on the perovskite morphology, high-resolution scanning electron microscopy (HR-SEM), atomic force microscopy (AFM) and X-ray diffraction (XRD) were carried out. In the SEM images in Fig. <ref type="figure" target="#fig_0">1b-d</ref>, a compact pinhole-free polycrystalline film is observed upon treatment of CMAI (IPA), which is quite similar to the control pristine perovskite film; in contrast, a contour-linelike texture appears after post-treating the film with CMAI (CF). Nevertheless, the roughness of CMAI treated films is significantly  , respectively, as illustrated in Fig. <ref type="figure" target="#fig_0">S1b</ref>. Interestingly, we found that using IPA, the majority of CMAI molecules become integrated as 2D perovskite, while only a small amount remains unreacted on the surface. In contrary, after treatment with CMAI (CF), the formation of a CMAI dominates, while only a small amount of 2D perovskite is present. We relate this phenomena to the different solubility of the main component, formamidinium iodide (FAI), in the 3D perovskite, which dissolves well in IPA, owing to its high polarity and formation of hydrogen bonding, but shows limited solubility in CF <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b27">28]</ref>. As a result, FAI partially dissolves from the perovskite surface upon exposure to IPA, and is removed during the spin-coating process. The resulting vacancies enable a reaction between the remaining PbI 2 and the newly introduced CMAI which form a 2D perovskite layer, as illustrated in Fig. <ref type="figure" target="#fig_0">1i</ref>. In case of exposure to CF, CMAI is limited in its possibility to react with PbI 2 due to the insolubility of FAI in CF. Therefore, such post-treated film is prone to form an additional CMAI layer on top of the perovskite film and we attribute the 2D perovskite phase to the ammonium cation exchange between CMA + and FA + . Furthermore, to identify possible solvent effects on our 3D perovskite, we additionally compared grazing incident X-ray diffraction (GIXRD) patterns of films exposed to pure IPA or CF (Fig. <ref type="figure" target="#fig_1">S2</ref>). A PbI 2 peak, located at 12.6 • , is detected on the perovskite surface after IPA treatment, as shown in Fig. <ref type="figure" target="#fig_1">S2b</ref>. This is consistent with the SEM images shown in Fig. <ref type="figure" target="#fig_2">S3a</ref>, where plenty of small bright crystals are observed on the perovskite surface exposed to pure IPA, indicating the formation of PbI 2 <ref type="bibr" target="#b29">[30]</ref>. However, in comparison with the untreated film, there is no obvious change on the morphology and crystal structure of the perovskite film treated with neat CF, according to the GIXRD pattern and SEM images shown in Fig. <ref type="figure" target="#fig_1">S2c</ref> and Fig. <ref type="figure" target="#fig_2">S3b</ref>, suggesting a negligible effect upon CF treatment. To further distinguish the solvent effect, we added 5 mol% PbI 2 into the perovskite precursor solution to form a PbI 2 -rich FAPbI 3 film, where PbI 2 is mainly located on the top of the perovskite film surface, as determined from the GIXRD pattern (Fig. <ref type="figure" target="#fig_4">S4</ref>) and SEM image (Fig. <ref type="figure">S5</ref>). In this case, only 2D perovskite CMA 2 PbI 4 was observed form the GIXRD patterns after the treatment of CMAI (IPA) and CMAI (CF), indicating that CMAI can indeed react with excessive PbI 2 at the surface regardless of solvents. Based on the above results, IPA dissolves and removes the FAI on the perovskite surface, which promotes the formation of 2D CMA 2 PbI 4 . This is not the case for CF solution treatment, thus the two solvents lead to different surface compositions on top of the perovskite.</p><p>The distinguished surface reconstruction processes by CMAI (IPA) and CMAI (CF) resulted in diverse surface composition, which also influenced the residual strain of the perovskite surface and the existence of the intrinsic stress has been recognised as one of critical sources of PSCs instability <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b34">35]</ref>. We focused on the 50 nm region depth of the perovskite film, which is mainly affected by post-treatment, for interfacial strain investigation and employed GIXRD technique with 2θ-sin 2 ψ method for residual stress analysis, where ψ is the instrument tilt angle <ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref>. Due to the high diffraction angle and multiplicative factor of the (012) crystallographic plane, GIXRD patterns at around 31.6 • was chosen for the strain distribution analysis. The results are shown in Fig. <ref type="figure" target="#fig_1">2a-c</ref>. After the linear fitting of 2θ-sin 2 ψ value by varying ψ, the slope of fitted lines reflects the magnitude of residual strain as well as the strain states <ref type="bibr" target="#b36">[37,</ref><ref type="bibr" target="#b37">38]</ref>. As shown in Fig. <ref type="figure" target="#fig_1">2a</ref>, the diffraction peaks of the control film gradually shift to smaller 2θ with the increase of ψ from 0 • to 50 • . The negative slope observed in Fig. <ref type="figure" target="#fig_1">2d</ref> indicates that the surface of the pristine perovskite bears a tensile strain. After post-treatment with CMAI (IPA), a reduced shift of the GIXRD peaks vs. ψ (Fig. <ref type="figure" target="#fig_1">2b</ref>) is observed, indicating a decreased surface tensile strain after the surface reconstruction process. Notably, a completely strain-free film is obtained upon CMAI (CF) treatment, with a linear slope of 2θ-sin 2 ψ approaching to 0, as observed in Fig. <ref type="figure" target="#fig_1">2c</ref>. This implies that the post-treatment of CMAI with a slow cation exchange process in CF plays an important role in releasing the residual tension stress of the perovskite film, which creates a strain-free environment. The release of residual strain contributes to the lattice stabilization of α-FAPbI 3 , which can consequently lead to a significant enhancement on the device stability (see discussion below). Moreover, it is well known that the existence of residual strain will also influence defect concentration and non-radiative recombination of perovskite films <ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref>. Therefore, time-resolved photoluminescence (TRPL) measurements were carried out to further examine the difference induced by the two solvents. As shown in Fig. <ref type="figure" target="#fig_1">2e</ref>, compared to the control film, both CMAI-treated perovskite films present slower photoluminescence decay, especially the one exposed to CF shows the longest lifetime. This indicates that the introduction of CMAI could efficiently reduce the defect density and suppress the non-radiative recombination of the perovskite film <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b38">39]</ref>. To further evaluate the solvent effect on film trap density, space-charge-limited-current (SCLC) measurements were carried out on electron-only devices with structure of FTO/cp-TiO 2 /mp-TiO 2 /-FAPbI 3 /CMAI/PCBM/Au, as shown in Fig. <ref type="figure">S6a</ref>. The control device shows a trap-filling limited voltage (V TFL ) of 0.423 V, which reduced to 0.330 V and 0.307 V after post-treatment with CMAI (IPA) and CMAI (CF), respectively (Fig. <ref type="figure">S6b-d</ref>). Correspondingly, the calculated trap density (N t ) decreases form 8.08 × 10 15 cm -3 to 6.30 × 10 15 cm -3 and 5.86 × 10 15 cm -3 upon the CMAI treatment, which is estimated by the following equation: V TFL = (eN t L 2 )/(2ε 0 ε), where e is the elementary charge, L is the thickness of FAPbI 3 perovskite film (600 nm), ε 0 is the vacuum permittivity, and ε is the relative dielectric constant <ref type="bibr" target="#b40">[41]</ref>. The reduced trap density indicates the formation of an effective passivation layer after surface reconstruction, which could improve the photovoltaic performances <ref type="bibr" target="#b29">[30,</ref><ref type="bibr" target="#b42">42]</ref>.</p><p>X-ray photoelectron spectroscopy (XPS) was conducted to investigate the element composition after the surface reconstruction, as illustrated in Fig. <ref type="figure">S7</ref> and Fig. <ref type="figure" target="#fig_1">2f</ref>. The Pb 4f7/2 core level signal was located at 138.56 eV in the pristine film, however shifted towards a slightly higher bonding energy in both cases upon CMAI treatment, suggesting the variation of surface chemical environment. From the pristine film, N1s peak of FA + was located at 400.5 eV and no MA + peak (402.1 eV) was found <ref type="bibr" target="#b43">[43]</ref>, which is in agreement with the pure FAPbI 3 film composition <ref type="bibr" target="#b7">[8]</ref>. After passivation treatment with CMAI regardless of the solvent, a new N 1s peak appeared at 402.1 eV and the intensity of FA + peak was significantly reduced, implying that a new layer dominated by CMAI was formed on top of the 3D perovskite film. Notably, the ratios between CMA + and FA + , calculated from the simulative integrated areas of the two N1s peaks were 6.22 and 4.59 via CMAI (IPA) and CMAI (CF) treatment, respectively. Such reduction in cation ratio is another evidence showing that IPA could remove more FAI from the perovskite surface, thus resulting in a lower concentration of FAI during the surface reconstruction process.</p><p>PSCs based on FTO glass/cp-TiO2/mp-TiO2/3D perovskite/passivation layer/spiro-MeOTAD/Au were fabricated to evaluate the photovoltaic performance upon post-treatment by CMAI. The device architecture is shown in Fig. <ref type="figure" target="#fig_2">3a</ref> and the cross-sectional SEM images of the devices are illustrated in Fig. <ref type="figure">S8</ref>. Reverse-scanned (RS) and forwardscanned (FS) J-V curves of the devices were measured under simulated sunlight of air mass (AM) 1.5G. Comparable improvements are observed with CMAI treatment using the two solvents, in comparison to the control device. The average values of photovoltaic parameters are summarized in Table <ref type="table" target="#tab_1">S1</ref>. It is observed that the concentration of 5 mg/ mL CMAI in either IPA or CF delivers the best device performance. The    <ref type="table" target="#tab_1">S1</ref>, both V OC and FF of the post-treated devices show only slight improvement upon formation of pure 2D interlayer by heating the as-prepared passivated perovskite film <ref type="bibr" target="#b32">[33]</ref>. This suggests that in our system, without further annealing, an interlayer with moieties of both 2D perovskite and CMAI play an important role in passivating the 3D perovskite surface. Furthermore, the calculated ideality factor (n id ) of control, CMAI (IPA), and CMAI (CF) treated devices are 1.64, 1.36, and 1.30, respectively. The reduced n id confirms a significantly suppressed trap-assisted recombination via CMAI passivation, which accordingly resulted in an enhancement in V OC <ref type="bibr" target="#b44">[44]</ref>.</p><p>Encouraged by the excellent results above, large area (1 cm 2 ) devices were fabricated to evaluate the practicability of the passivation strategy.</p><p>As shown in Fig. <ref type="figure" target="#fig_2">3f</ref>, one of the best PCE of the target device is 21.07%, with a Jsc of 25.75 mA/cm 2 , a V OC of 1.154 V and a FF of 0.709. Except for the excellent device performance, solvent effect on device stability has also been assessed. Firstly, the contact angle of water droplets on the perovskite films with and without passivation layer were measured. As shown in Fig. <ref type="figure" target="#fig_4">4a</ref>, a dramatic improvement of hydrophobicity after CMAI treatment is observed compared to the pristine perovskite films; the contact angles increase from 57 • to around 90 • . We first exposed the perovskite films in ambient condition with relative humidity of 40 ± 20% for 15 days and monitored the phase stability by GIXRD, as shown in Fig. <ref type="figure" target="#fig_0">S10</ref>. A pronounced δ-phase FAPbI 3 at 11.7 • is clearly observed from the pristine perovskite film, indicating a significant phase transformation. In sharp contrast, both CMAI (IPA) and CMAI (CF) treated perovskite films show negligible δ-phase under the same condition, especially the one treated by CMAI (CF), suggesting an outstanding phase stability upon passivation treatment. To further investigate the device shelf stability, we subjected unencapsulated devices to air with a relative humidity of 20-30% in the dark. As illustrated in Fig. <ref type="figure" target="#fig_4">4b</ref>, the PCE of target devices after 100-day storage retain 95% and 91% after post-treatment with CMAI (CF) and CMAI (IPA), respectively. In contrast, the control devices show more than 15% decrease under the same condition. In addition, we also tested the devices under MPPT at a constant one-sun illumination in N 2 atmosphere at room temperature. As shown in Fig. <ref type="figure" target="#fig_4">4c</ref>, the PCE of the control device drops by almost 24% of its initial value after 1050 h aging. In sharp contrast, both CMAI passivated devices retain more 90% of the initial PCE value. In particular, the CMAI (CF) treated device shows only 5% normalized PCE loss, and is therefore comparably more stable than the device treated with CMAI (IPA). It is worth noting that our resulting device is one of the most stable PSCs based on FAPbI 3 in current literatures, as summarized in Table <ref type="table">S2</ref>. Furthermore, we subjected the unencapsulated devices to 50 • C with humidity at 40 ± 10% to investigate their stability upon elevated temperature and humidity for 500 h. As excepted, CMAI (CF) treated devices retain 93% of their initial PCE, about 27% PCE loss is observed form the CMAI (IPA) treated devices, whereas the control devices show almost 60% PCE loss. We attribute this further enhanced stability to the more released residual strain induced by CMAI (CF).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Conclusion</head><p>Overall, we successfully stabilized the α-phase of FAPbI 3 based PSCs through interfacial engineering with CMAI. More importantly, our indepth optoelectronic film together with device characterizations unraveled the rules of CMAI as passivation agent on reducing nonradiative recombination and the solvent as mediator on leasing surface residual strains during the post-treatment process. Our work paves a way on optimizing the PSCs more comprehensively and sheds light on the detrimental role of the solvent selection for post-treatment process according to the system of the 3D perovskite and passivation molecule. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRediT authorship contribution statement</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Competing Interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. a) Chemical structure of CMAI. Top-view SEM images of b) pristine perovskite film, c) CMAI (IPA) treated perovskite film, and d) CMAI (CF) treated perovskite film. Surface AFM images of e) pristine perovskite film, f) CMAI (IPA) treated perovskite film, and g) CMAI (CF) treated perovskite film. h) XRD patterns of pristine perovskite film (black), CMAI (IPA) treated perovskite film (red), and CMAI (CF) treated perovskite film (blue). i) Schematic representation of surface reconstruction process after CMAI (IPA) and CMAI (CF) treatment.</figDesc><graphic coords="2,81.64,55.45,432.00,280.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. GIXRD peaks with different ψ values of a) the pristine perovskite film (black), b) CMAI (IPA) treated perovskite film, and c) CMAI (CF) treated perovskite film. d) Linear fit of 2θ-sin 2 ψ for the pristine perovskite film (black), CMAI (IPA) treated perovskite film (red), and CMAI (CF) treated perovskite film (blue). e) TRPL of the pristine perovskite film (black), CMAI (IPA) treated perovskite film (red), and CMAI (CF) treated perovskite film (blue). f) XPS N1s core level signals of the pristine perovskite film (black), CMAI (IPA) treated perovskite film (red), and CMAI (CF) treated perovskite film (blue). The two features fitted to the data correspond to FA + and CMA + .</figDesc><graphic coords="3,81.64,55.42,432.00,234.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. a) Device architecture of the PSC. b) IPCE and integrated Jsc of control device (black), CMAI (IPA) treated device (red) and CMAI (CF) treated device (blue). c) J-V curves of the best control device (black), CMAI (IPA) treated device (red) and CMAI (CF) treated device (blue) under reverse scan (RS). d) Power output of the control device (black), CMAI (IPA) treated device (red) and CMAI (CF) treated device (blue) at MPPT. e) Voc versus logarithm of light intensity of the control device (black), CMAI (IPA) treated device (red) and CMAI (CF) treated device (blue). f) J-V curves of the champion 1 cm 2 device, inset image is the picture of large area PSC device.</figDesc><graphic coords="4,81.64,55.41,432.00,236.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>a) Reverse scan; b) Forward scan; c) HI = (PCE RS -PCE FS )/PCE RS enhanced performance induced by CMAI treatment can be attributed to the dramatic increasement in open-circuit voltage (V OC ) and fill factor (FF), leading to an average power conversion efficiency (PCE) of the passivated devices of over 23%. The photocurrent density (Jsc) of the target devices show negligible differences to the control devices, which is in agreement with the comparable incident photo-to-current efficiency (IPCE) and integrated photocurrent density shown in Fig.3b. The champion performance with and without CMAI treatment is summarized in Table1and illustrated in Fig.3c. The best PCE with CMAI (IPA) treatment is 23.77% with a Jsc of 25.76 mA/cm 2 , a V OC of 1.145 V, and a FF of 0.806. The CMAI (CF) treated champion device shows a PCE of 23.94%, with a Jsc of 25.75 mA/cm 2 , a V OC of 1.149 V, and a FF of 0.809, with reduced hysteresis. The stabilized power output of the champion devices was analysed by maximum power point tracking (MPPT) under ambient air with relevant humidity of 30%. The stabilized PCE of both passivated devices exhibit over 23.5% after 10 min aging and the control device is at 21.0%. In addition, as shown in Fig.S9, the statistics of photovoltaic parameters distribution (20 devices for each condition) shows good reproducibility upon CMAI treatment. It is worth noticing that as shown in Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. a) Contact angle of water droplet on perovskite film with and without CMAI treatment. b) Shelf stability of control devices (black), CMAI (IPA) treated devices (red) and CMAI (CF) treated devices (blue) under relative humidity of 20-30%, five devices for each condition. c) Long-term stability of control device (black), CMAI (IPA) treated device (red) and CMAI (CF) treated device (blue) under constant simulated one-sun illumination in N 2 atmosphere at room temperature. d) Shelf stability of control devices (black), CMAI (IPA) treated devices (red) and CMAI (CF) treated devices (blue) under relative humidity of 40 ± 10% at 50 • C, four devices for each condition.</figDesc><graphic coords="5,37.59,55.66,360.00,263.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Jiajia Suo :</head><label>Suo</label><figDesc>Methodology, Investigation, Formal analysis, Measurement, Writingoriginal draft, Writingreview &amp; editing. Bowen Yang: Investigation, Methodology, Formal analysis, Measurement, Writingoriginal draft, Writingreview &amp; editing. Jaeki Jeong: Methodology. Tiankai Zhang: Measurement. Selina Olthof: Measurement. Feng Gao: Visualization. Michael Grätzel: Visualization. Gerrit Boschloo: Visualization. Anders Hagfeldt: Resources, Validation, Supervision, Project administration, Funding acquisition.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc>Photovoltaic parameters and hysteresis index (HI) of control, CMAI (IPA), CMAI (CF) treated champion devices.</figDesc><table><row><cell></cell><cell>Scan direction</cell><cell>Jsc (mA/ cm 2 )</cell><cell>Voc (V)</cell><cell>FF</cell><cell>PCE (%)</cell><cell>Hysteresis index (HI) (%) c</cell></row><row><cell>Control Control</cell><cell>RS a FS b</cell><cell>25.69 25.66</cell><cell>1.092 1.084</cell><cell>0.763 0.744</cell><cell>21.40 20.69</cell><cell>3.3</cell></row><row><cell>CMAI-</cell><cell>RS</cell><cell>25.76</cell><cell>1.145</cell><cell>0.806</cell><cell>23.77</cell><cell>1.6</cell></row><row><cell>IPA</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>CMAI-</cell><cell>FS</cell><cell>25.65</cell><cell>1.142</cell><cell>0.799</cell><cell>23.40</cell><cell></cell></row><row><cell>IPA</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>CMAI-</cell><cell>RS</cell><cell>25.75</cell><cell>1.149</cell><cell>0.809</cell><cell>23.94</cell><cell>1.1</cell></row><row><cell>CF</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>CMAI-</cell><cell>FS</cell><cell>25.70</cell><cell>1.147</cell><cell>0.803</cell><cell>23.67</cell><cell></cell></row><row><cell>CF</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This project has received funding from <rs type="funder">Swiss National Science Foundation</rs> for financial support with Project No. <rs type="grantNumber">200020_185041</rs> and from the <rs type="funder">European Union</rs>'s <rs type="programName">Horizon 2020 research and innovation program</rs> under grant agreement No <rs type="grantNumber">764047</rs>. S.O. acknowledges support from the <rs type="funder">DFG</rs> through the project <rs type="projectName">MUJUPO</rs> (<rs type="grantNumber">415231147</rs>). T.Z. and F.G. thanks the support from the <rs type="funder">ERC Starting Grant</rs> (No. <rs type="grantNumber">717026</rs>) and the <rs type="funder">Swedish Energy Agency Energimyndigheten</rs> (Nos. <rs type="grantNumber">48758-1</rs> and <rs type="grantNumber">44651-1</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_3xZNaUp">
+					<idno type="grant-number">200020_185041</idno>
+				</org>
+				<org type="funding" xml:id="_fy7H8ku">
+					<idno type="grant-number">764047</idno>
+					<orgName type="program" subtype="full">Horizon 2020 research and innovation program</orgName>
+				</org>
+				<org type="funded-project" xml:id="_KytE8Ag">
+					<idno type="grant-number">415231147</idno>
+					<orgName type="project" subtype="full">MUJUPO</orgName>
+				</org>
+				<org type="funding" xml:id="_mgR6QNv">
+					<idno type="grant-number">717026</idno>
+				</org>
+				<org type="funding" xml:id="_2DybFGM">
+					<idno type="grant-number">48758-1</idno>
+				</org>
+				<org type="funding" xml:id="_kPWGwJw">
+					<idno type="grant-number">44651-1</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>J. S and B. Y. contributed equally to this work. B. Y. and J. S. conceived the idea, prepared films, fabricated all devices and analyzed the characterizations and wrote the manuscript. T. Z. assisted in AFM measurements. S. O. performed the XPS measurements. A. H. directed the overall research. All authors read and commented on the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supporting information</head><p>Supplementary data associated with this article can be found in the online version at doi:10.1016/j.nanoen.2022.106924.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Organometal halide perovskites as visible-light sensitizers for photovoltaic cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Teshima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shirai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="6050" to="6051" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Lead iodide perovskite sensitized all-solid-state submicron thin film mesoscopic solar cell with efficiency exceeding 9%</title>
+		<author>
+			<persName><forename type="first">H.-S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-R</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-H</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-B</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marchioro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Humphry-Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-H</forename><surname>Yum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Moser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-G</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">591</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Efficient hybrid solar cells based on meso-superstructured organometal halide perovskites</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Teuscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyasaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Sanith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="page" from="643" to="647" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<ptr target="〈https://www.nrel.gov/pv/assets/pdfs/best-research-cell-efficiencies.202108016.pdf〉" />
+	</analytic>
+	<monogr>
+		<title level="j">Best Research-Cell Efficiencies Chart</title>
+		<imprint>
+			<date type="published" when="2021-08">August, 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Formamidinium-containing metal-halide: an alternative material for near-IR absorption perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Koh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Sum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mathews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Mhaisalkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Boix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bailie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. C</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="16458" to="16462" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Mixed-organic-cation perovskite photovoltaics for enhanced solar-light harvesting</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pellet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gregori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="3151" to="3157" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">High-efficiency perovskite solar cells based on the black polymorph of HC(NH 2 ) 2 PbI 3</title>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-J</forename><surname>Seol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-N</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-G</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="4991" to="4998" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Methylammonium chloride induces intermediate phase stabilization for efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G.-H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Huh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Kwak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="2179" to="2192" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Efficient, stable solar cells by using inherent bandgap of α-phase formamidinium lead iodide</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-U</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="749" to="753" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ahlawat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mlshra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T E</forename><surname>Ckemeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Darwich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Seung</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Emsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Rothlisberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">592</biblScope>
+			<biblScope unit="page" from="381" to="385" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>perovskite solar cells</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Compositional engineering of perovskite materials for high-performance solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">517</biblScope>
+			<biblScope unit="page" from="476" to="480" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A mixed-cation lead mixed-halide perovskite absorber for tandem solar cells</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Mcmeekin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sadoughi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Rehman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Hörantner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haghirad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sakai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Korte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Herz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Snaith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">351</biblScope>
+			<biblScope unit="page" from="151" to="155" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Cesium-containing triple cation perovskite solar cells: improved stability, reproducibility and high efficiency</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Domanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Correa-Baene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeerunddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1989" to="1997" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Stability of solution-processed MAPbI 3 and FAPbI 3 layers</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Smecca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Numata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Deretzis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pellegrino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boninelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mitasaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Magana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alberti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="13413" to="13422" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Reversible photo-induced trap formation in mixed-halide hybrid perovskites for photovoltaics</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Hoke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Slotcavage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Dohner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Bowring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">I</forename><surname>Karunadasa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mcgehee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="613" to="617" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Vertical recrystallization for highly efficient and stable formamidinium-based invertedstructure perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1942" to="1949" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">New strategies for defect passivation in high-efficiency perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Arora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grӓtzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Friend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Dar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2020">2020. 1903090</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Defect and contact passivation for perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Aydin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">De</forename><surname>Bastiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">De</forename><surname>Wolf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<date type="published" when="2019">2019. 1900428</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Recent progresses on defect passivation toward efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>You</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1902650</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Passivation and process engineering approaches of halide perovskite films for high efficiency and stability perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R M</forename><surname>Yusoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vasilopoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Palilis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Georgiadou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="2906" to="2953" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Passivation strategies through surface reconstruction toward highly efficient and stable perovskite solar cells on n-i-p architecture</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Suo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energies</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">4836</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Interfacial passivation engineering of perovskite solar cells with fill factor over 82% and outstanding operational stability on n-i-p architecture</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Suo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Di Giacomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Olthof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bogachuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hinsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Di Carlo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="3916" to="3923" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Surface passivation of perovskite film for efficient solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>You</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="460" to="466" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Optimal interfacial engineering with different length of alkylammonium halide for efficient and stable perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-U</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Paik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1902740</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Tailored amphiphilic molecular mitigators for stable perovskite solar cells with 23.5% efficiency</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Eickemeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Ruiz-Preciado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Carlsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Dar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">1907757</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Surface reconstruction of halide perovskites during post-treatment</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yavuz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abdelsamie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Huynh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Babbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Goorsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Sutter-Fella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="6781" to="6786" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Detrimental effect of unreacted PbI 2 on the long-term stability of perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tumen-Ulzii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Klotz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Leyden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Auffray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fujihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsushima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Asachi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">1905035</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">An interface stabilized perovskite solar cell with high stabilized efficiency and low voltage loss</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Yoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wieghold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Sponseller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Bertram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T P</forename><surname>Hartono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Tresback</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Correa-Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bulović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Buonassisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Bawendi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2192" to="2199" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Highly efficient perovskite solar cells with a compositionally engineered perovskite/hole transporting material interface</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grancini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Roldán-Carmona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nazeeruddin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="621" to="627" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Outstanding passivation effect by a mixed-salt interlayer with internal interactions in perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Suo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mosconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ricciarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Angelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="3159" to="5167" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Surface reconstruction engineering with synergistic effect of mixed-salt passivation treatment toward efficient and stable perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Suo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mosconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-S</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Zakeeruddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Angelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">2102902</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-G</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Cyclohexylammonium-based 2D/3D perovskite heterojunction with funnel-like energy band alignment for efficient solar cells (23.91%)</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">2102236</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Enhanced photovoltage and stability of perovskite photovoltaics enabled by a cyclohexylmethylammonium iodide-based 2D perovskite passivation layer</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nanoscale</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="14915" to="14924" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The controlling mechanism for potential loss in CH 3 NH 3 PbBr 3 hybrid solar cells</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Jha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Priya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1014" to="1020" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Strained hybrid perovskite thin films and their impact on the intrinsic stability of perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Shield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">5616</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">An in situ cross-linked 1D/ 3D perovskite heterostructure improves the stability of hybrid perovskite solar cells for over 3000h operation</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B.-B</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="4344" to="4352" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Interfacial residual stress relaxation in perovskite solar cells with improved stability</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">1904408</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Strain engineering in perovskite solar cells and its impacts on carrier dynamics</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">815</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Multifunctional crosslinkingenabled strain-regulating crystallization for stable, efficient α-FAPbI 3 -based perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-S</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<date type="published" when="2021">2021. 2008487</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Lattice strain causes non-radiative losses in halide perovskites</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Osherov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alsari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sponseller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Duck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-K</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Settens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Niroui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brenes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Stan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abdi-Jalebi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Friend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bulovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lilliu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stranks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="596" to="606" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Zhumekenov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Saidaminov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Haque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alarousu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Sarmah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Murali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dursun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-H</forename><surname>Miao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Abdelhady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">F</forename><surname>Mohammed</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Formamidinium lead halide perovskite crystals with unprecedented long carrier dynamics and diffusion length</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bakr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="32" to="37" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Water stable haloplumbate modulation for efficient and stable hybrid perovskite photovoltaics</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Milić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grätzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">2101082</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Chemical distribution of multiple cation (Rb + , Cs + , MA + , and FA + ) perovskite materials by photoelectron spectroscopy</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Philippe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saliba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Correa-Baena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">B</forename><surname>Cappel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Turren-Cruz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grӓtzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hagfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rensmo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="3589" to="3596" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Surface optimization to eliminate hysteresis for record efficiency planar perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P H</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="3071" to="3078" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

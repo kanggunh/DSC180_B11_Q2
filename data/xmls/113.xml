@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Perovskite solar cells with atomically coherent interlayers on SnO 2 electrodes</title>
+				<funder ref="#_YGuSGjn">
+					<orgName type="full">Defense Challengeable Future Technology Program of the Agency for Defense Development, Republic of Korea</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ministry of Science, ICT &amp; Future Planning</orgName>
+					<orgName type="abbreviated">MSIP</orgName>
+				</funder>
+				<funder ref="#_2j9KhmN">
+					<orgName type="full">National Research Foundation of Korea</orgName>
+					<orgName type="abbreviated">NRF</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-10-20">20 October 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Hanul</forename><surname>Min</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil Eonyang-eup Ulju-gun</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Do</forename><forename type="middle">Yoon</forename><surname>Lee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil Eonyang-eup Ulju-gun</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Junu</forename><surname>Kim</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Center for Superfunctional Materials</orgName>
+								<orgName type="department" key="dep2">Department of Chemistry</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gwisu</forename><surname>Kim</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil Eonyang-eup Ulju-gun</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kyoung</forename><forename type="middle">Su</forename><surname>Lee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil Eonyang-eup Ulju-gun</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jongbeom</forename><surname>Kim</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Min</forename><forename type="middle">Jae</forename><surname>Paik</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil Eonyang-eup Ulju-gun</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Young</forename><forename type="middle">Ki</forename><surname>Kim</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution" key="instit1">UNIST Central Research Facilities</orgName>
+								<orgName type="institution" key="instit2">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Pohang Accelerator Laboratory</orgName>
+								<orgName type="institution" key="instit1">Beamline Research Division</orgName>
+								<orgName type="institution" key="instit2">Pohang University of Science and Technology</orgName>
+								<address>
+									<settlement>Pohang</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kwang</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil Eonyang-eup Ulju-gun</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Center for Superfunctional Materials</orgName>
+								<orgName type="department" key="dep2">Department of Chemistry</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Min</forename><forename type="middle">Gyu</forename><surname>Kim</surname></persName>
+							<email>mgkim@postech.ac.kr</email>
+							<affiliation key="aff3">
+								<orgName type="department">Pohang Accelerator Laboratory (PAL)</orgName>
+								<orgName type="institution" key="instit1">Beamline Research Division</orgName>
+								<orgName type="institution" key="instit2">Pohang University of Science and Technology (POSTECH)</orgName>
+								<address>
+									<postCode>37673</postCode>
+									<settlement>Pohang</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="institution" key="instit1">UNIST Central Research Facilities</orgName>
+								<orgName type="institution" key="instit2">Ulsan National Institute of Science and Technology</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tae</forename><forename type="middle">Joo</forename><surname>Shin</surname></persName>
+							<email>tjshin@unist.ac.kr</email>
+							<affiliation key="aff4">
+								<orgName type="institution" key="instit1">UNIST Central Research Facilities</orgName>
+								<orgName type="institution" key="instit2">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Pohang Accelerator Laboratory</orgName>
+								<orgName type="institution" key="instit1">Beamline Research Division</orgName>
+								<orgName type="institution" key="instit2">Pohang University of Science and Technology</orgName>
+								<address>
+									<settlement>Pohang</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sang</forename><forename type="middle">Il</forename><surname>Seok</surname></persName>
+							<email>seoksi@unsit.ac.kr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology (UNIST)</orgName>
+								<address>
+									<addrLine>50 UNIST-gil Eonyang-eup Ulju-gun</addrLine>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Energy and Chemical Engineering</orgName>
+								<orgName type="institution">Ulsan National Institute of Science and Technology</orgName>
+								<address>
+									<settlement>Ulsan</settlement>
+									<country key="KR">South Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">UNIST-gil</orgName>
+								<address>
+									<postCode>44919</postCode>
+									<settlement>Ulsan</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Perovskite solar cells with atomically coherent interlayers on SnO 2 electrodes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-10-20">20 October 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EFF7C87523AB051FE42C056500A40D57</idno>
+					<idno type="DOI">10.1038/s41586-021-03964-8</idno>
+					<note type="submission">Received: 30 March 2021 Accepted: 26 August 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-11-13T17:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Supplementary Fig. <ref type="figure" target="#fig_4">3</ref>. 2D GI-WAXD images at the full depth of the X-ray incident angle for a perovskite layer with an approximately 500 nm thickness.</p><p>Supplementary Table <ref type="table">1</ref> Decay Fitting Parameters determined from the TR-PL curves of Extended Data Fig. τavg was calculated using eq (1)</p><p>𝜏 𝑎𝑣𝑔 = In perovskite solar cells, the interfaces between the perovskite and charge-transporting layers contain high concentrations of defects (about 100 times that within the perovskite layer), specifically, deep-level defects, which substantially reduce the power conversion efficiency of the devices <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref> . Recent efforts to reduce these interfacial defects have focused mainly on surface passivation <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref> . However, passivating the perovskite surface that interfaces with the electron-transporting layer is difficult, because the surface-treatment agents on the electron-transporting layer may dissolve while coating the perovskite thin film. Alternatively, interfacial defects may not be a concern if a coherent interface could be formed between the electron-transporting and perovskite layers. Here we report the formation of an interlayer between a SnO 2 electron-transporting layer and a halide perovskite light-absorbing layer, achieved by coupling Cl-bonded SnO 2 with a Cl-containing perovskite precursor. This interlayer has atomically coherent features, which enhance charge extraction and transport from the perovskite layer, and fewer interfacial defects. The existence of such a coherent interlayer allowed us to fabricate perovskite solar cells with a power conversion efficiency of 25.8 per cent (certified 25.5 per cent)under standard illumination. Furthermore, unencapsulated devices maintained about 90 per cent of their initial efficiency even after continuous light exposure for 500 hours. Our findings provide guidelines for designing defect-minimizing interfaces between metal halide perovskites and electron-transporting layers.</p><p>Perovskite solar cells (PSCs) consist of α-formamidinium lead tri-iodide (FAPbI 3 ) perovskite sandwiched between charge-separation and charge-transporting layers. The high efficiency of PSCs is achieved by efficient charge extraction and transport without non-radiative recombination at the charge-selective interface with the uniform perovskite layer <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref> . Recombination at interfaces may be reduced by minimizing the interfacial area between the perovskite and charge-transport layers. For smaller interfacial areas, planar electron-transporting layers (ETLs) and coated, very flat perovskite thin films are essential. A planar configuration is also required to achieve excellent charge extraction and transfer at the interface with low interfacial recombination loss <ref type="bibr" target="#b11">12</ref> . PSCs with planar electrodes have primarily been studied using a SnO 2 ETL, because of the many advantages of SnO 2 , such as a high electron mobility and good energy-level alignment with perovskite and electrodes <ref type="bibr" target="#b12">13</ref> . SnO 2 for planar PSCs has been deposited using various methods, including thermal oxidation of Sn(iv) isopropoxide <ref type="bibr" target="#b13">14</ref> , deposition of SnO 2 nanoparticles <ref type="bibr" target="#b12">13</ref> , atomic layer deposition <ref type="bibr" target="#b14">15</ref> and chemical bath deposition <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b15">16</ref> . In addition to these methods of depositing SnO 2 electrodes, numerous studies have been conducted to reduce the interfacial recombination losses through surface passivation and to control the energy level and increase charge transport by doping <ref type="bibr" target="#b11">12</ref> .</p><p>Interfacial passivation may further reduce non-radiative recombination between the perovskite and charge-transporting layers <ref type="bibr" target="#b16">17</ref> . Passivation of the perovskite surface with long organic salts has been shown to substantially reduce interfacial defects between the hole-transporting layer (HTL) and FAPbI 3 perovskite <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b17">18</ref> . SnO x -Cl colloids derived from Sn(iv)Cl 4 solution have been reported <ref type="bibr" target="#b18">19</ref> to form methylammonium tin iodide (MA 2 SnI 6 ) and SnO 2 , with spontaneous exchange reactions between Cl -and I -ions when methylammonium iodide (MAI) co-existed. It has also been reported that a perovskite precursor containing Cl -ions resulted in a large number of Cl -ions being retained at the interface between the perovskite and ETL electrode <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> . We thus note that when the halogen-bonded SnO 2 and the perovskite precursor come into contact they form a chemically interconnected interface.</p><p>Here we report the formation of a coherent interlayer between a perovskite thin film and a Cl-bonded SnO 2 (Cl-bSO) electrode coated with a Cl-containing FAPbI 3 perovskite precursor (Cl-cPP) solution. We explore the presence of this interlayer by using the surface-sensitive grazing-incident X-ray absorption fine structure (XAFS), synchrotron-based grazing-incidence wide-angle X-ray diffraction (GI-WAXD) and high-resolution transmission electron microscopy (HR-TEM). From these analytical characterizations, we infer the formation of a crystalline FASnCl x phase as an atomically coherent interlayer between the perovskite and SnO 2 . This interlayer between the perovskite and ETL reduces the interfacial charge recombination loss and contact resistance, enabling the fabrication of a PSC with a power conversion efficiency of 25.8%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interlayer formation</head><p>Figure <ref type="figure" target="#fig_1">1a</ref> depicts multilayered thin films of ETL (n), perovskite (i) and HTL (p), along with an interlayer formed by the reaction between the Cl-cPP solution and a Cl-bSO ETL. Energy levels based on experimental <ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b22">23</ref> and theoretical (Supplementary Fig. <ref type="figure" target="#fig_1">1</ref>) values for each component in the n-i-p architecture are also shown. We expected the interlayer to play a part in substantially reducing the back-recombination of extracted carriers that remain in the interfacial region, without greatly disturbing the carrier transport of photogenerated electrons.</p><p>One of the main roles of the ETL on the fluorine-doped tin oxide (FTO) is to effectively block the holes generated by light absorption of the perovskite while transferring electrons quickly across the interface between the ETL and perovskite. This means that the ETL must be densely coated to prevent direct contact between the FTO substrate and the perovskite, while maintaining a sufficiently small thickness to prevent direct contact between the ETL and perovskite. Therefore, we deposited a Cl-bSO ETL on FTO, using either spin-coating <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25</ref> or chemical bath deposition <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b15">16</ref> after dissolving either SnCl 2 ⋅2H 2 O in ethanol or SnCl 4 in deionized water. In Supplementary Fig. <ref type="figure" target="#fig_3">2</ref>, we provide a cross-sectional scanning electron microscopy (SEM) image of a representative device using SnO 2 as the ETL, and ultraviolet-visible absorption spectra and X-ray diffraction patterns of perovskites coated on various ETLs.</p><p>We investigated the inclusion of Cl -ions in the SnO 2 layer using time-of-flight secondary ion mass spectrometry (ToF-SIMS). As shown in Fig. <ref type="figure" target="#fig_1">1b</ref>, the SnO 2 layer coated on the FTO substrate using SnCl 2 ⋅2H 2 O contained a considerable number of residual Cl -ions, consistent with previously reported results <ref type="bibr" target="#b22">23</ref> . In comparison, the TiO 2 thin film, obtained via a similar process using a TiCl 4 aqueous solution, contained a relatively small number of Cl -ions. In the case of SnO 2 , all layers contained a large number of Cl -ions when coated with chlorides as the starting materials (Extended Data Fig. <ref type="figure" target="#fig_1">1</ref>). The large number of Cl -ions found in SnO 2 may be associated with two common oxidation states of Sn (Sn 2+ and Sn 4+ ). Because the Sn 2+ oxidation state is common in SnO 2 , Z is the stacking direction of the multilayer thin film, E is the energy level, E VAC is the electron energy outside the solid surface, E LUMO is the energy of the lowest unoccupied molecular orbital and E HOMO is the energy of the highest occupied molecular orbital. b, Analysis of the Cl -ions in the Cl-bSO (red dash-dotted line) and TiO 2 (blue solid line) electrodes using ToF-SIMS. c, ToF-SIMS depth profiles for the perovskite and Cl-bSO on FTO. d, Simulation of the formation of the interlayer between perovskite and SnO 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Article</head><p>Cl -ions may easily enter the O vacancy sites, and the O sites may also be substituted in some cases <ref type="bibr" target="#b25">26</ref> . However, in the case of TiO 2 , only Ti 4+ can be stably present, even if it is prepared under conditions in which a large number of Cl -ions are present; Cl -ions may be contained only at the impurity level. Here, Cl-cPP was prepared by dissolving FAPbI 3 with 35 mol% methylammonium chloride (MACl) as a source of Cl - ions and 3.8 mol% methylenediammonium dichloride as an α-FAPbI 3 phase stabilizer. When MACl is added as a source of Cl -ions, it eventually volatilizes and almost disappears from the perovskite, leading to crystallization, grain formation and preferred orientation of the perovskite <ref type="bibr" target="#b26">27</ref> . The perovskite layer on the Cl-bSO electrode was obtained by spin-coating a Cl-cPP solution and then annealing at 120 °C for 1 h.</p><p>We analysed the residual Cl -ions for the perovskite on SnO 2 ETL via depth profiling using ToF-SIMS (Fig. <ref type="figure" target="#fig_1">1c</ref>). We observed a relatively large number of Cl -ions, distributed mainly with a certain thickness near the SnO 2 electrode; the number of Cl -ions that remained in the perovskite was very small. These results suggest the formation of a FASnCl x layer at the interface between the perovskite and the SnO 2 . However, even when a SnO 2 electrode that does not bind with Cl -ions was used, a large number of Cl -ions were detected near the electrode, with a sharper distribution (more distinct in Cl 2 -) near the interface than for Cl-bSO (Extended Data Fig. <ref type="figure" target="#fig_3">2</ref>). Before experimentally investigating the formation of a new phase between the perovskite and SnO 2 electrodes, we theoretically examined whether the FASnCl x layer at the interface between the SnO 2 ETL and halide perovskite could be formed by an interfacial reaction between Cl-bSO and the Cl-cPP solution. Density functional theory calculations demonstrate the possibility of generating a very stable FASnCl 3 interlayer between FAPbI 3 perovskite and SnO 2 without notable lattice distortion (Fig. <ref type="figure" target="#fig_1">1d</ref>, Extended Data Fig. <ref type="figure" target="#fig_4">3</ref>). However, when TiO 2 was used as an electrode, a stable interface could not be formed, owing to a large difference in electronegativity between Ti and Sn, even when Cl-binding TiO 2 was used (Extended Data Fig. <ref type="figure">4</ref>). This is related to the easy formation of Sn-based perovskites in the presence of halides and organic cations, such as FA with Sn 2+ (refs. <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29</ref> ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Characterization by grazing-incident XAFS</head><p>To find out whether Cl-bSO is a key factor in the formation of the FAS-nCl x interlayer, we used surface-sensitive grazing-incident XAFS to investigate the vicinity of the interface between SnO 2 and FAPbI 3 perovskite. In the Sn K-edge XAFS analysis, we used a 100-μm-wide vertical beam and a grazing incidence of 0.5° to observe the local geometric environments around Sn atoms at the interface between the ETL and FAPbI 3 perovskite. Figure <ref type="figure" target="#fig_3">2a</ref> shows the Fourier-transformed spectra for the pristine Cl-bSO and the Cl-bSO coated with either Cl-cPP or a perovskite precursor without Cl -ions and then annealed at 120 °C for 1 h. The highest peak is indicative of the first nearest-neighbour shell, which corresponds to the O atoms surrounding the central Sn atom. We assign the second-highest peak, which appears at approximately 2.2 Å, to the Sn-Cl chemical bond. This indicates that SnO 2 deposited in the presence of a large number of Cl -ions contained a large number of Cl -ions bound directly to Sn cations. In addition, the peak height corresponding to the Sn-Cl bond substantially increased when the Cl-cPP solution was coated on Cl-bSO and then annealed at 120 °C. The increase in the number of Cl -ions relative to Cl-bSO may be due to the formation of a FASnCl x layer in which FA + and Cl -ions in the Cl-cPP solution combine with Sn-Cl of SnO 2 , increasing the number of Cl -ions bound to Sn. In Cl-bSO coated with a Cl --ion-free perovskite precursor solution and annealed at 120 °C, the Sn-Cl peak shifted to higher r-space by 0.3 Å, which corresponds to the partial formation of the Sn-I bond. Here r and k are the phase-shift-uncorrected interatomic distance from Sn atoms and the photoelectron wavenumber, respectively. This is consistent with a report <ref type="bibr" target="#b18">19</ref> that the spontaneous exchange with I -ions of MAI occurred when Cl -ions in Cl-bSO prepared by hydrolysis of SnCl 4 came into contact with MAI.</p><p>As a comparison, Fig. <ref type="figure" target="#fig_3">2b</ref> shows the Fourier-transformed features of Sn K-edge XAFS before and after applying the Cl-cPP solution to pure SnO 2 thin layers derived from isopropanol-dissolved Sn(iv) isopropoxide and commercial SnO 2 colloids on a glass substrate. In both cases, no meaningful peaks for the Sn-Cl chemical bond are visible before or after the Cl-cPP solution was applied to the SnO 2 , as in the above. This implies that the Cl -ions applied on the pure SnO 2 did not cause the formation of Sn-Cl bonds. To better visualize the atomic distributions of the Cl atoms at the interface, we used wavelet-transform XAFS (WT-XAFS) of the correlation between the peaks with k-space data (Fig. <ref type="figure" target="#fig_3">2c-e</ref>). The spectral comparison of WT-XAFS for Cl-bSO and pure SnO 2 ETL layers clearly shows the local structural change in space at this interface. The highest-intensity lobes in the centre (k = 6 Å -1 , r = 1.6 Å), which are all visible in the WT-XAFS, correspond to the O atoms towards the core ETL layers. At higher radial distances, the lobe (k = 9.6 Å -1 , r = 2.25 Å) is attributed to the Cl atom in the ETL surface region (Fig. <ref type="figure" target="#fig_3">2c</ref>). When a Cl-cPP solution was applied on Cl-bSO, the lobe caused by the Cl atom appears wide and strong after annealing at 120 °C. By contrast, the WT-XAFS results for the two pure SnO 2 layers are constant irrespective of annealing under a Cl-cPP solution (Fig. <ref type="figure" target="#fig_3">2d,</ref><ref type="figure">e</ref>). Also, the WT-XAFS results for the application of the Cl --ion-free perovskite precursor clearly show that Sn-I (k = 10.5 Å -1 , r = 2.55 Å) was generated by Cl --I - exchange (Extended Data Fig. <ref type="figure">5</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Confirmation of the coherent interlayer</head><p>To further confirm the formation of the FASnCl x layer at the interface between SnO 2 and the FAPbI 3 perovskite in contact with Cl-bSO and the Cl-cPP solution, we performed a synchrotron-based GI-WAXD experiment. Figure <ref type="figure" target="#fig_4">3a</ref>, b shows two-dimensional GI-WAXD patterns at a grazing incidence of 0.12° for the same glass/SnO 2 /FAPbI 3 as the XAFS measurements, using perovskite coated on SnO 2 layers with and without Cl -ions on a glass substrate. The background of the glass substrate was subtracted to make the diffracted image clearer.</p><p>In the two-dimensional GI-WAXD patterns, the perovskite shows very good crystallinity and strong texturing. The crystallinity and texturing of a full-cell perovskite layer more than ten times thicker than the current perovskite layer were reduced substantially (Supplementary Fig. <ref type="figure" target="#fig_4">3</ref>). Such excellent crystallinity and texturing are believed to correspond to approximately monocrystalline properties in the heterogeneous nucleation and initial growth of perovskite on SnO 2 . Most of the diffraction patterns are in good agreement with results simulated using the diffraction pattern calculator toolkit <ref type="bibr" target="#b29">30</ref> with a cubic α-FAPbI 3 structure 31 and hexagonal PbI 2 structures 32 (Extended Data Fig. <ref type="figure">6</ref>). When comparing the GI-WAXD patterns of perovskites coated on isopropoxide-derived SnO 2 (Fig. <ref type="figure" target="#fig_4">3a</ref>) and Cl-bSO (Fig. <ref type="figure" target="#fig_4">3b</ref>), new diffraction spots elongated in the vertical direction (red dotted rectangles) are clearly observed at the Cl-bSO electrode. The out-of-plane (along the q z direction, where q z is the out-of-plane scattering vector) and in-plane (along the q xy direction, where q xy is the in-plane scattering vector) one-dimensional GI-WAXD profiles (Extended Data Fig. <ref type="figure">7</ref>) do not match any types of FAPbI 3 or SnO 2 . Considering q z -cut (out-of-plane) and q xy -cut (in-plane) profiles of the elongated diffraction spots, d spacings (λ = 2dsinθ), where λ is wavelength, d is the crystal lattice planar spacing and θ is the angle of incidence, of 3.94 Å and 1.97 Å in the q xy profile and of 5.29 Å and 2.64 Å in the q z profile were obtained for the first and second peaks, respectively. The fact that the d spacing of the second peak is almost twice that of the first peak indicates that both peaks belong to the same family of diffraction planes. These diffraction spots support the idea that the newly formed structure is composed of highly textured crystallites of approximately 2 nm and 8 nm size in the out-of-plane and in-plane directions, respectively, with crystallite size estimated from the diffraction-peak widths using the Scherrer equation. These results suggest the formation of FASnCl 3 or its analogues between the perovskite and the SnO 2 electrode.</p><p>For a more quantitative analysis, we compared the diffraction patterns with previously reported cubic FASnCl 3 (a = 5.69 Å, where a is the lattice constant in the a axis) <ref type="bibr" target="#b21">22</ref> . However, the results of GI-WAXD are inconsistent with the cubic structure. On the basis of the GI-WAXD analysis, we infer that the interlayer has a tetragonal structure with a = b = 5.56 Å and c = 5.29 Å (b and c are the lattice constants in the b and c axes), and that the characteristic diffraction peaks observed in the structure belong to the (11l) and (22l) families; (111), ( <ref type="formula">112</ref>), ( <ref type="formula">221</ref>) and (222) diffraction peaks are clearly observed in Extended Data Fig. <ref type="figure">8</ref>. Given that the interlayer is a thin film that connects the two heterostructures between the perovskite and SnO 2 , it may be more reasonable for the lattice to have a tetragonal structure with a lower symmetry than that of a cubic structure. Nevertheless, we label the interlayer as FASnCl x rather than FASnCl 3 , because it is not fully defined.</p><p>Figure <ref type="figure" target="#fig_4">3c</ref> shows a HR-TEM image of the vicinity of the interface, which was formed by coupling Cl-bSO and a Cl-cPP solution. The interface between SnO 2 and FAPbI 3 contacted very well, and the boundaries could not be distinguished from each other. We expected this interface to effectively extract the charge generated from the perovskite. To obtain additional information on the crystal properties of each region, we determined the interplanar spacing and fast Fourier transform patterns. The interplanar spacings of about 0.33 nm and 0.37 nm in the region of SnO 2 and FAPbI 3 correspond well with SnO 2 (110) <ref type="bibr" target="#b32">33</ref> and α-FAPbI 3 (111) <ref type="bibr" target="#b33">34</ref> domains, respectively. The interplanar spacing in the interfacial region is smaller than that of α-FAPbI 3 , indicating the presence of a new interlayer.</p><p>Figure <ref type="figure" target="#fig_4">3d</ref> shows a comparison of the photoluminescence spectra measured by excitation with a 520-nm laser for a thin film annealed at 120 °C after coating a Cl-cPP solution on SnO 2 or TiO 2 electrodes formed using various methods on FTO substrates. The combination of Cl-bSO and Cl-cPP solution exhibited substantially lower photoluminescence intensity than did the planar SnO 2 and planar TiO 2 electrodes, alongside mesoporous TiO 2 (mp-TiO 2 ). Comparing the photoluminescence of the perovskite layer with and without the SnO 2 or TiO 2 electrode on the glass substrate, we found that the photoluminescence of the perovskite coated on the SnO 2 or TiO 2 layer was substantially lower (Extended Data Fig. <ref type="figure">9</ref>). This reduction in photoluminescence suggests an increase in interfacial non-radiative recombination and/or a decrease in radiative recombination through non-radiative recombination channels (charge transfer to ETLs) of photo-generated electron holes. Interfacial non-radiative recombination of the perovskite layers deposited on SiO 2 (glass), TiO 2 or SnO 2 oxides using the same process does not make much difference because these materials form similar interfacial contacts. Cl-bSO, which forms a unique interlayer with the perovskite even with the same SnO 2 (Supplementary Fig. <ref type="figure" target="#fig_3">2c</ref>), further reduces the photoluminescence.   a, Fourier-transformed radial distribution function of Sn K-edge extended XAFS spectra for pristine Cl-bSO (grey) and Cl-bSO coated with Cl-cPP (blue) or a perovskite precursor without Cl -ions (red), followed by annealing at 120 °C for 1 h (a.u., arbitrary units). b, Fourier-transformed features before (red) and after (blue) applying the Cl-cPP solution to the pure SnO 2 thin layers, deposited using Sn-isopropoxide (top) and commercial SnO 2 colloids (bottom). c-e, Normalized WT-XAFS for the correlation between r-space and k-space data for Cl-bSO (c), pure SnO 2 from Sn-isopropoxide (d) and commercial colloidal SnO 2 (e) before and after annealing with Cl-cPP at 120 o C for 1 h. In all WT-XAFS, the η/σ value of 10/1 is constantly applied in the wavelet transformation, where η and σ are the frequency of the oscillation functions and the half-width, respectively.</p><formula xml:id="formula_0">k (Å -1 ) k (Å -1 ) k (Å -1 ) k (Å -1 ) k (Å -1 ) k (Å -</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Article</head><p>We investigated the origin of the reduced photoluminescence through charge recombination by using time-resolved photoluminescence (Extended Data Fig. <ref type="figure" target="#fig_1">10</ref>) to monitor the charge-carrier dynamics of perovskite <ref type="bibr" target="#b34">35</ref> , with the same specimens used for photoluminescence measurements. We analysed the fast (τ 1 ) and slow (τ 2 ) decay components of the bi-exponential decay function y = a 1 exp(-t/τ 1 ) + a 2 exp(-t/τ 2 ), where a n is the amplitude components and t is the time constant; parameters are listed in Supplementary Table <ref type="table">1</ref>. The fast decay component results from trap-assisted charge recombination of the perovskite and free-carrier transport to the electrode. The slow decay component results from radiative charge recombination <ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37</ref> . The fast decay lifetime is the shortest for Cl-bSO, for which the photoluminescence is the most reduced; the weight fraction of that lifetime is also more pronounced. This implies that the combination of Cl-bSO and Cl-cPP solution not only reduces non-radiative interfacial recombination but also allows photogenerated charges to move to the electrode more rapidly.</p><p>In general, SnO 2 enables faster charge extraction from perovskites owing to a lower conduction band than that of TiO 2 14,24,25 . Nevertheless, it is interesting that a planar TiO 2 electrode containing a small amount of Cl, prepared with an aqueous TiCl 4 solution, exhibited lower photoluminescence intensity than did a planar SnO 2 electrode. Because the difference in the charge extraction of the ETL is related directly to the characteristics of the PSC, we compared the efficiency of all performance parameters (Supplementary Fig. <ref type="figure">4</ref>) and the photostability between the electrodes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Photovoltaic performance</head><p>As shown in Fig. <ref type="figure">4a</ref>, the efficiencies, on average, coincided with the intensity trend of the photoluminescence, giving the lowest efficiency for the SnO 2 (isopropoxide) ETL with the highest intensity, and the highest efficiency for the lowest intensity of Cl-bSO. The efficiencies of Cl-bSO and the TiO 2 ETL obtained from chloride compounds did not vary substantially; however, the number of bound Cl -ions was different, and high compared to Cl --ion-free SnO 2 ETLs. Nevertheless, Fig. <ref type="figure">4b</ref> shows that the stability under the maximum power tracking condition was substantially different. The efficiency of PSCs based on a planar TiO 2 ETL decreased substantially over time, even within an hour, in contrast to those based on Cl-bSO. This indicates that the interfacial binding between the perovskite and electrode in the planar structure had a substantial influence on the stability, rather than being a unique property of TiO 2 , because the mp-TiO 2 electrode exhibited excellent light stability.</p><p>The difference in interfacial bonding is evident from the measurement of the thermally stimulated and dark currents for the PSCs fabricated with planar Cl-bSO and TiO 2 ETL (Supplementary Fig. <ref type="figure">5</ref>). The PSC based on planar Cl-bSO had a very low defect concentration compared to that of the TiO 2 ETL. Because the difference between the PSC prepared with planar Cl-bSO and a TiO 2 ETL is due to only the interface, we conclude that Cl-bSO formed a coherent interface with the perovskite, with fewer defects compared to TiO 2 ETL.</p><p>The importance of this interfacial bonding is supported by the fact that PSCs fabricated using SnO 2 as electrodes, which does not bind Cl -ions, photodegraded faster than PSCs fabricated with a Cl-bSO ETL. Even if an interface with excellent charge extraction and transfer without defects was formed, an electrode with a pinhole-free, uniform and appropriate thickness was required to produce a high-efficiency PSC. Therefore, PSCs were fabricated with Cl-bSO electrodes, obtained by spin-coating either a SnCl 2 ⋅2H 2 O solution dissolved in ethanol <ref type="bibr" target="#b23">24</ref> PbI 2 (001) t q xy (Å -1 ) or a SnCl 4 solution dissolved in deionized water <ref type="bibr" target="#b18">19</ref> on a SnO 2 primary layer coated using Cl --ion-free Sn-isopropoxide. In addition, Cl-bSO deposited using chemical bath deposition <ref type="bibr" target="#b15">16</ref> was used to fabricate PSCs. Although similar Cl-bSOs were used as the electrodes, the average efficiency of the PSCs varied slightly depending on the coating method (Supplementary Fig. <ref type="figure">6</ref>). A relatively high efficiency was obtained from the Cl-bSO electrode coated with an SnCl 4 -derived SnO 2 colloid and the Cl-bSO electrode formed by chemical bath deposition in an SnCl 2 ⋅2H 2 O aqueous solution.</p><formula xml:id="formula_1">q z (Å -1 ) q z (Å -1</formula><p>Figure <ref type="figure">4c</ref> shows the current density-voltage (J-V) characteristics of the reverse and forward bias sweeps with an antireflective film attached to the device surface for one of the best-performing PSCs. The power conversion efficiency obtained from the J-V curve in reverse and forward scan modes was 25.83% and 25.65%, respectively, revealing negligible hysteresis between the two modes; parameters are summarized in Extended Data Table <ref type="table">1</ref>. The external quantum efficiency for the one of the best-performing devices is provided in Supplementary Fig. <ref type="figure">7</ref>. The certified (by an accredited laboratory in Newport, USA) stabilized power conversion efficiency is 25.5%, with short-circuit current density (J sc ) = 25.74 mA cm <ref type="bibr">-2</ref> , open-circuit voltage (V oc ) = 1.1885 V and fill factor (FF) = 83.2%, measured using the quasi-steady-state method (Supplementary Fig. <ref type="figure">8</ref>). We tested the long-term operational stability of the unencapsulated device under an ambient and inert atmosphere (N 2 ), with maximum power point tracking under 1 Sun illumination and without an ultraviolet cut-off filter, in accordance with the ISOS-L-1I protocol <ref type="bibr" target="#b37">38</ref> (Fig. <ref type="figure">4d</ref>). The device maintained roughly 90% of its initial efficiency after 500 h, which is comparable to other highly efficient PSCs with power conversion efficiencies of more than 23% <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b35">36</ref> .</p><p>In summary, we observed that, when a perovskite thin film was prepared by coating Cl-cPP on a Cl-bSO electrode, an FASnCl x interlayer with a crystalline thickness of approximately 2 nm formed between the perovskite and the electrode. Although we could not identify the exact crystal structure, we believe it functions as a coherent interlayer with rapid charge extraction and minimal charge recombination at the interface between the SnO 2 electrode and the perovskite thin film. This coherent interlayer made it possible to manufacture PSCs with a power conversion efficiency of 25.8% (25.5% certified), with high stability under maximum power point tracking for 500 h. This result may inform the development of new strategies for the fabrication and design of photoelectrodes for PSCs with high efficiency and stability.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Online content</head><p>Any methods, additional references, Nature Research reporting summaries, source data, extended data, supplementary information, acknowledgements, peer review information; details of author contributions and competing interests; and statements of data and code availability are available at <ref type="url" target="https://doi.org/10.1038/s41586-021-03964-8">https://doi.org/10.1038/s41586-021-03964-8</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials</head><p>The materials used in the experiments included: lead(ii) iodide (PbI 2 ; 99.99%, TCI), 4-methoxy-phenethylammonium iodide (MeO-PEAI; 99%, Greatcell Solar), tin(ii) chloride dihydrate (SnCl  O with 500 mg of urea was dissolved in 10 μl of thioglycolic acid, 500 μl of HCl and 40 ml of deionized water. FTO glass (Asahi FTO glass, 12-13 Ω cm -2 ) substrate was dipped in the solution for 6 h. The substrates for depositing SnO 2 were annealed for 1 h at 150 °C.</p><p>The SnO 2 colloidal solution was prepared by annealing an aqueous SnCl 4 solution at 70 °C for 30 min, and spin-coated at 3,000 rpm for 30 s. The films were annealed at 200 °C for 1 h. TiO 2 . FTO glass substrates were dipped in a TiCl 4 (230 mM in deionized water) solution at 70 °C for 1 h. The substrates for depositing TiO 2 were annealed for 1 h at 150 °C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device fabrication</head><p>Perovskite precursor solutions (FAPbI 3 :0.38MDACl 2 ) with a small amount of KI as a dopant were prepared using a previously reported method <ref type="bibr" target="#b19">20</ref> . Perovskite layers were spin-coated onto the substrate of various ETLs at 1,000 rpm for 10 s and 5,000 rpm for 15 s, and 1 ml of ethyl ether was dripped onto the substrate during the spinning. All perovskite layers were first heat-treated at 120 °C for 1 h. After cooling the perovskite-coated substrate, 16 mM of MeO-PEAI solution dissolved in 2-propanol was spin-coated at 5,000 rpm and annealed at 100 °C for 5 min. The Spiro-OMeTAD solution, which was prepared by mixing 90 mg ml -1 of Spiro-OMeTAD in chlorobenzene with 39.5 μl of t-BP, 23 μl of Li-TFSI salt (520 mg ml -1 in ACN) and 10 μl of Co-TFSI salt (375 mg ml -1 in ACN), was spin-coated at 3,000 rpm for 30 s. Finally, a 70-nm-thick gold counter electrode was deposited by thermal evaporation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Characterization</head><p>The optical properties of the perovskite films and various ETLs on FTO were measured using UV-vis spectroscopy (Shimadzu UV-2600). The crystal structure was analysed using X-ray diffraction (D/MAX2500V/ PC). Steady-state photoluminescence spectra and time-correlated single-photon counting for time-resolved photoluminescence of perovskite films and various ETLs on FTO substrate and perovskite films with and without ETLs on glass substrate were recorded using a FluoTime 300 (PicoQuant) equipped with a PMA-C-192-M detector, high-resolution excitation monochromator and hybrid photomultiplier detector assembly (PMA Hybrid 40, PicoQuant). The J-V characteristics of the devices were measured using a Keithley 2420 source meter under illumination by a solar simulator (Newport, Oriel Sol3A class AAA) with an AM 1.5 filter and an irradiation intensity of 100 mW cm -2 . The active area was determined by a metal mask placed in front of the solar cell to avoid overestimation of the photocurrent density. A spectral mismatch factor of 1.05 was used for all J-V measurements. For the measurement of high-efficiency devices, an antireflective coating was applied to the surface <ref type="bibr" target="#b35">36</ref> . The external quantum efficiency was measured using an internal quantum efficiency system (Oriel, IQE 200B) under irradiation by a 100-W xenon lamp. The thermally stimulated current (TSC) measurement was performed on the actual solar cell structure and the TSC signal was measured in a closed-cycle He cryostat. The sample was cooled to 30 K in the dark and then exposed to light for 10 min to generate photocarriers. A Xe lamp (254 W) was used as a light source, and the distance between the light source and solar cell device was fixed at 33 cm. After a dwelling time of 10 min in the dark, the sample was heated to 300 K at a rate of 17 K min -1 . The TSC signal of the samples was measured using a Keithley 2636B source meter with zero bias.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ToF-SIMS measurements</head><p>ToF-SIMS profiling was used to measure the depth distributions of Cl -ions with the perovskite/SnO 2 on the FTO substrate. The samples were analysed using a ToF-SIMS V instrument (IONTOF) with a Bi + primary beam (25 keV and 1 pA) and Cs + sputter beam (0.25 keV and 12 nA). The sputter size was 200 μm × 200 μm, the analysis areas were 100 μm × 100 μm (for depth profiling) and 500 μm × 500 μm (for surface analysis), and the area dosage of ions was PIDD 2.48e +14 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XAFS measurements</head><p>Specimens for XAFS analysis were prepared by diluting Cl-cPP or Cl --ion-free perovskite precursors, coating them to a thickness of about 20 nm on Cl-bSO or SnO 2 , and annealing at 120 °C for 1 h. Sn K-edge X-ray absorption spectra, and extended XAFS (EXAFS) were collected on the BL10C beam line (WEXAFS) at the Pohang Light Source (PLS-II) using top-up mode operation under a ring current of 250 mA at 3.0 GeV. From the high-intensity X-ray photons of the multipole wiggler source, monochromatic X-ray beams could be obtained using a liquid-nitrogen-cooled double-crystal monochromator (Bruker ASC) with a Si(311) crystal pair. All X-ray absorption spectra were recorded in fluorescence mode using N 2 /Ar mixed gas-filled ionization chamber (IC-SPEC, FMB Oxford) and passivated implanted planar silicon (PIPS, Canberra) for the incident and fluorescent X-ray photons, respectively. Higher-order harmonic contaminations were eliminated by detuning to reduce the incident X-ray intensity by about 30%. For all samples coated on the glass, grazing-incident XAFS experiments were performed using an incident X-ray with vertical width of 100 μm and a grazing incidence of 0.5° to obtain surface-sensitive local structure around Sn in the interface. Energy calibration was simultaneously performed for each measurement with a reference Sn foil in front of the third ion chamber using partially by-passed X-ray. Using the UWXAFS package, Fourier-transformed radial distribution functions of k 2 -weighted Sn K-edge EXAFS spectra, k 2 χ(k), were obtained in the k range between 2.5 Å -1 and 12.0 Å -1 through a standard XAFS data analysis process. Also, where η is the frequency of the oscillation functions, σ is the halfwidth and α is the angle.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>GI-WAXD measurements</head><p>Specimens for GI-WAXD analysis are the same as for XAFS. Synchrotron-based GI-WAXD measurements were performed at the PLS-II 6D UNIST-PAL beamline of the Pohang Accelerator Laboratory (PAL), Korea. The X-rays from the bending magnet were monochromatized to 18.986 keV (wavelength, λ = 0.6530 Å) using a double-crystal monochromator, which was focused both horizontally and vertically (90(V) μm × 120(H) μm for the full-width at half-maximum) at the sample position using a sagittal Si(111) crystal and a toroidal mirror, respectively. The GI-WAXD sample chamber was equipped with a 5-axis motorized stage for fine sample alignment and the 2D GI-WAXD pattern was recorded with a 2D CCD detector (MX 225-HS, Rayonix LLC). The diffraction angles were calibrated using NIST SRM660b (lanthanum hexaboride, LaB 6 ) and the sample-to-detector distance was 244.02 mm. An incidence angle of 0.12° was used for the GI-WAXD experiments to obtain crystallographic information about the overall thickness of the perovskite films used in this work. Under this condition, penetration depth is around 32.5 nm, as shown in Supplementary Fig. <ref type="figure">9</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HR-TEM</head><p>The interlayer images and crystal properties were observed using HR-TEM ( JEM-2100F). To analyse specific local properties, the samples for the HR-TEM measurements were prepared using a focused ion beam (FIB; Helios NanoLab 450 model, FEI) milling process. ImageJ and Gatan's digital micrograph program were used to analyse the HR-TEM images.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SEM</head><p>The surface morphology and thicknesses of the Cl-bSO-based devices were measured at ×50.0K magnification via SEM (Cold FE-SEM SU-8220, Hitachi High-Technologies) with a beam power of 5.0 kV.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Theoretical calculations</head><p>Density functional theory (DFT) calculations were performed with the Perdew-Burke-Ernzerhof exchange-correlation functional <ref type="bibr" target="#b39">39</ref> and Tkatchenko-Scheffler dispersion correction <ref type="bibr" target="#b40">40</ref> using the Vienna ab initio simulation package <ref type="bibr" target="#b41">41</ref> . Structural geometry optimization was performed with energy convergence and force convergence of 10 -6 eV and 0.02 eV Å -1 , respectively. We used a Γ-centred (2 × 2 × 1) k-point mesh to sample the Brillouin zone and 560-eV energy cut-off for the projector augmented wave method (PAW) plane-wave basis sets. Here, PAW is a technique used in ab initio electronic structure calculations. We used a 2 × 2 supercell of (001)-plane rutile SnO 2 , rutile TiO 2 , and unit cell of (001)-plane cubic FAPbI 3 surfaces. The slab consists of five symmetric layers of SnO 2 or TiO 2 and three of FAPbI 3 , with a vacuum size of about 40 Å. For Cl multilayered structures, the slab consists of two symmetric layers of SnO 2 and two of FAPbI 3 . For Cl monolayered structures, the slab consists of five symmetric layers of TiO 2 and three of FAPbI 3 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Device stability testing</head><p>The stability test at the continuous maximum power point tracking device operation under 1 Sun illumination (xenon lamp (450 watt), 100 mW cm -2 , AM 1.5G) for the unencapsulated PSCs was performed under ambient and inert atmosphere (N 2 ) using ISOS-L-1I protocol <ref type="bibr" target="#b37">38</ref> . </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Extended</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>𝐴 1 𝜏 1 +𝐴 2 𝜏 2 𝐴 1 +𝐴 2 -Supplementary Fig. 4 . 1 ,</head><label>11221241</label><figDesc>----(1) Statistics (centre line, meidan; dot, mean; box, 25-75% standard deviation; whiskers, outliers) of key performance parameters. a, Jsc, b, Voc and c, FF of devices fabricated with different electron-transporting layers. In the statistics, 11 devices were used for SnO2 (isopropoxide), 14 devices for SnO2 (colloids), 51 devices for Cl-bSO, and 16 devices for Cl-TiO2. Young Ki Kim 3 , Kwang S. Kim 2 , Min Gyu Kim 4 ✉ , Tae Joo Shin 3 ✉ &amp; Sang Il Seok 1 ✉</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 |</head><label>1</label><figDesc>Fig. 1 | Interlayer formation from Cl-bSO and Cl-cPP. a, Left, layered stack of the ETL, perovskite and HTL, with an interlayer between the perovskite absorber and the ETL. Right, energy diagrams of the ETL, perovskite and HTL. The red arrow illustrates carrier transport to the contact interfaces via the interlayer. The purple arrow illustrates back-recombination of the extracted carriers. The green arrow indicates the transfer of separated holes to the HTL. Z is the stacking direction of the multilayer thin film, E is the energy level, E VAC</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 2 |</head><label>2</label><figDesc>Fig. 2 | Local geometric environments around the Sn atoms in the SnO 2 electrodes, before and after applying the perovskite precursor solution.a, Fourier-transformed radial distribution function of Sn K-edge extended XAFS spectra for pristine Cl-bSO (grey) and Cl-bSO coated with Cl-cPP (blue) or a perovskite precursor without Cl -ions (red), followed by annealing at 120 °C for 1 h (a.u., arbitrary units). b, Fourier-transformed features before (red) and after (blue) applying the Cl-cPP solution to the pure SnO 2 thin layers, deposited using</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>)Fig. 3 |</head><label>3</label><figDesc>Fig. 3 | Two-dimensional GI-WAXD patterns, HR-TEM and photoluminescence after applying Cl-cPP on Cl-bSO and SnO 2 . a, b, Glass-background-subtracted two-dimensional GI-WAXD patterns of perovskite on SnO 2 (a) and Cl-bSO (b). In b, the red dotted rectangles indicate new diffraction spots, and the white dashed lines indicate the q z and q xy directions. c, HR-TEM for the multilayers obtained from Cl-cPP on Cl-bSO. The interplanar spacing and fast Fourier transform patterns for the white circled regions are shown in the insets. The black rectangle was viewed by indicating the size (2 nm × 8 nm) of the interlayer observed in GI-WAXD. d, Steady-state photoluminescence of perovskites deposited on various electrodes.</figDesc><graphic coords="15,-66.93,116.57,400.11,422.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>2 Fig. 4 |</head><label>24</label><figDesc>Fig.4| Performance of PSCs based on various electrodes. a, Power conversion efficiency statistics (centre line, median; small square, mean; box, 25%-75% standard deviation; whiskers, outliers) of PSCs fabricated with SnO 2 , Cl-bSO and TiO 2 . In the statistics, 11 devices were used for SnO 2 (isopropoxide), 14 devices for SnO 2 (colloids), 51 devices for Cl-bSO and 16 devices for Cl-TiO 2 . b, Power conversion efficiencies monitored by maximum power point tracking for PSCs fabricated with various electrodes, under air-mass 1.5 global, including ultraviolet. c, J-V curves of the best-performing device, measured in reverse (red solid line) and forward (blue dashed line) modes. d, Maximum power point tracking measured for the PSC fabricated using Cl-bSO and Cl-cPP according to the ISOS-L-1I protocol<ref type="bibr" target="#b37">38</ref> (1 Sun illumination without ultraviolet filter; xenon lamp, 450 W, 100 mW cm -2 , air-mass 1.5, ambient and inert atmosphere).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>Data Fig. 8 | 2D GI-WAXD image focused on the interlayer structure. Crystallographic information was empirically derived from the diffraction patterns. The crystal structure of this interlayer can be assumed to be tetragonal with a = b = 5.56 Å, c = 5.29 Å. If the (001) crystal plane is oriented parallel to the substrate, the observed characteristic diffraction peaks belong to (11l) and (22l) families. Extended Data Fig. 9 | Steady-state PLs of perovskites with and without the SnO 2 or TiO 2 electrode on the glass substrate. .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="3,157.40,70.90,280.50,233.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="4,142.20,70.90,310.90,215.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="4,70.90,444.64,453.50,143.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="6,70.90,70.90,454.42,135.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="7,70.90,70.90,453.50,203.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="7,135.63,399.04,324.02,266.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="8,148.90,84.70,297.45,227.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="10,70.90,98.75,444.27,187.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="20,45.53,48.96,509.88,381.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="21,39.69,48.96,255.96,202.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="23,133.67,48.96,333.60,447.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="24,125.93,48.96,349.08,283.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="25,45.47,48.96,510.00,287.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="26,45.53,48.96,509.88,218.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="28,150.29,48.96,300.36,254.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="29,88.25,48.96,424.44,337.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>10.   </figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>weight of the</cell><cell>weight of the</cell></row><row><cell></cell><cell>A1</cell><cell cols="2">τ1 (ns) A2</cell><cell>τ2 (ns)</cell><cell>τavg (ns)</cell><cell>fast component</cell><cell>slow component</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(%)</cell><cell>(%)</cell></row><row><cell>Perovskite/SnO2(Is opropoxide)/FTO</cell><cell>648.8</cell><cell>344.2</cell><cell>372.5</cell><cell>1423.7</cell><cell>737.9</cell><cell>19.5</cell><cell>80.5</cell></row><row><cell>Perovskite/SnO2(co</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>mmercial</cell><cell>600.9</cell><cell>86.8</cell><cell>633.4</cell><cell>330.1</cell><cell>211.6</cell><cell>20.8</cell><cell>79.2</cell></row><row><cell>colloids)/FTO</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Perovskite/mp-TiO2/FTO</cell><cell>740.2</cell><cell>239.4</cell><cell>305.4</cell><cell>1014.6</cell><cell>465.8</cell><cell>19.1</cell><cell>80.9</cell></row><row><cell>Perovskite/Cl-bSO/FTO</cell><cell>661.9</cell><cell>92.2</cell><cell>586.9</cell><cell>272.9</cell><cell>177.1</cell><cell>25.3</cell><cell>74.7</cell></row><row><cell>Perovskite/Cl-TiO2/FTO</cell><cell>846.8</cell><cell>199.6</cell><cell>279.8</cell><cell>878.8</cell><cell>368.3</cell><cell>18.5</cell><cell>81.5</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>SAMCHUN). Formamidinium lead triiodide (FAPbI 3 ) black power was synthesized by mixing the synthesized 19.5 mol of FAI with PbI 2 (1:1 molar ratio) in 11 ml of 2-ME in a 70-ml vial by stirring. The mixed solution was heated to 120 °C in an oil bath and then precipitated using the retrograde method. The filtered FAPbI 3 powder was baked at 150 °C for 30 min.</figDesc><table><row><cell>2 •2H 2 O; 98%,</cell></row><row><cell>Acros), tin(iv) chloride (TiCl 4 ; 99%, Sigma-Aldrich), tin(iv) chlo-</cell></row><row><cell>ride (SnCl 4 ; 98%, Sigma-Aldrich), potassium iodide (KI; 99.999%,</cell></row><row><cell>Sigma-Aldrich), deionized water (H 2 O; Alfa Aesar), hydrochloric</cell></row><row><cell>acid (HCl; 37 wt% in H 2 O, Sigma-Aldrich), thioglycolic acid (C 2 H 4 O 2 S;</cell></row><row><cell>99%, Sigma-Aldrich), methylenediamine dihydrochloride (MDACl 2 ;</cell></row><row><cell>98%, Sigma-Aldrich), methylammonium chloride (Merck), formami-</cell></row><row><cell>dinium iodide (FAI; 99.99%, Greatcell solar) N,N-dimethylformamide</cell></row><row><cell>(DMF; 99.8%, Sigma-Aldrich), dimethyl sulfoxide (DMSO; 99.9%,</cell></row><row><cell>Sigma-Aldrich), 2-propanol (99.5%, Sigma-Aldrich), chloroben-</cell></row><row><cell>zene (99.8%, Sigma-Aldrich), 2-methoxyethanol (2-ME; 99.8%,</cell></row><row><cell>Sigma-Aldrich), hydriodic acid (HI; 57 wt% in H 2 O, Sigma-Aldrich),</cell></row><row><cell>Spiro-OMeTAD (Lumtec.), 4-tert-butylpyridine (t-BP; Sigma-Aldrich),</cell></row><row><cell>bis(trifluoromethane)sulfonimide lithium salt (Li-TFSI; 99.95%,</cell></row><row><cell>Sigma-Aldrich), FK209 Co(iii) TFSI salt (Lumtec.), acetonitrile (ACN;</cell></row><row><cell>99.8%, Sigma-Aldrich), ethanol (99.9%, SAMCHUN) and ethyl ether</cell></row><row><cell>(99.0%, Deposition of the electron-transporting layers</cell></row><row><cell>SnO 2 . Tin(iv) isopropoxide (99%, 10% w/v in isopropanol, Alfa Aesar)</cell></row><row><cell>was further diluted (that is, 1:10 v/v in isopropanol) and spin-coated</cell></row><row><cell>at 5,000 rpm for 30 s. The films were heat-treated at 210 °C for 15 min.</cell></row><row><cell>Tin(iv) oxide (15% in H 2 O colloidal dispersion, Alfa Aesar) was further</cell></row><row><cell>diluted (that is, 1:5 w/w in H 2 O) and spin-coated at 3,000 rpm for 30 s.</cell></row><row><cell>The films were annealed at 150 °C for 1 h.</cell></row><row><cell>Cl-binding SnO 2 . 66 mM of SnCl 2 •2H 2 O (&gt;98%, Acros) in ethanol was</cell></row><row><cell>spin-coated onto the substrates at 3,000 rpm for 30 s. The films were</cell></row><row><cell>heat-treated at 100 °C for 10 min and annealed again at 190 °C for 1 h.</cell></row><row><cell>10 mM of SnCl 2 •2H</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>2 </figDesc><table /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was supported by the <rs type="programName">Basic Science Research Program</rs> (<rs type="grantNumber">NRF-2018R1A3B1052820</rs>) through the <rs type="funder">National Research Foundation of Korea (NRF)</rs> funded by the <rs type="funder">Ministry of Science, ICT &amp; Future Planning (MSIP)</rs>. This work was also supported by the <rs type="funder">Defense Challengeable Future Technology Program of the Agency for Defense Development, Republic of Korea</rs>, a brand project (<rs type="grantNumber">1.200030.01</rs>) of <rs type="institution">UNIST</rs>, and Alchemist Project (2019309101046). We thank <rs type="affiliation">UCRF</rs> (<rs type="affiliation">UNIST central research facilities</rs>) for use of equipment and the beamline staff at <rs type="institution">Pohang Accelerator Laboratory</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_2j9KhmN">
+					<idno type="grant-number">NRF-2018R1A3B1052820</idno>
+					<orgName type="program" subtype="full">Basic Science Research Program</orgName>
+				</org>
+				<org type="funding" xml:id="_YGuSGjn">
+					<idno type="grant-number">1.200030.01</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The data that support the findings of this study are available from the corresponding authors on reasonable request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Code availability</head><p>The code used for this study is available from the corresponding authors on reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Supplementary Fig. <ref type="figure">1</ref>. Energy band alignment between the Theoretically calculated SnO2, interfacial FASnCl3 interlayers, and FAPbI3; SnO2 (orange), FASnCl3 (green), FAPbI3 (grey), the vacuum level is set to 0 eV. The energy band alignment was obtained by using an unprecedentedly high level of PBE0+spin-orbit-coupling+TS-dispersion-correction (PBE0-SOC-TS) with the Hartree potential alignment (Supplementary Figure <ref type="figure">1-1</ref>). Supplementary Fig. <ref type="figure">1-1</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information Supplementary information</head><p>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1038/s41586-021-03964-8">https://doi.org/10.1038/s41586-021-03964-8</ref>. Correspondence and requests for materials should be addressed to Min Gyu Kim, Tae Joo Shin or Sang Il Seok. Peer review information Nature thanks the anonymous reviewers for their contribution to the peer review of this work. Reprints and permissions information is available at <ref type="url" target="http://www.nature.com/reprints">http://www.nature.com/reprints</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Extended Data</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Resolving spatial and energetic distributions of trap states in metal halide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">367</biblScope>
+			<biblScope unit="page" from="1352" to="1358" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Reducing detrimental defects for high-performance metal halide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Ono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="6676" to="6698" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Halide perovskites: is it all about the interfaces?</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cahen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="3349" to="3417" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Surface passivation of perovskite film for efficient solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photon</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="460" to="466" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Efficient, stable and scalable perovskite solar cells using poly(3-hexylthiophene)</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">567</biblScope>
+			<biblScope unit="page" from="511" to="515" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Shallow and deep trap state passivation for low-temperature processed perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Azmi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1396" to="1403" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Compositional engineering of perovskite materials for high-performance solar cells</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">517</biblScope>
+			<biblScope unit="page" from="476" to="480" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Stabilizing black-phase formamidinium perovskite formation at room temperature and high humidity</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">371</biblScope>
+			<biblScope unit="page" from="1359" to="1364" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Spontaneous interface engineering for dopant-free poly(3-hexylthiophene) perovskite solar cells with efficiency over 24%</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Yeom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Noh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Efficient perovskite solar cells via improved carrier management</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Yoo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">590</biblScope>
+			<biblScope unit="page" from="587" to="593" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Pseudo-halide anion engineering for α-FAPbI 3 perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jeong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">592</biblScope>
+			<biblScope unit="page" from="381" to="385" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Efficient and stable solution-processed planar perovskite solar cells via contact passivation</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page" from="722" to="726" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Enhanced electron extraction using SnO 2 for high-efficiency planar-structure HC(NH 2 ) 2 PbI 3 -based perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">16177</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Solution-processed SnO 2 thin film for a hysteresis-free planar perovskite solar cell with a power conversion efficiency of 19.2%</title>
+		<author>
+			<persName><forename type="first">K.-H</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-G</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="24790" to="24803" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Atomic layer deposition of a SnO 2 electron-transporting layer for planar perovskite solar cells with a power conversion efficiency of 18</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="2433" to="2436" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Highly efficient and stable planar perovskite solar cells by solution-processed tin oxide</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Anaraki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="3128" to="3134" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">3D/2D passivation as a secret to success for polycrystalline thin-film solar cells</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mcgott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1057" to="1073" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Defect and contact passivation for perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Aydin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Bastiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>De Wolf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">1900428</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Spontaneous interface ion exchange: passivating surface defects of perovskite solar cells with enhanced photovoltage</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1902142</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Efficient, stable solar cells by using inherent bandgap of α-phase formamidinium lead iodide</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Min</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="749" to="753" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Surface engineering of ambient-air-processed cesium lead triiodide layers for efficient solar cells</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Yoon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="183" to="196" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Absolute energy level positions in tin-and lead-based halide perovskites</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">2560</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Low-temperature-processed SnO 2 -Cl for efficient PbS quantum-dot solar cells via defect passivation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Khan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="17240" to="17247" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Low-temperature solution-processed tin oxide as an alternative electron transporting layer for efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="6730" to="6733" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Energetically favored formation of SnO 2 nanocrystals as electron transfer layer in perovskite solar cells with high efficiency exceeding 19%</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Energy</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="336" to="344" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Origins of coexistence of conductivity and transparency in SnO 2</title>
+		<author>
+			<persName><forename type="first">Ç</forename><surname>Kılıç</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zunger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page">95501</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Methylammonium chloride induces intermediate phase stabilization for efficient perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="2179" to="2192" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Lead-free solid-state organic-inorganic halide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Stoumpos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kanatzidis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photon</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="489" to="494" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Lead-free perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Kamat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bisquert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Buriak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Energy Lett</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="904" to="905" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The diffraction pattern calculator (DPC) toolkit: a user-friendly approach to unit-cell lattice parameter identification of two-dimensional grazing-incidence wide-angle X-ray scattering data</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Hailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Hiszpanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-M</forename><surname>Smilgies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-L</forename><surname>Loo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Cryst</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="2090" to="2099" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Cubic perovskite structure of black formamidinium lead iodide, α-[HC(NH 2 ) 2 ]PbI 3 , at 298 K</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Weller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">J</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Frost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Walsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="3209" to="3212" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Pb clustering and PbI 2 nanofragmentation during methylammonium lead iodide perovskite degradation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alberti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">2196</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Effective carrier-concentration tuning of SnO 2 quantum dot electron-selective layers for high-performance planar perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">1706023</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Solid-phase hetero epitaxial growth of α-phase formamidinium perovskite</title>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">5514</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Understanding transient photoluminescence in halide perovskite layer stacks and solar cells</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Krückemeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Krogmeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Rau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kirchartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">2003489</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Impact of strain relaxation on performance of α-formamidinium lead iodide perovskite solar cells</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Seok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="page" from="108" to="112" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Spatial distribution of lead iodide and local passivation on organo-lead halide perovskite</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="6072" to="6078" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Publisher&apos;s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Khenkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Energy</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="35" to="49" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>Consensus statement for stability assessment and reporting for perovskite photovoltaics based on ISOS procedures</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Author(s), under exclusive licence to Springer Nature Limited 2021</title>
+		<author>
+			<persName><surname>The</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Generalized gradient approximation made simple</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Perdew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ernzerhof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="3865" to="3868" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Accurate molecular van der Waals interactions from ground-state electron density and free-atom reference data</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tkatchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scheffler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page">73005</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kresse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Furthmüller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="15" to="50" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Extended Data Fig. 6 | Simulation of the diffraction peaks by a, FAPbI 3 (a = 6.351 Å, Pm-3m (#221) space group) and b, PbI 2 (a = b = 4.555 Å, c = 6</title>
+		<imprint>
+			<biblScope unit="volume">964</biblScope>
+		</imprint>
+	</monogr>
+	<note>space group) using the Diffraction Pattern Calculator (DPC) toolkit.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Extended Data Fig. 7 | 1D GI-WAXD profiles for the out-of-plane (q z -cut; along q xy = 0) and in-plane (q xy -cut</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Time-resolved photoluminescence (TRPL) spectra after excitation at 520 nm (P-C-520M) with repetition rate of 200 kHz and a fluence of 34 nJ cm -2 per pulse for perovskite films on various ETLs coated on FTO substrates and perovskite without ETL on glass</title>
+		<imprint/>
+	</monogr>
+	<note>Extended Data Fig</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
