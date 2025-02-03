@@ -1,6 +1,5 @@
 '''
-UPDATE OpenAI will not be feasible since we require credit to run these extraction
-We do not have a suited model from API, will trouble shoot with other models. 
+Attempting to use Deepseek api to perform extraction
 
 
 Example of ChatExtract implemenation, as described in the paper:
@@ -35,18 +34,21 @@ a very short example rc_data.csv file with the corresponding output it also incl
 ## Create model locally and 
 
 import pandas as pd
+import os
 import sys
 from re import split
 from time import strftime, sleep
 from copy import copy
-import openai
+from openai import OpenAI
+print(os.getenv("DEEPSEEK_API_KEY"))
 dtime = strftime("%Y_%m_%d-%H%M%S")
-openai.api_key = ""
+client = OpenAI(api_key=os.getenv("DEEPSEEK_API_KEY"), base_url="https://api.deepseek.com")
 
 START = 0
 
 for i, arg in enumerate(sys.argv[1:]):
   if i==0:
+
     CSV_INPUT = sys.argv[i+1]
   if i==1:
     PROPERTY =  sys.argv[i+1]
@@ -65,14 +67,24 @@ def prompt(Q,typ):
       ##openai.ChatCompletion.create( is no longer supported by Openai version >= 1.0.0
       ### Trying client.chat.completions.create( instead -- 
       #### Didn't work, we wil downgrade OpenAi pip install openai==0.28
-      response = openai.ChatCompletion.create(
-        model="gpt-4o-mini",
-        messages=Q,
-        temperature=0,
-        max_tokens=tkn,
-        frequency_penalty=0,
-        presence_penalty=0
+
+      response = client.chat.completions.create(
+            model="deepseek-chat",
+            messages=Q,
+            temperature=0,
+            max_tokens=tkn,
+            frequency_penalty=0,
+            presence_penalty=0,
+            stream = False
       )
+      # response = openai.ChatCompletion.create(
+      #   model="gpt-4o-mini",
+      #   messages=Q,
+      #   temperature=0,
+      #   max_tokens=tkn,
+      #   frequency_penalty=0,
+      #   presence_penalty=0
+      # )
       break
     except Exception as e:
       print("An error occurred:", e)
@@ -87,7 +99,8 @@ def prompt(Q,typ):
       elif 'per min' in str(e):
           print("Sleeping for 15 sec.")
           sleep(15)
-  return(Q,response['choices'][0]['message']['content'])
+  # return(Q,response['choices'][0]['message']['content'])
+  return(Q, response.choices[0].message.content)
 
 test_df = pd.read_csv(CSV_INPUT)
 
@@ -145,7 +158,7 @@ for i in range(START,len(test_df)):
       sss.append({"role": "assistant", "content": ans})
       if 'no' in ans.lower():
         result["passage"] = [test_df["passage"][i]]
-        result["doi"] = [test_df["doi"][i]]
+        result["DOI"] = [test_df["DOI"][i]]
         result["material"] =[]
         result["value"] =[]
         result["unit"] =[]
@@ -179,7 +192,7 @@ for i in range(START,len(test_df)):
         head = tab.pop(0)
         tab = pd.DataFrame(tab,columns=head)
         result["passage"] = []
-        result["doi"] = []
+        result["DOI"] = []
         result["material"] = []
         result["value"] = []
         result["unit"] = []
@@ -189,7 +202,7 @@ for i in range(START,len(test_df)):
         for k in range(len(tab)):
           sst.append({"role": "tab", "content": tab[col[0]][k]+","+tab[col[1]][k]+","+tab[col[2]][k]})
           result["passage"].append(test_df["passage"][i])
-          result["doi"].append(test_df["doi"][i])
+          result["DOI"].append(test_df["DOI"][i])
           multi_valid = True
           for l in range(3):
             ss = tabfollowup_q[l][0]+str(tab[col[l]][k])+tabfollowup_q[l][1]+it[k]+tabfollowup_q[l][2]+test_df["passage"][i]
