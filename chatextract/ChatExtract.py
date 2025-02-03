@@ -1,4 +1,8 @@
 '''
+UPDATE OpenAI will not be feasible since we require credit to run these extraction
+We do not have a suited model from API, will trouble shoot with other models. 
+
+
 Example of ChatExtract implemenation, as described in the paper:
 "Extracting Accurate Materials Data from Research Papers
 with Conversational Language Models and Prompt Engineering"
@@ -26,7 +30,9 @@ The output "results_XX_XX_XX.csv" file containing transcripts of all conversatio
 a very short example rc_data.csv file with the corresponding output it also included.
 
 '''
-
+##Deepseek extraction for finetuning on Nic branch
+##Deepseek api 8192 token. 
+## Create model locally and 
 
 import pandas as pd
 import sys
@@ -35,7 +41,7 @@ from time import strftime, sleep
 from copy import copy
 import openai
 dtime = strftime("%Y_%m_%d-%H%M%S")
-openai.api_key = "YOUR_OPENAI_API_KEY"
+openai.api_key = ""
 
 START = 0
 
@@ -56,8 +62,11 @@ def prompt(Q,typ):
     tkn = 500
   while True:
     try:
+      ##openai.ChatCompletion.create( is no longer supported by Openai version >= 1.0.0
+      ### Trying client.chat.completions.create( instead -- 
+      #### Didn't work, we wil downgrade OpenAi pip install openai==0.28
       response = openai.ChatCompletion.create(
-        model="gpt-4-0314",
+        model="gpt-4o-mini",
         messages=Q,
         temperature=0,
         max_tokens=tkn,
