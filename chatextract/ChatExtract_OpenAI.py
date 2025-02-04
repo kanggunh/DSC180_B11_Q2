@@ -30,9 +30,6 @@ The output "results_XX_XX_XX.csv" file containing transcripts of all conversatio
 a very short example rc_data.csv file with the corresponding output it also included.
 
 '''
-##Deepseek extraction for finetuning on Nic branch
-##Deepseek api 8192 token. 
-## Create model locally and 
 
 import pandas as pd
 import sys

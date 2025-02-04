@@ -44,6 +44,15 @@ print(os.getenv("DEEPSEEK_API_KEY"))
 dtime = strftime("%Y_%m_%d-%H%M%S")
 client = OpenAI(api_key=os.getenv("DEEPSEEK_API_KEY"), base_url="https://api.deepseek.com")
 
+def truncate_message_check(Q):
+    MAX_TOKENS = 8192  # Based on DeepSeek API limit
+    content = Q[-1]['content']
+    if len(content) > MAX_TOKENS:
+        print("Truncating long message...")
+        # Q[-1]['content'] = content[:MAX_TOKENS]
+        return True
+    return False
+
 START = 0
 
 for i, arg in enumerate(sys.argv[1:]):
@@ -88,7 +97,7 @@ def prompt(Q,typ):
       break
     except Exception as e:
       print("An error occurred:", e)
-      if 'Please reduce the length of the messages' in str(e):
+      if truncate_message_check(Q):
         print('TRUNCATING')
         if 'Use only data present in the text. If data is not present in the text, type' in Q[1]["content"]:
           print(Q.pop(3))
@@ -96,9 +105,9 @@ def prompt(Q,typ):
         else:
           print(Q.pop(1))
           print(Q.pop(1))
-      elif 'per min' in str(e):
-          print("Sleeping for 15 sec.")
-          sleep(15)
+      elif 'Expecting value' in str(e):
+          print("Empty response from API. Retrying after 10 seconds...")
+          sleep(10)
   # return(Q,response['choices'][0]['message']['content'])
   return(Q, response.choices[0].message.content)
 
