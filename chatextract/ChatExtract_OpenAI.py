@@ -75,9 +75,10 @@ def prompt(Q,typ):
       break
     except Exception as e:
       print("An error occurred:", e)
-      if 'Please reduce the length of the messages' in str(e):
+      if 'Rate limit reached' in str(e):
         print('TRUNCATING')
         if 'Use only data present in the text. If data is not present in the text, type' in Q[1]["content"]:
+          print("If the prompt answered that there are multiple extraction in the sentence...")
           print(Q.pop(3))
           print(Q.pop(3))
         else:
