@@ -37,6 +37,7 @@ from re import split
 from time import strftime, sleep
 from copy import copy
 import openai
+import os
 dtime = strftime("%Y_%m_%d-%H%M%S")
 openai.api_key = ""
 
@@ -142,7 +143,7 @@ for i in range(START,len(test_df)):
       sss.append({"role": "assistant", "content": ans})
       if 'no' in ans.lower():
         result["passage"] = [test_df["passage"][i]]
-        result["doi"] = [test_df["doi"][i]]
+        result["DOI"] = [test_df["DOI"][i]]
         result["material"] =[]
         result["value"] =[]
         result["unit"] =[]
@@ -176,7 +177,7 @@ for i in range(START,len(test_df)):
         head = tab.pop(0)
         tab = pd.DataFrame(tab,columns=head)
         result["passage"] = []
-        result["doi"] = []
+        result["DOI"] = []
         result["material"] = []
         result["value"] = []
         result["unit"] = []
@@ -186,7 +187,7 @@ for i in range(START,len(test_df)):
         for k in range(len(tab)):
           sst.append({"role": "tab", "content": tab[col[0]][k]+","+tab[col[1]][k]+","+tab[col[2]][k]})
           result["passage"].append(test_df["passage"][i])
-          result["doi"].append(test_df["doi"][i])
+          result["DOI"].append(test_df["DOI"][i])
           multi_valid = True
           for l in range(3):
             ss = tabfollowup_q[l][0]+str(tab[col[l]][k])+tabfollowup_q[l][1]+it[k]+tabfollowup_q[l][2]+test_df["passage"][i]
