@@ -38,8 +38,9 @@ from time import strftime, sleep
 from copy import copy
 import openai
 import os
+print(os.getenv("OPENAI_API_KEY"))
 dtime = strftime("%Y_%m_%d-%H%M%S")
-openai.api_key = ""
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 START = 0
 
