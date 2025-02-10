@@ -71,12 +71,7 @@ All relevant files for this Quarter 2 is in the `q2_submission_notebooks` folder
    - **Output**: Upon completion, it outputs a `merged_label.csv` file in the `data` folder, which is used for classification testing.
 
 **`02_TF-IDF_vectorizer_and_models.ipynb`**  
-   This notebook performs five classification algorithms:
-   - Logistic Regression
-   - Naive Bayes
-   - SVM
-   - Random Forest
-   - XGBoost  
+   This notebook performs five classification algorithms: Logistic Regression, Naive Bayes, SVM, Random Forest, XGBoost  
 
    Each model undergoes hyperparameter tuning to find optimal settings. The results are saved as CSV files in the `data/model_results` folder, and visualizations show the performance before and after tuning.
 
