@@ -3,34 +3,30 @@
 ### Folder Structure
 ```
 DSC180_B11
-└───data
+└───data                                   # Collection of all data
 │    │   biocs/                                
 │    │   model_results/                        
 │    │   txts/                               
 │    │   xmls/                                 
-│    │   150_research_papers.csv           # Dataset of 150 research papers
-│    │   bioc_parsed.csv                       
-│    │   good_paper_links.csv                  
-│    │   irrelevant_papers.csv                 
-│    │   merged_label.csv                  # labeled dataset for classification 
-│    │   model_performance_results.csv         
-│    │   Perovskite_database_content_all_data.csv 
-│    │   text_bad_paper.csv                   
-│    │   text_good_paper.csv                   
-│    └───training_data.csv                 # Dataset for training the models
+│    │   .
+│    │   .
+│    │   .
+│    │   .
+│    └───training_data.csv                 
 │
 └───images
 │    │   classification_compare.png        # Model comparison visualization
-│    │   pipeline_flowchart.png            # Workflow diagram
+│    │   pipeline.png                      # Workflow diagram
 │    └───q2_timeline.png                   # Project timeline visualization
 │
 └───models
-│    │   llama-3.2-3b-it-Perovskite-PaperExtractor/ 
+│    │   llama-3.2-3b-it-Perovskite-PaperExtractor/
+│    │   prediction_model                  # work in progress
 │    └───scibert_psc_ner_model/                
 │
-└───q1_submission_notebooks
-│    │   01_extract_link_badpaper.py           
-│    │   02_Scrapint_texts.ipynb              
+└───q2_submission_notebooks
+│    │   01_crossref_scraping.ipynb           
+│    │   02_Scrapint_texts.ipynb                
 │    │   03_TF-IDF_vectorizer_and_models.ipynb 
 │    │   04_flan_model.ipynb                   
 │    │   05_sciBERT.ipynb                      
@@ -55,7 +51,7 @@ This project aims to optimize the discovery of small molecule that improve the s
 - Database Creation: Build a comprehensive dataset from scientific literature detailing molecules, their interactions with perovskites, and the outcomes (efficiency, stability, etc.).
 - Molecular Representation: Use SMILES (Simplified Molecular Input Line Entry System) to represent molecules in a format suitable for machine learning models.
 - Literature Mining: Automate data extraction from published research papers using NLP techniques (e.g., SciBERT, scraping tools).
-<img src="images\pipeline_flowchart.png" alt="pipeline" width="1000">
+<img src="images\pipeline.png" alt="pipeline" width="1000">
 
 
 # Running the project
