@@ -85,14 +85,14 @@ Tested out docling to scan the paper from top to bottom to extract text and tabl
 ### 2: Data Extracting Models
 
 **`05_pretrained_model_extraction.ipynb`**  
-   Using a pretrained model to extract text.
+   Using a pretrained model to extract data from text.
    - **Output**: data/finetuned_llama_output_1epoch.json
 
 **`06_chatextract_openai.py`**  
-   Attempting to use ChatExtract implementation from the works of Maciej P. Polak and Dane Morgan. However, it will not be feasible since we require credit to run these extraction.
+   Attempted the implementation from the works of Maciej P. Polak and Dane Morgan. However, it will not be feasible since we require credit to run these extraction.
    
 **`07_chunked_training_creation.ipynb`**  
-Attempts the extraction task by chunking the text in small portions.
+Create text chunks so that model can extract data from a smaller portion of text.
    - **Output**: "data/chunked_example.csv",
 
 ### 3: Fine Tuning and Evaluation
