@@ -64,12 +64,11 @@ All relevant files for this Quarter 2 is in the `q2_submission_notebooks` folder
 ### 1: Generating a Relevant vs. Irrelevant Research Papers Database for Classification
 
 **`00_crossref_scraping.ipynb`**  
-   placeholder 
-   - **Output**: placeholder
+   Scraping through urls of papers and their references to collect papers.
 
 **`01_Scrapint_texts.ipynb`**  
-   placeholder 
-   - **Output**: placeholder
+   Ensure that two CSV files, `150_research_papers.csv` and `irrelevant_papers.csv`, are available in the `data` folder. This notebook accesses these research papers via URLs and extracts clean text data.  
+   - **Output**: Upon completion, it outputs a `merged_label.csv` file in the `data` folder, which is used for classification testing.
 
 ### 2: Classification Relevant Papers
 
@@ -86,20 +85,32 @@ All relevant files for this Quarter 2 is in the `q2_submission_notebooks` folder
 ### 3: Scraping and Converting Research Articles
 
 **`03_docling.ipynb`**  
+Tested out docling to scan the paper from top to bottom to extract text and tables. It does well in getting clear table extraction but the text is very unorganized, therefore we will stick to Grobid text extraction.
 
 ### 4: Data Extracting Models
 
 **`04_pretrained_model_extraction.ipynb`**  
+   Using a pretrained model to extract text.
+   - **Output**: data/finetuned_llama_output_1epoch.json
+
 **`05_chatextract_openai.py`**  
+   Attempting to use ChatExtract implementation from the works of Maciej P. Polak and Dane Morgan. However, it will not be feasible since we require credit to run these extraction.
+   
 **`06_chunked_training_creation.ipynb`**  
+Attempts the extraction task by chunking the text in small portions.
+   - **Output**: "data/chunked_example.csv",
 
 ### 5: Fine Tuning and Evaluation
 
-**`07_finetuning_peft.ipynb`**  
+**`07_finetuning_training.ipynb`**  
+This notebook trains and prepare the model to be able to extract the data we need.
 
 **`08_finetuning_test.ipynb`**  
+This notebook tests performance on the chunked data.
 
 **`09_evaluation_final.ipynb`**  
+This notebook compares our text annotation with Extraction performed using precision score, recall score, and f1 score as its metric.
+
 
 
 
