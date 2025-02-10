@@ -1,0 +1,371 @@
+{
+    "70": {
+        "perovskite_composition": "FA0.83MA0.17Pb(I0.83Br0.17)3",
+        "electron_transport_layer": "spiro-MeOTAD",
+        "pin_nip_structure": "PIN",
+        "hole_transport_layer": "spiro-MeOTAD",
+        "test_1": {
+            "test_name": "Stability test",
+            "temperature": 20,
+            "time": 15,
+            "humidity": 0,
+            "control_efficiency": 20.0,
+            "treatment_efficiency": 19.7,
+            "passivating_molecule": null,
+            "control_pce": 17.7,
+            "control_voc": 1105,
+            "treated_pce": 19.7,
+            "treated_voc": 1138
+        }
+    },
+    "103": {
+        "perovskite_composition": "FAPbI3",
+        "electron_transport_layer": "bl-TiO2 and mp-TiO2",
+        "pin_nip_structure": null,
+        "hole_transport_layer": "CuPC and spiro-OMeTAD",
+        "test_1": {
+            "test_name": "Stability test under MPP tracking",
+            "temperature": 25,
+            "time": "600 hours",
+            "humidity": 85,
+            "control_efficiency": 14.44,
+            "treatment_efficiency": 14.23,
+            "passivating_molecule": "Octylammonium iodide, dodecylammonium iodide, or phenethylammonium iodide",
+            "control_pce": 14.44,
+            "control_voc": 0.926,
+            "treated_pce": 14.23,
+            "treated_voc": 0.886
+        }
+    },
+    "77": {
+        "perovskite_composition": "FA 0.9 Cs 0.1 PbI3",
+        "electron_transport_layer": "C60",
+        "pin_nip_structure": null,
+        "hole_transport_layer": "PTAA",
+        "test_1": {
+            "test_name": "ISOS-D",
+            "temperature": 85,
+            "time": 1500,
+            "humidity": null,
+            "control_efficiency": 23.3,
+            "treatment_efficiency": 90,
+            "passivating_molecule": "PEACl",
+            "control_pce": 21.2,
+            "control_voc": 1.07,
+            "treated_pce": 24.1,
+            "treated_voc": 1.14
+        }
+    },
+    "104": {
+        "perovskite_composition": "FAPbI3",
+        "electron_transport_layer": "SnO2",
+        "pin_nip_structure": "PIN",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "test_1": {
+            "test_name": "ISOS-L",
+            "temperature": 45,
+            "time": null,
+            "humidity": null,
+            "control_efficiency": null,
+            "treatment_efficiency": null,
+            "passivating_molecule": "MAPbBr3",
+            "control_pce": null,
+            "control_voc": null,
+            "treated_pce": null,
+            "treated_voc": null
+        }
+    },
+    "79": {
+        "perovskite_composition": "FAPbI3)0.97 (MAPbBr3)0.03",
+        "electron_transport_layer": "SnO2",
+        "pin_nip_structure": "n-i-p",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "test_1": {
+            "test_name": null,
+            "temperature": null,
+            "time": null,
+            "humidity": null,
+            "control_efficiency": null,
+            "treatment_efficiency": null,
+            "passivating_molecule": null,
+            "control_pce": null,
+            "control_voc": null,
+            "treated_pce": null,
+            "treated_voc": null
+        }
+    },
+    "138": {
+        "perovskite_composition": "Cs 0.05 MA 0.10 FA 0.85 PbI 3",
+        "electron_transport_layer": "FTO",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "SAM of 2PACz and 3-MPA",
+        "test_1": {
+            "test_name": "ISOS-L",
+            "temperature": 65,
+            "time": 1000,
+            "humidity": 50,
+            "control_efficiency": 24.6,
+            "treatment_efficiency": 23.34,
+            "passivating_molecule": "3-MPA",
+            "control_pce": 24.6,
+            "control_voc": null,
+            "treated_pce": 23.34,
+            "treated_voc": null
+        }
+    },
+    "144": {
+        "perovskite_composition": "Cs0.1FA0.6MA0.3Sn0.5Pb0.5I3",
+        "electron_transport_layer": null,
+        "pin_nip_structure": null,
+        "hole_transport_layer": "PEDOT:PSS",
+        "test_1": {
+            "test_name": "ISOS-D",
+            "temperature": null,
+            "time": 100,
+            "humidity": null,
+            "control_efficiency": 89,
+            "treatment_efficiency": 97,
+            "passivating_molecule": "GlyHCl",
+            "control_pce": null,
+            "control_voc": null,
+            "treated_pce": null,
+            "treated_voc": null
+        }
+    },
+    "37": {
+        "perovskite_composition": "Cs0.2FA0.8Pb(I0.6Br0.4)3",
+        "electron_transport_layer": "NiOx",
+        "pin_nip_structure": "PIN",
+        "hole_transport_layer": "NiOx/Me-4PACz",
+        "test_1": {
+            "test_name": "ISOS-L",
+            "temperature": 25,
+            "time": 500,
+            "humidity": "ambient air",
+            "control_efficiency": 19.0,
+            "treatment_efficiency": 26.29,
+            "passivating_molecule": "1,3-propylene diammonium iodide (PDAI2)",
+            "control_pce": 19.0,
+            "control_voc": 1.35,
+            "treated_pce": 26.29,
+            "treated_voc": 2.13
+        }
+    },
+    "30": {
+        "perovskite_composition": "FAI",
+        "electron_transport_layer": null,
+        "pin_nip_structure": "PIN",
+        "hole_transport_layer": null,
+        "test_1": {
+            "test_name": "TRPL",
+            "temperature": "405 nm",
+            "time": 6.5,
+            "humidity": null,
+            "control_efficiency": 10.92,
+            "treatment_efficiency": 22.22,
+            "passivating_molecule": "NH3",
+            "control_pce": 10.92,
+            "control_voc": null,
+            "treated_pce": 22.22,
+            "treated_voc": 1.16
+        }
+    },
+    "2": {
+        "perovskite_composition": "(BA)2PbI4",
+        "electron_transport_layer": "FTO (fluorine-doped tin(IV) oxide)",
+        "pin_nip_structure": "PIN",
+        "hole_transport_layer": "Spiro-OMeTAD, P3HT",
+        "test_1": {
+            "test_name": "TRPL decay",
+            "temperature": null,
+            "time": null,
+            "humidity": null,
+            "control_efficiency": 22.39,
+            "treatment_efficiency": 24.59,
+            "passivating_molecule": null,
+            "control_pce": 22.39,
+            "control_voc": 1.098,
+            "treated_pce": 24.59,
+            "treated_voc": 1.185
+        }
+    },
+    "93": {
+        "perovskite_composition": "FA 1-x MA x PbI2.87 Br 0.13 (Cl)",
+        "electron_transport_layer": "SnO2",
+        "pin_nip_structure": "PIN",
+        "hole_transport_layer": "spiro-OMeTAD",
+        "test_1": null
+    },
+    "131": {
+        "perovskite_composition": "FA0.95MA0.05Pb(I0.95Br0.05)3",
+        "electron_transport_layer": "ITO",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Me-4PACz",
+        "test_1": {
+            "test_name": "ISOS-D",
+            "temperature": 85,
+            "time": 1000,
+            "humidity": null,
+            "control_efficiency": 24.7,
+            "treatment_efficiency": 98,
+            "passivating_molecule": "Al2O3",
+            "control_pce": 20,
+            "control_voc": 1.2,
+            "treated_pce": 25.5,
+            "treated_voc": 1.208
+        }
+    },
+    "42": {
+        "perovskite_composition": "Cs0.05 MA0.1 FA0.85 PbI2.7 Br0.3",
+        "electron_transport_layer": null,
+        "pin_nip_structure": "PIN",
+        "hole_transport_layer": null,
+        "test_1": {
+            "test_name": "stability test (aging under N2, 52\u00b0C, 1000h)",
+            "temperature": 52,
+            "time": 1000,
+            "humidity": null,
+            "control_efficiency": 47,
+            "treatment_efficiency": 85,
+            "passivating_molecule": "AzPbI3",
+            "control_pce": 19.52,
+            "control_voc": 1.07,
+            "treated_pce": 22,
+            "treated_voc": 1.18
+        }
+    },
+    "5": {
+        "perovskite_composition": "FA(MA)PbI3",
+        "electron_transport_layer": "C60-anchored SnO2",
+        "pin_nip_structure": "n-i-p",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "test_1": {
+            "test_name": null,
+            "temperature": null,
+            "time": null,
+            "humidity": null,
+            "control_efficiency": 22.1,
+            "treatment_efficiency": 24.8,
+            "passivating_molecule": "n-BAI and iso-BAI",
+            "control_pce": 22.1,
+            "control_voc": 1135,
+            "treated_pce": 24.8,
+            "treated_voc": 1136
+        }
+    },
+    "136": {
+        "perovskite_composition": "Cs0.05(FA0.95MA0.05)0.95Pb(I0.95Br0.05)3",
+        "electron_transport_layer": "C60",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "MPA-CPA",
+        "test_1": {
+            "test_name": "ISOS-L",
+            "temperature": 30,
+            "time": 500,
+            "humidity": 40,
+            "control_efficiency": 25.4,
+            "treatment_efficiency": 22.0,
+            "passivating_molecule": "MPA-CPA",
+            "control_pce": 25.4,
+            "control_voc": 1.21,
+            "treated_pce": 22.0,
+            "treated_voc": 4.68
+        }
+    },
+    "45": {
+        "perovskite_composition": null,
+        "electron_transport_layer": "poly-Si",
+        "pin_nip_structure": null,
+        "hole_transport_layer": "poly-Si",
+        "test_1": null
+    },
+    "39": {
+        "perovskite_composition": "[(FAPbI3)0.87 (MAPbBr3)0.13]0.92 (CsPbI3)0.08",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "PIN",
+        "hole_transport_layer": "spiro-OMeTAD",
+        "test_1": {
+            "test_name": "ISOS-L",
+            "temperature": "25\u00b0C",
+            "time": 1000,
+            "humidity": null,
+            "control_efficiency": 20.7,
+            "treatment_efficiency": 75,
+            "passivating_molecule": null,
+            "control_pce": 20.7,
+            "control_voc": 1.09,
+            "treated_pce": 20.8,
+            "treated_voc": 1.15
+        }
+    },
+    "127": {
+        "perovskite_composition": "PEA2ZnX4 (PEA = phenethylammonium, X = Cl/I)",
+        "electron_transport_layer": "C60",
+        "pin_nip_structure": "PIN",
+        "hole_transport_layer": "Perovskite film",
+        "test_1": {
+            "test_name": "TRPL delay kinetics",
+            "temperature": null,
+            "time": null,
+            "humidity": null,
+            "control_efficiency": null,
+            "treatment_efficiency": 22.2,
+            "passivating_molecule": "TPPi (tris(2,4-di-tert-butylphenyl)phosphite)",
+            "control_pce": 18.6,
+            "control_voc": 1.048,
+            "treated_pce": 22.2,
+            "treated_voc": 1.15
+        }
+    },
+    "54": {
+        "perovskite_composition": "MAPbI3 and MAPbBr3",
+        "electron_transport_layer": "NiOx",
+        "pin_nip_structure": "PIN",
+        "hole_transport_layer": "PCBM",
+        "test_1": {
+            "test_name": null,
+            "temperature": null,
+            "time": null,
+            "humidity": null,
+            "control_efficiency": null,
+            "treatment_efficiency": null,
+            "passivating_molecule": null,
+            "control_pce": null,
+            "control_voc": null,
+            "treated_pce": null,
+            "treated_voc": null
+        }
+    },
+    "85": {
+        "perovskite_composition": "FAPbI3:MAPbBr3:MACl",
+        "electron_transport_layer": null,
+        "pin_nip_structure": null,
+        "hole_transport_layer": "P3HT",
+        "test_1": {
+            "test_name": "ISOS-D",
+            "temperature": 85,
+            "time": 1008,
+            "humidity": 85,
+            "control_efficiency": 22.7,
+            "treatment_efficiency": 80,
+            "passivating_molecule": null,
+            "control_pce": null,
+            "control_voc": null,
+            "treated_pce": null,
+            "treated_voc": null
+        },
+        "test_2": {
+            "test_name": "ISOS-LT",
+            "temperature": 25,
+            "time": 1370,
+            "humidity": 30,
+            "control_efficiency": null,
+            "treatment_efficiency": 95,
+            "passivating_molecule": "n-hexyl trimethyl ammonium bromide",
+            "control_pce": null,
+            "control_voc": null,
+            "treated_pce": null,
+            "treated_voc": null
+        }
+    }
+}
