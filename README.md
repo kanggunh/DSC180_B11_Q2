@@ -70,8 +70,6 @@ All relevant files for this Quarter 2 is in the `q2_submission_notebooks` folder
    Ensure that two CSV files, `150_research_papers.csv` and `irrelevant_papers.csv`, are available in the `data` folder. This notebook accesses these research papers via URLs and extracts clean text data.  
    - **Output**: Upon completion, it outputs a `merged_label.csv` file in the `data` folder, which is used for classification testing.
 
-### 2: Classification Relevant Papers
-
 **`02_TF-IDF_vectorizer_and_models.ipynb`**  
    This notebook performs five classification algorithms:
    - Logistic Regression
@@ -82,12 +80,10 @@ All relevant files for this Quarter 2 is in the `q2_submission_notebooks` folder
 
    Each model undergoes hyperparameter tuning to find optimal settings. The results are saved as CSV files in the `data/model_results` folder, and visualizations show the performance before and after tuning.
 
-### 3: Scraping and Converting Research Articles
-
 **`03_docling.ipynb`**  
 Tested out docling to scan the paper from top to bottom to extract text and tables. It does well in getting clear table extraction but the text is very unorganized, therefore we will stick to Grobid text extraction.
 
-### 4: Data Extracting Models
+### 2: Data Extracting Models
 
 **`04_pretrained_model_extraction.ipynb`**  
    Using a pretrained model to extract text.
@@ -100,7 +96,7 @@ Tested out docling to scan the paper from top to bottom to extract text and tabl
 Attempts the extraction task by chunking the text in small portions.
    - **Output**: "data/chunked_example.csv",
 
-### 5: Fine Tuning and Evaluation
+### 3: Fine Tuning and Evaluation
 
 **`07_finetuning_training.ipynb`**  
 This notebook trains and prepare the model to be able to extract the data we need.
