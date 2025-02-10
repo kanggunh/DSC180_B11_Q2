@@ -28,13 +28,14 @@ DSC180_B11
 │    │   00_crossref_scraping.ipynb           
 │    │   01_Scrapint_texts.ipynb            
 │    │   02_TF-IDF_vectorizer_and_models.ipynb
-│    │   03_docling.ipynb                  
-│    │   04_pretrained_model_extraction.ipynb                   
-│    │   05_chatextract_openai.py    
-│    │   06_chunked_training_creation.ipynb              
-│    │   07_finetuning_peft.ipynb   
-│    │   08_finetuning_test.ipynb                     
-│    └───09_evaluation_final.ipynb          
+│    │   03_scraping_and_conversion.ipynb
+│    │   04_docling.ipynb                  
+│    │   05_pretrained_model_extraction.ipynb                   
+│    │   06_chatextract_openai.py    
+│    │   07_chunked_training_creation.ipynb              
+│    │   08_finetuning_peft.ipynb   
+│    │   09_finetuning_test.ipynb                     
+│    └───10_evaluation_final.ipynb          
 │
 └───README.md                                  
 └───requirements.txt                       
