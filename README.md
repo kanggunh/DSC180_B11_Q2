@@ -89,7 +89,7 @@ Tested out docling to scan the paper from top to bottom to extract text and tabl
    - **Output**: data/finetuned_llama_output_1epoch.json
 
 **`06_chatextract_openai.py`**  
-   Attempted the implementation from the works of Maciej P. Polak and Dane Morgan. However, it will not be feasible since we require credit to run these extraction.
+   Implementation from the works of Maciej P. Polak and Dane Morgan. However, it will not be feasible since we require credit to run these extraction.
    
 **`07_chunked_training_creation.ipynb`**  
 Create text chunks so that model can extract data from a smaller portion of text.
