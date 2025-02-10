@@ -80,31 +80,35 @@ All relevant files for this Quarter 2 is in the `q2_submission_notebooks` folder
 
    Each model undergoes hyperparameter tuning to find optimal settings. The results are saved as CSV files in the `data/model_results` folder, and visualizations show the performance before and after tuning.
 
-**`03_docling.ipynb`**  
+**`03_scraping_and_conversion.ipynb`**  
+This notebook gets the PDF file of articles and converts them into txt and xml files using Grobid.
+   - **Output**: The files are saved in the `data/txts` and `data/xmls` folders respectively.
+
+**`04_docling.ipynb`**  
 Tested out docling to scan the paper from top to bottom to extract text and tables. It does well in getting clear table extraction but the text is very unorganized, therefore we will stick to Grobid text extraction.
 
 ### 2: Data Extracting Models
 
-**`04_pretrained_model_extraction.ipynb`**  
+**`05_pretrained_model_extraction.ipynb`**  
    Using a pretrained model to extract text.
    - **Output**: data/finetuned_llama_output_1epoch.json
 
-**`05_chatextract_openai.py`**  
+**`06_chatextract_openai.py`**  
    Attempting to use ChatExtract implementation from the works of Maciej P. Polak and Dane Morgan. However, it will not be feasible since we require credit to run these extraction.
    
-**`06_chunked_training_creation.ipynb`**  
+**`07_chunked_training_creation.ipynb`**  
 Attempts the extraction task by chunking the text in small portions.
    - **Output**: "data/chunked_example.csv",
 
 ### 3: Fine Tuning and Evaluation
 
-**`07_finetuning_training.ipynb`**  
+**`08_finetuning_training.ipynb`**  
 This notebook trains and prepare the model to be able to extract the data we need.
 
-**`08_finetuning_test.ipynb`**  
+**`09_finetuning_test.ipynb`**  
 This notebook tests performance on the chunked data.
 
-**`09_evaluation_final.ipynb`**  
+**`10_evaluation_final.ipynb`**  
 This notebook compares our text annotation with Extraction performed using precision score, recall score, and f1 score as its metric.
 
 
