@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source/>
+  <date/>
+  <key/>
+  <document>
+    <id>250108025033961GIBEGA</id>
+    <infon key="tt_curatable">no</infon>
+    <infon key="tt_version">2</infon>
+    <infon key="tt_round">2</infon>
+    <infon key="tt_review">1</infon>
+    <passage>
+      <offset>0</offset>
+      <text>Paper #: 60&#13;</text>
+    </passage>
+    <passage>
+      <offset>12</offset>
+      <text>Materials All chemicals used are commercially available from Sigma-Aldrich (or otherwise specified) and were used without any additional purification steps: 4-Vinylbenzylamine (stabilized with MEHQ, &gt;92.0%, TCI (Product Number：V0101)), dimethylformamide anhydrous (DMF, 99%), dimethylsulfoxide anhydrous (DMSO, 99.9%), lead (II) iodide (from TCI, 98%), lead(II) bromide (from Alfa Aesar, 99.999%), allylamine (98%), hydroiodic acid (57 wt. % in H2O, distilled, stabilized, 99.95%), methylammonium iodide (from Dyesol Inc., 99.9%), methylammonium bromide (from Dyesol Inc., 99.9%), formadinium iodide (from TCI), chlorobenzene anhydrous, diethyl ether anhydrous, 2,2',7,7'-tetrakis-(N,N-dipmethoxyphenylamine)9,9'-spirobifluorene (spiro-OMeTAD) (from Lumtech). &#13;</text>
+      <annotation id="1">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-12T14:32:09Z</infon>
+        <location offset="742" length="12"/>
+        <text>spiro-OMeTAD</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>775</offset>
+      <text> Synthesis of 4-vinylbenzylammonium bromide salts 1 g of 4-vinylbenzylamine (VBA, 0.98 mL, 7.36 mmol, stored in a freezer prior to use) was added to 15 -30 mL of cold isopropanol (cooled in an ice bath). 0.65 mL of a solution of 48% HBr (6.62 mmol) was added dropwise to the cooled VBA / isopropanol mixture. This mixture was left to react for 2 hours, slowly warming up to room temperature. The solvent was then evaporated under reduced pressure and the remaining white solid was left to dry for an addition 30 min under mild heating and vacuum (temperature was maintained at a maximum of 70˚C). The solid was then stirred in ~20 mL diethyl ether for 10 -15 minutes before being filtered and washed five times with diethyl ether. This washed solid white powder was then recrystallized by dissolving in boiling isopropanol and subsequently re-precipitated with diethyl ether. The recrystallized solid was isolated via vacuum filtration, washed an addition three times with diethyl ether, and then held under vacuum for 16 hours before being brought into a nitrogen glovebox for storage and use. We performed 1H NMR on the washed and recrystallized products to ensure that the vinyl groups remained unreacted after exposure to heat when drying and recrystallizing the solid. &#13;</text>
+      <annotation id="2">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">vinylbenzylammonium bromide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-12T14:32:29Z</infon>
+        <location offset="789" length="29"/>
+        <text>4-vinylbenzylammonium bromide</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>2051</offset>
+      <text> Solar cell fabrication ITO glass was cleaned by sequentially washing with detergent, deionized water, acetone and isopropanol (IPA). ITO was then cleaned with ultraviolet ozone for 15 min. The substrate was then spin-coated with a thin layer of SnO2 nanoparticle solution (1:3:3, SnO2 (15% in water) : IPA : Water) at 3,000 r.p.m. for 20 s, and annealed in ambient air at 150 °C for 1 hour. To fabricate perovskite solar cells based on (FAPbI3)0.95(MAPbBr3)0.05, the perovskite solution was prepared by dissolving 889 mg ml -1 of FAPbI3, 33 mg ml -1 of MAPbBr3 and 33 mg ml -1 of MACl in DMF/DMSO (8:1 v/v) mixed solvent. Then, the solution was coated onto the ITO/SnO2 substrate by two consecutive spin-coating steps, at 1,000 and 2,500 r.p.m. for 5 s and 20 s, respectively. During the second spin-coating (2,500 r.p.m.) step, 1 ml of diethyl ether was poured onto the substrate after 15 s. The intermediate phase substrate was then put on a hot plate at 150 °C for 10 min. After the fabrication of the 3D perovskite film, the 2D layer was fabricated by depositing a 1.0 mM solution of 4-vinylbenzylammonium bromide in mixed solvent (chloroform:isopropanol = 97:3 v/v) onto the perovskite film, waiting for the specified soaking time and then spinning the substrate at 5,000 r.p.m. for 10 s. Then, the substrate was heat-treated at 150 °C for 30 s. For deposition of the hole-transport material, a spiro-OMeTAD solution in chlorobenzene (CB) (90.9 mg ml -1 ) was prepared, and 23 μl of lithiumbis(trifluoromethanesulfonyl) imide (Li-TFSI) solution in acetonitrile (ACN) (540 mg ml -1 ) and 39 μl of pure 4-tert-butylpyridine (tBP) were added in 1.1 ml of the solution. The spiro-OMeTAD solution including additives was spin-coated onto the perovskite surface at 1,7500 r.p.m. for 30 s. Finally, a gold electrode was deposited by thermal evaporation. &#13;</text>
+      <annotation id="3">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">TinOxide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-12T14:34:41Z</infon>
+        <location offset="2297" length="4"/>
+        <text>SnO2</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-12T14:34:39Z</infon>
+        <location offset="2488" length="25"/>
+        <text>(FAPbI3)0.95(MAPbBr3)0.05</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">vinylbenzylammonium bromide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-12T14:35:02Z</infon>
+        <location offset="3142" length="27"/>
+        <text>vinylbenzylammonium bromide</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-12T14:35:16Z</infon>
+        <location offset="3452" length="12"/>
+        <text>spiro-OMeTAD</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>3910</offset>
+      <text> Device testing The current density-voltage (J-V) characteristics were measured using a Keithley 2400 source meter under illumination from a solar simulator (Newport, Class A) with a light intensity of 100 S5 mW cm-2 (checked with a calibrated reference solar cell from Newport). J-V curves were measured in a nitrogen atmosphere with a scanning rate of 100 mV s-1 (voltage step of 20 mV and delay time of 200 ms). The active area was determined by the aperture shade mask (0.049 cm2 for small-area devices) placed in front of the solar cell. A spectral mismatch factor of 1 was used for all J-V measurements. For operational stability measurements at maximum power point (MPP), the device testing chamber was left under ambient conditions. Solar cells were fixed at the MPP voltage, (determined from J-V sweeps in both scanning directions) and current output was tracked over time. &#13;</text>
+    </passage>
+    <passage>
+      <offset>4794</offset>
+      <text> Grazing Incidence Wide-Angle X-ray Scattering (GIWAXS) GIWAXS measurements were conducted at the Brockhouse X-ray Diffraction and Scattering Beamline (BXDS) of the Canadian Light Source (CLS). An energy of 17.998 keV (λ = 0.6888 Å) was selected using a Si(111) monochromator. Patterns were collected on a MX300 CCD camera (Rayonix) placed at a distance of 157 mm from the sample. A lead beamstop was used to block the direct beam. Images were calibrated using LaB6 and processed via the Nika software package 1 and the GIXSGUI MATLAB plug-in 2 .    ABSTRACT: 2D/3D heterojunction perovskite solar cells have demonstrated superior efficiency and stability compared to their fully 3D counterparts. Previous studies have focused on producing 2D layers containing predominantly n = 1 perovskite quantum wells. &#13;</text>
+    </passage>
+    <passage>
+      <offset>5604</offset>
+      <text> Simulation In this report we demonstrate a technique to introduce dimensional mixing into the 2D layer, and we show that this leads to more efficient devices relative to controls. Simulations suggest that the improvements are due to a reduction in trap state density and superior band alignment between the 3D/2D perovskite and the hole-transporting layer. T he topic of improving instability in metal halide perovskite solar cells (PSCs) is one of ongoing interest. Reduced-dimensional perovskites (RDPs) have been shown to increase ambient and operating lifetimes of PSCs, and 2D/3D heterostructure PSCs consisting of a thin layer of RDPs atop a 3D active layer improve both stability and efficiency compared to pure 3D counterparts.  [1] [2] [3] [4] [5]  Studies of 2D/3D interfaces in perovskite solar cells are many and varied, with several reports demonstrating that a 2D interlayer can improve charge extraction.  [6] [7] [8]  Reports have generally focused on creating a thin (5-10 nm) 2D layer to prevent resistive losses. To this end, a dilute solution of ligand is usually employed and is rapidly spin-coated to construct the 2D/3D interface. X-ray diffraction techniques are then used to identify the RDPs formed, with n = 1 being dominant in most reports.  7, 9, 10  Considering the tunability of RDPs, we posited that it is possible to modify the distribution of quantum wells through materials processing parameters. This could then be used to investigate the effect of n &gt; 1 heterostructures on device performance. Initial studies of charge transport through these alternating conductive/insulating layers have shown that high solution concentrations (&gt;5 mM) and thicker 2D layers are detrimental to performance  12, 8  and that it is beneficial to produce disordered interlayers having fewer planes oriented parallel with the substrate.  11  We proposed that by using a very dilute solution (1 mM) and prolonging exposure, we could influence the quantum well distribution without a detrimental thickness increase. We found that prolonging the exposure of 3D perovskite surfaces to a dilute ligand-solution modifies the width distribution of quantum wells in the 2D/3D heterojunction. Tuning this parameter for optimal performance, we were able to improve device power conversion efficiency (PCE) from 19.0(±0.4)% to 21.4(±0.3)%. To probe the effect of ligand exposure on RDP formation, we fabricated 2D/3D perovskite thin films and collected grazing-incidence wide-angle X-ray scattering (GIWAXS) patterns. The 2D layer was formed using a solution of 4vinylbenzylammonium (VBA) ligands, which has been shown to increase the efficiency and ambient stability of PSCs,  6  and the solution was prepared according to ref 7 with a concentration of 1 mM, a protocol that previously has been reported to form a ∼10 nm thick conformal layer between the perovskite and the hole-transporting layer (HTL). Rather than spinning immediately after deposition of the solution, we soaked the films for varying amounts of time (Methods in the Supporting Information). The 2D pattern for the 60 s soaked film is shown in Figure  1a , and patterns for the other films may be found in Figure  S1 . The textured spots along q xy = 0 indicate the RDPs are well-oriented parallel with the substrate. Longer exposure is not correlated with a change in orientation or disorder, but rather with the formation of n = 2 quantum wells. Integrating radially along q z and azimuthally between 0 and we produce a film of predominantly n = 1 structures, and with longer soaking time, we observe increasingly strong diffraction from n = 1. Alongside this we see an increase in n = 2 diffraction with soaking time, growing to exceed the n = 1 peak after 60 s of exposure. These results are summarized in Table  1 . This represented a new parameter space which we could optimize for device performance. To investigate the effect of ligand exposure on devices, we fabricated noninverted (n-i-p) planar PSCs with an ITO/ SnO 2 /perovskite/2D-perovskite/spiro-OMeTAD/Au architecture. The 2D layer was once again formed by soaking the films for different times. Reverse scan J-V curves and corresponding photovoltaic figures of merit are shown in Figure  2 . We found that increased exposure did indeed lead to improved performance, with the greatest improvement for around 30 s of soaking time (21.7% PCE). We also found that overexposure (greater than 30 s) led to a loss in performance, seen as a reduction in V OC .We note that hysteresis was observed for all devices (reverse and forward scans for each device are shown in Figure  S3 ), but the stabilized power output (SPO) for devices held at their MPP for 60 s were only ∼0.7 power points lower than PCEs obtained from the reverse scans. For example, the SPO for control and 30 s soaked devices was 18.5% and 21.2%, respectively. MPP tracking data from these devices can be found in Figure  S4 . Yoo et al. have shown that, when preparing 2D/3D perovskites with ligands dissolved in isopropanol (IPA), exposure of the perovskite to IPA results in the formation of a δ-phase that is detrimental to device performance.  9  However, the ligand solution used in the present study was 97% chloroform (a perovskite antisolvent) and contained only 3% IPA to dissolve the VBA ligand, making solvent-related degradation unlikely. V OC initially increases with prolonged soaking time, which correlates with increasing diffraction from n = 1 planes. V OC is Figure  1 . GIWAXS pattern for the 60 s exposure film (upper panel) and azimuthal integrations along q z for the various conditions (lower panel). Peaks at q ≈ 1.0, ∼0.37, and ∼0.25 Å -1 correspond to the (110) plane of bulk perovskite and (001) planes of n = 1 and n = 2, respectively.  12, 13  Table  1 . Volume Integration of n = 1 and n = 2 Diffraction Spots for Each Soaking Time where the 3D perovskite layer was subjected to no ligand exposure (Control), immediate spin-coating of the ligand-solution (0 s), and various soaking times (10, 30, and 60 s) after depositing the solution onto the surface. Forward scans are omitted for clarity and can be found in Figure  S3 . The Journal of Physical Chemistry Letters then reduced by longer soaking, corresponding to stronger diffraction from both structures and the dominance of the n = 2 peak. However, the performance of the 60 s soaked film still exceeds that of the 0 s soak and the control, and the fill factor continues to increase with all soaking times. This contrasts with RDP-only absorber layers, in which dimensional mixing results instead in lower fill factors.  14, 15  It has been proposed that a layer of RDPs above a 3D absorber layer increases efficiency via passivation of traps and thus a reduction in surface recombination.  10  These improvements manifest themselves largely as an improvement in V OC , which is also seen here. It has also been shown that a 2D interlayer results in a higher flat-band potential across the interface between the perovskite and the HTL, which is also related to an increase in V OC .  7  The peaks for both n = 1 and n = 2 become more intense and slightly narrower with longer exposure time, which could indicate a greater number of diffracting planes.  16  Previous reports have found that overly thick 2D layers lead to lower performance, but this is usually due to a reduction in current or fill factor, rather than photovoltage.  6, 8  The fill factor for the 60 s soaking film remains as high as 80%, suggesting excellent carrier extraction and indicating that other factors are responsible for the lower V OC . To understand further how altering the 2D layer affects device performance, we simulated perovskite solar cells using the heterojunction solar cell simulator SCAPS-1D. The simulations (Figure  3 ) show that reducing the surface trap state density between the perovskite layer and HTL increases both V OC (+34 mV) and fill factor (+5.6%) and that the introduction of a thin (5 nm) 2D layer increases V OC (+8 mV) if well-aligned with the 3D perovskite and HTL through a slight increase to the Fermi-level splitting. Misalignment of the 2D layer, however, leads to a significant reduction in V OC (-44 mV), with only a small change in fill factor (-1.5%). These trends suggest the misalignment of the 2D perovskite as a potential explanation for the performance drop of the 60 s soaked films. Ultraviolet photoelectron spectroscopy (UPS) experiments on 2D (n = 1) perovskites have determined the valence band maximum (VBM) to be as low as -5.8 eV,  17  and another study found that the VBM became shallower with increasing n,  18  which would suggest a type I band alignment between 2D and 3D perovskites (both the conduction and valence band of the 3D perovskite sit within the band gap of n = 1). However, another report showed that when a 5 mM VBABr solution was used to form an RDP layer, the VBM was measured to be ∼ -5.4 eV, which is similar to the VBM of low bromine content perovskite,  6  enabling a type II alignment (only one of the conduction or valence band of the 3D perovskite sits within the band gap of n = 1). The position of the VBM for RDPs therefore can vary over hundreds of millielectronvolts. It has been shown that the band alignment of RDPs is dependent on not only their bandgap (∼2.3 eV for n = 1, ∼2 eV for n = 2) but also ligand coverage, where a correlation between increased ligand content and shallower VBMs has been observed.  18, 19  As shown in Figure  3 , an energy level shift of ∼0.4 eV causes the 2D layer to move from the superior type-I alignment with the 3D perovskite (type-II with the HTL), to the inferior type-II alignment with the 3D perovskite (type-I with the HTL). We posit that longer soaking times may lead to increased ligand coverage that upshifts the valence band of RDP layers into a favorable alignment with the 3D layer and the HTL, and increasing the relative amount of n = 2 in the composition would also upshift the valence band with its narrower bandgap and shallower VBM compared to n = 1. Our observations here can be explained if after 30 s of soaking, increased dimensional mixing and ligand coverage lead to a more favorable band alignment, and after 60 s the valence band is further upshifted into inferior alignment. We correlate higher performance in 2D/3D PSCs for films with more n = 1 structures and some dimensional mixing at the perovskite-HTL interface and lower performance for films with majority n = 2 structures. Modulation of 2D/3D interfaces influences the device performance through alterations to the energy landscape via bandgap tuning and shifting of energy levels with varying ligand coverage, improving V OC and fill factor. These results suggest this may be a parameter space warranting further exploration in the field of 2D/3D perovskites. This report is limited to examining the structure and orientation of RDPs using GIWAXS and comparing with device performance. Questions remain, such as the influence of 2D layer thickness; 8 whether prolonged ligand exposure promotes RDP formation only at the film surface or also at grain boundaries; if the band levels of RDPs are altered by ligand exposure time;  18  the true extent of dimensional mixing at the 2D/3D interfaces, and how this affects carrier dynamics and long-term stability.  14  We have shown previously that GIWAXS and XRD are often unable to probe the true n distribution of RDPs because of limited spatial coherence between wells, and optical probes are required instead. Future studies should include a wider suite of characterizations to examine changes in carrier dynamics induced by the modified quantum well structure. 3 Figure S1 . 3S1 Figure S1. GIWAXS patterns of perovskite films with different ligand solution soaking times (a) Control (b) 0 s soak (c) 10 s soak (d) 30 s soak. &#13;</text>
+      <annotation id="7">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">NOTE:This is how to prepare the PSC,relevent...?</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-12T14:36:36Z</infon>
+        <location offset="7648" length="157"/>
+        <text>t prolonging the exposure of 3D perovskite surfaces to a dilute ligand-solution modifies the width distribution of quantum wells in the 2D/3D heterojunction.</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">structure_pin_nip</infon>
+        <infon key="identifier">NIP</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-12T14:37:10Z</infon>
+        <location offset="9572" length="6"/>
+        <text>(n-i-p</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">structure_pin_nip</infon>
+        <infon key="identifier">NIP</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-12T14:37:22Z</infon>
+        <location offset="9600" length="52"/>
+        <text>ITO/ SnO 2 /perovskite/2D-perovskite/spiro-OMeTAD/Au</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">treatment_element</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-12T14:37:46Z</infon>
+        <location offset="9956" length="20"/>
+        <text>30 s of soaking time</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-12T14:37:40Z</infon>
+        <location offset="9978" length="4"/>
+        <text>21.7</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>17479</offset>
+      <text> Figure S2 . S2 Figure S2. Photovoltaic parameter statistics PCE and VOC from reverse scans of the two best performing pixels on 2 control devices and 8 devices with different soaking times. Upper and lower boundaries of the boxes represent the third quartile and first quartile, respectively. Error bars indicate the minimum and maximum values, and the middle line in each box represents the median value. &#13;</text>
+    </passage>
+    <passage>
+      <offset>17887</offset>
+      <text> Figure S3 . S3 Figure S3. Forward and reverse J-V scans (a) Control (b) 10 s soak (c) 30 s soak (d) 60 s soak &#13;</text>
+    </passage>
+    <passage>
+      <offset>17999</offset>
+      <text> Figure 2 . 2 Figure 2. J-V curves (open-circuit to short-circuit scanning direction) and photovoltaic figures of merit for perovskite solar cellswhere the 3D perovskite layer was subjected to no ligand exposure (Control), immediate spin-coating of the ligand-solution (0 s), and various soaking times (10, 30, and 60 s) after depositing the solution onto the surface. Forward scans are omitted for clarity and can be found in FigureS3. &#13;</text>
+    </passage>
+    <passage>
+      <offset>18437</offset>
+      <text> Figure 3 . 3 Figure 3. Simulation results. J-V curves and photovoltaic figures of merit calculated using SCAPS-1D. (upper) Effect of surface trap state density between the perovskite and HTL on performance. (lower) Effect of band alignment between the perovskite/2D perovskite layer/ HTL on performance. Inset: schematic of band structure used in simulation (orange, 3D perovskite; green, 2D perovskite; purple, Spiro-OMeTAD). &#13;</text>
+    </passage>
+    <passage>
+      <offset>18866</offset>
+      <text> Table S1 . Material parameters used for simulation in SCAPS-1D S1 Parameter SnO2 Material 3D perovskite 2D perovskite Spiro-OMeTAD Thickness (nm) 50 550 5 350 Bandgap (eV) 3.9 4 1.57 2.3 5 2.7 6 Electron Affinity (eV) 4.2 4 3.9 7 2.8 -3.2 2.5 6 Dielectric permittivity 7.1 8 24.1 9 24.1 3 10 (relative) Conduction band 2.24E18 7.94E17 12 7.94E17 2.5E18 13 effective density of 11 states (cm -3 ) Valence band effective 1E18 1E18 12 1E18 1.8E18 13 density of states (cm -3 ) Electron mobility 2.4E2 14 2.2E1 15 2.2E1 2E-4 13 (cm 2 /Vs) Hole mobility (cm 2 /Vs) 1E2 2.2E1 2.2E1 2E-4 13 Shallow uniform 0 1E15 1E15 1E20 16 acceptor density, NA (cm -3 ) &#13;</text>
+    </passage>
+    <passage>
+      <offset>19518</offset>
+      <text> Shallow uniform donor density, NA (cm -3 ) 1E21 17 0 0 0 Defect type - Neutral Neutral Neutral Capture cross section - 1E-13 1E-13 1E-15 (electrons) (cm -3 ) Capture cross section - 1E-13 1E-13 1E-15 (holes) (cm -3 ) Energetic distribution - Single Single Single Energy level (eV) - 0.5 0.5 0.1 Total defect density - 1E14 1E14 1E14 (cm -3 ) &#13;</text>
+    </passage>
+    <passage>
+      <offset>19862</offset>
+      <text> Table S2 . Interface parameters used for simulation in SCAPS-1D S2 Interface Dimensional Mixing Increases the Efficiency of 2D/3D Perovskite Parameter SnO2/ 3D perovskite/ 3D perovskite/ 2D perovskite/ Solar Cells 3D perovskite Neutral 1E-16 Sam Teale, Read Online HTL 2D perovskite Defect type Neutral Neutral Capture cross 1E-18 1E-18 HTL Neutral 1E-18 section (electrons) ACCESS Metrics &amp; More Article Recommendations (cm -3 ) Capture cross 1E-15 1E-16 1E-16 1E-16 section (holes) (cm -3 ) Energetic Single Single Single Single distribution Energy level 0.6 0.5 0.5 0.5 (eV) Total defect 1E12 10E14 -10E16 10E14 10E14 density (cm -2 ) ⊥ Andrew H. Proppe, ⊥ Eui Hyuk Jung, Andrew Johnston, Darshan H. Parmar, Bin Chen, Yi Hou, Shana O. Kelley, and Edward H. Sargent* Cite This: J. Phys. Chem. Lett. 2020, 11, 5115-5119 * sı Supporting Information &#13;</text>
+    </passage>
+    <passage>
+      <offset>20718</offset>
+      <text>			 π , we obtain Figure1b. We observed that, without soaking, &#13;</text>
+    </passage>
+    <passage>
+      <offset>20783</offset>
+      <text>			 https://dx.doi.org/10.1021/acs.jpclett.0c01444 J. Phys. Chem. Lett. 2020, 11, 5115-5119</text>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source/>
+  <date/>
+  <key/>
+  <document>
+    <id>250108025023121CHIAHF</id>
+    <infon key="tt_curatable">no</infon>
+    <infon key="tt_version">2</infon>
+    <infon key="tt_round">2</infon>
+    <infon key="tt_review">1</infon>
+    <passage>
+      <offset>0</offset>
+      <text>Paper #: 6&#13;</text>
+    </passage>
+    <passage>
+      <offset>11</offset>
+      <text>Ligand-Stabilized Reduced-Dimensionality Perovskites Supporting Information&#13;</text>
+    </passage>
+    <passage>
+      <offset>87</offset>
+      <text>S2 1. Details for Density functional theory Simulations for the perovskite stability. &#13;</text>
+    </passage>
+    <passage>
+      <offset>174</offset>
+      <text> Methods Calculations were performed using the Quickstep module of the CP2K program suite S1,S2 utilizing a combined basis of Gaussians and plane waves, using Perdew-Burke-Ernzerhof (PBE) exchange correlation functional. A grid cutoff of 300 Ry was used, appropriate for the Goedecker-Teter-Hutter pseudopotentials S3 that we employed. Triple-zeta plus polarization (TZVP) basis sets for H, C, N and double-zeta (DZVP) for Pb and I were used S4 . Basis set superposition error corrections were applied to all binding energy calculations using the counterpoise method ('ghost' neighboring atomic orbitals). Van der Waals interactions were included as empirical dispersion corrections S5 . Simulations were performed using periodic boundary conditions on slabs ranging from 1 to 40 layers in a 3x3 tetragonal perovskite surface unit cell (26x26 Å 2 ) using a single k-point. Perovskite layers were stacked on top of each other along the crystallographic c-axis. Full structural and cell optimization was performed for each structure using Broyden-Fletcher-Goldfarb-Shanno algorithm (BFGS). &#13;</text>
+    </passage>
+    <passage>
+      <offset>1264</offset>
+      <text> Results and Discussion Formation energies were calculated as follows: with negative values meaning stable structure. The PbI 2 energy is taken to be that of bulk. MAI and PEAI energies were computed for bulk MAI and PEAI, as well as gas phase and solvated with different amounts of water, increasing the stability of molecules and thus decreasing the stability of perovskite (fig.  S1b  and c ). Desorption into HI+CH 3 NH 2 was also considered but had higher energy cost. Perovskite formation energy vs. decomposition into bulk constituents is found to be 0.05 eV with van der Waals interactions included, and -0.1 eV when omitted. The exact value of the formation energy depends on the exchange-correlation potential used S6 but is expected to be close to zero irrespectively, i.e.&#13;</text>
+    </passage>
+    <passage>
+      <offset>2049</offset>
+      <text>To decompose the formation enthalpy into contributions from MAI and PbI 2 , slabs of different thicknesses were used: PEAI, PbI 2 , and MAI layers were successively removed and compared to energies of the bulk PEAI, PbI 2 , and MAI. These layer desorption energies were found to be independent of the amount of layers (n) in the slab and comprise 0.55 eV per molecule for MAI, 0.91 eV for PEAI, and -0.6 eV for PbI 2 (positive value means stable). MAI and PEAI desorption energies with and without van der Waals contribution were compared, and the difference of 0.36 eV was found to be completely caused by van der Waals interactions, irrespective of the environment (humidity). To account for the possibility of imperfect surface coverage by PEAI, especially for the cases of high n values where excess of MAI is significant, intermixed 1:1 MAI:PEAI surface layer was modeled, leading to a 0.18 eV per molecule reduction in surface layer desorption energy. Obtained energies for desorption from perovskite into gas phase are 2.15 and 2.51 eV, for MAI and PEAI respectively, rendering perovskite stable under vacuum. Desorption into water is found to be comparable to decomposition into bulk MAI/PEAI; while lower humidity, corresponding to less water molecules used in simulation, improves the stability by 0.35 eV (for the configuration in Fig.  S1c ). To estimate the film decomposition lifetime for Fig.  1b , we follow the methodology for surface thermal desorption spectroscopy, where molecular desorption rate r is given by: ‫ݎ‬ = - ௗఙ ௗ௧ = ߥ exp(- ா ೌ ் ), where σ is the surface coverage, ν -attempt frequency, E a -activation energy. The film decomposition lifetime is then given by: t = N MAI / r MAI + N PEAI /r PEAI. where N is the amount of the respective molecules in the film. We estimate N by assuming a film thickness of 400 nm and a thickness of 0.6 nm per PbI 2 +MAI layer for Fig.  1b . &#13;</text>
+      <annotation id="2">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">phenylethylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:26:27Z</infon>
+        <location offset="2167" length="4"/>
+        <text>PEAI</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>3980</offset>
+      <text> S4 Since ν is unknown a priori, we use relative rates, which are fully defined by the energy difference between the respective activation energies. For example, 0.36 eV stabilization of PEAI relative to MAI provides six orders of magnitude slower rate. Combined with ~700 MAI layers in a 400 nm film, this leads to about three orders of magnitude longer decomposition lifetime in case of a single PEAI protective surface layer (i.e. quasi-2D perovskite with n=700) fully covering the MAPbI 3 perovskite unit cell.    &#13;</text>
+    </passage>
+    <passage>
+      <offset>4500</offset>
+      <text> S13 n = ∞ 1.05 V 1.04 V 0.90 V 0.88 V n = 60 1.07 V 1.07 V 1.06 V 1.02 V n = 40 1.10 V 1.09 V 1.09 V 1.06 V n = 10 1.12 V 1.11 V 1.11 V 1.10 V * S Supporting Information ABSTRACT: Metal halide perovskites have rapidly advanced thin-film photovoltaic performance; as a result, the materials' observed instabilities urgently require a solution. Using density functional theory (DFT), we show that a low energy of formation, exacerbated in the presence of humidity, explains the propensity of perovskites to decompose back into their precursors. We find, also using DFT, that intercalation of phenylethylammonium between perovskite layers introduces quantitatively appreciable van der Waals interactions. These drive an increased formation energy and should therefore improve material stability. Here we report reduced-dimensionality (quasi-2D) perovskite films that exhibit improved stability while retaining the high performance of conventional three-dimensional perovskites. Continuous tuning of the dimensionality, as assessed using photophysical studies, is achieved by the choice of stoichiometry in materials synthesis. We achieve the first certified hysteresis-free solar power conversion in a planar perovskite solar cell, obtaining a 15.3% certified PCE, and observe greatly improved performance longevity. &#13;</text>
+      <annotation id="1">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">phenylethylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:26:27Z</infon>
+        <location offset="5091" length="19"/>
+        <text>phenylethylammonium</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">15.3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:22:58Z</infon>
+        <location offset="5742" length="5"/>
+        <text>15.3%</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>5818</offset>
+      <text> ■ INTRODUCTION The rapid advance of organic-inorganic metal halide perovskites represents a breakthrough for next-generation thin-film optoelectronics.  [1] [2] [3] [4] [5] [6]  In particular, methylammonium (MA, CH 3 NH 3 ) lead iodide (MAPbI 3 ) perovskites possess an appropriate bandgap energy, 7,8 large absorption coefficient, and long-range ambipolar photocarrier diffusion.  9  Tremendous efforts from multiple research groups have propelled the certified power conversion efficiency (PCE) of perovskite solar cells to 20.1%.  10  Unfortunately, perovskite materials lack long-term stability under ambient operation conditions. This has been ascribed, with the aid of theoretical studies, to the low formation energy of MAPbI 3 .  11  This challenge has motivated efforts to improve device stability, and progress in this direction has been made by developing novel device architectures.  12  Here we focus instead on the stability of the active material itself. We investigate, using theory and experiment, the origins of instability in conventional MAPbI 3 , and we propose and fabricate enhanced perovskitestaking advantage of the versatile physical chemistry of this materials systemthat constitute low-dimensional hybrid organic-inorganic crystalline thin films. There exist prior reports of two-dimensional (2D) layered perovskites, crafted using bulkier organic molecules in place of MA, that exhibit enhanced stability; however, these suffer from poor photovoltaic performance.  13  These prior reports have shown PCEs lower than 5% due to their low absorption coefficient and poor carrier transport,  14  and this has hindered their further application. Here, we develop and investigate a platform of mixed-organic, dimensionally tuned quasi-2D perovskite thin films that continuously bridge the gap between 2D and 3D materials.  15, 16  We find that members of the quasi-2D family combine the enhanced stability of 2D perovskites with the excellent optoelectronic parameters, including long-range photocarrier diffusion, of 3D perovskites. Our approach relies on computational methods to unravel the origins of instability in conventional MAPbI 3 , while complementary studies of the physical and optoelectronic properties of quasi-2D perovskites allow us to identify optimized conditions to design and fabricate chemically stable, high-efficiency photovoltaic devices. &#13;</text>
+      <annotation id="4">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">Methylammonium Lead Iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:23:34Z</infon>
+        <location offset="6878" length="7"/>
+        <text>MAPbI 3</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>8216</offset>
+      <text> ■ RESULTS AND DISCUSSION The intermediates between 3D and 2D are layered perovskites systematically synthesized by introducing a large organic cation, phenylethylammonium (PEA, C 8 H 9 NH 3 ), at a judiciously chosen stoichiometry. This cation possesses a large ionic radius which is incompatible with a 3D perovskite structure; therefore, perovskites based on this cation tend to crystallize into a layered, 2D structure.  17  Consequently, we can continuously tune the dimensionality of metal halide perovskite compounds by mixing stoichiometric quantities of lead iodide (PbI 2 ), methylammonium iodide (MAI, CH 3 NH 3 I), and phenylethylammonium iodide (PEAI) to yield compounds with different layer (n) values in the series PEA 2 (CH 3 NH 3 ) n-1 Pb n I 3n+1 (Table  S1 ). In this notation, the limit n = ∞ corresponds to the cubic 3D perovskite, CH 3 NH 3 PbI 3 , while the other n values describe 2D (n = 1) or quasi-2D (n &gt; 1) perovskite structures (Figure  1a ). We investigated the stability of dimensionally tuned perovskites using density functional theory (DFT) simulations. Calculations show that the conventional 3D perovskite is marginally stable relative to decomposition into bulk PbI 2 and MAI constituents (see details for DFT simulations in Supporting Information, Figure  S1 ), and indeed both components have been observed in thermal gravimetric analysis.  18  However, this process cannot happen within the bulk spontaneously and needs to start from the surface, where molecules have sufficient freedom to rearrange. We further analyze the formation enthalpy into that of constituent layers, predicting ∼0.55 eV per molecule required to recrystallize the MAI layer and ∼0.6 eV gain upon conversion of the PbI 2 layer (see details on DFT simulations and results and discussion in the Supporting Information). Thus, MAI serves as a protection layer, limiting perovskite decomposition, while the PbI 2 surface termination is inherently unstable. Under ambient conditions, the degradation of 3D perovskites is known to result in the formation of a PbI 2 yellow phase, and X-ray photoelectron spectroscopy (XPS) suggests that it is accompanied by the loss of MAI into the gas phase, with no measurable formation of perovskite hydrate,  19  even in a highhumidity environment. In contrast, simulations predict a greater than 2 eV desorption energy for organic molecules. To reconcile these observations, we included water in our simulations  20  and found a significant decrease in desorption energies and decomposition lifetimes (Figure  1b ), consistent with the sensitivity of perovskite to moisture.  18, 33    Notably, we find that van der Waals interactions between the capping organic molecules are key drivers of increased material stability:  21  the energy required to remove PEAI from the perovskite is 0.36 eV higher than that for MAI, reducing the desorption rate by 6 orders of magnitude, and slowing film decomposition 1000-fold (additional details on DFT simulations and results can be found in Supporting Information). Motivated by these insights, and building on the previously reported solvent-engineering fabrication process,  22  we fabricated dimensionally tuned perovskite films using single-step spin-coating. X-ray diffraction (XRD) patterns for the 3D and quasi-2D perovskite thin films show very similar reflections, indicating a preferential orientation of the crystallites relative to the substrate. Thus, thin-film samples do not exhibit Bragg reflections at low diffraction angles 2θ°, yet these lowdiffraction-angle features represent the unambiguous signatures of the layered structure, specifically of the elongated unit cell.  23  We therefore obtained powders from the films that would lack preferential orientation. These powder samples show diffraction scans that, in all but the 3D case (n = ∞), exhibit a series of Bragg peaks at low angles (2θ &lt; 10°).  24  The XRD data confirm the formation of lead iodide n-layer perovskite sheets (Figure  2a ) but are not conclusive on the phase purity of quasi-2D films. Consequently, we embarked on a study of the phase composition of dimensionally tuned perovskite solids of various n. As expected, decreasing the dimensionality of the perovskite structure causes an increase in the electronic bandgap.  30, 31  The dimensional tuning of the electronic bandgap, E G , can be followed from the absorption spectra (Figure  2b ), which show a higher-energy absorption edge for lower n values. The trend is in good agreement with DFT calculations (Figure  S3 ). The energy levels of these compounds have been analyzed using a combination of ultraviolet photoemission spectroscopy (UPS) and UV-vis absorption spectra, as shown in Figure  2c . The valence band maximum (VBM) for 3D CH 3 NH 3 PbI 3 perovskite is found 5.34 eV below the vacuum level. From this and the optical bandgap, we conclude that the conduction band minimum (CBM) is located at 3.77 eV.  25  When we decrease n values, the CBM becomes shallower, while the VBM shows a negligible variation (Figure  2c ). The stoichiometry of these perovskite films was verified using XPS (Figure  2d ), which revealed a gradual decrease of both the I:Pb and N:Pb ratios throughout the film with increasing n values, in good agreement with the values expected from the nominal molar ratio of precursors (Table  S1 ). The above studies, taken together, indicate a controlled synthesis of mixed-stoichiometry materials in which the organic cation enables continuous tuning of the dimensionality, and resultant optical properties, of the perovskite compounds. We then investigated material stability as a function of dimensionality. The perovskite films were stored for extended periods of time in environments having controlled humidity levels. In the case of bulk MAPbI 3 perovskites, the absorbance (Figure  3a ) near the absorption edge onset degrades rapidly over two months when the sample is stored in 90% relative humidity (RH). After two months, the absorbance of 3D perovskite films at wavelengths longer than 500 nm is significantly suppressed, signaling full reversion to PbI 2 . In contrast, the pure 2D perovskite (n = 1), PEA 2 PbI 4 , exhibits excellent stability over the same period of time using the same measures, with no ostensible variation in the absorbance observed, which is in good agreement with previous reports.  16  As expected, the quasi-2D perovskites (n = 10, 40, 60) exhibit significantly improved stability compared to 3D perovskite. A slight change in the absorbance is observed for the prominent perovskite peak around 750 nm, suggesting that a part of these perovskite films has converted to PbI 2 (Figure  3a ). Layered perovskites with lower n value (n = 10) (i.e., closer to 2D) are found to exhibit better stability of optical properties compared to those with higher n values (n = 40, 60). We tracked the materials' structure stability using XRD periodically recorded on perovskite films stored at 90% RH for more than a week (Figure  3b ). Strong (002) diffraction peaks (at 2θ = 13.98°) characteristic of the perovskite structure are observed for all fresh samples. However, a new peak at 2θ = 12.42°emerges for 3D perovskite film, corresponding to a Bragg reflection of PbI 2 structure, with an increasing intensity over time. In contrast, only a very weak PbI 2 reflection appears in the n = 60 and n = 40 perovskite films, with a peak intensity nearly unchanged over the same period of time, which indicates a significant improvement of stability compared to 3D perovskite. We also investigated the materials' stability using transient photoluminescence (PL) decay measurements. We then tracked any changes over time (Figure  3c ). Dramatic changes are observed in the PL decay traces for the 3D perovskite after 10 days storage in air. There is no observable variation in the carrier lifetime of quasi-2D (n = 40, 60) perovskites. The PL decay changes provide further support of enhanced stability: specifically, the lower n-valued perovskites exhibit improved stability of PL lifetime compared to higher n-values counterparts, a finding that is in good agreement with DFT studies (Figure  1b ). We turned to evaluating the enhanced-stability materials for photovoltaic applications. Unfortunately, the pure 2D perovskites (n = 1) and low-n-value quasi-2D perovskite films exhibit appreciably reduced mobility (μ) and lower lifetime;  21  further, they have a significantly wider bandgap that will sacrifice absorption in the near-infrared (NIR) portion of the solar spectrum. In contrast, our studies of carrier lifetime (τ) and carrier diffusion length (L D )  9  (Table  S2 ) indicated that the quasi-2D perovskite films having higher n values (n = 40, 60) exhibit impressive τ, μ, and L D compatible with photovoltaic performance.  27  Since the 3D perovskite films are limited not by mobility but instead by trap volume density,  26  we reasoned that some sacrifice to mobility in the quasi-2D materials may potentially be tolerable before radiative recombination becomes a considerable loss, an idea confirmed via self-consistent optoelectronic simulations. Figure  4  shows a qualitative comparison of simulated and experimental J-V curves. Modeling assuming the same carrier diffusion length of 350 nm for all samples and using experimental absorption spectra and band gaps (Figure  4a ) cannot reproduce experimental trends (Figure  4c ): (i) the fill factor (FF) stays the same for all samples, and for low n it is higher than experimental values; (ii) V OC is practically unaltered, following the band gap trends, while experimental V OC is higher for lower n; (iii) the changes in absorption are not sufficient to explain the drop of J SC for lower n. The FF is primarily defined by the carrier diffusion length, which in turn depends on trap density. However, introducing more traps will lead to deterioration of all parameters, J SC , FF, and V OC , while experimentally V OC actually increases for lower n. The increase of V OC is usually a signature of decreased mobility, since slower carrier extraction allows for more carrier accumulation, and thus, higher V OC . Higher carrier accumulation, in turn, increases the chances for carriers to meet and recombine radiatively. Including the radiative recombination, in combination with lower mobility, allows reproducing experimental trends, i.e., decrease in J SC and FF while increasing V OC (Figure  4b ). In sum, weak absorption and higher bandgap are detrimental only for very-low-n devices; for n = 6 and higher, the main limiting factor is the reduced mobility, leading to strong radiative recombination losses. This suggests that quasi-2D perovskites, with high n values, may be capable of performance comparable to that of 3D materials with increased stability. We therefore constructed solar cells employing the various active layers in a planar heterojunction architecture (Figure  5a ). Cross-sectional SEM indicates the presence of two uniform layers, a TiO 2 layer (∼50 nm) coated with a dense perovskite absorber (∼450 nm). For the absorber layer, a dense-grained uniform morphology with grain sizes in the range of 100-500 nm was observed in all samples. The grain size shows a slight reduction with decreasing n value (Figure  S4 ). The perovskite with n &lt; 40 shows lower performance due to lower mobility, which leads to higher charge accumulation and increased radiative recombination losses, which negatively impact the FF (Figure  5b, c ). In addition, perovskite films with dimensionality approaching the 2D limit (n &lt; 10) have a wider bandgap and reduced absorption across the solar spectrum. As expected, devices based on perovskite active layers showing a very low n value (n = 6) exhibited very low initial performance in view of their low absorbed photon current and poor carrier transport (Figures  2b  and 5b ). The top-performing quasi-2D perovskite (n = 60) devices exhibited a hysteresis-free certified AM1.5 PCE of 15.3% (Figure  5d, e ). Certification was obtained by an independent photovoltaic calibration laboratory (Figure  S5 ). The steadystate current density measurement was performed for the 3D and n = 60 perovskite devices (Figure  S6 ). Photocurrent decay during testing of devices was observed in the case of 3D perovskites, while devices with n = 60 perovskite showed constant current density over time, consistent with quasi-2D perovskites' low hysteresis. To the best of our knowledge, this is the first report of certified, hysteresis-free planar perovskite solar cells. The introduction of these multilayered perovskite structures might alter the mechanisms of electronic and ionic motion across the film, thus promoting the suppression of the  well-known hysteresis in the current-voltage characteristic of planar 3D perovskite solar cells.  28  We measured solar cell performance and its evolution in time (Figure  6a ). The 3D perovskite devices began with 16.6% PCE but degraded over 8 weeks to less than 3% PCE when stored in N 2 . Moderate n value perovskites (n = 10) showed improved performance together with good long-term stability (Figure  6b-e ); however, the absolute device performance is still low compared with that of the state-of-the-art perovskite device due to poor carrier transport, which limits their further application. Most interesting were the quasi-2D perovskites, both n = 60 and n = 40 (Figure  6b-e ). The performance of the n = 60 device declined to 11.3% PCE after 60 days under a lowhumidity atmosphere, while the n = 40 device had a similar initial PCE and declined to 13.1% after 60 days (Tables  S4-S8 ). Longer-term stabilization is expected when a physical moisture barrier such as a carbon electrode is deployed into the device architecture, combined with use of quasi-2D perovskites (n = 60, 40).  12  In analogous studies under humid air (55% RH), 3D perovskite lost the majority of its performance, decreasing to 4.2% PCE in 3 days. In contrast, over 2 weeks under high RH, the n = 60 and n = 40 devices decreased to about 13% PCE in each case (Table  S8 ). Statistical data on the decay of performance are summarized in the Supporting Information (Figure  S7 ). The thermal stability of the devices was evaluated by annealing at 100 °C for 36 h (Figure  S8 ). The PCE of the device with n = 60 perovskite showed a modest improvement in thermal stability compared with the 3D perovskite devices. &#13;</text>
+      <annotation id="5">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">methylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:26:06Z</infon>
+        <location offset="8801" length="21"/>
+        <text>methylammonium iodide</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">methylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:26:52Z</infon>
+        <location offset="8824" length="3"/>
+        <text>MAI</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">phenylethylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:26:35Z</infon>
+        <location offset="8847" length="26"/>
+        <text>phenylethylammonium iodide</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">phenylethylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:26:44Z</infon>
+        <location offset="8875" length="4"/>
+        <text>PEAI</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">Methylammonium Lead Iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:27:52Z</infon>
+        <location offset="9069" length="15"/>
+        <text>CH 3 NH 3 PbI 3</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">Titanium dioxide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:39:03Z</infon>
+        <location offset="19241" length="5"/>
+        <text>TiO 2</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">16.6</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:32:05Z</infon>
+        <location offset="21185" length="5"/>
+        <text>16.6%</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">time</infon>
+        <infon key="identifier">1344</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:32:22Z</infon>
+        <location offset="21213" length="7"/>
+        <text>8 weeks</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">0.97</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:32:32Z</infon>
+        <location offset="21224" length="12"/>
+        <text>less than 3%</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSD</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:31:57Z</infon>
+        <location offset="21241" length="18"/>
+        <text>when stored in N 2</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">treatment_element</infon>
+        <infon key="identifier">n=10</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:36:01Z</infon>
+        <location offset="21291" length="7"/>
+        <text>(n = 10</text>
+      </annotation>
+      <relation id="R1">
+        <infon key="type">test_1</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:43:23Z</infon>
+        <node refid="10" role=""/>
+        <node refid="13" role=""/>
+        <node refid="12" role=""/>
+        <node refid="11" role=""/>
+        <node refid="14" role=""/>
+      </relation>
+    </passage>
+    <passage>
+      <offset>22692</offset>
+      <text> ■ CONCLUSION In sum, the very low formation energy of 3D perovskites accounts for their low stability relative to their precursor phases. This problem is exacerbated by water and humidity. We show herein that addition of an organic molecule that does not incorporate into the 3D lattice can be used to produce cappedlayered quasi-2D perovskite-based materials, and that these possess much higher formation energies, owing to appreciable van der Waals forces that confer improved stability. By replacing the methylammonium with the formamidinium (HNCHNH 3 + ) cation to further reduce quasi-2D perovskites' bandgap, solar devices with even higher performance without hysteresis could potentially be engineered in the future.  10  The present work suggests that, with further progress, the benefits of perovskitesin long diffusion length for high current and fill factor, as well as low trap state density for high voltagemay be incorporated into more robust solar cells. &#13;</text>
+    </passage>
+    <passage>
+      <offset>23675</offset>
+      <text> ■ EXPERIMENTAL SECTION Phenylethylammonium Iodide Synthesis. Phenylethylamine (10 mL, 80 mmol) was dissolved in 10 mL of ethanol in an ice bath, and HI aqueous solution (55%, 20 mL, 170 mmol) was added dropwise to the flask with vigorous stirring. After the addition of HI, the mixture was allowed to stand in ice bath for another 20 min until a colorless precipitate appeared. The precipitate was filtered under vacuum and washed thoroughly using cold diethyl ether. The crude precipitate was collected and recrystallized in ethanol twice to obtain thin, plate-like white crystals (16.5 g, yield 83%). EI-MS: m/z 249.2, calcd 249.0. Film Fabrication. The series of different-dimensional perovskite PEA 2 (CH 3 NH 3 ) n-1 Pb n I 3n+1 solutions were prepared by dissolving specific stoichiometric quantities of PbI 2 , MAI, and PEAI in DMF (n &lt; 10) or γ-butyrolactone/DMSO (5:5, volume ratio) mixture (n ≥ 10) at 60 °C for 12 h with vigorous stirring. The resulting solution was filtered by PTFE syringe filter (0.2 μm) before deposition. The DMF solution (n &lt; 10) was then deposited onto the substrate by a singlestep spin-coating process at 5000 rpm for 30 s. The mixed γbutyrolactone/DMSO solution (n ≥ 10) was coated onto the substrate via a consecutive two-step spin-coating process at 1000 and 5000 rpm for 10 and 60 s, respectively. During the second spin step, 100 μL of chlorobenzene was deposited onto the substrate. The resulting films were then annealed at 100 °C for 1 h for better crystallization. Photovoltaic Device Fabrication. A dense compact TiO 2 electron transport layer (50 nm) was deposited onto a F-doped SnO 2 (FTO, Pilkington, TEC 15) substrate, followed by drying at 130 °C for 10 min and calcining at 500 °C for 1 h. The TiO 2 precursor solution was prepared by dissolving 890 mg of titanium isopropoxide (TTIP) and 30 mg of HCl (37%) solution in 8 mL of ethanol. The mixture was then stirred at room temperature overnight before use. The resulting TiO 2 film was immersed in 120 mM TiCl 4 aqueous solution at 70 °C for 1 h and then calcined at 500 °C for another 30 min. The perovskite absorber was then deposited onto the TiO 2 using the method described before. The hole-transport layer was spin-coated onto the perovskite film at 4000 rpm for 30 s using a chlorobenzene solution that contained of 63 mg/mL of spiro-OMeTAD and 20 μL of tert-butylpyridine, as well as 70 μL of bis(trifluoromethane)sulfonimide lithium salt (170 mg/mL in acetonitrile). Top electrodes were deposited using an Angstrom Engineering deposition system in an Innovative Technology glovebox. The contacts consisted of 100 nm electron-beam-deposited gold, deposited at 0.4 Å/s. Relative Humidity Control. For all characterizations, the perovskite films were stored at room temperature (measured as 25 ± 1 °C) in a controlled-humidity desiccator. The relative humidity (RH = 90%) was achieved with an accuracy of ±3% by a water/ glycerol solution with careful adjustment of the weight ratio of glycerol. The precise RH was measured periodically using a calibrated hygrometer. Photovoltaic Performance Characterization. The steady-state open-circuit voltage, V OC , was first measured using a Keithley 2400 instrument by fixing the current to zero and sampling the voltage at multiple time points. The steady-state short-circuit current, J SC , was measured by setting the bias voltage to zero and sampling the current at multiple time points. Instantaneous J-V curves were then measured with a scanning rate of 0.02 V s -1 . The maximum power point (V MPP ) was determined from the instantaneous J-V curve. The steady-state PCE was measured by setting the bias voltage to the estimated V MPP . Under the bias of V MPP , the current density value was sampled during 15 s to obtain J MPP . The PCE was finally obtained as the product of V MPP and J MPP . The active area was determined by the aperture before the solar cell to avoid overestimating the photocurrent. Through this aperture (area 0.049 cm 2 ), illumination intensity was calibrated using a Melles-Griot broadband power meter and set to be 1 sun (100 mW cm -2 ). The AM 1.5 solar power is supplied by a class A (&lt;25% spectral mismatch) solar simulator (Science Tech). The spectral mismatch of the system was characterized using a calibrated reference solar cell (Newport). The accuracy of the power measurement was estimated to be ±5%. UPS Measurements. UPS measurements were carried out in an ultra-high-vacuum (UHV) chamber with a base pressure below 5 × 10 -9 mbar. The photon line width was ∼250 meV and the minimum spot size ∼1 mm. He I photons (21.2 eV) were used to acquire the spectra at normal emission. The photoelectrons were collected by using a SPHERA U7 hemispherical energy analyzer with a 7-channel MCD detector, in constant analyzer energy mode. The binding energy values shown with 10 meV precision should be rounded to the nearest 100 meV value in accordance with the overall energy resolution. XPS Measurements. XPS measurements were carried out in a Thermo Scientific K-Alpha system, with a 300 μm spot size, 75 eV pass energy, and energy steps of 0.05 eV. All signals are normalized to Pb for direct comparison between different samples. XRD Measurements. XRD measurements on oriented films were conducted on a Panalytical X'Pert Pro diffractometer with a Bragg-Brentano geometry and PIXCEL 1D detector equipped with a nickel filter. Unoriented scans were collected on powders loaded into a 0.1 mm diameter silicon capillary on a Bruker D 8 Venture diffractometer using monochromated Mo Kα 1 (0.71073 Å) radiation. Other Characterizations. The external quantum efficiency (EQE) spectrum for photovoltaic device was obtained using a previously published process.  32  Samples were tested in N 2 ambient. Photoluminescence (PL) was measured using a Horiba Fluorolog timecorrelated single-photon-counting system with photomultiplier tube detectors. For steady-state measurements, the excitation source was a monochromatized Xe lamp. For time-resolved PL, the excitation source was a laser diode with a wavelength λ = 375 nm; the combined (source + instrumental response function) time resolution was Δt ≈ 0.13 ns. ■ ASSOCIATED CONTENT * S Supporting Information The Supporting Information is available free of charge on the ACS Publications website at DOI: 10.1021/jacs.5b11740. Materials and methods, additional results and discussion, including Figures  S1-8  and Tables S1-S8, and references (PDF) &#13;</text>
+      <annotation id="16">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:39:35Z</infon>
+        <location offset="26016" length="12"/>
+        <text>spiro-OMeTAD</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>30198</offset>
+      <text> ■ AUTHOR INFORMATION Corresponding Authors *dhkim@ewha.ac.kr *ted.sargent@utoronto.ca Figure S1 .S5 2 . S12 Figure S1. Geometries used in DFT simulations. a, Example of a unit cell for the perovskite with n=3. b, &#13;</text>
+    </passage>
+    <passage>
+      <offset>30415</offset>
+      <text> Figure S2 .S9Figure S5 . S2S5 Figure S2. Simulated band diagram of the perovskite device at V OC . &#13;</text>
+    </passage>
+    <passage>
+      <offset>30516</offset>
+      <text> Figure 1 . 1 Figure 1. Energetics of perovskite formation and stability. (a) Unit cell structure of (C 8 H 9 NH 3 ) 2 (CH 3 NH 3 ) n-1 Pb n I 3n+1 perovskites with different n values, showing the evolution of dimensionality from 2D (n = 1) to 3D (n = ∞). (b) DFT simulation of the formation energy of perovskite with different n values in different atmospheres. &#13;</text>
+    </passage>
+    <passage>
+      <offset>30882</offset>
+      <text> Figure 2 . 2 Figure 2. Structure and optical characterization of dimensionally tuned perovskite films. (a) Low-diffraction-angle region of XRD spectra. (b) Absorption spectra of the perovskite films with different n values. (c) Valence band photoemission. (d) XPS data for the atomic core-level peaks. &#13;</text>
+    </passage>
+    <passage>
+      <offset>31186</offset>
+      <text> Figure 3 . 3 Figure 3. Photophysical and structural stability of 3D and quasi-2D perovskite films. (a) Relative absorption intensity near the absorption onset for different n values. (b) Film XRD spectra as a function of n at high humidity level (90%) with different aging time. (c) PL decay data before and after 10 days storage. &#13;</text>
+    </passage>
+    <passage>
+      <offset>31519</offset>
+      <text> Figure 4 . 4 Figure 4. Comparison of J-V curves for different numbers of perovskite layers. (a) Simulation using experimental absorption spectra and band gaps, and mobility of 0.1 cm 2 V -1 s -1 . (b) Simulation with radiative recombination of 5 × 10 -10 cm 3 s -1 and gradually decreasing mobility for lower n. Same trap density is used for all cases. Perovskite layer was estimated to be 200 nm thick. (c) Experimental curves. &#13;</text>
+    </passage>
+    <passage>
+      <offset>31951</offset>
+      <text> Figure 5 . 5 Figure 5. Solar cell device architecture and performance. (a) Crosssectional scanning electron microscopy (SEM) image for a quasi-2D perovskite device with n = 60. (b,c) J-V curve and PCEs for champion perovskite device with different n values. (d,e) J-V curve, both forward and reverse scan, and EQE spectra of the certified device with n = 60 perovskite. &#13;</text>
+    </passage>
+    <passage>
+      <offset>32323</offset>
+      <text> Figure 6 . 6 Figure 6. Solar cell device stability. (a) Device performance as a function of n value, which shows that increased performance was achieved with increased n value; however, in the meantime, stability was decreased. (b) Evolution of device performance as a function of time with different n values. Record of current density (c), fill factor (d), and open circuit voltage (e) change for different perovskite devices stored in nitrogen over two months. &#13;</text>
+    </passage>
+    <passage>
+      <offset>32789</offset>
+      <text> Table S1 . S1 The molecular formula for perovskite with different n values and the amount of each precursor for preparing the resulting films. n Molecular formula PbI 2 concentration MAI concentration PEAI concentration 1 (PEA) 2 PbI 4 2.05 mmol/ ml (945.05 mg/ml) 0 4.1 mmol/ml (1020.9 mg/ml) 6 (PEA) 2 (MA) 5 Pb 6 I 19 2.05 mmol/ ml (945.05 mg/ml) 1.71 mmol/ml (271.6 mg/ml) 0.68 mmol/ml (170.2 mg/ml) 10 (PEA) 2 (MA) 9 Pb 10 I 31 2.05 mmol/ ml (945.05 mg/ml) 1.85 mmol/ml (293.4 mg/ml) 0.41 mmol/ml (102.1 mg/ml) 40 (PEA) 2 (MA) 39 Pb 40 I 121 2.05 mmol/ ml (945.05 mg/ml) 2.00 mmol/ml (317.8 mg/ml) 0.103 mmol/ml (25.5 mg/ml) 60 (PEA) 2 (MA) 59 Pb 60 I 181 2.05 mmol/ ml (945.05 mg/ml) 2.02 mmol/ml (320.5 mg/ml) 0.068 mmol/ml (17.1 mg/ml) ∞ MAPbI 3 2.05 mmol/ ml (945.05 mg/ml) 2.05 mmol/ ml (326.0 mg/ml) 0 &#13;</text>
+    </passage>
+    <passage>
+      <offset>33606</offset>
+      <text> Table S2 S2 n values L_ D n=∞ 515.82 nm n=60 764.45 nm n=40 378.32 nm n=10 357.07 nm S14 . Measured diffusion length for perovskite material with different n values. The measurement was carried out following the published procedure. &#13;</text>
+    </passage>
+    <passage>
+      <offset>33843</offset>
+      <text> Table S3 . S3 Summary of champion perovskite device for different n values. &#13;</text>
+    </passage>
+    <passage>
+      <offset>33921</offset>
+      <text> Table S4 . S4 Record of J sc change for different perovskite device stored in Nitrogen over two months. n V oc J sc FF PCE (Champion) ∞ 1.03 V 22.00 mA/cm 2 76.10% 17.24% 60 1.06 V 22.45 mA/cm 2 77.30% 18.40% 40 1.09 V 22.56 mA/cm 2 74.20% 18.24% 30 1.11 V 20.34 mA/cm 2 72.37% 16.34% 20 1.12 V 20.31 mA/cm 2 69.41% 15.79% 10 1.16 V 18.66 mA/cm 2 64.40% 13.89% 6 1.15 V 18.23 mA/cm 2 44.00% 9.22% J sc Initial 1 week 4 weeks 8 weeks n=∞ 20.89 mA/cm 2 19.54 mA/cm 2 17.24 mA/cm 2 10.69 mA/cm 2 n=60 21.83 mA/cm 2 20.76 mA/cm 2 19.03 mA/cm 2 17.92 mA/cm 2 n=40 21.48 mA/cm 2 21.05 mA/cm 2 19.42 mA/cm 2 18.54 mA/cm 2 n=10 19.41 mA/cm 2 19.38 mA/cm 2 19.30 mA/cm 2 19.16 mA/cm 2 Table S5. Record of PCE change for different perovskite device stored in Nitrogen over two months. PCE Initial 1 week 4 weeks 8 weeks n=∞ 16.69% 12.51% 7.01% 2.80% n=60 17.59% 16.16% 13.89% 11.34% n=40 17.34% 16.47% 15.19% 13.11% n=10 12.77% 12.07% 11.93% 10.92% S15 &#13;</text>
+      <annotation id="17">
+        <infon key="type">treatment_element</infon>
+        <infon key="identifier">n=60</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:41:19Z</infon>
+        <location offset="34093" length="2"/>
+        <text>60</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">treated_voc</infon>
+        <infon key="identifier">1.06</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:41:27Z</infon>
+        <location offset="34096" length="6"/>
+        <text>1.06 V</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">18.40</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:41:37Z</infon>
+        <location offset="34124" length="6"/>
+        <text>18.40%</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">treatment_element</infon>
+        <infon key="identifier">n=40</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:41:45Z</infon>
+        <location offset="34131" length="2"/>
+        <text>40</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">treated_voc</infon>
+        <infon key="identifier">1.09</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:41:52Z</infon>
+        <location offset="34134" length="6"/>
+        <text>1.09 V</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">18.24</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:42:05Z</infon>
+        <location offset="34162" length="6"/>
+        <text>18.24%</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="type">treatment_element</infon>
+        <infon key="identifier">n=10</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:42:30Z</infon>
+        <location offset="34245" length="2"/>
+        <text>10</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">treated_voc</infon>
+        <infon key="identifier">1.16</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:42:35Z</infon>
+        <location offset="34248" length="6"/>
+        <text>1.16 V</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">18.89</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:42:45Z</infon>
+        <location offset="34276" length="5"/>
+        <text>13.89</text>
+      </annotation>
+      <relation id="R2">
+        <infon key="type">performance_1</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:43:34Z</infon>
+        <node refid="17" role=""/>
+        <node refid="18" role=""/>
+        <node refid="19" role=""/>
+      </relation>
+      <relation id="R3">
+        <infon key="type">performance_2</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:43:45Z</infon>
+        <node refid="20" role=""/>
+        <node refid="21" role=""/>
+        <node refid="22" role=""/>
+      </relation>
+      <relation id="R4">
+        <infon key="type">performance_3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-24T06:43:58Z</infon>
+        <node refid="23" role=""/>
+        <node refid="24" role=""/>
+        <node refid="25" role=""/>
+      </relation>
+    </passage>
+    <passage>
+      <offset>34872</offset>
+      <text> Table S6 . S6 Record of V oc change for different perovskite device stored in Nitrogen over two months. &#13;</text>
+    </passage>
+    <passage>
+      <offset>34978</offset>
+      <text> Table S7 . S7 Record of FF change for different perovskite device stored in Nitrogen over two months. V oc Initial 1 week 4 weeks 8 weeks FF Initial 1 week 4 weeks 8 weeks n=∞ 76.09% 61.55% 45.20% 29.78% n=60 75.32% 72.74% 68.87% 62.02% n=40 73.40% 71.80% 71.76% 66.72% n=10 58.72% 56.10% 55.71% 51.83% Table S8. Record of PCE change for different perovskite device stored in humidity air (RH 55%) over two weeks. PCE Initial 1 day 3 days 7 days 14 days n = ∞ 16.47% 7.64% 4.23% 0.93% 0.72% n = 60 17.21% 17.03% 15.34% 14.09% 12.80% n = 40 17.10% 17.10% 16.52% 15.13% 13.14% n = 10 13.20% 13.23% 12.69% 12.04% 11.47% &#13;</text>
+    </passage>
+    <passage>
+      <offset>35601</offset>
+      <text>			 J. Am. Chem. Soc. 2016, 138, 2649-2655 Downloaded via UNIV OF SAN DIEGO on November 8, 2024 at 06:33:24 (UTC).See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles. &#13;</text>
+    </passage>
+    <passage>
+      <offset>35820</offset>
+      <text>			 DOI: 10.1021/jacs.5b11740 J. Am. Chem. Soc. 2016, 138, 2649-2655 &#13;</text>
+    </passage>
+    <passage>
+      <offset>35890</offset>
+      <text>			 J. Am. Chem. Soc. 2016, 138, 2649-2655</text>
+    </passage>
+  </document>
+</collection>
