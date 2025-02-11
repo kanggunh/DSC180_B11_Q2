@@ -1,0 +1,2562 @@
+{
+    "70": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-MeOTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "Au_diffusion": true,
+        "Au_concentration": 1.45e-06,
+        "Au_signal": 72.8,
+        "FF": 0.69,
+        "V_oc": 1105,
+        "J_sc": 23.3,
+        "PCE": 19.7,
+        "temperature": 70,
+        "recovery_time": 7
+    },
+    "103": {
+        "control_pce": 22.57,
+        "control_voc": 0.926,
+        "treated_pce": 22.97,
+        "treated_voc": 0.886,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "77": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "pce": 20.9,
+        "voc": 1.14,
+        "ff": 82.1,
+        "j_sc": 25.8,
+        "ebic": 2.2,
+        "pl": 0.5,
+        "trpl": 0.6,
+        "t_dos": 0.1,
+        "mobile_ion_concentration": 0.05,
+        "pka": 12.0
+    },
+    "104": {
+        "PCE": 25.2,
+        "VOC": 1.225,
+        "FF": 84.8,
+        "EQE": 17.2,
+        "ECE": 21.6,
+        "SnO2": {
+            "synthesis": "chemical_bath_deposition",
+            "characterization": "XRD_analysis"
+        },
+        "PbI2": {
+            "synthesis": "spin_coating",
+            "characterization": "photoluminescence"
+        },
+        "HTL": {
+            "synthesis": "thermal_annealing",
+            "characterization": "XRD_analysis"
+        },
+        "Materials": [
+            "SnO2",
+            "PbI2",
+            "FAI",
+            "MACl",
+            "MAPbBr3",
+            "Spiro-OMeTAD",
+            "Co(III) TFSI",
+            "Li-TFSI",
+            "Chlorobenzene"
+        ],
+        "Methods": [
+            "chemical_bath_deposition",
+            "spin_coating",
+            "thermal_annealing",
+            "XRD_analysis",
+            "photoluminescence",
+            "transient_photovoltage",
+            "photocurrent"
+        ]
+    },
+    "79": {
+        "id": "12345",
+        "title": "Enhanced Electron Extraction Using SnO2 for High-Efficiency Planar-Structure HC(NH2)2PbI3-based Perovskite Solar Cells",
+        "content": "Enhanced Electron Extraction Using SnO2 for High-Efficiency Planar-Structure HC(NH2)2PbI3-based Perovskite Solar Cells",
+        "sections": [
+            {
+                "section": {
+                    "title": "Introduction",
+                    "content": "Enhanced Electron Extraction Using SnO2 for High-Efficiency Planar-Structure HC(NH2)2PbI3-based Perovskite Solar Cells"
+                }
+            },
+            {
+                "section": {
+                    "title": "Materials and Methods",
+                    "content": "Materials and Methods"
+                },
+                "subsections": [
+                    {
+                        "subsection": {
+                            "title": "Materials",
+                            "content": "Materials"
+                        }
+                    },
+                    {
+                        "subsection": {
+                            "title": "Methods",
+                            "content": "Methods"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "37": {
+        "control_pce": 15.2,
+        "control_voc": 1.23,
+        "treated_pce": 19.3,
+        "treated_voc": 1.33,
+        "passivating_molecule": "1,3-propane diammonium iodide",
+        "perovskite_composition": "Cs0.2FA0.8Pb(I0.6Br0.4)3",
+        "electron_transport_layer": "NiOx",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "PEDOT:PSS",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "pda_concentration": 1,
+        "pda_layer_thickness": 130,
+        "pda_signal": 100,
+        "pda_reaction": "reacts with the perovskite surface",
+        "pda_stability": "stable"
+    },
+    "42": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "94": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Spiro-OMeTAD",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "Spiro-OMeTAD",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "pinhole_count": 10,
+        "pinhole_size": 10,
+        "hydrophobicity": 90,
+        "stability_results": {
+            "PCE": 20.6,
+            "V_oc": 1.129,
+            "FF": 78.57,
+            "hysteresis": 0
+        }
+    },
+    "136": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.0,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": null,
+                "temperature": null,
+                "time": null,
+                "humidity": null,
+                "control_efficiency": null,
+                "treatment_efficiency": null
+            }
+        ],
+        "plqy": 17.0,
+        "shockley_read_hall_lifetime": 7.0,
+        "pce": 25.4,
+        "v_oc": 1.21,
+        "ff": 84.7,
+        "j_sc": 24.8,
+        "pce_values": [
+            23.4,
+            22.0
+        ]
+    },
+    "127": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": null,
+                "temperature": null,
+                "time": null,
+                "humidity": null,
+                "control_efficiency": null,
+                "treatment_efficiency": null
+            }
+        ]
+    },
+    "28": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "53": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "21": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "26": {
+        "title": "Thermal and Thermodynamic Stability of MAPbX3 Compounds",
+        "authors": [
+            "Bruno Brunetti",
+            "Carmen Cavallo",
+            "Andrea Ciccioli",
+            "Guido Gigli",
+            "Alessandro Latini"
+        ],
+        "year": 2017,
+        "journal": "Scientific Reports",
+        "volume": 6,
+        "issue": 1,
+        "pages": "31896-31896",
+        "doi": "10.1038/srep31896",
+        "abstract": "We present the results of a study on the thermal and thermodynamic stability of methylammonium lead halide perovskites (MAPbX3, X = Cl, Br, I) using non-ambient X-ray diffraction, Knudsen effusion-mass spectrometry (KEMS), and Knudsen effusion mass loss (KEML) techniques.",
+        "methods": [
+            {
+                "title": "Non-Ambient X-ray Diffraction",
+                "description": "Conventional powder X-ray diffraction has been used to check the phase purity of the synthesized compounds."
+            },
+            {
+                "title": "Knudsen Effusion-Mass Spectrometry (KEMS)",
+                "description": "The nature and abundance of the effusing molecular species can be determined from the mass-spectrometrically detected ions and their measured intensities."
+            },
+            {
+                "title": "Knudsen Effusion Mass Loss (KEML)",
+                "description": "The observable is the overall rate of mass loss of the Knudsen effusion cell."
+            }
+        ],
+        "results": [
+            {
+                "title": "Thermal Stability",
+                "description": "The diffractograms of MAPbCl3, MAPbBr3, and MAPbI3 show only the reflections of the desired compounds."
+            },
+            {
+                "title": "Thermodynamic Stability",
+                "description": "The enthalpy change for process (1) derived by applying the two methods to Kp values obtained by KEML and by KEMS."
+            }
+        ],
+        "discussion": "The results suggest a more pronounced thermodynamic tendency of MAPbCl3 towards decomposition compared to MAPbBr3 and MAPbI3.",
+        "conclusion": "The studies of the MAPbX3 compounds presented in this work clarify experimentally for the first time their decomposition path and highlight their limited thermal and thermodynamic stabilities."
+    },
+    "13": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "voc_deficit": 0.37,
+        "bandgap": 1.72,
+        "efficiency": 31.3,
+        "voc": 1.28,
+        "j_sc": 14.6,
+        "ff": 75.4,
+        "pce": 28.0
+    },
+    "68": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": null,
+                "temperature": null,
+                "time": null,
+                "humidity": null,
+                "control_efficiency": null,
+                "treatment_efficiency": null
+            }
+        ]
+    },
+    "115": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "crystallization_dynamics": "Omnidirectional heating with top-down heat transfer",
+        "film_homogeneity": "Larger grain size",
+        "optoelectronic_performance": {
+            "power_conversion_efficiency": 24.04,
+            "open_circuit_voltage": 1.155,
+            "short_circuit_current_density": 24.66
+        },
+        "stability_results": {
+            "thermal_stability": 95.2,
+            "SPO_stability": 95
+        }
+    },
+    "4": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS category",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "device_performance": [
+            {
+                "voc": 1.06,
+                "pce": 19.93,
+                "ff": 77.67,
+                "jsc": 24.25
+            },
+            {
+                "voc": 1.1,
+                "pce": 18.73,
+                "ff": 72.65,
+                "jsc": 23.36
+            }
+        ]
+    },
+    "3": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "thickness": 50,
+        "n_value": 3,
+        "solvent": "MeCN",
+        "fabrication_method": "spin coating",
+        "xrd_pattern": "XRD pattern",
+        "optical_absorbance": "Optical absorbance spectrum",
+        "pl_spectra": "Photoluminescence spectra",
+        "TEM_image": "Transmission electron microscopy image",
+        "PES_data": "Photoemission yield spectroscopy data",
+        "DFT_simulation": "DFT simulation results",
+        "optical_modeling": "Optical modeling results",
+        "transport_simulation": "Transport simulation results",
+        "stability_results": "Stability test results"
+    },
+    "92": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "BaSnO3",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": null,
+                "temperature": null,
+                "time": null,
+                "humidity": null,
+                "control_efficiency": null,
+                "treatment_efficiency": null
+            }
+        ]
+    },
+    "130": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "surface_energy": 1.14,
+        "oriented_nucleation": true
+    },
+    "43": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "139": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "lattice_mismatch": false,
+        "psp_treatment": true
+    },
+    "145": {
+        "title": "Perovskite Solar Cells with Improved Performance and Stability",
+        "authors": [
+            "Author1",
+            "Author2"
+        ],
+        "year": 2018,
+        "journal": "Small",
+        "volume": 14,
+        "issue": 1,
+        "pages": 1803350,
+        "abstract": "This paper presents a nondestructive surface passivation method using 4-fluoroaniline (FAL) for perovskite solar cells. The method uses a hot vapor-assisted colloidal process and has been shown to improve the stability and optoelectronic properties of perovskite solar cells.",
+        "keywords": [
+            "perovskite solar cells",
+            "passivation",
+            "4-fluoroaniline",
+            "nondestructive surface passivation"
+        ],
+        "methods": [
+            {
+                "name": "hot vapor-assisted colloidal process",
+                "description": "A method for passivating perovskite solar cells using a hot vapor-assisted colloidal process."
+            }
+        ],
+        "results": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "discussion": "The nondestructive surface passivation method using FAL has been shown to improve the stability and optoelectronic properties of perovskite solar cells.",
+        "conclusions": "The nondestructive surface passivation method using FAL is a promising approach for improving the performance and stability of perovskite solar cells.",
+        "references": [
+            {
+                "title": "Reference 1",
+                "authors": [
+                    "Author1",
+                    "Author2"
+                ],
+                "year": 2018
+            }
+        ]
+    },
+    "102": {
+        "paper_number": 102,
+        "title": "Room-temperature synthesis of high-efficiency FAPbI3 perovskite solar cells using low-grade PbI2",
+        "authors": [
+            {
+                "name": "H. Shin",
+                "email": "npark@skku.edu",
+                "orcid": "0000-0003-1284-9098"
+            },
+            {
+                "name": "H. Cheong",
+                "email": "",
+                "orcid": "0000-0002-2347-4044"
+            },
+            {
+                "name": "N. Park",
+                "email": "npark@skku.edu",
+                "orcid": "0000-0003-2368-6300"
+            }
+        ],
+        "journal": "ACS Energy Letters",
+        "volume": 3,
+        "issue": 10,
+        "pages": "1234-1245",
+        "doi": "10.1021/acsenergylett.9b02348",
+        "abstract": "We report the synthesis of high-efficiency FAPbI3 perovskite solar cells using low-grade PbI2. The room-temperature synthesis of FAPbI3 powder is found to be independent of the PbI2 purity. The FAPbI3 powder-based solar cells exhibit higher photovoltaic performance and reproducibility than the conventional precursor mixture-based ones.",
+        "methods": [
+            {
+                "title": "Synthesis of FAPbI3 powder",
+                "description": "Room-temperature synthesis of FAPbI3 powder using low-grade PbI2"
+            },
+            {
+                "title": "Solar cell fabrication",
+                "description": "Fabrication of FAPbI3 perovskite solar cells using FAPbI3 powder"
+            }
+        ],
+        "results": [
+            {
+                "title": "Photovoltaic performance",
+                "description": "High-efficiency FAPbI3 perovskite solar cells with high photovoltaic performance"
+            },
+            {
+                "title": "Reproducibility",
+                "description": "High reproducibility of FAPbI3 perovskite solar cells using FAPbI3 powder"
+            }
+        ],
+        "discussion": "The room-temperature synthesis of FAPbI3 powder is found to be independent of the PbI2 purity. The FAPbI3 powder-based solar cells exhibit higher photovoltaic performance and reproducibility than the conventional precursor mixture-based ones.",
+        "conclusion": "The room-temperature synthesis of FAPbI3 powder is a cost-effective and efficient method for the production of high-efficiency FAPbI3 perovskite solar cells.",
+        "references": [
+            {
+                "title": "Reference 1",
+                "url": "https://example.com/reference1"
+            },
+            {
+                "title": "Reference 2",
+                "url": "https://example.com/reference2"
+            }
+        ],
+        " Supporting Information": [
+            {
+                "title": "Experimental details",
+                "description": "Experimental details for the synthesis of FAPbI3 powder and solar cell fabrication"
+            },
+            {
+                "title": "Figures and tables",
+                "description": "Figures and tables related to the study"
+            }
+        ]
+    },
+    "113": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "SnO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": null,
+                "temperature": null,
+                "time": null,
+                "humidity": null,
+                "control_efficiency": null,
+                "treatment_efficiency": null
+            }
+        ],
+        "interlayer": "A coherent interlayer between the perovskite and SnO2",
+        "photoluminescence": "A description of the photoluminescence spectra"
+    },
+    "67": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "pin_nip_structure": "NIP",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-L1",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "15": {
+        "title": "Interface Recombination Dynamics in Highly Efficient Inverted Perovskite Solar Cells",
+        "authors": [
+            "Stefania Cacovich",
+            "Guillaume Vidon",
+            "Matteo Degani",
+            "Marie Legrand",
+            "Laxman Gouda",
+            "Jean-Baptiste Puel",
+            "Yana Vaynzof",
+            "Jean-Fran\u00e7ois Guillemoles",
+            "Daniel Ory",
+            "Giulia Grancini"
+        ],
+        "abstract": "We investigate the interface recombination dynamics in highly efficient inverted perovskite solar cells using electrical and optoelectronic characterization methods and modeling.",
+        "methods": [
+            {
+                "title": "Materials",
+                "description": "Perovskite films and devices were fabricated using PbI2 and PbBr2 (99.99% purity) purchased from TCI, organic halide salts purchased from GreatCell Solar, and Cesium Iodide (99.99% purity) purchased from Alfa Aesar."
+            },
+            {
+                "title": "Device Fabrication",
+                "description": "Devices were fabricated using a two-step spin-coating procedure with 1000 rpm for 12 s and 5000 rpm for 27 s, and a mixture of antisolvents (CB/IPA = 9/1, 150 \u03bcl) was dripped on the spinning substrate during the 21 s of the second spin-coating step."
+            },
+            {
+                "title": "Characterization",
+                "description": "Photovoltaic device characterization was performed using a Keithley 2450 source measure unit, and XRD patterns were measured using a Bruker D2 Phaser diffractometer."
+            }
+        ],
+        "results": [
+            {
+                "title": "Photovoltaic Characteristics",
+                "description": "Photovoltaic characteristics were measured using a Keithley 2450 source measure unit, and the results are presented in Table 1."
+            },
+            {
+                "title": "Optical Characterization",
+                "description": "Optical characterization was performed using a hyperspectral imaging system, and the results are presented in Figure 1."
+            },
+            {
+                "title": "TR-FLIM Characterization",
+                "description": "TR-FLIM characterization was performed using a Princeton Instrument PiMAX4 gated camera, and the results are presented in Figure 2."
+            }
+        ],
+        "discussion": "The results show that the introduction of large organic cations at the absorber interfaces results in a drastic reduction of interfacial recombination processes, leading to improved photovoltaic characteristics.",
+        "conclusion": "The study demonstrates the importance of interface recombination dynamics in highly efficient inverted perovskite solar cells, and provides insights into the processes occurring at the interfaces of these devices."
+    },
+    "69": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "12": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "bandgap": 1.72,
+        "open_circuit_voltage": 1.31,
+        "power_conversion_efficiency": 19.4,
+        "fill_factor": 0.78,
+        "short_circuit_current_density": 18.4,
+        "stability": "stable"
+    },
+    "128": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "crystallization_dynamics": "The perovskite film was fabricated through a one-step method.",
+        "operational_stability": "The unencapsulated devices showed superior operational stability, maintaining >98% of their initial efficiency after 1,500 hours of continuous maximum power point tracking under simulated AM1.5 illumination.",
+        "photovoltaic_performance": "The resultant inverted PSC achieves a power conversion efficiency of 25.12% (certified 24.6%) at laboratory scale (0.09 cm^2) and 22.48% at a larger area (1 cm^2) with negligible hysteresis.",
+        "stability_results": "The encapsulated devices retained >92% of initial performance for 1,200 hours under the damp-heat test (85\u00b0C and 85% relative humidity)."
+    },
+    "27": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "work_function": 4.8,
+        "cbm_shift": 0.13,
+        "poe": 16.1,
+        "pce": 18.5,
+        "j_sc": 18.1,
+        "ff": 82.8
+    },
+    "20": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "121": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "RACl": "Propylammonium chloride",
+        "surface_morphology": "Uniform surface morphology",
+        "crystallinity": "High crystallinity",
+        "orientation": "Preferred orientation along (100) \u03b1 direction",
+        "PCE": 26.08,
+        "VOC": 1.178,
+        "FF": 86.15,
+        "EQE": 25.3,
+        "tau": 2929,
+        "trap_density": 1.13e-16
+    },
+    "52": {
+        "text": "The text about PERC technology",
+        "development": {
+            "first_paper": "1989",
+            "first_demonstration": "1983",
+            "key_milestones": [
+                "19.1% efficiency",
+                "20% efficiency"
+            ]
+        },
+        "manufacturing": {
+            "lasers": true,
+            "chemical_etching": true,
+            "photolithography": true
+        },
+        "performance": {
+            "efficiency_gains": [
+                15,
+                20,
+                25
+            ],
+            "resistive_losses": [
+                10,
+                20,
+                30
+            ]
+        },
+        "future": {
+            "surpass_standard_approach": true,
+            "efficiency_above_25": true
+        },
+        "configurations": {
+            "PERD": true,
+            "PERL": true,
+            "PERT": true,
+            "PERF": true
+        },
+        "efficiency": {
+            "highest_efficiency": 25,
+            "potential_for_further_improvements": true
+        }
+    },
+    "126": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": null,
+                "temperature": null,
+                "time": null,
+                "humidity": null,
+                "control_efficiency": null,
+                "treatment_efficiency": null
+            }
+        ],
+        "defect_formation_energies": [
+            {
+                "defect_type": null,
+                "formation_energy": null
+            }
+        ],
+        "lead_oxalate_layer": {
+            "thickness": null,
+            "preparation_method": null
+        }
+    },
+    "55": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "migration_mechanisms": [
+            {
+                "mechanism": "I- migration along an octahedron edge",
+                "activation_energy": 0.58
+            },
+            {
+                "mechanism": "Pb2+ migration along the diagonal direction",
+                "activation_energy": 2.31
+            },
+            {
+                "mechanism": "CH3NH3+ migration into a neighbouring vacant A-site cage",
+                "activation_energy": 0.84
+            }
+        ],
+        "migration_energies": [
+            {
+                "ion": "I-",
+                "energy": 0.58
+            },
+            {
+                "ion": "Pb2+",
+                "energy": 2.31
+            },
+            {
+                "ion": "CH3NH3+",
+                "energy": 0.84
+            }
+        ]
+    },
+    "29": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "tga_results": [
+            {
+                "weight_loss": 0.5,
+                "temperature": 150,
+                "time": 10
+            }
+        ],
+        "xrd_results": [
+            {
+                "peak_angle": 2.4,
+                "peak_intensity": 5000
+            }
+        ],
+        "xps_results": [
+            {
+                "binding_energy": 400,
+                "intensity": 6000
+            }
+        ]
+    },
+    "18": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "phenylethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "in situ PL",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "kinetic_energy": {
+            "PEAI": 1000,
+            "TMAI": 500
+        },
+        "thermodynamic_energy": {
+            "PEAI": 2000,
+            "TMAI": 1500
+        },
+        "device_performance": [
+            {
+                "V_OC": 1.1,
+                "FF": 0.8,
+                "PCE": 15.5
+            },
+            {
+                "V_OC": 1.2,
+                "FF": 0.9,
+                "PCE": 16.2
+            }
+        ],
+        "morphology": [
+            {
+                "root_mean_square_roughness": 60,
+                "flake_size": 10
+            },
+            {
+                "root_mean_square_roughness": 48,
+                "flake_size": 8
+            }
+        ]
+    },
+    "117": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "ion_modulated_radical_doping": true
+    },
+    "64": {
+        "perovskite_solar_cells": {
+            "description": "Vacuum-deposited 2D/3D perovskite heterostructures",
+            "open_circuit_voltage": null,
+            "short_circuit_current_density": null,
+            "fill_factor": null,
+            "power_conversion_efficiency": null
+        },
+        "stability_tests": {
+            "test_name": null,
+            "temperature": null,
+            "time": null,
+            "humidity": null,
+            "control_efficiency": null,
+            "treatment_efficiency": null
+        },
+        "perovskite_composition": null,
+        "electron_transport_layer": null,
+        "pin_nip_structure": null,
+        "hole_transport_layer": null,
+        "passivating_molecule": null,
+        "perovskite_thickness": null
+    },
+    "16": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "trap_density": 2.25e-15,
+        "hole_trap_density": 3.75e-15
+    },
+    "89": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": null,
+                "temperature": null,
+                "time": null,
+                "humidity": null,
+                "control_efficiency": null,
+                "treatment_efficiency": null
+            }
+        ]
+    },
+    "125": {
+        "title": "Improving Perovskite Film Homogeneity with Selenophene",
+        "authors": [
+            "John Doe",
+            "Jane Smith"
+        ],
+        "abstract": "We used selenophene to improve the homogeneity of perovskite films and studied their impact on device performance.",
+        "methods": "We used XRD, PL, and TOF-SIMS measurements to study the stability of the perovskite films.",
+        "results": {
+            "XRD": {
+                "patterns": [
+                    {
+                        "angle": 14.0,
+                        "intensity": 100
+                    }
+                ]
+            },
+            "PL": {
+                "spectrum": [
+                    {
+                        "wavelength": 794,
+                        "intensity": 100
+                    }
+                ]
+            },
+            "TOF-SIMS": {
+                "mapping": [
+                    {
+                        "Cs": 100,
+                        "FA": 50,
+                        "Pb": 20
+                    }
+                ]
+            }
+        },
+        "discussion": "The results show that selenophene improves the homogeneity of perovskite films and reduces device degradation.",
+        "conclusion": "Our study demonstrates the potential of selenophene to improve perovskite film homogeneity and device performance."
+    },
+    "87": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "redox_shuttle": true,
+        "PCE": 21.52,
+        "VOC": 1.15,
+        "ISC": 2.18,
+        "FF": 77.8,
+        "MPP": 0.97,
+        "stability_results": [
+            {
+                "time": "1000 hours",
+                "PCE": 20.9,
+                "VOC": 1.13,
+                "ISC": 2.18,
+                "FF": 77.4
+            }
+        ]
+    },
+    "80": {
+        "title": "Polymer-templated nucleation and crystal growth of perovskite films for solar cells",
+        "authors": [
+            "Dongqin Bi",
+            "Chenyi Yi",
+            "Jingshan Luo",
+            "Jean-David D\u00e9coppet",
+            "Fei Zhang"
+        ],
+        "year": 2016,
+        "journal": "Nature Energy",
+        "volume": 1,
+        "issue": 1,
+        "pages": 16142,
+        "doi": "10.1038/NENERGY.2016.142",
+        "abstract": "We introduce a method for preparing perovskite films of high electronic quality and implement it for the fabrication of perovskite solar cells with an excellent performance and certified PCE attaining 21.6%.",
+        "methods": [
+            {
+                "title": "Solar cell preparation",
+                "description": "A 30 nm TiO2 blocking layer was deposited on the pre-cleaned FTO (NSG) by spray pyrolysis using O2 as the carrying gas at 450\u00b0C from a precursor solution of 0.6 ml titanium diisopropoxide and 0.4 ml bis(acetylacetonate) in 7 ml anhydrous isopropanol."
+            },
+            {
+                "title": "Perovskite film deposition",
+                "description": "The [(FAI)0.81(PbI2)0.85(MAPbBr3)0.15] precursor solution was prepared in a glovebox from 1.35M Pb2+ (PbI2 and PbBr2) in a mixed solvent of DMF, NMP and DMSO (where the molar ratio of DMF/DMSO is 5:1, and the molar ratio of Pb2+/[(DMSO)0.8(NMP)0.2] is 1:1)."
+            },
+            {
+                "title": "PMMA treatment",
+                "description": "PMMA solution with different concentrations from the mixed solvent of chlorobenzene and toluene (volume ratio of chlorobenzene and toluene is 9:1) was pipetted onto the substrate. Thereafter, the substrate was put onto a hotplate for 1 h at 100\u00b0C."
+            },
+            {
+                "title": "Spiro-OMeTAD deposition",
+                "description": "The spiro-OMeTAD solutions were prepared dissolving the spiro-OMeTAD in chlorobenzene at a concentration of 60 mM, with the addition of 30 mM bis(trifluoromethanesulfonyl)imide from a stock solution in acetonitrile."
+            },
+            {
+                "title": "Gold deposition",
+                "description": "80 nm of gold was deposited by thermal evaporation using a shadow mask to pattern the electrodes."
+            }
+        ],
+        "results": [
+            {
+                "title": "Photovoltaic metrics",
+                "description": "Current-voltage characteristics were recorded by applying an external potential bias to the cell while recording the generated photocurrent with a digital sourcemeter (Keithley Model 2400)."
+            },
+            {
+                "title": "Photoluminescence measurements",
+                "description": "Time-resolved photoluminescence (TRPL) decay measurements were performed on perovskite films with different PMMA concentrations."
+            },
+            {
+                "title": "X-ray photoelectron spectroscopy",
+                "description": "XPS was used to analyze the Pb4f spectra of perovskite films."
+            }
+        ],
+        "discussion": "The use of PMMA as a template to control nucleation and crystal growth results in perovskite films of high electronic quality, leading to stable PSCs with a certified PCE of 21.02%.",
+        "conclusion": "We introduce a method for preparing perovskite films of high electronic quality and implement it for the fabrication of perovskite solar cells with an excellent performance and certified PCE attaining 21.6%."
+    },
+    "0": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "91": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "40": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "dimensionality": 1,
+        "annealing_temperature": 100,
+        "annealing_time": 10,
+        "water_contact_angle": 85.6,
+        "PCE_evolution": 24.3,
+        "PCE_retained": 95,
+        "stability_results": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "133": {
+        "study_description": "Optimization of bifunctional surface passivation using pseudo-halide (PH) anions for perovskite solar cells",
+        "research_sample": "Perovskite solar cells",
+        "sampling_strategy": "Density functional theory (DFT) on a subset of the chemical space and machine learning (ML) model training",
+        "data_collection": "Data collection procedure using homemade white-light LED tracker",
+        "data_exclusions": "No data exclusions",
+        "reproducibility": "Measures taken to verify reproducibility of experimental findings",
+        "randomization": "Randomization of samples/organisms/participants",
+        "blinding": "Blinding extent during data acquisition and analysis",
+        "study_involved_field_work": "No",
+        "reporting_for_specific_materials": "Yes"
+    },
+    "7": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "47": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "148": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "phenylethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "spiro-OMeTAD",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "absorptance_spectrum": "absorptance spectrum determined from the PL spectrum",
+        "urbach_energy": 17.9,
+        "photoluminescence_spectrum": "photoluminescence spectrum",
+        "spectral_photon_flux": 1.5e-21,
+        "fill_factor": 0.82,
+        "operational_stability": 95
+    },
+    "49": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "photovoltaic_performance": [
+            {
+                "pce": 16.25,
+                "voc": 1.31,
+                "j_sc": 16.75,
+                "ff": 74.07,
+                "stability": {
+                    "humidity": 93.8,
+                    "heat": 95.7,
+                    "illumination": 96.2
+                }
+            }
+        ]
+    },
+    "35": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "32": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "141": {
+        "title": "Interfacial stabilization for inverted perovskite solar cells with long-term stability",
+        "authors": [
+            {
+                "name": "Author 1",
+                "affiliation": "University of XYZ"
+            },
+            {
+                "name": "Author 2",
+                "affiliation": "University of ABC"
+            }
+        ],
+        "abstract": "This paper presents a novel approach to improve the stability of inverted perovskite solar cells by using a boron chloride subphthalocyanine (Cl 6 SubPc)/fullerene electron-transport layer. The results show that the use of Cl 6 SubPc/C 60 ETLs leads to a significant increase in device stability, with a shelf life of 7000 hours and a thermal stability of 816 hours under damp heat stress. The device performance is also improved, with a power conversion efficiency of 22.0% and a high fill factor of 81.2%. The study demonstrates the potential of Cl 6 SubPc/C 60 ETLs for commercialization of perovskite solar cells.",
+        "keywords": [
+            "inverted perovskite solar cells",
+            "interfacial stabilization",
+            "long-term stability",
+            "Cl 6 SubPc/C 60 ETLs",
+            "device performance"
+        ],
+        "methods": [
+            {
+                "name": "Device fabrication",
+                "description": "Perovskite solar cells (PVSCs) with p-i-n structure were fabricated following a configuration of ITO/HTL/perovskite/ETLs/BCP/electrodes."
+            },
+            {
+                "name": "Characterization",
+                "description": "J-V measurements, EQE measurements, AFM-based experiments, XRD patterns, and EELS mapping were performed to characterize the devices."
+            }
+        ],
+        "results": [
+            {
+                "name": "Device performance",
+                "description": "The devices with Cl 6 SubPc/C 60 ETLs showed a power conversion efficiency of 22.0% and a high fill factor of 81.2%."
+            },
+            {
+                "name": "Stability tests",
+                "description": "The devices were tested for stability in inert environment, ambient, and damp heat conditions, with a shelf life of 7000 hours and a thermal stability of 816 hours under damp heat stress."
+            }
+        ],
+        "discussion": "The results demonstrate the potential of Cl 6 SubPc/C 60 ETLs for commercialization of perovskite solar cells. The study highlights the importance of interfacial stabilization in improving the stability and performance of inverted perovskite solar cells.",
+        "conclusion": "In conclusion, the use of Cl 6 SubPc/C 60 ETLs leads to a significant increase in device stability and performance, making it a promising approach for commercialization of perovskite solar cells."
+    },
+    "101": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "polymers": [
+            {
+                "name": "Ph(DEG)",
+                "absorption_spectra": null,
+                "energy_diagram": null,
+                "GIWAXS_patterns": null,
+                "TGA_and_DSC_charts": null,
+                "J_V_curves": null,
+                "EQE_charts": null,
+                "PCE_evolution": null
+            },
+            {
+                "name": "Ph(xDEG)",
+                "absorption_spectra": null,
+                "energy_diagram": null,
+                "GIWAXS_patterns": null,
+                "TGA_and_DSC_charts": null,
+                "J_V_curves": null,
+                "EQE_charts": null,
+                "PCE_evolution": null
+            }
+        ]
+    },
+    "106": {
+        "title": "Perovskite Solar Cells with Metal-Organic Frameworks",
+        "authors": [
+            {
+                "name": "Zhen Li",
+                "affiliation": "Department of Chemistry, City University of Hong Kong"
+            },
+            {
+                "name": "Mu-Qing Li",
+                "affiliation": "Frontier Institute of Science and Technology (FIST), Xi'an Key Laboratory of Sustainable Energy and Materials Chemistry, Xi'an Jiaotong University"
+            },
+            {
+                "name": "Yingxue Diao",
+                "affiliation": "Department of Materials Science and Engineering, City University of Hong Kong"
+            },
+            {
+                "name": "Francis Lin",
+                "affiliation": "University of California-Irvine, Irvine, CA, USA"
+            },
+            {
+                "name": "Tiantian Liu",
+                "affiliation": "Irvine Materials Research Institute, University of California-Irvine, Irvine, CA, USA"
+            },
+            {
+                "name": "Jie Zhang",
+                "affiliation": "Department of Physics and Astronomy, University of California-Irvine, Irvine, CA, USA"
+            },
+            {
+                "name": "Peter Tieu",
+                "affiliation": "University of California-Irvine, Irvine, CA, USA"
+            },
+            {
+                "name": "Wenpei Gao",
+                "affiliation": "Department of Chemistry, University of California-Irvine, Irvine, CA, USA"
+            },
+            {
+                "name": "Xiaoqing Pan",
+                "affiliation": "Department of Materials Science and Engineering, University of California-Irvine, Irvine, CA, USA"
+            },
+            {
+                "name": "Zhengtao Xu",
+                "affiliation": "Department of Chemistry, City University of Hong Kong"
+            },
+            {
+                "name": "Zonglong Zhu",
+                "affiliation": "Department of Materials Science and Engineering, City University of Hong Kong"
+            },
+            {
+                "name": "Alex K.-Y. Jen",
+                "affiliation": "University of California-Irvine, Irvine, CA, USA"
+            }
+        ],
+        "abstract": "This paper presents a novel approach to improve the stability and efficiency of perovskite solar cells by using metal-organic frameworks (MOFs) as electron-extraction layers (EELs). The MOFs were synthesized and characterized, and their performance was evaluated in perovskite solar cells. The results show that the MOFs can significantly improve the stability and efficiency of the solar cells, and the lead contamination issue is minimized.",
+        "methods": [
+            {
+                "title": "MOF Synthesis",
+                "description": "The MOFs were synthesized using a combination of metal-organic frameworks and organic linkers."
+            },
+            {
+                "title": "Perovskite Solar Cell Fabrication",
+                "description": "The perovskite solar cells were fabricated using a standard procedure."
+            },
+            {
+                "title": "Characterization",
+                "description": "The MOFs and perovskite solar cells were characterized using various techniques, including X-ray diffraction, transmission electron microscopy, and photoluminescence spectroscopy."
+            }
+        ],
+        "results": [
+            {
+                "title": "MOF Properties",
+                "description": "The MOFs were found to have a high surface area and porosity, and a high thermal stability."
+            },
+            {
+                "title": "Perovskite Solar Cell Performance",
+                "description": "The perovskite solar cells were found to have a high power conversion efficiency and stability."
+            }
+        ],
+        "discussion": "The results show that the MOFs can significantly improve the stability and efficiency of perovskite solar cells, and the lead contamination issue is minimized.",
+        "conclusion": "In conclusion, the use of MOFs as EELs can be a promising approach to improve the performance and stability of perovskite solar cells."
+    },
+    "50": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "ligand": "Phenethylammonium iodide",
+        "film_thickness": 200,
+        "mobility": 1.1,
+        "diffusion_length": 226,
+        "photovoltaic_characteristics": [
+            {
+                "pce": 17.5,
+                "voc": 1.05,
+                "j_sc": 0.68,
+                "ff": 0.8
+            }
+        ]
+    },
+    "81": {
+        "planar_perovskite_solar_cells": {
+            "description": "Efficient and stable solution-processed planar perovskite solar cells via contact passivation",
+            "manufacturing_process": "Low-temperature solution processing",
+            "materials_used": [
+                "TiO2 colloidal nanocrystals",
+                "perovskite precursor solutions"
+            ],
+            "efficiency_and_stability": "Up to 20.1% certified efficiency, stable under 500 hours of continuous room-temperature operation"
+        },
+        "chlorine_capped_tio2_colloidal_nanocrystal_film": {
+            "synthesis_method": "Nonhydrolytic method through reaction of TiCl4 and benzyl alcohol",
+            "properties": {
+                "size": "5-nm-diameter",
+                "surface_Cl_ligands": "12 \u00b1 2 atomic % of Cl relative to Ti atoms"
+            },
+            "effect_on_interface_quality_and_stability": "Suppressed deep trap states, improved interface binding"
+        },
+        "solar_cell_fabrication": {
+            "device_architecture": "Planar perovskite solar cells with TiO2 colloidal nanocrystal film as electron transport layer",
+            "electron_transport_layer_preparation": "Spin-coating and annealing at 150\u00b0C",
+            "perovskite_film_deposition": "Two-step spin coating with chlorobenzene",
+            "contact_passivation": "Chlorine-capped TiO2 colloidal nanocrystal film"
+        },
+        "characterization_and_results": {
+            "j_v_characteristics": "High efficiency and stability",
+            "steady_state_pce_and_fill_factor": "Up to 20.1% certified efficiency, 71.6% fill factor",
+            "photoluminescence_spectra": "Sharp absorption edge and narrow photoluminescence spectrum",
+            "transient_photocurrent_and_photovoltage_decays": "Long charge-transport lifetime, suppressed interfacial recombination"
+        },
+        "comparison_with_other_devices": {
+            "high_temperature_sintered_mesoporous_tio2_based_pscs": "Lower efficiency and stability",
+            "compact_tio2_based_pscs": "Lower efficiency and stability"
+        }
+    },
+    "57": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "pin_nip_structure": "NIP",
+        "stability_tests": [
+            {
+                "test_name": null,
+                "temperature": null,
+                "time": null,
+                "humidity": null,
+                "control_efficiency": null,
+                "treatment_efficiency": null
+            }
+        ],
+        "fill_factor": 83,
+        "short_circuit_current_density": 25,
+        "open_circuit_voltage": 1.098,
+        "photoluminescence_yield": 20.2,
+        "charge_carrier_lifetime": 18.2,
+        "implied_PCE": 28.4
+    },
+    "86": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "SnO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "hysteresis": 0.01,
+        "optical_loss": 0.05,
+        "electron_mobility": 0.00227,
+        "hole_mobility": 0.01,
+        "V_oc": 1.11,
+        "J_sc": 22.61,
+        "FF": 0.739,
+        "PCE": 18.34,
+        "stability": 0.85,
+        "flexibility": 0.85
+    },
+    "25": {
+        "paper_number": 25,
+        "title": "Thermal degradation of formamidinium-based lead halide perovskites into sym-triazine and hydrogen cyanide observed by coupled thermogravimetry-mass spectrometry analysis",
+        "abstract": "Detailed calculations for estimation of maximum release achievable per meter-square of FA-based perovskite solar cell and hydrogen cyanide instantaneous concentration observed during low-temperature heating tests and.",
+        "data": [
+            {
+                "field": "maximum_release_achievable_per_meter_square",
+                "value": "W FA-PbX3 / m2 = V m2 * \u03c1 FA-PbX3",
+                "units": "kg/m2"
+            },
+            {
+                "field": "maximum_hcn_release_achievable_per_meter_square",
+                "value": "W FA-PbX3 / m2 * (% CHN) FA-PbX3 * M w HCN / M w FA-PbX3",
+                "units": "kg/m2"
+            },
+            {
+                "field": "maximum_observed_hcn_partial_pressure",
+                "value": "1.36 * 10^-7 torr",
+                "units": "torr"
+            },
+            {
+                "field": "hcn_concentration",
+                "value": "mg/m3",
+                "units": "mg/m3"
+            }
+        ],
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            },
+            {
+                "test_name": "ISOS-L",
+                "temperature": 90,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 13.2,
+                "treatment_efficiency": 15.1
+            },
+            {
+                "test_name": "ISOS-T",
+                "temperature": 95,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 14.1,
+                "treatment_efficiency": 16.3
+            },
+            {
+                "test_name": "ISOS-LC",
+                "temperature": 100,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 15.1,
+                "treatment_efficiency": 17.4
+            },
+            {
+                "test_name": "ISOS-LT",
+                "temperature": 105,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 16.3,
+                "treatment_efficiency": 18.5
+            }
+        ]
+    },
+    "22": {
+        "title": "Interfacial engineering from material to solvent: A mechanistic understanding on stabilizing \u03b1-formamidinium lead triiodide perovskite photovoltaics",
+        "authors": [
+            "Jiajia Suo",
+            "Bowen Yang",
+            "Jaeki Jeong",
+            "Tiankai Zhang",
+            "Selina Olthof",
+            "Feng Gao",
+            "Michael Gr\u00e4tzel",
+            "Gerrit Boschloo",
+            "Anders Hagfeldt"
+        ],
+        "abstract": "Formamidinium lead triiodide (FAPbI3) has recently been considered as the most promising candidate to achieve highly efficient perovskite solar cells (PSCs). However, their device stability still lags behind other compositions of mixed-cation and mixed-halide perovskites. Interfacial engineering is a very powerful method to address this issue and passivation agents have been intensively developed, however there is a lack of in-depth understanding regarding the solvent selection during post-treatment.",
+        "methods": [
+            {
+                "title": "Cyclohexylmethylammonium iodide (CMAI) as passivation agent",
+                "description": "Employed CMAI as passivation agent, which has been recently reported as an efficient passivation material through formation of 2D/3D perovskite heterojunction"
+            },
+            {
+                "title": "Solvent selection during post-treatment",
+                "description": "Investigated the effect of IPA and CF as solvents on the stabilization of FAPbI3 based PSCs"
+            }
+        ],
+        "results": [
+            {
+                "title": "SEM images",
+                "description": "High-resolution scanning electron microscopy (HR-SEM) images of pristine perovskite film, CMAI (IPA) treated perovskite film, and CMAI (CF) treated perovskite film"
+            },
+            {
+                "title": "XRD patterns",
+                "description": "X-ray diffraction (XRD) patterns of pristine perovskite film, CMAI (IPA) treated perovskite film, and CMAI (CF) treated perovskite film"
+            },
+            {
+                "title": "TRPL measurements",
+                "description": "Time-resolved photoluminescence (TRPL) measurements of pristine perovskite film, CMAI (IPA) treated perovskite film, and CMAI (CF) treated perovskite film"
+            },
+            {
+                "title": "SCLC measurements",
+                "description": "Space-charge-limited-current (SCLC) measurements of pristine perovskite film, CMAI (IPA) treated perovskite film, and CMAI (CF) treated perovskite film"
+            }
+        ],
+        "discussion": "The results show that CMAI treatment with IPA or CF solvents leads to improved device stability and performance. The SEM images and XRD patterns show that the CMAI treated perovskite films have a more compact and uniform surface structure, while the pristine perovskite film has a more porous and irregular surface structure. The TRPL measurements show that the CMAI treated perovskite films have a longer lifetime and reduced non-radiative recombination. The SCLC measurements show that the CMAI treated perovskite films have a lower trap density and improved conductivity.",
+        "conclusion": "The study demonstrates the effectiveness of CMAI treatment with IPA or CF solvents in improving the device stability and performance of FAPbI3 based PSCs. The results suggest that the solvent selection during post-treatment plays a crucial role in determining the final device performance and stability."
+    },
+    "10": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "work_function": -0.34,
+        "dipole_moment": 20.3,
+        "charge_displacement": -0.022,
+        "ion_migration": -13.3
+    },
+    "111": {
+        "title": "Stabilization of Formamidinium Lead Triiodide \u03b1-Phase with Isopropylammonium Chloride for Perovskite Solar Cells",
+        "authors": [
+            {
+                "name": "Do Yoon Lee",
+                "affiliation": "1"
+            },
+            {
+                "name": "Min Gyu Kim",
+                "affiliation": "2"
+            },
+            {
+                "name": "Geonhwa Kim",
+                "affiliation": "2"
+            },
+            {
+                "name": "Ki-jeong Kim",
+                "affiliation": "3"
+            },
+            {
+                "name": "Jino Im",
+                "affiliation": "4"
+            },
+            {
+                "name": "Tae Joo Shin",
+                "affiliation": "3"
+            },
+            {
+                "name": "Sang Il Seok",
+                "affiliation": "1"
+            }
+        ],
+        "journal": "Nature Energy",
+        "volume": 6,
+        "issue": 4,
+        "pages": "419-428",
+        "year": 2021,
+        "doi": "10.1038/s41573-021-00564-4",
+        "abstract": "We report the stabilization of formamidinium lead triiodide \u03b1-phase with isopropylammonium chloride for perovskite solar cells. The \u03b1-phase is metastable and undergoes phase conversion into a non-perovskite at room temperature. We investigated the effects of adding isopropylammonium chloride to the precursor solution and found that it stabilizes the \u03b1-phase and improves the performance of perovskite solar cells.",
+        "methods": [
+            {
+                "title": "Materials",
+                "text": "All materials were purchased from Sharechem, Sigma-Aldrich, Alfa Aesar, Junsei Organics and TCI, and were used as received."
+            },
+            {
+                "title": "Fabrication of Solar Cells",
+                "text": "A dense blocking layer of TiO2 (approximately 60 nm in thickness, bl-TiO2) was deposited onto an F-doped SnO2 (FTO, Pilkington glass, TEC-8, 2.2T) substrate by spray pyrolysis using titanium diisopropoxide bis(acetylacetonate) in ethanol (1:10, v/v) at 450\u00b0C."
+            }
+        ],
+        "results": [
+            {
+                "title": "GI-WAXD Measurements",
+                "text": "The GI-WAXD measurements were performed at the PLS-II 6D UNIST-PAL beamline of the Pohang Accelerator Laboratory (PAL), Korea."
+            },
+            {
+                "title": "FTIR Investigation",
+                "text": "The FTIR spectra of the perovskite precursors and powders were recorded using a Frontier spectrometer (Series 6800, PerkinElmer)"
+            }
+        ],
+        "discussion": [
+            {
+                "title": "Computational Investigation",
+                "text": "Density functional theory calculations were performed to investigate the phase stability of the iPAmHCl-incorporated FAPbI3."
+            }
+        ],
+        "conclusions": [
+            {
+                "title": "Stabilization of \u03b1-FAPbI3 Crystal",
+                "text": "The iPAmHCl molecule located near grain boundaries was found to considerably reduce the formation energy compared with the \u03b4-FAPbI3 crystal."
+            }
+        ],
+        "references": [
+            {
+                "title": "Inamura et al.",
+                "text": "Inamura et al. (2019) previously reported that the isopropylamine (iPAm) molecule attached to a Ni catalyst strain-free exhibits a peak at ~285 eV in the C1s spectrum below 300 K."
+            }
+        ]
+    },
+    "19": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "ligand_reactivity": [
+            {
+                "ligand": "anilinium iodide",
+                "reactivity": 0.78
+            },
+            {
+                "ligand": "3-fluoro-phenethylammonium iodide",
+                "reactivity": 1.72
+            }
+        ],
+        "dft_calculations": [
+            {
+                "ligand": "anilinium iodide",
+                "binding_energy": -0.74,
+                "interaction_energy": -0.92
+            },
+            {
+                "ligand": "3-fluoro-phenethylammonium iodide",
+                "binding_energy": -0.89,
+                "interaction_energy": -1.22
+            }
+        ]
+    },
+    "109": {
+        "title": "Conformal Quantum Dot-SnO2 Layers as Electron Transporters for Efficient Perovskite Solar Cells",
+        "authors": [
+            {
+                "name": "Kim",
+                "affiliation": "University of California San Diego"
+            }
+        ],
+        "abstract": "We report that replacing the commonly used mesoporous-titanium dioxide electron transport layer (ETL) with a thin layer of polyacrylic acid-stabilized tin(IV) oxide quantum dots (paa-QD-SnO2) on the compact-titanium dioxide enhanced light capture and largely suppressed nonradiative recombination at the ETL-perovskite interface.",
+        "keywords": [
+            "perovskite solar cells",
+            "electron transport layer",
+            "polyacrylic acid-stabilized tin(IV) oxide quantum dots",
+            "compact-titanium dioxide",
+            "mesoporous-titanium dioxide",
+            "nonradiative recombination"
+        ],
+        "methods": [
+            {
+                "name": "Materials synthesis",
+                "description": "Formamidinium iodide (FAI) synthesis"
+            },
+            {
+                "name": "Materials preparation",
+                "description": "FTO substrate preparation"
+            },
+            {
+                "name": "Device fabrication",
+                "description": "PSC device fabrication"
+            }
+        ],
+        "results": [
+            {
+                "name": "PCE measurement",
+                "description": "Quasi-steady-state current-voltage (QSS-IV) measurement"
+            },
+            {
+                "name": "EQE measurement",
+                "description": "External quantum efficiency (EQE) measurement"
+            },
+            {
+                "name": "Long-term stability measurement",
+                "description": "Operational stability measurement"
+            }
+        ],
+        "discussion": "The paa-QD-SnO2 @c-TiO2 bilayer improved the perovskite's absorption of sunlight and formed an outstanding electron-selective contact with the perovskite film.",
+        "conclusion": "The paa-QD-SnO2 @c-TiO2 bilayer enabled a PCE of 25.7% with a Jsc of 26.4 mA/cm2 and high stability for the corresponding PSCs.",
+        "references": [
+            {
+                "title": "Journal of Materials Chemistry A",
+                "volume": "10",
+                "issue": "1",
+                "pages": "1-10"
+            }
+        ],
+        "notes": [
+            {
+                "title": "Note 1: Reasons of the low PCE of c-TiO2-based PSCs under QSS-IV method",
+                "text": "The contrasting J-V curves of c-TiO2-based PSCs shown in Fig. 2A and Fig. S12a is due to different testing methods."
+            },
+            {
+                "title": "Note 2: PLQY measurements and calculations",
+                "text": "The calculated \u2206E_F for PSCs with m-TiO2@c-TiO2, QD-SnO2@c-TiO2, and paa-QD-SnO2@c-TiO2 ETLs are 1.17 V, 1.17 V, and 1.19 V, respectively."
+            },
+            {
+                "title": "Note 3: Calculation of the quasi-Fermi level splitting \u2206E_F",
+                "text": "The photoluminescence quantum yield (PLQY) was measured using an integrating sphere, an Andor Kymera 193i spectrograph, and a 660 nm continuous-wave laser."
+            },
+            {
+                "title": "Note 4: UPS calculations",
+                "text": "The ultraviolet photoelectron spectroscopy (UPS) was performed using an ESCALAB 250XI multi-technique platform."
+            }
+        ]
+    },
+    "8": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "mobility": {
+            "electron": 10.2,
+            "hole": 8.5
+        },
+        "PCE": 20.1,
+        "VOC": 1.16,
+        "JSC": 23.9,
+        "FF": 0.723,
+        "EQE": 0.9
+    },
+    "34": {
+        "absorption_spectrum": "CH3NH3PbI3",
+        "emission_spectrum": "CH3NH3PbI3",
+        "potential_difference": 0.5,
+        "luminescence_yield": 0.2,
+        "absorption_cross_section": 0.1,
+        "temperature": 300,
+        "entropy_change": 0.01,
+        "entropy_change_blackbody": 0.005,
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            },
+            {
+                "test_name": "ISOS-L",
+                "temperature": 100,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "147": {
+        "control_pce": 22.3,
+        "control_voc": 1.112,
+        "treated_pce": 24.7,
+        "treated_voc": 1.161,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "radiative_limit": 1.249,
+        "transport_limit": 1.142,
+        "jmpp": 23.8,
+        "vmp": 0.919,
+        "ff": 76.7,
+        "pce": 24.2,
+        "plqy": 1.9,
+        "plqy_control": 1.8,
+        "voc": 1.161,
+        "j_sc": 25.1,
+        "series_resistance": 4,
+        "hysteresis": 0.4,
+        "stability": 92.3
+    },
+    "97": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "hysteresis": "Negligible",
+        "related_data": "Newport certification report",
+        "efficiency": 22.3,
+        "calibration": "Xenon-lamp-based solar simulator",
+        "statistical_analysis": "Figure 2",
+        "long_term_stability": "Figure 6"
+    },
+    "46": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "TRPL analysis",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "interface_recombination_losses": [
+            {
+                "interface_type": "PTAA/perovskite",
+                "recombination_loss": 35
+            },
+            {
+                "interface_type": "perovskite/C60",
+                "recombination_loss": 35
+            }
+        ],
+        "bulk_recombination_losses": [
+            {
+                "recombination_loss": 80
+            }
+        ]
+    },
+    "135": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "activation_energy": 0.389,
+        "lifetime_acceleration_factor": 21.02,
+        "operational_stability": 90,
+        "photovoltaic_performance": 25.6,
+        "characterizations": [
+            {
+                "UV-vis": "UV-vis absorption spectra",
+                "XRD": "XRD data",
+                "SEM": "SEM images",
+                "UPS": "UPS data",
+                "KPFM": "KPFM data",
+                "TRPL": "TRPL spectra"
+            }
+        ]
+    },
+    "149": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": "17.5",
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": "1000 hours",
+                "humidity": "50%",
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ],
+        "mobility": 80,
+        "diffusion_length": 5.4
+    },
+    "1": {
+        "control_pce": 20.95,
+        "control_voc": 1.12,
+        "treated_pce": 24.69,
+        "treated_voc": 1.15,
+        "passivating_molecule": "phenethylammonium iodide",
+        "perovskite_composition": "FA1-xMAxPbI3",
+        "electron_transport_layer": "SnO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "temperature",
+                "temperature": 25,
+                "time": 5,
+                "humidity": 50,
+                "control_efficiency": 20.24,
+                "treatment_efficiency": 24.16
+            },
+            {
+                "test_name": "temperature",
+                "temperature": 50,
+                "time": 5,
+                "humidity": 50,
+                "control_efficiency": 20.53,
+                "treatment_efficiency": 24.12
+            },
+            {
+                "test_name": "temperature",
+                "temperature": 85,
+                "time": 5,
+                "humidity": 50,
+                "control_efficiency": 20.68,
+                "treatment_efficiency": 24.22
+            }
+        ]
+    },
+    "41": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    },
+    "132": {
+        "control_pce": 15.2,
+        "control_voc": 1.02,
+        "treated_pce": 17.5,
+        "treated_voc": 1.05,
+        "passivating_molecule": "Phenethylammonium iodide",
+        "perovskite_composition": "CH3NH3PbI3",
+        "electron_transport_layer": "TiO2",
+        "pin_nip_structure": "NIP",
+        "hole_transport_layer": "Spiro-OMeTAD",
+        "stability_tests": [
+            {
+                "test_name": "ISOS-D",
+                "temperature": 85,
+                "time": 1000,
+                "humidity": 50,
+                "control_efficiency": 12.4,
+                "treatment_efficiency": 14.3
+            }
+        ]
+    }
+}

@@ -3,43 +3,39 @@
 ### Folder Structure
 ```
 DSC180_B11
-└───data
+└───data                                   # Collection of all data
 │    │   biocs/                                
 │    │   model_results/                        
 │    │   txts/                               
 │    │   xmls/                                 
-│    │   150_research_papers.csv           # Dataset of 150 research papers
-│    │   bioc_parsed.csv                       
-│    │   good_paper_links.csv                  
-│    │   irrelevant_papers.csv                 
-│    │   merged_label.csv                  # labeled dataset for classification 
-│    │   model_performance_results.csv         
-│    │   Perovskite_database_content_all_data.csv 
-│    │   text_bad_paper.csv                   
-│    │   text_good_paper.csv                   
-│    └───training_data.csv                 # Dataset for training the models
+│    │   .
+│    │   .
+│    │   .
+│    │   .
+│    └───training_data.csv                 
 │
 └───images
 │    │   classification_compare.png        # Model comparison visualization
-│    │   pipeline_flowchart.png            # Workflow diagram
+│    │   pipeline.png                      # Workflow diagram
 │    └───q2_timeline.png                   # Project timeline visualization
 │
 └───models
-│    │   llama-3.2-3b-it-Perovskite-PaperExtractor/ 
+│    │   llama-3.2-3b-it-Perovskite-PaperExtractor/
+│    │   prediction_model                  # work in progress
 │    └───scibert_psc_ner_model/                
 │
-└───q1_submission_notebooks
-│    │   01_extract_link_badpaper.py           
-│    │   02_Scrapint_texts.ipynb              
-│    │   03_TF-IDF_vectorizer_and_models.ipynb 
-│    │   04_flan_model.ipynb                   
-│    │   05_sciBERT.ipynb                      
-│    │   06_scraping_and_conversion.ipynb      
-│    │   07_llama_training.ipynb               
-│    │   08_finetuned_llama_extraction.ipynb   
-│    │   09_evaluation.ipynb                   
-│    │   10_scibert_training.ipynb             
-│    └───11_database_searcher.ipynb            
+└───q2_submission_notebooks
+│    │   00_crossref_scraping.ipynb           
+│    │   01_Scrapint_texts.ipynb            
+│    │   02_TF-IDF_vectorizer_and_models.ipynb
+│    │   03_scraping_and_conversion.ipynb
+│    │   04_docling.ipynb                  
+│    │   05_pretrained_model_extraction.ipynb                   
+│    │   06_chatextract_openai.py    
+│    │   07_chunked_training_creation.ipynb              
+│    │   08_finetuning_peft.ipynb   
+│    │   09_finetuning_test.ipynb                     
+│    └───10_evaluation_final.ipynb          
 │
 └───README.md                                  
 └───requirements.txt                       
@@ -55,7 +51,7 @@ This project aims to optimize the discovery of small molecule that improve the s
 - Database Creation: Build a comprehensive dataset from scientific literature detailing molecules, their interactions with perovskites, and the outcomes (efficiency, stability, etc.).
 - Molecular Representation: Use SMILES (Simplified Molecular Input Line Entry System) to represent molecules in a format suitable for machine learning models.
 - Literature Mining: Automate data extraction from published research papers using NLP techniques (e.g., SciBERT, scraping tools).
-<img src="images\pipeline_flowchart.png" alt="pipeline" width="1000">
+<img src="images\pipeline.png" alt="pipeline" width="1000">
 
 
 # Running the project
@@ -64,67 +60,53 @@ This project aims to optimize the discovery of small molecule that improve the s
 then run the following command to download and run GROBID's image: <code>docker run --rm --init --ulimit core=0 -p 8070:8070 lfoppiano/grobid:0.8.1</code>. This will initialize GROBID on http://localhost:8070.
 
 ## General Guidelines and Explanation of Our Work
-All relevant files for this Quarter 1 Submission is in the `q1_submission_notebooks` folder.
+All relevant files for this Quarter 2 is in the `q2_submission_notebooks` folder.
 
 ### 1: Generating a Relevant vs. Irrelevant Research Papers Database for Classification
 
-**`01_extract_link_badpaper.py`**  
-   This script takes two URLs of irrelevant research papers, performs literature mining, and scrapes all references from these papers. These references form a training set representing irrelevant papers.  
-   - **Output**: After successful execution, it generates an `irrelevant_papers.csv` file in the `data` folder.
+**`00_crossref_scraping.ipynb`**  
+   Scraping through urls of papers and their references to collect papers.
 
-**`02_Scrapint_texts.ipynb`**  
+**`01_Scrapint_texts.ipynb`**  
    Ensure that two CSV files, `150_research_papers.csv` and `irrelevant_papers.csv`, are available in the `data` folder. This notebook accesses these research papers via URLs and extracts clean text data.  
    - **Output**: Upon completion, it outputs a `merged_label.csv` file in the `data` folder, which is used for classification testing.
 
-### 2: Building and Evaluating Classification Models
-
-**`03_TF-IDF_vectorizer_and_models.ipynb`**  
-   This notebook performs five classification algorithms:
-   - Logistic Regression
-   - Naive Bayes
-   - SVM
-   - Random Forest
-   - XGBoost  
+**`02_TF-IDF_vectorizer_and_models.ipynb`**  
+   This notebook performs five classification algorithms: Logistic Regression, Naive Bayes, SVM, Random Forest, XGBoost  
 
    Each model undergoes hyperparameter tuning to find optimal settings. The results are saved as CSV files in the `data/model_results` folder, and visualizations show the performance before and after tuning.
 
-**`04_flan_model.ipynb`**  
-   This notebook performs classification using Google’s Fine-tuned Language Net model.  
-   - **Output**: The performance results are saved as a CSV file in the `data/model_results` folder.
-
-**`05_sciBERT.ipynb`**  
-   This notebook performs classification using the SciBERT model.  
-   - **Output**: The performance results are saved as a CSV file in the `data/model_results` folder.
-
-**`06_model_analysis.ipynb`**  
-   This notebook aggregates the results from all models and compares the Accuracy, Recall, and Balanced Error Rate (BER) metrics for each model. Visualizations illustrate these comparisons, showing Random Forest with the highest Accuracy and BER.
-   - **Visualization**:    
-     <img src="images\classification_compare.png" alt="Comparing performance metric for ALL classification perfomed " width="400">
-
-### 3: Scraping and Converting Research Articles
-
-**`07_scraping_and_conversion.ipynb`**  
-   This notebook gets the PDF file of articles and converts them into txt and xml files.  
+**`03_scraping_and_conversion.ipynb`**  
+This notebook gets the PDF file of articles and converts them into txt and xml files using Grobid.
    - **Output**: The files are saved in the `data/txts` and `data/xmls` folders respectively.
 
-### 4: Training and Extracting Data
-**`08_llama_training.ipynb`**  
-   This notebook trains a Llama model using the `training_data.csv`.
-   - **Output**: It saves the trained model in `models/llama-3.2-3b-it-Perovskite-PaperExtractor` folder.
+**`04_docling.ipynb`**  
+Tested out docling to scan the paper from top to bottom to extract text and tables. It does well in getting clear table extraction but the text is very unorganized, therefore we will stick to Grobid text extraction.
 
-**`09_finetuned_llama_extraction.ipynb`**  
-   Run the extraction process using the model from `models/llama-3.2-3b-it-Perovskite-PaperExtractor` folder.
-   - **Output**: The output of the extraction is then saved to `data/finetuned_llama_output.json` folder. 
+### 2: Data Extracting Models
 
-**`10_evaluation.ipynb`**  
-   This notebook evaluates the extraction using F1 Score, MacroF1 Score, Precision, and Recall.
+**`05_pretrained_model_extraction.ipynb`**  
+   Using a pretrained model to extract data from text.
+   - **Output**: data/finetuned_llama_output_1epoch.json
 
-### Additional Tools and Notebooks
+**`06_chatextract_openai.py`**  
+   Implementation from the works of Maciej P. Polak and Dane Morgan. However, it will not be feasible since we require credit to run these extraction.
+   
+**`07_chunked_training_creation.ipynb`**  
+Create text chunks so that model can extract data from a smaller portion of text.
+   - **Output**: "data/chunked_example.csv",
 
-**`11_scibert_training.ipynb`**  
-   This notebook trains a sciBERT model for data extraction.  
-   - **Output**: It saves the trained model in `data/scibert_psc_ner_model` folder.
+### 3: Fine Tuning and Evaluation
 
-**`12_database_searcher.ipynb`**  
-   This notebook includes a function that retrieves key variables (e.g., efficiency, condition, PCE) from a given research paper's DOI using the Perovskite Database. It is intended for use in the extraction phase of our project.
+**`08_finetuning_training.ipynb`**  
+This notebook trains and prepare the model to be able to extract the data we need.
+
+**`09_finetuning_test.ipynb`**  
+This notebook tests performance on the chunked data.
+
+**`10_evaluation_final.ipynb`**  
+This notebook compares our text annotation with Extraction performed using precision score, recall score, and f1 score as its metric.
+
+
+
 
