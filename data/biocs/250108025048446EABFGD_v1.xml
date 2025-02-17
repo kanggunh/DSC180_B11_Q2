@@ -36,22 +36,6 @@
         <location offset="894" length="5"/>
         <text>p-i-n</text>
       </annotation>
-      <annotation id="3">
-        <infon key="type">treatment_element</infon>
-        <infon key="identifier">PIC</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-02-12T11:39:07Z</infon>
-        <location offset="4235" length="24"/>
-        <text>porous insulator contact</text>
-      </annotation>
-      <annotation id="4">
-        <infon key="type">treatment_element</infon>
-        <infon key="identifier">PIC</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-02-12T11:39:07Z</infon>
-        <location offset="4262" length="3"/>
-        <text>PIC</text>
-      </annotation>
       <annotation id="5">
         <infon key="type">control_pce</infon>
         <infon key="identifier">23</infon>
@@ -72,6 +56,22 @@
     <passage>
       <offset>15015</offset>
       <text> Solar cell fabrication and testing We then fabricated p-i-n devices to evaluate the solution-processed Al 2 O 3 dielectric mask with different sizes (d = 30 versus 100 nm) and various concentrations (0.7 to 4 mg ml -1 ) (Fig. observed slightly increased V oc and FF only for the concentration of 0.7 mg ml -1 . With further increased concentration, the FF decreased vastly, in agreement with the trend of short-circuit current density (J sc ) loss and the formation of a continuous layer as observed in AFM images (Fig.  2 , G and H). By contrast, we observed a significantly broader performance enhancement window for the Al 2 O 3 mask with d = 100 nm. With increased concentration from 0.7 to 2mg ml -1 , the coverage fraction was consistently increased. V oc , FF, and PCE, as well as the retained J sc , are fully subject to the prediction of the ideal PIC model and consistent with the V-W growth of islands. For the concentration of 4 mg ml -1 with an even higher coverage fraction (~50%), the V oc and FF remained higher than the control device but less efficient than the trend extrapolation from the ideal PIC model. To explain this deviation at high concentration, we propose that the increased proportion of oversized islands (i.e., those larger than the photocarrier diffusion length of the perovskite) reduces carrier collection. Given the relatively large size dispersion in d = 100 nm solution, it is also possible that the S-K growth of smaller nanoplates occurs in parallel with V-W growth of larger nanoplates, and its effect becomes non-ignorable at the concentration of 4 mg ml -1 . We also note that as the coverage increases, the local opening width can become very narrow (such as &lt;10 nm) and thus may induce non-ideal fac-tors such as the failure of perovskite infill of narrow local openings or the dimensionallimited perovskite in the narrow channels exhibiting charge transport properties differing from the bulk  (36, 37) . These non-ideal factors, from a positive viewpoint, provide valuable guidelines for further optimization of solutionprocessed PIC. The above PIC device model can also be more precise if we can find a way to include these non-ideal factors at high coverage. With these studies, we henceforth used 100-nm Al 2 O 3 with a concentration of 1.4 to 2 mg ml -1 for the optimized PIC solar cells. For the concentration of 1.4 mg ml -1 with coverage of ~25%, we obtained a maximized PCE percentage improvement of ~12% (19.7 versus 22.2%) (Fig.  2 , M to Q), in agreement with the above discussion that the simulator's prediction is conservative. Improvement of V oc and FF could arise from factors other than just the PIC's reduction in contact area: the passivation of perovskite surface at HTL and the improved bulk quality as the perovskite grows on PIC-coated HTL. To evaluate these effects, we compared photoluminescence quantum yield (PLQY) and transient photoluminescence lifetime (TRPL) of glass/perovskite and glass/PIC/perovskite samples in the absence of HTL (Fig.  3, A to C ). The sample was illuminated through the glass to be consistent with the solar cell's operational condition  (19, 38) . PLQY enhancement can be observed for PIC samples of concentrations from 0.7 to 2 mg ml -1 . Consistent with PLQY enhancement, we observed a significantly slower TRPL decay in all PIC samples with concentrations of 0.7 to 2 mg ml -1 , suggesting suppressed nonradiative recombination in bulk and surfaces. We then measured the PLQY and TPPL of perovskite coated on PTAA. Consistent with other reports  (6, 19) , we observed that the biexponential TRPL decay of an ITO/PTAA/ perovskite stack was much faster than that of a glass/perovskite stack (fig.  S6 ) because of the additional nonradiative recombination pathways. As pointed out previously (39-42), the fast initial decay represents the combined process of charge extraction (quenching) and nonradiative recombination. The slow monoexponential decay lifetime [(t), indicated by the black dashed line in fig.  S6 ] is mainly attributed to trap-assisted recombination in the bulk and surfaces and is among the most widely used and trusted indicators to predict the achievable V oc (for details, see the materials and methods)  (19, 38) . Following this reasoning, we attributed the similar initial fast decays in the ITO/PTAA/perovskite stack and the ITO/PTAA/PIC/perovskite stack to the retained carrier extraction and the significantly increased t with the use of PIC to the reduced nonradiative recombination (fig.  S6 ). These TRPL changes agree with the V oc and FF improvement observed in PIC-coated PTAA devices (Fig.  2 , N to Q). We further tested the PIC's applicability on different HTLs. We used a self-assembled monolayer of [4-(3,6-dimethyl-9H-carbazol-9-yl)butyl] phosphonic acid (Me-4PACz) because this has been demonstrated to increase the PL lifetime and enable superior interface passivation to the PTAA/perovskite stack  (6) . The ITO/Me-4PACz/perovskite stack exhibited a biexponential decay consisting of a fast decay and an impressively long t of ~880 ns (Fig.  3, D  and E ), corresponding to an achievable V oc of 1.18 V (for details, see the materials and methods)  (19, 38) . By coating the Me-4PACz with PIC, the t was further increased by a factor of ~4.4 (Fig.  3E ). The t of ~3800 ns in a Me-4PACz/PIC/perovskite stack corresponds to an achievable V oc of 1.25 V, representing 97.3% of the S-Q limit of V oc (1.285 V) for a 1.55-eV-band gap semiconductor. The increased t in Me-4PACz/PIC/perovskite stacks was highly consistent for different PIC concentrations (0.7 to 2 mg ml -1 ). At the same time, the TRPL and PLQY trends in Me-4PACz/PIC/perovskite stacks (fig.  S7 ) agreed well with those observed in glass/PIC/perovskite stacks. This consistency suggests that the passivation effect of PIC and Me-4PACz can be successfully combined in the PIC device because the perovskite is in contact with both the HTL and PIC materials. We also conducted the differential TRPL analysis to resolve the stages of charge extraction and recombination  (6, 43, 44) . The lifetime plateau increased from ~1 to ~4.4 ms upon the inclusion of PIC, reconfirming the substantially reduced nonradiative recombination losses in bulk and surfaces (fig.  S8 ). The steep lifetime rise at early times was maintained in PIC samples, indicating that the local openings in PIC support the fast charge transfer. To disentangle the bulk and surface recombination, we conducted SRV analysis by measuring TRPL as a function of perovskite thickness (Fig.  3F  and fig.  S9 ) following a double-heterostructure model  (43, (45) (46) (47) (48)  as follows: 1 t eff ¼ 1 t b þ 2SRV d ð1Þ where t eff is the effective lifetime of TRPL decay, t b the bulk lifetime, and d the perovskite thickness (for details, see the materials and methods). The inclusion of PIC at HTL substantially improved the bulk lifetime from 1.2 to 6.0 ms, likely because of the hydrophilic and rough surface of Al 2 O 3 clusters that profoundly modify the perovskite's growth and bulk quality, as previously reported  (33, 49) . This fact is evidenced by the markedly improved wetting and coverage of perovskite on the PIC-coated HTL (fig.  S10 ). The enlarge-ment of the perovskite's apparent grain size is not appreciable, as shown in the scanning electron microscope (SEM) top-view images and AFM morphology images in figs. S11 and S12. However, our grazing incidence wideangle x-ray scattering (GIWAXS) data (fig.  S13,  A  and B ) showed that the PIC sample exhibited higher radially integrated intensities of perovskite (  100 ) and (  200 ) crystal planes relative to the control sample (fig.  S13 , C to E), consistent with the peak ratios observed in x-ray diffraction measurements (fig.  S14 ). Moreover, the azimuthal integration of (100) and (200) planes showed that the PIC sample's diffraction signals were more oriented and concentrated at azimuth angles around 90°(fig.  S13F ), suggesting that the presence of PIC promoted its out-of-plane growth. Per previous reports  (50) (51) (52) (53) , the enhancement and orientation promotion of the (100) plane have been widely linked with reduced defect density and improved carrier lifetime in bulk perovskite, in agreement with the above improvement shown in TRPL, PLQY, and SRV measurements. The SRV at the HTL interface was substantially reduced from 64.2 to 9.2 cm/s, highlighting the opportunity to approach the thermodynamic limit according to previous device simulations  (46, 54) . Motivated by this success, we fabricated the p-i-n solar cells of ITO/Me-4PACz/PIC/ perovskite/C60/BCP/Ag. The Al 2 O 3 isolated islands (coverage of ~25% and concentration of 1.4 mg ml -1 ) formed on the Me-4PACz layer as shown in cross-sectional SEM images (Fig.  4A ). We fabricated 20 solar cells with the PIC and 20 without it in the same batch. The PIC increased the average PCE from 22.1 to 24.5% (Fig.  4B ), primarily caused by an increase in V oc and FF. The PIC increased the average V oc from 1.13 to 1.19 V, agreeing with the above prediction from TRPL measurements (1.18 versus 1.25 V). The additional V oc loss in the solar cell relative to the prediction can be linked to the non-idealities of fabrication and additional loss at the ETL contact  (6, 19, 55) . We conducted a quantitative analysis of the V oc loss following the detailed balance theory (for details, see the materials and methods)  (56, 57) . The external quantum efficiency of electroluminescence of the PIC device (fig.  S15 ) 6 of 8 Table  1 . PV parameters of PIC-enhanced p-i-n perovskite solar cells (band gap = 1.55 eV). &#13;</text>
+      <annotation id="32">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">PTAA</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T03:01:25Z</infon>
+        <location offset="18531" length="4"/>
+        <text>PTAA</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">C60</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:59:23Z</infon>
+        <location offset="23638" length="3"/>
+        <text>C60</text>
+      </annotation>
       <annotation id="6">
         <infon key="type">control_voc</infon>
         <infon key="identifier">1.13</infon>
@@ -98,9 +98,9 @@
       <text> Stability measurements We examined the long-term stability of PIC devices under accelerated lifetime conditions of continuous heating and illumination following the ISOS consensus protocol (for details, see the materials and methods)  (60) . An SnO 2 layer (15 to 20 nm) made by atomic layer deposition was used to replace the BCP layer for the long-term stability test without a tradeoff of PCE. We tested unencapsulated devices in an N 2 atmosphere to reveal their intrinsic properties and to avoid encapsulation modification. The PIC devices retained 98% of the initial PCE after accelerated aging at 85°C for 1000 hours, whereas the control device exhibited ~20% PCE loss (T 80 lifetime) at ~400 hours (Fig.  4J ). Moreover, the PIC devices exhibited minor degradation of &lt;2% after 1000 hours of continuous operation at MPPT (perturb-andobserve tracking) under 1-sun illumination (chamber temperature ~35 to 40°C) (Fig.  4K ). The control devices showed no degradation for ~200 hours and then a 20% loss of PCE at ~800 hours. We noted that our p-i-n devices exhibited no burn-in degradation but a slightly increased PCE during the initial stage, which may have been caused by light-induced defect healing of perovskite, as revealed in previous reports  (61, 62) . This impressive operational stability in PIC devices is consistent with the observed improvement in film wetting, passivation, and carrier transport. It has been revealed that better passivation paired with faster carrier extraction at the perovskite/ HTL interface can effectively improve stability because of less carrier accumulation and suppressed phase segregation  (6, 63) . &#13;</text>
       <annotation id="8">
         <infon key="type">stability_type</infon>
-        <infon key="identifier">ISOSLT</infon>
+        <infon key="identifier">ISOSL</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T06:56:05Z</infon>
+        <infon key="updated_at">2025-02-14T02:53:13Z</infon>
         <location offset="28657" length="55"/>
         <text>N 2 atmosphere to reveal their intrinsic properties and</text>
       </annotation>
@@ -128,19 +128,86 @@
         <location offset="28834" length="11"/>
         <text>1000 hours,</text>
       </annotation>
+      <annotation id="23">
+        <infon key="type">efficiency_cont</infon>
+        <infon key="identifier">80</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:54:48Z</infon>
+        <location offset="28884" length="7"/>
+        <text>20% PCE</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">98</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:55:32Z</infon>
+        <location offset="28982" length="18"/>
+        <text>degradation of &lt;2%</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">time</infon>
+        <infon key="identifier">1000</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:54:57Z</infon>
+        <location offset="29007" length="4"/>
+        <text>1000</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSD</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:54:33Z</infon>
+        <location offset="29021" length="83"/>
+        <text>continuous operation at MPPT (perturb-andobserve tracking) under 1-sun illumination</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">35-40</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:55:07Z</infon>
+        <location offset="29127" length="10"/>
+        <text>35 to 40°C</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">efficiency_cont</infon>
+        <infon key="identifier">80</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:55:18Z</infon>
+        <location offset="29220" length="8"/>
+        <text>20% loss</text>
+      </annotation>
       <relation id="R1">
         <infon key="type">test_1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-02-13T01:33:51Z</infon>
+        <infon key="updated_at">2025-02-14T02:49:57Z</infon>
         <node refid="8" role=""/>
         <node refid="9" role=""/>
         <node refid="10" role=""/>
         <node refid="11" role=""/>
+        <node refid="23" role=""/>
+      </relation>
+      <relation id="R2">
+        <infon key="type">test_2</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:55:58Z</infon>
+        <node refid="24" role=""/>
+        <node refid="26" role=""/>
+        <node refid="29" role=""/>
+        <node refid="27" role=""/>
+        <node refid="28" role=""/>
       </relation>
     </passage>
     <passage>
       <offset>29873</offset>
       <text> Outlook In light of the successful application of doublesided (both n-and p-type) local contacts in silicon cells, we attempted the PIC device's extension by additionally spin-coating Al 2 O 3 on the perovskite surface but did not gain any further improvement in V oc and FF (fig.  S22A ). We speculate that Al 2 O 3 clustering and growth on the perovskite rough surface may differ from that on the HTL flat surface, and the local contact structure at the rear ETL differs from that of the front PIC (see the schematic diagrams in fig.  S22, B to E ), suggesting that the extension of PIC on the top surface requires appropriate modification. It is also worth noting that the established silicon solar cells' local contacts are typical of a coverage of &gt;90%. Consistently, our simulations (fig.  S4 ) showed that the PCE could be raised by another ~2% if a way could be found to fabricate a nearly ideal PIC structure with coverage increased from 25 to &gt;80%. The PIC concept can also be generalized to other perovskite compositions. In FA 0.95 MA 0.05 Pb(I 0.92 Br 0.08 ) 3 , a Cs-free composition with a band gap of 1.57 eV, we improved the p-i-n cells' PCE from 22.90 to 25.13% by using PIC, featured with high V oc of 1.2 V and FF of 84.14% (fig.  S23 ). Moreover, we also observed considerable PCE, V oc , and FF improvement in 1.65-eV perovskite cells, which are of high interest for tandem applications (fig.  S24 ). These two demonstrations were not optimized. For instance, the PIC parameters, such as the opening spacing, should be tuned to match the photocarrier diffusion length of a specific perovskite. &#13;</text>
+      <annotation id="30">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">FA0.95MA0.05Pb(I0.92Br0.08)3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:57:55Z</infon>
+        <location offset="30910" length="37"/>
+        <text>FA 0.95 MA 0.05 Pb(I 0.92 Br 0.08 ) 3</text>
+      </annotation>
     </passage>
     <passage>
       <offset>31491</offset>
@@ -153,6 +220,14 @@
     <passage>
       <offset>33494</offset>
       <text> Solar cell fabrication ITO substrates (15 Ω sq -1 ) were sequentially cleaned by sonication with deionized water, detergent, deionized water, acetone, and isopropanol for 10 min, respectively, followed by a UV-ozone treatment for 15 min, and then transferred into glovebox filled with N2. The hole transport layer (HTL) was fabricated by spin-coating the Me-4PACz (0.5 mg/mL in ethyl alcohol) on ITO substrates at 3000 rpm for 30 s or the PTAA (2 mg/ml in chlorobenzene) on ITO at 4000 rpm for 30 s, both followed by thermal annealing at 100℃ for 10 min. For PIC devices, Al2O3 nanoplate dispersions with different sizes and concentrations in isopropanol were spin-coated on HTL at 4000 rpm for 30 s, followed by thermal annealing at 100℃ for 15 min. Perovskite films were coated on PIC (or HTL) following the abovementioned method. A passivation layer can be introduced by the thermal evaporation of LiF (1 nm) at a rate of 0.1 Å s -1 . Finally, 30 nm C60 at a rate of 0.3 Å s -1 , 5 nm BCP at a rate of 0.1Å s -1 , and 100 nm silver at a rate of 1.5 Å s -1 were thermally evaporated. A SnO2 layer (15-20 nm) made by atomic layer deposition (ALD) was used to replace the BCP layer for the long-term stability test. &#13;</text>
+      <annotation id="21">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">Aluminum Oxide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:47:35Z</infon>
+        <location offset="34067" length="5"/>
+        <text>Al2O3</text>
+      </annotation>
     </passage>
     <passage>
       <offset>34721</offset>
@@ -209,6 +284,14 @@
     <passage>
       <offset>49766</offset>
       <text> (3,6-dimethyl-9H-carbazol-9yl)butyl]phosphonic acid (Me-4PACz) were obtained from TCI America. Poly[bis(4phenyl)(2,5,6-trimethylphenyl)amine (PTAA, Mw=12000) was obtained from Xi'an pOLED. C60 and bathocuproine (BCP) were purchased from Jilin Oled Material. Lithium fluoride (LiF) was obtained from Luminescence technology Corp. Al2O3 dispersions (30nm or 100 nm, 20 w.t.% in isopropanol, Macklin) were diluted to different concentrations before they were applied to solar cell fabrication. &#13;</text>
+      <annotation id="22">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">Aluminum Oxide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:48:01Z</infon>
+        <location offset="50096" length="5"/>
+        <text>Al2O3</text>
+      </annotation>
     </passage>
     <passage>
       <offset>50259</offset>

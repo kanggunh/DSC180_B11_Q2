@@ -36,30 +36,6 @@
         <location offset="2834" length="5"/>
         <text>n-i-p</text>
       </annotation>
-      <annotation id="2">
-        <infon key="type">passivating_molecule</infon>
-        <infon key="identifier">iso-butylamine iodide</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-24T01:30:43Z</infon>
-        <location offset="2953" length="6"/>
-        <text>iso-BA</text>
-      </annotation>
-      <annotation id="3">
-        <infon key="type">passivating_molecule</infon>
-        <infon key="identifier">butylamine iodide</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-24T01:28:40Z</infon>
-        <location offset="4452" length="3"/>
-        <text>BAI</text>
-      </annotation>
-      <annotation id="4">
-        <infon key="type">passivating_molecule</infon>
-        <infon key="identifier">iso-butylamine iodide</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-24T01:28:39Z</infon>
-        <location offset="4460" length="6"/>
-        <text>iso-BA</text>
-      </annotation>
     </passage>
     <passage>
       <offset>6443</offset>
@@ -84,6 +60,14 @@
         <location offset="11829" length="3"/>
         <text>ITO</text>
       </annotation>
+      <annotation id="22">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">FA(MA)PbI 3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T23:04:05Z</infon>
+        <location offset="11856" length="11"/>
+        <text>FA(MA)PbI 3</text>
+      </annotation>
       <annotation id="7">
         <infon key="type">hole_transport_layer</infon>
         <infon key="identifier">Spiro-OMeTAD</infon>
@@ -94,9 +78,9 @@
       </annotation>
       <annotation id="8">
         <infon key="type">treatment_element</infon>
-        <infon key="identifier">iso-butylamine iodide</infon>
+        <infon key="identifier">iso-butylammonium iodide</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-24T06:09:53Z</infon>
+        <infon key="updated_at">2025-02-13T22:52:28Z</infon>
         <location offset="12989" length="7"/>
         <text>iso-BAI</text>
       </annotation>
@@ -117,9 +101,9 @@
         <text>22.1%</text>
       </annotation>
       <relation id="R1">
-        <infon key="type">performance_1</infon>
+        <infon key="type">test_1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-02-13T01:33:34Z</infon>
+        <infon key="updated_at">2025-02-17T03:50:06Z</infon>
         <node refid="10" role=""/>
         <node refid="9" role=""/>
         <node refid="8" role=""/>
@@ -128,22 +112,6 @@
     <passage>
       <offset>13625</offset>
       <text> Solution processing of perovskite films on textured Si To apply our BAI passivation to perovskite/silicon bifacial tandem devices, we first adapted two-step FA(MA)PbI 3 perovskite processing to textured Si substrates, which required a different optimization protocol than the one used for flat substrates (Figures  S15-S18 ).  35  We obtained highly crystalline perovskite films with vertically oriented grains extending through the entire film thickness using our two-step interdiffusion method on the micron-scale pyramidal textured surfaces as confirmed via cross-sectional scanning and transmission electron microscopy (SEM and TEM) micrographs and static X-ray diffraction/scattering measurements (Figures  3, S19 , S20, and S26). Interestingly, we discovered that the crystal orientation in 3D perovskite films deposited on flat substrates (glass) and textured silicon is different, as indicated by the grazing-incidence wide-angle X-ray scattering (GIWAXS) plots shown in Figure  S19 . A preference for out-of-plane orientation (with super-lattice formation) was observed in the case of depositions on flat substrates, in line with our previous observations.  29  On the other hand, a diffraction ring associated with the (100) reflection of the perovskite phase indicates a predominantly random orientation when the deposition was performed on textured silicon. We also probed the predominantly parallel-to-the-substrate-oriented 2D perovskite formation both for linear and branched BA + molecules (Figures  3A  and S21 ). Furthermore, we found that the formation of 2D perovskite crystals on planar and textured surfaces was slightly altered. As shown in Figure  3A , iso-BA-based 2D perovskite crystals exhibited Pb 2 I 7 (020) and Pb 4 I 13 (060) planes, while n-BAI passivation resulted in dominant Pb 3 I 10 (020) planes, in addition to Pb 2 I 7 (020) planes on the perovskite surface (Figure  3A ). The change in the FA(MA)PbI 3 perovskite crystal orientation at the surface is critical to tuning the dimensionality of the 2D layers. Next, we investigated the surface electronic structure and stoichiometry of the perovskite films following BAI passivation. For the bare FA(MA)PbI 3 perovskite, we observed the valence band maximum (VBM) and conduction band minimum (CBM) at $1.16 and À0.39 eV, respectively, with respect to the Fermi level (E F ), resulting in an E g of $1.55 eV, using ultraviolet photoelectron spectroscopy (UPS) and low-energy inverse photoemission spectroscopy (LE-IPES) spectroscopy (further details of the analysis are provided in the supplemental information).  36  E F is found to be relatively closer to the CBM, and the work function (WF) was measured to be 4.20 eV, in line with earlier studies of the influence of an underlying n-type substrate on the position of E F in the perovskite layer (Figures  3B  and 3C ).  37, 38  The n-BAI-and iso-BAI-modified films demonstrated increases of the band-gap E g at the surface of the perovskite to 1.90 and 2.20 eV, respectively. This would result in an apparent straddling type 1 band offset with respect to the underlying 3D perovskite bulk, with both band edges moving away from E F and a decreasing WF (Figure  S23 ). For a mixed 2D/3D system, this is consistent with earlier reports of the direct assessment of the energy levels in pure 2D BA 2 PbI 4 perovskite films, showing a band gap of 2.7 eV and a WF of 3.8 eV.  39  Furthermore, high-resolution X-ray photoelectron specotroscopy (XPS) spectra revealed the stoichiometry of the perovskite layers, indicating a (1:2.8) PbI 3 character for the control and 1:3.45 and 1:3.5 for n-BAI and iso-BAI, respectively (Figures  S24  and S25 ). These values are in between the stoichiometry of n = 2 and n = 3 layered perovskites and are consistent with the optical and structural analysis. Further, we investigated the distribution of 2D slabs at the surface and grain boundaries using TEM. High-resolution TEM (HR-TEM) imaging revealed that the iso-BA-based 2D perovskite crystals on the surface were located within the first tens of nm of the 3D perovskite, while at the grain boundaries, the penetration of the 2D crystals was up to 100 nm (Figures  3D  and S27 ). n-i-p bifacial perovskite/silicon tandem solar cells Next, we investigated the charge carrier extraction dynamics at the perovskite/HTL interface using TRPL spectroscopy and excitation from the HTL side to mimic the n-ip tandem configuration (Figures  S28  and 4A ). The differential lifetime (t diff ) of the stacks was calculated according to the relation t diff ðtÞ = À dlnðF PL Þ = dt À 1 , where F PL is the PL photon flux.  40  The log-log plot shows a transition from gradually increasing differential lifetimes to a plateau, where the charge transfer concluded and first-order recombination started to dominate the carrier dynamics. As expected, iso-BAI passivation leads to less interfacial recombination without lowering the charge extraction rate. However, the n-BAI-passivated sample showed charge carrier accumulation, even though all samples were measured in the same charge carrier generation regime. Zheng et al. reported that the existence of bulk 3D phases embedded in iso-BA-based pure 2D perovskites can facilitate the transfer of charges confined in 2D phases and subsequent transport with higher carrier mobility and lower recombination rates.  21  Thus, we conclude that the shorter spacer (iso-BA) can enhance the charge (or energy) transfer rate by reducing the charge accumulation in thinner quantum wells via tunneling through the barrier induced by the spacer cations.  20, 21  We fabricated n-i-p perovskite/silicon tandem devices with and without iso-BAI passivation, whose device structures are shown in Figure  4C . Importantly, we intentionally selected here the n-i-p device architecture aiming to minimize parasitic absorption losses at the front side of the devices. Indeed, spiro-TTB/VO x /IZO holeselective contacts (in n-i-p devices) were earlier found to reduce parasitic absorption compared with C 60 /SnO x /IZO electron-selective contacts (as used in most p-i-n tandem devices).  41  When we adapted iso-BAI passivation to tandem solar cells, we did not observe significant changes in the reflectance of the device due to the 2D passivation (Figure  4B ). However, we found an important increase in the V OC of around 70 mV compared with the control device as well as a reduced hysteresis in the current density-voltage (J-V) characteristics (Figure  S29A ). We evaluated the performance of the bifacial tandem solar cell (expressed through its power generation density [PGD] to account for its bifaciality) in our custom-designed bifacial tandem solar cell setup as shown in Figure  4D , which allows controlled illumination of both device sides, yet using only a single light source. We achieved various albedo values by using two identical Ag mirrors positioned at a 90 angle with respect to each other, and we lowered the rear-side illumination intensity with neutral-density filters. Here, instead of albedo, we use the term ''rear irradiance'' (mW cm À2 ) to visualize the power density of the rear-side illumination on the silicon subcell. We measured a PGD &gt;27 mW cm À2 for iso-BAI-passivated devices (with as low as $16 mW cm À2 of rear irradiance, i.e., albedo of 16% -PGD BiFi16 = 27.10 mW cm À2 ), whereas the control samples gave only 23.8 mW cm À2 . However, for real applications, we found that increasing the rear irradiance above 16 mW cm À2 did not further enhance the current, which saturated at 22.8 mA cm À2 , thus closely matching the integrated current of the perovskite top cell determined from the EQE spectra. This demonstrates the high PGD potential of our devices even at moderate albedo values (Figures  4E  and 4G ). Interestingly, besides the V OC improvement, we observed a consistent J SC enhancement for the iso-BAI-passivated devices (Figure  S29B ). Both single-junction (1-sun illumination, from the ETL side) and perovskite/silicon tandem (1-sun illumination, from the HTL side) solar cells exhibited higher current densities with iso-BAI-based 2D passivation. &#13;</text>
-      <annotation id="11">
-        <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">BA2PbI 4</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-02-12T09:15:53Z</infon>
-        <location offset="16958" length="10"/>
-        <text>BA 2 PbI 4</text>
-      </annotation>
-      <annotation id="12">
-        <infon key="type">electron_transport_layer</infon>
-        <infon key="identifier">C60</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-02-12T09:54:54Z</infon>
-        <location offset="19668" length="4"/>
-        <text>C 60</text>
-      </annotation>
     </passage>
     <passage>
       <offset>21788</offset>

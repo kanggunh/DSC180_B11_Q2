@@ -44,22 +44,6 @@
         <location offset="621" length="7"/>
         <text>AzPbI 3</text>
       </annotation>
-      <annotation id="4">
-        <infon key="type">treated_pce</infon>
-        <infon key="identifier">22.4</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-11T13:05:14Z</infon>
-        <location offset="757" length="4"/>
-        <text>22.4</text>
-      </annotation>
-      <annotation id="5">
-        <infon key="type">treated_voc</infon>
-        <infon key="identifier">1.18</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-11T13:05:21Z</infon>
-        <location offset="811" length="6"/>
-        <text>1.18 V</text>
-      </annotation>
     </passage>
     <passage>
       <offset>979</offset>
@@ -79,14 +63,6 @@
         <infon key="updated_at">2025-01-11T13:05:41Z</infon>
         <location offset="3181" length="7"/>
         <text>AzPbI 3</text>
-      </annotation>
-      <annotation id="8">
-        <infon key="type">treatment_element</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-02-12T11:34:53Z</infon>
-        <location offset="3205" length="27"/>
-        <text>secondary perovskite growth</text>
       </annotation>
     </passage>
     <passage>
@@ -109,12 +85,28 @@
         <text>Cs 0.05 MA 0.1 FA 0.85 PbI 2.7 Br 0.3</text>
       </annotation>
       <annotation id="11">
-        <infon key="type">treatment_element</infon>
+        <infon key="type">passivating_molecule</infon>
         <infon key="identifier">azetidinium lead iodide</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-11T13:17:08Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T08:29:17Z</infon>
         <location offset="5678" length="7"/>
         <text>AzPbI 3</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">control_pce</infon>
+        <infon key="identifier">19.52</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T08:32:26Z</infon>
+        <location offset="6599" length="6"/>
+        <text>19.52%</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">22.03</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T08:33:12Z</infon>
+        <location offset="6624" length="6"/>
+        <text>22.03%</text>
       </annotation>
       <annotation id="12">
         <infon key="type">treated_voc</infon>
@@ -174,14 +166,16 @@
       </annotation>
       <relation id="R1">
         <infon key="type">test_1</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-11T13:17:02Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T08:33:26Z</infon>
         <node refid="14" role=""/>
         <node refid="15" role=""/>
         <node refid="16" role=""/>
         <node refid="17" role=""/>
         <node refid="18" role=""/>
         <node refid="11" role=""/>
+        <node refid="29" role=""/>
+        <node refid="28" role=""/>
       </relation>
     </passage>
     <passage>

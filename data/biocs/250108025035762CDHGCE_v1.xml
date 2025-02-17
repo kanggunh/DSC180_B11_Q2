@@ -16,26 +16,10 @@
     <passage>
       <offset>12</offset>
       <text>Spatial Atmospheric Pressure Atomic Layer Deposition of Tin Oxide as an Impermeable Electron Extraction Layer for Perovskite Solar Cells with Enhanced Thermal Stability&#13;</text>
-      <annotation id="1">
-        <infon key="type">electron_transport_layer</infon>
-        <infon key="identifier">TinOxide</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-13T06:46:32Z</infon>
-        <location offset="68" length="9"/>
-        <text>Tin Oxide</text>
-      </annotation>
     </passage>
     <passage>
       <offset>181</offset>
       <text>Despite the notable success of hybrid halide perovskite-based solar cells, their long-term stability is still a key-issue. Aside from optimizing the photoactive perovskite, the cell design states a powerful lever to improve stability under various stress conditions. Dedicated electrically conductive diffusion barriers inside the cell stack, that counteract the ingress of moisture and prevent the migration of corrosive halogen species, can substantially improve ambient and thermal stability. Although atomic layer deposition (ALD) is excellently suited to prepare such functional layers, ALD suffers from the requirement of vacuum and only allows for a very limited throughput. Here, we demonstrate for the first time spatial ALD-grown SnO x at atmospheric pressure as impermeable electron extraction layers for perovskite solar cells. We achieve optical transmittance and electrical conductivity similar to those in SnO x grown by conventional vacuum-based ALD. A low deposition temperature of 80 °C and a high substrate speed of 2.4 m min -1 yield SnO x layers with a low water vapor transmission rate of ∼10 -4 gm -2 day -1 (at 60 °C/60% RH). Thereby, in perovskite solar cells, dense hybrid Al:ZnO/SnO x electron extraction layers are created that are the key for stable cell characteristics beyond 1000 h in ambient air and over 3000 h at 60 °C. Most notably, our work of introducing spatial ALD at atmospheric pressure paves the way to the future roll-to-roll manufacturing of stable perovskite solar cells.&#13;</text>
-      <annotation id="2">
-        <infon key="type">electron_transport_layer</infon>
-        <infon key="identifier">TinOxide</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-13T23:17:34Z</infon>
-        <location offset="921" length="5"/>
-        <text>SnO x</text>
-      </annotation>
       <annotation id="3">
         <infon key="type">electron_transport_layer</infon>
         <infon key="identifier">aluminum-doped zin oxide</infon>
@@ -43,14 +27,6 @@
         <infon key="updated_at">2025-01-13T23:17:47Z</infon>
         <location offset="1380" length="6"/>
         <text>Al:ZnO</text>
-      </annotation>
-      <annotation id="4">
-        <infon key="type">electron_transport_layer</infon>
-        <infon key="identifier">TinOxide</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-13T23:17:56Z</infon>
-        <location offset="1387" length="5"/>
-        <text>SnO x</text>
       </annotation>
       <annotation id="5">
         <infon key="type">time</infon>
@@ -108,6 +84,14 @@
         <location offset="8381" length="55"/>
         <text>glass/ITO/PEDOT:PSS/CH 3 NH 3 PbI 3 /PCBM/AZO/SnO x /Ag</text>
       </annotation>
+      <annotation id="33">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">PEDOT:PSS</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T20:09:52Z</infon>
+        <location offset="8472" length="9"/>
+        <text>PEDOT:PSS</text>
+      </annotation>
       <annotation id="11">
         <infon key="type">perovskite_composition</infon>
         <infon key="identifier">MAPbI 3</infon>
@@ -116,27 +100,19 @@
         <location offset="8609" length="15"/>
         <text>CH 3 NH 3 PbI 3</text>
       </annotation>
-      <annotation id="12">
-        <infon key="type">passivating_molecule</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T00:20:34Z</infon>
-        <location offset="8812" length="4"/>
-        <text>PCBM</text>
-      </annotation>
       <annotation id="13">
-        <infon key="type">treatment_element</infon>
+        <infon key="type">electron_transport_layer</infon>
         <infon key="identifier">Tin Oxide Grown by S-ALD</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T00:21:34Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-17T03:31:40Z</infon>
         <location offset="9203" length="5"/>
         <text>S-ALD</text>
       </annotation>
       <annotation id="14">
-        <infon key="type">control_element</infon>
+        <infon key="type">electron_transport_layer</infon>
         <infon key="identifier">Tin Oxide Grown by B-ALD</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T00:21:40Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-17T03:31:46Z</infon>
         <location offset="9212" length="5"/>
         <text>B-ALD</text>
       </annotation>
@@ -145,10 +121,10 @@
       <offset>11425</offset>
       <text> RESULTS AND DISCUSSION 3.1. Properties of Tin Oxide Grown by S-ALD. Tin oxide thin films were deposited in an S-ALD system at atmospheric pressure. The S-ALD system is described in more detail in previous reports.  34  The layout of the S-ALD coating head is shown in Figure  1 . Briefly, in S-ALD, the moving substrate is sequentially exposed to the precursors emerging from the spatially separated precursor outlets in the S-ALD head. Thereby, the time-sequenced delivery of the precursors to a static substrate, as in conventional B-ALD, is mimicked. As a starting point, the substrate speed was set to 20 mm s -1 (=1.2 m min -1 ), and the process temperature was 80 °C. The ALDtypical self-limiting growth behavior at these processing conditions has been verified (Figure  S1 , Supporting Information). The selected N 2 -gas flows of 150 sccm (through the TDMASn bubbler) and 8 sccm (through the H 2 O bubbler) are clearly within the respective saturation regime, with a growth per cycle (GPC) of (0.15 ± 0.01) nm. The properties of SnO x layers grown by S-ALD and B-ALD are compared in Table  1 . Obviously, S-ALD yields a somewhat higher GPC compared with B-ALD. Note, higher growth rates of atmospheric pressure ALD at low-temperature versus classical vacuum-based ALD have been found before for other metal oxides, e.g., Al 2 O 3 or ZnO,  37, 38  and have been attributed to an excess of adsorbed water which leads to some additional CVD type of growth. In our earlier work, we have studied the GPC in the S-ALD of SnO x (from TDMASn/H 2 O) at varied deposition temperatures.  39  Specifically, the GPC varied from 0.15 nm (at 80 °C) to 0.07 nm (at 150 °C). The optical properties of the SnO x layers have been assessed by absorption spectroscopy and spectral ellipsometry. The respective absorption spectra for SnO x grown by B-ALD and S-ALD at various deposition temperatures are shown in the Supporting Information (Figure  S2 ). The optical band gap is determined from the respective Tauc plots. A band gap of 3.8 eV was derived for SnO x deposited by both S-ALD and B-ALD at 80 °C. By increasing the deposition temperature, the optical band gap decreases (to 3.2 eV at 150 °C deposition temperature) and a notable sub-band-gap absorption is found. A similar behavior has been previously reported  40  in B-ALD-grown SnO x layers and has been attributed to an increased density of subgap defects related to oxygen deficiency. In any case, a 20 nm thick SnO x layer based on S-ALD shows similar neglectable absorption in the spectral range of 430-780 nm as its low-pressure counterpart. The refractive indices of the S-ALD (1.88 @ 633 nm) and B-ALD (1.89) layers are quite similar. Moreover, within the accuracy of the experiment, the S-ALD process yields SnO x that shows the same permeation barrier properties (water vapor transmission rate: WVTR = 2 × 10 -4 gm -2 day -1 ) and electrical conductivity (σ = 10 -4 S cm -1 ) as those of their analogues grown by vacuum-based B-ALD. For thin SnO x layers of 20 nm, their electrical conductivity allows to estimate a very low specific series resistance of 0.02 Ω cm 2 , which is not expected to infer any notable loss of voltage in a PSC. 3.2. S-ALD Tin Oxide in Perovskite Solar Cells. The characteristics of representative PSCs incorporating an impermeable SnO x electron extraction layer prepared by S-ALD and B-ALD are shown in Figure  2a, b . The typical solar cell figures, as derived from the J/V data, are compared in Table  2 . Note, all current density data were calibrated with dedicated EQE measurements. The corresponding EQE spectra are shown in the Supporting Information (Figure  S3 ). Both sets of samples show a remarkable similarity in their cell characteristics. This is even more notable, as the S-ALD technique now paves the way to harvest the benefits of impermeable functional ALD layers even for high-throughput manufacturing. To compare the stability of the PSCs, monostress tests under ambient conditions (25 °C/60% RH) (Figure  2c ) and at elevated temperature (60 °C, inert atmosphere) (Figure  2d ) were conducted. Strikingly, under both conditions, excellent long-term stability of PSCs based on SnO x grown by S-ALD is afforded. Note, for PSCs without the SnO x layer, the devices degrade within tens of hours under ambient conditions (25 °C/ 60% RH) and within 200 h at elevated temperature (60 °C, inert atmosphere).  30  Please see Figure  S5  for a full set of cell characteristics (J sc , V oc , and FF) during temperature monostress testing. Taken together, SnO x prepared by S-ALD affords PSCs with outstanding thermal stability even on a time scale of &gt;3000 h without noticeable decay in cell characteristics. In an aim to exploit the continuous S-ALD process for a roll-to-roll processing in the future, limitations regarding processing speed in S-ALD are of interest. 3.3. Deposition Speed in S-ALD. We now evaluate the role of substrate speed in S-ALD on the functionality and stability of the resulting PSCs. First, the GPC versus substrate speed is studied at otherwise fixed process parameters, e.g., gas flows (Figure  3a ). Obviously, the GPC is constant for a substrate speed below 60 mm s -1 . Further increasing the speed results in a reduction of the GPC, as the precursor dose is no longer sufficient to fully saturate the reactive surface sites. The decay of GPC when increasing the substrate speed was approximated with GPC = GPC sat (1exp(at q )), similar to an equation proposed by Poodt et al.  41  Here, GPC sat represents the GPC at low substrate speeds, t is the precursor exposure time, and a and q are fit parameters. For a further discussion, see refs 34, 41.  In addition to the drop in GPC, the refractive index decreases with increasing the substrate speed, i.e., from 1.88 at 20 mm s -1 to 1.80 at 160 mm s -1 , indicating not fully saturated ALD film growth and a lower film density. In principle, the regime of constant (saturated) GPC can be extended to even higher substrate speeds by further increasing the amount of precursor delivered to the precursor exposure zone (e.g., by increasing the flow of carrier gas through the bubbler). At the same time, higher amounts of precursor would require higher purge gas flows or a spatial extension of the respective purge gas zones. Unfortunately, both these possibilities cannot be tested due to limitations of our home-built S-ALD system. Aside from the changes of layer properties toward higher processing speeds, a further important characteristic of the ALD growth process is affected. It has to be noted that in the PSCs, the SnO x layer is deposited on top of a porous Al:ZnO layer that has been cast on top of the PCBM from a dispersion of nanoparticles. ALD in general is known for its conformal coating properties of high-aspect-ratio structures and even porous materials. By increasing the substrate speed, the exposure time of the porous layer to the respective precursor species in the S-ALD process is reduced. Thereby, the time for diffusion of precursors into the pores of the AZO layer is shortened. As suggested earlier,  30  the functionality of the AZO/ SnO x hybrid layer as a permeation barrier relies critically on the penetration of ALD precursors into the pores of the AZO layer and the concomitant growth of SnO x inside these pores. To further study the consequences of increased substrate speed, we analyzed the resulting AZO/SnO x hybrid layers by Rutherford backscattering (RBS). The degree of penetration of tin atoms into the pores of the AZO layer becomes obvious from the Snrelated RBS spectra (Figure  3b ). For relatively small substrate speeds of 20 and 40 mm s -1 , the Sn peak in the RBS spectrum shows a notable shoulder, indicating the penetration of tin atoms into the AZO layer underneath. As these Sn atoms are located further away from the surface (i.e., deeper inside the AZO layer), they cause backscattered ions with less energy (i.e., smaller channel number). On the contrary, for SnO x grown at elevated substrate speed of 80 mm s -1 , a symmetric Sn peak is found, indicating a substantially reduced penetration of tin into the pores of the AZO layer. Note, for SnO x grown on a flat, nonporous substrate, the tin RBS spectrum is fully symmetric, regardless of the substrate speed. A schematic of the penetration of SnO x inside the AZO is shown in Figure  3c . As a consequence of the penetration of the SnO x into the AZO pores, the barrier properties of the resulting AZO/SnO x hybrid layers are substantially better than those where the SnO x has been prepared at elevated substrate speed without notable pore filling. In addition, the WVTR of SnO x single layers grown For the S-ALD, a substrate velocity of 20 mm s -1 has been used. J/V characteristics (a) and stabilized power output (b). All related current density data were derived from EQE measurements (see Figure  S3 ). PCE vs time of storage in ambient air (25 °C, 60% RH) (c) and at elevated temperature (60 °C, inert atmosphere) (d). Table  2 . Solar Cell Characteristics Corresponding to the Representative J/V Curves Shown in Figure  2a  for PSCs Based on SnO x Grown by B-ALD and S-ALD a reverse forward a Current density data has been derived from EQE measurements. Statistical data for a set of samples can be found in the Supporting Information (Figure  S4 , Table  S1 ). at 80 mm s -1 show inferior permeation barrier properties (WVTR ∼ 4 × 10 -3 gm -2 day -1 ) compared with their analogues grown at lower speed. This indicates an overall deterioration of layer density at elevated substrate speed, in agreement with the observed drop of the refractive index, as discussed above. PCE (%) FF (%) V OC (V) J SC (mA cm -2 ) PCE (%) FF (%) V OC (V) J SC (mA cm -2 ) S- As a result, the lifetime of PSCs based on the respective AZO/SnO x is critically affected by the choice of substrate speed, when the devices are exposed to ambient air (25 °C/ 60% RH) (Figure  3d ). The PCE of the PSCs based on the SnO x grown at a substrate speed of 80 mm s -1 , which does not afford filling of the AZO pores, decreases dramatically within the first 300 h in air, whereas the cells in which the SnO x has been grown at 20 mm s -1 show only minimum degradation even after more than 1000 h. 3.4. Effect of Deposition Temperature. Although we have found that increasing the substrate speed compromises the barrier properties of the AZO/SnO x hybrid layer, deposition temperature is a likewise critical parameter. For other material systems, an elevated growth temperature has been shown to have a beneficial impact on the layer density, electrical conductivity, and reduced concentration of precursor residues of the resulting ALD layers.  29, 34, 42  The effect of substrate temperature on the electrical conductivity of SnO x grown by both B-ALD and S-ALD using H 2 O as oxidant has been studied previously.  29, 39  For S-ALD SnO x , the electrical conductivity remained in the range of 10 -4 -10 -3 S cm -1 for a growth temperature between 80 and 150 °C. To analyze the influence of deposition temperature in the case of our SnO x layers grown by S-ALD, we performed a series of RBS studies. Thereby, we identify an elevated level of carbon (∼20%) and nitrogen (∼5%) residues in layers grown at 80 °C (Table  S2 ). For increasing the processing temperature to 120 and 150 °C, the content of carbon/nitrogen is significantly reduced to levels of 0.3/0.1% and 0.1/&lt;0.1%, respectively. At the same time, the areal density of tin atoms (for a 20 nm thick layer) increases from 3.5 × 10 16 to 3.8 × 10 16 atoms cm -2 by increasing the deposition temperature. Concomitantly, the WVTR decreases by about an order of magnitude from ∼10 -4 to about 10 -5 gm -2 day -1 (Figure  4a ). Moreover, for the SnO x /AZO bilayers, the characteristic shoulder in the RBS spectra toward lower channel numbers indicating the partial growth of SnO x in the pores of the AZO layer shows a notable dependence on the deposition temperature (Figure  4b ). Obviously, higher deposition temperatures infer an increased penetration of the SnO x into the porous AZO (Figure  4c ). This is very likely due to the thermally activated precursor diffusion.  19  Owing to the improved mass density, lowered WVTR and better pore filling of the SnO x , increasing the deposition temperature appears to be attractive for the application in PSCs. Unfortunately, temperatures in excess of 100 °C result in PSCs with substantially deteriorated characteristics (Figures  4d  and S6 ). Here, it is important to note that the postdeposition annealing of the perovskite layers was done at 100 °C. It has been shown very recently that for MAPbI 3 , at temperatures higher than 100 °C, thermal degradation is happening at the perovskite surface within minutes time.  20, 21  For both S-ALD and B-ALD, some exposure time to the growth temperature prior to the actual deposition is technologically inevitable. Thus, the observed deterioration of our PSC at an ALD deposition temperature &gt;100 °C is very likely related to the thermal instability of the perovskite. To further exploit the superior properties of SnO x grown at T &gt; 100 °C, the use of more temperature-stable perovskite materials could be very rewarding but is beyond the scope of this work. Taken together, an optimum temperature window between 80 and 100 °C affords the best PSC characteristics. At the same time, the barrier properties of the AZO/SnO x hybrid layers grown by S-ALD in this temperature range provide an outstanding long-term cell stability. &#13;</text>
       <annotation id="15">
-        <infon key="type">treatment_element</infon>
+        <infon key="type">electron_transport_layer</infon>
         <infon key="identifier">Tin Oxide Grown by S-ALD</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T00:21:33Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-17T03:31:40Z</infon>
         <location offset="11468" length="24"/>
         <text>Tin Oxide Grown by S-ALD</text>
       </annotation>
@@ -219,7 +195,7 @@
       <relation id="R1">
         <infon key="type">test_1</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-02-13T01:33:42Z</infon>
+        <infon key="updated_at">2025-02-17T03:50:00Z</infon>
         <node refid="17" role=""/>
         <node refid="18" role=""/>
         <node refid="19" role=""/>

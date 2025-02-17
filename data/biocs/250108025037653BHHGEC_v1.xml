@@ -44,14 +44,6 @@
     <passage>
       <offset>531</offset>
       <text> P erovskite solar cells have attracted great attention in recent years, as their efficiency has risen from 3.8% to 22.1% via film crystal growth control, interface and device engineering  [1] [2] [3] [4] [5]  . Up to now, TiO 2 mesoporous structures were commonly the most successful at delivering high efficiency and stable power output for perovskite solar cells  [1] [2] [3] [4]  . However, one disadvantage of the mesoporous structure is the high-temperature (&gt;450 • C) sintering required for the TiO 2 mesoporous layer, which is a barrier to low cost and stretchable device fabrication  [1] [2] [3] [4]  . Further interest in perovskite solar cells developed after it was realized that lead halide perovskites have charge carrier diffusion lengths on the micrometre scale and possess ambipolar properties  6, 7  . Therefore, it is possible to remove the high-temperature sintered mesoporous layer to make a simple planar-structure solar cell, in which all of the layers can be processed at low temperature  [8] [9] [10] [11] [12]  . Planar devices are typically divided into either n-i-p (regular) or p-i-n (inverted) structures, depending on the bottom transporting layer  12  . The p-i-n inverted planar structure usually shows negligible hysteresis when using fullerene as the top electron transport layer  12  . However, it exhibits lower efficiency due to inferior perovskite crystallinity and imperfect interfacial band alignment  11, 12  . For regular n-i-p planar structures using a TiO 2 condensed layer as the electron transport layer, the device could show high performance under reverse scan (V OC to J SC scan), whereas the forward I-V scan usually showed much lower efficiency (J SC to V OC scan)  4, 9  , which led to difficulty in obtaining a reliable power conversion efficiency  4, 9  . Further results indicated that charge accumulation induced by ion migration in the perovskite layer could be the main cause of hysteresis  [13] [14] [15]  . It was also found that the electronic contact between perovskite and electron transport layers (ETLs) could significantly affect the behaviour of the hysteresis  [16] [17] [18] [19] [20]  (generally, hole transport layers do not affect hysteresis, because the commonly used hole transport layer, Spiro-OMeTAD, can form good electronic contact with perovskite  6  ). When the electronic contact is imperfect, the charge accumulation will become worse and aggravate the hysteresis. However, if the electronic contact is perfect and the accumulated charges can be easily extracted, the hysteresis can be alleviated or fully eliminated  17, 20  . For example, either in the regular or the inverted planar structure, on introducing a fullerene layer with a strong electron extraction ability, the devices showed stable output with reduced hysteresis  [16] [17] [18] [19] [20]  . However, fullerene is expensive, as well as unstable for practical applications  12  . Inorganic metal oxides such as SnO 2 have a bandgap above 3.6 eV, and a deeper conduction band than TiO 2 . Thus, in principle they should facilitate more efficient electron transfer  21  . Furthermore, bulk SnO 2 has a mobility of up to 240 cm 2 /(V • s), which is 100 times that of TiO 2 , making it conceptually a more likely candidate for use in high-performance electronic devices  21  . Previously, SnO 2 has been used as an electron transport layer in organic solar cells or dye-sensitized solar cells  21, 22  . Recently, it was also used in perovskite solar cells in order to increase the efficiency and to reduce the hysteresis  [23] [24] [25] [26] [27]  . During the final preparation of this Article, ref. 28 was published, reporting planar perovskite solar cells with an average PCE around 18.5% and a mild hysteresis. Here, we develop a regular n-i-p planar structure of perovskite solar cells with solution-processed SnO 2 nanoparticles as the electron transport layer. The devices show a certified efficiency close to 20%, almost free of hysteresis. Given the SnO 2 layer's deep conduction band and high electron mobility, we ascribe the elimination of the I-V hysteresis to the enhanced electron extraction caused by the reduction of the energy barrier at the perovskite/ETL interface. Furthermore, an excess PbI 2 phase was introduced to passivate the traps in perovskite (FAPbI 3 ) 0.97 (MAPbBr 3 ) 0.03 and deliver high device performance. &#13;</text>
-      <annotation id="3">
-        <infon key="type">electron_transport_layer</infon>
-        <infon key="identifier">TitaniumDioxide</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T06:55:04Z</infon>
-        <location offset="754" length="5"/>
-        <text>TiO 2</text>
-      </annotation>
       <annotation id="4">
         <infon key="type">structure_pin_nip</infon>
         <infon key="identifier">NIP</infon>
@@ -208,22 +200,6 @@
         <location offset="11351" length="5"/>
         <text>SnO 2</text>
       </annotation>
-      <annotation id="22">
-        <infon key="type">perovskite_molecule</infon>
-        <infon key="identifier">FAPbI 3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-02-12T13:02:20Z</infon>
-        <location offset="11745" length="7"/>
-        <text>FAPbI 3</text>
-      </annotation>
-      <annotation id="23">
-        <infon key="type">perovskite_molecule</infon>
-        <infon key="identifier">MAPbBr3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-02-12T13:02:23Z</infon>
-        <location offset="11821" length="8"/>
-        <text>MAPbBr 3</text>
-      </annotation>
       <annotation id="24">
         <infon key="type">perovskite_composition</infon>
         <infon key="identifier">(FAPbI3)0.97(MAPbBr3)0.03</infon>
@@ -259,22 +235,6 @@
         <infon key="updated_at">2025-02-13T04:42:12Z</infon>
         <location offset="15674" length="6"/>
         <text>20.27%</text>
-      </annotation>
-      <annotation id="28">
-        <infon key="type">treatment_element</infon>
-        <infon key="identifier">TinOxide</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-09T08:29:33Z</infon>
-        <location offset="16140" length="5"/>
-        <text>SnO 2</text>
-      </annotation>
-      <annotation id="29">
-        <infon key="type">control_element</infon>
-        <infon key="identifier">TitaniumDioxide</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-09T08:29:20Z</infon>
-        <location offset="16267" length="5"/>
-        <text>TiO 2</text>
       </annotation>
       <annotation id="30">
         <infon key="type">treated_pce</infon>
@@ -467,16 +427,14 @@
     </passage>
     <relation id="R1">
       <infon key="type">test_1</infon>
-      <infon key="annotator">jlnomura@ucsd.edu</infon>
-      <infon key="updated_at">2025-01-24T12:48:30Z</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-15T00:55:35Z</infon>
       <node refid="32" role=""/>
       <node refid="33" role=""/>
       <node refid="34" role=""/>
       <node refid="26" role=""/>
       <node refid="30" role=""/>
       <node refid="8" role=""/>
-      <node refid="28" role=""/>
-      <node refid="29" role=""/>
     </relation>
   </document>
 </collection>

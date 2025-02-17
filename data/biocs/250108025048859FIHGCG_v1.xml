@@ -188,17 +188,6 @@
         <location offset="12492" length="45"/>
         <text>one-sun operation at the maximum power point.</text>
       </annotation>
-      <relation id="R1">
-        <infon key="type">test_1</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-02-13T01:33:51Z</infon>
-        <node refid="4" role=""/>
-        <node refid="5" role=""/>
-        <node refid="6" role=""/>
-        <node refid="2" role=""/>
-        <node refid="3" role=""/>
-        <node refid="1" role=""/>
-      </relation>
     </passage>
     <passage>
       <offset>12539</offset>
@@ -275,14 +264,6 @@
         <location offset="26599" length="2"/>
         <text>ST</text>
       </annotation>
-      <annotation id="14">
-        <infon key="type">treated_pce</infon>
-        <infon key="identifier">24.2</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T07:30:24Z</infon>
-        <location offset="26789" length="5"/>
-        <text>24.2%</text>
-      </annotation>
       <annotation id="15">
         <infon key="type">control_pce</infon>
         <infon key="identifier">22.5</infon>
@@ -291,16 +272,6 @@
         <location offset="26809" length="5"/>
         <text>22.5%</text>
       </annotation>
-      <relation id="R2">
-        <infon key="type">performance_1</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T07:31:09Z</infon>
-        <node refid="11" role=""/>
-        <node refid="12" role=""/>
-        <node refid="14" role=""/>
-        <node refid="15" role=""/>
-        <node refid="13" role=""/>
-      </relation>
     </passage>
     <passage>
       <offset>26972</offset>
@@ -370,5 +341,17 @@
       <offset>42526</offset>
       <text> Use the terms sex (biological attribute) and gender (shaped by social and cultural circumstances) carefully in order to avoid confusing both terms. Indicate if findings apply to only one sex or gender; describe whether sex and gender were considered in study design whether sex and/or gender was determined based on self-reporting or assigned and methods used. Provide in the source data disaggregated sex and gender data where this information has been collected, and consent has been obtained for sharing of individual-level data; provide overall numbers in this Reporting Summary. Please state if this information has not been collected. Report sex-and gender-based analyses where performed, justify reasons for lack of sex-and gender-based analysis. Population characteristics Describe the covariate-relevant population characteristics of the human research participants (e.g. age, genotypic information, past and current diagnosis and treatment categories). If you filled out the behavioural &amp; social sciences study design questions and have nothing to add here, write "See above." Recruitment Describe how participants were recruited. Outline any potential self-selection bias or other biases that may be present and how these are likely to impact results.</text>
     </passage>
+    <relation id="R1">
+      <infon key="type">test_1</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-16T09:18:27Z</infon>
+      <node refid="4" role=""/>
+      <node refid="5" role=""/>
+      <node refid="6" role=""/>
+      <node refid="2" role=""/>
+      <node refid="3" role=""/>
+      <node refid="1" role=""/>
+      <node refid="15" role=""/>
+    </relation>
   </document>
 </collection>

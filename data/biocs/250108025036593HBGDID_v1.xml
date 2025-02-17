@@ -21,10 +21,10 @@
       <offset>2023</offset>
       <text> Article Reduction of bulk and surface defects in inverted methylammonium-and bromide-free formamidinium perovskite solar cells Rui Chen 1 , Jianan Wang      Power conversion efficiencies of inverted perovskite solar cells (PSCs) based on methylammonium-and bromide-free formamidinium lead triiodide (FAPbI 3 ) perovskites still lag behind PSCs with a regular configuration. Here we improve the quality of both the bulk and surface of FA 0.98 Cs 0.02 PbI 3 perovskite films to reduce the efficiency gap. First, we use dibutyl sulfoxide, a Lewis base additive, to improve the crystallinity and reduce the defect density and internal residual stress of the perovskite bulk. Then, we treat the surface of the perovskite film with trifluorocarbon-modified phenethylammonium iodide to optimize the energy levels, passivate defects and protect the film against moisture. The inverted PSCs simultaneously achieve 25.1% efficiency (24.5% from the reverse current-voltage scan measured by a third-party institution) and improved stability. The devices maintained 97.4% and 98.2% of their initial power conversion efficiencies after operating under continuous 1-sun air mass 1.5 G illumination for 1,800 h and under damp heat conditions (85 °C and 85% relative humidity) for 1,000 h, respectively.  &#13;</text>
       <annotation id="1">
-        <infon key="type">treatment_element</infon>
+        <infon key="type">perovskite_composition</infon>
         <infon key="identifier">FA0.98Cs0.02PbI3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T07:09:20Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T07:56:12Z</infon>
         <location offset="2458" length="21"/>
         <text>FA 0.98 Cs 0.02 PbI 3</text>
       </annotation>
@@ -204,22 +204,6 @@
         <location offset="17187" length="59"/>
         <text>ITO/p-PY/FA 0.98 Cs 0.02 PbI 3 /PCBM/bathocuproine (BCP)/Ag</text>
       </annotation>
-      <annotation id="23">
-        <infon key="type">control_element</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T07:22:59Z</infon>
-        <location offset="17803" length="7"/>
-        <text>0% DBSO</text>
-      </annotation>
-      <annotation id="24">
-        <infon key="type">treatment_element</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T07:23:22Z</infon>
-        <location offset="17832" length="8"/>
-        <text>10% DBSO</text>
-      </annotation>
       <annotation id="25">
         <infon key="type">control_voc</infon>
         <infon key="identifier">1.024</infon>
@@ -260,17 +244,6 @@
         <location offset="18177" length="4"/>
         <text>DBSO</text>
       </annotation>
-      <relation id="R4">
-        <infon key="type">performance_1</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-02-13T01:33:43Z</infon>
-        <node refid="28" role=""/>
-        <node refid="27" role=""/>
-        <node refid="24" role=""/>
-        <node refid="23" role=""/>
-        <node refid="25" role=""/>
-        <node refid="26" role=""/>
-      </relation>
     </passage>
     <passage>
       <offset>18209</offset>
@@ -301,9 +274,9 @@
       </annotation>
       <annotation id="32">
         <infon key="type">passivating_molecule</infon>
-        <infon key="identifier">CF 3 -PEAI</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:01:19Z</infon>
+        <infon key="identifier">3,5-bis(trifluoromethyl) phenethylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T07:56:30Z</infon>
         <location offset="26621" length="11"/>
         <text>2CF 3 -PEAI</text>
       </annotation>
@@ -331,14 +304,6 @@
         <location offset="28430" length="7"/>
         <text>50 ± 5%</text>
       </annotation>
-      <annotation id="36">
-        <infon key="type">control_element</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T07:50:53Z</infon>
-        <location offset="28475" length="25"/>
-        <text>pristine perovskite films</text>
-      </annotation>
       <annotation id="37">
         <infon key="type">control_pce</infon>
         <infon key="identifier">21.4</infon>
@@ -356,10 +321,10 @@
         <text>67.2%</text>
       </annotation>
       <annotation id="39">
-        <infon key="type">treatment_element</infon>
+        <infon key="type">passivating_molecule</infon>
         <infon key="identifier">phenethylammonium iodide</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:00:35Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:12:04Z</infon>
         <location offset="28575" length="4"/>
         <text>PEAI</text>
       </annotation>
@@ -467,19 +432,11 @@
         <location offset="31095" length="7"/>
         <text>1,000 h</text>
       </annotation>
-      <annotation id="53">
-        <infon key="type">control_element</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T07:58:07Z</infon>
-        <location offset="31176" length="19"/>
-        <text>pristine perovskite</text>
-      </annotation>
       <annotation id="54">
-        <infon key="type">treatment_element</infon>
+        <infon key="type">passivating_molecule</infon>
         <infon key="identifier">phenethylammonium iodide</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:00:39Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:12:04Z</infon>
         <location offset="31221" length="4"/>
         <text>PEAI</text>
       </annotation>
@@ -517,8 +474,8 @@
       </annotation>
       <relation id="R5">
         <infon key="type">test_2</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-02-13T01:33:43Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:17:13Z</infon>
         <node refid="47" role=""/>
         <node refid="46" role=""/>
         <node refid="48" role=""/>
@@ -526,13 +483,12 @@
         <node refid="51" role=""/>
         <node refid="50" role=""/>
         <node refid="52" role=""/>
-        <node refid="53" role=""/>
         <node refid="56" role=""/>
       </relation>
       <relation id="R6">
         <infon key="type">test_2</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-02-13T01:33:43Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:16:24Z</infon>
         <node refid="46" role=""/>
         <node refid="50" role=""/>
         <node refid="51" role=""/>
@@ -542,8 +498,8 @@
       </relation>
       <relation id="R7">
         <infon key="type">test_2</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-02-13T01:33:43Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:16:26Z</infon>
         <node refid="46" role=""/>
         <node refid="50" role=""/>
         <node refid="51" role=""/>
@@ -565,9 +521,9 @@
       </annotation>
       <annotation id="60">
         <infon key="type">passivating_molecule</infon>
-        <infon key="identifier">CF3 -PEAI</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:01:48Z</infon>
+        <infon key="identifier">3,5-bis(trifluoromethyl) phenethylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T07:56:30Z</infon>
         <location offset="31966" length="11"/>
         <text>2CF 3 -PEAI</text>
       </annotation>
@@ -770,49 +726,46 @@
     </passage>
     <relation id="R1">
       <infon key="type">test_1</infon>
-      <infon key="annotator">jlnomura@ucsd.edu</infon>
-      <infon key="updated_at">2025-02-13T01:33:43Z</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-16T08:14:03Z</infon>
       <node refid="6" role=""/>
       <node refid="7" role=""/>
       <node refid="4" role=""/>
       <node refid="3" role=""/>
-      <node refid="1" role=""/>
-      <node refid="34" role=""/>
-      <node refid="35" role=""/>
-      <node refid="36" role=""/>
-      <node refid="37" role=""/>
-      <node refid="38" role=""/>
-      <node refid="45" role=""/>
-    </relation>
-    <relation id="R2">
-      <infon key="type">test_1</infon>
-      <infon key="annotator">jlnomura@ucsd.edu</infon>
-      <infon key="updated_at">2025-02-13T01:33:43Z</infon>
-      <node refid="36" role=""/>
       <node refid="34" role=""/>
       <node refid="35" role=""/>
       <node refid="37" role=""/>
       <node refid="38" role=""/>
-      <node refid="6" role=""/>
-      <node refid="7" role=""/>
-      <node refid="39" role=""/>
-      <node refid="41" role=""/>
-      <node refid="43" role=""/>
+      <node refid="17" role=""/>
+      <node refid="2" role=""/>
     </relation>
     <relation id="R3">
       <infon key="type">test_1</infon>
-      <infon key="annotator">jlnomura@ucsd.edu</infon>
-      <infon key="updated_at">2025-02-13T01:33:43Z</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-16T08:14:28Z</infon>
       <node refid="6" role=""/>
       <node refid="7" role=""/>
-      <node refid="40" role=""/>
       <node refid="42" role=""/>
       <node refid="44" role=""/>
       <node refid="34" role=""/>
       <node refid="35" role=""/>
-      <node refid="36" role=""/>
       <node refid="37" role=""/>
       <node refid="38" role=""/>
+      <node refid="17" role=""/>
+    </relation>
+    <relation id="R2">
+      <infon key="type">test_1</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-16T08:12:20Z</infon>
+      <node refid="34" role=""/>
+      <node refid="35" role=""/>
+      <node refid="37" role=""/>
+      <node refid="38" role=""/>
+      <node refid="6" role=""/>
+      <node refid="7" role=""/>
+      <node refid="41" role=""/>
+      <node refid="43" role=""/>
+      <node refid="39" role=""/>
     </relation>
   </document>
 </collection>

@@ -32,22 +32,6 @@
     <passage>
       <offset>4378</offset>
       <text> Publication of your CIF in other journals Please refer to the Notes for Authors of the relevant journal for any special instructions relating to CIF submission. Phenethylammonium (PEA + ) and butylammonium (BA + ) are widely used in three-dimensional (3D) perovskites to form two-dimensional perovskites at film surfaces and grain boundaries (GBs) for defect passivation and performance enhancement. Here we show that these cations are unstable with 3D formamidinium (FA + )-containing perovskites under high-temperature light soaking. PEA + and BA + are found to deprotonate to amines, which then react with FA + to produce (phenethylamino) methaniminium (PEAMA + ) and (butylamino)methaniminium (BAMA + ), respectively, severely limiting device high-temperature photostability. Removing these cations greatly improves the photostability but compromises device efficiency by leaving non-fully passivated surfaces and GBs. Ammonium cations with a high acid dissociation constant (pK a ), including PEAMA + (pK a = 12.0) and BAMA + (pK a = 12.0), can replace PEA + or BA + for passivation and are stable with FA-based perovskites due to their resistance to further deprotonation. P-i-n structure solar cells with PEAMA + additive maintained over 90% of their initial efficiency after light soaking at open circuit and 90 °C for 1,500 hours. Two-dimensional (2D) perovskites have many interesting physical properties due to confinement effects that three-dimensional (3D) perovskites do not have, including exciton dynamics, spin dynamics and electron-phonon coupling  [1] [2] [3]  . Generally, 2D perovskites are considered to be much more stable than their 3D counterparts due to better moisture resistance of the hydrophobic organic cation  4, 5  , larger energy barrier to ion migration  6, 7  and increased tolerance to structural stress  8, 9  . As a result, they have been widely applied in perovskite solar cells (PSCs) to improve device efficiency and stability in various ways  4, [10] [11] [12]  . To overcome their poor carrier transport along the out-of-plane direction, a thin layer of 2D perovskite can be stacked on top of 3D perovskites via sequential deposition, which not only protects but also passivates the 3D perovskite surface  10, 13  . They can also be incorporated into the grain boundaries (GBs) of 3D perovskites by adding the large organic cations into the precursor solution  14  . The much larger size of these organic cations causes them to be excluded form the 3D lattice to GBs which, in return, stablizes the GBs  5, 15  . Additionally, high layer number (n) phase-pure quasi-2D perovskites have been developed to retain both the advantages of 3D perovskites-such as good charge transport and carrier lifetimes-and 2D perovskites, such as good stability, but neither their efficiency nor stability have reached the parity of other multi-dimensional perovskites  16, 17  . &#13;</text>
-      <annotation id="1">
-        <infon key="type">additive_molecule</infon>
-        <infon key="identifier">(phenethylamino)methaniminium</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:28:23Z</infon>
-        <location offset="5004" length="30"/>
-        <text>(phenethylamino) methaniminium</text>
-      </annotation>
-      <annotation id="2">
-        <infon key="type">additive_molecule</infon>
-        <infon key="identifier">(phenethylamino)methaniminium</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:28:25Z</infon>
-        <location offset="5036" length="7"/>
-        <text>PEAMA +</text>
-      </annotation>
       <annotation id="3">
         <infon key="type">structure_pin_nip</infon>
         <infon key="identifier">PIN</infon>
@@ -55,14 +39,6 @@
         <infon key="updated_at">2025-01-14T08:28:05Z</infon>
         <location offset="5558" length="5"/>
         <text>P-i-n</text>
-      </annotation>
-      <annotation id="4">
-        <infon key="type">treatment_element</infon>
-        <infon key="identifier">(phenethylamino)methaniminium</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:32:59Z</infon>
-        <location offset="5591" length="7"/>
-        <text>PEAMA +</text>
       </annotation>
       <annotation id="5">
         <infon key="type">efficiency_tret</infon>
@@ -96,16 +72,6 @@
         <location offset="5706" length="11"/>
         <text>1,500 hours</text>
       </annotation>
-      <relation id="R1">
-        <infon key="type">test_1</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-02-13T01:33:43Z</infon>
-        <node refid="4" role=""/>
-        <node refid="5" role=""/>
-        <node refid="6" role=""/>
-        <node refid="7" role=""/>
-        <node refid="8" role=""/>
-      </relation>
     </passage>
     <passage>
       <offset>7287</offset>
@@ -138,35 +104,43 @@
         <location offset="24104" length="6"/>
         <text>PEAMAI</text>
       </annotation>
-      <annotation id="11">
-        <infon key="type">additive_molecule</infon>
+      <annotation id="33">
+        <infon key="type">passivating_molecule</infon>
         <infon key="identifier">(phenethylamino)methaniminium iodide</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:45:56Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:44:25Z</infon>
+        <location offset="24386" length="6"/>
+        <text>PEAMAI</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">(phenethylamino)methaniminium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:18:02Z</infon>
         <location offset="25354" length="6"/>
         <text>PEAMAI</text>
       </annotation>
       <annotation id="12">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">FA0.9Cs0.1Pb3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:47:39Z</infon>
+        <infon key="identifier">FA0.9Cs0.1PbI3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:31:27Z</infon>
         <location offset="25387" length="19"/>
         <text>FA 0.9 Cs 0.1 PbI 3</text>
       </annotation>
       <annotation id="13">
-        <infon key="type">additive_molecule</infon>
+        <infon key="type">passivating_molecule</infon>
         <infon key="identifier">(phenethylamino)methaniminium iodide</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:46:31Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:18:02Z</infon>
         <location offset="25417" length="6"/>
         <text>PEAMAI</text>
       </annotation>
       <annotation id="14">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">FA0.9Cs0.1Pb3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:47:46Z</infon>
+        <infon key="identifier">FA0.9Cs0.1PbI3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:31:27Z</infon>
         <location offset="25451" length="19"/>
         <text>FA 0.9 Cs 0.1 PbI 3</text>
       </annotation>
@@ -174,31 +148,15 @@
     <passage>
       <offset>25930</offset>
       <text> Article https://doi.org/10.1038/s41560-023-01362-0  Furthermore, the carrier lifetime increased from 390 ns to 496 ns (Fig.  4b ), confirming that PEAMAI passivates traps on the perovskite surface. To passivate perovskite GBs, we added 0.2 mol% PEAMAI as an additive in the perovskite precursor solution. The samples with and without PEAMAI are referred to as PEAMA + device and control device. We blade coated perovskite films with or without PEAMA + on glass substrates and checked material morphology and passivation effect. Adding PEAMAI increased the steady-state PL intensity by 56% (Fig.  4c ) and increased the carrier lifetime from 384 ns to 497 ns (Fig.  4d ), indicating a reduced density of deep traps. Direct defect density measurement by thermal admittance spectroscopy shows that the trap density of states (tDOS) in PEAMA + devices is much lower within the trap band III (Fig.  4f ). A previous study indicates that this trap band is caused by the amorphous phase in the perovskite material  43  . Therefore, it appears the PEAMAI additive does change the crystallization process and slightly changes the morphology of perovskite film. This is consistent with PEAMA + films showing better crystallinity with stronger and sharper XRD peaks (Fig.  4e ). We estimated the mobile ion concentration in these devices by applying a 1.5 V forward bias for about 30 s to perturb the ion distribution and then measuring the current induced by the back diffusion of ions at zero bias. The measurements were performed in the dark. As shown in Fig.  4g , the mobile ions in the control devices required a much longer time (~5 s) to reach the steady state compared to the mobile ions in the PEAMA + -devices (~1 s). Additionally, the mobile ion concentration in the PEAMA + devices is three times smaller than the  &#13;</text>
-      <annotation id="15">
-        <infon key="type">control_element</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:49:13Z</infon>
-        <location offset="26257" length="14"/>
-        <text>without PEAMAI</text>
-      </annotation>
-      <annotation id="16">
-        <infon key="type">treatment_element</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:49:07Z</infon>
-        <location offset="26291" length="14"/>
-        <text>PEAMA + device</text>
-      </annotation>
     </passage>
     <passage>
       <offset>27749</offset>
       <text> Device efficiency and high-temperature photostability The impact of PEAMA + on the performance of FA 0.9 Cs 0.1 PbI 3 PSCs was investigated. Figure  5a  shows typical current density (J)-voltage (V) curves of PSCs with and without PEAMA + under both forward and reverse scans. The control PSCs had a PCE of 21.2% with a J SC of 24.7 mA cm -2 , a V OC of 1.07 V and a fill factor (FF) of 80.2%. PEAMA + -PSCs had a PCE of 24.1% with a J SC of 25.8 mA cm -2 , a V OC of 1.14 V, and a FF of 82.1%. The statistical distributions of the V OC , J SC , FF and PCE are shown in Fig.  5b . The steady-state PCEs of the devices with and without PEAMA + under AM 1.5 illumination are 20.9% and 23.8%, respectively (Fig.  5c ). The external quantum efficiency (EQE) spectra of the devices are shown in Fig.  5d . PEAMA + primarily increased the EQE in the long wavelength range, consistent with a longer carrier diffusion length due to reduced non-radiative charge recombination. The calculated J SC from EQE agrees well with the measured J SC . Figure  5e  shows the PCE of unencapsulated control devices and PEAMA + devices as a function of measurement duration under 85 °C 1 sun illumination under V OC condition in N 2 . Stability data for each sample are listed in Supplementary Fig.  14a, b . The devices maintained 90% of the initial efficiency after ~800 hours in the  &#13;</text>
       <annotation id="17">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">FA0.9Cs0.1Pb3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:50:33Z</infon>
+        <infon key="identifier">FA0.9Cs0.1PbI3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:31:27Z</infon>
         <location offset="27848" length="19"/>
         <text>FA 0.9 Cs 0.1 PbI 3</text>
       </annotation>
@@ -253,6 +211,38 @@
         <infon key="updated_at">2025-01-14T09:13:54Z</infon>
         <location offset="29297" length="5"/>
         <text>1,500</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSL</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:49:28Z</infon>
+        <location offset="29465" length="32"/>
+        <text>high-temperature light stability</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">100</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:49:37Z</infon>
+        <location offset="29539" length="6"/>
+        <text>100 °C</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">90</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:49:46Z</infon>
+        <location offset="29631" length="4"/>
+        <text>T 90</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="type">time</infon>
+        <infon key="identifier">500</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:49:53Z</infon>
+        <location offset="29673" length="6"/>
+        <text>500 h,</text>
       </annotation>
     </passage>
     <passage>
@@ -383,5 +373,29 @@
       <offset>52879</offset>
       <text> 2H), 2.82-2.87 (m, 2H). 13  C NMR (101 MHz, DMSO-d 6 ) δ: 157.84, 157.65, 154.68, 138.40, 138.26, 129.39, 129.27, 128.99, 128.90, 127.06, 127.02, 47.71, 42.57, 36.12, 33.58. Single-crystal XRD structure of a trans-PEAMAI-2FAI co-crystal (150 K) is shown in Fig.3dand Supplementary Tables2 and 3. The mass-to-charge ratio (m/z) was determined using high-resolution mass spectrum (HRMS) in conjunction with the electrospray ionization (ESI) technique, and this value was compared to the calculated (calcd) m/z value. HRMS (ESI, m/z): calcd. for [C 9 H 13 N 2 ] + 149.1074 found 149.1072. H NMR (400 MHz, DMSO-d 6 ) δ: 8.54-9.64 (m, 11H), 7.82-7.93 (m, 3H), 7.22-7.35 (m, 5H), 3.47-3.59 (m,</text>
     </passage>
+    <relation id="R2">
+      <infon key="type">test_2</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-15T09:51:36Z</infon>
+      <node refid="37" role=""/>
+      <node refid="36" role=""/>
+      <node refid="35" role=""/>
+      <node refid="34" role=""/>
+      <node refid="10" role=""/>
+      <node refid="18" role=""/>
+      <node refid="19" role=""/>
+    </relation>
+    <relation id="R1">
+      <infon key="type">test_1</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-15T09:51:16Z</infon>
+      <node refid="5" role=""/>
+      <node refid="6" role=""/>
+      <node refid="7" role=""/>
+      <node refid="8" role=""/>
+      <node refid="10" role=""/>
+      <node refid="19" role=""/>
+      <node refid="18" role=""/>
+    </relation>
   </document>
 </collection>

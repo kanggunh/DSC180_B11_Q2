@@ -96,6 +96,14 @@
     <passage>
       <offset>40409</offset>
       <text> Reply: Comments 1+2 point into the same direction, thus we are going to reply to them combined: As detailed in the manuscript the root cause of the improved stability due to the addition of the SnOx layer is in its functionality as a permeation barrier. The SnOx provides outstanding protection of the perovskite against the ingress of moisture and, even more importantly, at the same time it serves as powerful permeation barrier against the out-diffusion of decomposition products of the perovskite, e.g. CH3NH3I, (CH3)3N, CH3I, HI, etc. We showed that the sealing properties of the SnOx layer contain the decomposition products inside the cell, and thereby, the overall decomposition of the perovskite is significantly suppressed. Water ingress via the sides (so-called: "side-leakage") is severely suppressed by thin-film barrier, as no glues are involved. Permeation via the Ag may occur but please note that the barrier is below the Ag (see Fig.  1a ). The metal electrode can form some barrier against moisture. They are used for food packaging, e.g. for potato-chips bags. But as is known, metal films do not form the kind of barriers that are required to protect sensitive thin-film devices such as OLEDs or, here, perovskite solar cells. To give some numbers: The water vapor transmission rate (WVTR) through 300 nm thick metal layers has been determined, see e.g. Appl. Phys. Lett. 93, 133307 (2008), to be on the order of 0.2 g/(m 2 day), while the ALD grown SnOx layers provide WVTRs on the order of 7x10 -5 g/(m 2 day). Thus, just like in the case of OLEDs and organic solar cells, the top metal electrode will not provide the level of protection required. Special to perovskites: There is the intrinsic decomposition of CH3NH3PbI3 to CH3NH3I and PbI2, which is thermally activated and which occurs even under inert conditions. The corrosion of metal electrodes due to these decomposition products has been identified to be a critical issue. Thus a permeation barrier against the out-diffusion of decomposition products of the perovskite is required. As we show, the sealing properties of the SnOx layer contain the decomposition products inside the cell, and thereby, the overall decomposition of the perovskite is significantly suppressed and the deterioration of the electrode is prevented. 3 The authors suggest that the silver electrode may be involved in the degradation of the device in presence of water. Have the authors tried to replace the silver electrode with lets say gold (which is known to be more stable than silver) in control devices that do now contain the SnOx layer: ITO/PEDOT/active layer/gold. &#13;</text>
+      <annotation id="37">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">MAPbI3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T19:54:55Z</infon>
+        <location offset="42145" length="10"/>
+        <text>CH3NH3PbI3</text>
+      </annotation>
     </passage>
     <passage>
       <offset>43043</offset>
@@ -177,10 +185,10 @@
         <text>SnO x</text>
       </annotation>
       <annotation id="6">
-        <infon key="type">treatment_element</infon>
+        <infon key="type">electron_transport_layer</infon>
         <infon key="identifier">aluminium-doped zinc oxide / tin oxide bilayer</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-13T06:40:17Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T19:55:39Z</infon>
         <location offset="60292" length="9"/>
         <text>AZO/SnO x</text>
       </annotation>
@@ -190,19 +198,11 @@
       <text> Results Planar inverted cells. The devices used in this study are based on a planar inverted cell layout, where the holes are extracted via the bottom electrode (substrate electrode). The layer sequence is shown in Fig.  1 . As hole-extraction layer, PEDOT:PSS is used, whereas for electron extraction a 100 nm thick PCBM layer is deposited on top of the typically 180 nm thick CH 3 NH 3 PbI 3 perovskite layer. Directly adjacent to the PCBM we have used a 100 nm thick AZO layer prepared from a nanoparticle dispersion in isopropylalcohol. In some cells, a SnO x layer is deposited on top of the AZO layer by ALD at 80 °C to form the bilayered electron-extraction assembly (AZO/SnO x ). The nominal thickness of the SnO x layer is 20 nm. As the AZO layer is derived from a nanoparticle dispersion, it contains pores that are partially coated with SnO x because of the conformal nature of the ALD process. A more detailed discussion of the SnO x growth on top of the AZO layer is provided in the Supplementary Fig.  1 . Please note that we have also prepared devices with SnO x deposited directly on top of PCBM, but the stability of the resulting devices was inferior to that of the AZO/SnO x cells (see discussion below). Reference devices based on ITO/PED-OT:PSS/Perovskite/PCBM/LiF/Al have also been included in our study. The external quantum efficiency (EQE) spectrum of a typical AZO/SnO x -based perovskite solar cell is shown in Fig.  1b . The J/V characteristics of the device measured in forward and reverse direction (scan speed: 500 mV s À 1 ) are presented in Fig.  1c . No substantial hysteresis is found in the J/V data. The extracted characteristics V oc ¼ 0.95 V, FF ¼ 74% and a J sc ¼ 18 mA cm À 2 result in a PCE of 12.8%. We want to note that the perovskite precursor used in this study was commercially obtained from Ossila Ltd with a typically specified efficiency in the range of 11-13% (see Methods for details). Significantly higher PCEs can be achieved by using, for example, optimized precursor inks or mixed-cation/mixedhalide perovskite absorbers  24  . As the EEL is in the core of this report, further optimization of the perovskite system itself was considered to be beyond the scope here. Stability in ambient air. A very striking advantage of the bilayered AZO/SnO x EEL in direct comparison with AZO is displayed in Fig.  2 . Here, the stability of the cell characteristics is shown for devices that were continuously exposed to ambient air at 23 °C and 50% relative humidity. The devices that were based on a single layer of AZO as EEL degrade swiftly within B50 h. A severe decay of the FF from B70% to o25% and a concomitant drop of the J sc from B17 to 8.2 mA cm À 2 is found. Opposed to that, the characteristics of the corresponding cells with the bilayered EEL of AZO/SnO x do not show any degradation even after 4300 h in air. Note that the thickness of the SnO x layer is only 20 nm in these devices. There is a slight increase of the V oc in the AZO/SnO x samples that happens on a timescale of several tens of hours. This increase is only observed in the AZO/SnO x samples, as the LiF/Al and the AZO cells already undergo strong degradation on the same timescale. A similar increase of V oc on such a long timescale has been seen by other authors and it has been explained by an ageing effect that reduces the density of trap states in the perovskite  25  . As a reference, the cells based on LiF/Al are essentially degraded within B1 day. In order to analyse the reasons underlying the strikingly different degradation phenomena shown in Fig.  2 , we have performed X-ray diffraction (XRD) and X-ray photoelectron spectroscopy (XPS) studies of the respective device structures. Note that in case of the XPS measurements, a thinner top Ag electrode was chosen (10 nm) compared with the actual solar cells (100 nm) because of the small probing depth of the technique. Looking first at the AZO-based device, the XRD spectrum shows the (110) and (220) reflections of tetragonal MAPbI 3 at angles of 14.11°and 28.14, respectively. As this XRD measurement has been made on a full device stack, further signals related to the Ag and ITO electrodes are visible. A detailed assignment of these peaks is shown in the Supplementary Fig.  3 . Only a very weak signal due to PbI 2 was found that did not significantly increase even after 7 days in air (Fig.  3a ). Thus, no severe decomposition of the perovskite to PbI 2 upon storage in air can be inferred from the XRD data. On the other hand, when XPS was used to look for degradation products on the surface, a notable amount of iodine was evidenced on the AZO sample (Fig.  3b ) after exposure to air for 2 days, whereas on identical samples kept in nitrogen no such iodine signal is found. Please note that the peak of B622 eV in the XPS spectrum of the aged AZO cell does not represent another bonding state of the iodine, but it is rather a so-called shake-up peak. Such shake-up peaks are commonly observed in strong XPS signals. The survey XPS spectra can be found in the Supplementary Fig.  4 . Plan-view scanning electron microscopy (SEM) images of the AZO samples aged in air show the formation of spot-like degradation motifs (Fig.  3c, d ). These spots point to the local ingress of moisture and out-diffusion of decomposition products of the perovskite, supported by the appearance of the iodine signal in XPS. In the degraded spots, needle-like features occur. Similar features have been reported for Ag electrodes corroded by the decomposition products of MAPbI 3 (ref. 26). Our findings are also in line with the results of Kato et al.  10  who unveiled a moisture promoted corrosion mechanism of Ag which resulted in the formation of products like AgI. The role of water in the electrode corrosion is further clarified below in cells aged under inert conditions. To explain the spot-like degradation, we can assume that structural defects, such as pinholes, in the AZO NP layer would give rise to locally enhanced water permeation. Opposed to that, the sample with the bilayered EEL of AZO/SnO x does not show any sign of degradation in SEM (Fig.  3e ) under identical conditions. In XPS, only a negligible amount of iodine at the surface of the AZO/SnO x samples can be detected. For comparison, we have also studied layer stacks where only SnO x , that is, without AZO between the PCBM and the SnO x , has been used as EEL. We have recently shown that SnO x with a work function of 4.1 eV forms an excellent EEL layer in inverted organic solar cells  27  . Here, the resulting perovskite solar cells based on SnO x were more stable than the devices based on AZO. However, they showed a statistical failure on a timescale of 100 h (Supplementary Fig.  5 ). This finding could be explained by a nonideal ALD growth of the SnO x directly on top of the organic PCBM layer. ALD as a chemical deposition technique relies on self-limiting chemical reactions on the sample surface  28  . For the ALD deposition of oxide layers, -OH surface groups form the nucleation sites for layer growth. In this sense, on organic surfaces like PCBM the nucleation of an ALD layer may deviate significantly from the growth on a surface rich of -OH groups  29  . Therefore, we can assume that the SnO x layer grown on PCBM is not free of some pin-hole defects that compromise its functionality as diffusion barrier. Consequently, substantially more iodine is detected on the surface after exposure to air compared with the AZO/SnO x device (Fig.  3b ). Thus, we conclude that the AZO serves two purposes in the bilayered AZO/SnO x EEL: (1) its electronic structure has been shown to facilitate electron extraction from the PCBM (ref. 21) and (2)  the AZO layer provides an improved (oxide-) surface for the nucleation of the subsequent SnO x ALD layer that can thus from a dense, pin-hole-free permeation barrier. Figure  3f ,g shows schemes portraying the specific differences between AZO and AZO/SnO x as EEL in devices exposed to air. As indicated before, the AZO layer prepared from the NP dispersion does not provide a significant diffusion barrier against the local ingress of moisture from the ambient air. As a result, decomposition of the MAPbI 3 perovskite occurs and yields iodine-based products that migrate to the surface. In the case of AZO/SnO x , substantially better moisture barrier properties prevent the penetration of water. The claim of superior moisture barrier properties of the bilayered AZO/SnO x EEL compared with that of the AZO NP layer is also supported by Ca-corrosion tests (Supplementary Fig.  6 ). It has to be noted that the detrimental effects of ambient air could in principle be avoided by using a proper encapsulation of the entire solar cell. However, the out-diffusion of decomposition products from the perovskite and the degradation of the metal electrode (Fig.  3c, d ) may impose a more fundamental issue. This is even more important, as earlier reports evidenced the thermally activated decomposition of the MAPbI 3 perovskite even under inert atmosphere  7  . Stability at elevated temperatures. To study the long-term stability of our solar cells under inert conditions, we have stored a set of devices in a glove box under N 2 atmosphere. All the devices were placed on a hot plate at 60 °C and their characteristics were measured repeatedly. Most remarkably, the characteristics of devices based on AZO EELs degraded on a timescale of 100 h (Fig.  4 ). Although the J sc and V oc of these devices remain fairly stable, the decay of the FF results in the severe drop of PCE to B2% after 360 h. The degradation motif in the AZO-based cells is essentially different from that found in ambient air, where all cell characteristics decayed within a day (Fig.  2 ). Again in striking contrast, the characteristics of devices based on the bilayered AZO/SnO x EEL remain almost unchanged even after 1,032 h. Note that the hysteresis did not increase in the course of ageing. To unravel the mechanisms behind these results, we have again performed XRD and XPS studies of the respective device structures. After heating the device stacks for 6 days under inert atmosphere, the XRD spectrum of the AZO samples reveals a significant signal due to PbI 2 that is absent in pristine stacks (Fig.  5a ). The formation of PbI 2 indicates the thermally activated decomposition of the perovskite upon heating, in agreement with earlier reports  7  . Opposed to that, the devices based on the bilayered AZO/SnO x EEL do not show any signature of a PbI 2 phase after identical ageing conditions (Fig.  5b ). The formation of PbI 2 in the AZO samples is in contrast to the degradation experiments in air, where no PbI 2 phase in the AZO samples was found in XRD (Fig.  3a ). At the same time, the I3d 5/2 XPS spectra (Fig.  5c ) do not reveal any significant increase of the amount of iodine at the surface of any of the samples aged in N 2 . Please note that the noise in the XPS spectra indicates that the concentration of I3d 5/2 at the surface of all the samples is close to the detection limit and variations between the samples are within the measurement error. A plan-view SEM image of the aged AZO samples does not reveal any degradation of the Ag electrode, in contrast to the experiment where the ageing took place in air (Fig.  3c, d ). Thus, we conclude that in the case of AZO, volatile decomposition products of the MAPbI 3 perovskite evaporate from the cell stack without degradation of the Ag electrode. In air, other than in N 2 , the presence of water would promote the corrosion of Ag because of CH 3 NH 3 I and other halide compounds  10  . However, the loss of CH 3 NH 3 I etc. drives the further decomposition of the perovskite. &#13;</text>
       <annotation id="7">
         <infon key="type">hole_transport_layer</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-13T06:31:59Z</infon>
+        <infon key="identifier">PEDOT:PSS</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T19:55:27Z</infon>
         <location offset="61243" length="9"/>
         <text>PEDOT:PSS</text>
-      </annotation>
-      <annotation id="8">
-        <infon key="type">passivating_molecule</infon>
-        <infon key="identifier">PCBM</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-13T06:33:15Z</infon>
-        <location offset="61309" length="4"/>
-        <text>PCBM</text>
       </annotation>
       <annotation id="9">
         <infon key="type">perovskite_composition</infon>
@@ -229,10 +229,10 @@
         <text>12.8</text>
       </annotation>
       <annotation id="12">
-        <infon key="type">treatment_element</infon>
+        <infon key="type">electron_transport_layer</infon>
         <infon key="identifier">aluminium-doped zinc oxide / tin oxide bilayer</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-13T06:40:27Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T19:55:39Z</infon>
         <location offset="63284" length="9"/>
         <text>AZO/SnO x</text>
       </annotation>
@@ -261,10 +261,10 @@
         <text>50%</text>
       </annotation>
       <annotation id="16">
-        <infon key="type">treatment_element</infon>
+        <infon key="type">electron_transport_layer</infon>
         <infon key="identifier">aluminum-doped zin oxide</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-13T06:44:45Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T19:55:58Z</infon>
         <location offset="63538" length="19"/>
         <text>single layer of AZO</text>
       </annotation>
@@ -317,10 +317,10 @@
         <text>60 °C</text>
       </annotation>
       <annotation id="23">
-        <infon key="type">control_element</infon>
+        <infon key="type">electron_transport_layer</infon>
         <infon key="identifier">aluminum-doped zin oxide</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-13T06:44:32Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T19:56:11Z</infon>
         <location offset="70425" length="3"/>
         <text>AZO</text>
       </annotation>
@@ -333,10 +333,10 @@
         <text>degraded</text>
       </annotation>
       <annotation id="25">
-        <infon key="type">treatment_element</infon>
+        <infon key="type">electron_transport_layer</infon>
         <infon key="identifier">aluminium-doped zinc oxide / tin oxide bilayer</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-13T06:44:28Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T19:55:39Z</infon>
         <location offset="70867" length="9"/>
         <text>AZO/SnO x</text>
       </annotation>
@@ -359,7 +359,7 @@
       <relation id="R1">
         <infon key="type">test_1</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-24T12:48:29Z</infon>
+        <infon key="updated_at">2025-02-17T03:50:00Z</infon>
         <node refid="13" role=""/>
         <node refid="14" role=""/>
         <node refid="15" role=""/>
@@ -371,7 +371,7 @@
       <relation id="R2">
         <infon key="type">test_2</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-24T12:48:29Z</infon>
+        <infon key="updated_at">2025-02-17T03:50:00Z</infon>
         <node refid="21" role=""/>
         <node refid="22" role=""/>
         <node refid="23" role=""/>
