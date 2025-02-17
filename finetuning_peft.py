@@ -24,9 +24,9 @@ os.environ['WANDB_DISABLED'] = "true"
 ### Getting Data Ready
 def create_prompt_formats(sample):
     INTRO_BLURB = (
-    "You are a scientific assistant and your task is to extract certain information from text. "
-    "We are in a scientific environment. You MUST be critical of the units of the variables. "
-    "Do not leave information behind. "
+    "You are a scientific assistant and your task is to extract certain information from text, particularly"
+    "in the context of perovskite solar cells. Your task is to identify and extract details about passivating molecules and associated performance data mentioned in the text."
+    "We are in a scientific environment. You MUST be critical of the units of the variables."
     "Only extract the variables that were developed in this study. You must omit the ones extracted from the bibliography"
     )
     INSTRUCTION_KEY = """### Instruct: 
@@ -34,15 +34,21 @@ def create_prompt_formats(sample):
     It is likely that a lot of this data is not present in the chunk provided. Only extract the data points that are present in the chunk.
     Follow these guidelines:
 
+    "Only extract the variables that were developed in this study. You must omit the ones extracted from the bibliography"
+    Your task is to extract relevant scientific data from the provided text about perovskite solar cells.
+    Follow these guidelines:
+
     1. **If passivating molecules are mentioned:**
-    - Create a JSON object for each passivating molecule tested.
+    - Do not retrieve the passivating molecule if it passivated on the electron or hole transport layers
+    - If there is more than one passivating molecule tested, only return data for the champion passivator.
     - Include stability test data for each molecule if available. There may be multiple stability tests for a single molecule.
 
     2. **If no passivating molecules are mentioned:**
     - Provide a JSON object with any other relevant data explicitly mentioned in the text.
 
     **JSON Structure:**
-    Ensure the output adheres to the following structure and is parseable as valid JSON:
+    - DO NOT change the names of any of the property names. It is imperative that these are exactly as they as stated in the schema below.
+    - Ensure the output adheres to the following structure and is parseable as valid JSON:
 
     {{
         "perovskite_composition": null, // Chemical formula of the perovskite (string).
@@ -52,14 +58,14 @@ def create_prompt_formats(sample):
         "test_1": {{ // Include only if stability tests are mentioned. Use unique keys for each test (e.g., test_1, test_2, etc.).
             "test_name": null, // Must be one of: "ISOS-D", "ISOS-L", "ISOS-T", "ISOS-LC", "ISOS-LT".
             "temperature": null, // Temperature in Celsius (numeric or string, no units or symbols like ° or -).
-            "time": null, // Duration of the test (string or numeric).
+            "time": null, // Duration of the test in hours (string or numeric).
             "humidity": null, // Humidity level (string or numeric).
-            "control_efficiency": null, // Efficiency of the control sample (numeric).
-            "treatment_efficiency": null, // Efficiency of the treated sample (numeric).
-            "passivating_molecule": null, // Name of the passivating molecule used in the test.
-            "control_pce": null, // Power conversion efficiency for control perovskite (numeric).
+            "retained_percentage_cont": null, // Percentage of the PCE retained by the control perovskite after stability test (numeric) (values should be between 30-100).
+            "retained_percentage_tret": null, // Percentage of the PCE retained by the treated perovskite after stability test (numeric) (values should be between 30-100).
+            "passivating_molecule": null, // Name of the passivating molecule used in the test (must be a proper molecule name - i.e. can be parsed into SMILES format).
+            "control_pce": null, // Power conversion efficiency for control perovskite (numeric) (values should be between 10-30).
             "control_voc": null, // Open-circuit voltage for control perovskite (numeric).
-            "treated_pce": null, // Power conversion efficiency for treated perovskite (numeric).
+            "treated_pce": null, // Power conversion efficiency for treated perovskite (numeric) (values should be between 10-30).
             "treated_voc": null // Open-circuit voltage for treated perovskite (numeric).
         }}
     }}
@@ -71,6 +77,13 @@ def create_prompt_formats(sample):
     - Ensure all numeric values are parseable (e.g., no symbols like ° or -).
     - Use unique keys for each test (e.g., `test_1`, `test_2`, etc.).
     - If a field has no data, set it to `null`.
+    - The data may be mentioned in units different from the ones specified in the schema. In this case, convert it into the desired unit (e.g. 30 days becomes 720 hours)
+    - Make sure to only return a JSON object.
+    - Do not create any properties that are not stated in the JSON structure provided.
+    - If you cannot find a value, do not omit that property, just set it to null.
+    - Make sure not to confuse the retained_proportion_cont/retained_proportion_tret variables with the control_pce/treated_pce variables. 
+    - The PCE values will almost never be above 30, while the percentage retained values will rarely be below 50%. The retained percentage will not always be there, 
+    please leave these values as null if they cannot be found. DO NOT use the PCE for these values.
 
     Text to extract from:
 
@@ -107,10 +120,7 @@ access_token = os.getenv("HF_TOKEN")
 login(token=access_token)
 compute_dtype = getattr(torch, "float16")
 bnb_config = BitsAndBytesConfig(
-    load_in_4bit=True,
-    bnb_4bit_quant_type="nf4",
-    bnb_4bit_compute_dtype=compute_dtype,
-    bnb_4bit_use_double_quant=False
+    load_in_8bit=True,
 )
 # model_name = "meta-llama/Llama-3.2-3B-Instruct"
 model_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
@@ -201,7 +211,7 @@ peft_training_args = TrainingArguments(
     per_device_eval_batch_size=2,
     gradient_accumulation_steps=2,
     optim="paged_adamw_8bit",
-    num_train_epochs=5,
+    num_train_epochs=3,
     fp16=False,
     bf16=False,  # bf16 to True with an A100, False otherwise
     logging_steps=5,  # Logging is done every step.
