@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source/>
+  <date/>
+  <key/>
+  <document>
+    <id>250108025051995EIEAGI</id>
+    <infon key="tt_curatable">no</infon>
+    <infon key="tt_version">2</infon>
+    <infon key="tt_round">2</infon>
+    <passage>
+      <offset>0</offset>
+      <text>Paper #: 147&#13;</text>
+    </passage>
+    <passage>
+      <offset>13</offset>
+      <text>➔ 𝑉 𝑀𝑃𝑃 + 𝑅 𝑠 𝐽 𝑀𝑃𝑃 = 𝑉 0 ➔ 𝑅 𝑠 = (𝑉 0 -𝑉 𝑀𝑃𝑃 ) 𝐽 𝑀𝑃𝑃 ⁄&#13;</text>
+    </passage>
+    <passage>
+      <offset>141</offset>
+      <text>Here, L is the light intensity of the simulated sun light, J0 the dark emission current, q the elementary charge, Rs the series resistance, n the ideality factor, k the Boltzmann constant and T the device temperature. 𝐽 𝑠𝑐 (𝐿) and 𝑉 𝑜𝑐 (𝐿) are measured for a series of light intensities L, which yields a pseudo-J-V curve 𝐽 𝑠𝑐 * (𝑉), where 𝐽 𝑠𝑐 * (𝑉) ≡ 𝐽 𝑠𝑐 (𝐿) with 𝑉 = 𝑉 𝑜𝑐 (𝐿). For 𝑅 𝑠 = 0, from (1) the following relationships are derived: 𝐽(𝑉 𝑜𝑐 (𝐿), 𝐿, 𝑅 𝑠 = 0) = 0 ➔ 𝐽 𝑠𝑐 (𝐿) = 𝐽 0 (𝑒 𝑞 𝑉 𝑜𝑐 (𝐿) 𝑛𝑘𝑇 -1) 𝐽(𝑉, 1 𝑠𝑢𝑛, 𝑅 𝑠 = 0) = 𝐽 𝑠𝑐 (1 𝑠𝑢𝑛) -𝐽 𝑠𝑐 * (𝑉) (2) 𝐽(𝑉, 1 𝑠𝑢𝑛, 𝑅 𝑠 = 0) is the J-V curve of the device with zero series resistance. In this work we call 𝐽(𝑉, 1 𝑠𝑢𝑛, 𝑅 𝑠 = 0) the Jsc-Voc curve. At JMPP we have the following relationships for the J-V and the Jsc-Voc curves, where for the latter V0 is per definition the voltage at JMPP: 𝐽 𝑀𝑃𝑃 = 𝐽(𝑉 𝑀𝑃𝑃 , 1 𝑠𝑢𝑛, 𝑅 𝑠 ) = 𝐽 0 (1 -𝑒 𝑞 (𝑉 𝑀𝑃𝑃 +𝑅 𝑠 𝐽 𝑀𝑃𝑃 ) 𝑛𝑘𝑇&#13;</text>
+    </passage>
+    <passage>
+      <offset>1392</offset>
+      <text>limit 𝑉 𝑜𝑐, 𝑟𝑎𝑑 and the readiative limit J-V curve To calculate ∆𝐸 𝐹 we used the PLQY measurements and the following equation  4  : ∆𝐸 𝐹 = 𝑞 𝑉 𝑜𝑐,𝑟𝑎𝑑 + 𝑘 𝐵 𝑇 ln(𝑃𝐿𝑄𝑌) where 𝑞 is the elementary charge, 𝑉 𝑜𝑐,𝑟𝑎𝑑 is the radiative limit of 𝑉 𝑜𝑐 , 𝑘 𝐵 the Boltzmann constant and T = 25 °C the sample temperature. 𝑉 𝑜𝑐,𝑟𝑎𝑑 is calculated by the equation  5  : 𝑉 𝑜𝑐, 𝑟𝑎𝑑 = 𝑘 𝐵 𝑇 𝑞 ln ( 𝐽 𝑠𝑐 𝐽 𝑟𝑎𝑑, 0 + 1) Here, Jsc is the measured photocurrent, 𝐽 𝑟𝑎𝑑,0 = 𝑞 ∫ 𝑎(𝐸) 𝛷 𝐵𝐵 (𝐸)𝑑𝐸  &#13;</text>
+    </passage>
+    <passage>
+      <offset>2084</offset>
+      <text> 𝑒𝑥𝑝(𝐸 (𝑘 𝐵 𝑇) ⁄ )-1 the blackbody radiation. The absorptance a(E) is derived from the PL spectra 𝛷 𝑃𝐿 (𝐸) by applying the detailed balance principle  [6] [7] [8]  : 𝛷 𝑃𝐿 (𝐸) ∝ 𝑎(𝐸)𝛷 𝐵𝐵 (𝐸). As an example, we use the PL measurement of one target device. Supplementary Fig.  37  shows the PL spectrum 𝛷 𝑃𝐿 (𝐸), the black-body fit 𝛷 𝐵𝐵 (𝐸) and the calculated absorption spectrum 𝑎(𝐸). 𝑎(𝐸) was normalized to 0.9 at a photon energy of 1.60 eV. Jsc = 25.1 mA/cm 2 was determined from the integral of the absorptance spectrum 𝑎(𝐸) with the AM1.5G photon flux spectrum. In this way we calculated the radiative limit of 𝑉 𝑜𝑐, 𝑟𝑎𝑑 = 1.249 V which was very similar for all control and target devices. Finally, the radiative limit J-V curve is calculated by the following equation: 𝐽(𝑉) = 𝐽 𝑟𝑎𝑑,0 (1 -𝑒 𝑞 𝑉 𝑘𝑇 ) + 𝐽 𝑠𝑐 where 𝐽 𝑟𝑎𝑑,0 is calculated as described above with T = 300 K. &#13;</text>
+    </passage>
+    <passage>
+      <offset>3138</offset>
+      <text> Supplementary Note 1b. SCAPS simulations Simulations of complete control and target devices were carried out using SCAPS. For the target device we employ a 5 nm thick CBz-PAI interface layer between the perovskite layer and HTL. For the control device we first applied a 5 nm thick PEAI interface layer with energy levels shown in Supplementary Fig.  28b  and otherwise the exact same parameters as for CBz-PAI (see Table  S3 ). The resulting J-V curves showed a strong S-shape behavior which we do not observe in real devices: The reason for this S-shape is the barrier that PEAI introduces for hole transfer between perovskite and HTL. Our simulation therefore does not reflect the real device and this is very likely since here we don't consider neither tunneling nor direct current paths between the perovskite and spiro-OMeTAD due to demixing and phase segregation. Hence, we simulated the PEAI device with a direct contact between perovskite and spiro-OMeTAD. The defect passivation of PEAI is taken into account by using the same low interface recombination velocity as for CBz-PAI (see Table  S3 ) and the hole barrier property by an additional 1 Ωcm 2 higher series resistance as it was quantitatively determined by the Jsc-Voc measurements (see main text). Note that demixing and phase segregation is less likely for CBz-PAI due to the bifunctional character which ensures a good chemical compatibility with perovskite and spiro-OMeTAD. (2): Under an argon atmosphere, a mixture of compound 1 (387 mg, 0.5 mmol) , 1-fluoro-4-nitrobenzene (106 mg, 0.75 mmol) and potassium carbonate (166 mg, 1.2 mmol) in 15 mL N,N-dimethylformamide (DMF) was stirred at 140 o C for 8 h. After cooling, the raw product was extracted using CH2Cl2 and water. The organic layers were combined and dried by anhydrous MgSO4. After filtration, the solvent was removed under reduced pressure and the residue was purified by column chromatography with DCM/Hexane (1:1 by volume) to give compound 2 as orange solid (416 mg, 93% yield).  1  H NMR (400 MHz, THF-d8): δ 8.52 (d, J = 8 Hz, 2H), 8.46 (s, 2H), 7.95 (d, J = 12 Hz, 2H), 7.68 (d, J = 8 Hz, 2H), 7.60-7.56 (m, 6H), 7.05 (d, J = 8 Hz, 8H), 7.00 (d, J = 8 Hz, 4H), 6.85-6.83 (m, 8H), 3.75 (s, 12H).  13    &#13;</text>
+    </passage>
+    <passage>
+      <offset>5387</offset>
+      <text> 4,4'-(9-(4-aminophenyl)-9H-carbazole-3,6-diyl)bis(N,N-bis(4-methoxyphenyl)aniline) (3): Under an argon atmosphere, a mixture of compound 2 (268 mg, 0.3 mmol) and stannous chloride dihydrate (406 mg, 1.8 mmol) in 15 mL EtOH and 15 mL THF was stirred at 70 o C for 2 h. After completion of reaction, the solvent was removed under reduced pressure and excessive NaOH solution was added slowly to the residue under vigorous stir. The mixture was extracted with ether. The organic extracts were dried over anhydrous MgSO4 and concentrated under reduced pressure to afford compound 3 as yellowish brown solid (247 mg, 95% yield). Supplementary Table  4 . Photovoltaic parameters of the radiative limit and transport limit J-V curves of the control and target devices. The transport limit was determined from the Jsc-Voc measurements as explained in Note 2. Also plotted are the steady-state maximum power point (ss-MPP) measurements of the same devices. The FF of those is calculated using the steady-state Jsc and Voc which is the same as the one of the transport limit J-V curve. Perovskite solar cells have reached a power conversion efficiency over 25%, and the engineering of the interface between the perovskite and hole transport layer (HTL) has been crucial to achieve high performance. Here we design a bifunctional molecule CBz-PAI with carbazole-triphenylamine a nd p he nylammonium iodide units to passivate defects at the perovskite/ HTL interface. Owing to a favourable energy level alignment with the perovskite, the CBz-PAI acts as a hole shuttle between the perovskite layer and the HTL. This minimizes the difference between the quasi-Fermi level splitting of the perovskite, or 'internal' V oc , and the external device V oc , thus reducing voltage losses. As a result, solar cells incorporating CBz-PAI reach a stabilized power conversion efficiency of 24.7% and maintain 92.3% of the initial efficiency after 1,000 h under damp heat test (85 °C and 85% relative humidity) and 94.6% after 1,100 h under maximum power point-tracking conditions. Perovskite solar cells (PSCs) based on mixed organic-inorganic halide perovskite, delivering higher energy conversion efficiency with lower processing costs, have been served as a promising electricity generation technology  [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]  . The past decade has witnessed a rapid increase of power conversion efficiency (PCE) over 25% (refs. 13-15). Efficient charge extraction and low non-radiative recombination at the interface between the perovskite material and hole transport layer (HTL) are key for achieving excellent photovoltaic (PV) performance  [16] [17] [18] [19] [20] [21] [22] [23]  . Passivation of defects especially at the perovskite/HTL interface has become a crucial method for reducing non-radiative charge carrier recombination inside PSC devices  24  . In addition, interfacial passivation layers have been recently reported to be able to improve the stability of PSCs due to their resistance against moisture and thermal stress  [25] [26] [27]  . For example, phenethylammonium iodide (PEAI) and octylammonium iodide (OAI) are widely used interfacial modulators for PSCs, reducing defect-assisted non-radiative recombination and improving device stability  14, 28, 29  . However, such interfacial layers are generally disordered and exhibit poor charge transport properties due to unfavourable energy level matching, impairing hole extraction  [30] [31] [32]   strong interaction between CBz-PAI and PbI 2 . Moreover, the colour of PbI 2 film transforms from yellow to transparent pale yellow (inset of Fig.  1b ). In addition, the 1 H NMR spectrum of CBz-PAI has changed after mixing with PbI 2 (Supplementary Fig.  15 ), confirming the interaction between CBz-PAI and PbI 2 . Cyclic voltammetry (CV) measurement of CBz-PAI with ferrocene as the reference shows the highest occupied molecular orbital (HOMO) level of -5.36 eV against vacuum (Fig.  1c ). Then the lowest unoccupied molecular orbital (LUMO) level of CBz-PAI is calculated to be -2.26 eV based on its bandgap of 3.10 eV. As seen in the energy level diagram (Fig.  1d ), the valence band offset between CBz-PAI and perovskite (-5.40 eV) generates a driving force of 40 meV for hole transfer from perovskite to CBz-PAI. Generally, the deep HOMO energy level of -5.36 eV allows for a favourable band alignment with the perovskite, which might minimize voltage loss of the resulted device. In addition, the good compatibility of CBz-PAI and HTL suggests an efficient hole transport from CBz-PAI to HTL layer, which we will discuss in greater detail later. &#13;</text>
+      <annotation id="1">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">carbazole-triphenylamine and phenylammonium iodide units</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-27T09:44:08Z</infon>
+        <location offset="6716" length="7"/>
+        <text>CBz-PAI</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">carbazole-triphenylamine and phenylammonium iodide units</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-27T09:44:08Z</infon>
+        <location offset="6729" length="59"/>
+        <text>carbazole-triphenylamine a nd p he nylammonium iodide units</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">carbazole-triphenylamine and phenylammonium iodide units</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T02:54:44Z</infon>
+        <location offset="7197" length="7"/>
+        <text>CBz-PAI</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">24.7</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-27T09:42:02Z</infon>
+        <location offset="7255" length="5"/>
+        <text>24.7%</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">92.3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T02:54:50Z</infon>
+        <location offset="7274" length="5"/>
+        <text>92.3%</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">time</infon>
+        <infon key="identifier">1000</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-27T09:42:40Z</infon>
+        <location offset="7312" length="7"/>
+        <text>1,000 h</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSD</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-27T09:42:33Z</infon>
+        <location offset="7326" length="14"/>
+        <text>damp heat test</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">85</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-27T09:42:47Z</infon>
+        <location offset="7341" length="6"/>
+        <text>(85 °C</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">humidity</infon>
+        <infon key="identifier">85</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-27T09:42:52Z</infon>
+        <location offset="7352" length="3"/>
+        <text>85%</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">94.6</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T02:54:57Z</infon>
+        <location offset="7379" length="5"/>
+        <text>94.6%</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">time</infon>
+        <infon key="identifier">1100</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-27T09:43:19Z</infon>
+        <location offset="7389" length="9"/>
+        <text>r 1,100 h</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>10026</offset>
+      <text> Film properties To further disclose the optical and electronic properties of perovskite film with and without CBz-PAI, scanning electron microscopy (SEM) was applied to investigate the effect of CBz-PAI on the morphology of perovskite film (Fig.  2a, b ). Surprisingly, the average domain size of the perovskite increases from 750 nm to 1,260 nm after being treated by CBz-PAI (Supplementary Fig.  16 ). The formation of larger domain could be attributed to the interaction between CBz-PAI with excess PbI 2 at the perovskite surface (dotted circle in Fig.  2a ), where CBz-PAI may act as a 'coalescer' at the perovskite surface  29  . Elemental mapping of the CBz-PAI-treated perovskite film demonstrates the existence of carbon and oxygen on the perovskite surface (Supplementary Figs. 17 and 18), confirming the incorporation of CBz-PAI overlayer. The optical properties of perovskite films were also characterized by UV-Vis absorption spectroscopy (Supplementary Fig.  19 ). As expected, the CBz-PAI-treated perovskite film shows a similar absorption spectrum as the pristine perovskite film  40  . In addition, we measured the optical bandgap by UV-Vis spectroscopy and the first derivative of external quantum efficiency (EQE), being 1.512 eV and 1.526 eV (Supplementary Fig.  20 ), respectively. The bandgap determined from EQE is usually 10-20 meV lower than that determined from UV-Vis spectra  41  , which is in good agreement with our results. To further investigate the structural characteristics of the perovskite films with and without CBz-PAI treatment, synchrotron-based grazing-incidence X-ray diffraction (GIXRD) was performed (Fig.  2c, d ). The GIXRD does not provide evidence for a 2D structure and only supports the notion that there is a reaction between CBz-PAI and PbI 2 which removes PbI 2 at the interface. This result is consistent with the phenomenon we observed in the SEM measurement (Fig.  2a, b ). Kelvin probe force microscopy (KPFM) was employed to evaluate the difference in the surface potential of the perovskite films (Fig.  2e-g ), which is associated with the work function with respect to the vacuum energy level. The KPFM image of the pristine perovskite film shows notable dark areas inside individual grains indicating a heterogeneous surface potential distribution (Fig.  2e ), while the perovskite film treated by CBz-PAI presented a more evenly distributed surface potential (Fig.  2f ). This difference may be ascribed to the partial elimination of subgap defect states. The work functions of the perovskite films are further determined by the contact potential difference (CPD) between the Pt-coated conductive cantilever probe and the samples. The perovskite film with CBz-PAI treatment showed an average CPD of -63.1 mV (Fig.  2f ), which is 51.2 mV lower than that of perovskite film without CBz-PAI coating (Fig.  2e ). This downward shift indicates a more positive surface charging that is caused by a hole transfer from the perovskite valence band into the CBz-PAI HOMO level. Such a hole transfer is energetically favoured as discussed above since the CBz-PAI HOMO level is 40 meV higher than the perovskite valence band edge. level alignment with the perovskite layer to improve charge transfer  20, [33] [34] [35]  ; however, device performances of these works are far from state-of-the-art. Recently, two-dimensional (2D) layered perovskites based on bulky cations applied to the surface of three-dimensional (3D) perovskite thin films to generate 2D/3D heterojunction with better band alignment have attracted considerable attention, and a significant improvement in device performance has been shown  22, 36  . Energy level misalignment between the perovskite absorber layer and HTL layers causes a voltage loss due to enhanced radiationless charge carrier recombination at the interface between the two layers. In the presence of such a valence band offset, the hole concentration in the HTM has to be raised to a higher level to match the quasi-Fermi level in the two layers than in the absence of band misalignment. This in turn accelerates radiationless carrier recombination causing an additional voltage loss. This V oc loss can be avoided for example by introducing a layer of molecular dipoles between the perovskite and the HTM that compensates the valence band offset  37  . Furthermore, perovskites based on organic-inorganic hybrids are hydrophilic materials while the widely used HTLs (such as spiro-OMeTAD) are hydrophobic. This causes poor wetting of the perovskite by the HTL layer, which results in further parasitic resistive losses in PSC devices  38, 39  . These limitations prompted us to develop a molecularly tailored interface layer with two functions, a good interface passivation to minimize non-radiative recombination and one allowing for a barrier-free hole transfer into the HTL, and to investigate its beneficial effects in depth. In this Article, we judiciously designed and synthesized a bifunctional organic molecule, 4-(3,6-bis(4-(bis(4-methoxyphenyl)amino) phenyl)-9H-carbazol-9-yl)benzenaminium iodide (CBz-PAI) containing carbazole-triphenylamine (CBz) and phenylammonium iodide (PAI) moieties (Fig.  1a ). The PAI unit acts as an effective defect passivator, whereas the conjugated structure of methoxy-substituted triphenylamine that is highly compatible with the spiro-OMeTAD layer enables excellent hole transfer or hole shuttling from the perovskite into the HTL layer. Since the HOMO energy level is well adjusted by the conjugated structure of CBz unit, CBz-PAI shows a very small valence band edge/HOMO energy level misalignment of 40 meV with the perovskite layer, voltage losses are minimized and the efficient hole shuttling mechanism leads to a lower series resistance. The mechanism behind these minimized voltage losses due to this energy level alignment is revealed in this work by a detailed optoelectronic device characterization corroborated by drift-diffusion simulations. Due to the bifunctionality, the PSC device achieved a PCE of 24.7% under simulated air mass (AM) 1.5G illumination. Notably, non-encapsulated CBz-PAI-based PSC device exhibited an excellent long-term stability, with 94.6% of the initial PCE being retained after 1,100 h measurement under maximum power point (MPP) tracking condition. &#13;</text>
+      <annotation id="12">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSLT</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-27T09:44:58Z</infon>
+        <location offset="16199" length="29"/>
+        <text>excellent long-term stability</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>16354</offset>
+      <text> Selection of CBz-PAI As depicted in Fig.  1a  and Supplementary Fig.  1 , the synthesis of CBz-PAI started from Suzuki reaction of 3,6-dibromo-9H-carbazole and (4-(bis(4-methoxyphenyl)amino)phenyl)boronic acid affords compound 1. Then the Buchwald-Hartwig reaction of compound 1 and 1-fluoro-4-nitrobenzene was employed to yield compound 2, followed by being reduced by stannous chloride dihydrate to get compound 3. Subsequently, acidification of compound 3 with hydriodic acid was performed to achieve the final compound CBz-PAI. All the key intermediates and the final compound CBz-PAI were characterized by  1  H nuclear magnetic resonance (NMR),  13  C NMR and high-resolution mass spectrometry (Supplementary Figs.  2 3 4 5 6 7 8 9 10 11 12 13 ). The size of the CBz-PAI molecule was also calculated to be 28.865 Å (Supplementary Fig.  14 ). The ultraviolet-visible (UV-Vis) absorption of CBz-PAI, PbI 2 and CBz-PAI/PbI 2 (molar ratio 2:1) was characterized to investigate the interaction between PbI 2 and CBz-PAI (Fig.  1b ). The absorption of PbI 2 dramatically changes after mixing with CBz-PAI, which indicates a Article  https://doi.org/10.1038/s41560-023-01249-0  Note that in a full device with HTM there is no positive charging of the CBz-PAI interface layer; due to a 390 meV higher HOMO level of the HTM (Fig.  1d ), a charge transfer from the CBz-PAI layer into the HTM is energetically favoured. Thus, the increase in device V oc , which will be discussed later, is not directly related to the change in surface potential. Absolute intensity photoluminescence (AIPL) measurements were performed to determine the photoluminescence quantum yield (PLQY) to study the effect of CBz-PAI on the optoelectronic quality of the perovskite films (Figs.  2h, i ). Five samples were prepared for both control and perovskite/CBz-PAI conditions. The average PLQY of the control sample is 6%, whereas the average PLQY of perovskite/CBz-PAI is 16%, illustrating significant reduction of non-radiative recombination of the CBz-PAI treated compared with the pristine perovskite film. This shows that CBz-PAI acts as a defect passivation agent. &#13;</text>
+    </passage>
+    <passage>
+      <offset>18502</offset>
+      <text> Device performance The target device configuration used in this study is based on the architecture shown in Fig.  3a . In the following we denote the device with CBz-PAI as the target device. For the control device we use PEAI as passivation layer. We also made devices without interface passivation layer and with OAI as modulator; however, a statistical analysis revealed that for our device recipe PEAI yielded the highest device performance (Supplementary Figs.  21  and 22 ). Different concentrations of CBz-PAI were used to optimize the PV performance of PSC devices; for PEAI we used the established recipe  28  . Current density-voltage (J-V) curves for different CBz-PAI concentrations are shown in Supplementary Fig.  23 , and the PV parameters are summarized in Supplementary Table  1 . The CBz-PAI-treated cell with a concentration of 5.04 mM achieves the highest PCE of 24.7% using the anti-reflection coating (Fig.  3b ), with a short-circuit current density (J sc ) of 26.1 mA cm  -2  , an open-circuit voltage (V oc ) of 1,161 mV and a fill factor (FF) of 81.6% (Table  1 ). The comparison of the PV performance with and without anti-reflection coating and the transmittance of the AR coating are shown in Supplementary Fig.  24 . In contrast, the PCE of the control PSC device is 22.3% (Fig.  3b ), with a J sc of 25.9 mA cm -2 , a V oc of 1,112 mV and an FF of 77.6%. In addition, the device based on the perovskite/CBz-PAI/HTL delivered a negligible hysteresis of 0.4% (Supplementary Fig.  25  and Supplementary Table  2 ), which is lower than that of the control device (2.8%). Figure  3c  shows steady-state MPP measurements of the champion devices for 500 s. The stabilized PCEs of the control device and the device with CBz-PAI are 22.1% and 24.5%, respectively, which are consistent with the ones obtained from the J-V measurement (Fig.  3b ). Incident photon to electron conversion efficiency (IPCE) spectra of devices are shown in Fig.  3d . The integrated current densities of the control and target cells are 25.5 and 25.8 mA cm -2 (Supplementary Fig.  26 ), respectively, which are also in good agreement with the J-V measurements (Fig.  3b ). Furthermore, a statistical analysis of the PV parameters of 20 devices was carried out (Fig.  3e  and Supplementary Fig.  21 ). CBz-PAI-based PSCs deliver an average PCE of 24.2%, while the control cells show an average PCE of 21.9%. The devices with CBz-PAI overlayer delivered an enhanced V oc , FF and PCE. In addition, the ideality factor (n id ) of the control and target devices was calculated from the dependence of V oc on the illumination intensity (Fig.  3f ). The n id decreased slightly from 1.4 to 1.3 after introducing the CBz-PAI layer between perovskite and HTL, indicating a very small decrease of trap-assisted non-radiative recombination. &#13;</text>
+      <annotation id="13">
+        <infon key="type">treated_voc</infon>
+        <infon key="identifier">1.161</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-27T09:46:28Z</infon>
+        <location offset="19540" length="8"/>
+        <text>1,161 mV</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">control_pce</infon>
+        <infon key="identifier">22.3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-27T09:46:55Z</infon>
+        <location offset="19800" length="5"/>
+        <text>22.3%</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">control_voc</infon>
+        <infon key="identifier">1.112</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-19T06:50:48Z</infon>
+        <location offset="19860" length="5"/>
+        <text>1,112</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>21335</offset>
+      <text> Optoelectronic characterization In the following we quantitatively elaborate the mechanisms behind the V oc and the FF increase. We measured PLQY of complete CBz-PAI passivated (control) and PEAI passivated (target) devices, which are shown in Fig.  4a . The PLQY is 1.8% for the control device and 1.9% for the target device. Note that CBz-PAI treatment of the bare perovskite film leads to a significant PLQY increase (Fig.  2i ) compared with the untreated perovskite films on glass without HTL, which shows the passivation effect of this treatment. Here we compare complete cells (that is, with electron transport layer (ETL) and HTL) of CBz-PAI-treated perovskite films (target) with PEAI-treated perovskite films (control). The PLQY difference is very small and indicates that the defect passivation effect is only slightly better with CBz-PAI as compared with PEAI, which is in good agreement with the small difference of the solar cell ideality factors shown above (Fig.  3f ). In addition, we observe a lower statistical fluctuation of the PLQY values for the CBz-PAI sample, which indicates a better device reproducibility with the interface passivation. From PLQY we can determine the voltage loss due to non-radiative recombination and the quasi-Fermi level splitting ∆E F as described in detail in Supplementary Information (Supplementary Note 1). In Fig.  4b  we show ∆E F /q, where q is the elementary charge, and the measured  The dotted circles represent PbI 2 at the perovskite surface. c,d, GIXRD patterns of perovskite layers without CBz-PAI (c) and with CBz-PAI (d). e,f, CPD analysis of ITO substrate supported perovskite films without CBz-PAI (e) and with CBz-PAI (f). g, CPD variations of the perovskite and perovskite/CBz-PAI films along the white dotted line across the KPFM images shown in e and f. h,i, AIPL spectra (h) and PLQY (i) of treated and untreated perovskite films on glass (five individual samples were used for the measurement). The centre line represents the median value, the bounds of box indicate upper and lower quartiles and the whiskers represent the minimum and maximum values. q z nm -1 q z nm -1 -0.5 -1 -1. &#13;</text>
+    </passage>
+    <passage>
+      <offset>23499</offset>
+      <text> Article https://doi.org/10.1038/s41560-023-01249-0  steady-state V oc of the same devices. V oc of the target device increases by 40 mV; however ∆E F /q of the same device increases only 10 mV. Thus, the V oc increase cannot be explained by a reduction in non-radiative recombination alone. To understand the reason behind the V oc increase, we have to consider all factors determining V oc . The quasi-Fermi level splitting is the 'internal' V oc of the absorber layer, that is, the maximum V oc a solar cell with this absorber can attain if there are no additional V oc losses. An additional V oc loss comes from energy level misalignments between the valence bands of the HTL and perovskite in combination with interfacial non-radiative recombination  42  . In Fig.  1d  we see that the spiro-OMeTAD HTL shows a large valence band edge/HOMO energy level misalignment of 430 meV whereas CBz-PAI has a HOMO level only 40 meV above the perovskite valence band edge. During device operation under illumination, holes are injected from the perovskite layer into the CBz-PAI layer before they reach the spiro-OMeTAD HTL. On the other hand, electron injection into CBz-PAI is blocked due to the significantly higher conduction band edge energy (Fig.  1d ). Therefore, the main interfacial electron-hole recombination happens at the perovskite/ CBz-PAI interface where the valence band edge/HOMO level mismatch is very small. This suggests that V oc losses at this interface are much lower than at the perovskite/spiro-OMeTAD interface. In the control device, hole injection into the PEAI interface passivation layer is impeded since the PEAI HOMO level is 50 meV below the perovskite valence band (Supplementary Fig.  27 ). Therefore, hole injection is only possible directly (for example via pinholes) or via tunnelling into the spiro-OMeTAD layer with a very large energy level offset. Thus, in this case a larger V oc loss compared with the CBz-PAI-based solar cell is expected. To corroborate this, we performed simulations using the drift-diffusion solver Solar Cell Capacitance Simulator (SCAPS) (for more details, see Supplementary Information), which are shown in Fig.  4c ). For the control and target devices we used the same simulation parameters (Supplementary Table  3 ) except for a 1 Ω cm 2 higher series resistance for the control device, which will be discussed in detail later. In particular we used the same interface recombination velocity at the interface perovskite/CBz-PAI (target) and perovskite/spiro-OMeTAD (control). More details on the simulations can be found in Supplementary Information (Supplementary Note 1b). The inset of Fig.  4c  shows the quasi-Fermi levels for electrons (F n ) and holes (F p ) at V oc . Calibrating the absolute energy so that F n in the ETL is the same for control and target, we see that the main difference is observed in the shape and position of F p . The control device shows an upward bending of F p at the HTM/perovskite interface. This is caused by a strong hole accumulation within the HTM and electron accumulation in the perovskite layer at the HTM/perovskite interface due to the large valence band energy misalignment (for more details, see Supplementary Fig.  28 ). Such a carrier accumulation leads to a strong enhancement in non-radiative recombination at the HTM/perovskite interface compared to the target device where such a carrier accumulation does not appear even if the recombination velocities are the same. The resulting simulated J-V characteristics match well the measured J-V curves. This shows that the main contribution of the V oc increase upon CBz-PAI treatment in comparison with PEAI treatment comes from the improved energy level alignment of the passivator molecule and not from an improved defect passivation effect. This is in contrast with most of the findings  in literature where a V oc increase caused by a passivator is assigned to a reduction of non-radiative recombination. To the best of our knowledge, the mechanism of energy level alignment of a passivator and its effect of increasing V oc is demonstrated and rigorously proven, and thus, our interface layer technique represents an important concept to improve device performance of PSCs. The FF losses in high-performing PSCs with high carrier mobilities are determined by two main factors, non-radiative recombination and series resistance  43  . To quantify these losses, we performed J sc -V oc measurements, which is a standard technique to determine the series resistance of solar cell devices  [44] [45] [46]  . We performed J sc -V oc measurements with two control and two target devices. In Supplementary Fig.  29 , we show the transport limit J-V curves determined from the J sc -V oc measurements (details are presented in Supplementary Note 2) and the radiative limit J-V curves of the control and target devices. In addition, we plot the steady-state maximum power point (ss-MPP) measurements. The radiative limit J-V curves were determined using the ideal single-diode approximation with the radiative limit of V oc = 1.249 V (details are presented in Supplementary Note 1), the measured average J sc (25.1 mA cm -2 ) and an ideality factor of 1. The performance parameters of these curves determined from measurements of the two control devices with PEAI and the two target devices with CBz-PAI are recorded in Supplementary Table  4 . The FF of the J sc -V oc curve for control and target devices are similar, about 5% abs lower than the radiative limit FF. This FF loss can be attributed to non-radiative recombination. The fact that the FF of the target devices are very similar to the control ones is in good agreement with the similar non-radiative recombination that has been shown by the device ideality factor and the PLQY measurements as discussed above (Figs.  3f  and 4a ). The FFs determined from the steady-state MPP measurements are 73.5% for control and 76.7% for the target devices, that is, 11% abs and 8% abs lower than the ones determined from the J sc -V oc curve. This additional FF loss can be attributed to the series resistance R s , which is 5 Ω cm 2 for the control and 4 Ω cm  2  for the target devices (the details of the calculation are presented in Supplementary Note 2). The 1 Ω cm 2 lower series resistance of the target device is the reason for the 3% abs higher FF. This difference in R s can only come from the interface passivation layer since all other layers of the devices contributing to the series resistance are the same. To understand the mechanism behind this decrease in series resistance upon the CBz-PAI treatment compared with the PEAI treatment we have to look at the HOMO energy levels. The CBz-PAI layer has a HOMO level 40 meV above the perovskite valence band edge (Supplementary Fig.  25 ); hence, a good hole transport through this layer into the spiro-OMeTAD HTL is expected. For PEAI, the HOMO level is 50 meV below the perovskite valence band, which should result in a barrier and, thus, in a larger series resistance. This barrier also has an effect on the kinetics of the hole transfer, which we can show by time-resolved photoluminescence (TRPL) measurements on bilayer perovskite/spiro-OMeTAD films with PEAI and CBz-PAI as interface passivation (Fig.  4d ). Although the TRPL traces on a timescale of several hundreds of nanoseconds appear to be very similar (Fig.  4d , inset), a closer look on the first few nanoseconds, where hole transfer dominates the signal decay, reveal with statistical significance a faster decay for the CBz-PAI-treated sample. Thus, the hole transfer from perovskite to HTM is faster with the CBz-PAI-treated sample, which is in good agreement with the elimination of a transport barrier. This barrier is the reason for a higher series resistance of the PEAI device, which we quantified to be 1 Ω cm 2 . Thus, the elimination of this barrier and the concomitant favourable hole transfer from the perovskite layer into the HTL leads not only to reduced V oc losses as discussed above but also to a higher FF.  &#13;</text>
+    </passage>
+    <passage>
+      <offset>31576</offset>
+      <text> Device stability The operational stability of the control and target devices was evaluated using full sunlight soaking under the continuous MPP tracking, and the stability results are shown in Fig.  5a . After 1,100 h, the device with CBz-PAI overlayer is capable of maintaining 94.6% PCE of its initial value, while the one for the control device is only 66.6%. Then the measurement of contact angle of the corresponding films was performed to figure out the reason for the improved stability of PSC after CBz-PAI treatment (Supplementary Fig.  30 ). As compared with the perovskite, the contact angle of the hydrophobic chlorobenzene (CB)-based HTL solution droplets on the perovskite/CBz-PAI film decreases from 18.3° to 9.7°, indicating the improved compatibility between the perovskite and the HTL. Additionally, the contact angles of water droplets on the surface of the control sample and the sample with CBz-PAI overlayer are 50.6° and 77.8°, respectively. This obvious difference in water contact angle demonstrates that the surface of the perovskite/CBz-PAI films is more hydrophobic, which is favourable for repelling moisture and slowing down the water penetration into the perovskite film in a moist environment. Moreover, the cross-section of the control and CBz-PAI-based devices was measured by SEM before and after 1,100 h  &#13;</text>
+      <annotation id="16">
+        <infon key="type">efficiency_cont</infon>
+        <infon key="identifier">66.6</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T02:55:09Z</infon>
+        <location offset="31933" length="5"/>
+        <text>66.6%</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>32923</offset>
+      <text> Article https://doi.org/10.1038/s41560-023-01249-0   MPP tracking (Fig.  5b ,c and Supplementary Fig.  31 ), which demonstrates that CBz-PAI treatment does not change the crystal quality of perovskite. The void-like features between the perovskite layer and HTL are observed in the aged control device, which could behave as the non-radiative recombination sites to inhibit charge transport. In contrast, thanks to the high compatibility of the conjugated structure in CBz-PAI with HTL layer, no such features appeared in the device with CBz-PAI interlayer after ageing, evidencing that CBz-PAI can enhance the stability of the interface between perovskite layer and HTL layer. Time-of-flight secondary ion mass spectroscopy (TOF-SIMS) was applied to analyse the spatial distribution of the key perovskite components within Spiro-MeOTAD layer for the aged control and target PSC devices (Fig.  5d, e ). The mapping signal of I -in Spiro-MeOTAD is counted and represented by pixel ratio. It is clearly observed that the aged control device showed extremely strong signal of I -, while the signal is significantly reduced in the aged device with CBz-PAI compared with the control PEAI device. This result shows that the incorporated CBz-PAI layer strongly suppresses the undesired migration of I -ions from perovskite to HTL, thus preventing the device from fast degradation. We also analysed the depth profile of I -and Li + within the cells by TOF-SIMS (Supplementary Fig.  32 ). The I -signal in the PEAI control device is much higher in the HTL than that of the device with CBz-PAI interlayer. Meanwhile, the diffusion of Li + from HTL layer to the perovskite layer is also effectively reduced in the device with CBz-PAI interlayer, which is considered to be one of the reasons for the small hysteresis of the target device. These results show that the CBz-PAI interlayer can not only improve the stability of the interface between perovskite and HTL layers, it can also suppress the migration of I -from perovskite to HTL, as well as the diffusion of Li + from HTL to perovskite, thus resulting in outstanding stability of the target PSC device. Remarkably, the damp heat (85 °C and 85% relative humidity) test showed that the device with CBz-PAI retained 92.3% of its maximum PCE after 1,000 h (Supplementary Fig.  33 ). Furthermore, we carried out more detailed experiments on higher thermal/light stability by using the more stable PTAA and P3HT as HTL. The target device retained 78.5% and 91.1% of the initial PCEs after 500 h under continuous full light illumination at 80 ± 5 °C with PTAA and P3HT as HTL (Supplementary Fig.  34 ), respectively. Our results demonstrate that CBz-PAI as interface engineering material can effectively enhance the device performance and operational reliability of n-i-p PSCs. &#13;</text>
+      <annotation id="17">
+        <infon key="type">structure_pin_nip</infon>
+        <infon key="identifier">NIP</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-27T09:50:49Z</infon>
+        <location offset="35729" length="5"/>
+        <text>n-i-p</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>35745</offset>
+      <text> Conclusion In summary, a bifunctional molecule CBz-PAI with two functional groups, a CBz unit and PAI, was developed and used as an interface layer between perovskite and HTM, whose role is to afford interfacial defect passivation, tolerance of energy level misalignment between the valence band of the perovskite and that of the hole conductor and chemical compatibility with the HTL, resulting in a greatly improved device performance. &#13;</text>
+    </passage>
+    <passage>
+      <offset>36185</offset>
+      <text> Methods &#13;</text>
+    </passage>
+    <passage>
+      <offset>36195</offset>
+      <text> Materials Stannous chloride dihydrate (SnCl 2 •2H 2 O) (&gt;99.995%), hydrochloric acid (HCl, 37 wt. % in water), thioglycolic acid (98%), urea, acetonitrile, 4-tert-butylpyridine (tBP), lithium bis(trifluoromethanesulphonyl)imide salt (Li-TFSI), hexadeuterodimethyl sulphoxide (DMSO-d 6 ), deuterated tetrahydrofuran (THF-d 8 ), heptadeutero-N,N-dimethylformamide (DMF-d 7 ), bis(4-methoxyphenyl)amine, 1-bromo-4-iodobenzene, potassium tert-butoxide, tris(dibenzylideneacetone) dipalladium (Pd 2 (dba) 3 ), n-butyllithium (n-BuLi), trimethyl borate, 2-dicyclohexylphosphino-2′,4′,6′-triisopropylbiphenyl (XPhos) and tetrakis(triphenyl phosphine)-palladium(0) (Pd(PPh 3 ) 4 ) were purchased from Sigma-Aldrich. Lead iodide (PbI 2 ), 3,6-dibromo-9H-carbazole, potassium carbonate and 1-fluoro-4-nitrobenzene were purchased from Alfa Aesar. Methylammonium chloride, PEAI and formamidinium iodide were purchased from Dyesol. Poly(bis-(4-phenyl)-(2,4,6-trimethylphenyl)-amine) (PTAA), poly(3-hexylthiophene) (P3HT) and 2,2′,7,7′-tetrakis(N,N-di(4-methoxyphenyl)amino)-9,9′-spirobifluorene (Spiro-OMeTAD) were purchased from Xi'an Polymer Light Technology Corp.). Dimethyl sulphoxide (DMSO), dimethylformamide (DMF), isopropyl alcohol (IPA), toluene, ultradry tetrahydrofuran, ethanol and CB were purchased from Acros. All the chemicals were used as received without further purification. The (4-(bis(4-methoxyphenyl)amino)phenyl)boronic acid was synthesized according to the literature  47  . Fluorine-doped tin oxide (10 Ω per square) conductive glass was purchased from Nippon Sheet Glass. The transmittance is shown in Supplementary Fig.  35 . &#13;</text>
+    </passage>
+    <passage>
+      <offset>37852</offset>
+      <text> Preparation of electron transport layer The FTO substrate was cleaned by 2% Hellmanex III (HellmaAnalytics), deionized water, acetone and IPA for 10 min each. Then an air gun was used to remove the remaining ethanol, and the films were treated by ultraviolet-ozone for 15 min before use. The Chemical Bath Deposition solution was prepared by mixing 625 mg of urea, 625 μl of HCl, 12.5 μl of thioglycolic acid and 137.5 mg of SnCl 2 •2H 2 O per 50 ml of deionized water  48  . FTO glass substrate was dipped in the solution for 3 h. Then deionized water was used for ultrasonic cleaning for 5 min to remove the remaining large particles, and the SnO 2 film was annealed on a hot stage at 180 °C for 1 h. The Chemical Bath Deposition process was repeated for several times to achieve the desired thickness, and followed by annealing at 180 °C for 1 h. &#13;</text>
+    </passage>
+    <passage>
+      <offset>38710</offset>
+      <text> Preparation of the perovskite precursor Then, 1.56 M perovskite precursor solutions (FAPbI 3 crystal:0.35 methylammonium chloride) in a mixture solvent of DMF/DMSO (4:1, by volume) with 0.12 mM of PbI 2 as a dopant were prepared using a previously reported method  13  . Synthesis of FAPbI 3 crystal: 1.0 M FAPbI 3 perovskite precursor solutions were prepared by dissolving equimolar formamidinium iodide and PbI 2 in g-butyrolactone after shaking for 1-2 h. The solutions were filtered using polytetrafluoroethylene filter with 0.22 mm. Seed crystals of 0.5-2 mm in size were first obtained by placing 1 ml precursor solutions at 131 °C for 30 min in a hotplate. To obtain a larger FAPbI 3 crystal, we can transfer small-sized crystals to a 1 M pre-heated fresh solution, and continue growth under 90 °C. The as-obtained large-size single crystals were taken out from the hot precursor solutions. The residual solution of the large-size single crystals was removed by ether and subsequently dried at 150 °C for 1 h. The photos of preparing FAPbI 3 crystals and FAPbI 3 -based perovskite precursor solutions are shown in Supplementary Fig.  36 . &#13;</text>
+    </passage>
+    <passage>
+      <offset>39861</offset>
+      <text> Preparation of the Spiro-OMeTAD solution The Spiro-OMeTAD solution was prepared by firstly dissolving 72.3 mg Spiro-OMeTAD in 1 ml CB. After that, 17.5 μl Li-TFSI (from 520 mg ml -1 stock acetonitrile solution) and 28.8 μl tBP was added into the solution. &#13;</text>
+    </passage>
+    <passage>
+      <offset>40121</offset>
+      <text> Preparation of the P3HT layer The P3HT layer was deposited onto perovskite film by spin-coating P3HT solution (P3HT (10 mg) in 1 mL CB) at 3,000 r.p.m. for 30 s. &#13;</text>
+    </passage>
+    <passage>
+      <offset>40285</offset>
+      <text> Preparation of the PTAA layer The PTAA was dissolved in toluene (10 mg ml -1 ) with additives of 7.5 μl bis(trifluoromethane)sulphonimide lithium salt/acetonitrile (170 mg ml -1 ) and 4 μl tBP. PTAA layer was deposited onto perovskite film by spin-coating PTAA solution at 3,000 r.p.m. for 30 s. &#13;</text>
+    </passage>
+    <passage>
+      <offset>40585</offset>
+      <text> Device fabrication The perovskite precursor was spin-coated on FTO/SnO 2 substrates. The first step was carried out at 1,000 r.p.m. with an acceleration rate Article  https://doi.org/10.1038/s41560-023-01249-0  of 200 r.p.m. s -1 for 10 s. The second step followed at 5,000 r.p.m. with an acceleration rate of 1,000 r.p.m. s -1 for 30 s. At the last 15th second, a 110 μl anti-solvent of CB was drop-coated, and then the as-deposited films were annealed at 150 °C for 15 min. After cooling the perovskite-coated substrate, for CBz-PAI treatment, the CBz-PAI solution was dissolved in IPA with different concentrations ranging from 0 mM to 10 mM and spin-coated onto the perovskite surface at a spin rate of 5,000 r.p.m. and annealed at 100 °C for 5 min. For PEAI treatment, the PEAI solution was dissolved in IPA with the concentrations of 20 mM and spin-coated onto the perovskite surface at a spin rate of 5,000 r.p.m. and annealed at 100 °C for 5 min. Then, the Spiro-OMeTAD solution was spin-coated on the perovskite films at 3,000 r.p.m. for 30 s. Finally, gold was deposited using thermal evaporation at a pressure of ~3 × 10 -4 Pa. &#13;</text>
+      <annotation id="29">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">Tin dioxide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-18T09:23:00Z</infon>
+        <location offset="40653" length="5"/>
+        <text>SnO 2</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>41731</offset>
+      <text> PV performance measurements Current-voltage (J-V) characteristics were recorded under ambient temperature (23 °C) and ambient air conditions. The PSCs were measured using a 450 W xenon light source solar simulator (ORIEL Sol3A CLASS AAA 94043A) from Newport and were kept at room temperature by a constant flow of compressed air at a temperature of 23 °C. A silicon photodiode with KG3 filter, calibrated by an A2LA-accredited PV and calibration test laboratory (Newport, PV Calibration Lab), was used as reference cell for light intensity calibration. In the measurement evaluation a spectral mismatch factor of 0.962 was taken into account. It was determined from the solar simulator spectrum, the AM1.5 spectrum and the EQE spectra of the test and reference cells. A Keithley 2400 source meter was used for current-voltage measurements with a scan rate of 50 mV s -1 . The cells with an active area of 0.25 cm 2 (0.5 cm × 0.5 cm) were masked with a black metal mask with an area of 0.158 cm 2 . EQE spectra were recorded with a commercial system (Arkeo-Ariadne, Cicci Research s.r.l.) based on a 300 W xenon light source and a holographic grating monochromator (Cornerstone, Newport). The operational stability of the cells was measured under a white-light-emitting diode lamp with biologic MPG2 potentiostat and was performed under a continuous nitrogen flow. The device area is masked to around 0.16 cm 2 . The light intensity is set to reflect 1 sun condition, and the actual current is adjusted according to in-time calibration results from the silicon diode. &#13;</text>
+    </passage>
+    <passage>
+      <offset>43303</offset>
+      <text> Steady-state MPP and V oc measurements If not otherwise stated, steady-state MPP and V oc measurements were carried out under simulated 1 sun illumination with cooling by a constant flow of compressed air at a temperature of 23 °C for 60 s. For the steady-state V oc measurements we used a black metal mask with an area of 36 mm 2 (6 mm × 6 mm), which is slightly bigger than the cell active area, to homogeneously illuminate the entire cell. This method guarantees that the real stabilized active area V oc is measured and not one that reflects the parallel connection of an illuminated cell and a shaded cell. &#13;</text>
+    </passage>
+    <passage>
+      <offset>43919</offset>
+      <text> NMR measurements 1 H and  13  C NMR spectra were recorded on Bruker Avance III-400 MHz NMR spectrometer. Chemical shifts are reported in parts per million (p.p.m., δ). 1 H NMR and  13  C NMR spectra were referenced to tetramethylsilane (0 p.p.m.) or solvent residual peak (3.58 p.p.m. or 2.50 p.p.m. for 1 H NMR and 67.21 p.p.m. for  13  C NMR) as internal standard. Mass spectra were collected on a HITACHI-80 mass spectrometer. &#13;</text>
+    </passage>
+    <passage>
+      <offset>44352</offset>
+      <text> Photoluminescence lifetime and UV-Vis measurements The photoluminescence lifetime was measured via time-correlated single photon counting using a LifeSpec II (Edinburgh Instruments) fluorescence spectrometer with a picosecond-pulsed diode laser (EPL-510, Edinburgh Instruments) at 510 nm wavelength and 85 ps pulse width. UV-Vis absorption and transmission spectra were measured using a Varian Cary 5 spectrometer (Varian). &#13;</text>
+    </passage>
+    <passage>
+      <offset>44778</offset>
+      <text> Powder X-ray diffraction measurement Powder X-ray diffraction patterns of the mechanosynthesized samples were recorded with a Bruker D8 Discover Vario diffractometer with a Cu Kα1 monochromator (1.540598 Å). &#13;</text>
+    </passage>
+    <passage>
+      <offset>44990</offset>
+      <text> SEM and atomic force microscopy/KPFM measurements The SEM images were acquired using field-emission SEM (Zeiss Merlin). Atomic force microscopy height images and KPFM were attained by a Cypher, Asylum Research in tapping mode, using Pt:Si-coated tips (AC240TM, Olympus). &#13;</text>
+    </passage>
+    <passage>
+      <offset>45263</offset>
+      <text> PLQY measurement PLQY was measured using an integrating sphere (Fluorolog, Horiba JobinYvon), an Andor Kymera 193i spectrograph and a 660 nm continuous-wave laser (OBIS, Coherent) set at 1-sun equivalent photon flux (1.1 μm beam full-width half-maximum, 632 μW); photoluminescence was collected at normal incidence using a 0.1 numerical aperture, 110-μm-diameter optical fibre. For the calibration of the PLQY measurements we used a halogen lamp (HL-3 plus CAL from Ocean Optics). To check the correctness of the calibration we measured PLQY of a dye solution of indocyanine green in DMSO in the same setup and measured PLQY values within 15% deviation from the literature values. &#13;</text>
+    </passage>
+    <passage>
+      <offset>45949</offset>
+      <text> GIWAXS measurements GIWAXS measurements were performed at the Shanghai Synchrotron Radiation Facility Laboratory on Beamline BL14B1 using X-ray with a wavelength of λ ≈ 1.24 Å. Two-dimensional GIWAXS patterns were acquired by a Mar CCD mounted vertically at a distance ~194 mm from the sample with a grazing incidence angle of 0.5° and an exposure time of 50 s. The 2D GIWAXS patterns were analysed using the FIT2D software and displayed in scattering vector q coordinates with q = 4πsinθ/λ, where θ is half of the diffraction angle and λ is the wavelength of incident X-ray. Fig. 1 | 1 Fig. 1 | Synthesis and characterization of CBz-PAI molecule. a, Synthetic route of CBz-PAI. b, The UV-Vis absorption spectra of PbI 2 , CBz-PAI and CBz-PAI/PbI 2 with molar ratio 2:1. The inset shows a digital image of PbI 2 film, CBz-PAI/PbI 2 film. c, CV of CBz-PAI in acetonitrile with 0.1 M LiTFSI (E Fc HOMO = -5.13 V versus vacuum). d, Energy level diagram. The levels for perovskite (FAPbI 3 ) and spiro-OMeTAD were taken from literature 49 ; the ones for CBz-PAI were determined from CV shown in c. &#13;</text>
+      <annotation id="18">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">FAPbI 3</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-11T19:12:43Z</infon>
+        <location offset="46928" length="7"/>
+        <text>FAPbI 3</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-27T09:52:13Z</infon>
+        <location offset="46942" length="12"/>
+        <text>spiro-OMeTAD</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>47055</offset>
+      <text> Photon flux (1/(s m 2 nm)) × 10 18   &#13;</text>
+    </passage>
+    <passage>
+      <offset>47095</offset>
+      <text> Fig. 2 | 2 Fig. 2 | Characterization of the FAPbI 3 perovskite films with (target) and without (control) CBz-PAI treatment. a,b, Top view SEM images of perovskite thin films without CBz-PAI (a) and with CBz-PAI (b); scale bars, 500 nm (a and b). The dotted circles represent PbI 2 at the perovskite surface. c,d, GIXRD patterns of perovskite layers without CBz-PAI (c) and with CBz-PAI (d). e,f, CPD analysis of ITO substrate supported perovskite films without CBz-PAI (e) and with CBz-PAI &#13;</text>
+    </passage>
+    <passage>
+      <offset>47587</offset>
+      <text> Fig. 3 | 3 Fig. 3 | PV performance of the control and target PSCs. The control devices use PEAI and the target devices CBz-PAI as interface passivator. a, An illustration of the device architecture of the target PSCs. b, J-V curves of the control and target PSCs devices measured under reverse scan direction. The comparison of forward and reverse scans are shown in Supplementary Fig. 21. c, The stabilized maximum power output of the control and target PSCs devices. d, IPCE spectrum and integrated current of the control and target PSCs devices. e, Histogram of average PCE values of the control and target devices. f, Light intensity dependence of V OC . The ideality factor n id is calculated from the slope of the linear fit of the semilogarithmic plot. q, electron charge; K, Boltzmann constant; T, Kelvin temperature. &#13;</text>
+    </passage>
+    <passage>
+      <offset>48415</offset>
+      <text> Fig. 4 | 4 Fig. 4 | Optoelectronic characterization. The control samples use PEAI and the target samples CBz-PAI as interface passivator. a, PLQY of complete devices (five individual samples were used; the measurement was done outside the Au contact layer). The centre line represents the median value, the bounds of box indicate upper and lower quartiles and the whiskers represent the minimum and maximum values. b, Stabilized V OC and quasi-Fermi level splitting ΔE F /q for the &#13;</text>
+    </passage>
+    <passage>
+      <offset>48900</offset>
+      <text> 2 Fig. 5 | 25 Fig. 5 | Operational stability test of the control (PEAI as passivator) and target (CBz-PAI) PSC devices. All samples were aged for 1,100 h MPP tracking at 1 sun and 45 °C. a, PCE during 1,100 h stability test under MPP tracking condition (AM 1.5 G, 100 mW cm -2 in N 2 , 45 °C). Cross-sectional SEM images of the full PSC devices. b,c, Control device (b) and target device (c) before and after ageing. The dotted circles represent voids. Voids appear in the perovskite film, which appears to be delaminated at the interfaces with perovskite and HTM layer. d,e, Mapping of TOF-SIMS signals of I -in the HTL for control device (d) and target device (e). &#13;</text>
+    </passage>
+    <passage>
+      <offset>49571</offset>
+      <text> 135.55, 132.72, 127.99, 126.79, 125.12, 124.78, 122.14, 118.42, 115.19, 111.44, 55.39.    HRMS (APPI/LTQ-Orbitrap) m/z: [M + H] + Calcd. for C52H44N3O4, 774.3326; found, 774.3308. 4,4'-(9-(4-nitrophenyl)-9H-carbazole-3,6-diyl)bis(N,N-bis(4-methoxyphenyl)aniline) &#13;</text>
+    </passage>
+    <passage>
+      <offset>49836</offset>
+      <text> Table 2 . 2 C NMR (100 MHz, THF-d8): δ 156.79, 148.32, 141.90, 141.02, 134.96, 133.95, 128.41, 128.06, 126.85, 125.46, 124.91, 122.97, 122.03, 118.48, 115.21, Device 110.51, 55.40. HRMS (APPI/LTQ-Orbitrap) m/z: [M + H] + Calcd. for C58H49N4O4, 865.3748; found, 865.3719. 4-(3,6-bis(4-(bis(4-methoxyphenyl)amino)phenyl)-9H-carbazol-9-yl)benzenaminium iodide (CBz-PAI): Compound 3 (130 mg, 0.15 mmol) was dissolved in 10 mL THF, hydriodic acid 57 wt.% in H2O (67 mg, 0.3 mmol) was added, the mixture was stirred at room temperature for 30 min. The solvent was removed under reduced pressure, 15 1   H NMR (400 MHz, DMSO-d6): δ 8.57 (s, 2H), 7.69-7.67 (m, 2H), 7.63 (d, J = 12 Hz, 4H), 7.55 (d, J = 8 Hz, 2H), 7.37 (d, J = 8 Hz, 2H), 7.29 (d, J = 8 Hz, 2H), 7.06-7.03 (m, 8H), 6.94-6.90 (m, 12H), 3.75 (s, 12H). 13   mL diethyl ether was added, resulting yellowish brown precipitates were collected by filtration and washed with 30 mL diethyl ether to afford CBz-PAI as yellowish brown solid (134 mg, 90% yield). 1   H NMR (400 MHz, DMSO-d6): δ 8.59 (s, 2H), 7.71-7.68 (m, 4H), 7.63 (d, J = 8 Hz, 4H), 7.45 (d, J = 8 Hz, 2H), 7.40 (d, J = 8 Hz, 2H), 7.29 (d, J = 8 Hz, 2H), 7.06-7.04 (m, 8H), 6.94-6.90 (m, 12H), 3.75 (s, 12H). 13 C NMR (100 MHz, THF-d8): δ 156.85, 148.44, 141.87, 141.14, 134.88, 134.11, 128.85, 128.05, 126.87, 125.52, 124.98, 121.99, 121.56, 118.57, 115.21, 110.53, 55.41. HRMS (APPI/LTQ-Orbitrap) m/z: [M] + Calcd. for C58H49N4O4, 865.3748; found, 865.3717. parameters of control and target PSCs devices measured under AM 1.5 G solar irradiation. The devices were measured from both reverse (RS, from 1.2 V to 0 V) and forward scans (FS, from 0 V to 1.2 V) under simulated AM 1.5G solar irradiation at 100 mW cm -2 . &#13;</text>
+    </passage>
+    <passage>
+      <offset>51577</offset>
+      <text> Table 3 . 3 SCAPS simulation parameters Material/Interface Parameter Value Unit Perovskite thickness 500 nm bandgap 1.53 eV electron affinity 3.87 eV relative dielectric constant 30 CB/VB effective density of states 2.0•10 18 1/cm 3 electron/hole thermal velocity 1.0•10 7 cm/s &#13;</text>
+    </passage>
+    <passage>
+      <offset>51861</offset>
+      <text> Article Bifunctional hole-shuttle molecule for improved interfacial energy level alignment and defect passivation in perovskite solar cells Shuai You 1,2,4 , Felix T. Eickemeyer 2,4 , Jing Gao 2 , Jun-Ho Yum 3 , Xin Zheng 1 , Dan Ren 2 , Meng Xia 2 , Rui Guo 1 , Yaoguang Rong 1 , Shaik M. Zakeeruddin 2 , Kevin Sivula 3 , Jiang Tang 1 , Zhongjin Shen 2 , Xiong Li 1 &amp; Michael Grätzel 2 nature energy https://doi.org/10.1038/s41560-023-01249-0 Samples Jsc (mA/cm 2 ) Voc (V) FF(%) PCE(%) Radiative limit 25.1 1.249 90.1 28.2 Transport limit 25.1±0.1 1.106±0.005 84.4±0.9 23.4±0.4 (control device) Transport limit 25.0±0.1 1.142±0.001 84.8±0.8 24.2±0.3 (target device) Jmpp (mA/cm 2 ) Vmpp (V) FF(%) PCE(%) ss-MPP (control 23.2±0.2 0.878±0.007 73.5±0.4 20.4±0.3 device) ss-MPP (target 23.8±0.1 0.919±0.007 76.7±1.1 21.9±0.3 device) Supplementary References &#13;</text>
+    </passage>
+    <passage>
+      <offset>52736</offset>
+      <text> Michael Grätzel Center for Mesoscopic Solar Cells, Wuhan National Laboratory for Optoelectronics, Huazhong University of Science and Technology, Wuhan, China.2  Laboratory of Photonics and Interfaces, Institute of Chemical Sciences and Engineering, École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland.3  Laboratory for Molecular Engineering of Optoelectronic Nanomaterials, Institute of Chemical Sciences and Engineering, École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland.4  These authors contributed equally: Shuai You, Felix T. Eickemeyer. Article https://doi.org/10.1038/s41560-023-01249-0 Received: 16 August 2022 Accepted: 13 March 2023 Published online: 17 April 2023 Check for updates . There have been efforts to introduce interface modulators exhibiting good energy 1 e-mail: zhongjin.shen@epfl.ch; xiongli@hust.edu.cn; michael.graetzel@epfl.ch &#13;</text>
+    </passage>
+    <passage>
+      <offset>53639</offset>
+      <text> Table 1 | PV parameters of the best-performed control and target devices under 1 sun illumination (AM 1.5 G, 100 mW cm -2 ) 1 Sample V oc (V) J sc (mA cm -2 ) FF (%) PCE (%) Control 1.112 25.9 77.6 22.3 Target 1.161 26.1 81.6 24.7</text>
+    </passage>
+    <relation id="R1">
+      <infon key="type">test_2</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T06:51:02Z</infon>
+      <node refid="10" role=""/>
+      <node refid="11" role=""/>
+      <node refid="12" role=""/>
+      <node refid="4" role=""/>
+      <node refid="16" role=""/>
+      <node refid="3" role=""/>
+      <node refid="13" role=""/>
+      <node refid="14" role=""/>
+      <node refid="15" role=""/>
+    </relation>
+    <relation id="R2">
+      <infon key="type">test_1</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T06:50:50Z</infon>
+      <node refid="7" role=""/>
+      <node refid="8" role=""/>
+      <node refid="9" role=""/>
+      <node refid="5" role=""/>
+      <node refid="6" role=""/>
+      <node refid="4" role=""/>
+      <node refid="3" role=""/>
+      <node refid="13" role=""/>
+      <node refid="14" role=""/>
+      <node refid="15" role=""/>
+    </relation>
+  </document>
+</collection>

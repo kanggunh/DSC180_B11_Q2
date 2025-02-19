@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source/>
+  <date/>
+  <key/>
+  <document>
+    <id>250108025037973DGGCAG</id>
+    <infon key="tt_curatable">no</infon>
+    <infon key="tt_version">2</infon>
+    <infon key="tt_round">2</infon>
+    <passage>
+      <offset>0</offset>
+      <text>Paper #: 81&#13;</text>
+    </passage>
+    <passage>
+      <offset>12</offset>
+      <text>Efficient and stable solution-processed planar perovskite solar cells via contact passivation&#13;</text>
+    </passage>
+    <passage>
+      <offset>106</offset>
+      <text>Planar perovskite solar cells (PSCs) made entirely via solution processing at low temperatures (&lt;150°C) offer promise for simple manufacturing, compatibility with flexible substrates, and perovskite-based tandem devices. However, these PSCs require an electron-selective layer that performs well with similar processing. We report a contact-passivation strategy using chlorine-capped TiO 2 colloidal nanocrystal film that mitigates interfacial recombination and improves interface binding in low-temperature planar solar cells. We fabricated solar cells with certified efficiencies of 20.1 and 19.5% for active areas of 0.049 and 1.1 square centimeters, respectively, achieved via low-temperature solution processing. Solar cells with efficiency greater than 20% retained 90% (97% after dark recovery) of their initial performance after 500 hours of continuous room-temperature operation at their maximum power point under 1-sun illumination (where 1 sun is defined as the standard illumination at AM1.5, or 1 kilowatt/square meter). &#13;</text>
+      <annotation id="1">
+        <infon key="type">treatment_element</infon>
+        <infon key="identifier">chlorine capped TitaniumDioxide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T08:38:26Z</infon>
+        <location offset="474" length="48"/>
+        <text>chlorine-capped TiO 2 colloidal nanocrystal film</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">20.9</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:25:10Z</infon>
+        <location offset="691" length="4"/>
+        <text>20.1</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">90</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:09:48Z</infon>
+        <location offset="878" length="3"/>
+        <text>90%</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">time</infon>
+        <infon key="identifier">500</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:18:58Z</infon>
+        <location offset="943" length="3"/>
+        <text>500</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSL</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:12:18Z</infon>
+        <location offset="967" length="80"/>
+        <text>room-temperature operation at their maximum power point under 1-sun illumination</text>
+      </annotation>
+      <relation id="R1">
+        <infon key="type">test_1</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-17T03:49:57Z</infon>
+        <node refid="3" role=""/>
+        <node refid="2" role=""/>
+        <node refid="5" role=""/>
+        <node refid="4" role=""/>
+        <node refid="1" role=""/>
+      </relation>
+    </passage>
+    <passage>
+      <offset>1142</offset>
+      <text> M etal halide perovskite solar cells (PSCs) have attracted extensive research interest for next-generation solution-processed photovoltaic (PV) devices because of their high solar-to-electric power conversion efficiency (PCE) and low fabrication cost  (1) (2) (3) (4) . The top-performing PSCs, which have reached a certified PCE of 22.1%, have relied on hightemperature-sintered (450°to 550°C) mesoporous TiO 2 as the electron-selective layer (ESL)  (5) (6) (7) . However, this high-temperature processing makes manufacture more complex and hampers the development of flexible modules and perovskitebased monolithic tandem devices. To overcome this limitation, researchers have pursued planar PSCs that exploit low-temperature (typically &lt;150°C) solution-processed charge-selective layers. Metal oxide materials such as TiO 2 , ZnO, SnO 2 , and Zn 2 SnO 4 colloidal nanoparticles synthesized at low temperatures have commonly been used as the ESL  (8) (9) (10) (11) (12) (13) (14) (15) (16) . Very recently, high-efficiency (certified 19.9%), small-area PSCs have been achieved using low-temperature-processed SnO 2  (17, 18) . Unfortunately, long-term device operational stability has remained far inferior to that of counterpart devices made using high-temperature-processed ESLs  (19) (20) (21) (22) . Furthermore, the high efficiency and large area required for industrialization have yet to be demonstrated in lowtemperature planar PSCs (table  S5 )  (23) (24) (25) . We reasoned that performance and stability loss in low-temperature planar PSCs could arise from imperfect interfaces and charge recombination between the selective contact at the illumination side and the perovskite film grown on top  (4, 26, 27) , as the perovskite active layers themselves have excellent long-term photostability upon the addition of formamidinium (FA), Cs, and Br ions  (19) (20) (21) (22) 28) . Once the impressively long photocarrier diffusion lengths in perovskite films are achieved, attention must shift to perfecting the interface  (29) (30) (31) (32) . We reasoned that deep trap states present at the perovskite/ ESL interface could potentially be addressed by passivating the interface between the chargeselective contact and the perovskite absorber. We devised a simple and effective interfacepassivation method that leads to efficient and stable low-temperature-processed planar PSCs. Chlorine-capped TiO 2 colloidal nanocrystal (NC) films processed at &lt;150°C were used as the ESL. The chloride additive in perovskite precursor solutions enhances grain-boundary passivation in MAPbI 3-x Cl x (MA, methylammonium cation, CH 3 NH 3 + ) PSCs  (33) (34) (35) (36) . We found that the interfacial Cl atoms on the TiO 2 NCs suppress deep trap states at the perovskite interface and thus considerably reduce interface recombination at the TiO 2 /perovskite contact. The interfacial Cl atoms also lead to strong electronic coupling and chemical binding at the TiO 2 /perovskite planar junction, as projected in previous theoretical studies  (37) . As a result, we fabricated hysteresis-free planar PSCs with independently certified PCEs of 20.1% for small-area devices (0.049 cm 2 ) and 19.5% for large-area devices (1.1 cm 2 ). The low-temperature planar PSCs with high initial PCE &gt;20% exhibit excellent operational stability and retain 90% (97% after dark recovery) of their initial performance after 500 hours operating at their maximum power point (MPP) under constant 1-sun illumination (where 1 sun is defined as the standard illumination at AM1.5, or 1 kW/m 2 ). We first used density functional theory (DFT) to examine defect passivation and interface binding by interfacial chlorine at the TiO 2 /perovskite interface (Fig.  1 , fig.  S1 , and table  S1 )  (38) . We found that Cl at the interface results in stronger binding at the TiO 2 /perovskite interface for both the cases of MAX-and PbX 2 -terminated (X = Cl, I) perovskite surfaces. Perovskite films with the PbX 2 -terminated interface are energetically favored to contact the TiO 2 . Previous studies  (39) (40) (41)  have shown that, in bulk perovskites, the most detrimental defects (deep-level defects) are antisites but that their formation energy is relatively high, which explains the low trap-state density in MAPbI 3 perovskite films and single crystals. Vacancies and interstitials, although much more abundant, are shallow defects. We thus explored the effect of Cl at the interface on both antisite and vacancy defects. Without Cl, a Pb-I antisite defect leads to localized states near the valence band edge (Fig.  1A ). These states can capture holes and become nonradiative recombination centers. In contrast, the formation energy of the Pb-Cl antisite at the PbCl 2 -terminated interface is higher (i.e., less favorable to form), which indicates that antisite defects are suppressed in the presence of interfacial Cl atoms. The Pb-Cl antisite defect becomes much shallower and more delocalized (Fig.  1B ) and has little effect on interface recombination. Overall, the incorporation of Cl atoms at the TiO 2 /perovskite interface resulted in a lower density of interfacial trap states (fig.  S1, B  and D ), as well as stronger binding between TiO 2 and perovskite (table  S1 ). We devised a synthetic approach to obtain Cl-capped TiO 2 NCs as the ESL in solar cells. We first synthesized ~5-nm-diameter anatase TiO 2 NCs (fig.  S2 )  (38)  via a nonhydrolytic method through the reaction of TiCl 4 and benzyl alcohol at 85°C under ambient atmosphere  (42, 43) . This process resulted in Cl-capped TiO 2 NCs (TiO 2 -Cl) with 12 ± 2 atomic % of Cl relative to Ti atoms, as determined by x-ray photoelectron spectroscopy (XPS) (Fig.  1C ). A mixture of methanol and chloroform was used to disperse the NCs while preserving surface Cl ligands. XPS confirmed that surface Cl ligands were well retained after we formed films from a methanolchloroform cosolvent (Fig.  1C ). In contrast, the surface Cl ligands were detached from TiO 2 surfaces when the washed NCs were redispersed in ethanol with a stabilizer such as titanium diisopropoxide bis(acetylacetonate) (TiAcAc). Such TiO 2 NCs that lack Cl ligands-the ESL materials used in previous reports (8, 9)-were taken as controls in the present study. Henceforth, we refer to the TiO 2 ESL with Cl ligands as TiO 2 -Cl and the TiO 2 ESL lacking the Cl ligands as TiO 2 . The Cl atoms were strongly bound to TiO 2 , and the Cl ligands of TiO 2 thin film were retained on the surface after annealing up to 250°C (Fig.  1D ). We fabricated planar PSCs with TiO 2 as the ESL with the device architecture of Fig.  2A . The TiO 2 -Cl film on indium tin oxide (ITO)coated glass obtained by spin-coating was smooth and pinhole-free (Fig.  2B  and fig.  S3A ). The film also exhibited negligible parasitic absorption loss over the entire visible-to-near-infrared spectral range (fig.  S3B ). Post-annealing treatment at moderate temperatures was applied to improve the quality of the spin-cast TiO 2 -Cl film. The best PV performance was achieved with a TiO 2 -Cl annealing temperature of 150°C (table  S2  and fig.  S4 ). The mixed cation-halide perovskite layer FA 0.85 MA 0.15 PbI 2.55 Br 0.45 , with a thickness of ~600 nm, was deposited on the TiO 2 -Cl film using the antisolvent method  (38, 44, 45) . The processing solvent for perovskite precursors (e.g., dimethylsulfoxide) did not remove surface Cl ligands from the TiO 2 -Cl film (fig.  S5 ). The bulk quality of perovskite films was similar on both TiO 2 -Cl and TiO 2 , a consequence of their identical processing. Smooth pinhole-free perovskite films with uniform and large grains were formed on both TiO 2 -Cl and TiO 2 (Fig.  2C    and fig.  S6 ). As expected from the stoichiometric ratio of the precursors, x-ray diffraction (XRD) spectra show no obvious PbI 2 nor other nonperovskite phases in films (Fig.  2D ). The sharp absorption edge and narrow photoluminescence (PL) spectrum of the perovskite film confirm a homogenous and single-phase material (fig.  S7 ). The perovskite films on both TiO 2 -Cl and TiO 2 exhibit a very low trap-state density of ~3 × 10 15 cm -3 , as determined using the space-charge limited current method (fig.  S8 ). The band alignment between TiO 2 -Cl (or TiO 2 ) and perovskite was determined from ultraviolet (UV) photoelectron spectroscopy and absorption measurements (fig.  S9 ). The excellent match in conduction band minimum between TiO 2 -Cl and perovskite allowed efficient electron transfer into TiO 2 -Cl, whereas the high offset in valence band maximum provided efficient hole blocking. We used steady-state and time-resolved PL spectroscopy to study the charge transfer kinetics between perovskite and ESLs. When perovskite films were formed on TiO 2 and TiO 2 -Cl, the steady-state PL was quenched because of fast electron transfer to the ESLs (Fig.  2E ). Figure  2F  shows the PL decays of the perovskite films on bare glass and on the TiO 2and TiO 2 -Cl-coated ITO glass substrates. Table  S3  summarizes the decays fit for biexponential components, a fast decay lifetime t 1 , and a slow decay lifetime t 2 . The perovskite film on bare glass had a long lifetime (t 2 ) of 470 ns. The PL lifetimes of perovskite films on ESLs were shortened to a similar degree for both TiO 2 and TiO 2 -Cl. This result indicates that both ESLs had sufficient electron extraction in solar cells, consistent with the good band alignments between the ESLs and perovskite. To explore the effect of interfacial Cl atoms on the PV performance of planar PSCs, we made devices on the TiO 2 -Cl and control TiO 2 ESLs. Figure  S10  presents the statistical performance of 40 devices fabricated with otherwise-identical device processing on each type of ESL. Solar cells fabricated on TiO 2 -Cl exhibit considerably better performance than those on TiO 2 for all PV metrics: The average open-circuit voltage (V oc ) increased from 1.06 to 1.14 V with the incorporation of Cl, and the average fill factor (FF) increased from 69 to 77%. Correspondingly, TiO 2 -Cl resulted in a higher average PCE (19.8%) than the Cl-free TiO 2 (15.8%). Device performance measured after optimization is shown in Fig.  3A  and table  S4 . Our results confirm that the interfacial Cl atoms, not the bulk properties of TiO 2 ESLs, dominate the performance of these PSCs. Figure  3B  shows a histogram of PCE values over 200 planar PSCs fabricated on TiO 2 -Cl within a period of 3 months. Excellent reproducibility is indicated by the narrow distribution of PCE values. The best-performing devices with TiO 2 -Cl reached a PCE of 20.9%. The PCE from current density-voltage (J-V) sweeps is consistent with the stabilized maximum power output (fig.  S11 ). The external quantum efficiency (EQE) spectrum (fig.  S12 ) exhibited a broad plateau above 80% over the spectral range from 400 to 760 nm because of strong light harvesting within the thick perovskite film. Integration of the EQE curve with the AM1.5G solar spectrum yielded a photocurrent density of 22.6 mA cm -2 , in good agreement with the short-circuit current density (J sc ) value from J-V characterization. We also examined the hysteresis of solar cells made on TiO 2 -Cl and TiO 2 (Fig.  3A  and table  S4 ). Devices on TiO 2 -Cl showed negligible hysteresis, whereas devices made on TiO 2 exhibit strong hysteresis, similar to previous studies using low-temperature TiO 2 as the ESL  (8, 9) . The PV parameters of the Cl-free devices varied substantially with respect to scan direction. To gain further insight into the performance enhancement resulting from the use of TiO 2 -Cl, we characterized perovskite film properties, charge-transfer kinetics, and charge recombination in solar cells with TiO 2 and TiO 2 -Cl. The bulk quality of perovskite films and charge transfer were similar on both ESLs. Transient photocurrent decay under short-circuit conditions was obtained to study the influence of the ESL on charge transfer in solar cells (Fig.  3C ). Cells with the two ESLs had a comparable chargetransport lifetime (t t ~3.4 ms), indicating similar interfacial charge transfer. This similarity implies that either bulk quality or interfacial charge transfer is not the main reason for the solar cell performance enhancement by TiO 2 -Cl. We used transient photovoltage decay under the open-circuit condition to characterize solar cells and found that the charge-recombination lifetime (t r ) of the device on TiO 2 -Cl was substantially longer than that of the device on TiO 2 (145 versus 64 ms) (Fig.  3D ), consistent with slowed charge recombination at the TiO 2 -Cl/ perovskite interface. The reduced ideality factor of solar cells with TiO 2 -Cl (n = 1.25) compared to those with TiO 2 (n = 1.73) is consistent with suppressed interfacial recombination (fig.  S13 ). As seen in the DFT studies, interfacial Cl atoms suppress the formation of deep trap states on the surface of perovskite films, leading to improved surface passivation and reduced interfacial recombination. To examinetheapplicability of TiO 2 -Cl toother highefficiency PSCs, we fabricated devices using cesiumcontaining perovskite Cs 0.05 FA 0.81 MA 0.14 PbI 2.55 Br 0.45 (denoted as CsMAFA), which had been shown to improve performance and photostability compared with FA 0.85 MA 0.15 PbI 2.55 Br 0.45 (denoted as MAFA)  (22, 46, 47) . The best-performing small-area CsMAFA solar cell (0.049 cm 2 ) exhibited a high laboratory PCE of 21.4% (V oc = 1.189 V, J sc = 22.3 mA/cm 2 , FF = 0.806) without hysteresis in J-V sweeps (Fig.  3E ). We also fabricated large-area (1.1 cm 2 ) CsMAFA solar cells on TiO 2 -Cl, showing a PCE value &gt;20% with negligible hysteresis (Fig.  3F ). A small-area and a large-area device were sent, without encapsulation, to an accredited independent PV test laboratory (Newport Corporation PV Lab, Montana, USA) for certification. These devices produced certified PCEs of 20.1 and 19.5%, respectively (figs. S14 to S16). The large-area device exhibited ~3% performance loss relative to the small-area device. The certified PCE of 19.5% for the large-area, low-temperature planar PSC exceeds that of other reported lowtemperature or planar PSCs  (24, 25) , and it approaches the certified PCE of large-area cells that relied on high-temperature-sintered mesoporous TiO 2 (table S5)  (23, 38, 48) . We examined the long-term stability of lowtemperature planar PSCs made on TiO 2 -Cl and TiO 2 under dark storage as well as under operating conditions. The long-term stability of PSCs is closely related to the front ESL/perovskite interface binding strength and interfacial charge accumulation during operation  (49, 50) . The devices made on TiO 2 -Cl showed substantially enhanced stability relative to TiO 2 under dark storage (Fig.  4A ). MAFA-based devices on TiO 2 -Cl maintained 95% of their initial PCE after storage in the dark over 60 days, whereas those on TiO 2 only retained 38% of their initial efficiency (Fig.  4A ). The high-efficiency CsMAFA devices on TiO 2 -Cl (initial PCE &gt; 21%) exhibited promising shelf stability, retaining 96% of their initial performance after 90 days (more than 2000 hours). Solar cells must operate stably under MPP conditions. The MAFA solar cells based on TiO 2 -Cl showed improved stability under continuous operation at MPP, as compared with devices based on TiO 2 (fig.  S17 ). The CsMAFA solar cells on TiO 2 -Cl (with a 420-nm cutoff UV filter) retained 90% of their initial performance after continuous operation for 500 hours under 1-sun illumination, as directly determined from the MPP tracking (Fig.  4B ). The PCE increased slightly in the first tens of hours of MPP operation, which may be caused by lightinduced defect healing in the perovskite active layer  (19, 51) . No perovskite decomposition was observed after MPP operation, as seen from the XRD results (fig.  S18 ), which indicates that the performance drop during MPP operation may be caused by defect generation in the perovskite layer  (52, 53)  and changes to the perovskite/ spiro-OMeTAD interface (the latter has previously been shown to be vulnerable)  (54) (55) (56) . The device self-recovered to an efficiency of 19.8% (97% of initial PCE) following dark storage (Fig.  4C ), consistent with previous reports  (18, 19, 52) . Overall, the stronger binding at the TiO 2 -Cl/ perovskite interface and the suppressed interfacial recombination account for superior stability in planar PSCs based on TiO 2 -Cl. The new approach to fabricate efficient and stable PSCs is simple and scalable, compatible with future industrialization of perovskite-based PV technology. It offers a promising path to flexible devices and, in combination with low-band-gap semiconductor materials, to the formation of tandem devices.  &#13;</text>
+      <annotation id="6">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">chlorine capped TitaniumDioxide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:17:14Z</infon>
+        <location offset="3533" length="21"/>
+        <text>Chlorine-capped TiO 2</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">90</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:09:48Z</infon>
+        <location offset="4479" length="3"/>
+        <text>90%</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">time</infon>
+        <infon key="identifier">500</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:18:57Z</infon>
+        <location offset="4544" length="3"/>
+        <text>500</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">FA 0.85 MA 0.15 PbI 2.55 Br 0.45</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-11T19:48:17Z</infon>
+        <location offset="8327" length="32"/>
+        <text>FA 0.85 MA 0.15 PbI 2.55 Br 0.45</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">chlorine capped TitaniumDioxide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:21:46Z</infon>
+        <location offset="8675" length="9"/>
+        <text>TiO 2 -Cl</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">TitaniumDioxide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:21:51Z</infon>
+        <location offset="8689" length="5"/>
+        <text>TiO 2</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">chlorine capped TitaniumDioxide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:15:14Z</infon>
+        <location offset="10742" length="9"/>
+        <text>TiO 2 -Cl</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">TitaniumDioxide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:15:24Z</infon>
+        <location offset="10764" length="5"/>
+        <text>TiO 2</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">control_voc</infon>
+        <infon key="identifier">1.06</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:23:45Z</infon>
+        <location offset="11087" length="4"/>
+        <text>1.06</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">treated_voc</infon>
+        <infon key="identifier">1.14</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:23:34Z</infon>
+        <location offset="11095" length="4"/>
+        <text>1.14</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">20.9</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:25:10Z</infon>
+        <location offset="11252" length="4"/>
+        <text>19.8</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">control_pce</infon>
+        <infon key="identifier">15.8</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:24:38Z</infon>
+        <location offset="11283" length="4"/>
+        <text>15.8</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">20.9</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:25:19Z</infon>
+        <location offset="11765" length="4"/>
+        <text>20.9</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">Cs0.05FA0.81MA0.14PbI2.55Br0.45</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-11T22:55:04Z</infon>
+        <location offset="14313" length="40"/>
+        <text>Cs 0.05 FA 0.81 MA 0.14 PbI 2.55 Br 0.45</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSD</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:28:59Z</infon>
+        <location offset="15607" length="11"/>
+        <text>dark storag</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">treatment_element</infon>
+        <infon key="identifier">chlorine capped TitaniumDioxide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T08:39:27Z</infon>
+        <location offset="15972" length="9"/>
+        <text>TiO 2 -Cl</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">95</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:09:58Z</infon>
+        <location offset="15993" length="3"/>
+        <text>95%</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="type">time</infon>
+        <infon key="identifier">1440</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:30:16Z</infon>
+        <location offset="16049" length="7"/>
+        <text>60 days</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">efficiency_cont</infon>
+        <infon key="identifier">38</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:10:01Z</infon>
+        <location offset="16095" length="3"/>
+        <text>38%</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:32:26Z</infon>
+        <location offset="17206" length="12"/>
+        <text>spiro-OMeTAD</text>
+      </annotation>
+      <relation id="R2">
+        <infon key="type">test_2</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-17T03:49:57Z</infon>
+        <node refid="20" role=""/>
+        <node refid="22" role=""/>
+        <node refid="23" role=""/>
+        <node refid="24" role=""/>
+        <node refid="21" role=""/>
+      </relation>
+    </passage>
+    <passage>
+      <offset>17954</offset>
+      <text> Materials and Methods &#13;</text>
+    </passage>
+    <passage>
+      <offset>17978</offset>
+      <text> Density function theory calculation The DFT calculations were performed using a Perdew-Burke-Ernzerhof generalized gradient exchange correlational function  [57] . All calculations were performed with mixed Gaussian and plane-wave basis set, using the molecularly optimized MOLOPT double ζ-valence polarized basis set as implemented in the quantum chemistry code CP2K  [58] . The charge density cutoff was fixed at 400 Ry along with a five-level multigrid and a relative energy cutoff of 60 Ry  [58] . The structural optimizations were performed using the Broyden-Fletcher-Goldfarb-Shanno algorithm  [59]  until forces on all atoms were less than 10 -4 Ha/Bohr. The TiO 2 /MAPbI 3 interface was modeled using the (110)-TiO 2 /(110)-MAPbI 3 surface as discussed by De Angelis et al.  [37]  for which interface lattice-mismatch is minimal. A 3×5×3 perovskite slab consisting of 45 MAPbI 3 units with (110) exposed face was placed in contact with 5×3×2 slab of anatase TiO 2 consisting of 120 TiO 2 units with (110) exposed face. A vacuum of 15 Å was employed in the cross-plane direction (perpendicular to the interface) along with the periodic boundary conditions in the inplane directions. The lattice parameters of TiO 2 were fixed at the experimentally observed values and the MAPbI 3 slab was allowed to relax. Both MAX and PbX 2 (X=I, Cl) terminated perovskite surfaces were considered. The effect of Cl was taken into account by replacing all I atoms at the interface by Cl atoms. Only charge-neutral defects are considered in our calculations. MAX vacancy and PbX 2 vacancy, Pb-X antisite defects were considered in the case of MAX and PbX 2 terminated surfaces. For vacancy defects, one MAX or PbX 2 was randomly removed from the TiO 2 /MAPbX 3 interface; and for antisite defects, the positions of neighboring Pb and X atoms were flipped at the interface. The defect formation energies were calculated as: E ^F = E _product -E _pure , where E ^F is the formation energy of defect, E _product is the energy of TiO 2 /MAPbX 3 system with a defect (sum of energies of TiO 2 /MAPbI 3 system and one MAX/PbX 2 unit, in the case of MAX/PbX 2 vacancy defect) and E _pure is the energy of TiO 2 /MAPbI 3 in the absence of a defect. &#13;</text>
+    </passage>
+    <passage>
+      <offset>20218</offset>
+      <text> Synthesis of TiO 2 nanocrystals The TiO 2 nanocrystals were synthesized following modified non-hydrolytic sol-gel method with all procedures in the ambient air. Firstly, 4 mL TiCl 4 (99.9%, Sigma-Aldrich) was injected drop by drop into 16 mL cold anhydrous ethanol (stored in the fridge before use) with strong stirring to avoid local overheating of ethanol. After the solution cooled down to room temperature, 80 mL of anhydrous benzyl alcohol was added to the previous solution after cooling and stirred for 10 min. The original yellow solution became reddish after the addition of benzyl alcohol. The mixed solution was then transferred into a 200-mL vail, which was firmly sealed and stored without stirring in an oven at 85 °C for 12 hours. After heating for one hour, the solution became yellow again. The product TiO 2 nanocrystals were then precipitated from the as-obtained solution by the addition of diethyl ether and isolated by centrifugation at 5000 rpm for 2 min. The solid was subsequently washed by adding anhydrous ethanol and diethyl ether, followed by a similar centrifugation step (5000 rpm for 2 min). This washing procedure was repeated for twice. To obtain the chlorine-capped TiO 2 (TiO 2 -Cl) colloidal solution (~5 mg/mL), the washed TiO 2 nanocrystals were dispersed into anhydrous chloroform and anhydrous methanol (1:1 volume ratio). The solution is transparent and can be stable in air for at least 6 months without precipitation. To get non-Cl capped TiO 2 (TiO 2 ) colloidal solution, the washed TiO 2 nanocrystals were dispersed in anhydrous ethanol (concentration around 6 mg/mL) by the addition of titanium diisopropoxide bis(acetylacetonate) (15 µL/mL). The obtained solution are transparent and shows slight yellow color. &#13;</text>
+    </passage>
+    <passage>
+      <offset>21982</offset>
+      <text> Planar perovskite solar cell fabrication The pre-patterned indium tin oxide (ITO, TFD Devices) coated glass was sequentially cleaned using detergent, acetone, and isopropanol. The TiO 2 -Cl and TiO 2 electron transport layers (ETLs) were spin-coated on ITO substrates from the colloidal TiO 2 nanocrystal solutions, and annealed on a hot plate at the displayed temperature of 150 °C for 30 min in ambient air. The thicknesses of TiO 2 -Cl and TiO 2 ETLs are about 60 and 50 nm, respectively. After the substrates had cooled, we transferred the TiO 2 -coated substrates immediately to a nitrogen-filled glovebox for the deposition of perovskite films. The FA 0.85 MA 0.15 PbI 2.55 Br 0.45 precursor solution (1.2 M) was prepared in a mixed solvent of DMF and DMSO with a volume ratio of 4:1. The molar ratios for PbI 2 /PbBr 2 and FAI/MABr were both fixed at 0.85:0.15, and the molar ratio of (FAI+MABr)/(PbI 2 +PbBr 2 ) was fixed at 1:1. The Cs 0.05 FA 0.81 MA 0.14 PbI 2.55 Br 0.45 precursor solution (1.2 M) was prepared with molar ratios of PbI 2 /PbBr 2 and FAI/MABr both fixed at 0.85:0.15, molar ratio of CsI/(FAI+MABr)=0.05:0.95, and the molar ratio of (FAI+MABr+CsI)/(PbI 2 +PbBr 2 ) was fixed at 1:1. The perovskite films were deposited onto the TiO 2 substrates with two-step spin coating procedures. The first step was 2000 rpm for 10 s with an acceleration of 200 rpm/s. The second step was 4000 rpm for 20 s with a ramp-up of 1000 rpm/s. Chlorobenzene (100 µL) was dropped on the spinning substrate during the second spincoating step at 10 s before the end of the procedure. To form a thick but still smooth perovskite film, chlorobenzene was slowly dropped on the precursor film within ~3 seconds to allow sufficient extraction of extra DMSO through the entire precursor film. The substrate was then immediately transferred on a hotplate and heated at 100 °C for 10 min. After cooling down to room temperature, the hole-transport layer was subsequently deposited on top of the perovskite film by spin coating at 4000 rpm for 30 s using a chlorobenzene solution which contained 65 mg/mL of Spiro-OMeTAD and 20 µL/mL of tert-butylpyridine, as well as 70 µL/mL of bis(trifluoromethane)sulfonimide lithium salt (170 mg/mL in acetonitrile). Finally, 100 nm Au contact was deposited on top of Spiro-OMeTAD by electron-beam evaporation in an Angstrom Engineering deposition system. &#13;</text>
+      <annotation id="26">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-08T08:32:46Z</infon>
+        <location offset="24086" length="12"/>
+        <text>Spiro-OMeTAD</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>24378</offset>
+      <text> Solar cell characterization The current density-voltage (J-V) characteristics were measured using a Keithley 2400 sourcemeter under the illumination of the solar simulator (Newport, Class A) at the light intensity of 100 mW cm -2 as checked with a calibrated reference solar cell (Newport). Unless otherwise stated, the J-V curves were all measured in a nitrogen atmosphere with a scanning rate of 50 mV s -1 (voltage step of 10 mV and delay time of 200 ms). The steady-state PCE, PCE(t), was measured by setting the bias voltage to the V MPP and then tracing the current density. The V MPP at maximum power point was determined from the J-V curve. The active area was determined by the aperture shade mask (0.049 cm 2 for small-area devices and 1.1 cm 2 for large-area devices) placed in front of the solar cell to avoid overestimation of the photocurrent density. Spectral mismatch factor of 1 was used for all J-V measurements. EQE measurements were performed using an in-house built system with monochromatic light and white bias light (~0.1 Sun). The photodiode used for the calibration of EQE measurements has been calibrated by Newport. The dark long-term stability assessment of solar cells was carried out by repeating the J-V characterizations over various times. The devices without encapsulation were stored in a cabinet with dry air with relative humidity &lt; 30%. The stability test at continuous MPP operation under 1 Sun, AM 1.5G illumination was carried out in nitrogen by fixing the voltage at V MPP and then tracking the current output. A 420-nm cutoff UV-filter was applied in front of the solar cells during the MPP tracking tests. The cells were purged with nitrogen flow for 1 hour before MPP tracking to get rid of residual moisture on the surface. We found that even residual moisture could cause much faster degradation, especially under MPP operational conditions. &#13;</text>
+    </passage>
+    <passage>
+      <offset>26270</offset>
+      <text> Other characterizations High-resolution SEM images were obtained using the Hitachi S-5200 microscope with an accelerating voltage of 1 kV. HRTEM samples were prepared by adding a drop of the solution of TiO 2 nanocrystals onto an ultrathin-carbon film on lacey-carbon support film (Ted Pella 01824) and subsequently imaged using Hitachi HF3300 operating at 300 kV. XRD patterns were collected using a Rigaku MiniFlex 600 diffractometer equipped with a NaI scintillation counter and using monochromatized Copper Kα radiation (λ = 1.5406 Å). XPS analysis was carried out using the Thermo Scientific K-Alpha XPS system, with a 300 μm spot size, 75 eV pass energy, and energy steps of 0.05 eV. TiO 2 thin films were prepared on ITO substrates and electron flood gun was used for charge compensation to avoid peak shifting. All signals were normalized to Ti for direct comparison between different samples. Optical absorption measurements were carried out in a Lambda 950 UV/Vis spectrophotometer. Photoluminescence (PL) was measured using a Horiba Fluorolog time correlated single-photon-counting system with photomultiplier tube detectors. The light was illuminated from the perovskite film side. The excitation source is a laser diode at a wavelength of 540 nm. Transient photocurrent/photovoltage decays were measured on a home-made system. For the transient photovoltage decay measurements, a 480-nm light emitting diode was used to modulate the V oc with a constant light bias. The pulse duration is set to 1 µs and the repetition rate to 500 Hz. For the constant light bias, a continuous light source from a Xe lamp was coupled through a fiber to collimate on the active area of the solar cell under study. The intensity of the pulsed laser was set in a way that the modulated V oc was ~10 mV to               Fig. 2 . 2 Fig. 2. Device structure and characterization of perovskite films on TiO 2 -Cl. (A) Device structure and cross-sectional scanning electron microscopy (SEM) image of planar perovskite solar cells (PSCs). (B and C) Top-view SEM images of the TiO 2 -Cl film on an ITO substrate (B) and the perovskite film on TiO 2 -Cl (C). (D) XRD patterns of perovskite films on TiO 2 and TiO 2 -Cl. (E) Steady-state PL spectra and (F) time-resolved PL decays of perovskite films on bare glass and on TiO 2 -and TiO 2 -Cl-coated ITO substrates. The PL signals of perovskite films on TiO 2 and TiO 2 -Cl were effectively quenched by the fast charge extraction by TiO 2 and TiO 2 -Cl. &#13;</text>
+    </passage>
+    <passage>
+      <offset>28765</offset>
+      <text> Fig. 1 . 1 Fig. 1. The effect of Cl on interface quality between perovskite and TiO 2 , and stabilization of Cl-capped TiO 2 (TiO 2 -Cl) colloidal nanocrystals. (A) Trap-like localized antisite defects form near the valence band edge for the PbI 2 -terminated TiO 2 /perovskite interface. (B) Shallow and delocalized Pb-Cl antisite defects are seen for the PbCl 2 -terminated interface. (C and D) XPS spectra of Cl 2p peaks of (C) TiO 2 NC films [as-synthesized, redispersed in the cosolvent of methanol and chloroform (MeOH + CF), and redispersed in ethanol with titanium diisopropoxide bis(acetylacetonate) as stabilizer (EtOH + TiAcAc)] and (D) TiO 2 -Cl NC films with various post-annealing temperatures [room temperature (RT) and 100°, 150°, and 250°C]. a.u., arbitrary units. &#13;</text>
+    </passage>
+    <passage>
+      <offset>29552</offset>
+      <text> Fig. 3 . 3 Fig. 3. Enhanced photovoltaic performance of perovskite solar cells with TiO 2 -Cl. (A) J-V curves of PSCs with TiO 2 and TiO 2 -Cl as electron-selective layers (ESLs) measured at reverse and forward scans. (B) Histogram of the power conversion efficiency (PCE) values among 204 devices on TiO 2 -Cl. (C) Normalized transient photocurrent decay and (D) normalized transient photovoltage decay of solar cells with TiO 2 and TiO 2 -Cl as ESLs. Devices shown in (A) to (D) have the perovskite composition of MAFA. t t , charge-transport life-time; t r , charge-recombination lifetime. (E) J-V curves of the best-performing small-area (0.049 cm 2 ) CsMAFA PSC measured at reverse and forward scans. (F) J-V curves of the best-performing large-area (1.1 cm 2 ) CsMAFA PSC, showing a PCE of 20.3% (V oc = 1.196 V, J sc = 22.2 mA cm -2 , FF = 76.4%) at the reverse scan. The inset shows a photo of the large-area device. MAFA and CsMAFA denote the perovskite compositions of FA 0.85 MA 0.15 PbI 2.55 Br 0.45 and Cs 0.05 FA 0.81 MA 0.14 PbI 2.55 Br 0.45 , respectively. &#13;</text>
+    </passage>
+    <passage>
+      <offset>30627</offset>
+      <text> Fig. 4 . 4 Fig.4. Long-term device stability of perovskite solar cells with TiO 2 -Cl and TiO 2 . (A) Dark storage stability of nonencapsulated PSCs using TiO 2 and TiO 2 -Cl.The unsealed cells were kept in a dry cabinet (&lt;30% relative humidity) in the dark and measured regularly in nitrogen. PCE values were obtained from the reverse scans. (B) Continuous maximum power point (MPP) tracking for 500 hours of a highperformance unsealed CsMAFA cell with TiO 2 -Cl in nitrogen atmosphere under constant simulated solar illumination (100 mW cm -2 ) with a 420-nm cutoff UV filter. PCE values taken from reverse J-V scans (square symbols) are shown as well; the device retains 95% of its initial performance, as determined from reverse J-V scans. (C) J-V curves of the PSC (CsMAFA) from (B) at various stages: &#13;</text>
+    </passage>
+    <passage>
+      <offset>31436</offset>
+      <text> ensure a perturbation regime. The open circuit voltage transient, induced by the light perturbation was measured with a digital oscilloscope set to an input impedance of 1 MΩ. The charge recombination lifetime was fitted by single exponential decay. &#13;</text>
+    </passage>
+    <passage>
+      <offset>31689</offset>
+      <text> Fig. S2 . S2 Fig. S2. Synthesis and stabilization of Cl-capped TiO 2 (TiO 2 -Cl) colloidal nanocrystals. (A) TiO 2 -Cl nanocrystals were obtained by dispersing the as-synthesized NCs in the cosolvent system methanol and chloroform. The controls, TiO 2 without Clligands, were dispersed in ethanol with titanium diisopropoxide bis(acetylacetonate) (TiAcAc) as the stabilizer, where the Cl-ligands were exchanged by acetylacetonate (AcAc) ligands. (B) HR-TEM images of TiO 2 -Cl nanocrystals. The nanocrystals are crystalline and have a diameter of ~5 nm. &#13;</text>
+    </passage>
+    <passage>
+      <offset>32245</offset>
+      <text> Fig. S3 . S3 Fig. S3. Morphology and absorption of TiO 2 -Cl nanocrystal film on ITO-coated glass substrate. (A) AFM height image of TiO 2 -Cl film deposited on ITO substrate showing a surface roughness of ~4 nm. (B) Absorptance (1-reflection-transmission) of the TiO 2 -Cl film (on glass) which exhibits high transparency and an optical bandgap of 3.4 eV. &#13;</text>
+    </passage>
+    <passage>
+      <offset>32604</offset>
+      <text> Fig. S4 . S4 Fig. S4. J-V curves of perovskite solar cells with TiO 2 -Cl films with various postannealing temperatures. The devices showed optimal performance at the annealing temperature of 150°C. &#13;</text>
+    </passage>
+    <passage>
+      <offset>32806</offset>
+      <text> Fig. S5 . S5 Fig. S5. XPS spectra depicting the Cl 2p peak of the TiO 2 -Cl film without any treatment, washed with DMSO solvent, and washed with DMSO solvent after perovskite film deposition. It clearly shows that the perovskite precursor solvent, e.g. DMSO, could not wash away the Cl-ligands on TiO 2 surface. Once the interfacial Cl atoms are incorporated into the perovskite crystal at TiO 2 -Cl/perovskite interface, the interfacial Cl atoms in the perovskite can be dissolved in DMSO solvent. The weak Cl 2p signal could be from the underlying Cl-ligands (away from the TiO 2 /perovskite interface, no contact with perovskite film) in the bulk of TiO 2 -Cl NC film. &#13;</text>
+    </passage>
+    <passage>
+      <offset>33481</offset>
+      <text> Fig. S6 . S6 Fig. S6. Top-view SEM images of perovskite films and cross-sectional SEM images of planar PSCs on TiO 2 -Cl (A-B) and TiO 2 (C-D). The perovskite films exhibit similar characteristics on both TiO 2 -Cl and TiO 2 . &#13;</text>
+    </passage>
+    <passage>
+      <offset>33710</offset>
+      <text> Fig. S7 . S7 Fig. S7. Absorbance and PL spectra of perovskite film formed on glass substrate. &#13;</text>
+    </passage>
+    <passage>
+      <offset>33806</offset>
+      <text> Fig. S9 . S9 Fig. S9. Band alignments of TiO 2 and TiO 2 -Cl with the perovskite films grown on top as determined from the UPS and absorption measurements. &#13;</text>
+    </passage>
+    <passage>
+      <offset>33964</offset>
+      <text> Fig. S10 . S10 Fig. S10. Comparison of the photovoltaic performance of PSCs with TiO 2 and TiO 2 -Cl ESLs. Devices were measured at reverse scan with a delay time of 200 ms and voltage step of 10 mV. Statistics of 40 devices for each ESL are shown. The devices were fabricated at 8 otherwise-identical runs. &#13;</text>
+    </passage>
+    <passage>
+      <offset>34274</offset>
+      <text> Fig. S11 . 2 FigFig. S13 . S112S13 Fig. S11. Stabilized maximum power output and the photocurrent density at maximum power point as a function of time for the best performing PSC as shown in Figure 4a recorded under simulated one-sun AM1.5G illumination. &#13;</text>
+    </passage>
+    <passage>
+      <offset>34531</offset>
+      <text> Fig. S15 . S15 Fig. S15. The certified result of the large-area CsMAFA perovskite solar cell. The device has an active area of 1.1 cm 2 and a PCE of 19.5% (V oc =1.195 V, J sc =21.5 mA cm -2 , and FF=75.7%) with negligible hysteresis. &#13;</text>
+    </passage>
+    <passage>
+      <offset>34768</offset>
+      <text> Fig. S17 . S17 Fig. S17. Operation stability of unsealed MAFA perovskite solar cells under continuous one-sun full light illumination (AM 1.5G; 100 mW cm -2 ) without UVfilter. The cells were operating at maximal power point continuously under nitrogen. &#13;</text>
+    </passage>
+    <passage>
+      <offset>35024</offset>
+      <text> Fig. S18. XRD pattern of CsMAFA device after 500 hour MPP operation measured from the Au electrode. Neither yellow-phase nor PbI 2 phase was observed. &#13;</text>
+    </passage>
+    <passage>
+      <offset>35177</offset>
+      <text> Table S2 . Photovoltaic parameters of perovskite solar cells with TiO 2 -Cl annealed at various temperatures. S2 Temperature Voc Jsc FF PCE Rs (°C) (V) (mA cm -2 ) (%) (%) (Ω cm -2 ) RT 1.140 21.0 71.6 17.2 6.1 100 1.151 22.1 76.5 19.5 4.9 150 1.144 22.2 78.4 19.9 3.9 250 1.145 22.1 78.4 19.8 4.4 &#13;</text>
+    </passage>
+    <passage>
+      <offset>35480</offset>
+      <text> Table S3 . PL decay lifetimes of perovskite films on bare glass, TiO 2 and TiO 2 -Cl coated ITO substrates. τ 1 and τ 2 correspond to the fast and slow decay components, respectively. S3 τ 1 τ 2 substrate (ns) (ns) Bare glass 19.9 468 glass /ITO/TiO 2 0.9 112 glass /ITO/TiO 2 -Cl 1.2 99 &#13;</text>
+    </passage>
+    <passage>
+      <offset>35774</offset>
+      <text> Table S4 . Photovoltaic performance of perovskites on various types of TiO 2 based ESLs with respect to reverse and forward scans S4 . TiO 2 and TiO 2 -Cl represent the lowtemperature processed TiO 2 nanocrystal films without and with Cl-ligands, respectively. Compact TiO 2 represents the TiO 2 ESL processed at 500 o C which is commonly used as the compact layer in mesoporous TiO 2 based perovskite solar cells. TiO 2 /TiO 2 -Cl represents one layer of TiO 2 -Cl on another layer of Cl-free TiO 2 , where TiO 2 -Cl contacts with perovskite film in the solar cell. Recycled TiO 2 -Cl presents the TiO2-Cl film washed with DMSO after perovskite film deposition; it equals to untreated TiO 2 -Cl film without Cl-ligands on the film surface but still retaining Cl-ligands in the bulk film. ESL Scan direction Voc (V) Jsc (mA/cm 2 ) FF (-) PCE (%) Reverse 1.129 21.6 0.760 18.5 TiO 2 Forward 1.105 21.5 0.590 14.0 Reverse 1.151 23.0 0.789 20.9 TiO 2 -Cl Forward 1.152 23.0 0.788 20.9 500 o C compact Reverse 1.062 21.7 0.694 16.4 TiO 2 Forward 1.077 21.5 0.607 14.1 &#13;</text>
+    </passage>
+    <passage>
+      <offset>36840</offset>
+      <text> TiO 2 /TiO 2 -Cl Reverse 1.131 22.9 0.803 20.8 Forward 1.130 22.7 0.801 20.6 Recycled TiO 2 - Reverse 1.115 21.7 0.748 18.1 Cl Forward 1.112 21.7 0.511 12.3 &#13;</text>
+    </passage>
+    <passage>
+      <offset>36999</offset>
+      <text>			 RESEARCH | REPORTDownloaded from https://www.science.org at University of California San Diego on November 07, 2024</text>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source/>
+  <date/>
+  <key/>
+  <document>
+    <id>250129224627799FEBHBB</id>
+    <infon key="tt_curatable">no</infon>
+    <infon key="tt_version">2</infon>
+    <infon key="tt_round">2</infon>
+    <passage>
+      <offset>0</offset>
+      <text>Paper #:144&#13;</text>
+    </passage>
+    <passage>
+      <offset>12</offset>
+      <text> Title: &#13;</text>
+    </passage>
+    <passage>
+      <offset>21</offset>
+      <text>Optimized carrier extraction at interfaces for 23.6% efficient tin-lead perovskite solar cells †&#13;</text>
+    </passage>
+    <passage>
+      <offset>120</offset>
+      <text> Abstract: &#13;</text>
+    </passage>
+    <passage>
+      <offset>132</offset>
+      <text>Carrier extraction in mixed tin-lead perovskite solar cells is improved by modifying the top and bottom perovskite surfaces with ethylenediammonium diiodide and glycine hydrochloride, respectively. Trap densities in perovskite layers are reduced as a result of surface passivation effects and an increase in film crystallinity. In addition, the oriented aggregation of the ethylenediammonium and glycinium cations at the charge collection interfaces results in the formation of surface dipoles, which facilitate charge extraction. As a result, the treated mixed tin-lead perovskite solar cells showed improved performance, with a fill factor of 0.82 and a power conversion efficiency of up to 23.6%. The unencapsulated device also shows improved stability under AM1.5 G, retaining over 80% of the initial efficiency after 200 h continuous operation in an inert atmosphere. Our strategy is also successfully applied to centimeter-scale devices, with efficiencies of up to 21.0%. &#13;</text>
+      <annotation id="1">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">ethylenediammonium diiodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:45:25Z</infon>
+        <location offset="261" length="27"/>
+        <text>ethylenediammonium diiodide</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">additive_molecule</infon>
+        <infon key="identifier">glycine hydrochloride</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:43:55Z</infon>
+        <location offset="293" length="21"/>
+        <text>glycine hydrochloride</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>1111</offset>
+      <text> Broader context Monolithic all-perovskite tandem solar cells are a highly promising low cost-per-watt solar technology. Currently, the power conversion efficiency of the narrow gap subcell, which is commonly fabricated from a mixed tin-lead perovskite absorber, is relatively poor. High trap densities, particularly at the surface of the tin-lead perovskite film, act as recombination centers. To address this, we applied surfactant molecules to the top and bottom surfaces of the tin-lead perovskite layer. Post-treatment with ethylenediammonium diiodide modified the top surface, resulting in lower carrier trap densities. The bottom surface was passivated using a glycine hydrochloride additive, which spontaneously accumulated underneath the perovskite layer during film fabrication. Surface dipoles were formed at both top and bottom interfaces, promoting charge extraction and leading to a significant improvement in the output voltage and fill factor of the solar cell devices.&#13;</text>
+    </passage>
+    <passage>
+      <offset>2097</offset>
+      <text> Body: &#13;</text>
+    </passage>
+    <passage>
+      <offset>2105</offset>
+      <text>Introduction Due to their strong optical absorption, tunable bandgap, and efficient charge generation,  1, 2  metal halide perovskites are promising materials for printable, cost-effective next-generation photovoltaics. The power conversion efficiency (PCE) of perovskite solar cells (PSCs) can be optimized for solar radiation by bringing the perovskite bandgap closer to the ideal range of 1.1-1.4 eV.  3, 4  Although most lead perovskite materials have bandgaps larger than 1.45 eV,  5, 6  smaller bandgaps can be obtained for tin-lead (Sn-Pb) compositions  [7] [8] [9]  in which about half of the lead ions are substituted with tin.  10  Introducing tin into the perovskite lattice, however, can adversely affect the device performance  [11] [12] [13]  -primarily by self-doping due to the oxidation of Sn(II) to Sn(IV).  14  This process readily occurs through reaction with the solvent  15, 16  or trace oxygen.  17, 18  Suppressing these oxidation processes is therefore the key to realizing high device performance. Several means have been reported to reduce the Sn(IV) content in tin-containing perovskite films, including reducing agents  [19] [20] [21] [22] [23]  as well as antioxidants.  [24] [25] [26]  Currently, the highest PCE of mixed Sn-Pb perovskite devices reaches over 22%.  [27] [28] [29] [30] [31]  Tan et al. achieved this by using a zwitterionic antioxidant, formamidine sulfinic acid, as a bifunctional additive, which both suppressed Sn(II) oxidation and passivated defects at the perovskite grain surfaces.  27  Yan et al. used a reducing agent, 4-hydrazinobenzoic acid, and vertical Pb/Sn compositional gradients to enhance photocarrier separation and suppress carrier recombination.  29  Zhu et al. were able to passivate structural defects in the Sn-Pb perovskite by adding guanidinium thiocyanate, which increased the charge carrier lifetimes (41 ms) and diffusion lengths (42.5 mm).  32  Meanwhile, very recently, we achieved ultra-long carrier lifetimes (47 ms) by applying a Sn(IV) scavenging method  22  and treating the purified Sn-Pb films with maltol.  33  Even with these long lifetimes, however, the efficiencies of mixed Sn-Pb devices  10, 27, 28, 32, [34] [35] [36] [37] [38] [39] [40] [41]  still remain below those of their pure lead counterparts.  [42] [43] [44] [45] [46] [47]  As the quality of the material already appears to be sufficiently high, we believe that the efficiency of Sn-Pb PSCs is now primarily limited by poor carrier dynamics at the interfaces with the charge collection layers.  48  We therefore aim to improve the structural and electronic properties at the top and bottom regions of the perovskite films by modifying them with surfactants containing a methylammonium terminal group. Methylammonium surfactants with different functional groups, such as NH 3 + -CH 2 -R (R = -CH 2 -NH 3 + (ethylenediammonium, EDA 2+ )  49, 50  or -COOH (glycinium, GlyH + )  51  ), offer the means of systematically tailoring the electrostatics at perovskite interfaces (Fig.  1a ). Moreover, the challenge for improving the properties of the perovskite films is to selectively and reliably apply these simple surfactant molecules on specific charge extraction surfaces with favorable orientation in an easy and efficient way. &#13;</text>
+    </passage>
+    <passage>
+      <offset>5385</offset>
+      <text> Design strategy We propose the use of EDAI 2 for the post-treatment of the perovskite top surface. The EDA 2+ is sufficiently small to allow for electronic contact between the perovskite and the top charge transport layer (Fig.  1a ). In addition, since EDA 2+ is too short to occupy two A-sites of the perovskite lattice simultaneously,  52, 53  2D phases should not be formed. Unlike the EDA (ethane-1,2diamine), a bidentate neutral base with lone pairs,  54  for EDA  2+  , we speculate that one methylammonium group binds to the surface of the perovskite films, reducing the density of structural defects, especially the acceptor-like defects, and unsatisfied dangling bonds. The other methylammonium group would then point away from the perovskite surface, inducing a surface dipole,  55  which may facilitate electron extraction from the top surface into the electron collecting layer of positive-intrinsicnegative (p-i-n) structured (inverted) PSCs. When glycine hydrochloride (GlyHCl) is added into the perovskite precursor solution, the methylammonium head of GlyH + is expected to bind to the surface of the perovskite crystallites, stabilizing the formation of larger particles.  56  These particles, which sediment at the bottom interface, serve as nucleation centers in the film growth process.  51  Therefore, the electronegative carboxyl groups at the bottom surface face outwards from the perovskite, towards the hole collection layer. The orientation of the resulting dipole creates an electric field  57  which assists in driving the holes to the hole collection layer. precursor solution (Fig.  1a ). Large perovskite particles sediment at the substrate surface, where they serve as nucleation sites for the subsequent growth of the perovskite layer after the antisolvent addition. While GlyH + bound to the top surface of the nuclei are most likely replaced by the A-site cations stoichiometrically required for the continuous growth of the 3D perovskite layer, GlyH + bound to the bottom surfaces remains, since there are no A-site components in a solution nearby. Note that no low dimensional perovskite phases were observed by XRD, even as the amount of GlyH + was increased to 8 mol% (Fig.  S21, ESI † ). Although an extensive study would be necessary to examine the further details of the underlying mechanism, we assume that the residual GlyH + is located as deposits at the bottom surface and grain boundaries as suggested by the ToF-SIMS results. &#13;</text>
+      <annotation id="3">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">ethylenediammonium diiodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:45:59Z</infon>
+        <location offset="5424" length="6"/>
+        <text>EDAI 2</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">structure_pin_nip</infon>
+        <infon key="identifier">PIN</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:46:53Z</infon>
+        <location offset="6308" length="5"/>
+        <text>p-i-n</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">additive_molecule</infon>
+        <infon key="identifier">glycine hydrochloride</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:44:04Z</infon>
+        <location offset="6348" length="21"/>
+        <text>glycine hydrochloride</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">additive_molecule</infon>
+        <infon key="identifier">glycine hydrochloride</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:44:11Z</infon>
+        <location offset="6371" length="6"/>
+        <text>GlyHCl</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>7864</offset>
+      <text> Effects of the treatments on film quality The morphology of the perovskite layers was examined using scanning electron microscopy (SEM) and atomic force microscopy (AFM). All samples show good coverage with large grains. Post-treatment with the EDAI 2 solution appears to have a polishing effect  64  , washing away the surface layer of the perovskite film. In the control sample, some deposits, probably from SnF 2 ,  [65] [66] [67]  are visible between the grain boundaries (Fig.  1d ). These deposits are less prominent after the perovskite films are post-treated with EDAI 2 solution, and the surface roughness is reduced from 42 nm for control to 37 nm for the films treated with EDAI 2 solution (Fig.  S22 , ESI †). Viewed in the cross-section, all the perovskite films show an even, monolithic grain structure. The average thickness is 870, 830, and 860 nm for the control, EDAI 2 -treated, and the EDAI 2 / GlyHCl-treated perovskite films, respectively (Fig.  1e  and Fig.  S23 , ESI †). The EDAI 2 -treated film is notably thinner than the control, confirming the polishing effect of the post-treatment with EDAI 2 solution. The isopropanol/toluene co-solvent system was found to be critical for this top surface modification. The details are given in the ESI † (Fig.  S23  and S24 ). The polarity of the isopropanol helps the organic ammonium salts to anchor to the film surface, enhancing defect passivation.  68  Sn-containing perovskites are soluble in isopropanol; 69 however, so toluene was added to reduce the overall viscosity of the solution and accelerate the dispersion of the EDAI 2 solution on the films before spinning. The effect of the treatments on the crystallinity of the perovskite layers was monitored by thin film X-ray diffraction (XRD) measurements (Fig.  S21  and S25-S27, ESI †). Peaks at 14.2, 20.1, 24.6, 28.4, 31.9, 35.0, 40.7, and 43.21, were observed for all the films, corresponding to (100), (110), (111), (  200 ), (210), (211), (220), and (300) planes, respectively. The intensity of the (100) peak increases after the EDAI 2 post-treatment, possibly as a result of the surface polishing effect 64 and/or second stage crystallization.  70  The intensity of the (100) peak was enhanced further in the XRD pattern of the EDAI 2 /GlyHCltreated film, suggesting that the GlyHCl additive is likely to be active during the crystal growth phase where it acts to enhance the crystallinity of the film. No low-dimensional phase was detected. The small peak at 2y = 12.71 is attributed to PbI 2 from the unreacted precursor material or the degraded perovskite.  71, 72  Although the peak was observed in the patterns of the control and EDAI 2 -treated films, it was absent in that of the EDAI 2 /GlyHCl-treated perovskite film. For effective charge extraction, high quality perovskite films with long charge carrier lifetimes are necessary. The improvements in the carrier dynamics were evaluated by using steadystate photoluminescence (PL) and time-resolved PL (TRPL). The excitation energy was 1.80 eV, and the excitation photon flux was fixed at 3.5 Â 10 11 photons cm À2 (100 nJ cm À2 ), comparable to the incident photon flux under AM1.5 G. The perovskite films were excited either from the top surface of the perovskite film (front-side, Fig.  S28 , ESI †), or through the quartz substrate (back-side, Fig.  2a  and b ). Regional sampling specificity is possible, since the thickness of the perovskite films (B850 nm) is considerably greater than the estimated optical penetration depth (1/a: B220 nm, a is absorption coefficient at 688 nm (1.80 eV), Fig.  S29 , ESI †). In each condition, a single PL peak around 1.25 eV was observed, with PL lifetimes on the order of microseconds. Note that the PL spectrum is slightly blue-shifted in the control films with the front-side excitation (Fig.  S28  and Table  S1 , ESI †), when compared to the others. One of the possible origins of this blue shift is a Burstein-Moss shift, induced by significant unintentional hole doping.  73  Another is a bandgap fluctuation due to compositional deviation at the film surface. These assumptions are reasonable considering that the surface quality of the control film is likely somewhat worse than the treated materials. With front-side excitation, the lifetime increased from 2.8 ms for the control films, to 4.5 ms for the EDAI 2 post-treated films, and 4.9 ms for the EDAI 2 /GlyHCl-treated films, indicating that defects are greatly suppressed. At the top surface, most of the improvement originates from the EDAI 2 treatment, as expected. Meanwhile, with back-side excitation, the lifetimes were elongated from 1.5 ms for control sample, to 3.2 ms for EDAI 2 -treated, and finally to 5.5 ms for the EDAI 2 /GlyHCl-treated films. Notably, the influence of the GlyHCl on the lifetimes is more prominent when the bottom region is probed. The steady state PL intensities were also increased (Table  S1  and Fig.  S30 , ESI †). The results clearly show that EDAI 2 post-treatment and GlyHCl additive are able to reduce the density of recombination centers in the EDAI 2 / GlyHCl-treated perovskite films, particularly at the top and bottom regions, respectively.  74  In order to better characterize the photocarrier recombination dynamics in the EDAI 2 /GlyHCl-treated films, the PL decay was examined under different excitation intensities. The dependencies of PL decay curves, PL lifetimes, and initial PL intensities on photon flux are shown in Fig.  2c , d and Fig.  S31 (ESI † ). The decay curves can be modelled using the rate equations reported in our previous work.  75  The results indicate that bimolecular recombination is dominant under a photon flux equivalent of AM1.5 G (initial carrier density n 0 = 1.5 Â 10 16 cm À3 ). The charge carrier trapping rate is 9.2 Â 10 4 s À1 , three orders of magnitude lower than that of prototypical metal halide perovskite MAPbI 3 .  75  The low trap densities for both electrons and holes are confirmed by space-charge-limited current (SCLC) measurements (Fig.  S32  and Table  S2 , ESI †). Most of these traps can be reasonably assumed to be located at the various surfaces of the perovskite layer.  76  From the decay curve fits, the charge carrier density from unintentional doping is estimated to be 8.2 Â 10 14 cm À3 , a value similar to the carrier densities reported for the high quality lead perovskite films (B10 15 cm À3 ).  75  To summarize, the EDAI 2 /GlyHCl-treated perovskite films, modified via both EDAI 2 surface treatment and the addition of GlyHCl, show improved crystallinity and reduced defect densities, especially at the top and bottom regions. Characteristic p-doping, commonly observed in Sn-containing perovskite materials,  77, 78  has been effectively suppressed as suggested with the low unintentional doping induced carrier density. &#13;</text>
+    </passage>
+    <passage>
+      <offset>14739</offset>
+      <text> Solar cell performance The cells had the following inverted architecture: FTO/PED-OT:PSS/perovskite/C 60 /bathocuproine (BCP)/Ag (Fig.  3a ). The active cell area was 0.0985 cm 2 . Current density-voltage ( J-V) curves were measured under simulated AM1.5 G illumination (Fig.  3b ). The best performance of the control cells was 19.6% (reverse scan, V OC = 0.79 V, J SC = 31.6 mA cm À2 , and FF = 0.79). After the EDAI 2 post-treatment, the PCE increased to 21.7% (reverse scan, V OC = 0.85 V, J SC = 32.3 mA cm À2 , and FF = 0.79). The FF remains the same, but the J SC and V OC increased. For the EDAI 2 /GlyHCl-treated device, a maximum PCE of 23.6% was obtained (reverse scan, V OC = 0.89 V, J SC = 32.5 mA cm À2 , and FF = 0.82). The stabilized power output is shown in Fig.  S33, (ESI † ) which presents a PCE of 22.8% at 300 s. The J-V curves of the EDAI 2 /GlyHCl-treated devices show a small hysteresis (hysteresis index: 0.017), suggesting suppressed ion movements.  79  The suppressed ion movements in the cells fabricated with GlyHCl relates to the enhanced crystallinity. In addition to the increase in V OC , for these modified cells, the FF improved as well. This efficiency is the highest reported value for any Sn-Pb perovskite solar cell, in addition to being one of the highest reported values for PSC having an inverted structure (Fig.  S34 , ESI †).  47, 80  The cell performance measured by the Kanagawa Institute of Industrial Science and Technology (KISTEC) was 23.1% for the reverse scan (V OC = 0.88 V, J SC = 32.5 mA cm À2 , and FF = 0.81) and 22.2% for the forward scan (V OC = 0.86 V, J SC = 32.5 mA cm À2 , and FF = 0.79) (Fig.  S35  and S36, ESI † ). All the related J-V results are summarized in Fig.  S37-S39  and Table  S3  (ESI †). The external quantum efficiency (EQE) and internal quantum efficiency (IQE) spectra are shown in Fig.  3c . The highest IQE is close to unity, and the EQE reached 90%. The integrated J SC from the EQE spectrum is 32.2 mA cm À2 , in close agreement with the values derived from the J-V scans (32.5 mA cm À2 ). The bandgap, estimated from the inflection point of the EQE spectrum, 81 is around 1.25 eV, in line with the PL results. As mentioned by the previous reports,  43  when the device area is larger than the optical mask used for the J-V measurements, the recorded V OC values are slightly below the achievable maximum. With the optical mask removed, the V OC reached 0.91 V (Fig.  3d ), 0.07 V below the thermodynamic limit of 0.98 V.  82  The high V OC corresponds to a voltage loss of (approx. AM1.5 G, 1 Sun). Black solid lines are the curve fits obtained using the rate equations reported in our previous work.  75  0.34 V -one of the best results thus far for perovskite solar cell devices.  42, 83  The low voltage loss together with the long charge carrier lifetimes observed in the PL experiments confirm the remarkable suppression of non-radiative recombination channels in the EDAI 2 /GlyHCl-treated devices. The operational stability was evaluated by tracking the maximum power point  84  under AM1.5 G. Unencapsulated devices were measured in a N 2 -filled glovebox. The EDAI 2 /GlyHCltreated cell maintained over 80% of the initial PCE for up to 200 h, and was more stable than either the EDAI 2 -treated (65% in 180 h) or control (60% in 145 h) cells (Fig.  3e  and Fig.  S40 , ESI †). The stability of the PSCs may be limited by the use of PEDOT:PSS as the hole transport layer. This material is known to be hygroscopic, and its acidity may negatively impact the stability of the perovskite layer.  85  These effects could be mitigated by moving to a different hole selective layer, such as a self-assembled monolayer (SAM)  31  or modifying the acidity of the PEDOT system.  86  Our top and bottom interface modification strategy was also applied to the fabrication of larger, centimeter-scale PSCs (Table  S4  and Fig.  S41  and S42, ESI †). For a 1 cm 2 active area, a champion PCE of 21.0% (forward scan, V OC = 0.88 V, J SC = 33.1 mA cm À2 , and FF = 0.72) was achieved. The cells generally showed minimal hysteresis and good reproducibility. &#13;</text>
+      <annotation id="7">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Poly(3,4-ethylenedioxythiophene):Poly(styrene sulfonate)</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:50:02Z</infon>
+        <location offset="14818" length="10"/>
+        <text>PED-OT:PSS</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">C60</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T03:21:24Z</infon>
+        <location offset="14840" length="4"/>
+        <text>C 60</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">control_pce</infon>
+        <infon key="identifier">19.6</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:50:18Z</infon>
+        <location offset="15069" length="5"/>
+        <text>19.6%</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">control_voc</infon>
+        <infon key="identifier">0.79</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:50:59Z</infon>
+        <location offset="15097" length="6"/>
+        <text>0.79 V</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">ethylenediammonium diiodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T03:21:36Z</infon>
+        <location offset="15154" length="6"/>
+        <text>EDAI 2</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">21.7</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:50:28Z</infon>
+        <location offset="15198" length="5"/>
+        <text>21.7%</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">treated_voc</infon>
+        <infon key="identifier">0.85</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:51:10Z</infon>
+        <location offset="15226" length="6"/>
+        <text>0.85 V</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">treatment_element</infon>
+        <infon key="identifier">ethylenediammonium diiodide with glycine hydrochloride additive</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:52:16Z</infon>
+        <location offset="15339" length="14"/>
+        <text>EDAI 2 /GlyHCl</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">23.6</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:50:38Z</infon>
+        <location offset="15387" length="5"/>
+        <text>23.6%</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">treated_voc</infon>
+        <infon key="identifier">0.89</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:50:48Z</infon>
+        <location offset="15428" length="7"/>
+        <text>0.89 V,</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSLT</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:53:34Z</infon>
+        <location offset="17788" length="103"/>
+        <text>maximum power point  84  under AM1.5 G. Unencapsulated devices were measured in a N 2 -filled glovebox.</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">80</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T03:21:57Z</infon>
+        <location offset="17939" length="3"/>
+        <text>80%</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">time</infon>
+        <infon key="identifier">200</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:53:50Z</infon>
+        <location offset="17972" length="5"/>
+        <text>200 h</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">65</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T03:22:00Z</infon>
+        <location offset="18031" length="4"/>
+        <text>(65%</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">time</infon>
+        <infon key="identifier">180</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-03T00:54:20Z</infon>
+        <location offset="18039" length="5"/>
+        <text>180 h</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">efficiency_cont</infon>
+        <infon key="identifier">60</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T03:22:02Z</infon>
+        <location offset="18058" length="3"/>
+        <text>60%</text>
+      </annotation>
+      <relation id="R1">
+        <infon key="type">performance_1</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-17T03:49:52Z</infon>
+        <node refid="9" role=""/>
+        <node refid="10" role=""/>
+        <node refid="11" role=""/>
+        <node refid="12" role=""/>
+        <node refid="13" role=""/>
+      </relation>
+      <relation id="R2">
+        <infon key="type">performance_2</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-17T03:49:52Z</infon>
+        <node refid="9" role=""/>
+        <node refid="10" role=""/>
+        <node refid="14" role=""/>
+        <node refid="15" role=""/>
+        <node refid="16" role=""/>
+      </relation>
+      <relation id="R3">
+        <infon key="type">test_2</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-17T03:49:52Z</infon>
+        <node refid="17" role=""/>
+        <node refid="20" role=""/>
+        <node refid="21" role=""/>
+        <node refid="22" role=""/>
+        <node refid="11" role=""/>
+      </relation>
+      <relation id="R4">
+        <infon key="type">test_1</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-17T03:49:52Z</infon>
+        <node refid="17" role=""/>
+        <node refid="18" role=""/>
+        <node refid="19" role=""/>
+        <node refid="14" role=""/>
+        <node refid="22" role=""/>
+      </relation>
+    </passage>
+    <passage>
+      <offset>18897</offset>
+      <text> Carrier extraction For further insights regarding the improved performance, especially the low voltage loss, the effect of the EDAI 2 and GlyHCl treatments on the energy levels of the perovskite films was examined with ultraviolet photoemission spectroscopy (UPS). The UPS experiments probe the vacuum, Fermi, and valence energy levels near the top surface of the perovskite films, where electrons are extracted in the working solar cells. Four systems were measured. In addition to the control and EDAI 2 post-treated films with and without GlyHCl additive, a film prepared with GlyHCl additive but without EDAI 2 post-treatment was also examined (Fig.  4a  and b ). With this sample set, we investigated the influence of the EDAI 2 post-treatment on the perovskite films prepared both without and with the GlyHCl additive. The secondary electron cutoffs, from which the work function of the perovskite surface can be estimated as (21.22 eV -E B,max ), are shown in Fig.  4a . The onset of the valence band relative to the Fermi level is estimated from the spectral data in Fig.  4b . The energies of the Fermi and vacuum levels for each of the four samples relative to the valence band maximum (VBM) and conduction band minimum (CBM) are compiled in Fig.  4c . Comparing the control and EDAI 2 -treated films, we can see that the vacuum level and Fermi levels both shift, by 0.05 eV and 0.11 eV, respectively, to lie closer to the CBM. When the perovskite film contains the GlyHCl additive, however, the shift in the Fermi level is less pronounced, at only 0.02 eV, while the EDAI 2 post-treatment results in a shift in the vacuum energy of 0.04 eV, similar to what was observed for the control films. In the UPS measurements, a surface dipole is indicated by a change of the vacuum level (E vac ) relative to the valence level of the perovskite films (Fig.  4c  and S43, S44, ESI †). 55,57,87-89 Posttreatment with EDAI 2 leads to the formation of a surface dipole with a magnitude of about 0.05 eV for the control film, and 0.04 eV for the film fabricated using the GlyHCl additive. The positive end of the dipole faces outwards from the perovskite.  42, 90  These results support our hypothesis that EDA  2+  , which accumulates at the top surface, is collectively bound to and oriented at the perovskite crystal grains. The potential difference created by the dipole can facilitate electron extraction by helping to sweep electrons away from the perovskite surface and towards the C 60 electron collection layer.  90  In addition, electron extraction may be enhanced by surface doping effects, indicated by the shifts of the UPS-determined Fermi levels (E F ) with respect to the valence and conduction bands. EDAI 2 post-treatment appears to induce the perovskite surface to become more n-type (the E F shifts to lie above the center of the band gap, Fig.  4c ). The shift is more pronounced for the control film than the film with the GlyHCl additive, at -0.11 eV and -0.02 eV, respectively. The result can be understood by noting that while the Fermi level of the control film was nominally at the middle of the bandgap (0.60 eV from the VBM), the Fermi level of the GlyHCl-treated film was already close to the conduction band (0.71 eV from the VBM). Thus, while EDAI 2 post-treatment makes the perovskite surface more n-type, the effect appears to vary depending on how p-type the surface region was initially. The Fermi level shifts correlate well with the difference in Sn(IV) concentrations observed by X-ray photoelectron spectroscopy (XPS, Fig.  S45  and Table  S5 , ESI †). If the top surface is more n-type than the bulk, band bending will be induced in the downward direction at the perovskite, facilitating electron extraction by drawing electrons to and holes away from the extraction layer. As GlyH + cations mainly accumulate at the bottom region of the perovskite films, electron spin resonance (ESR) spectroscopy was used to examine the charge extraction from the perovskite layers to the PEDOT:PSS substrate. The ESR signal allows us to quantify the charge states in PEDOT:PSS films with and without perovskite capping layers (Fig.  4d  and Fig.  S46 , Table  S6 , ESI †). The unit intensity is the peak-to-peak ESR intensity of the Mn 2+ standard sample (I Mn ). The ESR absorption intensity of the PEDOT:PSS film was 131 I Mn units, centered at 319.2 mT. When the PEDOT:PSS layer was coated with the control perovskite, the absorption intensity of the PEDOT:PSS ESR signal decreased to 63.6 I Mn units, indicating that, as a result in the difference in Fermi levels between the perovskite layer and the PEDOT:PSS, 91 some electrons from perovskite recombine with holes in the PEDOT:PSS layer at the interface. When the PEDOT:PSS is coated with the perovskite containing GlyHCl additive, however, the absorption intensity is only reduced to 85.6 I Mn units, indicating fewer recombination events. The change in absorption intensity of the ESR signal correlates with the relative position of the Fermi levels in the PEDOT:PSS and perovskite layers. The results imply that the Fermi level in the PEDOT:PSS and perovskite layers are closer in energy when the GlyHCl additive is used. The UPS results, meanwhile, confirm that the work function of the perovskite layer is not evidently altered by the addition of GlyHCl (control: 4.73 eV, GlyHCl: 4.69 eV). The GlyH + cation, which accumulates at the bottom interface, binds to and aligns with the perovskite crystal face (Fig.  1a  and 4e ), inducing a surface dipole where the electronegative -COOH group points outwards from the perovskite surface. The resulting dipole, with the negative side facing the PEDOT:PSS layer, creates an electric field which drives the holes to PEDOT:PSS (Fig.  4e ).  57   &#13;</text>
+    </passage>
+    <passage>
+      <offset>24683</offset>
+      <text> Conclusions Mixed Sn-Pb solar cells with high open circuit voltages and high fill factors were realized by optimizing charge extraction. Interface modification strategies using surfactants containing methylammonium terminal groups were used to facilitate the extraction of electrons and holes at the top and bottom perovskite surfaces, respectively. Post-treatment with EDAI 2 showed polishing and passivation effects at the top surface, leading to lower carrier trap densities. The GlyHCl additive resulted in the accumulation of GlyH + cations at the bottom region of the perovskite layer as well as an improvement in the film crystallinity. The GlyHCl treatment helped to passivate recombination centers, particularly at the bottom region of the perovskite layer. In addition to improvements in the perovskite layer, EDA 2+ and GlyH + cations at the top and bottom regions induced surface dipoles which facilitate electron and hole transfer, respectively, to the charge collection layers. As a result of the improvements arising from the top and bottom passivation and dipole formation, the PCE of mixed Sn-Pb solar cells with a 0.0985 cm 2 aperture area increased to 23.6%, the highest value reported so far for mixed Sn-Pb PSCs, and one of the highest values reported so far for PSCs with the inverted structure regardless of perovskite composition. Our top and bottom interface modification strategy was also applied to the fabrication of larger, centimeter-scale PSCs showing high efficiency with small hysteresis and good reproducibility. The easy-to-handle and effective approach should be widely applicable to other perovskite semiconductor devices, such as all-perovskite and perovskite/silicon tandem photovoltaics, perovskite light-emitting diodes, transistors, and X-ray detectors. &#13;</text>
+    </passage>
+    <passage>
+      <offset>26481</offset>
+      <text> Paper Energy &amp; Environmental Science Note: The preliminary manuscript of this work was posted as a preprint by Research Square on July 24th, 2021, 92 with the link of  https://www.researchsquare.com/article/rs-727823/v1 . &#13;</text>
+    </passage>
+    <passage>
+      <offset>26705</offset>
+      <text> Experimental Section &#13;</text>
+    </passage>
+    <passage>
+      <offset>26728</offset>
+      <text> Materials Unless otherwise stated, all materials were used as received without further purification. Methylammonium iodide (MAI, &gt;99.0%), formamidinium iodide (FAI, &gt;98.0%), bathocuproine (BCP), lead(II) iodide (PbI2, 99.99%, trace metals basis), and cesium iodide (CsI, &gt;99%) were purchased from Tokyo Chemical Industry Co., Ltd. (TCI). Ammonium thiocyanate (NH4SCN, 99.99% trace metals basis), tin(II) fluoride (SnF2, 99%), and tin(II) iodide (SnI2, beads, 99.99%, trace metals basis), ethane-1,2-diammonium iodide (ethylenediammonium diiodide, EDAI2,  &#13;</text>
+    </passage>
+    <passage>
+      <offset>27285</offset>
+      <text> Fabrication of Perovskite Thin Films The perovskite film preparation was conducted in an Ar-filled glove box (H2O, O2 &lt;0. To prepare the samples with additive, 2 mol% (4.0 mg, 0.036 mmol) of GlyHCl with respect to the total amount of SnI2 and PbI2 was added to the precursor solution. The precursor solution was stirred at 45 C for 40 min and filtered through a 0.20 m PTFE filter before use. To spin coat the films, 200 L of the room temperature precursor solution was applied to the substrate. A two-step spin coating program was used. The first step was at 1000 rpm for 10 s with an acceleration of 200 rpm s -1 , and the second step was 4000 rpm for 40 s with an acceleration of 1000 rpm s -1 . Room temperature chlorobenzene (400 L) was used as the antisolvent. The chlorobenzene was quickly dripped onto the surface of the spinning substrate over an interval of 1 s during the second spin coating step at 20 s before the end of the procedure. The substrate was then immediately annealed on a 100 C hot plate for 10 min, followed by annealing at 65 C for over 10 min. For the EDAI2 post-treatment, 1.0 mg EDAI2 was added to 1.0 mL IPA and 1.0 mL toluene. The mixed solvent solution was stirred at 70 C for 3 h and then filtered through a 0.20 m PTFE filter before spin coating. 120 L of the EDAI2 solution was applied to the annealed and cooled perovskite films by spin coating at 4000 rpm for 20 s with an acceleration of 1333 rpm s -1 . Following spin coating, the films were immediately annealed again at 100 C for around 5 min (see more detail at Fig.  S47 ). For the space-charge-limited current (SCLC) measurements, hole-only and electron-only devices were prepared. For the hole-only devices, 150 µL PTAA solution (20 mg mL -1 in chlorobenzene, doped with 1 wt% F4-TCNQ) was spin-coated onto the perovskite films fabricated on the PEDOT:PSS-coated substrates at 2000 rpm for 30 s with an acceleration of 400 rpm s -1 , and the films were immediately annealed at 65 C for around 5 min. For the electron-only devices, doublesided C60 layers (20 nm) were sequentially deposited by thermal evaporation before and after the perovskite layer preparation. For all samples, 100 nm of silver was deposited through a metallic aperture mask to form the top electrode. For the films fabricated on PTAA/PFN-coated FTO, 120 µL PTAA solution (2 mg mL -1 in chlorobenzene) was spin-coated onto the FTO substrates at 4000 rpm for 20 s, and the films were immediately annealed at 130 C for around 10 min. Then, the PTAA-coated FTO substrates were coated with PFN-I. 120 µL PFN-I solution (0.1 mg mL -1 in DMF) was spin-coated onto the PTAAcoated FTO substrates at 4000 rpm for 20 s without annealing. &#13;</text>
+    </passage>
+    <passage>
+      <offset>30021</offset>
+      <text> Fabrication of solar cell devices Glass/FTO substrates (10 Ω sq -1 , AGC Inc.) were etched with zinc powder and HCl (6 M in deionized water), and consecutively cleaned with 15 min ultrasonic bath in water, acetone, detergent solution (Semico Clean 56, Furuuchi chemical), water, and isopropanol, followed by drying with an air gun, and finally plasma treatment. The PEDOT:PSS hole transport layer was fabricated from an aqueous dispersion which was filtered through a 0.45 m PVDF filter and then spin coated on the FTO substrate using a spin program of 10 s at 500 rpm followed by 30 s at 4000 rpm. The films were then annealed in air at 140 C for 20 min. After transferring to an Ar-filled glove box (H2O, O2 &lt;0.1 ppm), the substrates were degassed at 140 C for 30 min. The perovskite layer was fabricated on PEDOT:PSS following the above-mentioned procedure. The samples were moved under Ar to a vacuum deposition chamber, where 20 nm of C60 (deposition rate 0.01 nm s -1 ) and 8 nm of BCP (deposition rate 0.01 nm s -1 ) were deposited by thermal evaporation. The top electrode was prepared by depositing 100 nm of silver (Ag) through a shadow mask. The deposition rate for Ag was firstly set as 0.005 nm s -1 to reach 5 nm, then raised to 0.01 nm s -1 to reach 20 nm, and finally raised to 0.08 nm s -1 to reach the target thickness. &#13;</text>
+    </passage>
+    <passage>
+      <offset>31372</offset>
+      <text> Characterization For the time-resolved photoluminescence (TRPL) measurements, the samples were excited by a picosecond pulsed laser with a wavelength of 688 nm (Advanced Laser Diode System) and the excitation frequency of 10 kHz. To shorten the measurement time, the PL signal was divided with a beam splitter (transmission 50%) and detected with a pair of avalanche photodiodes (APD) (ID Quantique). The TRPL signal on each APD was recorded using time-correlated single photon counting boards (Pico Quant). Under weak excitation conditions, a defocus lens was used in order to maintain a high incident photon flux into the APDs. The initial carrier densities were calculated from the excitation photon flux and the absorption coefficient of samples at 688 nm (4.4 × 10 4 cm -1 , Fig.  S29 ). Using a variable neutral density filter, the excitation laser power was adjusted to achieve the desired initial carrier density. The TRPL dynamics were analyzed by the rate equation model reported in our previous work  1  . Scanning electron microscopy (SEM) was performed with a Hitachi S8010 ultra-high-resolution scanning electron microscope (Hitachi High-Tech Corporation). UV-vis absorption measurement was performed with a Shimadzu UV-3600 plus spectrometer (Shimadzu Co., Ltd.). Dynamic light scattering (DLS) was conducted with an ELSZ-2000 spectrophotometer (Otsuka Electronics Co., Ltd., Japan). The experiment was conducted after around five hours before the sample preparation, as the sample transporting to, and equipment adjustment in, the company. The refractive indices and viscosity of the solvent were 1.4405 and 1.1005, respectively, based on the DMF and DMSO with the volume ratio of 3 to 1. X-ray photoelectron spectroscopy (XPS) was recorded with a JPS-9010 (JEOL Co., Ltd.) instrument. Perovskite film samples for XPS measurements were prepared in an Ar-filled glove box and transferred to the XPS chamber through an Ar-filled transfer vessel in order to avoid oxygen contamination. Photocurrent-voltage (J-V) curves were measured in a N2-filled glove box (H2O, O2 &lt;0.1 ppm) with an OTENTO-SUN-P1G solar simulator (Bunkoukeiki Co., Ltd.). The light intensity of the illumination source was calibrated using a standard silicon photodiode. Each device was measured with a 10 mV voltage step and a 100 ms time step (i.e. scan rate of 0.1 V s -1 ) using a Keithley 2400 source meter. The device active area was defined by an optimal mask, 0.0985 cm 2 for the regular devices and 1 cm 2 for the large area cells. Steady-state power output (SPO) measurements were performed by holding the device at the voltage of the maximum power point, as determined by the JV characteristic, and monitoring the current density over the course of 300 s. External quantum efficiency (EQE) and internal quantum efficiency (IQE) spectra were measured with a Bunkoukeiki SMO-250III system equipped with a Bunkoukeiki SM-250 diffuse reflection unit (Bunkoukeiki Co., Ltd.). The incident light intensity was calibrated with a standard SiPD S1337-1010BQ silicon photodiode. UPS was performed with a photoelectron spectroscopy system (PHI5000 Versa Probe II, ULVAC-PHI Inc.) with He I excitation (21.22 eV). A -5.0 V bias was applied to the samples. The chamber base pressure was approximately 1 × 10 -6 Pa. Samples were transferred from the glove box to the UPS chamber without exposure to air. ESR measurements were performed with an X-band ESR spectrometer (JEOL RESONANCE, JES-FA200). The parameters for the measurement are as follow. Sweep range, 319 ± 5 mT; sweep time, 2 min; microwave power, 0.5 mW; modulation frequency, 100 kHz; modulation width, 0.3 mT; time constant, 0.1 s; amplitude, 4000; number of scans (accumulation), 29 × 10. Grazing incidence X-ray diffraction (GIXD) measurements were performed on Rigaku SmartLab equipped with a hybrid pixel array detector HyPix-3000. Perovskite films were deposited on the surface of PEDOT:PSS with glass/FTO as substrates and covered with a thin film of spin-coated poly(methyl methacrylate) (PMMA, Sigma-Aldrich) to prevent direct exposure to air. 1 H NMR spectra were recorded on Bruker Avance-400 spectrometer (400 MHz). The NMR chemical shifts are reported in ppm relative to the residual protons and carbons of DMSO-d6 (δ = 2.50 ppm in 1H NMR). Quantum yields were determined with a Hamamatsu Photonics Quantaurus-QY Plus C13534 with calibrated integrating sphere system. Electrochemical impedance spectroscopy data were obtained in inert atmosphere under AM1.5G simulated solar radiation, using an Agilent E4990A impedance analyzer. Scans were taken from 20 Hz to 20 MHz, with a 30 mV oscillator voltage, recorded for forward bias voltages between 0 and 1.2 V in 0.1 V steps. Time-of-flight secondary ion mass spectrometry (ToF-SIMS) measurements were carried out using a ToF.SIMS 5 (IONTOF GmbH) operated in the high lateral resolution mode (burst alignment mode). A 50 kV Bi3 2+ primary ion beam with pulses width of 125 ns was used for data acquisition. Primary ion dose density (PIDD) was maintained less than approximately 5 × 10 11 ions cm -2 in each measurement cycles to prevent sample damage from the irradiation of primary ion beam. For sample etching, a 10 kV Ar gas cluster ion beam (Ar-GCIB) with a center size of approximately 1200 atoms was used as sputtering ion beam. The raster area of the primary ion beam was 30 µm × 30 µm and that of the sputtering ion beam was 500 × 500. Depth profiles and three-dimensional images of EDAI2/GlyHCl-treated ingredients (or ions) were reconstructed from the raw data after data acquisition. In addition, mass spectra and depth profiles with high mass resolution were acquired from an area of 200 µm × 200 µm by using high mass resolution mode (bunching mode). A low-energy electron-flood gun was used for charge compensation.       perovskite films. Noting that, the size of Cl -is even smaller than that of I -within the perovskite composition. Thus, Cl -is highly mobilizable in the whole wet process of the film fabrication. Additionally, Cl -is too small to be composed to the perovskite structure in this case, it is therefore expelled out of the perovskite structures, and ends up at the grain surfaces, especially the top the bottom surfaces of the resultant films. A perovskite precursor solution containing 20 mol% GlyHCl was rapidly injected into the chlorobenzene antisolvent under vigorous stirring, forming black perovskite crystallites (Fig.  S19a ). The crystallites were collected and dried under vacuum, before re-dissolving them in dimethyl sulfoxide-d6 and measuring the 1 H NMR spectrum. Signals from GlyH + could be identified, in addition to those from FA + and MA + (Fig.  S19b ). By comparing the integrated peak areas, the ratio of GlyH + against the total of A site component (Cs + , FA + , MA + ) was estimated to be 0.20. Assuming all the materials bind as a full coverage monolayer to the perovskite surfaces, an analysis of the surface/volume ratios suggests this would correspond to the formation of ca. 20 nm nanocrystals. More importantly, we note that the hydrogen atoms from the ammonium head of GlyH + are shifted by 0.32 ppm compared with the pristine GlyHCl (Fig.  S19c ), indicating that the ammonium group of GlyH + cation has an affinity for the perovskite components.    GlyH + NH 3 (3H) GlyH + CH 2 (2H) GlyH + FA + NH 2 + (2H) FA + NH 2 (2H) MA + NH 3 (3H) MA + CH 3 (3H) GlyH + CH 2 (2H) GlyH + OH (1H) GlyH + NH 3 (3H) FA + CH (1H) NH 2 H C H 2 N H 3 C NH 3 FA + MA + NH 3 Fig.  S20 . Dynamic light scattering (DLS) results for the perovskite precursor solutions prepared a, without and b, with the addition of 2 mol% GlyHCl. Note that the DLS experiment was conducted around five hours after the sample preparation, as the sample transporting to, and equipment adjustment in, the company (Otsuka Electronics Co., Ltd., Japan).  &#13;</text>
+    </passage>
+    <passage>
+      <offset>39268</offset>
+      <text> XRD characterization To confirm the effect of GlyHCl on the enhancement of the film crystallinity, we also compared the XRD patterns of the films fabricated with the addition of 2, 4, and 8 mol% GlyHCl without EDAI2 post-treatment. The intensity of the (100) peak increases with the amount of GlyHCl added into the precursor solution, and no new peaks or peak-shifts can be observed. We can therefore conclude that GlyHCl enhances the crystallinity of the resultant perovskite films without inducing new crystalline phases, such as the low dimension perovskite crystals.  &#13;</text>
+    </passage>
+    <passage>
+      <offset>39842</offset>
+      <text> Surface treatment The composition of the co-solvent system (isopropanol and toluene with the volume ratio of 1:1) used for the EDAI2 post-treatment is very important. The polarity of the isopropanol helps the organic ammonium salts to anchor to the film surface, enhancing defect passivation 2 . Sncontaining perovskites are soluble in isopropanol  3  , however, so toluene was applied to reduce the overall viscosity of the solution to accelerate the dispersion of the EDAI2 solution on the films before spinning. The viscosity of isopropanol and toluene is 2.40 and 0.59, respectively. The average thickness of the perovskite films is 870, 830, and 860 nm for control, EDAI2treated, EDAI2/GlyHCl-treated perovskite films, respectively. The EDAI2-treated film is notably thinner than the control, this phenomenon also can be observed in the sample prepared for the SCLC characterizations (Table  S2 ), confirming the polishing effect of the post-treatment with EDAI2 solution.     To further investigate the structural characters at the film surface, we conducted grazing incidence XRD (GIXRD) measurements with incident angles of 0.2, 0.4, and 1.0° (Fig.  S26  and 27 ). As the incident angle increases, more structural information is collected from regions further away from the top surface of the perovskite layer. As incident angle increased, the interplanar space in the crystal lattice of the films with treatments (Fig.  S26a  and b ) expanded, indicating that the film at the surface region is more compressed than the bulk  4  . For the films fabricated with different modifications, the intensity of the (100) peaks increases especially with the incident angle of 0.2° (Fig.  S26d ), confirming the benefits of the treatments on the film crystallinity, particularly at the surface region.   for the GlyHCl/EDAI2-treated sample. The value of A is three orders of magnitude lower than that of MAPbI3 1 , suggesting that our films have a lower density of traps such as the structural defects and impurities. The value of B is one order of magnitudes lower than that of MAPbI3               &#13;</text>
+    </passage>
+    <passage>
+      <offset>41944</offset>
+      <text> Further detail about the filming processes for better lab-to-lab reproducibility We observed white dots forming at the bottom surface of the films processed on 1.1 mm thick ITO substrate. However, this phenomenon cannot be observed in the films deposited on 1.8 mm thick FTO-based substrates with the normal fabrication conditions. We also found that the white dots will be formed even on the films fabricated with FTO substrate, if we drip the antisolvent preheated up to 45 °C. We therefore believe that the formation of the white dots is related to the cation exchange processes during the crystal growth (see the details in the main text). The cation exchange is a dynamic process, which is closely linked to the time dependence of the wet process. In the case of FTO, if the films were deposited with the hot antisolvent, the wet films tend to dry much faster than the case with the cold antisolvent. In the hot antisolvent dripping case, therefore, the whole cation exchange processes cannot be completed in time, resulting in white dots at the bottom surface of the films. In the ITO case, we may alleviate it by reducing the amount of GlyHCl added into the precursor solution and/or optimizing the fabrication conditions by, for example, i) changing the temperature of the antisolvent, ii) controlling the temperature inside the glovebox, or iii) dripping the antisolvent in a time window that ensures a sufficient time to complete the cation exchange within the whole crystallization process.   &#13;</text>
+    </passage>
+    <passage>
+      <offset>43451</offset>
+      <text> Impedance characterization The complex impedance data provides an accurate and detailed picture of the equivalent circuit resistances  9, 10  . Representative complex impedance scans for solar cell devices fabricated with the control, EDAI2-treated, and EDAI2/GlyHCl-treated perovskite layers are shown in Fig.  S51a . The series resistance is minimal, while the parallel resistance, indicated by the diameter of the main semicircular feature, increases from 290  cm 2 for the control film, to 445  cm 2 for the EDAI2treated and 495  cm 2 for the EDAI2/GlyHCl-treated film. Under the measurement conditions, the parallel resistance (rp) can be interpreted as the shunt resistance of the perovskite layer, and the higher values of the EDAI2-treated and EDAI2/GlyHCl-treated layers reflect the lower leakage current anticipated from the observed improvement in crystallinity and lower trap densities indicated by the SCLC measurements. The parallel resistance for the three devices values measured over a range of applied bias voltages are compiled in Fig.  S51b . The overall trends observed in Fig.  S51a  are reproduced at all bias voltages below 0.3 V, while as the forward bias increases the resistance values decrease as the recombination currents increase. Applied voltage (V) &#13;</text>
+    </passage>
+    <passage>
+      <offset>44744</offset>
+      <text> Control &#13;</text>
+    </passage>
+    <passage>
+      <offset>44754</offset>
+      <text> PLQY characterization We fabricated perovskite films on PEDOT:PSS to evaluate the nonradiative recombination in our system via PLQY measurement. On PEDOT:PSS, the PLQY of the EDAI2/GlyHCl-treated perovskite film is 2.1%, considerably higher than that of the control film (~0.001%), verifying that the nonradiative recombination pathways in the EDAI2/GlyHCl-treated films are largely suppressed.  Fig. 1 1 Fig. 1 Narrow-bandgap perovskite films with top and bottom interface modification. (a) Schematic illustration of the interface modifications of mixed Sn-Pb perovskite films by the GlyHCl additive and EDAI 2 surface treatment. (b) ToF-SIMS depth profile of EDA + and Gly À ions for the EDAI 2 /GlyHCltreated perovskite film on PEDOT:PSS/FTO. Full ion profiles are given in the ESI † (Fig. S1-S18). (c) Reconstructed, background subtracted 3D maps showing the distributions of EDA + and Gly À ions through the modified perovskite films. The raster area of the primary ion beam was 30 mm Â 30 mm, and the thickness axis has been expanded for clarity. (d) Top-view (scale bar: 2 mm) and (e), cross-sectional (scale bar: 500 nm) SEM images of the control, EDAI 2 -treated, and EDAI 2 /GlyHCl-treated (left to right) perovskite films on PEDOT:PSS-coated FTO/glass substrates. &#13;</text>
+    </passage>
+    <passage>
+      <offset>46036</offset>
+      <text> Fig. 2 2 Fig. 2 Carrier dynamics. (a) Steady state photoluminescence (PL) spectra and (b) time-resolved photoluminescence (TRPL) for the perovskite films on quartz substrates with the back-side excitation. (c) PL decay curves for the EDAI 2 /GlyHCl-treated perovskite film showing the variation in PL lifetimes with excitation intensity. Curve fits used to ascertain the PL lifetimes 75 are shown by dashed lines, see the ESI † (Fig. S31). (d) Dependence of the lifetime and initial intensity of the PL signal on the excitation fluence. An initial carrier density of 1.5 Â 10 16 cm À3 corresponds to an excitation fluence of 100 nJ cm À2(approx. AM1.5 G, 1 Sun). Black solid lines are the curve fits obtained using the rate equations reported in our previous work. 75   &#13;</text>
+    </passage>
+    <passage>
+      <offset>46813</offset>
+      <text> Fig. 3 3 Fig. 3 Solar cell devices. (a) Schematic and cross-sectional SEM image. (b) J-V curves of the best performing devices. (c) The EQE, IQE, and reflectance spectra of an EDAI 2 /GlyHCl-treated device. (d), J-V curves for the champion device measured with no optical mask and an active area of around 0.16 cm 2 . (e) Normalized maximum power point tracking (MPPT) curves for the unencapsulated control, EDAI 2 -treated, and EDAI 2 /GlyHCl-treated devices operating under AM1.5 G in an inert atmosphere. The initial efficiencies were 14.8, 18.2, and 20.1%, respectively. &#13;</text>
+    </passage>
+    <passage>
+      <offset>47390</offset>
+      <text> Fig. 4 4 Fig. 4 Band structure and surface dipole formation. (a) Secondary electron cut-off and (b) valence band regions of the UPS spectra for the perovskite films. (c) Energy-level scheme based on the UPS spectra. The full analysis is shown in Fig. S43 and S44 (ESI †). Energy values are given in electron volts relative to the vacuum level, E vac , and the conduction band energies are determined from the bandgap of 1.25 eV estimated from the PL measurements. (d) The ESR spectra for PEDOT:PSS on quartz, with or without a perovskite capping layer. The g-factor is 2.0030. (e) Schematic illustrating how electron and hole extraction enhanced by surface dipoles induced by EDA 2+ and GlyH + cations at the top and bottom perovskite interfaces, respectively. &#13;</text>
+    </passage>
+    <passage>
+      <offset>48155</offset>
+      <text> 98%), glycine hydrochloride (GlyHCl, 99%), poly[bis(4-phenyl)(2,4,6-trimethylphenyl)amine] (PTAA), and poly(methyl methacrylate) (PMMA) were purchased from Sigma-Aldrich Co., Ltd. (Sigma-Aldrich). Poly(3,4-ethylenedioxythiophene): poly(styrene sulfonate) (PEDOT:PSS) aqueous solution (Clevious PVP AI 4083) was purchased from Heraeus Co., Ltd. Fullerene C60 (sublimed, 99.99%) was purchased from ATR Company. 2,3,5,6-Tetrafluoro-7,7,8,8tetracyanoquinodimethane (F4-TCNQ) and poly[9,9-dioctyl-9',9'-bis[3-(trimethylammonio)propyl] [2,2'-bi-9H-fluorene]-7,7'-diyl iodide (PFN-I) were purchased from Ossila. Dehydrated dimethylsulfoxide (DMSO, super dehydrated) and isopropanol (IPA, super dehydrated) were purchased from FUJIFILM Wako Pure Chemical Co., Ltd. Dimethylformamide (DMF), toluene and chlorobenzene were purchased from Kanto Chemical. Co., Inc. All of these solvents were degassed by Ar gas bubbling for 1 h and further dried with molecular sieves (3 Å) in an Ar-filled glove box (H2O, O2 &lt;0.1 ppm) before use. &#13;</text>
+    </passage>
+    <passage>
+      <offset>49184</offset>
+      <text> Fig. S1 . S1 Fig. S1. ToF-SIMS depth profiles of the control perovskite film fabricated on an PEDOT:PSS/FTO-coated glass substrate measured in a, positive and b, negative polarity. &#13;</text>
+    </passage>
+    <passage>
+      <offset>49367</offset>
+      <text> Fig. S5 .Fig. S6 . S5S6 Fig. S5. ToF-SIMS depth profiles of the GlyHCl-treated perovskite films fabricated on PTAA/PFN-coated FTO substrates measured in negative polarity. &#13;</text>
+    </passage>
+    <passage>
+      <offset>49541</offset>
+      <text> Fig. S7 .Fig. S8 .Fig. S9 . 4 , S7S8S94 Fig. S7. Reconstructed 3D map (stretched in the z direction for clarity) showing the distributions of EDA 2+ ions through the perovskite films without subtracting the background signals. a, EDAI2treated, b, EDAI2/GlyHCl-treated, c, EDAI2/GlyHCl-treated without PEDOT:PSS and d, Control perovskite films. &#13;</text>
+    </passage>
+    <passage>
+      <offset>49887</offset>
+      <text> Fig. S10 .Fig. S12 .Fig. S13 . 4 ,Fig. S15 . S10S12S134S15 Fig. S10. ToF-SIMS depth profile of GlyH + ions in the perovskite films fabricated on PTAA/PFNcoated FTO substrates. &#13;</text>
+    </passage>
+    <passage>
+      <offset>50065</offset>
+      <text> Fig. S16 .Fig. S17 . S16S17 Fig. S16. ToF-SIMS depth profile of SCN -ions in the perovskite films prepared with and without the addition of NH4SCN. &#13;</text>
+    </passage>
+    <passage>
+      <offset>50215</offset>
+      <text> Fig. S19 . S19 Fig. S19. Model experiments for the elucidation of the effect of GlyH + in the perovskite crystallization process. a, Formation of perovskite crystallites by rapid reprecipitation. b, 1 H NMR spectrum of the perovskite crystallites in DMSO-d6. c, Comparison with the spectrum of glycine hydrochloride (GlyHCl). &#13;</text>
+    </passage>
+    <passage>
+      <offset>50543</offset>
+      <text> Fig. Fig. S21. a, XRD patterns of perovskite films prepared with the addition of 2, 4, and 8 mol% of GlyHCl (without EDAI2 post-treatment); b, the corresponding peak intensity of the (100) peaks. &#13;</text>
+    </passage>
+    <passage>
+      <offset>50741</offset>
+      <text> Fig. S23 . S23 Fig. S23. Variations of the film thickness measured from 15 different cross-sections for each sample. The average thickness of the perovskite films is 870, 830, and 860 nm for control, EDAI2- &#13;</text>
+    </passage>
+    <passage>
+      <offset>50950</offset>
+      <text> Fig. S24 . S24 Fig. S24. Top-view (scale bar: 2 µm) SEM images of the control perovskite films treated with a, co-solvent and b, EDAI2 in pure IPA solution fabricated on PEDOT:PSS-coated FTO/glass substrates. J-V curves of the devices fabricated with the control perovskite films treated with c, co-solvent and d, EDAI2 in pure IPA solution. &#13;</text>
+    </passage>
+    <passage>
+      <offset>51295</offset>
+      <text> Fig. S25 . S25 Fig. S25. XRD patterns of perovskite films with the 2θ range from a, 5 to 45°, b, 12 to 15° for showing the difference of the (100) peak intensity of the films, c, 12 to 15° with magnification for showing the PbI2 peaks; d, the corresponding peak intensity and full width at half maximum (FWHM) of the (100) peaks. All diffraction peaks of FTO are indexed following the rutile tetragonal crystalline phase of SnO2 (COD No. 96-210-1854). A thin layer of PMMA was coated onto the perovskite films to prevent oxidation. &#13;</text>
+    </passage>
+    <passage>
+      <offset>51833</offset>
+      <text> Fig. S26 .Fig. S27 . S26S27 Fig. S26. Grazing incidence XRD patterns of a, control, b, EDAI2-treated, c, GlyHCl-treated, and d, EDAI2/GlyHCl-treated perovskite films measured with the incident angles of 0.2, 0.4, and 1.0°. &#13;</text>
+    </passage>
+    <passage>
+      <offset>52059</offset>
+      <text> Fig. S30 . S30 Fig. S30. The PL lifetime, PL intensity, and FWHM of the PL peaks for the perovskite films fabricated on quartz substrates with back-side excitation. &#13;</text>
+    </passage>
+    <passage>
+      <offset>52226</offset>
+      <text> Fig. S31 . S31 Fig. S31. PL dynamics of the EDAI2/GlyHCl-treated films under different excitation intensities. Dashed lines represent the fit of the decay signals to the rate equations reported in our previous work 1 . &#13;</text>
+    </passage>
+    <passage>
+      <offset>52447</offset>
+      <text> Fig. S33 .Fig. S37 . S33S37 Fig. S33. Stabilized power output of the EDAI2/GlyHCl-treated device measured by fixing the voltage at 0.76 V under AM1.5G. &#13;</text>
+    </passage>
+    <passage>
+      <offset>52601</offset>
+      <text> Fig. S39 . S39 Fig. S39. Representative J-V curves of the device fabricated with the addition of 2 mol% GlyHCl while without EDAI2 treatment. &#13;</text>
+    </passage>
+    <passage>
+      <offset>52745</offset>
+      <text> Fig. Fig. S41. a, J-V curves for the best performing large area device, with an active area 1 cm 2 . The PCE is 21.0% for the forward scan (JSC = 33.1 mA cm -2 , VOC = 0.88 V, FF = 0.72). b, Photos of the cell with 1 cm 2 active area. Insets show the front side of the cell and the optical mask used for the measurement. &#13;</text>
+    </passage>
+    <passage>
+      <offset>53068</offset>
+      <text> Fig. S42 . 6 Fig. S43 . S426S43 Fig. S42. Histograms of the J-V parameters obtained from nine devices with 1 cm 2 active area. &#13;</text>
+    </passage>
+    <passage>
+      <offset>53197</offset>
+      <text> Fig. S44 .Fig. S45 . S44S45 Fig. S44. Energy level shifts induced by EDAI2 post-treatment for the perovskite layers prepared a, without GlyHCl additive and b, with GlyHCl additive. &#13;</text>
+    </passage>
+    <passage>
+      <offset>53380</offset>
+      <text> 498 &#13;</text>
+    </passage>
+    <passage>
+      <offset>53386</offset>
+      <text> Fig. S46 . S46 Fig. S46. The integrated ESR spectra for the data presented in Fig. 4d. &#13;</text>
+    </passage>
+    <passage>
+      <offset>53475</offset>
+      <text> Fig. S47 .Fig. S50 . S47S50 Fig. S47. The picture of the perovskite films fabricated with the addition of 2 mol% GlyHCl. a, The film deposited on ITO and b, FTO with the unheated antisolvent, c, the film deposited on the FTO with the antisolvent heated up to 45 °C. &#13;</text>
+    </passage>
+    <passage>
+      <offset>53744</offset>
+      <text> Fig. S51. a , a Fig. S51. a, Complex impedance of PSCs scanned over 20 Hz -20 MHz, recorded at 0.3 V bias under AM1.5G illumination. b, Variations of parallel resistance in log scale as a function of applied voltage. &#13;</text>
+    </passage>
+    <passage>
+      <offset>53963</offset>
+      <text> Fig. S52 . S52 Fig. S52. PLQY spectra of the control and EDAI2/GlyHCl-treated perovskite films excited at 650 nm. &#13;</text>
+    </passage>
+    <passage>
+      <offset>54079</offset>
+      <text> 4 , 4 Control perovskite films. 1E+02 No.1 C2H9N2+ C 2 H 9 N 2 + NO. 1 NO. 2 No.2 C2H9N2+ C 2 H 9 N 2 + EDAI 2 EDAI 2 1E+01 No.3 C2H9N2+ C 2 H 9 N 2 + PVSK PVSK+GlyHCl No.4 C2H9N2+ C 2 H 9 N 2 + PEDOT:PSS PEDOT:PSS Intensity Normalized 1E-02 1E-01 1E+00 FTO NO. 3 PVSK+GlyHCl EDAI 2 FTO FTO NO. 4 PVSK PEDOT:PSS FTO 1E-03 1E-04 0 200 400 600 800 1000 1200 1400 1600 Depth(nm) &#13;</text>
+    </passage>
+    <passage>
+      <offset>54457</offset>
+      <text> Table S1 . S1 Steady-state photoluminescence (PL) spectra of the perovskite films fabricated on quartz substrates with the front-side excitation. b, Time-resolved photoluminescence (TRPL) decay of the perovskite films fabricated on quartz substrates with the front-side excitation. The PL lifetime, PL intensity, peak energy, and FWHM of the PL peaks for the perovskite films fabricated on quartz substrates. 200 220 240 260 280 300 320 340 6.32 2.43 × 10 6 EDAI 2 + GlyHCl 0.8 1.0 Control EDAI 2 GlyHCl Intensity (cps) b 6.33 6.34 6.35 6.36 6.37 6.38 6.39 6.40 6.41 d (Å) d energy 0.6 ω (°) 1.5 Photon EDAI 2 + GlyHCl Control EDAI 2 GlyHCl 0.2 0.4 Control 0.39 0.40 0.41 0.42 0.43 0.44 0.45 FWHM (°) 13.82 13.84 13.86 13.88 13.90 13.92 13.94 13.96 13.98 14.00 14.02 2θ (°) (eV) 1.0 1.2 1.4 1.6 0.0 Photon energy (eV) 0.2 Control 1.246 0.4 EDAI 2 GlyHCl EDAI 2 + GlyHCl 1.8 substrate. a c (Quartz side) Control EDAI 2 EDAI 2 + GlyHCl Fig. S29. Optical absorption spectrum of the EDAI2/GlyHCl-treated perovskite film on quartz Control EDAI 2 GlyHCl EDAI 2 + GlyHCl 104.7 0.6 0.8 1.0 ω (°) t (µs) 2.0 EDAI2 + GlyHCl 4.9 1.64 × 10 7 1.252 93.58 Back-side excitation (a.u.) (eV) (meV) 0 0.0 0.096 PL lifetime (μs) PL intensity Peak energy FWHM 1 5.0x10 6 Fig. S28. a, 0 2 4 6 8 10 12 10 -2 10 -1 10 0 Control EDAI 2 EDAI 2 + GlyHCl Normalized intensity (a.u.) a b 1.0 1.1 1.2 1.3 1.4 1.5 0.0 5.0x10 6 1.0x10 7 1.5x10 7 2.0x10 7 2.5x10 7 3.0x10 7 Control EDAI 2 EDAI 2 + GlyHCl PL intensity (a.u.) 2.0x10 4 4.0x10 4 6.0x10 4 8.0x10 4 ) 6 2.5x10 7 0.108 1.0x10 5 Absorption -1 (cm Front-side 5 2.0x10 7 coefficient excitation (Film surface side) PL intensity Peak energy FWHM PL lifetime (μs) (a.u.) (eV) (meV) Control 2.8 2.99 × 10 6 1.261 112.1 EDAI2 4.5 1.42 × 10 7 1.251 94.95 2 3 4 PL 0.100 PL lifetime (µs) 1.0x10 7 1.5x10 7 FWHM intensity 0.104 (a.u.) (eV) 0.38 180 0.37 EDAI2 3.2 1.29 × 10 7 160 1.251 102.9 0.2 0.4 0.6 0.8 1.0 0.2 0.4 0.6 0.8 1.0 ω (°) ω (°) EDAI2 + GlyHCl 5.5 2.12 × 10 7 1.244 98.67 &#13;</text>
+    </passage>
+    <passage>
+      <offset>56486</offset>
+      <text> Table S2 . S2 The hole and electron trap densities estimated from the SCLC measurements. Hole-only Electron-only Sample devices Thickness VTFL Ntrap (hole) (cm -3 ) devices Thickness VTFL Ntrap (electron) (cm -3 ) (nm) (V) (nm) (V) Control 867 0.63 3.0 × 10 15 817 0.07 3.7 × 10 14 EDAI2 814 0.54 2.9 × 10 15 775 0.07 3.9 × 10 14 EDAI2 + GlyHCl 863 0.36 1.7 × 10 15 828 0.06 2.9 × 10 14 &#13;</text>
+    </passage>
+    <passage>
+      <offset>56881</offset>
+      <text> Table S3 . S3 Device performance parameters. 35 Current density (mA cm -2 ) %) Sample a Control 0 5 10 15 20 25 30 Control Scan a Forward EDAI 2 EDAI 2 + GlyHCl JSC (mA cm -2 ) 31.6 Reverse 31.6 Forward 31.8 Reverse 31.8 Forward 31.8 Reverse 31.6 Forward 31.8 Reverse 31.8 Forward 31.9 Reverse 31.8 0.50-R 0.50-F 0.05-R 0.15-F 0.15-R w/o w/o 0.05-F b 0.74 0.78 0.82 0.86 0.90 0.94 VOC (V) V OC (V) 0.76 0.78 0.77 0.79 0.77 0.79 0.77 0.78 0.78 0.78 0.50-R 0.15-F 0.15-R 0.50-F w/o-F w/o-R 0.05-F 0.05-R C Control 31.59 31.78 31.72 31.79 31.84 31.80 31.96 31.94 J SC (mA cm -2 ) EDAI 2 EDAI 2 + PCE (%) GlyHCl 19.3 19.1 19.5 18.9 18.9 18.9 19.3 0.85 FF 0.78 0.78 0.78 0.78 0.78 0.79 0.77 0.77 0.78 0.77 0.76 20.35 19.3 0.83 0.77 20.45 0.83 0.74 19.60 0.85 0.78 21.17 19.6 0.75 0.77 18.44 0.77 0.76 18.42 0.77 0.76 18.81 0.78 0.74 18.37 18.8 V OC (V) FF PCE (%) c Forward 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 31.9 d 0.78 0.77 19.3 0.72 0.76 0.80 0.84 0.88 0.80 FF respectively. A saturated solution with a concentration of about 0.3 mg mL -1 EDAI2 formed when 31.6 32.0 32.4 32.8 33.2 Forward 32.1 0.72 18.5 J SC Forward 31.9 0.80 0.72 18.5 Reverse 31.8 0.84 0.79 21.0 prepared without EDAI2, and with 0.05, 0.15, 0.50 mg EDAI2 into 1 mL IPA/toluene (v:v = 1:1), (mA cm Forward 32.2 0.81 0.73 Reverse 32.2 0.83 0.78 20.9 the same batch. w/o, 0.05, 0.15, and 0.50 represent the perovskite films treated with the solution 19.0 -2 ) Reverse 31.7 0.79 0.77 19.2 Forward (av.) 31.8 ± 0.1 0.77 ± 0.01 0.78 ± 0.00 Reverse (av.) 31.7 ± 0.1 0.79 ± 0.01 0.78 ± 0.01 Fig. S38. The J-V curves and the device performance parameters of the solar cells fabricated within 19.3 ± 0.2 19.1 ± 0.2 Voltage (V) 31.2 EDAI2 0.50 mg EDAI2 was added. Control Reverse EDAI Reverse Forward 2 EDAI 32.4 2 + GlyHCl 31.9 32.5 0.68 0.84 0.84 0.82 Control 0.79 0.79 0.72 EDAI 2 EDAI 21.4 2 + GlyHCl 21.1 19.3 Forward 32.2 0.83 0.73 19.5 Reverse 32.3 0.85 0.79 21.7 Forward 32.3 0.82 0.73 19.3 Reverse 32.2 0.84 0.79 21.5 Forward (av.) 32.2 ± 0.2 Reverse (av.) 32.1 ± 0.2 0.81 ± 0.01 0.73 ± 0.01 0.84 ± 0.01 0.79 ± 0.00 19.0 ± 0.7 21.3 ± 0.3 Forward 32.5 0.88 0.79 22.8 Reverse 32.4 0.89 0.82 23.6 Forward 32.4 0.88 0.80 22.8 Reverse 32.3 0.89 0.82 23.5 Forward 32.6 0.88 0.79 22.8 Reverse 32.4 0.89 0.82 23.5 EDAI2 + Forward 32.5 0.88 0.79 22.7 GlyHCl Reverse 32.5 0.89 0.82 23.6 Forward 32.6 0.88 0.80 22.8 Reverse 32.5 0.89 0.82 23.5 Forward 32.6 0.88 0.80 22.9 Reverse 32.6 0.89 0.81 23.5 Forward (av.) 32.5 ± 0.1 Reverse (av.) 32.5 ± 0.1 0.88 ± 0.00 0.79 ± 0.01 0.89 ± 0.00 0.82 ± 0.00 22.8 ± 0.1 23.5 ± 0.0 &#13;</text>
+    </passage>
+    <passage>
+      <offset>59487</offset>
+      <text> Table S4 . S4 Device performance parameters of nine large area PSCs with 1 cm 2 active device area. Scan a JSC (mA cm -2 ) VOC (V) FF PCE (%) Forward 32.02 0.88 0.70 19.7 Reverse 31.6 0.87 0.69 19.1 Forward 31.8 0.87 0.69 19.2 Reverse 31.5 J SC (mA cm -²) 0.87 V OC (V) FF PCE (%) 0.68 18.5 Forward 32.2 Forward 31.76 0.82 0.88 0.78 20.17 0.68 19.1 Reverse 31.66 0.83 0.77 20.18 Reverse 31.9 0.87 0.67 18.5 Forward 32.0 0.88 0.70 19.6 Reverse 31.5 0.87 0.69 19.0 Forward 33.1 0.88 0.72 21.0 Reverse 32.4 0.88 0.72 20.3 Forward 32.2 0.88 0.73 20.5 Reverse 31.6 0.87 0.72 19.8 Forward 32.1 0.88 0.72 20.3 Reverse 31.5 0.87 0.71 19.6 Forward 32.5 0.88 0.72 20.6 Reverse 31.6 0.88 0.72 19.9 Forward 33.7 0.87 0.67 19.6 Reverse 31.5 0.86 0.75 20.4 Forward (av.) 32.4 ± 0.6 0.87 ± 0.00 0.70 ± 0.02 20.0 ± 0.6 Reverse (av.) 32.7 ± 0.3 0.87 ± 0.01 0.71 ± 0.02 19.5 ± 0.7 &#13;</text>
+    </passage>
+    <passage>
+      <offset>60361</offset>
+      <text> Table S5 . S5 The Sn 4+ /(Sn 2+ + Sn 4+ ) ratio and binding energy of the Sn 4+ and Sn 2+ peaks, as determined from the deconvolution of the 3d3/2 and 3d5/2 XPS peak manifolds shown in Fig.S45. a 498 Sample 494 Intensity (a. u.) Sn 3d 3/2 494 Sn 3d 3/2 Sn 4+ 490 PEDOT:PSS Intensity (a. u.) Sn 4+ /(Sn 2+ + Sn 4+ ) 486 482 (%) 60 90 Abs. (I Mn 490 120 unit) b 180 Sn 3d 5/2 PEDOT:PSS/Perovskite 486 Sn 3d 5/2 3d3/2 (eV) 150 PEDOT:PSS/Perovskite with GlyHCl 482 498 Intensity (a. u.) Sn 2+ c 494 Sn 3d 3/2 Sn 4+ 490 (eV) Sn 3d 5/2 486 Sn 2+ 482 3d5/2 Binding energy (eV) Control 30 8.5 Binding energy (eV) 496.23 494.77 Binding energy (eV) 487.39 486.29 EDAI2 0 4.1 496.43 494.78 487.24 486.30 EDAI2 + GlyHCl 3.9 318 496.32 319 494.77 487.66 320 486.35 H (mT) &#13;</text>
+    </passage>
+    <passage>
+      <offset>61122</offset>
+      <text>			 This journal is © The Royal Society of Chemistry 2022 &#13;</text>
+    </passage>
+    <passage>
+      <offset>61182</offset>
+      <text>			 Published on 12 April 2022. Downloaded by University of California -San Diego on 1/7/2025 9:20:10 PM.View Article Online &#13;</text>
+    </passage>
+    <passage>
+      <offset>61308</offset>
+      <text>			 S. D. Stranks and H. J. Snaith, Metal-halide perovskites for photovoltaic and light-emitting devices, Nat. Nanotechnol., &#13;</text>
+    </passage>
+    <passage>
+      <offset>61434</offset>
+      <text>			 2015, 10, 391-402. 2 P. K. Nayak, S. Mahesh, H. J. Snaith and D. Cahen, Photovoltaic solar cell technologies: analysing the state of the art, Nat. Rev. Mater., 2019, 4, 269-285. 3 K. Leng, W. Fu, Y. Liu, M. Chhowalla and K. P. Loh, From bulk to molecularly thin hybrid perovskites, Nat. Rev. Mater., 2020, 5, 482-500. 4 W. Shockley and H. J. Queisser, Detailed balance limit of efficiency of p-n junction solar cells, J. Appl. Phys., 1961, 32, 510-519. 5 G. E. Eperon, et al., Formamidinium lead trihalide: a broadly tunable perovskite for efficient planar heterojunction solar cells, Energy Environ. Sci., 2014, 7, 982-988. 6 W. Hui, et al., Stabilizing black-phase formamidinium perovskite formation at room temperature and high humidity, Science, 2021, 371, 1359. 7 K. Dey, B. Roose and S. D. Stranks, Optoelectronic Properties of Low-Bandgap Halide Perovskites for Solar Cell Applications, Adv. Mater., 2021, 2102300. 8 K. J. Savill, A. M. Ulatowski and L. M. Herz, Optoelectronic properties of tin-lead halide perovskites, ACS Energy Lett., 2021, 6, 2413-2426. 9 A. Goyal, et al., Origin of pronounced nonlinear band gap behavior in lead-tin hybrid perovskite alloys, Chem. Mater., 2018, 30, 3920-3928. 10 M. T. Klug, et al., Metal composition influences optoelectronic quality in mixed-metal lead-tin triiodide perovskite solar absorbers, Energy Environ. Sci., 2020, 13, 1776-1787. 11 W. Ke, C. C. Stoumpos and M. G. Kanatzidis, ''Unleaded'' perovskites: Status quo and future prospects of tin-based perovskite solar cells, Adv. Mater., 2019, 31, 1803230. 12 J. P. Cao and F. Yan, Recent progress in tin-based perovskite solar cells, Energy Environ. Sci., 2021, 14, 1286-1325. 13 J. Euvrard, Y. Yan and D. B. Mitzi, Electrical doping in halide perovskites, Nat. Rev. Mater., 2021, 6, 531-549. 14 L. Lanzetta, et al., Degradation mechanism of hybrid tinbased perovskite solar cells and the critical role of tin(IV) iodide, Nat. Commun., 2021, 12, 2853. 15 M. I. Saidaminov, et al., Conventional solvent oxidizes Sn(II) in perovskite inks, ACS Energy Lett., 2020, 5, 1153-1155. 16 J. Pascual, et al., Origin of Sn(II) oxidation in tin halide perovskites, Mater. Adv., 2020, 1, 1066-1070. 17 N. K. Noel, et al., Lead-free organic-inorganic tin halide perovskites for photovoltaic applications, Energy Environ. Sci., 2014, 7, 3061-3068. 18 F. Hao, C. C. Stoumpos, D. H. Cao, R. P. H. Chang and M. G. Kanatzidis, Lead-free solid-state organic-inorganic &#13;</text>
+    </passage>
+    <passage>
+      <offset>63893</offset>
+      <text>			 Y. Han, et al., From distortion to disconnection: linear alkyl diammonium cations tune structure and photoluminescence of lead bromide perovskites, Adv. Opt. Mater., 2020, 8, 1902051.</text>
+    </passage>
+  </document>
+</collection>

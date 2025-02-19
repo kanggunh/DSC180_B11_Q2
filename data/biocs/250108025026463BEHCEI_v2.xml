@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source/>
+  <date/>
+  <key/>
+  <document>
+    <id>250108025026463BEHCEI</id>
+    <infon key="tt_curatable">no</infon>
+    <infon key="tt_version">2</infon>
+    <infon key="tt_round">2</infon>
+    <passage>
+      <offset>0</offset>
+      <text>Paper #: 23&#13;</text>
+    </passage>
+    <passage>
+      <offset>12</offset>
+      <text>Quantum-size-tuned heterostructures enable efficient and stable inverted perovskite solar cells&#13;</text>
+    </passage>
+    <passage>
+      <offset>108</offset>
+      <text>Thicknesses were chosen to reflect our device architecture Bandgap: The bandgaps of SnO2 and NiOx were taken from 5 and 6 respectively. The bandgaps of 3D and 2D perovskites were taken from our photo-electron spectroscopy results (Table  S1  and S2  respectively). &#13;</text>
+    </passage>
+    <passage>
+      <offset>374</offset>
+      <text> Electron affinity: The electron affinities of SnO2 and NiOx were taken from 5 and 6 respectively. The electron affinities of different 2D perovskite species were taken from our photo-electron spectroscopy results (Table  S2 ). For 3D perovskite, we used the same value used in similar simulations in 1 , referenced from 7 which is almost identical to the value derived from photo-electron measurements (Table  S1 ). &#13;</text>
+    </passage>
+    <passage>
+      <offset>792</offset>
+      <text> Dielectric permittivity: The dielectric permittivity of SnO2, 3D perovskite and NiOx were taken from 8-10 respectively. 2D perovskite was taken to be the same as 3D perovskite due to a lack reliable literature. The same assumption was made when simulating solar cells in 1 , and a similar value for 2D perovskite was used in SCAPS simulations in 18  . &#13;</text>
+    </passage>
+    <passage>
+      <offset>1146</offset>
+      <text> Conduction/valence band effective density of states: The effective density of states for the conduction and valence bands (NC and NV respectively) were calculated using standard equations: where k is Boltzmann's constant, T is temperature and h is Planck's constant. The effective masses of electrons and holes (𝑚 𝑒 * and 𝑚 ℎ * respectively) were found in the literature. For SnO2, the value for electrons was taken from 11 and for holes it was assumed to be the same as the absorber, an assumption used previously in 19 . For perovskite, values from 12 were used. For NiOx, values from 13 were used. For 2D materials these equations are no longer valid. However, previous SCAPS nature research | solar cells reporting summary&#13;</text>
+    </passage>
+    <passage>
+      <offset>1885</offset>
+      <text>Figure S1 | Summary of PSC efficiency/stability A comparison of device efficiency and stability from many high-profile perovskite solar cell papers from 2019 onwards. This summary demonstrates that the majority of high performing NIP PSCs use a 2D/3D heterostructure. It also showcases the stability advantages of PIN solar cells. In this work we sought to use both of these for excellent stability and efficiency. All references can be found in Table  7 .    S1  | Calculated band alignment values from a linear fitting of Fig.  S2a  (semi-log plot) and Fig.  S2b  (linear plot). These values were combined with the optical bandgap found from TA spectra to calculate the band alignment of &lt;n&gt; = 1,2,3 and 4 films. &#13;</text>
+      <annotation id="1">
+        <infon key="type">structure_pin_nip</infon>
+        <infon key="identifier">NIP</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-26T05:24:18Z</infon>
+        <location offset="2115" length="3"/>
+        <text>NIP</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>2601</offset>
+      <text> Supplementary Text 1 | Reduced performance of the standard 2D treatment in PIN As mentioned in the main manuscript, it has been reported that standard 2D treatments do not produce improved performance in PIN devices as they do in NIP. We confirmed this ourselves by fabricating PIN (NiOx/3D-perovskite/2D/C60/ALD-SnO2/Ag) and NIP (SnO2/3D-perovskite/2D/Spiro-OMeTAD/Au) devices. The resultant current-voltage (J-V) curves (Fig.  S3 ) show improved open circuit voltage (VOC) for both architectures, indicating well-passivated surfaces.  1, 2  Despite both devices using the same 5 mg/mL PEAI in isopropanol (IPA) surface treatment, the inverted devices have reduced short circuit current (JSC) and fill factor (FF), indicating a transport barrier within the cell. Reducing the concentration of PEAI does curtail losses; but the treatment does not dramatically improve performance compared to controls as it does for NIP solar cells (Fig.  S4 ). &#13;</text>
+    </passage>
+    <passage>
+      <offset>3548</offset>
+      <text> Figure S3 | J-V curves from PIN and NIP devices using a 5 mg mL -1 L PEAI 2D treatment. The NIP device is improved by the treatment, the PIN device is significantly inhibited, with losses in current and fill factor.  &#13;</text>
+    </passage>
+    <passage>
+      <offset>3767</offset>
+      <text> Supplementary Text 2 | Simulations of 2D/3D heterojunctions in PIN Using the band alignment calculated from quasi-2D films, we simulated inverted devices with 10 nm n = 1, 2, 3 or 4 2D interlayers in SCAPS-1D (Fig.  S5a ).  3  When we assumed that passivated surfaces see a reduction in defect denstity,  1, 4  we found that devices with a n = 1 interlayer suffered from significant losses to JSC and FF, devices with n = 2 suffered losses to FF, and devices utilising n &gt; 2 were improved compared to controls. We also found that efficiency is dependent on interlayer thickness with thinner layers demonstrating improved FF (Fig.  S5b ), this may explain the reasonable performance of 1 mg mL -1 2D treated devices (higher VOC but slightly lower FF and JSC than controls). A comprehensive breakdown of the simulation parameters and justification for their use is found below.   2 . Full simulation parameters can be found in Table # and #. &#13;</text>
+    </passage>
+    <passage>
+      <offset>4709</offset>
+      <text> Table S5 | Material parameters used for simulation in SCAPS-1D Figure  S5  | Simulated J-V curves. Curves simulated using (a) 10 nm thick perovskite layer between perovskite and ETL with the band alignment calculated in Table  1  for each n value. The n = ∞ simulation (added to give an idea of the ideal case) corresponds to a version of the cell in which the 2D layer has the same exactly band alignment as the 3D (b) varying thickness of n = 2 perovskite. Clearly both the quasi-2D interlayer species and thickness are important factors. Parameters for simulation were taken from band alignment in Table  2 . Other physical properties for 3D perovskite and RDPs used the same value. Full simulation parameters can be found in Table  4 . a b simulations of RDPs have used the same NC and NV as 3D perovskite;  1, 20  we do the same here. The justification for this approximation is that increasing the NC by several orders of magnitude makes little difference to simulation results (Fig.  S6 ). &#13;</text>
+    </passage>
+    <passage>
+      <offset>5710</offset>
+      <text> Figure S6 | Simulated J-V curves comparing the conduction band effective density of states in the quasi-2D perovskite layer. Curves simulated using 10 nm thick quasi-2D layer using the band alignment from Table  S1 . Electron/hole mobilities: Mobilities for NiOx are the same as used for the HTL layers in  19  . The electron mobility of SnO2 is taken from  14  , the lower hole mobility is used for convenience. Mobilities for 3D perovskite are taken from  15  . For 2D perovskite this is reduced by an order of magnitude as RDPs are known to have lower mobilities than their bulk counterparts. Donor/acceptor densities: Our UPS results suggest that 3D and 2D perovskite are both lightly p-type so have a low acceptor concentration of 1E15 cm -3 . The hole concentration of NiOx was taken from  16  . The electron concentration of SnO2 was taken from  14  . Bulk defects: Parameters concerning bulk defects were generated using the SCAPS standard settings which reflect real-world materials.  3  Table  S3  | Interface parameters used for simulation in SCAPS-1D Interface defects: Parameters concerning defects were generated using the SCAPS standard settings which reflect real-world materials. The total defect density (cm -3 ) for the perovskite/ETL interface was increased from the 1E10 generated by SCAPS to 1E+16 based on  4  . This was reduced to 1E14 based on results from well passivated surfaces in the same paper. For the perovskite HTL interface 1E13 was used, again using values from  4  .  &#13;</text>
+      <annotation id="2">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">Tin dioxide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-18T05:53:21Z</infon>
+        <location offset="6049" length="4"/>
+        <text>SnO2</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>7217</offset>
+      <text> Parameter Interface SnO2 &#13;</text>
+    </passage>
+    <passage>
+      <offset>7244</offset>
+      <text> Supplementary Text 3 | Designing quasi-2D heterostructures As mentioned in the main manuscript, several avenues were explored towards producing 2D/3D heterostructures containing wider QWs (n ≥ 3). At first, we attempted to add 3D perovskite components directly into the 2D ligands solution, but this was not possible, due to low solubility of PbI2 in commonly used solvents (IPA, CF, Butanol). Bulk RDP films were prepared from stoichiometric precursors containing 2D perovskite ligands, PbI2 and common 3D perovskite cations (MA, FA or Cs), and found that only bulk RDP films using MA produced large amounts of n ≥ 3 RDPs (Fig.  S7 ). &#13;</text>
+    </passage>
+    <passage>
+      <offset>7886</offset>
+      <text> Figure S7 | Transient absorption spectra of films of &lt;n&gt; = 2 and &lt;n&gt; = 5 RDP where the additional Asite cation is either MA, Cs or FA. We used peaks from these spectra to extract the absorption wavelengths in Table  S4 . Note that for &lt;n&gt; = 5 FA and Cs based quasi-2D perovskites there is little absorption from the n &gt; 2, this could be due to the phase instability of FAPbI3 and CsPbI3. Using MAI as a sole additive with PEAI in our 2D treatment reduced the formation of n = 1 in 2D treated films but did not produce n ≥ 3 (Fig.  S8d ). Only when DMF was added to this treatment did we produce wider RDPs. When using PEAI and DMF (no MAI in the IPA solution) we found no obvious change in the TA signal compared to using PEAI alone (Fig.  S8 ). However, XRD suggested that more PbI2 was formed using this treatment (Fig.  S9a ), hence we used a very small amount of DMF (1:200 by vol. to IPA) to ensure that we did not dissolve large amounts of 3D perovskite, as this would not be beneficial to devices. We also used XRD to check the effect of using any combination of MAI/DMF to treat the perovskite surface, with no obvious changes (Fig.  S9b ). We thought to vary the MAI content to induce wider RDPs to grow, but found that this induced disorder into the heterostructure with a broadening of existing peaks rather than the formation of wider RDPs (Fig  S10 ). Ultimately, we found that using DMF (1:200 by vol. to IPA) and adding MAI (1:2 by wgt. to the 2D ligands in solution) produced our most valuable results. However, considering different ligand species this is a large sample space, and one we have not exhausted. Further studies may optimise this for better performance.     GIWAXS results of 2D and quasi-2D treated films, respectively. Films were arranged at a small angle (0.3 °) relative to the incoming x-ray beam so that the surface of the film is probed rather than the bulk. High intensity spots at q ~ 0.4 Å -1 and 0.3 Å -1 for the standard 2D treated film, but only one spot at q ~ 0.     &#13;</text>
+      <annotation id="5">
+        <infon key="type">additive_molecule</infon>
+        <infon key="identifier">methylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-26T05:27:12Z</infon>
+        <location offset="8281" length="3"/>
+        <text>MAI</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>9905</offset>
+      <text> Supplementary Text 4 | UPS and IPES measurements As mentioned in the main manuscript, we used ultraviolet photon spectroscopy (UPS) and inverse photoelectron spectroscopy (IPES) to directly measure the valence band and conduction band of our film surfaces. The combined UPS and IPES measurements reported in Figures 3, S18 and Table  S5  were collected with photon and electron energies lower than those of typical UPS and IPES systems (10.2 eV photon for UPS and less than 5 eV electrons for IPES), which has been shown to minimize sample damage.  21, 22  All ionization energy (IE) and electron affinity (EA) values are assigned based on a Gaussian fit to the UPS and IPES onset region performed on a logarithmic scale. Following work by Endres, et al.,  23  2.9σ is subtracted from, or added to, the Gaussian peak location to determine the IE of EA, respectively, where σ is the width of the Gaussian (FWHM = 2.35σ). The spectra from combined UPS/IPES measurements on control and PEA-based 2D and quasi-2D samples are found in Fig.  S18 , the results are summarised in Table  S5 .   &#13;</text>
+    </passage>
+    <passage>
+      <offset>10996</offset>
+      <text> Supplementary text 5 | Density Functional Theory Calculations for RDP width selectivity DFT calculations were performed using the FHI-aims  [24] [25] [26]  all-electron code. The default numerical settings, referred to as "light" in FHI-aims were used. Local minimum-energy geometries of the Born-Oppenheimer surface were obtained with residual total energy gradients below 1x10 -2 eV Å -1 for atomic positions using the PBE-GGA functional  27  within the vdW correction following the Tkatchenko-Scheffler method 28 (PBE+TS). A unified k-point grid 2×2×1 was used to sample the Brillouin zone that corresponds to the slab shown in Figure  S19 . The specific arrangements of each ligand were built according to their experimentally defined crystal structure; for BTA, HA, and OTA the BTA structural base was used from;  29  The structures of PEA, 2F-PEA, 3F-PEA, 4F-PEA are based on reference.  30  The c-direction for all the slabs was set to 100 Å. To explore the underlying mechanisms which control RDP formation, the formation process of a 2D/3D heterostructure was divided into three intermediate steps: 1. Dissolved PbI2 and FAI at the surface will firstly form perovskite flakes, (FA)n-1PbnI3n-1. &#13;</text>
+    </passage>
+    <passage>
+      <offset>12205</offset>
+      <text> The products of Step 1) will then be selected by different ligands (from the corresponding iodine salt, LI) to form 2D perovskites flakes, L2(FA)n-1PbnI3n+1 3. Those 2D perovskites flakes will stack in the z-direction according to van der Waals interactions to form bulk 2D perovskites. We thus calculated the corresponding formation energies (the definitions are shown in Figure  S20 ) of each step by density functional theory. Considering that step 3) should be the same regardless of n for a given ligand L, it was ignored. However, we acknowledge that this step may be an important driving force for the lower n 2D perovskites such as n = 1.  Step 1) is independent of ligand and only depends on the amount of dissolved PbI2 and FAI in the surface region. From calculated PBE+TS formation energies, we find that n =1 flakes are not easily to formed compared to wider RDPs (n = 2, 3, 4). As a result, if we have enough PbI2, and FAI dissolved from the surface 3D perovskite (which is the case in our Quasi-2D treatment), the n = 1 perovskites flakes will not form and we will not detect n = 1 2D perovskite, which is consistent within experimental results. For step 2), we find that different ligands show different selection behaviour for different RDP widths. With the exception of the 3F-PEA ligands, all the ligands display the same uphill trend: as n increases, the formation energy becomes larger. This agrees with the observation that the n = 2 peak is the major species found for all ligands apart from 3F-PEA (BTA, HA, OTA, PEA, 2F-PEA, 4F-PEA) as the formation energy for n = 2 is consistently lowest (most stable). Considering only chain length (BTA, HA, OTA), we find that as the chain becomes longer, the difference between the formation energy of n = 2, and n = 3 becomes smaller. This explains why we observe stronger absorption from n = 3 as chain length increases for ligands (BTA, HA, OTA). However, as n = 2 still has the lowest formation energy (most stable), the dominant signal remains n = 2 in the quasi-2D treatment. For 3F-PEA, however, we find that n = 3 has the lowest formation energy (most stable) compared to n = 2 or 4. This is consistent with our experimental finding that the n = 3 becomes dominant using the quasi-2D treatment.    &#13;</text>
+    </passage>
+    <passage>
+      <offset>14476</offset>
+      <text> Supplementary text 6 | One dimensional diffusion/recombination model In order to unravel the effect of our surface treatments, we employed a one-dimensional carrier diffusion/recombination model to fit power dependent transient absorption decay curves. This model has been successfully used in both inorganic semiconductors  31, 32  and perovskites.  33, 34  It is briefly introduced as follows: 𝜕𝑁(𝑥, 𝑡) 𝜕𝑡 = 𝐷 𝜕 2 𝑁(𝑥, 𝑡) 𝜕𝑥 2 -(𝑘 1 𝑁(𝑥, 𝑡) + 𝑘 2 𝑁(𝑥, 𝑡) 2 +𝑘 3 𝑁(𝑥, 𝑡) 3 ) (1) Initial carrier distribution: 𝑁(𝑥, 0) = 𝑁(0,0) × exp(-𝛼 𝑥) Boundary conditions (front and back interface recombination velocities): 𝜕𝑁(𝑥, 𝑡) 𝜕𝑥 | 𝑥=0 = 𝑆 𝑓 𝐷 𝑁(0, 𝑡) (3) 𝜕𝑁(𝑥, 𝑡) 𝜕𝑥 | 𝑥=𝑑 = - 𝑆 𝑏 𝐷 𝑁(𝑑, 𝑡) (4) Herein, N(x, t) denotes the carrier density which is a function of both space (x) and time (t); Sf and Sb denote surface/interface recombination velocities at the front (f) and back (b) surfaces/interfaces, respectively; bulk-specific parameters are the diffusion coefficient (D) and the 1 st (k1), 2 nd (k2), and 3 rd (k3) order recombination coefficients; α is the absorption coefficient; d represents the film thickness. A useful feature of this model is that it not only takes into account of bulk recombination (k1, k2, k3) and diffusion, but also takes into account of what is happening on the surface/interface. To unravel the bulk recombination/diffusion and passivating effect of the 2D and quasi-2D treatments, we performed global fitting on control, 2D treated and quasi-2D treated samples (Fig.  S26 ). These three samples share the same bulk properties and only differ on the surface. Fitting results are presented in S26 as well as Table  S8 . The 1 st , 2 nd , and 3 rd -order recombination coefficients were all evaluated accordingly. And the Sf is a good indication of surface trap state density. It can be clearly observed that both 2D and quasi-2D treatments reduce the surface recombination velocity by half. Table  S8  | Coefficients calculated from the one-dimensional carrier diffusion/recombination model Sf denotes the surface/interface recombination velocity at the front (f) surface/interface; bulkspecific parameters are the diffusion coefficient (D) and the 1 st (k1), 2 nd (k2), and 3 rd (k3) order recombination coefficients. We also calculated the mobility μ and the diffusion length.                      5  Department of Mechanical and Industrial Engineering, University of Toronto, Toronto, Ontario, Canada.  6  Present address: Department of Chemical and Biomolecular Engineering, National University of Singapore, Singapore, Singapore.  7  These authors contributed equally: Hao Chen, Sam Teale, Bin Chen, Yi Hou. ✉ e-mail: ningzhj@shanghaitech.edu.cn; ted.sargent@utoronto.ca R educed-dimensional perovskites are perovskite quantum well (QW) layers confined between large organic ligands. The number of stacked lead (Pb) octahedra between the organic spacers determines the width of the RDP layer: n = 1, 2, 3 and so on (Fig.  1a ). Changing the RDP layer width (n) within bulk RDP films alters the energy landscape of the resulting material, hence narrow RDP films (n ≤ 5) produce excellent light-emitting diodes (LEDs) and luminescent solar concentrators  1, 2  . Although films containing wider RDPs (n ≥ 10) have been used to produce highly stable PSCs, these devices suffer from an inferior performance due to poor carrier mobility  3, 4  . More recently, record-performing PSCs have used a 2D/3D heterostructure, fabricated via spin coating RDP (or 2D) ligands onto the surface of a 3D perovskite  [5] [6] [7] [8] [9] [10] [11] [12]  . A comparison of PSC efficiency/stability from recent reports is shown in Supplementary Fig.  1  and demonstrates that all of the most efficient devices reported have used this structure. Studies have revealed that this heterostructure consists of a thin layer of n = 1 and/or n = 2 RDPs atop a bulk 3D perovskite  [13] [14] [15] [16]  , which increases performance via passivation and increased electron blocking  17, 18  . Electron blocking is beneficial for devices built in the negative-intrinsic-positive (NIP) architecture, in which the 2D-treated perovskite surface is coated with a hole transport layer (HTL); however, when used in the generally more stable  [19] [20] [21] [22]  inverted (that is, positive-intrinsic-negative, or PIN) structure, this strategy achieves mixed results. Chen et al. found that a 2D treatment applied to inverted cells improved the open-circuit voltage (V OC ) but reduced the fill factor (FF)  23  , and Bai et al. found that introducing a small amount of 2D ligand into the antisolvent improved the device performance, opening the door to further study of the width of RDPs and indeed their presence  24  . On the other hand, Park et al., La-Placa et al. and Zhao et al. all found that using a 2D layer in a PIN device reduced the PCE due to a lower current and fill factor  [25] [26] [27]  . We speculated that reducing the confinement in the 2D layer could reduce electron blocking and produce inverted PSCs with an exceptional performance. Sample Adj. R- square D, cm 2 s -1 Sf, cms -1 , k1, s -1 , k2, cm - 3 s -1 , k3, cm 6 s -1 , μ, cm 2 V - 1 s - &#13;</text>
+    </passage>
+    <passage>
+      <offset>19819</offset>
+      <text> A quasi-2D surface treatment Using ultraviolet photoelectron spectroscopy (UPS) and absorption spectroscopy, we estimated the band alignment of RDP films of differing QW widths (n = 1-4; Fig.  1b ) and compared them with the bulk 3D perovskite Cs 0.05 MA 0.1 FA 0.85 PbI 3 (MA, methylammonium; FA, formamidinium). Consistent with earlier reports, we found little dependence between the valence band maximum (VBM) and n (RDP width)  18, 28, 29  . Instead, quantum confinement upshifts the conduction band minimum (CBM), which induces electron blocking in the devices. We confirmed this detrimental effect by comparing NIP and PIN PSCs treated using standard 2D treatments (Supplementary Text 1). Encouragingly, simulations using the solar cell simulation tool SCAPS-1D  30  suggested that, due to their deeper CBM, a capping layer of n ≥ 3 RDPs would be beneficial for PIN solar cell performance via surface passivation with reduced resistance to carrier transport (Supplementary Text 2). In bulk RDP films, the average layer thickness is modulated by changing the ratio of the 2D ligands to the 3D perovskite precursors in solution  1, 4  . We explored several options to reproduce this &#13;</text>
+      <annotation id="7">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">Cs0.05MA0.1FA0.85PbI3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-26T05:28:39Z</infon>
+        <location offset="20064" length="28"/>
+        <text>Cs 0.05 MA 0.1 FA 0.85 PbI 3</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>21010</offset>
+      <text> Quantum-size-tuned heterostructures enable efficient and stable inverted perovskite solar cells Hao Chen 1,2,7 , Sam Teale 1,7 , Bin Chen 1,7 , Yi Hou 1,6,7 , Luke Grater 1 , Tong Zhu The energy landscape of reduced-dimensional perovskites (RDPs) can be tailored by adjusting their layer width (n). Recently, two/three-dimensional (2D/3D) heterostructures containing n = 1 and 2 RDPs have produced perovskite solar cells (PSCs) with &gt;25% power conversion efficiency (PCE). Unfortunately, this method does not translate to inverted PSCs due to electron blocking at the 2D/3D interface. Here we report a method to increase the layer width of RDPs in 2D/3D heterostructures to address this problem. We discover that bulkier organics form 2D heterostructures more slowly, resulting in wider RDPs; and that small modifications to ligand design induce preferential growth of n ≥ 3 RDPs. Leveraging these insights, we developed efficient inverted PSCs (with a certified quasi-steady-state PCE of 23.91%). Unencapsulated devices operate at room temperature and around 50% relative humidity for over 1,000 h without loss of PCE; and, when subjected to ISOS-L3 accelerated ageing, encapsulated devices retain 92% of initial PCE after 500 h. for a 2D post-treatment (Supplementary Text 3). Our most distinctive results came from introducing a small amount of dimethylformamide (DMF) (at 1:200 by volume in isopropanol (IPA)) and methylammonium iodide (MAI) (1:2 by weight) to the 2D ligands in solution. We posit that MAI is needed to reduce the ratio of the 2D ligand to the A-site cation and that DMF introduces Pb directly from the 3D perovskite surface (Supplementary Fig.  9 ). Using this strategy, we were able to produce 2D perovskite capping layers containing n ≥ 3 RDP layers (Fig.  1e ). For convenience, we henceforth refer to our altered 2D ligand treatment as a quasi-2D treatment. Notably, Zhou et al. demonstrated that adding MAI and DMF to a phenethylammonium iodide (PEAI) surface treatment improves the performance of PIN solar cells  31  . This earlier study is limited in scope, however, discussing only the effect of DMF on the penetration depth of the 2D treatment. Using time-of-flight secondary-ion mass spectrometry, we estimated the penetration depth of phenethylammonium (PEA) from solutions using different DMF concentrations (Supplementary Fig.  11 ) and found no correlation in our sample size (from 1:200 to 1:50 DMF:IPA by volume). We instead expect that the origin of improved performance is the production of wider RDPs at the interface between the 3D perovskite and the electron transporting layer (ETL). Considering this new observation, we sought a treatment that would optimize this effect. &#13;</text>
+      <annotation id="8">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">23.91</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-26T05:30:09Z</infon>
+        <location offset="22000" length="5"/>
+        <text>23.91</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">room temperature</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T05:07:12Z</infon>
+        <location offset="22043" length="16"/>
+        <text>room temperature</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">humidity</infon>
+        <infon key="identifier">50</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-26T05:30:33Z</infon>
+        <location offset="22071" length="3"/>
+        <text>50%</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">time</infon>
+        <infon key="identifier">1000</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-26T05:30:40Z</infon>
+        <location offset="22102" length="5"/>
+        <text>1,000</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">100</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T05:07:15Z</infon>
+        <location offset="22110" length="19"/>
+        <text>without loss of PCE</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSL3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-26T05:31:56Z</infon>
+        <location offset="22154" length="7"/>
+        <text>ISOS-L3</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">92</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T05:07:17Z</infon>
+        <location offset="22210" length="3"/>
+        <text>92%</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">time</infon>
+        <infon key="identifier">500</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-26T05:32:08Z</infon>
+        <location offset="22235" length="6"/>
+        <text>500 h.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>23734</offset>
+      <text> Characterizing the quantum well width in 2D/3D heterojunctions A strong dependence between QW width and bandgap exists in 2D perovskites  32, 33  . Hence, ultrafast transient absorption (TA) spectroscopy is able to accurately identify the distribution of different 2D species in perovskite films  [34] [35] [36]  . We first acquired the TA spectra of 2D-and quasi-2D-treated films using the most common 2D perovskite ligands: butylammonium (BTA) (Fig.  2a, d ) and PEA (Fig.  2b, e ). Although the majority absorption from each film is from the 3D perovskite (780 nm, Supplementary Fig.  12 ), each film displays bleach peaks in the 500-700 nm range, characteristic of RDPs. Similar to spectra acquired by Niu et al., the standard 2D-treated films display bleach signals from n = 1 and/or 2 RDPs 36 . Quasi-2D-treated films, however, contain n ≥ 3 RDPs, with the PEA treatment producing more n ≥ 3 RDPs than BTA. Grazing incidence wide-angle X-ray scattering (GIWAXS) confirmed that these 2D layers lie horizontal to the substrate (Supplementary Fig.  13 ), as in other reports  5, 13, 15  . Recently, it was documented that bulk quasi-2D perovskite films made using fluorinated PEA ligands form different QW structures compared to unfluorinated PEA  35  . To this end, we tested PEA-based ligands with a fluorine at each node (Fig.  1c ) and found that this has a dramatic effect on the QW distribution (Supplementary Fig.  16 ). Mostly notably, we found that using our quasi-2D surface strategy, 3-fluoro-phenethylammonium (3F-PEA) produces a 2D/3D heterojunction containing majority n = 3 RDP (Fig.  2f ). The structures of all 2D ligands mentioned are shown in Fig.  1c . To better understand why different ligands produce different RDP distributions, we the measured TA spectra in situ while spin coating quasi-2D treatments (Fig.  2g-i ). With a pump-probe delay of 1 ps and a time resolution of 0.3 s, we spun films at 1,500 revolutions per minute (r.p.m.) and deposited the 2D treatment dynamically. A reduction in the 3D perovskite absorption is apparent ~2.4 s after solution deposition for all samples. For the BTA treatment, this reduction in 3D bleach is concurrent with the arrival of a strong n = 2 bleach. For the PEA-based treatments, the 2D signal does not appear until ~1.2 s after the 3D bleach reduction. It has been suggested that bulkier organics intercalate more slowly, which induces them to form wider RDPs  34  . Our results agree, indicating that π-π stacking ligands form wider RDPs due to slower crystallization, which suppresses narrower RDP formation. This is corroborated by films treated using hexylammonium (HA) and octylammonium (OTA) ligands, which demonstrate an increased presence of n ≥ 3 RDP with increasing ligand length (Supplementary Fig.  14 ). To investigate the effect of increased π-π stacking, we treated samples with 1-naphthylmethylammonium (Fig.  1c ) but found that the quasi-2D treatment substantially reduced the RDP absorption in the TA spectra (Supplementary Fig.  15 ). We also gained insight into why 3F-PEA forms wider RDPs. Standard PEA produces n = 2 and 3 simultaneously, whereas 3F-PEA forms n = 3 one frame (0.3 s) before the appearance of n = 2, suggesting that n = 3 is preferentially formed from the precursor complex. Density functional theory (DFT) calculations were used to compute the formation energy of n = 1, 2, 3 and 4 RDPs for each ligand (details in Supplementary Text 5). As previously reported  4  , the formation energy of the n = 1 RDP was found to be the lowest for all ligands; however, this was not supported by our experimental findings or results from other studies  36, 37  . Nonetheless, considering that forming single layers of lead iodide (PbI 2 ) is considerably more energy intensive than larger slabs (Fig.  3a ) it seems reasonable that n = 1 layers are less likely to form, especially when excess cations are available as within the quasi-2D treatment. Hence, we compared the formation energy of n ≥ 2 RDPs. Generally, we found that formation energy increases with increasing width, however, we also found that bonding different ligands onto 2D perovskite flakes (FA n-1 Pb n I 3n-1 ) introduces different types of strain into the system which is released through different distortions of the perovskite (Supplementary Fig.  22 ). The specific orientation and arrangement of the ligands caused by the fluorine atom in 3F-PEA (structure taken from  35  ) introduces larger strain compared to PEA or BTA, manifesting as larger distortions, and therefore larger perovskite flakes are need to fully release the additional strain. As a result, a sweet spot for n = 3 is found in the formation energy of 3F-PEA (Fig.  3b ), which results in the preferential formation of n = 3 revealed in the TA data. We calculated the formation energies for each of the ligands 1-7 in Fig.  1c  (Supplementary Fig.  21 , Supplementary Text 5), but only 3F-PEA possessed a preference for n ≥ 3. &#13;</text>
+    </passage>
+    <passage>
+      <offset>28720</offset>
+      <text> Band alignment of 2D/3D heterostructures We proposed to modulate the n distribution of 2D/3D heterojunctions with the aim of reducing the electron barrier at the perovskite/ ETL interface. To verify this, we used surface-sensitive inverse photoelectron spectroscopy (IPES), which directly measures the conduction band of the first few nanometres of film  29, [38] [39] [40] [41]  . Following work from Endres et al.  42  we used gaussian fittings to extract the CBM and found that, as expected, the CBM values of 2D-treated surfaces are upshifted compared with the controls (Fig.  4a-c ). Using the quasi-2D treatment the 2D/3D CBM offset is reduced substantially for PEA-and 3F-PEA-treated films relative to their n = 1 (and/or 2) analogues (0.42-0.14 eV and 0.49-0.08 eV, respectively)   d-f , TA spectra of films treated with BTA (d), PEA (e) and 3F-PEA (f) using the quasi-2D treatment. The majority absorption in each case is from the 3D perovskite (780 nm) but this has been excluded for clarity. Absorption peaks are assigned in order, and a comparison with single-cation quasi-2D films is shown in Supplementary Table  4 . The inset bar in a-f represents the relative absorption from each RDP species. g-h, Absorption maps from in situ TA spectroscopy obtained during spin coating. Cs 0.05 MA 0.1 FA 0.85 PbI 3 3D perovskite films were spun at 1,500 r.p.m. and a constant 1 ps pump-probe delay time was used. The quasi-2D treatments for BTA (g), PEA (h) and 3F-PEA (i) were all dropped at 7. but less so for BTA (0.41-0.31 eV). We measured the potential of our film surfaces using Kelvin probe force microscopy (KPFM) and found a similar trend (Supplementary Fig.  17 ). This complements the results in the previous section which suggest that the quasi-2D treatment using BTA produces fewer n ≥ 3 RDPs than PEA or 3F-PEA. We also performed surface-sensitive UPS on control, 2Dand quasi-2D-treated films (Supplementary Fig.  18 ) to produce the schematics in Fig.  4e, f . Similar to the plot in Fig.  1b  and several previous reports  18, 28, 29  , altering the RDP width has little effect on the VBM, and reducing confinement simply shifts the conduction band deeper, closer to the 3D perovskite. More details on these UPS and IPES measurements can be found in Supplementary Text 4. &#13;</text>
+    </passage>
+    <passage>
+      <offset>31016</offset>
+      <text> Carrier extraction and photovoltaic performance To explore the device implications, we investigated the charge transport in BTA-, PEA-and 3F-PEA-treated films using the 2D and quasi-2D treatments. The photoluminescence quantum yield (PLQY) increases after the standard 2D treatment for each ligand (Supplementary Table  6 ), suggesting a reduced density of non-radiative recombination centres  8  . This effect is enhanced slightly by the quasi-2D treatment, indicating improved passivation. A similar trend is visible in transient photoluminescence (TRPL) spectroscopy results (Fig.  5a  and Supplementary Fig.  24) , where longer lifetimes are recorded for 2D-and quasi-2D-treated films (a summary of lifetimes is found in Supplementary Table  3 ). The modestly improved passivation of the quasi-2D treatment may be due to the addition of MAI, which has also been reported to passivate perovskite surfaces  43  . Following the work of Kirchartz et al., we deposited [6,6]-phenyl-C 61 -butyric acid methyl ester (PCBM) atop the perovskite as an ETL and used the quenched τ 1 lifetimes to compare charge extraction (Fig.  5b )  44  . The quenched τ 1 lifetime of the control film was 4.6 ns. After deposition of 3F-PEA this doubled to 9.2 ns, suggesting that the standard 2D treatment impedes the flow of electrons from the perovskite to the ETL. Using the quasi-2D treatment this was reduced to 4.9 ns, implying a considerably improved extraction compared with the standard 2D treatment. A similar trend is seen using BTA and PEA (Supplementary Fig.  24 ). For quantitative values we repeated these observations using power-dependent TA (Supplementary Text 6 and Supplementary Table  8 ) and space-charge-limited current (SCLC) measurements. From the TA data we found that both 2D and quasi-2D treatments reduced the surface recombination velocity (from ~600 cm s -1 to ~300 cm s -1 ). The SCLC measurements show a similar trend (Supplementary Fig.  27 ) but the overall effect is less obvious as we are examining the entire film and not simply the interfaces. In PSCs using bulk RDPs, films that contain mixed-dimensional phases have reduced mobility due to charge trapping in the higher n species 3 . To understand why this is not necessarily the case in 2D/3D heterostructure films, we used TA spectroscopy to measure the charge dynamics. Using a 450 nm pump at a low power (5 µJ cm -2 ) to avoid Auger recombination  45  , we excited the 2D and 3D layers of 2D-and quasi-2D-treated films. Measuring the n = 2 bleach decay (~570 nm) using monoexponential fits, we calculated the carrier funnelling rates for both treatments; a summary of the results is shown in Supplementary Fig.  28 . For a standard 2D-treated film, there are no peaks present for n &gt; 2 (Fig.  2a ), thus we expect the charges to funnel directly from n = 2 to the 3D perovskite  1, 46  , for which we observed a 28.6 ps decay time. When we generate a favourable pathway for electrons by adding a layer of PCBM, we observed a faster decay (7.5 ps). Repeating these measurements with a quasi-2D-treated film, we observed a decay without PCBM of 5.8 ps, suggesting that the charges are funnelled to the now present n &gt; 2 species  1, 46  . However, adding a layer of PCBM resulted in an even faster decay (1.2 ps), indicating that charge trapping does not play a limiting role in charge extraction. To gauge the effect of the 2D and quasi-2D treatments in full device stacks, we conducted transient photovoltage (Supplementary Fig.  25 ) and transient photocurrent measurements (Fig.  5c ). Following ref.  47  , devices were biased with the same white-light intensity to reach near-V OC conditions and were photoexcited with low-power laser pulses to generate small photovoltage perturbations (ΔV, kept to lower than 20 mV). Monoexponential fits were used to estimate the carrier lifetime under V OC and short-circuit current density (J SC ) conditions. We observed a slower decay in photovoltage for the quasi-2D-treated films compared with the standard 2D treatment (Supplementary Fig.  25 ), which is consistent with the TRPL results and indicates a reduction in trap states in the absorber. More importantly, we observed a faster decay in the photocurrent for the quasi-2D-treated films (τ quasi-2D = 0.82 µs compared with τ 2D = 1.28 µs for 3F-PEA-treated films), which suggests a substantial improvement in carrier extraction  48  . In addition, we performed conductive atomic force microscopy (c-AFM) on these films, revealing increased conductivity in quasi-2D-treated films (Supplementary Figs.  31  and 32 ). We fabricated devices with an ITO/NiO x nanoparticles/ perovskite/PCBM/BCP/Ag structure using different surface treatments (BTA, PEA, 2F-PEA, 4F-PEA and 3F-PEA; standard 2D and quasi-2D treatments) for statistical analysis (Supplementary Figs. 33-36). In agreement with our finding that increased n ≥ 3 RDPs result in more efficient charge extraction, 3F-PEA outperformed the PEA-and BTA-treated devices. Improved performance of the quasi-2D-treated over the standard 2D-treated devices is derived mainly from FF and J SC improvements; a typical set of To confirm that improved passivation alone was not the cause of the increased FF, we simulated the effect of reducing only the surface trap density using the SCAPS-1D simulation tool (Supplementary Fig.  40 ) and found that a 20 mV difference in V OC would correspond to an increase in FF of approximately 0.5% rather than the 2.2% increase manifested. A quasi-2D-treated device was certified at the National Renewable Energy Laboratory (NREL). The C 60 /BCP-based device produced a quasi-steady-state certified PCE for inverted PSCs of 23.91% (with FF = 83.46, J SC = 24.90 mA cm -2 and V OC = 1.15 V; Supplementary Fig.  43 ). A voltage loss of 0.38 V is the lowest documented for a NiO x -based PSC (bandgap from the external quantum efficiency, Supplementary Fig.  42 )  49  . We focused on improving the performance of the NiO x -HTL inverted PSCs because they have shown high stability at elevated temperatures  19, 49, 50  . However, 2D treatments have been shown to be unstable above 50 °C, degrading in a matter of hours  51  ; thus it was crucial to ascertain whether or not any new 2D treatment could withstand high temperatures. We prepared 2D-and quasi-2D-treated films and heated them at 65 °C for 20 h, periodically measuring their characteristics via TA spectroscopy (Supplementary Fig.  41 ). We found that the n distribution of both treatments was robust under heating, suggesting that the quasi-2D treatment could be used to produce extremely stable devices. We evaluated the stability of the devices under accelerated-ageing conditions according to International Summit on Organic Photovoltaic Stability (ISOS) protocols  52  . We tracked the maximum power point (MPP) of two quasi-2D-treated devices under illumination at ~50% relative humidity. An unencapsulated device was monitored at room temperature for 1,000 h (ISOS-L-1I) and an encapsulated device on a temperature-controllable stage was monitored at 65 °C for 500 h (ISOS-L-3), and the results are shown in Fig.  5e ,f, respectively. The unencapsulated room-temperature devices showed no degradation after 1,000 h of MPP tracking (4.9% increase in PCE), whereas the device baked at 65 °C lost around 8% of its maximum PCE after 500 h. On the basis of a linear extrapolation from these data, we estimate the T 80 lifetime of this device (that is, the time required to drop to 80% of the initial efficiency) to be 1,190 h (Supplementary Fig.  45 )  20, 52  . After 500 h the MPP tracking for the heated device was paused but the cell remained under illumination at 65 °C, and after 12 h the MPP tracking was resumed. The PCE of the device recovered to 99% of the initial PCE, which is an encouraging indicator of its real-world long-term stability  53  . We note that the device structure was not altered for stability testing and the initial efficiency of both devices was &gt;23% (Supplementary Fig.  44 ). Therefore, we report an ISOS-L-3 accelerated-ageing test that corresponds directly to high-efficiency PSCs (&gt;20% PCE). &#13;</text>
+      <annotation id="17">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">23.91</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-26T05:33:19Z</infon>
+        <location offset="36696" length="5"/>
+        <text>23.91</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">treated_voc</infon>
+        <infon key="identifier">1.15</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-26T05:33:27Z</infon>
+        <location offset="36754" length="7"/>
+        <text>1.15 V;</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">time</infon>
+        <infon key="identifier">1000</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-26T05:34:12Z</infon>
+        <location offset="37989" length="7"/>
+        <text>1,000 h</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSL1</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-26T05:33:52Z</infon>
+        <location offset="37998" length="9"/>
+        <text>ISOS-L-1I</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">65</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-26T05:35:59Z</infon>
+        <location offset="38089" length="5"/>
+        <text>65 °C</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>39178</offset>
+      <text> Conclusion We presented a simple technique that alters the QW widths in 2D/3D perovskite heterostructures. This was tailored to improve inverted PSCs, and was accomplished by reducing the confinement within the 2D capping layer to reduce the electron barrier between the 3D and 2D perovskite species. This resulted in highly stable NiO x -based PSCs with certified efficiency values, and could be useful in other metal halide-based optoelectronics devices in which well-passivated, negative-intrinsic contacts are desirable. &#13;</text>
+    </passage>
+    <passage>
+      <offset>39705</offset>
+      <text> online content Any methods, additional references, Nature Research reporting summaries, source data, extended data, supplementary information, acknowledgements, peer review information; details of author contributions and competing interests; and statements of data and code availability are available at  https://doi.org/10.1038/ s41566-022-00985-1 .  &#13;</text>
+    </passage>
+    <passage>
+      <offset>40060</offset>
+      <text> Methods Materials. All the materials were used as received without purification. Commercial indium tin oxide (ITO) substrates (20 Ω per square) with dimensions of 25 × 25 mm were purchased from TFD. PbI 2 and bathocuproine (BCP) were purchased from TCI. Caesium iodide (CsI) (99.999%) and fullerene (C 60 ) (99.5%) were purchased from Sigma-Aldrich. PEAI, FAI (formamidinium iodide) and MAI were purchased from GreatCell Solar. 2F-PEAI (2-fluoro-phenethylammonium iodide), 3F-PEAI, 4F-PEAI (4-fluoro-phenethylammonium iodide) and 1-naphthylmethylammonium iodide were purchased from Xi'an Polymer Light Technology. PCBM was purchased from Nano-C. All the solvents used in the process were anhydrous and purchased from Sigma-Aldrich. Nickel oxide nanoparticle synthesis. The NiO x nanoparticles were prepared via the hydrolysis of nickel nitrate following previous work  54, 55  . Briefly, Ni(NO 3 ) 2 •6H 2 O (20 mmol) was dissolved in deionized water (20 ml) to obtain a dark-green solution. Then, NaOH aqueous solution (4 ml, 10 mol l -1 ) was slowly added to the dark-green solution with stirring. After being stirred for 20 min, the colloidal precipitate was washed thoroughly using deionized water three times and dried at 80 °C for 6 h. The obtained green powder was then calcined at 270 °C for 2 h to obtain a black powder. The NiO x nanoparticle ink was prepared by dispersing the obtained NiO x nanoparticles in a mixed solution of deionized water and IPA (3:1, v/v) for a concentration of 10 mg ml -1 . Solar cell fabrication. ITO glass was cleaned through sequential washing with detergent, deionized water, acetone and IPA. Before use, the ITO was cleaned with ultraviolet ozone for 20 min. For the inverted solar cells, the substrate was spin-coated with a thin layer of NiO x nanoparticle film using the NiO x nanoparticle ink at 2,000 r.p.m. for 30 s. The perovskite absorber layers were deposited inside a nitrogen-filled glovebox with a controlled water and oxygen level of less than 1 ppm. The temperature inside was monitored to be 25-30 °C. The precursors for the Cs 0.05 FA 0.85 MA 0.1 PbI 3 perovskites were prepared by dissolving the PbI 2 , MAI, CsI and FAI in a mixed solvent (4:1 in volume) of DMF and dimethyl sulfoxide (DMSO), respectively. This was done by adding the powders to a vial (20 ml size) and then adding the mixed solvent (1 ml) before leaving the vial on a stirring hotplate set to 60 °C for 30 min; all steps were undertaken in a glovebox. For fabrication of the perovskite film, the substrate was spun at 2,000 r.p.m. for 30 s with an initial acceleration of 1,000 r.p.m., and then at 6000 r.p.m. for 10 s with an acceleration of 6000 r.p.m. per second. In the second step, anisole (150 μl) was added dropwise onto the substrate during the last 5 s of spinning. The substrate was immediately placed on a hotplate and annealed at 100 °C for 10 min. For the surface treatment, the 2D solutions were prepared by dissolving the 2D ligand salts (that is, PEAI, BTAI, 3F-PEAI, HAI and OTAI) with or without MAI and DMF in IPA. The ligand salt (1 mg ml -1 ), MAI (0.5 mg ml -1 ) and an IPA:DMF v/v ratio of 1:200 was used, unless stated otherwise. The 2D layer was fabricated by depositing the 2D ligand solution (150 µl) onto the perovskite film surface, and immediately after deposition the film was spun at a rate of 4,000 r.p.m. for 30 s with a 4,000 r.p.m. per second acceleration. The film was then annealed at 100 °C for 5 min. For the ETL, either C 60 /ALD-SnO 2 or PCBM/BCP were used. C 60 was formed via evaporation, and deposition of the ALD-SnO 2 (atomic-layer-deposited tin(IV) oxide) was carried out using a PICOSUN R-200 Advanced ALD system. Water and tetrakis(dimethylamino)tin(IV) (TDMASn) were used as the oxygen and tin precursors, respectively. The precursor and substrate temperature was set to 75 °C and 85 °C, respectively. Nitrogen gas (90 sccm) was used as carrier gas. Pulse and purge times for water were 1 s and 5 s, respectively, and 1.6 s and 5 s, respectively, for TDMASn. The total deposition cycle is 134 s, corresponding to 20 nm of SnO 2 . PCBM was formed by spin coating the PCBM solution (20 mg ml -1 in chlorobenzene) at 1,000 r.p.m. for 30 s and then annealing at 100 °C for 5 min. Then a thin and uniform BCP layer was deposited via drop-casting 2-3 drops of BCP dissolved in IPA while spinning the substrate at 5,000 r.p.m. Finally, a 120-nm-thick silver contact was deposited on top of the BCP using thermal evaporation under high vacuum (&lt;5 × 10 -7 torr) using an Angstrom Engineering deposition system to produce a cell with an active area of 0.053 cm 2 . For non-inverted solar cells, the substrate was spin-coated with a thin layer of SnO 2 nanoparticle solution (1:3:3, SnO 2 (15% in water):IPA:water) at 3,000 r.p.m. for 20 s and annealed in ambient air at 150 °C for 1 h. The perovskite solution was prepared by dissolving FAPbI 3 (889 mg ml -1 ), MAPbBr 3 (33 mg ml -1 ) and MACl (33 mg ml -1 ) in DMF/DMSO (8:1 v/v) mixed solvent. Then, the solution was coated onto the ITO/SnO 2 substrate through two consecutive spin-coating steps, at 1,000 r.p.m. for 5 s and 2,500 r.p.m. for 20 s. During the second spin-coating (2,500 r.p.m.) step, diethyl ether (1 ml) was poured onto the substrate after 15 s. The intermediate phase substrate was then put on a hotplate at 150 °C for 10 min. After the fabrication of the 3D perovskite film, the 2D layer was fabricated by depositing a solution (5 mg ml -1 ) of PEAI in IPA onto the perovskite film and then spinning the substrate at 4,000 r.p.m. for 30 s. Then, the substrate was heat-treated at 100 °C for 5 min. For deposition of the hole transport material, a spiro-OMeTAD solution in chlorobenzene (90.9 mg mL -1 ) was prepared, and lithium-bis(trifluo romethanesulfonyl) imide solution in acetonitrile (23 μl, 540 mg mL -1 ) and pure 4-tert-butylpyridine (39 μl) were added to an aliquot of the solution (1.1 ml). The spiro-OMeTAD solution including additives was spin-coated onto the perovskite surface at 1,750 r.p.m. for 30 s. Finally, a gold electrode was deposited via thermal evaporation to produce a cell with an active area of 0.053 cm 2 . Reduced-dimensional film fabrication. Reduced-dimensional (PEA) 2 (MA/FA/ Cs) n-1 Pb n I 3n+1 perovskite solutions were prepared by dissolving the appropriate stoichiometric quantities of PbI 2 , MAI (or FAI or CsI) with PEAI in DMF/DMSO (4:1 v/v). The resulting solution was filtered using a polytetrafluoroethylene syringe filter (0.2 μm) before deposition. Then, the solution was coated onto the glass substrate through two consecutive spin-coating steps, at 1,000 r.p.m. for 5 s and 2,500 r.p.m. for 20 s. During the second spin-coating (2,500 r.p.m.) step, diethyl ether (1 ml) was poured onto the substrate after 15 s. The intermediate phase substrate was then put on a hotplate at 150 °C for 10 min. Device testing. The current density-voltage (J-V) characteristics were measured using a Keithley 2400 source meter under illumination from a solar simulator (Class A, Newport) with a light intensity of 100 mW cm -2 (checked using a calibrated reference solar cell from Newport). The J-V curves were measured in a nitrogen atmosphere with a scanning rate of 100 mV s -1 (a voltage step of 10 mV and a delay time of 200 ms). The active area was determined by the aperture shade mask (0.049 cm 2 for small-area devices) placed in front of the solar cell. A spectral mismatch factor of unity was used for all J-V measurements. For stabilized output measurements at the MPP, the device testing chamber was left under ambient conditions. Solar cells were fixed at the MPP voltage, (determined from J-V sweeps in both scanning directions) and the current output was tracked over time. Stability testing. Devices were placed in a homemade stability-tracking station. The illumination source is a white-light LED with its intensity calibrated to match 1-Sun conditions. For room-temperature tests (ISOS-L-1I), the device chamber was sealed and supplied with continuous nitrogen purging. For the ISOS-L-3 ageing test, the device chamber was left open in a room with 50 ± 10% relative humidity, and the solar cell was mounted on a metal plate kept at 65 °C using a heating element. A thermal couple attached to the metal plate was used to monitor and provide feedback control to the heating element to ensure temperature consistency. The MPP was tracked using a perturb-and-observe algorithm that updates the MPP value every 10 s. Encapsulation was done by capping the device with a glass slide, using UV-adhesive (LT-U001, Lumtec) as the sealant. X-ray diffraction. X-ray diffraction patterns were collected using a Rigaku D/ Max-2500 diffractometer equipped with Cu Kα1 radiation (λ = 1.54056 Å). Grazing incidence wide-angle X-ray scattering. GIWAXS measurements were conducted at the BL14B1 beamline of the Shanghai Synchrotron Radiation Facility using X-rays with a wavelength of λ = 1.24 Å at a grazing incidence angle of 0.3° and an exposure time of 80 s. The GIXRD patterns were collected using a MarCCD 225 detector with a sample-detector distance of 280 mm and were presented in q coordinates using the equation q = 4πsinθ/λ, where θ is half of the diffraction angle. In the present GIXRD data, q has been calibrated by measuring the X-ray diffraction from a lanthanum hexaboride reference sample. Images were calibrated using lanthanum hexaboride and processed using the Nika software package  56  and the GIXSGUI MATLAB plug-in  57  . Simulations. Simulations of PSCs were conducted using the heterojunction solar cell simulator SCAPS-1D, version 3.3.07  30  . Full simulation details can be found in Supplementary Text 2. Conductive atomic force microscopy. Scanning probe microscopy experiments were carried out under ambient conditions using an Asylum Research Cypher S AFM instrument with low-force-constant (k = 2.8 N m -1 ), Ti/Ir-coated, silicon cantilevers (ASYELEC.01-R2). Contact-mode AFM was used to simultaneously produce surface and current maps applying a fixed bias voltage of -0.6 V. Measurements were obtained under top illumination from a 3 W white LED. Transient absorption spectroscopy. Femtosecond laser pulses of 1,030 nm generated using a Yb:KGW laser at a 5 kHz repetition rate (Pharos, Light Conversion) were passed through an optical parametric amplifier (Orpheus, Light Conversion) to select 450 nm light. This served as the pump pulse, whereas the probe pulse was generated by focusing the initial 1,030 nm pulse into a sapphire crystal, which resulted in a white-light continuum (Helios, Ultrafast). With a temporal resolution of the system of ∼350 fs, each time step meant delaying the probe pulse with respect to the pump, with time steps that increased exponentially. Every other pump pulse was blocked using a chopper to determine the change in optical density. After going through a grating spectrograph, the pulses were measured using a charge-coupled device (CCD) (Helios, Ultrafast). Spinning in situ TA spectroscopy was performed using a purpose-built spinner, designed such that the incident probe light could pass through the spinning substrate and be directed into the CCD. The pump-probe delay was set to 1 ps. The time resolution of the system was 0.3 s. The measurements were taken in an ambient atmosphere with 35% relative humidity. Figure S2 | S2 Figure S2 | UPS spectra for &lt;n&gt; = 1,2,3 and 4 films. Films were fabricated by spin coating precursor ratios of PEA2MAn-1PbnI3n+1 &#13;</text>
+      <annotation id="31">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">3-fluoro-phenethylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-19T04:17:20Z</infon>
+        <location offset="40534" length="7"/>
+        <text>3F-PEAI</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>51609</offset>
+      <text> Figure S4 | S4 Figure S4 | Performance statistics for Control films and films treated with 1, 2 and 5 mg mL -1 PEAI in IPA solutions. 20 Devices of each type were fabricated and tested for statistical analysis. &#13;</text>
+    </passage>
+    <passage>
+      <offset>51822</offset>
+      <text> Figure Figure S# | Simulated J-V curves. Curves simulated using (a) 10 nm thick 2D layer between perovskite and ETL of different n species, (b) varying thickness of n = 2 perovskite. Clearly both the quasi-2D interlayer species and thickness are important factors. Parameters for simulation were taken from band alignment in Table2. Full simulation parameters can be found in Table # and #. &#13;</text>
+    </passage>
+    <passage>
+      <offset>52215</offset>
+      <text> Figure S8 |Figure S9 | S8S9 Figure S8 | Transient absorption spectra of 3D Cs0.05MA0.1FA0.85PbI3 perovskite treated with different surface treatments. (a) Control, (b) 1 mg mL -1 MAI in IPA, (c) 1 mg mL -1 PEAI in 200:1 IPA:DMF solution, (d) 1 mg mL -1 PEAI + 0.5 mg mL -1 MAI in IPA solution. &#13;</text>
+    </passage>
+    <passage>
+      <offset>52511</offset>
+      <text> Figure S10 | S10 Figure S10 | TA of heterostructures using increased MAI content. 3D perovskite films treated with the quasi-2D treatment using (a) 1:1 and (b) 2:1 MAI to PEAI by wt. &#13;</text>
+    </passage>
+    <passage>
+      <offset>52696</offset>
+      <text> Figure S11 | S11 Figure S11 | Time of flight second ion mass spectroscopy (ToF-SIMS) of PEA+ ions in perovskite films treated with PEAI in solution with different DMF:IPA concentrations. Across this range (5 µL DMF in 1 mL IPA to 20 µL in 1 mL IPA) there is no obvious change in penetration depth for the PEA ligand. &#13;</text>
+    </passage>
+    <passage>
+      <offset>53017</offset>
+      <text> Figure S12 | S12 Figure S12| Full TA spectrum taken of a PEA treated quasi-2D film. Note that the 3D bleach is considerably more absorptive than the 2D, such that we have neglected to include these in Fig.2. &#13;</text>
+    </passage>
+    <passage>
+      <offset>53227</offset>
+      <text> Figure S13 | S13 Figure S13 | GIWAXS and XRD results for 2D and quasi-2D treated films using PEA. (a,b)GIWAXS results of 2D and quasi-2D treated films, respectively. Films were arranged at a small angle (0.3 °) relative to the incoming x-ray beam so that the surface of the film is probed rather than the bulk. High intensity spots at q ~ 0.4 Å -1 and 0.3 Å -1 for the standard 2D treated film, but only one spot at q ~ 0.3 Å -1 for the quasi-2D treated film indicate the loss of n = 1 RDPs in the quasi-2D treated film. These spots are arranged along the qz axis, indicating that the RDPs are oriented horizontally with respect to the substrate. (c) XRD results from the same films indicate that only a small proportion of the film has been converted to 2D. To ensure that unreacted PEAI salt was not mistaken for RDPs, we compared the 2D treated sample with the salt n = 1 and &lt;n&gt; = 2 films in (d). Clearly, we can see that the PEAI salt is distinct from the peaks formed from either n = 1 or n = 2 PEA2MAn-1Pb2nI3n+1 &#13;</text>
+    </passage>
+    <passage>
+      <offset>54253</offset>
+      <text> 1 Figure S14 | 1S14 Figure S13 | GIWAXS and XRD results for 2D and quasi-2D treated films using PEA. (a,b)GIWAXS results of 2D and quasi-2D treated films, respectively. Films were arranged at a small angle (0.3 °) relative to the incoming x-ray beam so that the surface of the film is probed rather than the bulk. High intensity spots at q ~ 0.4 Å -1 and 0.3 Å -1 for the standard 2D treated film, but only one spot at q ~ 0.3 Å -1 for the quasi-2D treated film indicate the loss of n = 1 RDPs in the quasi-2D treated film. These spots are arranged along the qz axis, indicating that the RDPs are oriented horizontally with respect to the substrate. (c) XRD results from the same films indicate that only a small proportion of the film has been converted to 2D. To ensure that unreacted PEAI salt was not mistaken for RDPs, we compared the 2D treated sample with the salt n = 1 and &lt;n&gt; = 2 films in (d). Clearly, we can see that the PEAI salt is distinct from the peaks formed from either n = 1 or n = 2 PEA2MAn-1Pb2nI3n+1 &#13;</text>
+    </passage>
+    <passage>
+      <offset>55282</offset>
+      <text> Figure S15 | S15 Figure S15 | TA spectra of films treated with NPMA ligands. The inset bar charts represent the relative absorption from each RDP species. RDPs struggled to form during the quasi-2D treatment. &#13;</text>
+    </passage>
+    <passage>
+      <offset>55493</offset>
+      <text> Figure S16 | S16 Figure S16 | TA spectra of films treated with 2F-PEA and 4F-PEA ligands. The inset bar charts represent the relative absorption from each RDP species. &#13;</text>
+    </passage>
+    <passage>
+      <offset>55663</offset>
+      <text> Figure S17 | S17 Figure S17 | Potential profiles from Kelvin probe measurements (a) PEA treated films, (b) 3F-PEA treated films. The overall shift in potential between (a) and (b) is assumed to be due to changing the KPFM tip as measurements were made on separate occasions with different probes. &#13;</text>
+    </passage>
+    <passage>
+      <offset>55962</offset>
+      <text> Figure S18 | S18 Figure S18 | UPS spectra showing the secondary electron cut-off region (a) and the valence band onset region (b) with the fittings to a Gaussian function shown in (b) with dashed lines. The x-axis energy scale is with respect to the Fermi energy (EF = 0) for untreated, 2D treated and quasi-2D treated films. &#13;</text>
+    </passage>
+    <passage>
+      <offset>56290</offset>
+      <text> Figure S19 | S19 Figure S19 | Idealized crystal structure of n = 3 perovskite flakes (FAn-1PbnI3n-1) and 2D perovskite flakes (L2FAn-1PbnI3n+1, L = BTA, HA, OTA, PEA, 2F-PEA, 3F-PEA, 4F-PEA).The specific arrangements of each ligand were built according to their experimentally defined crystal structure; for BTA, HA, and OTA the BTA structural base was used from;29  The structures of PEA, 2F-PEA, 3F-PEA, 4F-PEA are based on reference.30  The c-direction for all the slabs was set to 100 Å. &#13;</text>
+    </passage>
+    <passage>
+      <offset>56785</offset>
+      <text> Figure S20 | S20 Figure S20 | Schematic plots about the formation energy definition of three intermediate steps in the formation of 2D perovskite. &#13;</text>
+    </passage>
+    <passage>
+      <offset>56934</offset>
+      <text> Figure S21 | S21 Figure S21 | The PBE+TS calculated formation energy of a) step 1 and b) step 2 for different RDP widths (n = 1, 2, 3, 4) and different ligands (L = BTA, HA, OTA, PEA, 2F-PEA, 3F-PEA, 4F-PEA). In a), the formation energy of bulk FAPbI3 is shown as a black dashed line. &#13;</text>
+    </passage>
+    <passage>
+      <offset>57221</offset>
+      <text> Figure S22 | S22 Figure S22 | The PBE+TS relaxed slab structures (only the PbI2 octahedral are shown) for different RDP widths (n = 2, 3, 4) and ligands (L = PEA, 2F-PEA, 3F-PEA, 4F-PEA). &#13;</text>
+    </passage>
+    <passage>
+      <offset>57411</offset>
+      <text> Figure S23 |Figure S25 | S23S25 Figure S23 | Steady-state PL measurements of Control, 2D treated and quasi-2D treated films for (a) PEA, (b) BTA and (c) 3F-PEALigand Treatment PLQY Control None 0.67 BTA 2D 1.44 Quasi-2D 1.58 PEA 2D 1.73 Quasi-2D 2.33 3F-PEA 2D 3.30 Quasi-2D 3.91 Table S6 | Calculated PLQY values for each treatment &#13;</text>
+    </passage>
+    <passage>
+      <offset>57746</offset>
+      <text> Figure S26 | S26 Figure S26 | Global fitting of a) control, b) 2D treated and c) quasi-2D treated samples. &#13;</text>
+    </passage>
+    <passage>
+      <offset>57855</offset>
+      <text> Figure S28 |Figure S29 | S28S29 Figure S28 | Transient absorption traces of the n = 2 bleach (~ 570 nm) for 2D and quasi-2D treated films (using PEAI) with and without a PCBM extraction layer. The films were excited by a 450 nm (5 µJcm -2 ) pump pulse. When a PCBM layer was added, the absorption from the 2D decays more quickly for both the 2D and quasi-2D treated films indicating that charge extraction into the PCBM is favoured over charge funnelling to n &gt; 2 2D species in the quasi-2D treated films. Monoexponential fitting was used to calculate the lifetime (τ). Time traces for (a) a 2D treated film, and (b) a quasi-2D treated film. (c) Illustration of n = 2 bleach decay. (d) Summary of decay times. Note that the rapid decrease in decay time using PCBM for both treatments suggests that carrier extraction into n &gt; 2 RDP is does not limit charge extraction. &#13;</text>
+    </passage>
+    <passage>
+      <offset>58728</offset>
+      <text> Figure S30 |Figure S31 | S30S31 Figure S30 | SEM images of the surface of (a) Control, (b) 2D treated and (c) quasi-2D treated films &#13;</text>
+    </passage>
+    <passage>
+      <offset>58863</offset>
+      <text> FigureFigure S33 | S33 Figure S32 | C-AFM of different samples. Perovskite films on NiOx/ITO substrate under illumination. (a) control, (b) 2D treated, (c) quasi-2D treated. &#13;</text>
+    </passage>
+    <passage>
+      <offset>59039</offset>
+      <text> Figure S34 | S34 Figure S34 | Performance statistics for 3F-PEA treated devices. Taken from 20 devices of each control, 2D treated and quasi-2D treated. &#13;</text>
+    </passage>
+    <passage>
+      <offset>59194</offset>
+      <text> Figure S35 | S35 Figure S35 | Performance statistics for BTA treated devices. Taken from 20 devices of each control, 2D treated and quasi-2D treated. &#13;</text>
+    </passage>
+    <passage>
+      <offset>59346</offset>
+      <text> Figure S36 | S36 Figure S36 | Performance statistics for all ligands, 2D and quasi-2D treated. Taken from 10-20 devices for each condition. &#13;</text>
+    </passage>
+    <passage>
+      <offset>59488</offset>
+      <text> Figure S37 | S37 Figure S37 | Season dependant performance statistics for control devices across all four seasons, 14 devices per batch &#13;</text>
+    </passage>
+    <passage>
+      <offset>59626</offset>
+      <text> Figure S39 | S39 Figure S39 | Season dependant performance statistics for q-2D treated (3F-PEA) devices across all four seasons, 14 devices per batch. &#13;</text>
+    </passage>
+    <passage>
+      <offset>59779</offset>
+      <text> Figure S40 | S40 Figure S40 | Comparison of experimental results and simulations. (a) Experimental results Taken from Fig 4 d). (b) Simulated J-V curves varying the surface trap density (δ), (c) Comparison demonstrating that the FF increase from the experimental data is unlikely to be a result of reducing δ alone. &#13;</text>
+    </passage>
+    <passage>
+      <offset>60099</offset>
+      <text> Figure S41 | S41 Figure S41 | Stability test on 2D and quasi-2D treated films.Each film was treated with a 2D or quasi-2D solution and then a layer of PMMA was applied atop to better simulate device conditions. A TA measurement of each film was acquired before putting the film on a hot plate in a N2 environment at 65 °C. Additional TA spectra were recorded at 3 hrs and after 20 hours at 65 °C. Each spectra shown is at a 1 ps delay. The n distribution is unchanged after 20 hours for all devices and only a small change in absorption is visible, which is less obvious in the 3F-PEA treated films. &#13;</text>
+    </passage>
+    <passage>
+      <offset>60703</offset>
+      <text> Figure S42 | S42 Figure S42| Bandgap from EQE of champion device using the method from35  the bandgap was calculated to be 1.53 eV. &#13;</text>
+    </passage>
+    <passage>
+      <offset>60837</offset>
+      <text> Figure S43 | S43 Figure S43 | Certificate of photovoltaic performance for a 3F-PEA ligand, quasi-2D treated device using an ITO/NiOx/Perovskite/quasi-2D/C60/BCP structure. Quasi-steady state method. Source: NREL. &#13;</text>
+    </passage>
+    <passage>
+      <offset>61052</offset>
+      <text> Figure Figure S44 | J-V curves and figures of merit for devices used in stability testing. RT = unencapsulated device used for room temperature MPP tracking (using the ITO/ NiOx/Perovskite/quasi-2D/PCBM/BCP structure). 65 = encapsulated device used for 65°C elevated temperature testing (using the ITO/ NiOx/Perovskite/quasi-2D/C60/SnO2 structure). &#13;</text>
+    </passage>
+    <passage>
+      <offset>61404</offset>
+      <text> Figure S45 | S45 Figure S45 | Linear extrapolation of stability testing. Using linear extrapolation, we estimate the T80 lifetime of our quasi-2D treated device to be ~1190hrs. &#13;</text>
+    </passage>
+    <passage>
+      <offset>61583</offset>
+      <text> Figure S46 | S46 Figure S46 | Forward and reverse scans of a 3F-PEAI treated device with associated figures of merit. Hysteresis is ~ 1%. &#13;</text>
+    </passage>
+    <passage>
+      <offset>61723</offset>
+      <text> 2 Fig.S46 &#13;</text>
+    </passage>
+    <passage>
+      <offset>61735</offset>
+      <text> Fig. 1 | 1 Fig. 1 | Quasi-2D treatment and its effect on RDP distribution. a, Schematic of n = 1, 2, 3 and 4 RDPs. b, Band alignment of 3D and RDP films with increasing confinement calculated from UPS and the optical bandgap of quasi-2D perovskite films. c, The eight ligands used in the study: 1, phenethylammonium; 2, 4-fluoro-phenethylammonium; 3, 3-fluoro-phenethylammonium; 4, 2-fluoro-phenethylammonium; 5, butylammonium; 6, hexylammonium; 7, octylammonium; and 8, 1-naphthylmethylammonium. d,e, Schematics of the standard 2D treatment (d) and the quasi-2D treatment (e) producing n ≤ 2 RDPs and n ≥ 2 RDPs, respectively. &#13;</text>
+    </passage>
+    <passage>
+      <offset>62369</offset>
+      <text> Fig. 2 | 2 Fig. 2 | Comparison of 2D and quasi-2D treatments using different 2D ligands. a-c, TA spectra of films treated with BTA (a), PEA (b) and 3F-PEA (c) using the standard 2D treatment.d-f, TA spectra of films treated with BTA (d), PEA (e) and 3F-PEA (f) using the quasi-2D treatment. The majority absorption in each case is from the 3D perovskite (780 nm) but this has been excluded for clarity. Absorption peaks are assigned in order, and a comparison with single-cation quasi-2D films is shown in Supplementary Table4. The inset bar in a-f represents the relative absorption from each RDP species. g-h, Absorption maps from in situ TA spectroscopy obtained during spin coating. Cs 0.05 MA 0.1 FA 0.85 PbI 3 3D perovskite films were spun at 1,500 r.p.m. and a constant 1 ps pump-probe delay time was used. The quasi-2D treatments for BTA (g), PEA (h) and 3F-PEA (i) were all dropped at 7.2 s. &#13;</text>
+    </passage>
+    <passage>
+      <offset>63272</offset>
+      <text> Fig. 2 | Comparison of 2D and quasi-2D treatments using different 2D ligands. a-c, TA spectra of films treated with BTA (a), PEA (b) and 3F-PEA (c) using the standard 2D treatment.d-f, TA spectra of films treated with BTA (d), PEA (e) and 3F-PEA (f) using the quasi-2D treatment. The majority absorption in each case is from the 3D perovskite (780 nm) but this has been excluded for clarity. Absorption peaks are assigned in order, and a comparison with single-cation quasi-2D films is shown in Supplementary Table4. The inset bar in a-f represents the relative absorption from each RDP species. g-h, Absorption maps from in situ TA spectroscopy obtained during spin coating. Cs 0.05 MA 0.1 FA 0.85 PbI 3 3D perovskite films were spun at 1,500 r.p.m. and a constant 1 ps pump-probe delay time was used. The quasi-2D treatments for BTA (g), PEA (h) and 3F-PEA (i) were all dropped at 7.2 s. &#13;</text>
+    </passage>
+    <passage>
+      <offset>64164</offset>
+      <text> Fig. 3 | 3 Fig.3| Formation of quasi-2D perovskite capping layers from density functional theory. a, The PBE+TS calculated formation energy of perovskite flakes ((FA) n-1 Pb n I 3n-1 , see inset). The formation energy of FAPbI 3 is shown as a dashed line. Note that the energy required to form a single-layer (PbI 2 ) flake (n = 1 RDP) is much higher than for other layer widths. PBE+TS, Perdew-Burke-Ernzerhof functional with the Tkatchenko-Scheffler dispersion correction. b, The formation energy of different RDPs dependent on the layer width n and the ligand (BTA, PEA and 3F-PEA). The same calculations were performed on HA, OTA, 2F-PEA and 4F-PEA and can be found in Supplementary Fig.21. &#13;</text>
+    </passage>
+    <passage>
+      <offset>64861</offset>
+      <text> Fig. 4 |Fig. 5 | 45 Fig. 4 | Quantifying the conduction band offset of 2D and quasi-2D surface treatments. a-c, IPES spectra of BTA-(a), PEA-(b) and 3F-PEA-treated (c) films using 2D and quasi-2D treatments. The dashed lines represent the gaussians used to fit the data. The shaded region represents the change in conduction band edge. IPES measurements were taken using a bandpass filter of 254 nm (4.88 eV) for the control and PEA-treated films and 280 nm (4.42 eV) for BTA-and 3F-PEA-treated films. E vac , vacuum level. d, Cross-section of a typical 2D/3D heterostructure in the PIN configuration. e,f, The band alignment of the resulting cell using the 2D treatment (e) or the quasi-2D treatment (f). Values in e,f were calculated for a PEA treatment using combined UPS and IPES. &#13;</text>
+    </passage>
+    <passage>
+      <offset>65648</offset>
+      <text> Table S5 | Fitting parameters and calculated band alignment values from S5 WF VB χo VB σ VBM (IE) CB χo CB σ CBM (EA) Bandgap (eV) Control 4.92 1.47 0.31 5.49 3.08 0.29 3.93 1.56 2D (PEA) treated 4.76 1.84 0.37 5.53 2.50 0.35 3.51 2.02 quasi-2D (PEA) 4.88 1.65 0.35 5.51 2.90 0.31 3.79 1.71 treated Gaussian fitting of combined UPS/IPES measurement from control and treated films. &#13;</text>
+    </passage>
+    <passage>
+      <offset>66035</offset>
+      <text> Table S7 | Summary of calculated photoluminescent lifetimes 316 S7 τ1 (ns) τ2 (ns) Control - 681 + PCBM 4.6 581 PEA 2D 958 2D + PCBM 12.1 196 quasi-2D 1117 quasi-2D + PCBM 6.2 317 3F-PEA 2D 2309 2D + PCBM 9.2 17.9 quasi-2D 3398 quasi-2D + PCBM 4.9 8.2 BTA 2D 118.3 2D + PCBM 33.3 176 quasi-2D 146.5 quasi-2D + PCBM 16.3 317 &#13;</text>
+    </passage>
+    <passage>
+      <offset>66363</offset>
+      <text> Table S9 | Summary of reported device efficiency and stability corresponding to Figure S1. S9 The 479 reported efficiency is the best certified or best reported in the paper. The stability corresponds to the 480 most rigorous stability test undertaken. It should be noted that names with a * beside them use a different 481 ETL and/or HTL for their stability experiments. The entries in bold font represent stability 482 measurements at elevated temperature under illumination. No other report uses the full ISOS-L3 483 484 protocol (controlled 65°C testing, under illuminations MPP-tracking, ~ 50% RH). 485 Name on Figure S1 Efficiency (%) Stability Ref. M. Degani, Sci. Adv. 23.7 No drop in PCE after 0.5 hrs S. Wu, Joule (2020) 22.31 T98 = 10hrs (RT) F. Li, JACS (2020) 22.7 (certified) T90 = 200hrs (RT) J. Xue, Science (2021) 23.0 T85 = 2000hrs (RT) H. Lu, Science (2020) 23.1 T90 = 500hrs (RT) J. Yoo, Nature (2021) 25.2 (certified) T80 = 500 hrs (RT) J. Jeong, Nature (2021) 25.2 (certified) T85 = 450 hrs (RT) H. Min, Nature (2021) 25.5 (certified) T90 = 500 hrs (RT) M. Kim, Science (2022) 25.4 (certified) T80 = 350 hrs (RT) Y. Jeong, Science (2020) 24.64 T87 = 500hrs (RT) H. Zhu, Adv. Mat. (2020) 23.5 T95 = 1000hrs (RT) B. Park, Nature Energy (2021) 23.9 No degradation, 2000hr (RT) Z. Dai, Science (2021) 21.4 T90 = 1200hrs (RT) E.H. Jung, Nature (2019) 22.7 (certified) T95 = 1370hrs (RT) N. Li, Science (2021) 22.3 (certified) T95 ~ 2000 hrs (RT) H. Min, Science (2019)* 23.7 (certified) T90 = 20hrs (150°C) Q. Jiang, Nat. Photon. (2019)* 23.32 (certified) T80 = 500hrs (85°C) G. Kim, Science (2020)* 24.37 (certified) T80 = 1300hrs (85°C) Y. Jang, Nat. Energy (2021)* 24.35 (certified) T94 = 1000 hrs (85°C) J. Peng, Science (2021) 23.17 &#13;</text>
+    </passage>
+    <passage>
+      <offset>68125</offset>
+      <text>			 NATuRE PHoToNiCS | VOL 16 | MAY 2022 | 352-358 | www.nature.com/naturephotonics &#13;</text>
+    </passage>
+    <passage>
+      <offset>68210</offset>
+      <text>			 © The Author(s), under exclusive licence to Springer Nature Limited 2022 NATuRE PHoToNiCS | VOL 16 | MAY 2022 | 352-358 | www.nature.com/naturephotonics &#13;</text>
+    </passage>
+    <passage>
+      <offset>68369</offset>
+      <text>			 NATuRE PHoToNiCS | www.nature.com/naturephotonics</text>
+    </passage>
+    <relation id="R1">
+      <infon key="type">test_1</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T04:22:25Z</infon>
+      <node refid="9" role=""/>
+      <node refid="10" role=""/>
+      <node refid="11" role=""/>
+      <node refid="12" role=""/>
+      <node refid="20" role=""/>
+      <node refid="31" role=""/>
+      <node refid="5" role=""/>
+      <node refid="8" role=""/>
+      <node refid="18" role=""/>
+    </relation>
+    <relation id="R2">
+      <infon key="type">test_2</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T04:22:07Z</infon>
+      <node refid="13" role=""/>
+      <node refid="14" role=""/>
+      <node refid="15" role=""/>
+      <node refid="21" role=""/>
+      <node refid="31" role=""/>
+      <node refid="5" role=""/>
+      <node refid="8" role=""/>
+      <node refid="18" role=""/>
+    </relation>
+  </document>
+</collection>
