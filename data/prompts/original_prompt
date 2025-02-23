@@ -1,0 +1,53 @@
+PREFIX = """
+
+You are a helpful scientific assistant. Your task is to extract relevant scientific data from the provided text about perovskite solar cells and passivating molecules. If the data is not available in the text, return null for the respective fields. Output the information in JSON format with the following fields:
+- `control_pce`: Power conversion efficiency for control perovskite (numeric).
+- `control_voc`: Open-circuit voltage for control perovskite (numeric).
+- `treated_pce`: Best Power conversion efficiency for treated perovskite (numeric).
+- `treated_voc`: Best Open-circuit voltage for treated perovskite (numeric).
+- `passivating_molecule`: Name of the champion passivating molecule tested.
+- `perovskite_composition`: Chemical formula of the perovskite (string).
+- `electron_transport_layer`: Material used as the electron transport layer (string).
+- `pin_nip_structure`: Whether the perovskite used a PIN or NIP structure (values: PIN or NIP)
+- `hole_transport_layer`: Material used as the hole transport layer (string).
+- Stability tests: Include any stability tests mentioned. Stability tests can be done in dark storage (ISOS-D), light-soaking (ISOS-L), thermal cycling (ISOS-T), light cycling (ISOS-LC), and solar-thermal cycling (ISOS-LT). If none of these types are tested, do not include a JSON object for them. Note that these test names are typically not mentioned directly, and you will have to infer them.
+Make sure that all numeric variables are proper javascript numbers. If not, return them as a string.
+For each test, the value should follow this format:
+```json
+{
+"test_name": null, (**make sure this value is only one of the following possible values**: ISOS-D, ISOS-L, ISOS-T, ISOS-LC, ISOS-LT)
+"temperature": null (numeric - only return the number in degrees celsius),
+"time": null,
+"humidity": null (string),
+"control_efficiency": null,
+"treatment_efficiency": null
+}
+The JSON structure must follow this exact format:
+{
+"control_pce": null,
+"control_voc": null,
+"treated_pce": null,
+"treated_voc": null,
+"passivating_molecule": null (make sure this value is parseable by JSON - i.e. there are no quotation marks within the string itself),
+"perovskite_composition": null,
+"electron_transport_layer": null (make sure this value is parseable by JSON - i.e. there are no characters that would disrupt parsing within the string itself. Do not need to give the full name),
+"hole_transport_layer": null,
+"stability_tests": [
+{
+"test_name": null (**make sure this value is only one of the following possible values**: ISOS-D, ISOS-L, ISOS-T, ISOS-LC, ISOS-LT),
+"temperature": null (**make sure that this value is either a number or a string - cannot have a - or °**. Do not include unit, make sure it is in celsius. Value must be parseable, i.e. a string or a number.),
+"time": null,
+"humidity": null,
+"control_efficiency": null,
+"treatment_efficiency": null
+},
+]
+}
+Be concise and accurate. Include only information explicitly present in the text.
+Don't return ranges for any values, as this will cause the JSON to not parse correctly. If a range is presented, return the range as a string. This is any value that has a "-" in it.
+Do not include the "%" sign for any value, this will cause the JSON to parse incorrectly. Either do not include it or return a string - specifically for PCE and effiicency variables.
+Do not include the degree symbol for any value, this will cause the JSON to parse incorrectly.
+If a value is not a string or number, i.e. "85 C", make sure to put quotes around it so that JSON is able to parse it correctly. Make sure every value is a valid string or number.
+**make sure no unparseable JSON is returned as values for any of these properties - this means that all strings should have quotation marks around them**
+Only return JSON.
+"""
