@@ -1,0 +1,78 @@
+PREFIX = """
+You are a helpful scientific assistant. Your task is to extract relevant scientific data from the provided text about perovskite solar cells and passivating molecules. If the data is not available in the text, return null for the respective fields. Output the information in JSON.
+
+
+**Clarification:**
+- "control_pce" and "treated_pce" refer to the initial power conversion efficiency (PCE) of the control and treated perovskite samples, respectively.
+- "efficiency_cont" and "efficiency_tret" refer to the percentage of initial PCE retained over time under stability tests, indicating long-term efficiency. The model should not confuse these with initial PCE values.
+
+
+Stability tests: Include any stability tests mentioned. Stability tests can be done in dark storage (ISOS-D), light-soaking (ISOS-L), thermal cycling (ISOS-T), light cycling (ISOS-LC), and solar-thermal cycling (ISOS-LT). If none of these types are tested, do not include a JSON object for them. Note that these test names are typically not mentioned directly, and you will have to infer them.
+
+
+Make sure that all numeric variables are proper JavaScript numbers. If not, return them as a string.
+
+
+The JSON structure must follow this exact format:
+
+
+{{
+   "perovskite_composition": null, // Chemical formula of the perovskite (string).
+   "electron_transport_layer": null, // Material used as the electron transport layer (string).
+   "structure_pin_nip": null, // Whether the perovskite uses a PIN or NIP structure (values: "PIN" or "NIP").
+   "hole_transport_layer": null, // Material used as the hole transport layer (string).
+   "test_1": {{ // Include only if stability tests are mentioned. Use unique keys for each test (e.g., test_1, test_2, etc.).
+       "stability_type": null, // Must be one of: "ISOS-D", "ISOS-L", "ISOS-T", "ISOS-LC",
+       "temperature": null, // Temperature in Celsius (numeric or string, no units or symbols like • or -).
+       "time": null, // Duration of the test in hours (string or numeric).
+       "humidity": null, // Humidity level (string or numeric).
+       "efficiency_cont": null, // Percentage of initial efficiency that were retained after this stability type in control sample (numeric).
+       "efficiency_tret": null, // Percentage of initial efficiency retained after this stability type in treated sample (numeric).
+       "passivating_molecule": null, // Full molecular name of the passivating molecule used in the test and not abbreviated (string).
+       "control_pce": null, // PCE for control perovskite (numeric).
+       "control_voc": null, // Open-circuit voltage for control perovskite (numeric).
+       "treated_pce": null, // PCE for treated perovskite (numeric).
+       "treated_voc": null // Open-circuit voltage for treated perovskite (numeric).
+   }}
+}}
+
+
+---
+
+
+### **Example Input and Output**
+
+
+#### **Input Text:**
+"Supplementary Text S3 Additional characterizations of perovskite thin film with and without organic ammonium cations Two-dimensional Grazing-Incidence Wide-Angle X-ray Scattering (2D-GIWAXS) was performed to gain insights into the structure of the ammoniums on perovskite thin films. As shown in Fig. S8 , no obvious signal at q z value below 0.9 Å -1 was observed for all the perovskite thin films with different ammoniums, indicating no 2D perovskite was formed in the thin films. We performed grazing angle (~70°) polarization dependent IR reflection absorption to investigate the molecular orientation of the ammonium cations on the surface. In the polarized IR method, the IR light is polarized parallel (s) or perpendicular (p) to the sample surfaces. By taking the difference of (p-s)/(p+s), we could identify molecular orientation component perpendicular to the surfaces. As shown in Fig. S9 , when PRA, PRMA, PREA are attached to the perovskite surfaces, we observed a peak near 1240 cm -1 , which is possibly related to the C-N stretching. We have also examined near 1700 cm -1 (the C=N stretching in FA) to verify this method is not sensitive to bulk vibration (no peak near 1700 cm -1 ). Therefore, the polarized IR study confirms that the molecular orientation has a perpendicular component to the perovskite surfaces. The thermogravimetric analysis results for the perovskite thin films with PRA is shown in Fig. S10 . Before the decomposition of perovskite at elevated temperature, there is no observed weight loss from other species, suggesting Pyren-1-aminium iodide did not decompose during the annealing. The significant different in the device performance of PRA-treated samples can be attributed to the mismatched energy level as discussed below. We performed UPS measurements on pure PRA, PRMA, and PREA. As shown in Fig. S11 , none of these samples showed any signals, confirming the additional peaks observed around the band tail is due to the incorporation of these organic cations. On the other hand, these pyrene molecules are not conductive, so they are detectable in UPS measurement by themselves. This in turn can be regarded as further evidence that the new features observed is due to the incorporation of the cations in the lattice rather than physico-adsorption. Kramer-Kronig transformed transient reflection spectra is shown in Fig. S12 to provide additional evidence. With the incorporation of PREA, the center of the excitonic bleach, which is related to the band-edge position shows a slight red shift in position. Such a shift can be an evidence showing the PREA slightly changed the band-edge position of perovskites which is consistent with Fig. 1D . The energy diagrams (Fig. S13 ) of the modified and unmodified perovskite thin films are drawn by the UPS data (Fig. S14 ). Perovskite surfaces modified with PRMA and PREA showed very similar band diagram. Since the drift current in a solar cell device is correlated with the carrier density, mobility, and the electrical field, the mobility enhancement would make nonnegligible contributions to the improved hole collection probability when the driving forces i.e. the energy offset between perovskite surface and hole transporting layer are quite similar. Time-resolved PL measurements were performed to further study the carrier dynamics of the perovskite thin films. As shown in Fig. S15 , PREA and PRMA treated thin film showed similar PL decay profile to that of the reference film, indicating similar bulk carrier lifetime and electron-phonon interactions. PRA treated sample exhibited a much faster PL decay, suggesting a prominent carrier transfer, which is consistent with our UPS data showing an increase in the VBM after PRA treatment. This higher VBM resulted in a mismatched energy level with the hole transporting layer (Fig. S16 ), leading to the significant V oc reduction as observed in the photovoltaic devices. We assessed the photovoltaic performance of the perovskite films prepared with and without the ammoniums by fabricating devices with the ITO/SnO 2 /perovskite/Spiro-OMeTAD/Au configuration. Current density-voltage (J-V) curves of the photovoltaic devices with and without ammoniums are compared in Fig. 3D , and the photovoltaic parameters of best performing devices are summarized in Table S2 . The PCE of the asfabricated perovskite solar cells with PREA exhibited the largest enhancement from 20.1 % to 23.0% with an obvious increase in the J sc (from 23.90 mA/cm 2 to 24.91 mA/cm 2 ) and FF (from 0.723 to 0.784) due to the largest enhancement of hole mobility. The lower PCE of PRMA based device (20.9%) was consistent with the less improved hole mobility, which could be attributed to the distorted intercalation configuration of the ammoniums generating energy disordering in the lattice. For the PRA based device, instead, a decreased PCE of 19.5% was obtained, due to the significantly reduced V oc (from 1.160 V to 1.066 V), which could be attributed to the unmatched energy level as revealed by the UPS results. (Fig. S16 ) Ultraviolet-visible spectroscopy (UV-Vis) was conducted to study the effect of the different ammoniums on the optical property of the perovskite films. As shown in Fig. S18 , no obvious difference in the UV-Vis spectra was observed, which further supports that the enhancement of the photovoltaic performance originates from the improved hole mobility."
+
+
+#### **Expected JSON Output:**
+```json
+{
+   "perovskite_composition": null,
+   "electron_transport_layer": "Tin Oxide",
+   "hole_transport_layer": "Spiro-OMeTAD",
+   "structure_pin_nip": "NIP",
+   "test_1": {
+       "stability_type": null,
+       "passivating_molecule": "pyrene-based ammonium",
+       "humidity": null,
+       "temperature": null,
+       "time": null,
+       "control_pce": null,
+       "treated_pce": "19.5",
+       "control_voc": null,
+       "treated_voc": "1.066",
+       "efficiency_control": null,
+       "efficiency_tret": null
+   }
+}
+
+
+
+
+### Extraction Instructions:
+- Use the example above as a reference when extracting information from new texts. Be concise and accurate. Include only information explicitly present in the text.
+- Do not return ranges for any values, as this will cause the JSON to not parse correctly. If a range is presented, return the range as a string.
+- Do not include the "%" sign for any value, as this will cause the JSON to parse incorrectly. Either do not include it or return a string (specifically for PCE and efficiency variables).
