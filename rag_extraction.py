@@ -40,8 +40,7 @@ Your task is to extract relevant scientific data from the provided text about pe
     Follow these guidelines:
 
     1. **If passivating molecules are mentioned:**
-    - If there is more than one passivating molecule tested, only return data for the champion passivator.
-    - Include stability test data for the champion passivating molecule. There may be multiple stability tests for a single molecule.
+    - Include stability test data for each molecule if available. There may be multiple stability tests for a single molecule.
 
     2. **If no passivating molecules are mentioned:**
     - Provide a JSON object with any other relevant data explicitly mentioned in the text.
@@ -55,11 +54,6 @@ Your task is to extract relevant scientific data from the provided text about pe
         "electron_transport_layer": null, // Material used as the electron transport layer (string).
         "pin_nip_structure": null, // Whether the perovskite uses a PIN or NIP structure (values: "PIN" or "NIP").
         "hole_transport_layer": null, // Material used as the hole transport layer (string).
-        "passivating_molecule": null, // Name of the passivating molecule used in the test (must be a proper molecule name - i.e. can be parsed into SMILES format).
-        "control_pce": null, // Power conversion efficiency for control perovskite (numeric) (values should be between 10-30).
-        "control_voc": null, // Open-circuit voltage for control perovskite (numeric).
-        "treated_pec": null, // Power conversion efficiency for treated perovskite (numeric) (values should be between 10-30).
-        "treated_voc": null // Open-circuit voltage for treated perovskite (numeric).
         "test_1": {{ // Include only if stability tests are mentioned. Use unique keys for each test (e.g., test_1, test_2, etc.).
             "test_name": null, // Must be one of: "ISOS-D", "ISOS-L", "ISOS-T", "ISOS-LC", "ISOS-LT".
             "temperature": null, // Temperature in Celsius (numeric or string, no units or symbols like ° or -).
@@ -67,6 +61,11 @@ Your task is to extract relevant scientific data from the provided text about pe
             "humidity": null, // Humidity level (string or numeric).
             "retained_percentage_cont": null, // Percentage of the PCE retained by the control perovskite after stability test (numeric) (values should be between 30-100).
             "retained_percentage_tret": null, // Percentage of the PCE retained by the treated perovskite after stability test (numeric) (values should be between 30-100).
+            "passivating_molecule": null, // Name of the passivating molecule used in the test (must be a proper molecule name - i.e. can be parsed into SMILES format).
+            "control_pce": null, // Power conversion efficiency for control perovskite (numeric) (values should be between 10-30).
+            "control_voc": null, // Open-circuit voltage for control perovskite (numeric).
+            "treated_pce": null, // Power conversion efficiency for treated perovskite (numeric) (values should be between 10-30).
+            "treated_voc": null // Open-circuit voltage for treated perovskite (numeric).
         }}
     }}
 
@@ -115,10 +114,10 @@ def generate_extraction(text):
     
 dataset = pd.read_csv('DSC180_B11_Q2/data/rag_filtered_150_papers.csv')
 dataset["json_output"] = dataset["filtered_text"].apply(generate_extraction)
-output = {}
-for index, row in dataset:
-    output[str(row["id"])] = row["json_output"]
-with open('DSC180_B11_Q2/data/deepseek_8bit_finetuned_tests_nested.json', 'w') as f:
-    json.dump(output, f)
+# output = {}
+# for index, row in dataset:
+#     output[str(row["id"])] = row["json_output"]
+# with open('DSC180_B11_Q2/data/deepseek_8bit_finetuned.json', 'w') as f:
+#     json.dump(output, f)
 
-# dataset.to_csv('DSC180_B11_Q2/data/rag_filtered_150_papers_with_extraction.csv')
+dataset.to_csv('DSC180_B11_Q2/data/finetuned_output_fully_nested.csv')
