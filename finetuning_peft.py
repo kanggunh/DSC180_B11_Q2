@@ -226,7 +226,7 @@ peft_training_args = TrainingArguments(
     save_strategy="steps",
     eval_steps=5,
     do_eval=True,
-    save_steps=600,
+    save_steps=400,
     save_total_limit=15,
     report_to="none"
 )

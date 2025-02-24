@@ -6,6 +6,11 @@ import json
 import re
 import torch
 import pandas as pd
+from huggingface_hub import login
+
+load_dotenv()
+access_token = os.getenv("HF_TOKEN")
+login(token=access_token)
 
 bnb_config = BitsAndBytesConfig(
     load_in_8bit=True,
@@ -16,8 +21,10 @@ bnb_config = BitsAndBytesConfig(
 
 # trained model path
 model_name = "DSC180_B11_Q2/models/DeepSeek-R1-PSC-Extractor-8B-8bit"
+# model_path = "meta-llama/Llama-3.2-3B-Instruct"
 model = AutoModelForCausalLM.from_pretrained(model_name, quantization_config=bnb_config, device_map="auto")
 tokenizer_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+# tokenizer_name = "meta-llama/Llama-3.2-3B-Instruct"
 tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
 tokenizer.model_max_length = 70000
 pipe = pipeline(
@@ -120,4 +127,4 @@ dataset["json_output"] = dataset["filtered_text"].apply(generate_extraction)
 # with open('DSC180_B11_Q2/data/deepseek_8bit_finetuned.json', 'w') as f:
 #     json.dump(output, f)
 
-dataset.to_csv('DSC180_B11_Q2/data/finetuned_output_fully_nested.csv')
+dataset.to_csv('DSC180_B11_Q2/data/llama3b_output_fully_nested.csv')
