@@ -9,20 +9,32 @@ body {
 
 /* Header Styles */
 header {
-    background: black;
+    background-image: url('Abstract-molecule-background-Stock-Photo-07.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the header */
+    background-position: center center; /* Centers the image */
     color: white;
     text-align: center;
-    padding: 10px 10px;
+    padding: 50px 0; /* Adjust padding as necessary */
+}
+
+/* Container around header text */
+header .container {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 header h1 {
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 0;
+    padding: 10px 0;
 }
 
 header h3 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: normal;
+    padding: 5px 0;
 }
 
 /* GitHub Button */
@@ -40,6 +52,7 @@ header h3 {
 .github-button:hover {
     background-color: red;
 }
+
 
 /* Navigation Menu */
 .nav-menu {
@@ -113,3 +126,4 @@ header h3 {
 .back-to-top:hover {
     color: red;
 }
+
