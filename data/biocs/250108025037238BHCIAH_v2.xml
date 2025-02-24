@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 77&#13;</text>
@@ -33,22 +32,6 @@
     <passage>
       <offset>4378</offset>
       <text> Publication of your CIF in other journals Please refer to the Notes for Authors of the relevant journal for any special instructions relating to CIF submission. Phenethylammonium (PEA + ) and butylammonium (BA + ) are widely used in three-dimensional (3D) perovskites to form two-dimensional perovskites at film surfaces and grain boundaries (GBs) for defect passivation and performance enhancement. Here we show that these cations are unstable with 3D formamidinium (FA + )-containing perovskites under high-temperature light soaking. PEA + and BA + are found to deprotonate to amines, which then react with FA + to produce (phenethylamino) methaniminium (PEAMA + ) and (butylamino)methaniminium (BAMA + ), respectively, severely limiting device high-temperature photostability. Removing these cations greatly improves the photostability but compromises device efficiency by leaving non-fully passivated surfaces and GBs. Ammonium cations with a high acid dissociation constant (pK a ), including PEAMA + (pK a = 12.0) and BAMA + (pK a = 12.0), can replace PEA + or BA + for passivation and are stable with FA-based perovskites due to their resistance to further deprotonation. P-i-n structure solar cells with PEAMA + additive maintained over 90% of their initial efficiency after light soaking at open circuit and 90 °C for 1,500 hours. Two-dimensional (2D) perovskites have many interesting physical properties due to confinement effects that three-dimensional (3D) perovskites do not have, including exciton dynamics, spin dynamics and electron-phonon coupling  [1] [2] [3]  . Generally, 2D perovskites are considered to be much more stable than their 3D counterparts due to better moisture resistance of the hydrophobic organic cation  4, 5  , larger energy barrier to ion migration  6, 7  and increased tolerance to structural stress  8, 9  . As a result, they have been widely applied in perovskite solar cells (PSCs) to improve device efficiency and stability in various ways  4, [10] [11] [12]  . To overcome their poor carrier transport along the out-of-plane direction, a thin layer of 2D perovskite can be stacked on top of 3D perovskites via sequential deposition, which not only protects but also passivates the 3D perovskite surface  10, 13  . They can also be incorporated into the grain boundaries (GBs) of 3D perovskites by adding the large organic cations into the precursor solution  14  . The much larger size of these organic cations causes them to be excluded form the 3D lattice to GBs which, in return, stablizes the GBs  5, 15  . Additionally, high layer number (n) phase-pure quasi-2D perovskites have been developed to retain both the advantages of 3D perovskites-such as good charge transport and carrier lifetimes-and 2D perovskites, such as good stability, but neither their efficiency nor stability have reached the parity of other multi-dimensional perovskites  16, 17  . &#13;</text>
-      <annotation id="3">
-        <infon key="type">additive_molecule</infon>
-        <infon key="identifier">(phenethylamino)methaniminium</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:28:23Z</infon>
-        <location offset="5004" length="30"/>
-        <text>(phenethylamino) methaniminium</text>
-      </annotation>
-      <annotation id="4">
-        <infon key="type">additive_molecule</infon>
-        <infon key="identifier">(phenethylamino)methaniminium</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:28:25Z</infon>
-        <location offset="5036" length="7"/>
-        <text>PEAMA +</text>
-      </annotation>
       <annotation id="1">
         <infon key="type">structure_pin_nip</infon>
         <infon key="identifier">PIN</infon>
@@ -58,22 +41,14 @@
         <text>P-i-n</text>
       </annotation>
       <annotation id="2">
-        <infon key="type">treatment_element</infon>
-        <infon key="identifier">(phenethylamino)methaniminium</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:32:59Z</infon>
-        <location offset="5591" length="7"/>
-        <text>PEAMA +</text>
-      </annotation>
-      <annotation id="5">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.9</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:31:31Z</infon>
+        <infon key="identifier">90</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:41:18Z</infon>
         <location offset="5624" length="3"/>
         <text>90%</text>
       </annotation>
-      <annotation id="6">
+      <annotation id="3">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSLT</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -81,7 +56,7 @@
         <location offset="5662" length="29"/>
         <text>light soaking at open circuit</text>
       </annotation>
-      <annotation id="7">
+      <annotation id="4">
         <infon key="type">temperature</infon>
         <infon key="identifier">90</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -89,7 +64,7 @@
         <location offset="5696" length="5"/>
         <text>90 °C</text>
       </annotation>
-      <annotation id="8">
+      <annotation id="5">
         <infon key="type">time</infon>
         <infon key="identifier">1500</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -97,16 +72,6 @@
         <location offset="5706" length="11"/>
         <text>1,500 hours</text>
       </annotation>
-      <relation id="R1">
-        <infon key="type">test_1</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:33:08Z</infon>
-        <node refid="2" role=""/>
-        <node refid="5" role=""/>
-        <node refid="6" role=""/>
-        <node refid="7" role=""/>
-        <node refid="8" role=""/>
-      </relation>
     </passage>
     <passage>
       <offset>7287</offset>
@@ -115,14 +80,6 @@
     <passage>
       <offset>7304</offset>
       <text> Article https://doi.org/10.1038/s41560-023-01362-0  chloride (PEACl), formamidinium hypophosphite (FAH 2 PO 2 ), formamidinium chloride (FACl), Zinc chloride (ZnCl 2 ) and excess CsI. FAH 2 PO 2 and FACl were added to enlarge the grain size of perovskite films and passivate the non-radiative recombination defects  30  . PEACl was added to passivate the surface and grain boundaries by formation of 2D perovskite and suppress the halide ion migration  32  . ZnCl 2 was added to increase device efficiency by optimizing the perovskite morphology and decrease trap density  33  . Excess CsI was added to compensate iodide vacancies and suppress ion migration and defect generation during long-term illumination  29  . We speculated that some additive(s) may induce the quick degradation observed at high temperatures. To verify this, additives were removed one by one from the perovskite precursor solutions, PSCs were fabricated and then the same high-temperature photostability study was conducted (Supplementary Fig.  3g-h ). Results showed that the PSCs became much more stable after the PEACl additive was removed from the perovskite precursor solution. As shown in Fig.  1b  and Supplementary Fig.  3h , devices without PEACl retained 90% of their initial efficiency over 750 hours at 85 °C under 1 sun light illumination but started with a lower efficiency of ~20%. This suggests that PEA + cations were the main reason for the poor photostability of FACs-perovskites at high temperatures; note that chloride was excluded using control studies where chloride was replaced by iodide (Supplementary Fig.  3i ). Additionally, to evaluate whether the location of phenethylammonium iodide (PEAI) makes a difference, we removed PEAI in the precursor and instead applied PEAI as surface treatment to the perovskite films. A poor stability was again observed for these PSCs with PEAI surface treatment (Supplementary Fig.  3i ). This shows that the PEA + cations cause poor high-temperature photostability, regardless of how PEA + is introduced into the FACs-perovskites. The impact of PEA + on FACs-perovskite intrinsic stability was manifested by the perovskite morphology and crystallinity evolution after light soaking at 85 °C for different durations. X-ray diffraction (XRD) results shown in Supplementary Fig.  4  revealed that the crystallinity of FACs-perovskite films with PEA + quickly decreased after testing for 260 hours, while FACs-perovskite films without PEA + experienced a slower degradation in crystallinity and retained the majority of their initial crystallinity over 860 hours of testing. This is evidenced by a slower decrease in XRD peak intensity and smaller changes in full-width half maximum values of the (001) plane peak. Additionally, cross-sectional scanning electron microscopy (SEM) showed that voids formed along grain boundaries during the stability measurement for films containing PEA + (Fig.  1c ). This can be explained by the PEA + ions that accumulated at the GBs, which damaged the 3D perovskites during the high-temperature light soaking testing. In contrast, devices without PEA + did not develop voids even after testing for 860 hours (Fig.  1d ). Electron beam induced current (EBIC) measurements were conducted to further research the stability of PSCs with and without PEACl. For this measurement, devices with thinner electrodes (30 nm) were deposited so that an electron beam with an energy of 5-15 keV could penetrate through the electrode and electron transport layer (ETL), depositing its energy into the perovskite layer. Monte Carlo simulations of the electron trajectories indicate that 75% of the beam energy was deposited within the ETL and the first 10 s of nanometers (nms) of the perovskite (Supplementary Fig.  5 ). EBIC results in Fig.  1e  reveal that PEA + incorporation results in a lower and less uniform current that further decreases over device ageing, in contrast to PSCs without PEA + . As can be seen in Fig.  1f , the pristine PSCs without PEA + show an average EBIC current of ~3.0 nA. PSCs with PEACl show both a more heterogenous and lower average current collection of ~2.2 nA. Because the devices with PEACl have a larger photocurrent under 1 sun light, we interpret the smaller and more heterogenous EBIC by the faster degradation of the device with PEACl under electron beam. After the devices light soaked under 85 °C 1 sun for 250 hours, the mean current extraction from the device with PEACl decreased to ~1.1 nA. In contrast, the device without PEACl showed a modest increase in current to ~3.7 nA The ability of 2D perovskites to enhance the efficiency of perovskite solar cells as additive or surface capping layer is very evident  4, 12, 13, [18] [19] [20]  . Among the numerous organic cations reported for 2D perovskites, phenethylammonium (PEA + ) and butylammonium (BA + ) are the most frequently used ammonium cations. Additionally, they have yielded many certified record power conversion efficiencies  12, 13, 21  . Encouraging shelf lifetime or even operational stability under light has also been frequently reported  22, 23  . Nevertheless, almost all previous studies were conducted at relatively low temperatures. Because the operational lifetime of perovskite solar cells are reaching several thousand hours, higher temperatures are needed to accelerate the operational stability test, as demonstrated by several recent studies  22, 23  . Some recent studies have shown poor stability of 2D:3D mixed perovskites and 2D/3D stacking structure at a high temperature of 85 °C, despite their promising stability at a lower temperature of 55 °C  [24] [25] [26] [27]  , which raises concerns about whether 2D:3D mixture structure or stacking structure is viable for long-term stability. The underlying mechanism of 2D:3D interfacial instability is still unclear. In this manuscript, we show that several commonly used ammonium cations, including PEA + and BA + , are not stable with formamidinium (FA)-containing perovskites at 85 °C under illumination. We identify the easy deprotonation of PEA + and BA + cations as the underlying chemistry for the observed instability. New ammonium cations with high pK a , a parameter characterizing the resistance to deprotonation  28  , were used to replace PEA + and BA + cations. These devices based on formamidinium caesium (FACs) perovskites not only retain the high efficiencies but also dramatically enhanced the high-temperature photostability of perovskite solar cells. &#13;</text>
-      <annotation id="23">
-        <infon key="type">control_pce</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">kvences@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-20T22:01:32Z</infon>
-        <location offset="7313" length="42"/>
-        <text>https://doi.org/10.1038/s41560-023-01362-0</text>
-      </annotation>
     </passage>
     <passage>
       <offset>13823</offset>
@@ -139,7 +96,7 @@
     <passage>
       <offset>23049</offset>
       <text> Passivation additives with high pK a Although completely removing PEA + ions from the precursor solution improves the high-temperature photostability of the devices, it also reduces the device efficiency because of the exposed unpassivated film surfaces and GBs. A passivator is still needed to enhance the device efficiency. The passivator needs to meet three criteria: (1) it should have a suitable terminal size to fit into A-site vacancy at the perovskite surfaces and GBs; (2) it should have a high pK a to resist deprotonation; (3) it should not react with FA + itself. Fortunately, we found that the reaction product of PEA 0 and FA + , that is, PEAMA + , perfectly meets these criteria. It terminates with an amidinium group with the same size as FA + , it keeps delocalized electron structure of FA + , making it difficult to deprotonate, and its lack of deprotonation prevents further reactions with FA + . We calculated the pK a of PEAMA + to be 12.0, which is higher than the PEA + benchmark. To better understand this cation, we synthesized PEAMAI by the reaction of PEA 0 with FAI, generating white powders. The single crystals of this salt can be formed by the recrystallization process, with a photograph of the crystal shown in Fig.  3d . The crystal structure obtained from single-crystal XRD confirmed the crystal is PEAMAI co-crystallized with two FAI (Supplementary Table  1 ). The bond lengths of C1-N1 and C1-N2 in PEAMAI are 1.30 Å, which is same as in FAI, indicating the resonance stabilization as we expected (Supplementary Table  2 ). The 1 H,  13  C nuclear magnetic resonance (NMR) in Supplementary Figs.  8  and 9  confirmed the chemical structure of the obtained salt. The BAMAI was synthesized by the reaction of BA 0 and FAI confirmed by the 1 H,  13  C NMR in Supplementary Figs.  10  and 11 . The BAMA + showed a similar pK a value of 12.0 with PEAMA + . In addition, the synthesized co-crystal was mixed with PbI 2 in dimethylformamide (DMF) to fabricate films by spin coating. The XRD pattern in Supplementary Fig.  12  verified that PEAMAI-FAI reacted with PbI 2 to form a low-dimensional perovskite phase with XRD peaks at 7.1° and 14.2°, and BAMAI-FAI reacted with PbI 2 to form a low-dimensional perovskite phase with XRD peaks at 7.9° and 15.7°. To evaluate if PEAMAI is capable of passivating FA 0.9 Cs 0.1 PbI 3 , we used PEAMAI as a surface treatment for FA 0.9 Cs 0.1 PbI 3 . Different from using PEAMAI as additive, using PEAMAI as a surface treatment avoids a perovskite morphology change as shown by the SEM included in Supplementary Fig.  13 . The optimized surface treatment using PEAMAI resulted in a 57% increase of steady-state photoluminescence (PL) intensity, accompanied by a small blue shift of the PL peak (Fig.  4a ). Step I: Cation deprotonation P E A + M A + D M A + E A + B A + F A + G A + Step II: Amine/FA   &#13;</text>
-      <annotation id="9">
+      <annotation id="6">
         <infon key="type">passivating_molecule</infon>
         <infon key="identifier">(phenethylamino)methaniminium iodide</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -147,35 +104,43 @@
         <location offset="24104" length="6"/>
         <text>PEAMAI</text>
       </annotation>
-      <annotation id="10">
-        <infon key="type">additive_molecule</infon>
+      <annotation id="18">
+        <infon key="type">passivating_molecule</infon>
         <infon key="identifier">(phenethylamino)methaniminium iodide</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:45:56Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:44:25Z</infon>
+        <location offset="24386" length="6"/>
+        <text>PEAMAI</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">(phenethylamino)methaniminium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:18:02Z</infon>
         <location offset="25354" length="6"/>
         <text>PEAMAI</text>
       </annotation>
-      <annotation id="11">
+      <annotation id="8">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">FA0.9Cs0.1Pb3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:47:39Z</infon>
+        <infon key="identifier">FA0.9Cs0.1PbI3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:31:27Z</infon>
         <location offset="25387" length="19"/>
         <text>FA 0.9 Cs 0.1 PbI 3</text>
       </annotation>
-      <annotation id="12">
-        <infon key="type">additive_molecule</infon>
+      <annotation id="9">
+        <infon key="type">passivating_molecule</infon>
         <infon key="identifier">(phenethylamino)methaniminium iodide</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:46:31Z</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:18:02Z</infon>
         <location offset="25417" length="6"/>
         <text>PEAMAI</text>
       </annotation>
-      <annotation id="13">
+      <annotation id="10">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">FA0.9Cs0.1Pb3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:47:46Z</infon>
+        <infon key="identifier">FA0.9Cs0.1PbI3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:31:27Z</infon>
         <location offset="25451" length="19"/>
         <text>FA 0.9 Cs 0.1 PbI 3</text>
       </annotation>
@@ -183,35 +148,19 @@
     <passage>
       <offset>25930</offset>
       <text> Article https://doi.org/10.1038/s41560-023-01362-0  Furthermore, the carrier lifetime increased from 390 ns to 496 ns (Fig.  4b ), confirming that PEAMAI passivates traps on the perovskite surface. To passivate perovskite GBs, we added 0.2 mol% PEAMAI as an additive in the perovskite precursor solution. The samples with and without PEAMAI are referred to as PEAMA + device and control device. We blade coated perovskite films with or without PEAMA + on glass substrates and checked material morphology and passivation effect. Adding PEAMAI increased the steady-state PL intensity by 56% (Fig.  4c ) and increased the carrier lifetime from 384 ns to 497 ns (Fig.  4d ), indicating a reduced density of deep traps. Direct defect density measurement by thermal admittance spectroscopy shows that the trap density of states (tDOS) in PEAMA + devices is much lower within the trap band III (Fig.  4f ). A previous study indicates that this trap band is caused by the amorphous phase in the perovskite material  43  . Therefore, it appears the PEAMAI additive does change the crystallization process and slightly changes the morphology of perovskite film. This is consistent with PEAMA + films showing better crystallinity with stronger and sharper XRD peaks (Fig.  4e ). We estimated the mobile ion concentration in these devices by applying a 1.5 V forward bias for about 30 s to perturb the ion distribution and then measuring the current induced by the back diffusion of ions at zero bias. The measurements were performed in the dark. As shown in Fig.  4g , the mobile ions in the control devices required a much longer time (~5 s) to reach the steady state compared to the mobile ions in the PEAMA + -devices (~1 s). Additionally, the mobile ion concentration in the PEAMA + devices is three times smaller than the  &#13;</text>
-      <annotation id="15">
-        <infon key="type">control_element</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:49:13Z</infon>
-        <location offset="26257" length="14"/>
-        <text>without PEAMAI</text>
-      </annotation>
-      <annotation id="14">
-        <infon key="type">treatment_element</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:49:07Z</infon>
-        <location offset="26291" length="14"/>
-        <text>PEAMA + device</text>
-      </annotation>
     </passage>
     <passage>
       <offset>27749</offset>
       <text> Device efficiency and high-temperature photostability The impact of PEAMA + on the performance of FA 0.9 Cs 0.1 PbI 3 PSCs was investigated. Figure  5a  shows typical current density (J)-voltage (V) curves of PSCs with and without PEAMA + under both forward and reverse scans. The control PSCs had a PCE of 21.2% with a J SC of 24.7 mA cm -2 , a V OC of 1.07 V and a fill factor (FF) of 80.2%. PEAMA + -PSCs had a PCE of 24.1% with a J SC of 25.8 mA cm -2 , a V OC of 1.14 V, and a FF of 82.1%. The statistical distributions of the V OC , J SC , FF and PCE are shown in Fig.  5b . The steady-state PCEs of the devices with and without PEAMA + under AM 1.5 illumination are 20.9% and 23.8%, respectively (Fig.  5c ). The external quantum efficiency (EQE) spectra of the devices are shown in Fig.  5d . PEAMA + primarily increased the EQE in the long wavelength range, consistent with a longer carrier diffusion length due to reduced non-radiative charge recombination. The calculated J SC from EQE agrees well with the measured J SC . Figure  5e  shows the PCE of unencapsulated control devices and PEAMA + devices as a function of measurement duration under 85 °C 1 sun illumination under V OC condition in N 2 . Stability data for each sample are listed in Supplementary Fig.  14a, b . The devices maintained 90% of the initial efficiency after ~800 hours in the  &#13;</text>
-      <annotation id="16">
+      <annotation id="11">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">FA0.9Cs0.1Pb3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T08:50:33Z</infon>
+        <infon key="identifier">FA0.9Cs0.1PbI3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:31:27Z</infon>
         <location offset="27848" length="19"/>
         <text>FA 0.9 Cs 0.1 PbI 3</text>
       </annotation>
-      <annotation id="17">
+      <annotation id="12">
         <infon key="type">control_pce</infon>
         <infon key="identifier">21.2</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -219,7 +168,7 @@
         <location offset="28057" length="5"/>
         <text>21.2%</text>
       </annotation>
-      <annotation id="18">
+      <annotation id="13">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">24.1</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -227,7 +176,7 @@
         <location offset="28171" length="5"/>
         <text>24.1%</text>
       </annotation>
-      <annotation id="20">
+      <annotation id="14">
         <infon key="type">temperature</infon>
         <infon key="identifier">85</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -235,7 +184,7 @@
         <location offset="28908" length="5"/>
         <text>85 °C</text>
       </annotation>
-      <annotation id="19">
+      <annotation id="15">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSLT</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -247,21 +196,53 @@
     <passage>
       <offset>29117</offset>
       <text> Article https://doi.org/10.1038/s41560-023-01362-0  absence of ammonium cations in the perovskites, while the devices with PEAMA + maintained 90% of the initial efficiency after ~1,500 hours. The J-V curves of the PSCs with PEAMA + after operational measurement for different durations were exhibited in Supplementary Fig.  14c . Furthermore, the high-temperature light stability of PEAMA + devices was also evaluated at 100 °C under 1 sun illumination. As illustrated in Supplementary Fig.  14d, e , the average T 90 of PEAMA + devices was approximately 500 h, notably surpassing that of the control devices. The improved high-temperature stability of PSCs is attributed to the increased crystallinity and passivation induced by PEAMA + in perovskite films. Supplementary Fig.  14f ,g displayed the cross-sectional SEM images and XRD patterns of PSCs before and after 1,400 hours of 1 sun illumination at 85 °C and the V OC condition. The cross-sectional SEM images of the stressed PSCs showed no voids, in striking contrast to the PEA + containing FACs-perovskite devices, which showed voids along the GBs. It demonstrates the excellent high-temperature photostability of PEAMA + with FACs-perovskites. The XRD patterns revealed that the PEAMA + devices had a relatively slower crystallinity degradation compared to PSCs with PEA + after the initial crystallization process induced by heat. &#13;</text>
-      <annotation id="21">
+      <annotation id="16">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.9</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-14T09:13:40Z</infon>
+        <infon key="identifier">90</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:41:18Z</infon>
         <location offset="29260" length="3"/>
         <text>90%</text>
       </annotation>
-      <annotation id="22">
+      <annotation id="17">
         <infon key="type">time</infon>
         <infon key="identifier">1500</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
         <infon key="updated_at">2025-01-14T09:13:54Z</infon>
         <location offset="29297" length="5"/>
         <text>1,500</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSL</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:49:28Z</infon>
+        <location offset="29465" length="32"/>
+        <text>high-temperature light stability</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">100</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:49:37Z</infon>
+        <location offset="29539" length="6"/>
+        <text>100 °C</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">90</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:49:46Z</infon>
+        <location offset="29631" length="4"/>
+        <text>T 90</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">time</infon>
+        <infon key="identifier">500</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T09:49:53Z</infon>
+        <location offset="29673" length="6"/>
+        <text>500 h,</text>
       </annotation>
     </passage>
     <passage>
@@ -392,5 +373,29 @@
       <offset>52879</offset>
       <text> 2H), 2.82-2.87 (m, 2H). 13  C NMR (101 MHz, DMSO-d 6 ) δ: 157.84, 157.65, 154.68, 138.40, 138.26, 129.39, 129.27, 128.99, 128.90, 127.06, 127.02, 47.71, 42.57, 36.12, 33.58. Single-crystal XRD structure of a trans-PEAMAI-2FAI co-crystal (150 K) is shown in Fig.3dand Supplementary Tables2 and 3. The mass-to-charge ratio (m/z) was determined using high-resolution mass spectrum (HRMS) in conjunction with the electrospray ionization (ESI) technique, and this value was compared to the calculated (calcd) m/z value. HRMS (ESI, m/z): calcd. for [C 9 H 13 N 2 ] + 149.1074 found 149.1072. H NMR (400 MHz, DMSO-d 6 ) δ: 8.54-9.64 (m, 11H), 7.82-7.93 (m, 3H), 7.22-7.35 (m, 5H), 3.47-3.59 (m,</text>
     </passage>
+    <relation id="R1">
+      <infon key="type">test_2</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T07:04:39Z</infon>
+      <node refid="22" role=""/>
+      <node refid="21" role=""/>
+      <node refid="20" role=""/>
+      <node refid="19" role=""/>
+      <node refid="6" role=""/>
+      <node refid="12" role=""/>
+      <node refid="13" role=""/>
+    </relation>
+    <relation id="R2">
+      <infon key="type">test_1</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T07:04:39Z</infon>
+      <node refid="2" role=""/>
+      <node refid="3" role=""/>
+      <node refid="4" role=""/>
+      <node refid="5" role=""/>
+      <node refid="6" role=""/>
+      <node refid="13" role=""/>
+      <node refid="12" role=""/>
+    </relation>
   </document>
 </collection>

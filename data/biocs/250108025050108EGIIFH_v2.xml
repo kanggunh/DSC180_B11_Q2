@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 139&#13;</text>
@@ -43,21 +42,21 @@
         <location offset="5354" length="5"/>
         <text>p-i-n</text>
       </annotation>
-      <annotation id="4">
+      <annotation id="3">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">1-(phenylsulfonyl)pyrrole</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
         <infon key="updated_at">2025-01-27T11:03:36Z</infon>
-        <infon key="error:misaligned:4">6681-&gt;6671</infon>
+        <infon key="error:misaligned:3">6681-&gt;6671</infon>
         <location offset="6671" length="26"/>
         <text>1-(phenylsulfonyl) pyrrole</text>
       </annotation>
-      <annotation id="5">
+      <annotation id="4">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">1-(phenylsulfonyl)pyrrole</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
         <infon key="updated_at">2025-01-27T11:03:40Z</infon>
-        <infon key="error:misaligned:5">6709-&gt;6699</infon>
+        <infon key="error:misaligned:31">6709-&gt;6699</infon>
         <location offset="6699" length="3"/>
         <text>PSP</text>
       </annotation>
@@ -77,7 +76,7 @@
     <passage>
       <offset>20391</offset>
       <text> Device performance We fabricated devices with a p-i-n stack of indium tin oxide (ITO)/ poly(triaryl)amine (PTAA)/FA 0.95 Cs 0.05 PbI 3 /C 60 /bathocuproine (BCP)/ Ag. The bandgap of this perovskite recipe was determined to be 1.51 eV by the Tauc plot method (Supplementary Figs. 21) and by using the derivative of the external quantum efficiency (EQE) of the solar cell (Extended Data Fig.  7 ). The champion device yielded a notable PCE of up to 26.09%/25.16% (reverse/forward scan direction) whereas the reference cell had PCEs of 24.62%/23.48% (Fig.  4a ). The corresponding steady-state power output efficiencies were 25.15% and 23.72%, respectively. An unencapsulated device achieved certified PCEs of 25.8% and 25.2% for the reverse scan and for the steady-state output, as certified by an independent organization (Supplementary Fig.  22 ). The fill factor of the champion device exceeded 85%, which is nearly 95% of the theoretical limit (89.5%). We attributed the remarkable fill factor improvement to the improved charge carrier extraction, which is supported by the efficiency improvement in the n-i-p configuration as well (Supplementary Fig.  23 ). The open-circuit voltage (V OC ) improved from 1.145 to 1.164 V, which is consistent with the reduced trap density. The short-circuit current density (J SC ) over 26 mA cm  -2  was consistent with the integrated J SC extracted from the incident photon-to-electron conversion efficiency (IPCE) (Fig.  4b ). The reproducibility was evaluated using a batch of devices comprising 16 individuals for each set-up (Supplementary Fig.  25 ). We further tested the solar cells in a light-emitting diode (LED) mode. The LED EQE EL improved from 7.1% to 9.7% (Fig.  4c ), so that the emission peaks were around 820 nm (Supplementary Fig.  26 ). We fabricated devices with an upscaled area of 1 cm 2 , and the efficiency improved from 21.78% to 23.64% (Fig.  4d ). This improvement was mainly associated with the enhanced fill factor. Further devices with typical efficient perovskite formulas were fabricated to assess the universality of the PSP strategy (Supplementary Figs. 27-29), although some perovskite formulas still require further evaluation. Device reliability was evaluated following the procedure specified in the ISOS protocols  32  . An unencapsulated PSP-treated device retained 92% of its initial PCE after 2,500 h of continuous tracking at the maximum power point in a nitrogen atmosphere. By contrast,   3  | Optoelectronic properties. a, Steady-state photoluminescence (PL) spectra of perovskite films with and without PSP treatment deposited onto quartz glass substrates. b, Time-resolved PL spectra of perovskite films deposited onto quartz glass substrates. The solid lines are fitted using the dual exponential fitting method. c, Constructed lattice model of FA 0.95 Cs 0.05 PbI 3 perovskite. The (100) plane of the lattice was exposed so that it could adsorb a PSP molecule for the density functional theory computation. d, Statistics for the defect formation energy for various types of defect in the reference and PSP systems. e,f, Schematics for the band alignment within the reference perovskite film (e) and the PSP perovskite film (f). The values of the conductionband minimum, valence-band maximum and Fermi level (E F ) were extracted from the depth-profile ultraviolet-photoelectron spectrum. The schematics were finally obtained by combining data from three depth regions with a manually aligned E F . HTL, hole-transport layer; ETL, electron-transport layer. V Cs V Pb V I V FA Fig. &#13;</text>
-      <annotation id="7">
+      <annotation id="5">
         <infon key="type">hole_transport_layer</infon>
         <infon key="identifier">poly(triaryl)amine</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -85,7 +84,7 @@
         <location offset="20479" length="18"/>
         <text>poly(triaryl)amine</text>
       </annotation>
-      <annotation id="8">
+      <annotation id="6">
         <infon key="type">hole_transport_layer</infon>
         <infon key="identifier">poly(triaryl)amine</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -93,7 +92,7 @@
         <location offset="20499" length="4"/>
         <text>PTAA</text>
       </annotation>
-      <annotation id="9">
+      <annotation id="7">
         <infon key="type">perovskite_composition</infon>
         <infon key="identifier">FA0.95Cs0.05PbI3</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -101,15 +100,15 @@
         <location offset="20505" length="21"/>
         <text>FA 0.95 Cs 0.05 PbI 3</text>
       </annotation>
-      <annotation id="10">
+      <annotation id="8">
         <infon key="type">electron_transport_layer</infon>
-        <infon key="identifier">buckminsterfullerene</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:06:21Z</infon>
+        <infon key="identifier">C60</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-12T09:50:49Z</infon>
         <location offset="20527" length="5"/>
         <text>/C 60</text>
       </annotation>
-      <annotation id="11">
+      <annotation id="9">
         <infon key="type">control_pce</infon>
         <infon key="identifier">23.72</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -117,7 +116,7 @@
         <location offset="21025" length="6"/>
         <text>23.72%</text>
       </annotation>
-      <annotation id="12">
+      <annotation id="10">
         <infon key="type">control_voc</infon>
         <infon key="identifier">1.145</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -125,7 +124,7 @@
         <location offset="21601" length="5"/>
         <text>1.145</text>
       </annotation>
-      <annotation id="13">
+      <annotation id="11">
         <infon key="type">treated_voc</infon>
         <infon key="identifier">1.164</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -133,7 +132,7 @@
         <location offset="21610" length="7"/>
         <text>1.164 V</text>
       </annotation>
-      <annotation id="19">
+      <annotation id="12">
         <infon key="type">treatment_element</infon>
         <infon key="identifier">1-(phenylsulfonyl)pyrrole</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -141,15 +140,15 @@
         <location offset="22710" length="3"/>
         <text>PSP</text>
       </annotation>
-      <annotation id="14">
+      <annotation id="13">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.92</infon>
+        <infon key="identifier">92</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:09:07Z</infon>
+        <infon key="updated_at">2025-02-13T03:46:54Z</infon>
         <location offset="22738" length="3"/>
         <text>92%</text>
       </annotation>
-      <annotation id="17">
+      <annotation id="14">
         <infon key="type">time</infon>
         <infon key="identifier">2500</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -161,15 +160,15 @@
     <passage>
       <offset>23963</offset>
       <text> Article the PCE of the reference device dropped to around 80% of its initial value under the same conditions (Fig.  4e ). Damp-heat experiments were conducted using encapsulated devices in an ageing box with 85 °C and 85% relative humidity. The PSP-treated device exhibited almost 90% efficiency after over 300 h on average, compared with around 80% for the initial PCE of the reference (Fig.  4f ). Regarding the temperature cycling reliability, the encapsulated PSP-treated device retained 93% of its initial PCE after 300 cycles, compared to 67% for the reference (Extended Data Fig.  8 ). Overall, these findings provide an in-depth understanding of phase segregation and suggest a promising strategy for accelerating commercialization of perovskite photovoltaics.    V OC (V) FF (%) PCE (%) J SC (mA cm -2 ) &#13;</text>
-      <annotation id="18">
+      <annotation id="15">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.8</infon>
+        <infon key="identifier">80</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:10:33Z</infon>
+        <infon key="updated_at">2025-02-13T03:46:57Z</infon>
         <location offset="24022" length="3"/>
         <text>80%</text>
       </annotation>
-      <annotation id="20">
+      <annotation id="16">
         <infon key="type">temperature</infon>
         <infon key="identifier">85</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -177,7 +176,7 @@
         <location offset="24172" length="5"/>
         <text>85 °C</text>
       </annotation>
-      <annotation id="21">
+      <annotation id="17">
         <infon key="type">humidity</infon>
         <infon key="identifier">85</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -185,15 +184,15 @@
         <location offset="24182" length="3"/>
         <text>85%</text>
       </annotation>
-      <annotation id="22">
+      <annotation id="18">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.9</infon>
+        <infon key="identifier">90</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:12:09Z</infon>
+        <infon key="updated_at">2025-02-13T03:47:09Z</infon>
         <location offset="24245" length="3"/>
         <text>90%</text>
       </annotation>
-      <annotation id="23">
+      <annotation id="19">
         <infon key="type">time</infon>
         <infon key="identifier">300</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -201,11 +200,11 @@
         <location offset="24271" length="5"/>
         <text>300 h</text>
       </annotation>
-      <annotation id="24">
+      <annotation id="20">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.8</infon>
+        <infon key="identifier">80</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:12:25Z</infon>
+        <infon key="updated_at">2025-02-13T03:46:57Z</infon>
         <location offset="24310" length="3"/>
         <text>80%</text>
       </annotation>
@@ -305,7 +304,7 @@
     <passage>
       <offset>46291</offset>
       <text> Fig. 4 | 4 Fig. 4 | Device performance and stability. a, J-V curves of champion p-i-n PSCs at laboratory scale. The active area was around 0.073 cm 2 . The inset shows the detailed photovoltaic parameters from the reverse scan and the steady-state power output. b, IPCE plots for the PSP solar cells. The solid red line is the integrated J SC . c, EQE curves measured for the reference and PSP solar cells in LED mode. The inset is a photograph showing the PSCs working in LED mode. d, J-V curves of scaled-up PSCs with and without PSP. The inset is a photograph showing the scaled-up PSCs with 1 cm 2 active area. e, Normalized evolution of the PCE for unencapsulated reference and PSP devices under continuous tracking at the maximum power point following the ISOS L-1I protocol. The initial PCEs of the reference and PSP devices were 25.40% and 23.54%, respectively. RT, room temperature. f, Results of damp-heat reliability tests of the encapsulated devices tested at 85 °C and 85% relative humidity (RH) following the ISOS D-3 protocol. A device stack based on ITO/PTAA/perovskite/C 60 /Au was used in the damp-heat tests. The solid lines represent the average PCE for six individual devices. The initial average PCEs of the reference and PSP devices were 19.2% and 21.8%. The error bars denote the standard deviation. champ., champion; FF, fill factor. &#13;</text>
-      <annotation id="15">
+      <annotation id="21">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSL1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -313,7 +312,7 @@
         <location offset="47054" length="9"/>
         <text>ISOS L-1I</text>
       </annotation>
-      <annotation id="25">
+      <annotation id="22">
         <infon key="type">control_pce</infon>
         <infon key="identifier">25.40</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -321,7 +320,7 @@
         <location offset="47129" length="6"/>
         <text>25.40%</text>
       </annotation>
-      <annotation id="26">
+      <annotation id="23">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">23.54</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -329,7 +328,7 @@
         <location offset="47140" length="6"/>
         <text>23.54%</text>
       </annotation>
-      <annotation id="16">
+      <annotation id="24">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSD3</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -337,7 +336,7 @@
         <location offset="47315" length="8"/>
         <text>ISOS D-3</text>
       </annotation>
-      <annotation id="27">
+      <annotation id="25">
         <infon key="type">control_pce</infon>
         <infon key="identifier">19.2</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -345,7 +344,7 @@
         <location offset="47553" length="4"/>
         <text>19.2</text>
       </annotation>
-      <annotation id="28">
+      <annotation id="26">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">21.8</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -409,28 +408,28 @@
     <relation id="R1">
       <infon key="type">test_1</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T11:16:28Z</infon>
-      <node refid="19" role=""/>
+      <infon key="updated_at">2025-02-17T03:49:53Z</infon>
+      <node refid="12" role=""/>
+      <node refid="13" role=""/>
       <node refid="14" role=""/>
-      <node refid="17" role=""/>
-      <node refid="18" role=""/>
       <node refid="15" role=""/>
-      <node refid="25" role=""/>
-      <node refid="26" role=""/>
+      <node refid="21" role=""/>
+      <node refid="22" role=""/>
+      <node refid="23" role=""/>
     </relation>
     <relation id="R2">
       <infon key="type">test_2</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T11:17:01Z</infon>
+      <infon key="updated_at">2025-02-17T03:49:53Z</infon>
+      <node refid="12" role=""/>
+      <node refid="16" role=""/>
+      <node refid="17" role=""/>
+      <node refid="18" role=""/>
       <node refid="19" role=""/>
       <node refid="20" role=""/>
-      <node refid="21" role=""/>
-      <node refid="22" role=""/>
-      <node refid="23" role=""/>
       <node refid="24" role=""/>
-      <node refid="16" role=""/>
-      <node refid="27" role=""/>
-      <node refid="28" role=""/>
+      <node refid="25" role=""/>
+      <node refid="26" role=""/>
     </relation>
   </document>
 </collection>

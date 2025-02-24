@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 143&#13;</text>
@@ -29,13 +28,21 @@
         <location offset="187" length="5"/>
         <text>CuSCN</text>
       </annotation>
-      <annotation id="2">
-        <infon key="type">hole_transport_layer</infon>
-        <infon key="identifier">Spiro-OMeTAD</infon>
+      <annotation id="10">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">phenylethylammonium lead iodide</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:50:58Z</infon>
-        <location offset="768" length="12"/>
-        <text>spiro-OMeTAD</text>
+        <infon key="updated_at">2025-02-15T07:02:27Z</infon>
+        <location offset="370" length="13"/>
+        <text>(PEA) 2 PbI 4</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">fluorophenylethylammonium lead iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-15T07:02:52Z</infon>
+        <location offset="387" length="14"/>
+        <text>(FPEA) 2 PbI 4</text>
       </annotation>
     </passage>
     <passage>
@@ -49,29 +56,13 @@
     <passage>
       <offset>5996</offset>
       <text> RESULTS AND DISCUSSION Panels a and b of Figure  1  show the schematic device architecture and the corresponding energy level diagram of PSCs investigated in this study. The devices are based on a mesoporous TiO 2 scaffold and triple cation perovskite with a composition of (FAPbI 3 ) 0.77 (MAPbBr 3 ) 0.14 (CsPbI 3 ) 0.09 used as absorber material. The perovskite layer is deposited using a one-step spin coating with antisolvent quenching, as reported previously.  11  In this work, we study the efficiency and stability of PSCs when using a thin buffer layer of 2D perovskite at the perovskite/HTM interface, as well as CuSCN as an inorganic hole transport layer. The 2D perovskites were deposited by spin coating PEAI and FPEAI dissolved in isopropanol (15 mg/mL) on top of the perovskite capping layer as described in the Experimental Section. A thin layer of the 2D perovskites (PEA) 2 PbI 4 and (FPEA) 2 PbI 4 respectively is thereby formed on the triple cation perovskite via ion exchange and/or reaction of excess PbI 2 . Figure  1c  shows the cross-sectional SEM micrograph of a device with a thin interlayer of (PEA) 2 PbI 4 . It is evident from the figure that the 2D layer is creating an additional interface between the HTM and the perovskite layer. Devices passivated with FPEA or using CuSCN as an HTM revealed very similar interlayer structures, and their SEM pictures are shown in the Supporting Information (SI; Figure  S1 ). From the SEM images, the thickness of the 2D perovskite is estimated to be less than 50 nm. The CuSCN HTM layer was applied onto the perovskite by spin coating its solution (30 mg/mL) in diethylsulfide. Top-view SEM images of pristine and 2D treated perovskite layers are shown in Figure  2a ,b, respectively. The pristine perovskite reveals the formation of the uniform crystal grains, while for the 2D perovskite treated layers a clear change of the surface morphology can be observed. The 2D perovskite has a platelike morphology and fully covers the underlying 3D absorber layer. The presence of the 2D perovskite could be additionally confirmed by XRD diffraction of thin films (Figure  2c ). PEAI and FPEAI treated samples clearly show the diffraction peaks at low angles corresponding to the respective 2D perovskites as observed for the pure 2D reference sample. Exclusively reflections corresponding to the (00l) crystallographic plane could be observed, suggesting a strong preferred orientation growth of the 2D perovskite, commonly observed in layered structures. Surprisingly we noticed the appearance of an additional set of diffraction peaks (*) corresponding to an enlarged unit cell. We assign these peaks to unreacted PEAI during the isopropanol treatment along with (PEA) 2 PbI 4  4  . The diffraction peaks of the 3D Cs triple cation perovskite, however, remain unchanged before and after the treatment. This strongly suggests that the bulk of the 3D perovskite has not been affected in the multilayer deposition process. Also, the excess lead present in the pristine sample (PbI 2 peak at 12.8°) is no longer present after the treatment, suggesting that it has been reacted with the PEAI and FPEAI respectively to form the 2D perovskites. To further analyze the 3D/2D perovskite interface, we performed photoluminescence (PL) experiments. For this  &#13;</text>
-      <annotation id="3">
+      <annotation id="2">
         <infon key="type">perovskite_composition</infon>
         <infon key="identifier">(FAPbI3)0.77(MAPbBr3)0.14(CsPbI3)0.09</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
         <infon key="updated_at">2025-01-27T11:51:36Z</infon>
         <location offset="6271" length="48"/>
         <text>(FAPbI 3 ) 0.77 (MAPbBr 3 ) 0.14 (CsPbI 3 ) 0.09</text>
-      </annotation>
-      <annotation id="4">
-        <infon key="type">passivating_molecule</infon>
-        <infon key="identifier">phenylethylammonium iodide</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:52:05Z</infon>
-        <location offset="6714" length="4"/>
-        <text>PEAI</text>
-      </annotation>
-      <annotation id="5">
-        <infon key="type">passivating_molecule</infon>
-        <infon key="identifier">fluorophenylethylammonium iodide</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:52:43Z</infon>
-        <location offset="6723" length="5"/>
-        <text>FPEAI</text>
       </annotation>
     </passage>
     <passage>
@@ -141,39 +132,31 @@
     <passage>
       <offset>32261</offset>
       <text> Table 1 . 1 Summary of Power Conversion Efficiencies of Different 3D and 3D/2D Cations-Based Champion Perovskite Solar Cells CuSCN 3D 18.09 (15.83) 1130 (1059) 21.26 (20.95) 75.3 (70.1) 3D/PEA 18.01 (14.79) 1102 (1064) 21.60 (20.34) 75.6 (68.2) 3D/FPEA 18.03 (16.41) 1085 (1083) 21.91 (20.72) 75.9 (72.5) spiro-OMeTAD 3D 18.77 (17.58) 1088 (1090) 22.37 (21.91) 77.1 (73.6) 3D/PEA 19.30 (16.81) 1151(1135) 22.30 (21.48) 75.2 (68.9) 3D/FPEA 17.66 (17.28) 1099 (1090) 22.39 (22.31) 71.8 (70.1) a device PCE (%) V OC (mV) J SC (mA cm -2 ) FF (%) a Average values are indicated in parentheses. Both CuSCN-and spiro-OMETAD-based devices are fabricated for comparison. &#13;</text>
-      <annotation id="6">
-        <infon key="type">treatment_element</infon>
+      <annotation id="3">
+        <infon key="type">hole_transport_layer</infon>
         <infon key="identifier">copper(I) thiocyanate</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:54:09Z</infon>
+        <infon key="updated_at">2025-02-15T06:43:30Z</infon>
         <location offset="32387" length="5"/>
         <text>CuSCN</text>
       </annotation>
-      <annotation id="10">
-        <infon key="type">treated_pce</infon>
+      <annotation id="4">
+        <infon key="type">control_pce</infon>
         <infon key="identifier">18.09</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:57:19Z</infon>
+        <infon key="updated_at">2025-02-15T07:10:48Z</infon>
         <location offset="32396" length="5"/>
         <text>18.09</text>
       </annotation>
-      <annotation id="11">
-        <infon key="type">treated_voc</infon>
+      <annotation id="5">
+        <infon key="type">control_voc</infon>
         <infon key="identifier">1.130</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:57:23Z</infon>
+        <infon key="updated_at">2025-02-15T07:10:51Z</infon>
         <location offset="32410" length="4"/>
         <text>1130</text>
       </annotation>
-      <annotation id="9">
-        <infon key="type">passivating_molecule</infon>
-        <infon key="identifier">phenylethylammonium iodide</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:56:01Z</infon>
-        <location offset="32451" length="3"/>
-        <text>PEA</text>
-      </annotation>
-      <annotation id="14">
+      <annotation id="6">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">18.01</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -181,7 +164,7 @@
         <location offset="32455" length="5"/>
         <text>18.01</text>
       </annotation>
-      <annotation id="15">
+      <annotation id="7">
         <infon key="type">treated_voc</infon>
         <infon key="identifier">1.102</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -190,14 +173,6 @@
         <text>1102 (</text>
       </annotation>
       <annotation id="8">
-        <infon key="type">passivating_molecule</infon>
-        <infon key="identifier">fluorophenylethylammonium iodide</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:55:53Z</infon>
-        <location offset="32510" length="4"/>
-        <text>FPEA</text>
-      </annotation>
-      <annotation id="18">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">18.03</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -205,7 +180,7 @@
         <location offset="32515" length="5"/>
         <text>18.03</text>
       </annotation>
-      <annotation id="19">
+      <annotation id="9">
         <infon key="type">treated_voc</infon>
         <infon key="identifier">1.085</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -213,97 +188,6 @@
         <location offset="32529" length="4"/>
         <text>1085</text>
       </annotation>
-      <annotation id="7">
-        <infon key="type">control_element</infon>
-        <infon key="identifier">Spiro-OMeTAD</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:54:15Z</infon>
-        <location offset="32567" length="12"/>
-        <text>spiro-OMeTAD</text>
-      </annotation>
-      <annotation id="12">
-        <infon key="type">control_pce</infon>
-        <infon key="identifier">18.77</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:57:48Z</infon>
-        <location offset="32583" length="5"/>
-        <text>18.77</text>
-      </annotation>
-      <annotation id="13">
-        <infon key="type">control_voc</infon>
-        <infon key="identifier">1.088</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:57:56Z</infon>
-        <location offset="32597" length="4"/>
-        <text>1088</text>
-      </annotation>
-      <annotation id="16">
-        <infon key="type">control_pce</infon>
-        <infon key="identifier">19.30</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:58:55Z</infon>
-        <location offset="32642" length="5"/>
-        <text>19.30</text>
-      </annotation>
-      <annotation id="17">
-        <infon key="type">control_voc</infon>
-        <infon key="identifier">1.151</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:59:02Z</infon>
-        <location offset="32656" length="4"/>
-        <text>1151</text>
-      </annotation>
-      <annotation id="20">
-        <infon key="type">control_pce</infon>
-        <infon key="identifier">17.66</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T12:00:17Z</infon>
-        <location offset="32701" length="5"/>
-        <text>17.66</text>
-      </annotation>
-      <annotation id="21">
-        <infon key="type">control_voc</infon>
-        <infon key="identifier">1.099</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T12:00:24Z</infon>
-        <location offset="32715" length="4"/>
-        <text>1099</text>
-      </annotation>
-      <relation id="R1">
-        <infon key="type">performance_1</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:58:10Z</infon>
-        <node refid="6" role=""/>
-        <node refid="7" role=""/>
-        <node refid="10" role=""/>
-        <node refid="11" role=""/>
-        <node refid="13" role=""/>
-        <node refid="12" role=""/>
-      </relation>
-      <relation id="R2">
-        <infon key="type">performance_2</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T11:59:27Z</infon>
-        <node refid="6" role=""/>
-        <node refid="9" role=""/>
-        <node refid="7" role=""/>
-        <node refid="14" role=""/>
-        <node refid="15" role=""/>
-        <node refid="16" role=""/>
-        <node refid="17" role=""/>
-      </relation>
-      <relation id="R3">
-        <infon key="type">performance_3</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T12:00:32Z</infon>
-        <node refid="6" role=""/>
-        <node refid="7" role=""/>
-        <node refid="8" role=""/>
-        <node refid="18" role=""/>
-        <node refid="19" role=""/>
-        <node refid="20" role=""/>
-        <node refid="21" role=""/>
-      </relation>
     </passage>
     <passage>
       <offset>32925</offset>
@@ -313,5 +197,25 @@
       <offset>33116</offset>
       <text>			 ACS Appl. Energy Mater. 2020, 3, 114-121</text>
     </passage>
+    <relation id="R1">
+      <infon key="type">test_1</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T07:04:30Z</infon>
+      <node refid="10" role=""/>
+      <node refid="4" role=""/>
+      <node refid="5" role=""/>
+      <node refid="6" role=""/>
+      <node refid="7" role=""/>
+    </relation>
+    <relation id="R2">
+      <infon key="type">test_2</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T07:04:30Z</infon>
+      <node refid="11" role=""/>
+      <node refid="4" role=""/>
+      <node refid="5" role=""/>
+      <node refid="8" role=""/>
+      <node refid="9" role=""/>
+    </relation>
   </document>
 </collection>

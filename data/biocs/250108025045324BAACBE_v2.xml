@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 116&#13;</text>
@@ -25,11 +24,11 @@
     <passage>
       <offset>4979</offset>
       <text> Synthesis of Spiro-mF: To a two-necked round-bottomed flask, 2,2',7,7'-tetrabromo-9,9'spirobifluorene (500 mg, 0.79 mmol), DPA-mF (840.7 mg, 3.40 mmol), tri-tertbutylphosphonium tetrafluoroborate (13.8 mg, 0.047 mmol), and sodium tert-butoxide (456.5 mg, 4.75 mmol) were dissolved in anhydrous toluene (40 mL) and purged with argon for 15 min. Then, 28.9 mg of tris(dibenzylideneacetone)dipalladium(0) (0.032 mmol) were added to reaction mixture, then purged again with argon for 20 min. After that, the reaction mixture was stirred at 120 °C overnight. Water was added to quench the reaction, then the mixture was extracted with ethyl acetate. Combined organic layer was dried with anhydrous MgSO4 and solvent was removed under reduced pressure. The crude products were purified by a silica gel column chromatography using hexane/ethyl acetate (2:1, v/v) as an eluent to obtain the Spiro-mF as a solid. Resulting solid was dissolved in THF and mixed with hydrazine hydrate. After vigorous stirring, the solution was precipitated into methanol (200 mL), filtered and washed with methanol. Dried under high vacuum oven to afford a desired product Spiro-mF as a light yellow solid (550 mg, 53.7% yield). Fabrication of perovskite solar cells: FTO glass (Asahi) was cleaned using the RCA-2 (H2O2/HCl/H2O = 1:1:5) procedure for 15 min in ultrasonic system to make clean surface. Then the FTO was further cleaned sequentially with acetone and isopropyl alcohol (IPA) for 15 min. The compact TiO2 (c-TiO2) layer was deposited on FTO substrates with spray pyrolysis at 450 °C. 70 mL of a titanium diisopropoxide bis(acetylacetonate)/ethanol (1:10 v/v) solution were deposited by spraying. After completing c-TiO2 layer, the substrates were stored at 450 °C for 1 h to improve the electrical properties. After then, a mesoporous TiO2 (mp-TiO2) layer was deposited by spin-coating. The TiO2 paste, approximately 50 nm size of TiO2 (ShareChem), was spin-coated at the c-TiO2 layer. The paste was diluted with 1:6 (g/g) with 2methoxyethanol/terpineol (78:22 w/w). The prepared substrates were one more heated at 500 °C for 1 h to remove pastes. For Li treatment of mp-TiO2 substrate, 0.1 M of lithium bis(trifluoromethanesulfonyl)imide (Li-TFSI) solution with acetonitrile was spin-coated at 3000 rpm for 30 s. Thereafter, Li-treated substrates were subjected to second sintering step at 500 °C for 1 h. To make perovskite solar cells, 1,550 mg mL -1 FAPbI3 and 61 mg MACl were dissolved in a mixture of DMF and DMSO in a 4:1 ratio by volume. For each sample, 70 µL of the filtered solution were spread on mp-TiO2 layer at 8000 rpm. During spin-coating, 1 mL diethyl ether was dropped after spinning for 10 s using a home-made pipette. The film was annealed on a hot plate at 150 °C for 10 min. After cooling the substrate, the 20 mM of noctylammonium iodide was spin-coated on the perovskite layer with 3000 rpm and the film was heated at 100 °C for 1 min. The hole transfer materials were deposited by preparing Spiro-OMeTAD (Lumtech) in chlorobenzene (90.9 mg mL -1 ) and mixing with 39 µL 4-tertbutylpyridine (tBP), 23 µL Li-TFSI (516 mg mL -1 acetonitrile), and 10 µL tris[2-(1H-pyrazol-1-yl)-4-tert-butylpyridine]-cobalt(III)-tris[bis-(trifluoromethylsulfonyl)imide] (FK209, Lumtech) (395 mg mL -1 acetonitrile). In case of Spiro-mF and Spiro-oF (90.9 mg mL -1 ), 15~32 µL of Li-TFSI, 39 µL of tBP, and 10 µL of FK209 were added. To dissolve the Spiro-oF, after adding tBP, Spiro-oF solution was heated at 70 °C for 30 min and after cooling, Li-TFSI and FK209 were added. Finally, a gold counter electrode was deposited on the substrate using a thermal evaporation system. The back and front contacts were formed from 70 nm thick Au films deposited by vapor deposition at a pressure of 10 -6 Torr. Simulation details: DFT calculation was performed to find optimal molecular structures of HTMs. Each Spiro-OMeTAD, Spiro-mF, and Spiro-oF was used, respectively, and averaged frontier orbital energies (i.e., HOMO and LUMO) were calculated from five independent structures for each HTM. Generalized gradient approximation (GGA) with Perdew-Burke-Ernzerhof (PBE) functional  (49)  was used. Semi-empirical dispersion-correction by Tkatchenko and Scheffler's scheme  (50)  and spin-polarized calculations with the DNP 4.4 basis set were included for this calculation. The convergence criteria for the geometry optimization were 1.0 × 10 -5 Ha for energy, 0.002 Ha/Å for force, and 0.005 Å for displacement, respectively. MD simulation was performed for observing the adsorption of HTMs on perovskite surface. We used (0 0 1) plane for FAPbI3 surface model for the perovskite, which was following A. Torres. et al.'s work  (51) . On the surface, noctylammonium iodide was randomly distributed in the pore of FAPbI3 structure. Universal force field and Mulliken charge  (52) , which was obtained from the DFT optimization, was used for perovskite and HTMs. Surface model had box size of 45.7 × 44.9 × 150 Å 3 and the thickness of surface was 20 Å. Bulk HTMs, including 24 molecules, respectively, were randomly adsorbed on the perovskite surface during the simulation. NVT (i.e., isothermal) simulation was performed for 500 ps at 400 K and for 4 ns at 300 K, respectively. The time step was 1 fs and the Berendsen thermostat was applied to control the temperature. RDF, angle distribution, relative concentration, and Rcte were analyzed with the trajectories of final 500 ps. &#13;</text>
-      <annotation id="24">
-        <infon key="type">passivating_molecule</infon>
+      <annotation id="1">
+        <infon key="type">electron_transport_layer</infon>
         <infon key="identifier">Titanium dioxide</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T00:06:46Z</infon>
+        <infon key="updated_at">2025-02-18T09:07:12Z</infon>
         <location offset="6466" length="4"/>
         <text>TiO2</text>
       </annotation>
@@ -49,7 +48,7 @@
     <passage>
       <offset>14471</offset>
       <text> T o achieve better and cheaper alternative energy, perovskite solar cells (PSCs) have been the front runner among emerging next-generation solar cells. Power conversion efficiency (PCE) exceeding 25% (1) has been achieved in laboratory-scale PSCs by improving the perovskite material formulations (2-5), the device fabrication routines (6-9), and the high-quality film-formation methodologies  (10) (11) (12)  on the basis of a comprehensive understanding of the charge dynamics at the interfacial layers. Most high-performance PSCs have a sandwich structure composed of a perovskite absorber between a metal oxidebased electron-transporting material (ETM) and an organic hole-transporting material (HTM)  (3, 7, 13, 14) . Because high-quality perovskite and ETMs can be obtained from various processing methodologies, HTMs are considered to be fundamentally important in further improving PSC performance. Despite efforts to develop better HTMs to replace Spiro-OMeTAD [2,2′,7,7′-tetrakis(N,N-di-p-methoxyphenylamine)-9,9′-spirobifluorene] (15-17), this compound, which was developed by Grätzel et al. for solidstate dye-sensitized solar cells more than two decades ago  (18) , is still recognized as the most efficient HTM in PSCs owing to its amorphous nature, high compatibility with dopants, and energy levels matching those of perovskite. However, it must be chemically doped with hygroscopic dopants to attain efficient hole extraction and sufficient conductivity. Such doping negatively influences the stability of ambient PSCs, thus presenting a major obstacle to truly commercializing PSCs despite PCE being sufficient for practical applications  (19) (20) (21) . Therefore, the PSC community is actively investigating candidate HTMs to replace Spiro-OMeTAD and ultimately achieve stable PSCs simultaneously exhibiting the same or improved performance. Notably, the latest research on cesium cation (Cs + )-  (22, 23) , carbon electrode-  (24) (25) (26) , and dopantfree-based PSCs  (27, 28)  can bring the benefits in improving the device stability but lower PCE levels when compared with that of the Spiro-OMeTAD-based PSC. Considering the multiple possible aspects of fluorination of the conjugated materials (e.g., lowering energy levels and enhancing molecular packing and hydrophobicity through the induced dipole along the C-F bond), we developed two fluorinated isomeric analogs (Spiro-mF and Spiro-oF) of Spiro-OMeTAD as HTMs for PSC fabrication and compared their device performance with that of the optimized Spiro-OMeTAD-based PSC. Not only do we report a PCE of 24.82% (certified PCE of 24.64% with 0.3-V loss) achieved from the device fabricated with Spiro-mF, but we also show the long-term stability of fluorinated HTM-based devices without encapsulation on exposure to high relative humidity (RH) (87% PCE retention after 500 hours). Furthermore, the Spiro-mF-based PSC, with an area of 1 cm 2 , represents an efficiency of 22.31%. Figure  1A  presents the chemical structures of the parent Spiro-OMeTAD and its fluorinated analogs (Spiro-mF and Spiro-oF). The two fluorinated isomeric HTMs were synthesized through two Buchwald-Hartwig C-N cross-coupling reactions; detailed synthesis and molecular characterization are described in figs. S1 to S7 and materials and methods. Differential scanning calorimetry analysis revealed that the synthesized HTMs exist in both amorphous and crystalline states, as evidenced by the observation of glass-transition and melting temperatures (fig.  S8 ). The ultravioletvisible absorption (UV-Vis) spectra in Fig.  1B  show that, in addition to the absorption band from 300 to 450 nm, the three HTMs feature a slight redshift as the solution transitions to the solid state, which is commonly observed in many organic semiconductors  (29) (30) (31) . Relative to the Spiro-OMeTAD, both new fluorinated isomeric HTMs, especially Spiro-oF, display obvious blue-shifted absorption maxima and onsets, thus leading to the net widening of their optical bandgaps (E g opt ), which is attributed to the fluorine atoms generating an inductive electron-withdrawing effect on the aromatic rings of the conjugated backbone  (32) (33) (34) . Cyclic voltammetry (CV) was performed on the HTMs to determine the highest occupied molecular orbital (HOMO) energy levels (fig.  S9 ); the lowest unoccupied molecular orbital (LUMO) energy levels were derived from the HOMOs and E g opt . The CV and E g opt -derived HOMO and LUMO energies are -4.97 and -2.03, -5.19 and -2.23, and -5.06 and -2.04 eV for Spiro-OMeTAD, Spiro-mF, and Spiro-oF, respectively, thus demonstrating that fluorination can simultaneously lower the HOMO and LUMO levels (Fig.  1C  and table  S1 ). These results agree well with the trend estimated from density functional theory (DFT) calculations by using the generalized gradient approximation with Perdew-Burke-Ernzerhof functional (figs. S10 and S11). The same trend is observed for the HOMOs of the doped HTMs (fig.  S12 ). Therefore, in addition to reasonably estimating the enhanced oxidation stability of both fluorinated HTMs, more efficient interfacial hole-transport kinetics are observed compared with that of Spiro-OMeTAD. Moreover, the UV-Vis spectra and CV data indicate a strong fluorine positioning effect, the constitutional isomeric effect, on the optical and electrochemical properties. We also observe clear differences in the DFT-calculated structural conformations and electron distributions of Spiro-mF and Spiro-oF (Fig.  1D ). After deciphering their intrinsic properties, we used Spiro-mF and Spiro-oF as HTMs in PSCs fabricated with the conventional n-i-p configuration, specifically fluorine-doped tinoxide substrate/compact TiO 2 /mesoporous TiO 2 / perovskite layer/HTM/Au (fig.  S13 ); FAPbI 3 was selected as the perovskite layer because of its narrow bandgap (1.48 eV), thus making it suitable for the absorption of near-infrared light and promoting thermal stability  (35, 36) . For a comparative study, we also prepared a control device under the same conditions, using Spiro-OMeTAD as the HTM. The HTM chlorobenzene solution containing 4-tert-butylpyridine, lithium bis(trifluoromethanesulfonyl)imide, and tris[2-(1H-pyrazol-1-yl)-4-tert-butylpyridine]cobalt(III)-tris[bis-(trifluoromethylsulfonyl)imide] as dopant additives was deposited by spincoating on the FAPbI 3 layer. X-ray diffraction (XRD) patterns of the neat FAPbI 3 (fig.  S14 ) show strong diffraction peaks at 14.1°and 28.2°, corresponding to the (001) and (002) crystal planes, respectively, and confirming a dense and ordered perovskite crystal structure. Similar results were observed after the films were spin-coated with the doped HTM solutions, indicating that the HTM processing did not damage the perovskite crystal quality. The optimized thicknesses of the FAPbI 3 and HTM layers were ~750 and ~270 nm, respectively. Because PSC performance is sensitive to the dopant type and doping conditions, independent device optimization was also undertaken by carefully screening the ratios and amount of dopant additives. Details about the device fabrication and all device data examined herein are included in the supplementary materials. Figure  2  shows the current density-voltage (J-V) curves of the best PSCs for each given HTM under AM 1.5 G simulated solar illumination at 100 mW cm -2 ; the corresponding photovoltaic parameters are summarized in table  S2 . A tiny hysteresis was observed in the J-V scans between reverse and forward scans in all cases. First, under optimized conditions, the control device fabricated with Spiro-OMeTAD achieved a maximum PCE of 23.44% for an area of 0.0819 cm 2 with a short-circuit current density (J SC ) of 26.04 mA cm -2 , an open-circuit voltage (V OC ) of 1.152 V, and a fill factor (FF) of 78.13%; this value is fairly comparable to the previously reported highest PCE of the PSCs in single-junction devices  (37) (38) (39) . Compared with the control device fabricated with doped Spiro-OMeTAD, both fluorinated HTM-based PSCs exhibited nearly identical (J SC ) values of 26.34 to 26.35 mA cm -2 and slightly superior V OC values over 1.16 V, thus reflecting the lower-lying HOMO levels observed in the CV data. The Spiro-mF-based device produced a somewhat higher FF (80.90%) than that of the other devices, ultimately resulting in the best PCE of 24.82%. The slightly lower performance in the forward scan is mainly due to the low FF. The small standard deviation of the PCEs among the tested devices points toward excellent reproducibility (Fig.  2D ). PSC performance is highly sensitive to environmental conditions. Thus, to provide accuracy and reproducibility of the device performance metrics reported in Fig.  2D  and table  S2 , we fabricated each device under the same conditions: at 25°C and below 30% RH, with exclusion of strong light and oxygen. One of the best Spiro-mF-based devices was sent to an independent solar cell-accredited laboratory (Newport, Irvine, CA, USA) for certification, where a stabilized PCE of 24.64% (with V OC = 1.1814 V, J SC = 26.1783 mA cm -2 , and FF = 79.6%) was confirmed (fig.  S16 ). On the basis of the bandgap of FAPbI 3 (1.48 eV), the obtained V OC value quantifies the V OC loss as 0.3 V, thus being close to the theoretical minimum value based on the radiative limit defined by the Shockley-Queisser theory  (40, 41) . Because the radiative limit is the near-maximum theoretical PCE of the solar cell, these results suggest that the nonradiative recombination of the device is largely suppressed in the Spiro-mF-based PSC, which is directly evidenced by external electroluminescence quantum efficiency (EL-EQE) measurement (fig.  S17 )  (42) . The reported 0.3-V V OC loss is, to the best of our knowledge, the lowest reported value to date for PSCs in any type of device. To demonstrate practical applicability and scalability of the Spiro-mF-based device, we also prepared a large-area cell with an area of 1 cm 2 , yielding the highest PCE of 22.31% with corresponding V OC , J SC , and FF of 1.178 V, 25.51 mA cm -2 , and 74.22%, as shown in Fig.  2E . By using space charge-limited current (SCLC) measurements, the hole mobility (m) of the pristine HTMs is in order of Spiro-OMeTAD (6.5904 × 10 -3 cm 2 V -1 s -1 ) &lt; Spiro-oF (7.2902 × 10 -3 cm 2 V -1 s -1 ) &lt; Spiro-mF (7.4748 × 10 -3 cm 2 V -1 s -1 ) (fig.  S18 ). The higher m in Spiro-mF can be explained by denser solid-state packing through noncovalent inter-and intra-interactions induced by F atoms  (43, 44) , corresponding to the slightly enhanced J SC and FF values of the Spiro-mF-based PSC. By contrast, in Spiro-oF, the outward appended F atoms of the central HTM unit may act as a steric hindrance such that intermolecular interaction is dampened, hence making it more difficult for the charge to hop between molecules (the more bent structure of Spiro-oF core relative to that of Spiro-mF is shown in the DFT study results). We also evaluated the charge dynamics occurring at the perovskite-HTM interface using steady-state photoluminescence (PL) and time-resolved PL (TRPL) decay measurements. Figure  S19A  shows that upon depositing HTM on the perovskite film, the intensity of the steadystate PL spectrum was largely reduced, and the quenching efficacy followed Spiro-mF &gt; Spiro-oF &gt; Spiro-OMeTAD, which is consistent with the hole mobility trend. Figure  S19B  shows the TRPL spectra of the devices based on the each HTM as recorded with the peak emission at 800 nm. The TRPL decay data were modeled by a bi-exponential formula [Y = A 1 exp(-t/t 1 ) + A 2 exp(-t/t 2 )] (45-47), as listed in table  S6 , where fast (t 1 ) and slow (t 2 ) decay components are related to nonradiative and radiative recombination, respectively. The fitted decay lifetimes (t 1 , t 2 ) are (  1438  enhanced mobility and conductivity (the electrical conductivity data in fig.  S20 ), the presented data demonstrate that the best parameters occur in the Spiro-mF-based device. To directly ascertain the degradation processes occurring in perovskite films, we conducted long-term stability tests on the three devices without encapsulation under ~50% RH. The PCE of Spiro-OMeTAD-based control device dropped from 23.21 to 13.74%, corresponding to ~60% of its initial PCE after 500 hours; however, the PCE of both fluorinated HTM-based devices was quite stable, resulting in very high PCE retention (&gt;87%) over the same measurement period. The PCE trends are presented in Fig.  3 , and detailed photovoltaic parameters are found in tables S7 to S9. XRD patterns were tracked at regular intervals to estimate the morphological degradation of the device layers (Fig.  3C ). The Spiro-OMeTAD-based device exhibited a clear deterioration of the typical perovskite XRD peaks after 500 hours, whereas no apparent impurity peaks were ob-served in the XRD patterns of devices fabricated with fluorinated HTMs. Moreover, after 3 weeks of storage, no deterioration was observed. From the electrochemical impedance spectroscopy (EIS) analysis with varying times (fig.  S21 ), relative to Spiro-OMeTAD-based device, the fluorinated HTM-based devices, especially for Spiro-mF, one discloses smaller EIS resistance values, providing additional proof of their better morphological robustness and charge-transfer behavior. Contact-angle measurements were conducted to determine the surface water resistance of the neat and doped HTM layers on perovskite. As shown in Fig.  3D  and table S10, the water droplet contact angle on fluorinated HTM films is larger than that on Spiro-OMeTAD film, indicating reduced hygroscopicity of the fluorine-doped Spiro-mF and Spiro-oF HTMs. The presence of fluorine atoms induces the creation of kinetic barriers that slow the intrusion of O 2 and H 2 O. The increased hydrophobicity generated by using fluorinated Spiro-type HTMs is a key factor contributing to the enhanced stability of PSC devices. We also conducted in-depth atomistic simulations of the DFT-optimized molecular structures of the three HTMs. When examining the free molecular structures, Spiro-mF exhibited a more unfolded structure regarding the angle between the centers of spirobifluorene and two fluorinated methoxyphenyl groups when compared with that of other HTMs (Fig.  4A ). We also noticed that the fluorine atoms at the ortho-sites caused steric hindrance regarding the free movement of the methoxyphenyl groups. The adsorption state of each HTM on the perovskite surface was investigated by molecular dynamics (MD) simulations (see the "simulation details" section in the materials and methods, as well as Fig.  4B ). Spiro-mF and Spiro-oF adsorbed closer to the perovskite surface than Spiro-OMeTAD, as determined by observing the radial distribution function (RDF) of all phenyl groups on the perovskite surface (fig.  S22 ). In particular, the fluorene units of Spiro-mF were found more on the perovskite surface than that of Spiro-oF (Fig.  4C ), implying that the adsorbed structure of Spiro-mF and Spiro-oF could be different. We noticed that Spiro-mF featured a specific RDF peak from the perovskite surface due to the stretched structure of fluorene and phenyl groups on the surface; each peak represents the adsorbed components of Spiro-mF (phenyl and fluorene groups) (fig.  S23 ). On the basis of the configurations sampled from the MD simulations, fluorene and phenyl groups of Spiro-mF adsorbed together on the perovskite surface, whereas those of Spiro-oF often did not adsorb on the perovskite surface together (Fig.  4D ). The unfolded structure of Spiro-mF on perovskite is also described by the centerto-end distance (R cte ) of the molecule, where the R cte of Spiro-mF and Spiro-oF was ~6. transport  (17) . Along with the detailed atomistic simulations, a comparative investigation of Spiro-OMeTAD versus its fluorinated analogs demonstrates that the fluorination of HTMs with controlled isomerism is a promising strategy to simultaneously achieve high performance and excellent device stability, thus advancing the realization of commercial PSCs. Fig. S1. Synthetic procedures of Spiro-mF and Spiro-oF. &#13;</text>
-      <annotation id="15">
+      <annotation id="2">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">24.82</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -57,7 +56,7 @@
         <location offset="17057" length="5"/>
         <text>24.82</text>
       </annotation>
-      <annotation id="1">
+      <annotation id="3">
         <infon key="type">hole_transport_layer</infon>
         <infon key="identifier">Spiro[OMeTAD-3-fluorophenyl]</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -65,15 +64,15 @@
         <location offset="17147" length="8"/>
         <text>Spiro-mF</text>
       </annotation>
-      <annotation id="2">
+      <annotation id="4">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.87</infon>
+        <infon key="identifier">87</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-22T22:07:44Z</infon>
+        <infon key="updated_at">2025-02-13T03:47:46Z</infon>
         <location offset="17297" length="3"/>
         <text>87%</text>
       </annotation>
-      <annotation id="3">
+      <annotation id="5">
         <infon key="type">time</infon>
         <infon key="identifier">500</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -81,7 +80,7 @@
         <location offset="17321" length="3"/>
         <text>500</text>
       </annotation>
-      <annotation id="8">
+      <annotation id="6">
         <infon key="type">treatment_element</infon>
         <infon key="identifier">Spiro[OMeTAD-3-fluorophenyl]</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -89,7 +88,7 @@
         <location offset="17350" length="8"/>
         <text>Spiro-mF</text>
       </annotation>
-      <annotation id="4">
+      <annotation id="7">
         <infon key="type">structure_pin_nip</infon>
         <infon key="identifier">NIP</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -97,7 +96,7 @@
         <location offset="20116" length="5"/>
         <text>n-i-p</text>
       </annotation>
-      <annotation id="5">
+      <annotation id="8">
         <infon key="type">structure_pin_nip</infon>
         <infon key="identifier">NIP</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -105,15 +104,15 @@
         <location offset="20150" length="91"/>
         <text>fluorine-doped tinoxide substrate/compact TiO 2 /mesoporous TiO 2 / perovskite layer/HTM/Au</text>
       </annotation>
-      <annotation id="6">
+      <annotation id="9">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">formamidinium lead iodide</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-22T22:17:20Z</infon>
+        <infon key="identifier">FAPbI 3</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-11T19:11:14Z</infon>
         <location offset="20256" length="7"/>
         <text>FAPbI 3</text>
       </annotation>
-      <annotation id="7">
+      <annotation id="10">
         <infon key="type">control_element</infon>
         <infon key="identifier">Spiro-OMeTAD</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -121,15 +120,15 @@
         <location offset="20544" length="12"/>
         <text>Spiro-OMeTAD</text>
       </annotation>
-      <annotation id="9">
+      <annotation id="11">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">formamidinium lead iodide</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-22T22:24:11Z</infon>
+        <infon key="identifier">FAPbI 3</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-11T19:11:14Z</infon>
         <location offset="21306" length="7"/>
         <text>FAPbI 3</text>
       </annotation>
-      <annotation id="10">
+      <annotation id="12">
         <infon key="type">hole_transport_layer</infon>
         <infon key="identifier">Spiro-OMeTAD</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -137,7 +136,7 @@
         <location offset="22075" length="12"/>
         <text>Spiro-OMeTAD</text>
       </annotation>
-      <annotation id="11">
+      <annotation id="13">
         <infon key="type">control_pce</infon>
         <infon key="identifier">23.44</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -145,7 +144,7 @@
         <location offset="22114" length="5"/>
         <text>23.44</text>
       </annotation>
-      <annotation id="12">
+      <annotation id="14">
         <infon key="type">control_voc</infon>
         <infon key="identifier">1.152</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -153,7 +152,7 @@
         <location offset="22248" length="5"/>
         <text>1.152</text>
       </annotation>
-      <annotation id="13">
+      <annotation id="15">
         <infon key="type">hole_transport_layer</infon>
         <infon key="identifier">Spiro[OMeTAD-3-fluorophenyl]</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -161,7 +160,7 @@
         <location offset="22709" length="8"/>
         <text>Spiro-mF</text>
       </annotation>
-      <annotation id="14">
+      <annotation id="16">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">24.82</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -169,7 +168,7 @@
         <location offset="22842" length="5"/>
         <text>24.82</text>
       </annotation>
-      <annotation id="16">
+      <annotation id="17">
         <infon key="type">treated_voc</infon>
         <infon key="identifier">1.1814</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -177,15 +176,15 @@
         <location offset="23545" length="6"/>
         <text>1.1814</text>
       </annotation>
-      <annotation id="17">
+      <annotation id="18">
         <infon key="type">humidity</infon>
-        <infon key="identifier"></infon>
+        <infon key="identifier">50</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-22T22:37:48Z</infon>
+        <infon key="updated_at">2025-02-13T03:47:53Z</infon>
         <location offset="26646" length="2"/>
         <text>50</text>
       </annotation>
-      <annotation id="18">
+      <annotation id="19">
         <infon key="type">control_element</infon>
         <infon key="identifier">Spiro-OMeTAD</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -193,7 +192,7 @@
         <location offset="26665" length="13"/>
         <text>Spiro-OMeTAD-</text>
       </annotation>
-      <annotation id="19">
+      <annotation id="20">
         <infon key="type">control_pce</infon>
         <infon key="identifier">23.21</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -201,15 +200,15 @@
         <location offset="26712" length="5"/>
         <text>23.21</text>
       </annotation>
-      <annotation id="20">
+      <annotation id="21">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.6</infon>
+        <infon key="identifier">60</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-22T22:38:11Z</infon>
+        <infon key="updated_at">2025-02-13T03:47:55Z</infon>
         <location offset="26746" length="4"/>
         <text>~60%</text>
       </annotation>
-      <annotation id="21">
+      <annotation id="22">
         <infon key="type">time</infon>
         <infon key="identifier">500</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -217,26 +216,26 @@
         <location offset="26776" length="3"/>
         <text>500</text>
       </annotation>
-      <annotation id="22">
+      <annotation id="23">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.87</infon>
+        <infon key="identifier">87</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-22T22:38:50Z</infon>
+        <infon key="updated_at">2025-02-13T03:47:46Z</infon>
         <location offset="26899" length="2"/>
         <text>87</text>
       </annotation>
       <relation id="R1">
         <infon key="type">test_1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T00:10:30Z</infon>
-        <node refid="2" role=""/>
-        <node refid="3" role=""/>
-        <node refid="17" role=""/>
+        <infon key="updated_at">2025-02-17T03:49:53Z</infon>
+        <node refid="4" role=""/>
+        <node refid="5" role=""/>
         <node refid="18" role=""/>
         <node refid="19" role=""/>
         <node refid="20" role=""/>
-        <node refid="8" role=""/>
-        <node refid="15" role=""/>
+        <node refid="21" role=""/>
+        <node refid="6" role=""/>
+        <node refid="2" role=""/>
       </relation>
     </passage>
     <passage>

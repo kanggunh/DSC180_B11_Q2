@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 132&#13;</text>
@@ -45,7 +44,7 @@
         <location offset="2840" length="12"/>
         <text>spiro-OMeTAD</text>
       </annotation>
-      <annotation id="7">
+      <annotation id="4">
         <infon key="type">hole_transport_layer</infon>
         <infon key="identifier">DDT-treated spiro-OMeTAD</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -53,7 +52,7 @@
         <location offset="3322" length="24"/>
         <text>DDT-treated spiro-OMeTAD</text>
       </annotation>
-      <annotation id="4">
+      <annotation id="5">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">23.1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -61,15 +60,15 @@
         <location offset="3427" length="6"/>
         <text>23.1%.</text>
       </annotation>
-      <annotation id="5">
+      <annotation id="6">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.9</infon>
+        <infon key="identifier">900</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T07:05:28Z</infon>
+        <infon key="updated_at">2025-02-13T03:26:30Z</infon>
         <location offset="3470" length="3"/>
         <text>90%</text>
       </annotation>
-      <annotation id="6">
+      <annotation id="7">
         <infon key="type">time</infon>
         <infon key="identifier">1000</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -133,7 +132,7 @@
         <location offset="16633" length="8"/>
         <text>1.171 V,</text>
       </annotation>
-      <annotation id="13">
+      <annotation id="11">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">1-dodecanethiol</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -141,7 +140,7 @@
         <location offset="16722" length="17"/>
         <text>DDT-treated cells</text>
       </annotation>
-      <annotation id="11">
+      <annotation id="12">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">23.1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -149,7 +148,7 @@
         <location offset="16805" length="5"/>
         <text>23.1%</text>
       </annotation>
-      <annotation id="12">
+      <annotation id="13">
         <infon key="type">treated_voc</infon>
         <infon key="identifier">1.198</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -160,18 +159,18 @@
       <relation id="R1">
         <infon key="type">performance_1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T07:11:57Z</infon>
+        <infon key="updated_at">2025-02-17T03:49:52Z</infon>
         <node refid="9" role=""/>
         <node refid="10" role=""/>
-        <node refid="13" role=""/>
         <node refid="11" role=""/>
         <node refid="12" role=""/>
+        <node refid="13" role=""/>
       </relation>
     </passage>
     <passage>
       <offset>19511</offset>
       <text> The impact of DDT on stabilities We use Cs 0.05 (FAPbI 3 ) 0.85 (MAPbBr 3 ) 0.15 devices for all stability measurements, and all samples are air-activated for 48 h to attain peak efficiency. Wetting stability. We investigated the impact of DDT on wetting stability by conducting wetting stress experiments (RH = 50%, open circuit, air atmosphere and ambient lighting) on unencapsulated PSCs. Figure  4a  shows that the best control cell demonstrates a slow PCE degradation during the first 100 h, followed by a quick degradation, decreasing to 68% of peak PCE after another 430 h. By contrast, the best DDT-treated cell demonstrates greatly improved wetting stability, retaining a high PCE of up to 97% over the same measurement period. More cell wetting results are provided in Supplementary Table  10 . In XRD measurements (Fig.  4b  and Supplementary Fig.  17 ), the perovskite absorber in the control device is observed to undergo clear deterioration, yielding many impurity peaks after 530 h, whereas such changes are not observed in the DDT-treated devices. In the AFM results, the spiro-OMeTAD HTMs in control devices exhibit enlarged pinholes (Fig.  4c ) and cracks (Supplementary Fig.  18 ) after 530 h, but less morphological change is observed in the DDT-treated samples (Fig.  4d ). In the microscopic results, the spiro-OMeTAD HTMs in control devices are seen to have some crystallization (Fig.  4e ), but this is not observed in the DDT-treated samples (Fig.  4f ). From TOF-SIMS (Fig.  4g ,h and Supplementary Fig.  19 ), severe compositional interdiffusion between the HTM and perovskite is observed in the control device because of the poor resistance of the lithium compound and perovskite to water. In contrast, each functional layer maintains clear edges in the DDT-treated device. Thermal stability. We investigated the impact of DDT on thermal stability by conducting thermal stress experiments (50-85 °C, open circuit, N 2 atmosphere and ambient light) on unencapsulated PSCs. Figure  5a  shows that there is an increase as large as 63% with respect to the peak PCE at 50 °C after 120 h for the best control device, agreeing with the reported degradation results in the literature  42, 43  . In contrast, the best DDT-treated device has a high PCE retention of up to 95% over the same measurement period. We subsequently allowed the device temperature to rise to 85 °C and re-evaluated the device stability. ) J SC (mA cm -2 ) J SC (mA cm -2 ) V OC (V) V OC (V) Fig.  3  | The impact of DDT on device performance. a, J-V curves of Cs 0.05 FA x MA 1 - x PbI 3 devices produced by solvent engineering with and without air activation, measured from the reverse-bias scan direction under simulated AM 1.5 sunlight (aperture size of 0.16 cm 2 ). b, J-V curves of the champion DDTtreated Cs 0.05 (FAPbI 3 ) 0.85 (MAPbBr 3 ) 0.15 cell produced by solvent engineering with air activation, measured from the reverse-and forward-bias scan directions, respectively (aperture size of 0.16 cm 2 ). An anti-reflection film made using polydimethylsiloxane (PDMS) was used for the champion cell. c, SPO of the DDTtreated Cs 0.05 (FAPbI 3 ) 0.85 (MAPbBr 3 ) 0.15 device, produced by solvent engineering, and measured for 550 s at a fixed voltage of 0.97 V near the MPP identified in J-V curves. d, J-V curves of the champion Cs 0.05 FA x MA 1 - x PbI 3 control cell and the champion DDT-treated Cs 0.05 FA x MA 1 - x PbI 3 cell produced by sequential deposition with air activation measured from the reverse-bias scan direction (aperture size of 0.09 cm 2 ). &#13;</text>
-      <annotation id="18">
+      <annotation id="14">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSD</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -179,7 +178,7 @@
         <location offset="19791" length="26"/>
         <text>wetting stress experiments</text>
       </annotation>
-      <annotation id="14">
+      <annotation id="15">
         <infon key="type">humidity</infon>
         <infon key="identifier">50</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -187,15 +186,15 @@
         <location offset="19824" length="3"/>
         <text>50%</text>
       </annotation>
-      <annotation id="15">
+      <annotation id="16">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.68</infon>
+        <infon key="identifier">68</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T07:13:41Z</infon>
+        <infon key="updated_at">2025-02-13T03:26:37Z</infon>
         <location offset="20056" length="3"/>
         <text>68%</text>
       </annotation>
-      <annotation id="16">
+      <annotation id="17">
         <infon key="type">time</infon>
         <infon key="identifier">430</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -203,11 +202,11 @@
         <location offset="20086" length="5"/>
         <text>430 h</text>
       </annotation>
-      <annotation id="17">
+      <annotation id="18">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.97</infon>
+        <infon key="identifier">97</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T07:13:50Z</infon>
+        <infon key="updated_at">2025-02-13T03:26:43Z</infon>
         <location offset="20211" length="3"/>
         <text>97%</text>
       </annotation>
@@ -229,9 +228,9 @@
       </annotation>
       <annotation id="21">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.95</infon>
+        <infon key="identifier">95</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T07:16:38Z</infon>
+        <infon key="updated_at">2025-02-13T03:26:49Z</infon>
         <location offset="21802" length="2"/>
         <text>95</text>
       </annotation>
@@ -249,9 +248,9 @@
       </annotation>
       <annotation id="23">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.1</infon>
+        <infon key="identifier">10</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T07:19:14Z</infon>
+        <infon key="updated_at">2025-02-13T03:26:53Z</infon>
         <location offset="25833" length="26"/>
         <text>a decrease as large as 90%</text>
       </annotation>
@@ -265,9 +264,9 @@
       </annotation>
       <annotation id="25">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.93</infon>
+        <infon key="identifier">93</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T07:19:27Z</infon>
+        <infon key="updated_at">2025-02-13T03:27:02Z</infon>
         <location offset="26014" length="3"/>
         <text>93%</text>
       </annotation>
@@ -282,7 +281,7 @@
       <relation id="R4">
         <infon key="type">test_3</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T07:20:27Z</infon>
+        <infon key="updated_at">2025-02-17T03:49:52Z</infon>
         <node refid="22" role=""/>
         <node refid="23" role=""/>
         <node refid="24" role=""/>
@@ -485,22 +484,22 @@
     <relation id="R2">
       <infon key="type">test_1</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T07:17:41Z</infon>
-      <node refid="18" role=""/>
+      <infon key="updated_at">2025-02-17T03:49:52Z</infon>
       <node refid="14" role=""/>
       <node refid="15" role=""/>
       <node refid="16" role=""/>
       <node refid="17" role=""/>
-      <node refid="13" role=""/>
+      <node refid="18" role=""/>
+      <node refid="11" role=""/>
     </relation>
     <relation id="R3">
       <infon key="type">test_2</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T07:17:33Z</infon>
+      <infon key="updated_at">2025-02-17T03:49:52Z</infon>
       <node refid="19" role=""/>
       <node refid="20" role=""/>
       <node refid="21" role=""/>
-      <node refid="13" role=""/>
+      <node refid="11" role=""/>
     </relation>
   </document>
 </collection>

@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 8&#13;</text>
@@ -17,7 +16,15 @@
     <passage>
       <offset>11</offset>
       <text>Perovskite Thin Film and Device Fabrication. For the preparation of FA-based (FAPbI 3 ) x (MAPbBr 3 ) 1-x perovskite (x equals to 0.94 in the precursor) thin film, the PbI 2 solution was prepared by dissolving 1.4 mM PbI 2 into 1 mL DMF/DMSO mixed solvent (v/v 94/6). The FAI/MABr/MACl solution was prepared by dissolving 70 mg FAI, 3 mg MABr and 11 mg MACl into 1 mL IPA. The solutions should be stirred overnight before use. the PbI 2 solution was spin-coated at 1500 rpm for 30 s and annealed at 70 °C for 1 min. And then, the FAI/MABr/MACl solution was spin-coated on the substrate at 1800 rpm for 30 s, followed by pre-annealing inside the N 2 glove box at 90 °C for 1 min and annealing outside the glove box at 150 °C for 10 min with 40% humidity. For the preparation of all-inorganic CsPbI 2 Br perovskite thin film, the precursor solution was prepared by dissolving 0.5 mM PbI 2 , 0.5 mM PbBr 2 and 1 mM CsI in 250 µL DMSO and 750 µL DMF. The perovskite solution was spin-coated on the preheated substrate (70 °C) at 2000 rpm for 35 s, to which 0.1 mL of IPA was dropped after 15 s. The spin -coated film was heat-treated at 65 °C for 1 min, followed by 260 °C for 10 min. To prepare perovskite thin films with the conjugated organic ammoniums, 5 mM PRA/IPA:CB, PRMA/IPA:CB or PREA/IPA:CB solution was drop casted at 4000 rpm on the as-fabricated perovskite thin film noted above. The volume ratio of IPA and CB is 1:1. The film was annealed at 100 °C for 3 min. Perovskite solar cells were fabricated with the following device structure: indium tin oxide (ITO)/SnO 2 /(FAPbI 3 ) x (MAPbBr 3 ) 1-x /Spiro-OMeTAD/Ag or Au. The ITO glass was pre-cleaned in an ultrasonic bath of acetone and isopropanol and treated in ultraviolet-ozone for 20 min. A thin layer (ca. 30 nm) of SnO 2 was spin-coated twice onto the ITO glass and baked at 180 °C for 60 min. SnO 2 solution was diluted in water (2 mg mL -1 ) before spin-coating. After cooling to room temperature, the glass/ITO/SnO 2 substrates were transferred into a nitrogen glove box, followed by the deposition of the perovskite layer as noted above. For CsFAMAPbI 3 -based perovskite devices, the PbI 2 solution was prepared by dissolving 1.4 mM PbI 2 and 0.07mM CsI into 1 mL DMF/DMSO mixed solvent (v/v 94/6). The FAI/MACl solution was prepared by dissolving 80 mg FAI and 12 mg MACl into 1 mL IPA. The Spiro-OMeTAD solution [60mg Spiro-OMeTAD in 700 µL CB with 25.5 µL t-BP, 15.5 µL Li-TFSI (520 mg/mL in ACN) and 12.5 µL FK209 (375 mg/mL in ACN)], or PTAA solution for stability test [40 mg/mL; in CB with 10% TPFB] was spun onto the perovskite film as a hole conductor. The devices were completed by evaporating 100 nm gold or silver in a vacuum chamber (base pressure, 5 × 10 -4 Pa)&#13;</text>
-      <annotation id="2">
+      <annotation id="17">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">(FAPbI3)0.94(MAPbBr3)0.06</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T03:59:54Z</infon>
+        <location offset="88" length="75"/>
+        <text>(FAPbI 3 ) x (MAPbBr 3 ) 1-x perovskite (x equals to 0.94 in the precursor)</text>
+      </annotation>
+      <annotation id="1">
         <infon key="type">structure_pin_nip</infon>
         <infon key="identifier">NIP</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -25,7 +32,7 @@
         <location offset="1565" length="74"/>
         <text>tin oxide (ITO)/SnO 2 /(FAPbI 3 ) x (MAPbBr 3 ) 1-x /Spiro-OMeTAD/Ag or Au</text>
       </annotation>
-      <annotation id="3">
+      <annotation id="2">
         <infon key="type">electron_transport_layer</infon>
         <infon key="identifier">Tin Oxide</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -33,7 +40,7 @@
         <location offset="1793" length="5"/>
         <text>SnO 2</text>
       </annotation>
-      <annotation id="4">
+      <annotation id="3">
         <infon key="type">hole_transport_layer</infon>
         <infon key="identifier">Spiro-OMeTAD</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -97,7 +104,7 @@
     <passage>
       <offset>16237</offset>
       <text> Supplementary Text S3 Additional characterizations of perovskite thin film with and without organic ammonium cations Two-dimensional Grazing-Incidence Wide-Angle X-ray Scattering (2D-GIWAXS) was performed to gain insights into the structure of the ammoniums on perovskite thin films. As shown in Fig.  S8 , no obvious signal at q z value below 0.9 Å -1 was observed for all the perovskite thin films with different ammoniums, indicating no 2D perovskite was formed in the thin films. We performed grazing angle (~70°) polarization dependent IR reflection absorption to investigate the molecular orientation of the ammonium cations on the surface. In the polarized IR method, the IR light is polarized parallel (s) or perpendicular (p) to the sample surfaces. By taking the difference of (p-s)/(p+s), we could identify molecular orientation component perpendicular to the surfaces. As shown in Fig.  S9 , when PRA, PRMA, PREA are attached to the perovskite surfaces, we observed a peak near 1240 cm -1 , which is possibly related to the C-N stretching. We have also examined near 1700 cm -1 (the C=N stretching in FA) to verify this method is not sensitive to bulk vibration (no peak near 1700 cm -1 ). Therefore, the polarized IR study confirms that the molecular orientation has a perpendicular component to the perovskite surfaces. The thermogravimetric analysis results for the perovskite thin films with PRA is shown in Fig.  S10 . Before the decomposition of perovskite at elevated temperature, there is no observed weight loss from other species, suggesting Pyren-1-aminium iodide did not decompose during the annealing. The significant different in the device performance of PRA-treated samples can be attributed to the mismatched energy level as discussed below. We performed UPS measurements on pure PRA, PRMA, and PREA. As shown in Fig.  S11 , none of these samples showed any signals, confirming the additional peaks observed around the band tail is due to the incorporation of these organic cations. On the other hand, these pyrene molecules are not conductive, so they are detectable in UPS measurement by themselves. This in turn can be regarded as further evidence that the new features observed is due to the incorporation of the cations in the lattice rather than physico-adsorption. Kramer-Kronig transformed transient reflection spectra is shown in Fig.  S12  to provide additional evidence. With the incorporation of PREA, the center of the excitonic bleach, which is related to the band-edge position shows a slight red shift in position. Such a shift can be an evidence showing the PREA slightly changed the band-edge position of perovskites which is consistent with Fig.  1D . The energy diagrams (Fig.  S13 ) of the modified and unmodified perovskite thin films are drawn by the UPS data (Fig.  S14 ). Perovskite surfaces modified with PRMA and PREA showed very similar band diagram. Since the drift current in a solar cell device is correlated with the carrier density, mobility, and the electrical field, the mobility enhancement would make nonnegligible contributions to the improved hole collection probability when the driving forces i.e. the energy offset between perovskite surface and hole transporting layer are quite similar. Time-resolved PL measurements were performed to further study the carrier dynamics of the perovskite thin films. As shown in Fig.  S15 , PREA and PRMA treated thin film showed similar PL decay profile to that of the reference film, indicating similar bulk carrier lifetime and electron-phonon interactions. PRA treated sample exhibited a much faster PL decay, suggesting a prominent carrier transfer, which is consistent with our UPS data showing an increase in the VBM after PRA treatment. This higher VBM resulted in a mismatched energy level with the hole transporting layer (Fig.  S16 ), leading to the significant V oc reduction as observed in the photovoltaic devices. We assessed the photovoltaic performance of the perovskite films prepared with and without the ammoniums by fabricating devices with the ITO/SnO 2 /perovskite/Spiro-OMeTAD/Au configuration. Current density-voltage (J-V) curves of the photovoltaic devices with and without ammoniums are compared in Fig.  3D , and the photovoltaic parameters of best performing devices are summarized in Table  S2 . The PCE of the asfabricated perovskite solar cells with PREA exhibited the largest enhancement from 20.1 % to 23.0% with an obvious increase in the J sc (from 23.90 mA/cm 2 to 24.91 mA/cm 2 ) and FF (from 0.723 to 0.784) due to the largest enhancement of hole mobility. The lower PCE of PRMA based device (20.9%) was consistent with the less improved hole mobility, which could be attributed to the distorted intercalation configuration of the ammoniums generating energy disordering in the lattice. For the PRA based device, instead, a decreased PCE of 19.5% was obtained, due to the significantly reduced V oc (from 1.160 V to 1.066 V), which could be attributed to the unmatched energy level as revealed by the UPS results. (Fig.  S16 ) Ultraviolet-visible spectroscopy (UV-Vis) was conducted to study the effect of the different ammoniums on the optical property of the perovskite films. As shown in Fig.  S18 , no obvious difference in the UV-Vis spectra was observed, which further supports that the enhancement of the photovoltaic performance originates from the improved hole mobility. &#13;</text>
-      <annotation id="5">
+      <annotation id="4">
         <infon key="type">structure_pin_nip</infon>
         <infon key="identifier">NIP</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -105,31 +112,7 @@
         <location offset="20310" length="37"/>
         <text>ITO/SnO 2 /perovskite/Spiro-OMeTAD/Au</text>
       </annotation>
-      <annotation id="6">
-        <infon key="type">perovskite_molecule</infon>
-        <infon key="identifier">ethylammonium</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T10:56:13Z</infon>
-        <location offset="20627" length="4"/>
-        <text>PREA</text>
-      </annotation>
-      <annotation id="7">
-        <infon key="type">treated_pce</infon>
-        <infon key="identifier">23.0</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T10:56:30Z</infon>
-        <location offset="20681" length="5"/>
-        <text>23.0%</text>
-      </annotation>
-      <annotation id="8">
-        <infon key="type">perovskite_molecule</infon>
-        <infon key="identifier">methylammonium</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T10:56:45Z</infon>
-        <location offset="20858" length="4"/>
-        <text>PRMA</text>
-      </annotation>
-      <annotation id="9">
+      <annotation id="5">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">20.9</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -137,15 +120,7 @@
         <location offset="20877" length="5"/>
         <text>20.9%</text>
       </annotation>
-      <annotation id="10">
-        <infon key="type">perovskite_molecule</infon>
-        <infon key="identifier">pyrene-based ammonium</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T10:57:13Z</infon>
-        <location offset="21079" length="3"/>
-        <text>PRA</text>
-      </annotation>
-      <annotation id="11">
+      <annotation id="6">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">19.5</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -153,7 +128,15 @@
         <location offset="21125" length="4"/>
         <text>19.5</text>
       </annotation>
-      <annotation id="12">
+      <annotation id="23">
+        <infon key="type">control_voc</infon>
+        <infon key="identifier">1.160</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T04:30:31Z</infon>
+        <location offset="21189" length="5"/>
+        <text>1.160</text>
+      </annotation>
+      <annotation id="7">
         <infon key="type">treated_voc</infon>
         <infon key="identifier">1.066</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -161,14 +144,6 @@
         <location offset="21200" length="7"/>
         <text>1.066 V</text>
       </annotation>
-      <relation id="R1">
-        <infon key="type">performance_3</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T10:58:11Z</infon>
-        <node refid="10" role=""/>
-        <node refid="11" role=""/>
-        <node refid="12" role=""/>
-      </relation>
     </passage>
     <passage>
       <offset>21668</offset>
@@ -177,6 +152,30 @@
     <passage>
       <offset>21692</offset>
       <text> Intercalation configuration of the ammoniums into Pb-I framework Polycrystalline two-dimensional perovskite thin film was prepared by mixing PbI 2 and the corresponding organic ammoniums, i.e. PRAI, PRMAI, PREAI (1:2 molar ratio) in DMF. The solution was spin-coated onto a glass substrate at a rate of 3000 rpm for 30 s, followed by annealing at 150 °C for 10 min for GIWAXS characterization. PREA 2 PbI 4 perovskite single crystals are prepared by dissolving PbI 2 and PREAI in gamma-butyrolactone followed by an anti-solvent diffusion method, which can be found elsewhere  (29) . The interplanar distance of the neighboring pyrene ring was determined to be 7.826 Å, the stacking of which could be assigned to the edge-on diffraction features around a Q xy value of about 1.06 (partly overlap with the signal of {011} planes) in the GIWAXS data. Noticeably, this edge-on diffraction features are much weaker in the case of PRMA-based layered perovskite, which could be attributed to a more distorted intercalation configuration of PRMA. A suitable crystal was selected on a 'Bruker D8 VENTURE' diffractometer. The crystal was kept at 170 K during data collection. Using Olex2  (30) , the structure was solved with the XT (31) structure solution program using Intrinsic Phasing and refined with the ShelXL (31) refinement package using Least Squares minimization. Crystal Data for PREA 2 PbI 4 (M =1203.39 g/mol): monoclinic, space group P2 1 /c (no.   &#13;</text>
+      <annotation id="20">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">pyrene based ammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T04:10:23Z</infon>
+        <location offset="21886" length="4"/>
+        <text>PRAI</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">pyrene based methylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T04:12:04Z</infon>
+        <location offset="21892" length="5"/>
+        <text>PRMAI</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">pyrene based ethylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T04:12:09Z</infon>
+        <location offset="21899" length="5"/>
+        <text>PREAI</text>
+      </annotation>
     </passage>
     <passage>
       <offset>23150</offset>
@@ -201,15 +200,7 @@
     <passage>
       <offset>28861</offset>
       <text> Enhanced efficiency and stability by PREA The details of the enhanced efficiency and stability are summarized in Fig.  S19  and Table  S3 . Fig.  S19A  displayed the photovoltaic properties under both reverse and forward scan directions of devices with and without PREA. A substantially reduced hysteresis was observed in PREA-based device. The effect of the PREA concentration was studied as shown in Fig.  S20 . 5 mM of PREA showed the best PCE of the solar cell devices. External quantum efficiency (EQE) spectra of the devices were compared in Fig.  S19B . An integrated J sc of 24.42 mA/cm 2 from the PREA-based device matched well with the value measured from the J-V scan (&lt;5% discrepancy), while a reference device showed an integrated J sc of 23.73 mA/cm 2 . The enhanced photocurrent was attributed to the improved carrier extraction, which was confirmed by the transient photocurrent decay (Fig.  S21 ). An increased stabilized PCE of 22.4% was achieved in the PREA-based device when biased at 1.00 V, while that of the reference device was 19.3% when biased at 0.92 V (Fig.  S19C ). The histogram of solar cell efficiencies for 40 devices is shown in Fig.  S19D , which demonstrates the high reproducibility of the performance improvement with PREA (an average PCE was improved from 19.46±0.46% to 22.40±0.45% with the incorporation of PREA). Notably, we observed a remarkably enhanced operational stability of encapsulated devices based on PREA. At ambient atmosphere ca. 40 °C, after 2,000 hours exposure to continuous light (90 ± 10 mW cm -2 ) without UV-filter under open-circuit condition, the PREA-based device maintained over 85% of its original PCE, while the reference device degraded to around 60% of its initial PCE. (Fig.  S19E ) The enhanced the stability could be attributed to the insertion of the ammonium head into the framework and thus the exposure of the hydrophobic polycyclic aromatic tail. We also managed to introduce PREA into another perovskite system i.e. CsFAMAPbI 3 . As reported  (32) , multi-cation perovskite could prevent the carrier reflection from grain surfaces and lead to higher PCEs. Therefore, we further optimized the composition of perovskite made via a two-step method by adding 5 mol% Cs into the precursor. The reference PCE of CsFAMAPbI 3 -based devices was improved to 21.7%, and for the PREA treated perovskite, the PCE could be achieved up to 23.5% (Fig.  S22 ). This also justified the generality of this strategy in improving the device performance. &#13;</text>
-      <annotation id="15">
-        <infon key="type">control_element</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T10:59:47Z</infon>
-        <location offset="29119" length="12"/>
-        <text>without PREA</text>
-      </annotation>
-      <annotation id="13">
+      <annotation id="8">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">22.4</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -217,15 +208,7 @@
         <location offset="29808" length="5"/>
         <text>22.4%</text>
       </annotation>
-      <annotation id="14">
-        <infon key="type">treatment_element</infon>
-        <infon key="identifier">ethylammonium</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T10:59:21Z</infon>
-        <location offset="29834" length="17"/>
-        <text>PREA-based device</text>
-      </annotation>
-      <annotation id="16">
+      <annotation id="9">
         <infon key="type">control_pce</infon>
         <infon key="identifier">19.3</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -233,7 +216,7 @@
         <location offset="29914" length="5"/>
         <text>19.3%</text>
       </annotation>
-      <annotation id="17">
+      <annotation id="10">
         <infon key="type">temperature</infon>
         <infon key="identifier">40</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -241,7 +224,7 @@
         <location offset="30347" length="5"/>
         <text>40 °C</text>
       </annotation>
-      <annotation id="18">
+      <annotation id="11">
         <infon key="type">time</infon>
         <infon key="identifier">2000</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -249,7 +232,7 @@
         <location offset="30360" length="5"/>
         <text>2,000</text>
       </annotation>
-      <annotation id="19">
+      <annotation id="12">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSLT</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -257,50 +240,22 @@
         <location offset="30384" length="82"/>
         <text>continuous light (90 ± 10 mW cm -2 ) without UV-filter under open-circuit conditio</text>
       </annotation>
-      <annotation id="20">
-        <infon key="type">treatment_element</infon>
-        <infon key="identifier">ethylammonium</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T11:01:45Z</infon>
-        <location offset="30473" length="4"/>
-        <text>PREA</text>
-      </annotation>
-      <annotation id="21">
+      <annotation id="13">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.85</infon>
+        <infon key="identifier">85</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T11:01:53Z</infon>
+        <infon key="updated_at">2025-02-14T23:01:09Z</infon>
         <location offset="30507" length="3"/>
         <text>85%</text>
       </annotation>
-      <annotation id="22">
+      <annotation id="14">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.6</infon>
+        <infon key="identifier">60</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T11:02:32Z</infon>
+        <infon key="updated_at">2025-02-14T23:01:11Z</infon>
         <location offset="30578" length="3"/>
         <text>60%</text>
       </annotation>
-      <relation id="R2">
-        <infon key="type">performance_1</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T11:00:22Z</infon>
-        <node refid="14" role=""/>
-        <node refid="16" role=""/>
-        <node refid="13" role=""/>
-        <node refid="15" role=""/>
-      </relation>
-      <relation id="R3">
-        <infon key="type">test_1</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T11:04:14Z</infon>
-        <node refid="19" role=""/>
-        <node refid="20" role=""/>
-        <node refid="21" role=""/>
-        <node refid="17" role=""/>
-        <node refid="18" role=""/>
-        <node refid="22" role=""/>
-      </relation>
     </passage>
     <passage>
       <offset>31380</offset>
@@ -309,14 +264,6 @@
     <passage>
       <offset>31444</offset>
       <text> Table S1 The extracted mobility from transient reflection kinetics (interaction distance model) and transient THz spectra Sample D ab (cm 2 s -1 ) µ ab The band edges of metal-halide perovskites with a general chemical structure of ABX 3 (A, usually a monovalent organic cation; B, a divalent cation; and X, a halide anion) are constructed mainly of the orbitals from B and X sites. Hence, the structural and compositional varieties of the inorganic B-X framework are primarily responsible for regulating their electronic properties, whereas A-site cations are thought to only help stabilize the lattice and not to directly contribute to near-edge states. We report a p-conjugation-induced extension of electronic states of A-site cations that affects perovskite frontier orbitals. The p-conjugated pyrene-containing A-site cations electronically contribute to the surface band edges and influence the carrier dynamics, with a properly tailored intercalation distance between layers of the inorganic framework. The ethylammonium pyrene increased hole mobilities, improved power conversion efficiencies relative to that of a reference perovskite, and enhanced device stability. (cm 2 V -1 s -1 ) µ DC (cm 2 V -1 s -1 ) µ h (cm 2 V -1 s -1 ) µ e (cm 2 V -1 s -1 ) T he band-edge electronic structure of hybrid metal-halide perovskites (ABX 3 , where A is usually a monovalent organic cation, B is a divalent cation, and X is a halide anion) develops from the orbitals of B and X sites (1) and can be tuned through the compositional and structural flexibility of the B-X framework  (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) . By contrast, the A-site cations are generally not thought to directly affect electronic structure near the band edges because their electronic states lie far from the inorganic band edges  (13) . Instead, different A-site cation sizes can induce indirect effects by causing structural deformation of the inorganic B-X framework, such as unit volume variation, octahedral distortion, and dimensional reduction  (14) (15) (16) (17) . We now show that the electronic states of the A-site cations can be extended and directly contribute to the frontier orbitals of the hybrid perovskite through a combination of a large p-conjugated structure and a tailored intercalation distance between layers of the inorganic framework, which provides additional degrees of electronic tunability to near-edge electronic configuration. The carrier dynamics could be rationally tuned in accordance with the device architecture by modifying the A-site organic structure. We designed a polycyclic aromatic tail with large p-conjugation that was attached to an ammonium A-site cation. The chemical structures of the as-synthesized organic cations featured different lengths of the tethering alkylammonium group-namely PRA, PRMA, and PREA for pyrene-based ammonium, methylammonium, and ethylammonium, respectively (Fig.  1A ; see synthesis details in supplementary text S1). When these organic cations were assembled with the inorganic framework, the extent to which the positively charged ammonium head group intercalated into the octahedral cavity depended on the length of the bridging alkyl chain. Electron delocalization in the large conjugated pyrene structure lowered the frontier orbital separation of the organic molecule and enabled orbital overlap with the inorganic moiety  (18) . The alkyl chain length affected the electronic interaction between the two moieties. Ultraviolet photoemission spectroscopy of PRMA and PREA cations assembled onto the surface of the Pb-I framework of a formamidiniumbased perovskite thin film (Fig.  1B ) revealed additional electronic states near the tail of the valence band (the Fermi energy has been aligned for better comparison). However, a perovskite thin film with the PRA moieties attached exhibited similar band-tail characteristics to that of the reference, indicating a lack of electronic contribution from PRA to the surface band edges. First-principles calculations of the partial density of states revealed electronic states near the surface band edges (Fig.  1C ). As the alkyl chain of the ammonium group became longer, the electronic states from the organic components at the valence band were pushed to a higher energy level. The electronic states from PRA were as much as 0.34 eV below the valence band maximum (VBM), but PRMA and PREA had electronic states near the VBM. The distribution of the electronic states of the organic ammonium cations with respect to the inorganic band structure (Fig.  1D ) showed that the orbitals of PRMA and PREA greatly overlapped with the inorganic VBM, with the highest unoccupied orbitals only 0.02 eV below and 0.01 eV above the VBM, respectively. Thus, the band structure of PRA resembled that of the reference film, with the VBM consisting of I 5p and Pb 6s orbitals. However, for PRMA and PREA, the VBM had contributions from the orbitals of both inorganic and organic components. The participation of PRMA and PREA in the surface band-edge construction was also observed in all-inorganic CsPbI 2 Br perovskite (supplementary text S2), indicating the generality of this concept. The discrepancy in the surface band-edge configuration originated from different chemical interaction modes between the inorganic framework and the ammonium cations with different alkyl chain lengths; theoretical modeling of the assembly of these organic ammoniums on the surface of the Pb-I framework is shown in Fig.  2A . We used time-of-flight secondary-ion mass spectrometry and grazingangle polarization-dependent infrared reflectionabsorption spectroscopy to verify the vertical assembly of the ammonium cations on the surface (supplementary text S2 and S3). Both PRMA and PREA could anchor into the octahedral cavity through electrostatic interactions between the ammonium cations and the PbI 6 2-octahedra. However, PRMA, which has a shorter alkyl chain length between the ammonium head and the pyrene tail, exhibited a distorted intercalation configuration because of the structural rigidity and pronounced steric hindrance induced by the pyrene ring. The elongated alkyl chain in PREA enabled more flexibility with less steric hindrance and displayed almost vertical intercalation of PREA into the inorganic layers. The conjugated tails of PREA were stacked nearly perpendicular to the plane of the inorganic layer. With a reduction in the length of the tethering alkylammonium group, the orientation of PRMA tilted away from the vertical direction by ~30°, which disrupted the p-p stacking and reduced the electronic delocalization. By contrast, PRA, which lacked a flexible alkyl chain, failed to relieve the steric hindrance of the pyrene group when anchoring into the Pb-I framework. Its binding mode to the inorganic surface would be more accurately described as adsorption rather than anchoring, as also evidenced by the vertically oriented pyrene tail in PRA stacking. With a shallow interaction depth, the steric hindrance from the large pyrene tail no longer affects the intercalation configuration, enabling a molecular orientation driven by the surface energy and p-p stacking. We used attenuated total reflection-Fourier transform infrared (ATR-FTIR) spectroscopy to investigate the chemical binding between the organic cations and the Pb-I framework. Difference ATR-FTIR spectra of perovskite films with PRA, PRMA, and PREA with respect to the reference film are shown in Fig.  2B . Distinctive vibration features from the reference and PRA samples were observed in PRMA and PREA samples between 900 to 1100 cm -1 . Both PRMA and PREA showed substantially reduced absorption near 930 cm -1 and increased absorption near 1060 cm -1 , which we attributed to the change of the outof-plane N-H wagging and C-N stretching   &#13;</text>
-      <annotation id="1">
-        <infon key="type">perovskite_molecule</infon>
-        <infon key="identifier">ethylammonium pyrene</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T10:50:06Z</infon>
-        <location offset="32460" length="20"/>
-        <text>ethylammonium pyrene</text>
-      </annotation>
     </passage>
     <passage>
       <offset>39281</offset>
@@ -421,7 +368,23 @@
     <passage>
       <offset>52576</offset>
       <text> Table S2 S2 Photovoltaic parameters of the best-performance perovskite solar cells under reverse scan with and without different ammoniums.Table S3Photovoltaic parameters of best-performance perovskite solar cell under reverse and forward scan with and without PREA. Interaction Ammoniums Ammoniums VOC VOC JSC JSC FF FF PCE PCE distance Reference 0.007 ± 0.001 0.14 ± 0.02 17.58 ± 0.85 0.14 ± 0.02 (V) (mA cm -2 ) (V) (mA cm -2 ) 2.89 17.44 ± (%) (%) N/A PRA 0.096 ± 0.015 Reference Reverse (Ref) 1.86 ± 0.31 1.160 1.160 17.87 ± 0.94 2.07 ± 0.34 23.90 0.723 23.90 0.723 15.80 ± 2.65 20.0 20.0 145 ± 5 nm PRMA 0.105 ± 0.012 PRA Forward (Ref) 2.02 ± 0.22 1.066 1.159 20.65 + 1.03 2.27 ± 0.23 24.07 0.760 23.30 0.701 1.89 18.38 ± 19.5 18.9 200 ± 10 nm PREA 0.120 ± 0.018 PRMA Reverse (PREA) PREA Forward (PREA) 2.31 ± 0.33 1.167 1.177 1.177 1.171 19.64 ± 0.88 2.67 ± 0.38 24.19 0.741 24.91 0.784 24.91 0.784 24.85 0.762 20.9 23.0 16.97 ± 2.42 23.0 22.2 190 ± 10 nm &#13;</text>
-      <annotation id="23">
+      <annotation id="21">
+        <infon key="type">control_voc</infon>
+        <infon key="identifier">1.160</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T04:29:21Z</infon>
+        <location offset="53087" length="5"/>
+        <text>1.160</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">control_pce</infon>
+        <infon key="identifier">20.0</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T04:29:40Z</infon>
+        <location offset="53161" length="4"/>
+        <text>20.0</text>
+      </annotation>
+      <annotation id="15">
         <infon key="type">treated_voc</infon>
         <infon key="identifier">1.167</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -429,7 +392,7 @@
         <location offset="53398" length="5"/>
         <text>1.167</text>
       </annotation>
-      <annotation id="24">
+      <annotation id="16">
         <infon key="type">treated_voc</infon>
         <infon key="identifier">1.177</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -458,21 +421,40 @@
       <offset>54144</offset>
       <text>			 of 5 RESEARCH | REPORT Downloaded from https://www.science.org at University of California San Diego on November 07, 2024</text>
     </passage>
-    <relation id="R4">
-      <infon key="type">performance_2</infon>
+    <relation id="R2">
+      <infon key="type">test_1</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-23T11:08:41Z</infon>
+      <infon key="updated_at">2025-02-19T07:04:44Z</infon>
+      <node refid="12" role=""/>
+      <node refid="13" role=""/>
+      <node refid="10" role=""/>
+      <node refid="11" role=""/>
+      <node refid="14" role=""/>
+      <node refid="19" role=""/>
       <node refid="8" role=""/>
       <node refid="9" role=""/>
+      <node refid="16" role=""/>
       <node refid="23" role=""/>
     </relation>
-    <relation id="R5">
-      <infon key="type">performance_1</infon>
+    <relation id="R3">
+      <infon key="type">test_3</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-23T11:09:20Z</infon>
-      <node refid="7" role=""/>
+      <infon key="updated_at">2025-02-19T07:04:44Z</infon>
+      <node refid="5" role=""/>
+      <node refid="15" role=""/>
+      <node refid="18" role=""/>
+      <node refid="23" role=""/>
+      <node refid="22" role=""/>
+    </relation>
+    <relation id="R1">
+      <infon key="type">test_2</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T07:04:44Z</infon>
       <node refid="6" role=""/>
-      <node refid="24" role=""/>
+      <node refid="7" role=""/>
+      <node refid="20" role=""/>
+      <node refid="23" role=""/>
+      <node refid="22" role=""/>
     </relation>
   </document>
 </collection>

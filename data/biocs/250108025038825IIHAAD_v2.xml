@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 85&#13;</text>
@@ -38,10 +37,10 @@
         <text>P3HT</text>
       </annotation>
       <annotation id="3">
-        <infon key="type">perovskite_molecule</infon>
-        <infon key="identifier">HTAB</infon>
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">n-hexyl trimethyl ammonium bromide</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T09:27:27Z</infon>
+        <infon key="updated_at">2025-02-12T19:27:06Z</infon>
         <location offset="1260" length="34"/>
         <text>n-hexyl trimethyl ammonium bromide</text>
       </annotation>
@@ -53,15 +52,15 @@
         <location offset="1380" length="4"/>
         <text>22.7</text>
       </annotation>
-      <annotation id="6">
+      <annotation id="5">
         <infon key="type">humidity</infon>
-        <infon key="identifier">0.85</infon>
+        <infon key="identifier">85</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T09:25:05Z</infon>
+        <infon key="updated_at">2025-02-12T17:27:19Z</infon>
         <location offset="1456" length="2"/>
         <text>85</text>
       </annotation>
-      <annotation id="7">
+      <annotation id="6">
         <infon key="type">time</infon>
         <infon key="identifier">1370</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -69,7 +68,7 @@
         <location offset="1581" length="5"/>
         <text>1,370</text>
       </annotation>
-      <annotation id="5">
+      <annotation id="7">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSL</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -79,22 +78,12 @@
       </annotation>
       <annotation id="8">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.95</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T09:25:26Z</infon>
+        <infon key="identifier">95</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:16:07Z</infon>
         <location offset="1651" length="2"/>
         <text>95</text>
       </annotation>
-      <relation id="R1">
-        <infon key="type">test_1</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-09T08:50:05Z</infon>
-        <node refid="5" role=""/>
-        <node refid="6" role=""/>
-        <node refid="7" role=""/>
-        <node refid="8" role=""/>
-        <node refid="3" role=""/>
-      </relation>
     </passage>
     <passage>
       <offset>2492</offset>
@@ -108,25 +97,97 @@
         <text>double-layered halide architecture (DHA)</text>
       </annotation>
       <annotation id="10">
-        <infon key="type">perovskite_molecule</infon>
-        <infon key="identifier">HTAB</infon>
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">n-hexyl trimethyl ammonium bromide</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T09:27:27Z</infon>
+        <infon key="updated_at">2025-02-12T19:26:45Z</infon>
+        <location offset="3258" length="34"/>
+        <text>n-hexyl trimethyl ammonium bromide</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">n-hexyl trimethyl ammonium bromide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-12T19:27:06Z</infon>
         <location offset="3294" length="4"/>
         <text>HTAB</text>
       </annotation>
-      <annotation id="11">
+      <annotation id="12">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier"></infon>
+        <infon key="identifier">(FAPbI3)0.95(MAPbBr3)0.05</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T09:27:47Z</infon>
-        <location offset="4460" length="41"/>
-        <text>HTAB 0.3 (FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05</text>
+        <infon key="updated_at">2025-02-12T19:26:35Z</infon>
+        <location offset="4469" length="32"/>
+        <text>(FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05</text>
       </annotation>
     </passage>
     <passage>
       <offset>7131</offset>
       <text> Letter reSeArCH C-C intraring stretch (around 1,380 cm -1 ) corresponding to the main in-plane ring-skeleton modes of the thiophene units  25  (Fig.  2c ). The Raman intensities of P3HT on the DHA surface are much higher than those of P3HT on the control perovskite surface. This suggests that more of the P3HT polymers on the DHA surface are oriented along the preferred direction. Raman spectra were then obtained for P3HT on DHA surfaces that had been treated with alkyl trimethyl ammonium bromides of different chain lengths. It was found that treatment with HTAB produces DHAs with the optimal surface for interaction with P3HT, with these devices showing the highest photovoltaic performance among those treated with other alkyl ammonium bromides (Extended Data Fig.  7 ). This is also evidenced by the azimuthal cuts along the (100) peak of P3HT on the control and DHA obtained from GIWAXS measurements with various incidence angles (Fig.  2d, e ). The full-width at half-maximum of the corresponding azimuthal cuts indicates that the extent of edge-on orientation of the P3HT polymers on DHA is higher in all regions-regardless of the location on the P3HT film-than that of P3HT polymers on the control (Fig.  2f ). We consider that the alkyl chain of HTAB in the WBH interacts with the P3HT polymer, resulting in a highly oriented, self-assembled P3HT layer. We attained a power conversion efficiency (PCE) of 23.3% for the best-performing DHA-based perovskite solar cell, along with a stabilized PCE of 23.0% in a maximum power point tracking system (Fig.  3a ). It is especially notable that a PCE of greater than 23.0% is achieved by P3HT without any dopants as a HTM. Figure  3b  compares the photovoltaic performance of control and DHA devices using P3HT as the HTM. The DHA device achieved a certified photovoltaic performance of 22.7% with negligible hysteresis of ±0.51% at a credible photovoltaic laboratory (Extended Data Fig.  8 ). The DHA configuration thus shows a marked improvement in PCE, which is associated with an enhanced V OC and fill factor as well as an absence of hysteresis. Figure  3c  shows Mott-Schottky plots of control and DHA devices without electron-transport layers. These plots directly demonstrate the higher flat-band potential of the DHA device compared with the control device, which is related to an increase in V OC . To further investigate this, we fabricated DHA devices using other dopant-free HTMs. Although these devices also showed an enhanced V OC , the largest improvement was obtained using P3HT as the HTM (Extended Data Fig.  9 , Extended Data Table  2 ). This suggests that, among the tested HTMs, P3HT shows the greatest synergistic effect on photovoltaic performance in the DHA devices, because the WBH layer not only leads to a higher flat-band potential but also to the self-assembly of P3HT. Moreover, we found that the DHA device with P3HT has a lower series resistance (R s ) than the control device with P3HT, whereas the DHA film has a higher R s than the control perovskite film due to the high aliphatic content of the WBH (Extended Data Fig.  10 ). The lower R s in the DHA device supports interfacial charge transfer and transport through the WBH and P3HT layers under operation conditions, and accounts for the enhanced fill factor. A statistical analysis of the photovoltaic parameters of 27 corresponding devices reveals that the performance of the DHA device is reproducible (Fig.  3d ). Therefore, our strategy of constructing a DHA device with P3HT is considered to be effective in improving the interfacial contact between the perovskite and the P3HT, thereby achieving a considerable enhancement of the PCE. To explore the effect of the configuration of the DHA on its resistance to moisture, we monitored the long-term stability of control and DHA devices without any encapsulation under 85% relative humidity at room temperature (Fig.  4a ). The DHA device maintained nearly 80% of its initial efficiency after 1,008 h, whereas the control device was   Letter reSeArCH completely degraded within 200 h. Furthermore, we tested the operational stability of devices that were encapsulated with a face-sealing adhesive sheet, under continuous 1-Sun illumination at room temperature by tracking their maximum power point (Fig.  4b ). The DHA device showed substantial long-term stability, maintaining more than 95% of its initial PCE for 1,370 h, whereas the control device showed severe degradation within 100 h. Better interfacial contact between the perovskite and the HTM is therefore crucial for facilitating hole transfer at the interface, reducing the hysteresis of the device, and achieving long-term device stability against bias and light. As well as the performance of perovskite solar cells, another issue of importance to commercialization is their large-scale production. Recently, some promising progress has been made in the fabrication of highly uniform large-area perovskite films via scalable coating methods  26  . However, with the exception of spin-coating approaches, there have been few reports of the deposition of HTM on large-area modules  10, 16  . We fabricated DHA-based modules at a size of 5 cm × 5 cm (Fig.  4c , Extended Data Fig.  11 ) and used two different deposition methods-spin-coating and bar-coating-for deposition of the P3HT layer. The performance of both modules was similar, with high PCEs of 16.3% and 16.0% (average values obtained under reverse-and forward-bias scan directions) for devices fabricated using spin-coating and bar-coating, respectively (Fig.  4d ). This demonstrates that scalable methods for P3HT deposition can be applied to a DHA configuration without a reduction in performance. Our work establishes the potential of P3HT as a HTM using a double-layered halide architecture, and could contribute towards the realization of commercial perovskite solar cells. Voltage (V)   J SC (mA cm -2 ) V OC (V) FF (%) (%) &#13;</text>
+      <annotation id="25">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSD</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-18T08:25:21Z</infon>
+        <location offset="10925" length="18"/>
+        <text>ong-term stability</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">humidity</infon>
+        <infon key="identifier">85</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-18T08:25:29Z</infon>
+        <location offset="11003" length="3"/>
+        <text>85%</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">room temperature</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-18T08:25:38Z</infon>
+        <location offset="11028" length="16"/>
+        <text>room temperature</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">80</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-18T08:25:47Z</infon>
+        <location offset="11091" length="3"/>
+        <text>80%</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">time</infon>
+        <infon key="identifier">1008</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-18T08:25:55Z</infon>
+        <location offset="11127" length="5"/>
+        <text>1,008</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="type">efficiency_cont</infon>
+        <infon key="identifier">0</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-18T08:26:06Z</infon>
+        <location offset="11185" length="19"/>
+        <text>completely degraded</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">room temperature</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-18T08:27:12Z</infon>
+        <location offset="11377" length="16"/>
+        <text>room temperature</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="type">efficiency_cont</infon>
+        <infon key="identifier">0</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-18T08:28:14Z</infon>
+        <location offset="11592" length="18"/>
+        <text>severe degradation</text>
+      </annotation>
     </passage>
     <passage>
       <offset>13091</offset>
@@ -188,5 +249,30 @@
       <offset>28531</offset>
       <text>			 Extended data table 1 | Comparison of P3ht, PtAA and spiro-oMetAd in terms of hole-transport materials for perovskite solar cells a Certified power conversion efficiency in the accredited laboratory by NREL.b  We assume that the volume solution used is equal regardless of HTM for the deposition of hole-transport layers. We consider only the expense of the HTM, and not the solvent or other dopants such as bis(trifluoromethane) sulfonamide lithium salt or tert-butyl pyridine. c Prices were obtained from the Sigma-Aldrich website (http://www.sigmaaldrich.com; February 2019). d The values were determined by field-effect transistor devices and obtained from the pristine hole-transport materials [27] [28] [29]  . e This value was obtained even from a spiro-OMeTAD single-crystal device. The thin-film device had a hole mobility of 1.69 × 10 -6 cm 2 V -1 s -1 .</text>
     </passage>
+    <relation id="R2">
+      <infon key="type">test_2</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-18T08:28:41Z</infon>
+      <node refid="25" role=""/>
+      <node refid="26" role=""/>
+      <node refid="27" role=""/>
+      <node refid="28" role=""/>
+      <node refid="29" role=""/>
+      <node refid="30" role=""/>
+      <node refid="4" role=""/>
+      <node refid="3" role=""/>
+    </relation>
+    <relation id="R1">
+      <infon key="type">test_1</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-18T08:28:21Z</infon>
+      <node refid="7" role=""/>
+      <node refid="6" role=""/>
+      <node refid="8" role=""/>
+      <node refid="3" role=""/>
+      <node refid="31" role=""/>
+      <node refid="32" role=""/>
+      <node refid="4" role=""/>
+    </relation>
   </document>
 </collection>

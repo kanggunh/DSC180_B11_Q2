@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 136&#13;</text>
@@ -56,7 +55,7 @@
       <relation id="R1">
         <infon key="type">performance_1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T08:38:37Z</infon>
+        <infon key="updated_at">2025-02-17T03:49:53Z</infon>
         <node refid="1" role=""/>
         <node refid="2" role=""/>
         <node refid="3" role=""/>
@@ -65,6 +64,14 @@
     <passage>
       <offset>4292</offset>
       <text> Developing an amphiphilic molecular hole transporter The chemical structure of MPA-CPA is shown in Fig.  1A , whereas the molecular design, synthesis, and characterizations can be found in the supplementary materials. This amphiphilic molecule has a hydrophilic CPA anchoring group and a hydrophobic methoxyl-substituted triphenylamine (MPA) hole-extraction group. Unlike PTAA that can be only dissolved in lowpolarity solvents such as toluene and chlorobenzene, MPA-CPA can be dissolved in both high-and low-polarity solvents, including water, N,N-dimethylformamide, dimethyl sulfoxide, ethanol, isopropanol, ethyl acetate, chlorobenzene, and toluene (fig.  S1 ). We also tested the solubility of the well-known SAM, [2-(9H-carbazol-9yl)ethyl]phosphonic acid (2PACz), in different solvents  (24)  and found that it has a lower amphiphilicity than MPA-CPA. This difference likely results from the designed CPA group having enhanced hydrophilicity arising from a polar and electron-withdrawing cyano group adjacent to the phosphonic acid  (25) . We expected that after spin-coating a MPA-CPA solution onto the glass-indium tin oxide (ITO) substrate, a bilayer stack would form (Fig.  1B ) consisting of a chemically anchored SAM plus an unadsorbed, disordered overlayer. The overlayer composed of amphiphilic MPA-CPA (unadsorbed) displayed superwetting characteristics with regard to the perovskite precursor solution and had a small contact angle (~5°) that was beneficial to the perovskite deposition, in particular for larger-area substrates. In comparison, the contact angles of the perovskite solution on PTAA and 2PACz HTLs were 33.5°and 17.9°, respectively (Fig.  1 , C to E, and movie S1). The presence of the overlayer was important for the superwetting properties. The contact angle decreased after increasing the concentration of MPA-CPA in the spin-coating solution (fig.  S2  and movie S2); however, the spreading of perovskite solution was suppressed after washing the overlayer with a mixed solvent of DMF and DMSO, which pointed to the formation of a bilayer. &#13;</text>
+      <annotation id="25">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">[2-(9H-carbazol-9yl)ethyl]phosphonic acid</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T03:44:17Z</infon>
+        <location offset="5011" length="41"/>
+        <text>[2-(9H-carbazol-9yl)ethyl]phosphonic acid</text>
+      </annotation>
     </passage>
     <passage>
       <offset>6372</offset>
@@ -95,9 +102,9 @@
       </annotation>
       <annotation id="8">
         <infon key="type">hole_transport_layer</infon>
-        <infon key="identifier">2,2'-(9,6-diyl)bis(4-(1H-pyrazol-1-yl)-phenyl)amine,9-dimethyl-9H-carbazol-3</infon>
+        <infon key="identifier">[2-(9H-carbazol-9yl)ethyl]phosphonic acid</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T08:36:06Z</infon>
+        <infon key="updated_at">2025-02-13T03:44:12Z</infon>
         <location offset="6683" length="5"/>
         <text>2PACz</text>
       </annotation>
@@ -111,9 +118,9 @@
       <text> Photovoltaic performance To study the photovoltaic performance of different HTLs, we first fabricated small-area inverted PSCs (~0.1 cm 2 ) with a configuration of ITO/HTL/perovskite/C 60 /BCP/Ag. The concentration of MPA-CPA was optimized to be 1.0 mg/ml (in ethanol) to obtain the best performance (fig.  S22 ). Further fabrication details can be found in the supplementary materials. The current density-voltage (J-V) curves of champion devices based on different HTLs are shown in Fig.  4A , and the average performance parameters are discussed further below. The PTAA-based device showed a PCE of 22.6% with a moderate V OC of 1.13 V and a FF of 81.7% (Table  1 ). The 2PACz-based devices achieved a higher PCE of up to 23.4% that was mainly the result of the increased V OC of 1.17 V. However, the champion device of MPA-CPA exhibited a PCE of 25.2% with a V OC up to 1.20 eV (for a bandgap of 1.56 eV), a FF of up to 84.5%, and a shortcircuit current density (J SC ) of 24.8 mA cm -2 . This device had negligible hysteresis between the forward and the reverse J-V scan at a scan speed of 10 mV s -1 (fig.  S23 ). After setting up a reasonable model in SCAPS simulations  (35) , we can well reproduce the J-V curves as well as the PLQY values (fig.  S24 ). The stabilized power output measured near the maximum power point (MPP) with an applied voltage of 1.07 V resulted in a stabilized PCE of 24.7% without decay in 300 s (fig.  S25 ). Fig.  S26  shows the external quantum efficiency (EQE) spectrum of MPA-CPA based champion device, and the integrated current density of 24.3 mA cm -2 agreed well with the value from J-V measurement and was consistent for the perovskite with an optical band gap of 1.56 eV. We sent one of the MPA-CPA-based devices to an independent laboratory (Shanghai Institute of Microsystem and Information Technology, SIMIT, Shanghai, China) for certification, where a PCE of 25.4% (with V OC =1.21 V, FF = 84.7%, and J SC = 24.8 mA cm -2 ) was confirmed (fig.  S27 ). This value is among the highest reported PCEs for inverted PSCs (table  S4 ). Figure  4B , S28 and Table  S5  summarizes the statistical distribution of PCEs and related parameter values for PSCs based on different HTLs. The average PCEs were gradually enhanced from PTAA (21.6%) to 2PACz (23.1%) to MPA-CPA (24.6%), with the main contribution stemming from the simultaneous improvement   S5 ), which can be related to the highly reproducible fabrication of perovskites films arising from the superwetting properties of the HTL. For MPA-CPA-based devices, the highest V OC exceeds 1.21 V and the highest FF exceeds 85%. Compared with other reported high-performance inverted PSCs, our devices achieved the highest V OC -FF product (Fig.  4C ), which reflects the low nonradiative recombination and the low resistive losses in the MPA-CPA-based devices. We achieved the high-performance PSCs by using alcohol solvents for the amphiphilic MPA-CPA HTL (Fig.  4D , fig.  S30 , and table  S6 ). The universal effectiveness of MPA-CPA was further verified in other perovskite compositions such as a wide-bandgap (1.68 eV) triple cation relevant for tandem applications and a CsFA doublecation perovskite (fig.  S31  and table  S7 ). The amphiphilic hole transport bottom layer favors wetting and spreading of perovskite )    precursor solutions and enabled fabrication of 1 cm 2 PSCs (fig.  S32 ). The champion device had a PCE of 23.4% with a V OC of 1.19 eV, a FF of 80.9%, and a J SC of 24.27 mA cm -2 (Fig.  4E ). Additionally, we successfully fabricated a PSC minimodule with an active area of around 10 cm 2 and tested its J-V characteristics (Fig.  4F ). The PCE of the minimodule with 4 subcells reached 22.0%, with a J SC of 6.11 mA cm -2 , a V OC of 4.68 V, and a FF of 76.9%. The stability of solar modules based on different HTLs was evaluated under acceleratedaging conditions according to the International Summit on Organic Photovoltaic Stability (ISOS) protocols  (36) . Under continuous air mass 1.5 G 100 mW cm -2 illumination in ambient air in 30 to 40% relative humidity (RH) at ~45°C (ISOS-L-1, light only), the PCEs of all modules were almost unchanged within 500 hours of continuous operation (Fig.  4G ), and the MPA-CPAbased module retained &gt;90% of its initial PCE after 2000 hours (fig.  S33 ). In addition to the operational stability, we conducted the damp heat stability test following the IEC61215:2016 standard (Fig.  4H ). The MPA-CPA-based modules retained &gt;95% of their initial performance for 500 hours under the damp heat test (85°C and 85% RH). Voltage (V) Forward Reverse V OC (V) 1. &#13;</text>
       <annotation id="9">
         <infon key="type">electron_transport_layer</infon>
-        <infon key="identifier">buckminsterfullerene</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T08:37:28Z</infon>
+        <infon key="identifier">C60</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-12T09:51:30Z</infon>
         <location offset="15931" length="4"/>
         <text>C 60</text>
       </annotation>
@@ -149,15 +156,15 @@
         <location offset="16531" length="7"/>
         <text>1.17 V.</text>
       </annotation>
-      <annotation id="15">
+      <annotation id="14">
         <infon key="type">humidity</infon>
         <infon key="identifier">30-40</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T08:40:55Z</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-12T17:22:22Z</infon>
         <location offset="19806" length="9"/>
         <text>30 to 40%</text>
       </annotation>
-      <annotation id="16">
+      <annotation id="15">
         <infon key="type">temperature</infon>
         <infon key="identifier">45</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -165,7 +172,7 @@
         <location offset="19843" length="4"/>
         <text>45°C</text>
       </annotation>
-      <annotation id="14">
+      <annotation id="16">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSL1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -183,17 +190,17 @@
       </annotation>
       <annotation id="18">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.9</infon>
+        <infon key="identifier">90</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T08:41:24Z</infon>
+        <infon key="updated_at">2025-02-13T03:44:34Z</infon>
         <location offset="20010" length="3"/>
         <text>90%</text>
       </annotation>
       <annotation id="19">
-        <infon key="type">temperature</infon>
+        <infon key="type">time</infon>
         <infon key="identifier">2000</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T08:41:30Z</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-12T17:31:19Z</infon>
         <location offset="20039" length="10"/>
         <text>2000 hours</text>
       </annotation>
@@ -207,9 +214,9 @@
       </annotation>
       <annotation id="21">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.95</infon>
+        <infon key="identifier">95</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T08:42:09Z</infon>
+        <infon key="updated_at">2025-02-13T03:44:38Z</infon>
         <location offset="20233" length="4"/>
         <text>&gt;95%</text>
       </annotation>
@@ -240,10 +247,10 @@
       <relation id="R4">
         <infon key="type">test_1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T08:41:49Z</infon>
+        <infon key="updated_at">2025-02-17T03:49:53Z</infon>
+        <node refid="16" role=""/>
         <node refid="14" role=""/>
         <node refid="15" role=""/>
-        <node refid="16" role=""/>
         <node refid="17" role=""/>
         <node refid="18" role=""/>
         <node refid="19" role=""/>
@@ -251,7 +258,7 @@
       <relation id="R5">
         <infon key="type">test_2</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T08:42:40Z</infon>
+        <infon key="updated_at">2025-02-17T03:49:53Z</infon>
         <node refid="20" role=""/>
         <node refid="21" role=""/>
         <node refid="22" role=""/>
@@ -531,7 +538,7 @@
     <relation id="R2">
       <infon key="type">performance_2</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T08:38:55Z</infon>
+      <infon key="updated_at">2025-02-17T03:49:53Z</infon>
       <node refid="7" role=""/>
       <node refid="10" role=""/>
       <node refid="11" role=""/>
@@ -539,7 +546,7 @@
     <relation id="R3">
       <infon key="type">performance_3</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T08:39:08Z</infon>
+      <infon key="updated_at">2025-02-17T03:49:53Z</infon>
       <node refid="12" role=""/>
       <node refid="13" role=""/>
       <node refid="8" role=""/>

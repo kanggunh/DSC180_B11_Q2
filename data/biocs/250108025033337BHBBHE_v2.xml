@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 57&#13;</text>
@@ -21,7 +20,7 @@
     <passage>
       <offset>145</offset>
       <text>Recent advancements in perovskite solar cell performance were achieved by stabilizing the α-phase of FAPbI 3 in nip-type architectures. However, these advancements could not be directly translated to pin-type devices. Here, we fabricated a high-quality double cation perovskite (MA 0.07 FA 0.93 PbI 3 ) with low bandgap energy (1.54 eV) using a two-step approach on a standard polymer (PTAA). The perovskite films exhibit large grains (∼1 μm), high external photoluminescence quantum yields of 20%, and outstanding Shockley-Read-Hall carrier lifetimes of 18.2 μs without further passivation. The exceptional optoelectronic quality of the neat material was translated into efficient pin-type cells (up to 22.5%) with improved stability under illumination. The low-gap cells stand out by their high fill factor (∼83%) due to reduced charge transport losses and short-circuit currents &gt;24 mA cm -2 . Using intensity-dependent quasi-Fermi level splitting measurements, we quantify an implied efficiency of 28.4% in the neat material, which can be realized by minimizing interfacial recombination and optical losses.&#13;</text>
-      <annotation id="2">
+      <annotation id="1">
         <infon key="type">structure_pin_nip</infon>
         <infon key="identifier">PIN</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -29,7 +28,7 @@
         <location offset="345" length="3"/>
         <text>pin</text>
       </annotation>
-      <annotation id="1">
+      <annotation id="2">
         <infon key="type">perovskite_composition</infon>
         <infon key="identifier">MA0.07FA0.93PbI3</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -59,9 +58,9 @@
       </annotation>
       <annotation id="5">
         <infon key="type">electron_transport_layer</infon>
-        <infon key="identifier">buckminsterfullerene</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-24T12:09:00Z</infon>
+        <infon key="identifier">C60</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-12T09:54:08Z</infon>
         <location offset="8855" length="4"/>
         <text>C 60</text>
       </annotation>
@@ -107,9 +106,9 @@
       </annotation>
       <annotation id="11">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.95</infon>
+        <infon key="identifier">95</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-24T12:29:04Z</infon>
+        <infon key="updated_at">2025-02-13T05:02:36Z</infon>
         <location offset="16313" length="3"/>
         <text>95%</text>
       </annotation>
@@ -229,7 +228,7 @@
     <relation id="R1">
       <infon key="type">test_1</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-24T12:30:59Z</infon>
+      <infon key="updated_at">2025-02-17T03:50:03Z</infon>
       <node refid="9" role=""/>
       <node refid="10" role=""/>
       <node refid="11" role=""/>

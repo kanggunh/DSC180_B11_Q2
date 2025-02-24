@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 123&#13;</text>
@@ -71,9 +70,9 @@
       </annotation>
       <annotation id="7">
         <infon key="type">temperature</infon>
-        <infon key="identifier">55</infon>
+        <infon key="identifier">55+-5</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T02:42:34Z</infon>
+        <infon key="updated_at">2025-02-13T03:52:01Z</infon>
         <location offset="935" length="9"/>
         <text>55°± 5°C.</text>
       </annotation>
@@ -81,7 +80,7 @@
     <passage>
       <offset>949</offset>
       <text>P erovskite solar cells (PSCs) have reached power conversion efficiencies (PCEs) &gt;25% in regular (n-i-p) PSCs (1-5), but for inverted (p-i-n) PSCs, PCEs are between 22 and 23%  (6, 7) . The origin of this inferior performance is unclear, but different heterojunction contacts could be the underlying cause  (8) . Nonradiative recombination occurs at the contacts with the carrier transporting layer  (9, 10) , so it is the contact heterojunction, rather than the perovskite or transporting layer itself, that limits PSC performance. In regular PSCs, perovskite within the mesoporous scaffold tends to be more n-type in nature than bulk perovskite, which induces an extra field to promote electron extraction through band bending at this contact interface  (11) . In inverted PSCs, the p-type nature of the perovskite film in direct contact with the n-type electron transporting layer induces efficiency  (6, 12, 13) . Thus, in inverted PSCs, it is necessary to control the semiconductor nature at the perovskite interface. The contact properties at the perovskite heterojunction also influence device stability. At the contact interface, perovskite components are assembled with weak chemical bonds, such as ionic bonds, hydrogen bonds, and van der Waals interactions  (14) (15) (16) . The resulting soft nature of the perovskite interface makes it susceptible to attack from ambient air and water  (17, 18) . Perovskite components will also diffuse and penetrate the transporting layer, degrade the heterojunction  (19, 20)  and the transporting layer  (21, 22) , and even corrode the electrode  (23) . Many organic molecules can passivate the perovskite interface with secondary bonds, such as hydrogen bonds, coordination interactions, or ionic bonds  (24) (25) (26) (27) , but these weak secondary bonds still lead to stability issues  (28) . Motivated by the n-type and stable inorganic nature of PbS, we proposed a surface sulfidation treatment (SST) to construct stable heterojunctions for inverted PSCs. After SST, perovskites exhibited a shallow Fermi level (became more n-type), which induced an extra back-surface field at the perovskite interface through band bending. This field was in the same direction as the built-in potential (V bi ) of inverted PSCs. PSCs with SST had PCEs &gt;24% with a high open-circuit voltage (V oc ) of 1.19 V, corresponding to a low voltage loss of 0.36 V in a formamidine (FA)-based perovskite system (bandgap of 1.55 eV). The Pb-S bond was much stronger than the Pb-I bond; the solubility product constant of PbS (K sp of 1.0 × 10 -28 ) was 19 orders of magnitude smaller than that of PbI 2 (7.1 × 10 -9 ). The S 2-anions would strongly bond with Pb ions at the perovskite interface and inhibit degradation reactions. The similar crystal lattice between PbS and the perovskite should also stabilize the crystal structure of FA-based perovskite (29)  (30) . The resulting SST PSCs retained 91.8% of initial efficiency after aging at 85°C for 2200 hours. Notably, the operational stability was also greatly improved, and &gt;90% of the initial PCE was retained after maximum power point (MPP) tracking under continuous illumination for 1000 hours at 55°± 5°C. In the SST method (Fig.  1A ), a Pb-rich perovskite surface was formed by spin-coating pyridine-2-carboxylic lead (PbPyA 2 ), and it was sulfurized with hexamethyldisilathiane (TMS)  (31) , which can react with solid-phase PbPyA 2 (fig.  S1 ). We used PbPyA 2 because of its defect passivation function  (32)  and its high solubility in nonaqueous solvent, which preserved the underlying perovskite layer. X-ray photoelectron spectroscopy (XPS; Fig.  1B ) showed a broadening peak and increasing peak area in Pb 4f after PbPyA 2 deposition (table  S1 ), whereas the I 3d peak decreased (fig.  S2 ). After depositing TMS, the S 1s peak appeared at 162.0 and 160.8 eV (Fig.  1B ). This result confirmed perovskite sulfidation because TMS volatilized during thermal annealing. The Pb 4f peak shifted by 0.3 eV to a higher binding energy in perovskite with SST (Fig.  1B ), which should be caused by the strong bonding between S and Pb. The control perovskite exhibited uniform morphology with obvious grains and boundaries under scanning electron microscopy (SEM; Fig.  1C ). In Pb-rich perovskite, some bright signal appeared, which we attributed to the Pb-rich sites, given the poor conductivity of PbPyA 2 . When further treated with TMS, the bright signal disappeared and some new species appeared, indicating sulfidation of Pb-rich perovskite (fig.  S3 ). In SEM-energydispersive x-ray spectroscopy (EDX), the signal from the Pb element overlapped with that from S, so we used Sn-based perovskite (FASnI 3 ) instead. In SEM-EDX mapping, the S element represented the sulfidation area and the Sn element represented the perovskite phase. The S element signal at ~2.4 keV (total element spectra in fig.  S4A ) covered the entire SEM images (Fig.  1D ), indicating uniform sulfidation. An extra intact layer was observed in cross-sectional SEM images, and EDX mapping showed that this layer was S-rich (Fig.  1E ; see total element spectra in fig.  S4B ). The SST strategy also passivated defects at the perovskite interface. Previous studies confirmed that surface defects would redshift photoluminescence (PL)  (33) . The control perovskite exhibited a PL peak at 789 versus 783 nm in SST perovskite (Fig.  2A ); this blue shift was evidence of defect passivation (traps density shown in fig.  S5 ), which should be caused by the Pb-S bonds. Time-resolved PL (TRPL; Fig.  2B ) indicated that the control perovskite exhibited a decay lifetime of 462 versus 706 ns for SST perovskite, which was indicative of a lower recombination rate. However, the improved lifetime of 706 ns was insufficient to ensure the high V oc of PSCs with SST (1.19 V; see below) according to previous reports.  (34, 35)  Introducing an extra back-surface field is an effective method to improve device V oc and has been widely applied in Si-based solar cells. The energy level of the control perovskite (or bulk perovskite) and the perovskite surface with SST (Fig.  2C ) was obtained from ultraviolet photoelectron spectroscopy (fig.  S6 ) and the Tauc plot of ultraviolet-visible absorption spectra (fig.  S7 ). The control perovskite (perovskite bulk) was p-type and had a Fermi level of 4.93 eV, a conduction band (CB) of 3.69 eV, and a valance band (VB) of 5.24 eV, in agreement with previous reports.  (8, 12)  The SST perovskite was a weak n-type surface with a shallow Fermi level of 4.64 eV, CB of 4.01 eV, and VB of 5.44 eV. Electrons will spontaneously flow from surface to bulk because of the shallow Fermi level of the SST perovskite surface. Positive charge that accumulated at the perovskite surface would form a backsurface field pointing toward the indium tin oxide (ITO) (Fig.  2D ) aligned with V bi in inverted PSCs. The improved electron transport and inhibited hole transport would then increase the device's V oc . We verified the V bi improvement of PSCs with SST using Mott-Schottky plot analysis (testing details in figs. S8 and S9)  (35, 36) . As shown in Fig.  3A , PSCs with SST had a V bi of 1.21 versus 1.07 V in control devices. We fabricated inverted PSCs with a configuration of ITO/P3CT-N/(FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05 / PCBM/C60/TPBi/Cu {where P3CT-N is poly   Fig.  3C , the Cu electrode of PSCs became black after MPP tracking, indicating severe degradation  (23) . Only 77.6% of the initial PCE was retained in control PSCs after MPP tracking for 600 hours. In PSCs with SST, no obvious change in the Cu electrode was observed. PSCs with SST retained 90.5% of their initial PCE after continuous MPP tracking for 1000 hours under illumination at 55°± 5°C (Fig.  3C , with non-normalized data in fig.  S20A ). Thermal stability was also greatly improved in PSCs with SST, and 91.8% of the initial PCE was retained after aging at 85°C for 2200 hours (Fig.  3D ), whereas control PSCs retained only 73.2% of the initial PCE after 1000 hours (nonnormalized data in fig.  S20B ). In PSCs, ion migration or diffusion is a major cause for device degradation that cannot be avoided by encapsulation. Ion diffusion in PSCs induced degradation of perovskite and perovskite/PCBM heterojunctions  (22)  and also corroded metal electrodes  (23) . The color variations of the Cu electrode in control PSCs confirmed the electrode corrosion, which should be caused by I -ion diffusion during MPP tracking (inset of Fig.  3C ). To verify this point, we removed the Cu electrode of PSCs after MPP tracking (fig.  S21  and movie S1) and measured the exposed PCBM with SEM-EDX. In control PSCs, almost no perovskite morphology was distinguished and a strong I signal appeared in the PCBM layer (Fig.  4A , with total element spectra in fig.  S22A ), indicating the degradation of the perovskite interface and severe ion diffusion. In PSCs with SST, perovskite grains were still distinguished and the I signal was very weak (Fig.  4B , with total element spectra in fig.  S22B ), indicative of a well-protected perovskite interface. We also used Kelvin probe force microscopy (KPFM) to investigate the electrical properties of the exposed PCBM layer. In PSCs with SST, the PCBM layer after MPP tracking showed a surface potential similar to that of the PCBM layer in fresh devices (Fig.  4C ), whereas in control PSCs, the surface potential showed large fluctuations and low potential areas (dark regions in Fig.  4C ) appeared randomly after MPP tracking. We therefore conclude that besides improving device efficiency, SST also effectively inhibits ion migration and protects the PCBM layer in inverted PSCs, thus increasing device stability. &#13;</text>
-      <annotation id="11">
+      <annotation id="8">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">sulfide</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -89,15 +88,15 @@
         <location offset="3862" length="3"/>
         <text>SST</text>
       </annotation>
-      <annotation id="8">
+      <annotation id="9">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.918</infon>
+        <infon key="identifier">91.8</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T02:43:26Z</infon>
+        <infon key="updated_at">2025-02-13T03:52:04Z</infon>
         <location offset="3880" length="5"/>
         <text>91.8%</text>
       </annotation>
-      <annotation id="9">
+      <annotation id="10">
         <infon key="type">temperature</infon>
         <infon key="identifier">85</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -105,7 +104,7 @@
         <location offset="3923" length="6"/>
         <text>85°C f</text>
       </annotation>
-      <annotation id="10">
+      <annotation id="11">
         <infon key="type">time</infon>
         <infon key="identifier">2200</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -113,7 +112,7 @@
         <location offset="3932" length="10"/>
         <text>2200 hours</text>
       </annotation>
-      <annotation id="14">
+      <annotation id="12">
         <infon key="type">hole_transport_layer</infon>
         <infon key="identifier">P3CT-N</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -129,47 +128,47 @@
         <location offset="8247" length="31"/>
         <text>FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05</text>
       </annotation>
-      <annotation id="12">
+      <annotation id="14">
         <infon key="type">electron_transport_layer</infon>
-        <infon key="identifier">buckminsterfullerene</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T02:48:30Z</infon>
+        <infon key="identifier">C60</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-12T09:52:47Z</infon>
         <location offset="8286" length="3"/>
         <text>C60</text>
       </annotation>
-      <annotation id="19">
+      <annotation id="15">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.776</infon>
+        <infon key="identifier">77.6</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T02:52:03Z</infon>
+        <infon key="updated_at">2025-02-13T03:52:10Z</infon>
         <location offset="8434" length="5"/>
         <text>77.6%</text>
       </annotation>
-      <annotation id="20">
+      <annotation id="16">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.905</infon>
+        <infon key="identifier">90.5</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T02:52:46Z</infon>
+        <infon key="updated_at">2025-02-13T03:52:17Z</infon>
         <location offset="8615" length="5"/>
         <text>90.5%</text>
       </annotation>
-      <annotation id="21">
+      <annotation id="17">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.732</infon>
+        <infon key="identifier">73.2</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T02:53:49Z</infon>
+        <infon key="updated_at">2025-02-13T03:52:26Z</infon>
         <location offset="8959" length="5"/>
         <text>73.2%</text>
       </annotation>
       <relation id="R1">
         <infon key="type">test_1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T02:53:57Z</infon>
-        <node refid="11" role=""/>
+        <infon key="updated_at">2025-02-17T03:49:54Z</infon>
         <node refid="8" role=""/>
         <node refid="9" role=""/>
         <node refid="10" role=""/>
-        <node refid="21" role=""/>
+        <node refid="11" role=""/>
+        <node refid="17" role=""/>
       </relation>
     </passage>
     <passage>
@@ -183,7 +182,7 @@
     <passage>
       <offset>15865</offset>
       <text> [3-(methylamine-5-pentanoate)thiophene-2,5diyl] (37, 38); PCBM is [6,6]-phenyl-C 61 -butyric acid methyl ester; and TPBi is 1,3,5-tris(1phenyl-1H-benzimidazol-2-yl)benzene}. Inverted PSCs with SST exhibited a PCE of 24.3% with V oc up to 1.19 V in agreement with the V bi from Mott-Schottky plots (Fig. 3B; see certified PCE of 23.5% in fig. S10, PCE dependence on SST thickness in fig. S11, and device hysteresis in fig. S12). The stabilized PCE under MPP reached 24.2% (fig. S13A). Control PSCs had lower PCEs of 21.8% (stabilized PCE of 21.0%; fig. S13A) mainly because of the lower V oc of 1.09 V. In addition, the device fill factor (FF) was also increased from 80.0 to 82.9% in PSCs with SST. Both control and SST-based devices exhibited high external quantum efficiency values (fig. S13B), in agreement with their similar short-circuit current density from current density-voltage (J-V) curves. PSCs with the commonly used phenethylammonium iodide (PEAI) passivator were also fabricated, and limited improvement was observed (PCE of 22.4%; fig. S14). Statistical analysis indicated good reproducibility in PSCs with SST, with an average efficiency of 23.3 ± 0.5% among 50 separate devices (figs. S15 and S16). SST PSCs with an area of 1 cm 2 showed a PCE of 20.7% with a high V oc of 1.17 V (fig. S17). In methylammonium (MA)-free Cs 0.05 FA 0.95 PbI 3 PSCs, SST also worked well and increased PCE from 21.1 to 23.5% (fig. S18 and certified PCE of 23.4% in fig. S19). Device stability under MPP tracking is important for PSCs because illumination and external field (load) can degrade the soft perovskite interface. As shown in the inset of &#13;</text>
-      <annotation id="15">
+      <annotation id="18">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">24.3</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -191,7 +190,7 @@
         <location offset="16082" length="5"/>
         <text>24.3%</text>
       </annotation>
-      <annotation id="16">
+      <annotation id="19">
         <infon key="type">treated_voc</infon>
         <infon key="identifier">1.19</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -199,7 +198,7 @@
         <location offset="16104" length="6"/>
         <text>1.19 V</text>
       </annotation>
-      <annotation id="17">
+      <annotation id="20">
         <infon key="type">control_pce</infon>
         <infon key="identifier">21.8</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -207,7 +206,7 @@
         <location offset="16381" length="5"/>
         <text>21.8%</text>
       </annotation>
-      <annotation id="18">
+      <annotation id="21">
         <infon key="type">control_voc</infon>
         <infon key="identifier">1.09</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -291,12 +290,12 @@
     <relation id="R2">
       <infon key="type">test_2</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T02:53:22Z</infon>
+      <infon key="updated_at">2025-02-17T03:49:54Z</infon>
       <node refid="5" role=""/>
       <node refid="6" role=""/>
       <node refid="7" role=""/>
-      <node refid="20" role=""/>
-      <node refid="19" role=""/>
+      <node refid="16" role=""/>
+      <node refid="15" role=""/>
     </relation>
   </document>
 </collection>

@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 138&#13;</text>
@@ -41,15 +40,15 @@
         <location offset="2452" length="5"/>
         <text>25.3%</text>
       </annotation>
-      <annotation id="11">
+      <annotation id="2">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.95</infon>
+        <infon key="identifier">95</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T09:23:52Z</infon>
+        <infon key="updated_at">2025-02-13T03:45:30Z</infon>
         <location offset="2668" length="3"/>
         <text>95%</text>
       </annotation>
-      <annotation id="12">
+      <annotation id="3">
         <infon key="type">temperature</infon>
         <infon key="identifier">65</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -57,7 +56,7 @@
         <location offset="2713" length="5"/>
         <text>65 °C</text>
       </annotation>
-      <annotation id="13">
+      <annotation id="4">
         <infon key="type">humidity</infon>
         <infon key="identifier">50</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -65,7 +64,7 @@
         <location offset="2723" length="3"/>
         <text>50%</text>
       </annotation>
-      <annotation id="14">
+      <annotation id="5">
         <infon key="type">time</infon>
         <infon key="identifier">1000</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -77,7 +76,7 @@
     <passage>
       <offset>6741</offset>
       <text> Molecular dynamics simulations We sought to deepen understanding of how phosphonic acids interact with textured TCOs. We began by looking at the case of 2-(9H-carbazol-9-yl)ethyl)phosphonic acid (2PACz), an organic molecule (Fig.  1a ) capable of forming SAMs on TCOs  14  , and investigated its interactions with FTO. 2PACz has found extensive applications as a hole-selective contact in PSCs in view of its excellent defect passivation and deep highest occupied molecular orbital level  21  . The surface properties of FTO were approximated using tin oxides (SnO 2 ), since commercial FTO has a fluorine-doping level under 0.5% (atomic percentage)  23  . Flat versus corrugated SnO 2 was analysed to understand the effects of surface morphology (Supplementary Fig.  1 ). Molecular dynamics simulations suggest that 2PACz molecules can agglomerate, forming dimers, trimers and tetramers (Fig.  1b  and Supplementary Fig.  2 ). Within the initial 1 nanosecond of simulations, 90% of the final number of clusters has been reached (Fig.  1b ), and dimers were the most prevalent among those clusters (Fig.  1c ). Compared to flat surfaces, textured surfaces led to more clusters (for example, 7 versus 0 for 20 2PACz molecules on 6 nm wide SnO 2 ) (Supplementary Note 1 and Supplementary Figs.  3  and 4 ). The cluster formation is closely linked to the inhomogeneity of SAMs on FTO. For instance, when 162 2PACz molecules are positioned on top of textured SnO 2 surfaces, despite their initial random distribution (Supplementary Video 1), the final equilibrated structures exhibit clear phase segregation (Fig.  1d ), in which almost 85% of the SnO 2 surface remains uncovered by any 2PACz molecules (Supplementary Fig.  5 ). These observations were also verified in a larger system (22 nm width; 1,134 2PACz molecules) (Supplementary Fig.  6 ). Reasoning that a thiol group (-SH) could interact with phosphonic acids and a carboxyl group (-COOH) attached to FTO, we introduced 3-mercaptopropionic acid (3-MPA) (Fig.  1a ) in simulations to break apart 2PACz clusters, particularly on textured substrates. The approach is akin to the co-adsorbent strategy used in dye-sensitized solar cells to reduce dye aggregation on titanium oxides  24  . Similar strategies have been used to improve the quality of hole-selective SAMs  25, 26  . With 3-MPA at a molar ratio of 1:9 with 2PACz, we saw a relative 15% decrease in the number of clusters on textured surfaces (Fig.  1b ), and a slower formation rate (20 ns -1 versus 28 ns -1 ) (Supplementary Fig.  7 ). In particular, the higher order clusters (trimers and tetramers) decreased by 53% (Fig.  1c ). As a result, the mixed system shows less phase segregation (Fig.  1e  and Supplementary Video 2), leading to extended surface coverage (67% versus 15%) by 2PACz molecules (Supplementary Fig.  5 ). Ab initio molecular dynamics (AIMD) simulations (Supplementary Note 2 and Supplementary Fig.  8 ) indicate that the presence of 3-MPA hinders the free movement of individual 2PACz molecules by forming a supramolecular structure (Fig.  1f ). This reduces agglomeration with already formed dimers, suppressing the formation of higher-order clusters (Supplementary Video 3). Density functional theory (DFT) calculations revealed surface binding energies of -3.2 eV and -2.6 eV for 2PACz and 3-MPA, respectively, which are much stronger than the interaction energies of 2PACz clusters (-0.3 to -0.1 eV per molecule). This indicates robust anchoring of 2PACz and 3-MPA molecules on contact with substrate surfaces. &#13;</text>
-      <annotation id="2">
+      <annotation id="6">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">2-(9H-carbazol-9-yl)ethyl)phosphonic acid</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -85,7 +84,7 @@
         <location offset="6895" length="41"/>
         <text>2-(9H-carbazol-9-yl)ethyl)phosphonic acid</text>
       </annotation>
-      <annotation id="9">
+      <annotation id="7">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">2-(9H-carbazol-9-yl)ethyl)phosphonic acid</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -93,7 +92,7 @@
         <location offset="6938" length="5"/>
         <text>2PACz</text>
       </annotation>
-      <annotation id="3">
+      <annotation id="8">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">3-mercaptopropionic acid</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -101,7 +100,7 @@
         <location offset="8719" length="24"/>
         <text>3-mercaptopropionic acid</text>
       </annotation>
-      <annotation id="4">
+      <annotation id="9">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">3-mercaptopropionic acid</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -109,7 +108,7 @@
         <location offset="8744" length="6"/>
         <text>(3-MPA</text>
       </annotation>
-      <annotation id="5">
+      <annotation id="10">
         <infon key="type">treatment_element</infon>
         <infon key="identifier">3-MPA at a molar ratio of 1:9 with 2PACz</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -129,7 +128,7 @@
     <passage>
       <offset>15585</offset>
       <text> Characterization of perovskite films To investigate the impact of SAMs on the structural and optoelectronic properties of perovskites, we fabricated triple-cation Cs 0.05 MA 0.10 FA 0.85 PbI 3 perovskite thin films on different FTO/SAM substrates. From scanning electron microscopy (SEM), we observed no notable change in the perovskite surface morphology when 3-MPA was incorporated into the SAM (Fig.  3a, b ). Grazing incidence wide-angle X-ray scattering (GIWAXS) measurements showed nearly identical crystal structures for perovskites deposited on both the control and mixed SAMs (Fig.  3c ). Here, the main constituent was photoactive α-phase perovskites, with traces of the 4H hexagonal phase detected at q = 0.82 Å -1 and 0.92 Å -1 as well as PbI 2 at q = 0.90 Å -1 , respectively (Supplementary Fig.  14 )  33  . Time-of-flight secondary ion mass spectrometry (TOF-SIMS) further confirmed that both 3-MPA and 2PACz molecules, owing to their chemisorption on FTO surfaces, remained localized at the perovskite-FTO interfaces (Fig.  3d, e ). These findings suggest that 3-MPA is not likely to change the perovskite formation process or contribute to the grain boundary or top surface passivation. We conducted photoluminescence characterization by exciting perovskite thin films at a 1 sun equivalent photon flux. We saw an average photoluminescence quantum yield (PLQY) of 0.13% ± 0.02% for perovskites directly deposited onto FTO substrates, corresponding to a quasi-Fermi level splitting of 1.105 eV (Supplementary Table  1 )  34  . 2PACz can passivate defects on metal oxide surfaces and effectively block electron injection  35  , resulting in an approximately 50-fold increase in the photoluminescence intensity (Fig.  3f ). We noted an average PLQY of 7% ± 2% for the perovskite/2PACz/FTO stacks (Fig.  3g ), corresponding to a quasi-Fermi level splitting of 1.207 eV. The incorporation of 3-MPA further improved the average PLQY to 10% ± 1%. This we ascribed to better SAM coverage rather than 3-MPA passivation, as the thiol group of 3-MPA was embedded within the SAM (Fig.  1f ). We used ultraviolet and inverse photoelectron spectroscopy (UPS and IPES) to determine the work function and transport energy levels of perovskites and SAMs. The secondary electron cutoff in the UPS spectra indicated an increase in the work function from 4.56 to 4.93 eV on depositing the control SAM on the FTO substrate (Supplementary Fig.  18 ). 3-MPA led to an additional work function shift of +100 meV. The ionization energy was 5.51 and 5.64 eV for the control and mixed SAMs, respectively. By contrast, perovskites exhibited similar conduction band minima and valance band maxima on different substrates (Fig.  3h ). The resultant energy-level diagrams of perovskites and SAMs are depicted in Fig.  3i, j . A vacuum level shift of 0.17 eV was recorded between the perovskite and the 2PACz bilayer, which further increased to 0.32 eV for the perovskite/mixed SAM bilayer  36  . A higher vacuum level shift indicates an enlarged built-in field  37  , which in PSCs can lead to enhanced carrier extraction  38  . Meanwhile, the ionization energy offset between the bilayer remained consistent for the control and mixed SAMs (referenced to the Fermi level (E F )). &#13;</text>
-      <annotation id="6">
+      <annotation id="11">
         <infon key="type">perovskite_composition</infon>
         <infon key="identifier">Cs0.05MA0.10FA0.85PbI3</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -141,7 +140,7 @@
     <passage>
       <offset>18860</offset>
       <text> Solar cell efficiency and stability We fabricated PSCs with the following inverted structure: FTO/SAM/ perovskites/3,4,5-trifluoroanilinium (345FAn)/fullerene (C 60 )/bathocuproine (BCP)/Ag (Fig.  4a  and Supplementary Fig.  19 ). 345FAn was selected for interface engineering because of its thermal stability  1  . 2PACz (control) and 2PACz:3-MPA (mixed) were used as the SAMs for   &#13;</text>
-      <annotation id="7">
+      <annotation id="12">
         <infon key="type">structure_pin_nip</infon>
         <infon key="identifier">NIP</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -149,7 +148,7 @@
         <location offset="18955" length="95"/>
         <text>FTO/SAM/ perovskites/3,4,5-trifluoroanilinium (345FAn)/fullerene (C 60 )/bathocuproine (BCP)/Ag</text>
       </annotation>
-      <annotation id="8">
+      <annotation id="13">
         <infon key="type">control_element</infon>
         <infon key="identifier">2-(9H-carbazol-9-yl)ethyl)phosphonic acid</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -185,7 +184,7 @@
     <passage>
       <offset>28541</offset>
       <text> Stability tests of solar cells Devices were placed in a homemade stability tracking station. The illumination source was a white-light LED with intensity calibrated to match the 1 sun condition. For the ISOS-L-3 ageing protocol (65 or 85 °C; 50% relative humidity; MPP)  56  , the device chamber was left open in a room with 50 ± 10% humidity and the solar cell was mounted on a metal plate kept at 65 °C by a heating element. A thermal couple attached to the metal plate was used to monitor and provide feedback control to the heating element to ensure temperature consistency. MPP was tracked using a home-built MATLAB-based MPP tracking system using a 'perturb and observe' method. The MPP was updated every 1,000 min. Encapsulation was done by capping the device with a glass slide, using UV adhesive (Lumtec LT-U001) as a sealant. &#13;</text>
-      <annotation id="10">
+      <annotation id="14">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSL3</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -253,13 +252,13 @@
     <relation id="R1">
       <infon key="type">test_1</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T09:24:46Z</infon>
-      <node refid="10" role=""/>
-      <node refid="11" role=""/>
-      <node refid="12" role=""/>
-      <node refid="13" role=""/>
+      <infon key="updated_at">2025-02-17T03:49:53Z</infon>
       <node refid="14" role=""/>
+      <node refid="2" role=""/>
+      <node refid="3" role=""/>
+      <node refid="4" role=""/>
       <node refid="5" role=""/>
+      <node refid="10" role=""/>
     </relation>
   </document>
 </collection>
