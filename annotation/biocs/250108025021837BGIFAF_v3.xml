@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source/>
+  <date/>
+  <key/>
+  <document>
+    <id>250108025021837BGIFAF</id>
+    <infon key="tt_curatable">no</infon>
+    <infon key="tt_version">3</infon>
+    <infon key="tt_round">3</infon>
+    <passage>
+      <offset>0</offset>
+      <text>Paper #: 0&#13;</text>
+    </passage>
+    <passage>
+      <offset>11</offset>
+      <text>Interfacial engineering from material to solvent: A mechanistic understanding on stabilizing α-formamidinium lead triiodide perovskite photovoltaics&#13;</text>
+    </passage>
+    <passage>
+      <offset>161</offset>
+      <text>Formamidinium lead triiodide (FAPbI 3 ) has recently been considered as the most promising candidate to achieve highly efficient perovskite solar cells (PSCs). Excitingly, the state-of-the-art highest efficiency of FAPbI 3 based PSCs have reached over 25%. However, their device stability still lags behind other compositions of mixed-cation and mixed-halide perovskites. Interfacial engineering is a very powerful method to address this issue and passivation agents have been intensively developed, however there is a lack of in-depth understanding regarding the solvent selection during post-treatment. Here, we employed cyclohexylmethylammonium iodide (CMAI) as passivation agent, which is investigated using either isopropanol (IPA) or chloroform (CF) as carrier mediator to study the solvent influence on the stabilization of FAPbI 3 . We observed a suppressed-defect perovskite surface toward distinguished composition with 2D CMA 2 PbI 4 domain and CMAI domain induced by IPA and CF, respectively. Remarkably, post-treatment with solution of CMAI in CF creates a strain-free environment on the perovskite surface, leading to an improved efficiency of approaching 24% and concurrently an extraordinarily stable α-phase FAPbI 3 PSCs under operation condition, retaining 95% of its initial efficiency after 1050-hour aging. Our resulting device stability is one of the most stable FAPbI 3 based PSCs reported in literature.&#13;</text>
+      <annotation id="1">
+        <infon key="type">control_pce</infon>
+        <infon key="identifier">24</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T09:34:35Z</infon>
+        <location offset="1331" length="2"/>
+        <text>24</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>1590</offset>
+      <text>Introduction Hybrid organic-inorganic lead halide perovskite solar cells have seen a rapid expansion of research since their first report in 2009, driven by their low-cost solution processing and outstanding optoelectronic properties, leading to high power conversion efficiencies with a record value of 25.5%, the highest efficiency for thin-film solar cells  [1] [2] [3] [4] . Among various compositions, α-phase FAPbI 3 has recently emerged as the most promising candidate for highly efficient single-junction PSCs, owing to its optimal bandgap, high absorption coefficient, long carrier diffusion length and excellent thermal stability  [5] [6] [7] [8] [9] [10] . However, its photoactive α-phase (black-phase) is not stable at room temperature and undergoes a phase transition to the undesired wide-bandgap δ-phase (yellow phase)  [5] . Compositional engineering via mixing with methylammonium (MA + ), cesium (Cs + ) or bromide (Br -) ions has been reported as an effective method to stabilize the α-phase FAPbI 3  [6, [11] [12] [13] . However, this causes a trade-off by reducing the thermal stability, narrowing absorption spectrum, and introducing phase segregation issues under operational conditions  [12, 14, 15] . Instead, additive engineering has been reported as an effective approach to improve the stability of α-phase FAPbI 3 , leading to improved device performance as well as a better long-term stability. For example, several groups reported that methylammonium chloride (MACl) can assist the crystallization and preserve the crystal structure of α-phase FAPbI 3 , thereby providing highly efficient PSCs  [8, 16] . By optical management and exploiting the absorption spectrum of FAPbI 3 , a certified PCE of 23.7% has been reported via introducing 3.8 mol% methylenediammonium dichloride (MDACl 2 ). Although the bandgap of FAPbI 3 was slightly enlarged, the additive can structurally stabilize the α-phase of FAPbI 3 , resulting in a superb operational stability, retaining more than 90% of the initial efficiency after 600 h light soaking  [9] . Furthermore, it has been recently found that doping a FAPbI 3 precursor solution with small amount of formamidine formate (FAFo) can further suppress the non-radiative recombination of charge carriers in the perovskite films by occupying iodide vacancy defects at the perovskite surface as well as the grain boundaries; this enabled a PCE of PSC of 25.6% (certified 25.2%)  [10] . In addition to dopant engineering, surface passivation is another important approach for device optimization since non-radiative losses caused by defect states are most commonly located at the perovskite surface  [17] [18] [19] [20] [21] . Among various passivation agents, isopropyl alcohol (IPA) has become a ubiquitous and default solvent for post-treatment of all kinds of perovskite films, including FAPbI 3 based, mainly due to its ability to dissolve organic ammonium salts and other molecules  [22] [23] [24] [25] . In particular, it was shown to assist in the anchoring process of organic ammonium salts during the post surface reconstruction  [26] . However, exposing the perovskite surface to IPA induces a risk of creating a PbI 2 -rich perovskite surface, which generate defects and facilitate perovskite degradation  [26, 27] . In contrast, low-polarity solvents, such as chloroform (CF), are expected to have less effect on the perovskite surface  [28] , but have received very little attention so far, mainly due to the limited solubility for the commonly used passivation molecules, such as phenylethylammonium iodide (PEAI)  [23] , formamidinium halide  [29] [30] [31] , and octylammonium iodide (OAI)  [24] . Thus, in this work, we employed interfacial engineering of FAPbI 3 based perovskites by passivation with cyclohexylmethylammonium iodide (CMAI, shown in Fig.  1a ), which has been recently reported as an efficient passivation material through formation of 2D/3D perovskite heterojunction  [32, 33] . The solubility of CMAI (&gt;30 mg/mL) in a low-polarity solvent, CF, can be significantly improved due to the presence of the cyclohexane group. In addition, we are able to develop an in-depth understanding by comparing the solvent effect of IPA and CF during post-treatment. Importantly, CMAI always has a positive effect on passivating and stabilizing the FAPbI 3 based PSCs regardless which solvent is used. Interestingly, we found the components of both CMAI and 2D perovskite CMA 2 PbI 4 were formed on the perovskite surface upon post-treatment, however, with different domain component for different solvents, which stems from the solubility variations of FAI in IPA and CF. This induces target perovskite with a more released residual tension strain and prolonged carrier lifetime with treatment of CMAI in CF compare to CMAI in IPA, resulting in a better device stability of the PSCs under various conditions. &#13;</text>
+    </passage>
+    <passage>
+      <offset>6493</offset>
+      <text> Results and discussion According to the previous work  [8] , a precursor solution containing FAPbI 3 powder and additional 35 mol% methylammonium chloride (MACl) was used to fabricate black α-phase FAPbI 3 perovskite films. CMAI solution dissolved in IPA or CF (5 mg/mL) was spin-coated onto the perovskite film, without further processing. Here, we use CMAI (IPA) and CMAI (CF) to further refer to solution of CMAI dissolving in IPA and CF, respectively. To investigate the effect of post-treatment on the perovskite morphology, high-resolution scanning electron microscopy (HR-SEM), atomic force microscopy (AFM) and X-ray diffraction (XRD) were carried out. In the SEM images in Fig.  1b-d , a compact pinhole-free polycrystalline film is observed upon treatment of CMAI (IPA), which is quite similar to the control pristine perovskite film; in contrast, a contour-linelike texture appears after post-treating the film with CMAI (CF). Nevertheless, the roughness of CMAI treated films is significantly   , respectively, as illustrated in Fig.  S1b . Interestingly, we found that using IPA, the majority of CMAI molecules become integrated as 2D perovskite, while only a small amount remains unreacted on the surface. In contrary, after treatment with CMAI (CF), the formation of a CMAI dominates, while only a small amount of 2D perovskite is present. We relate this phenomena to the different solubility of the main component, formamidinium iodide (FAI), in the 3D perovskite, which dissolves well in IPA, owing to its high polarity and formation of hydrogen bonding, but shows limited solubility in CF  [26, 28] . As a result, FAI partially dissolves from the perovskite surface upon exposure to IPA, and is removed during the spin-coating process. The resulting vacancies enable a reaction between the remaining PbI 2 and the newly introduced CMAI which form a 2D perovskite layer, as illustrated in Fig.  1i . In case of exposure to CF, CMAI is limited in its possibility to react with PbI 2 due to the insolubility of FAI in CF. Therefore, such post-treated film is prone to form an additional CMAI layer on top of the perovskite film and we attribute the 2D perovskite phase to the ammonium cation exchange between CMA + and FA + . Furthermore, to identify possible solvent effects on our 3D perovskite, we additionally compared grazing incident X-ray diffraction (GIXRD) patterns of films exposed to pure IPA or CF (Fig.  S2 ). A PbI 2 peak, located at 12.6 • , is detected on the perovskite surface after IPA treatment, as shown in Fig.  S2b . This is consistent with the SEM images shown in Fig.  S3a , where plenty of small bright crystals are observed on the perovskite surface exposed to pure IPA, indicating the formation of PbI 2  [30] . However, in comparison with the untreated film, there is no obvious change on the morphology and crystal structure of the perovskite film treated with neat CF, according to the GIXRD pattern and SEM images shown in Fig.  S2c  and Fig.  S3b , suggesting a negligible effect upon CF treatment. To further distinguish the solvent effect, we added 5 mol% PbI 2 into the perovskite precursor solution to form a PbI 2 -rich FAPbI 3 film, where PbI 2 is mainly located on the top of the perovskite film surface, as determined from the GIXRD pattern (Fig.  S4 ) and SEM image (Fig.  S5 ). In this case, only 2D perovskite CMA 2 PbI 4 was observed form the GIXRD patterns after the treatment of CMAI (IPA) and CMAI (CF), indicating that CMAI can indeed react with excessive PbI 2 at the surface regardless of solvents. Based on the above results, IPA dissolves and removes the FAI on the perovskite surface, which promotes the formation of 2D CMA 2 PbI 4 . This is not the case for CF solution treatment, thus the two solvents lead to different surface compositions on top of the perovskite. The distinguished surface reconstruction processes by CMAI (IPA) and CMAI (CF) resulted in diverse surface composition, which also influenced the residual strain of the perovskite surface and the existence of the intrinsic stress has been recognised as one of critical sources of PSCs instability  [34, 35] . We focused on the 50 nm region depth of the perovskite film, which is mainly affected by post-treatment, for interfacial strain investigation and employed GIXRD technique with 2θ-sin 2 ψ method for residual stress analysis, where ψ is the instrument tilt angle  [36] [37] [38] [39] . Due to the high diffraction angle and multiplicative factor of the (012) crystallographic plane, GIXRD patterns at around 31.6 • was chosen for the strain distribution analysis. The results are shown in Fig.  2a-c . After the linear fitting of 2θ-sin 2 ψ value by varying ψ, the slope of fitted lines reflects the magnitude of residual strain as well as the strain states  [37, 38] . As shown in Fig.  2a , the diffraction peaks of the control film gradually shift to smaller 2θ with the increase of ψ from 0 • to 50 • . The negative slope observed in Fig.  2d  indicates that the surface of the pristine perovskite bears a tensile strain. After post-treatment with CMAI (IPA), a reduced shift of the GIXRD peaks vs. ψ (Fig.  2b ) is observed, indicating a decreased surface tensile strain after the surface reconstruction process. Notably, a completely strain-free film is obtained upon CMAI (CF) treatment, with a linear slope of 2θ-sin 2 ψ approaching to 0, as observed in Fig.  2c . This implies that the post-treatment of CMAI with a slow cation exchange process in CF plays an important role in releasing the residual tension stress of the perovskite film, which creates a strain-free environment. The release of residual strain contributes to the lattice stabilization of α-FAPbI 3 , which can consequently lead to a significant enhancement on the device stability (see discussion below). Moreover, it is well known that the existence of residual strain will also influence defect concentration and non-radiative recombination of perovskite films  [38] [39] [40] . Therefore, time-resolved photoluminescence (TRPL) measurements were carried out to further examine the difference induced by the two solvents. As shown in Fig.  2e , compared to the control film, both CMAI-treated perovskite films present slower photoluminescence decay, especially the one exposed to CF shows the longest lifetime. This indicates that the introduction of CMAI could efficiently reduce the defect density and suppress the non-radiative recombination of the perovskite film  [10, 39] . To further evaluate the solvent effect on film trap density, space-charge-limited-current (SCLC) measurements were carried out on electron-only devices with structure of FTO/cp-TiO 2 /mp-TiO 2 /-FAPbI 3 /CMAI/PCBM/Au, as shown in Fig.  S6a . The control device shows a trap-filling limited voltage (V TFL ) of 0.423 V, which reduced to 0.330 V and 0.307 V after post-treatment with CMAI (IPA) and CMAI (CF), respectively (Fig.  S6b-d ). Correspondingly, the calculated trap density (N t ) decreases form 8.08 × 10 15 cm -3 to 6.30 × 10 15 cm -3 and 5.86 × 10 15 cm -3 upon the CMAI treatment, which is estimated by the following equation: V TFL = (eN t L 2 )/(2ε 0 ε), where e is the elementary charge, L is the thickness of FAPbI 3 perovskite film (600 nm), ε 0 is the vacuum permittivity, and ε is the relative dielectric constant  [41] . The reduced trap density indicates the formation of an effective passivation layer after surface reconstruction, which could improve the photovoltaic performances  [30, 42] . X-ray photoelectron spectroscopy (XPS) was conducted to investigate the element composition after the surface reconstruction, as illustrated in Fig.  S7  and Fig.  2f . The Pb 4f7/2 core level signal was located at 138.56 eV in the pristine film, however shifted towards a slightly higher bonding energy in both cases upon CMAI treatment, suggesting the variation of surface chemical environment. From the pristine film, N1s peak of FA + was located at 400.5 eV and no MA + peak (402.1 eV) was found  [43] , which is in agreement with the pure FAPbI 3 film composition  [8] . After passivation treatment with CMAI regardless of the solvent, a new N 1s peak appeared at 402.1 eV and the intensity of FA + peak was significantly reduced, implying that a new layer dominated by CMAI was formed on top of the 3D perovskite film. Notably, the ratios between CMA + and FA + , calculated from the simulative integrated areas of the two N1s peaks were 6.22 and 4.59 via CMAI (IPA) and CMAI (CF) treatment, respectively. Such reduction in cation ratio is another evidence showing that IPA could remove more FAI from the perovskite surface, thus resulting in a lower concentration of FAI during the surface reconstruction process. PSCs based on FTO glass/cp-TiO2/mp-TiO2/3D perovskite/passivation layer/spiro-MeOTAD/Au were fabricated to evaluate the photovoltaic performance upon post-treatment by CMAI. The device architecture is shown in Fig.  3a  and the cross-sectional SEM images of the devices are illustrated in Fig.  S8 . Reverse-scanned (RS) and forwardscanned (FS) J-V curves of the devices were measured under simulated sunlight of air mass (AM) 1.5G. Comparable improvements are observed with CMAI treatment using the two solvents, in comparison to the control device. The average values of photovoltaic parameters are summarized in Table  S1 . It is observed that the concentration of 5 mg/ mL CMAI in either IPA or CF delivers the best device performance. The     S1 , both V OC and FF of the post-treated devices show only slight improvement upon formation of pure 2D interlayer by heating the as-prepared passivated perovskite film  [33] . This suggests that in our system, without further annealing, an interlayer with moieties of both 2D perovskite and CMAI play an important role in passivating the 3D perovskite surface. Furthermore, the calculated ideality factor (n id ) of control, CMAI (IPA), and CMAI (CF) treated devices are 1.64, 1.36, and 1.30, respectively. The reduced n id confirms a significantly suppressed trap-assisted recombination via CMAI passivation, which accordingly resulted in an enhancement in V OC  [44] . Encouraged by the excellent results above, large area (1 cm 2 ) devices were fabricated to evaluate the practicability of the passivation strategy. As shown in Fig.  3f , one of the best PCE of the target device is 21.07%, with a Jsc of 25.75 mA/cm 2 , a V OC of 1.154 V and a FF of 0.709. Except for the excellent device performance, solvent effect on device stability has also been assessed. Firstly, the contact angle of water droplets on the perovskite films with and without passivation layer were measured. As shown in Fig.  4a , a dramatic improvement of hydrophobicity after CMAI treatment is observed compared to the pristine perovskite films; the contact angles increase from 57 • to around 90 • . We first exposed the perovskite films in ambient condition with relative humidity of 40 ± 20% for 15 days and monitored the phase stability by GIXRD, as shown in Fig.  S10 . A pronounced δ-phase FAPbI 3 at 11.7 • is clearly observed from the pristine perovskite film, indicating a significant phase transformation. In sharp contrast, both CMAI (IPA) and CMAI (CF) treated perovskite films show negligible δ-phase under the same condition, especially the one treated by CMAI (CF), suggesting an outstanding phase stability upon passivation treatment. To further investigate the device shelf stability, we subjected unencapsulated devices to air with a relative humidity of 20-30% in the dark. As illustrated in Fig.  4b , the PCE of target devices after 100-day storage retain 95% and 91% after post-treatment with CMAI (CF) and CMAI (IPA), respectively. In contrast, the control devices show more than 15% decrease under the same condition. In addition, we also tested the devices under MPPT at a constant one-sun illumination in N 2 atmosphere at room temperature. As shown in Fig.  4c , the PCE of the control device drops by almost 24% of its initial value after 1050 h aging. In sharp contrast, both CMAI passivated devices retain more 90% of the initial PCE value. In particular, the CMAI (CF) treated device shows only 5% normalized PCE loss, and is therefore comparably more stable than the device treated with CMAI (IPA). It is worth noting that our resulting device is one of the most stable PSCs based on FAPbI 3 in current literatures, as summarized in Table  S2 . Furthermore, we subjected the unencapsulated devices to 50 • C with humidity at 40 ± 10% to investigate their stability upon elevated temperature and humidity for 500 h. As excepted, CMAI (CF) treated devices retain 93% of their initial PCE, about 27% PCE loss is observed form the CMAI (IPA) treated devices, whereas the control devices show almost 60% PCE loss. We attribute this further enhanced stability to the more released residual strain induced by CMAI (CF). &#13;</text>
+      <annotation id="2">
+        <infon key="type">control_pce</infon>
+        <infon key="identifier">24</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T09:36:49Z</infon>
+        <location offset="18499" length="2"/>
+        <text>24</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>19449</offset>
+      <text> Conclusion Overall, we successfully stabilized the α-phase of FAPbI 3 based PSCs through interfacial engineering with CMAI. More importantly, our indepth optoelectronic film together with device characterizations unraveled the rules of CMAI as passivation agent on reducing nonradiative recombination and the solvent as mediator on leasing surface residual strains during the post-treatment process. Our work paves a way on optimizing the PSCs more comprehensively and sheds light on the detrimental role of the solvent selection for post-treatment process according to the system of the 3D perovskite and passivation molecule.  &#13;</text>
+    </passage>
+    <passage>
+      <offset>20081</offset>
+      <text> CRediT authorship contribution statement &#13;</text>
+    </passage>
+    <passage>
+      <offset>20124</offset>
+      <text> Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. &#13;</text>
+    </passage>
+    <passage>
+      <offset>20331</offset>
+      <text> SOLAR CELLS &#13;</text>
+    </passage>
+    <passage>
+      <offset>20345</offset>
+      <text> Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands Hao Chen 1,2 †, Cheng Liu 1 †, Jian Xu 2 †, Aidan Maxwell 2 †, Wei Zhou 3 †, Yi Yang 1 , Qilin Zhou 3 , Abdulaziz S. R. Bati 1 , Haoyue Wan 2 , Zaiwei Wang 2 , Lewei Zeng 2 , Junke Wang 2 , Peter Serles 4 , Yuan Liu 1 , Sam Teale 2 , Yanjiang Liu 2 , Makhsud I. Saidaminov 5 , Muzhi Li 6 , Nicholas Rolston 6 , Sjoerd Hoogland 2 , Tobin Filleter 4 , Mercouri G. Kanatzidis 1 , Bin Chen 1 *, Zhijun Ning 3 *, Edward H. Sargent 1,2,7 * Inverted (pin) perovskite solar cells (PSCs) afford improved operating stability in comparison to their nip counterparts but have lagged in power conversion efficiency (PCE). The energetic losses responsible for this PCE deficit in pin PSCs occur primarily at the interfaces between the perovskite and the charge-transport layers. Additive and surface treatments that use passivating ligands usually bind to a single active binding site: This dense packing of electrically resistive passivants perpendicular to the surface may limit the fill factor in pin PSCs. We identified ligands that bind two neighboring lead(II) ion (Pb 2+ ) defect sites in a planar ligand orientation on the perovskite. We fabricated pin PSCs and report a certified quasi-steady state PCE of 26.15 and 24.74% for 0.05-and 1.04-square centimeter illuminated areas, respectively. The devices retain 95% of their initial PCE after 1200 hours of continuous 1 sun maximum power point operation at 65°C. T he certified power conversion efficiency (PCE) of perovskite solar cells (PSCs) has reached an impressive 25.7% (1). Nevertheless, the most-efficient PSCs, fabricated in the nip architecture, have yet to achieve the needed operating stability under accelerated aging tests (1, 2). Inverted (pin) PSCs, which do not rely on p-type dopants in their hole-transporting layers (3-7), have seen progress but, until now, still lag behind their nip counterparts: Their stabilized PCE has so far reached only 25.1%  (8) . The interfaces between the perovskite and the chargetransport layers limit the PCE of pin cells (9-11) through band misalignment  (12)  and energylevel pinning  (11) . These problems are aggravated by the presence of surface defects. For example, undercoordinated Pb 2+ ions  (13) (14) (15)  result in nonradiative recombination at the perovskite-charge transport layer interface, which limits photovoltage and fill factor (FF). Surface passivation of the perovskite active layer is used to suppress interface nonradiative recombination  (14, 16) . The efficacy of bulk additives as well as solution-based treatments with ammonium ligands is now well estab-lished  (17, 18) . However, these ligands bind at a single active binding site to the perovskite structure, and this has the potential to produce dense packing of passivants aligned perpendicular to the surface, introducing an unwanted resistive barrier between the perovskite and the electron transport layer (ETL)  (16, (19) (20) (21) (22) (23) (24) (25) . We sought routes to passivate undercoordinated Pb 2+ at the surfaces and grain boundaries of the perovskite with passivator ligands aligning parallel to the perovskite surface instead. &#13;</text>
+      <annotation id="3">
+        <infon key="type">structure_pin_nip</infon>
+        <infon key="identifier">PIN</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T09:37:11Z</infon>
+        <location offset="21105" length="3"/>
+        <text>pin</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">structure_pin_nip</infon>
+        <infon key="identifier">PIN</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T09:37:16Z</infon>
+        <location offset="21425" length="3"/>
+        <text>pin</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">structure_pin_nip</infon>
+        <infon key="identifier">PIN</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T09:37:24Z</infon>
+        <location offset="21582" length="3"/>
+        <text>pin</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">95</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T05:14:02Z</infon>
+        <location offset="21745" length="3"/>
+        <text>95%</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">time</infon>
+        <infon key="identifier">1200</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T09:37:52Z</infon>
+        <location offset="21776" length="10"/>
+        <text>1200 hours</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">65</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T09:39:03Z</infon>
+        <location offset="21840" length="4"/>
+        <text>65°C</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">structure_pin_nip</infon>
+        <infon key="identifier">PIN</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T09:41:16Z</infon>
+        <location offset="22447" length="3"/>
+        <text>pin</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>23574</offset>
+      <text> Theoretical investigations We began by considering candidate molecules that contain a benzene ring because its flat structure is expected to lie parallel to a surface compared with the case of linear-chain ligands  (21) . To enable strong binding with perovskite surfaces, we considered both -PO 3 2-and -SO 3 functional groups, each of which is reported to coordinate strongly with Pb 2+  (14, 26) . Because benzenephosphonates are not readily available, we focused on available sulfonates  (27) (28) (29) (30) (31) (32) (33) . We prioritized end functional groups that have a high number of oxygen atoms, a feature recently reported to correlate positively with strong binding  (26) . We then evaluated steric constraints, seeking a ligand sufficiently long that it could bind at multiple surface Pb sites, these being ~6.3 Å apart in the case of formamidinium (FA)-based perovskites. These considerations pointed to benzenesulfonate (BZS) ligands and their derivatives because these molecules have a length of ~5.7 Å. We used density functional theory (DFT) calculations to investigate how the molecular structure of the ligand affects orientation. We considered three ligands, one with no additional functional group (BZS) and two with methyl or chloride in the para position of the benzene ring opposite to the sulfonate functional group [4-methylbenzenesulfonate (4CH 3 -BZS) and 4-chlorobenzenesulfonate (4Cl-BZS)] (Fig.  1A ). 4CH 3 -BZS and 4Cl-BZS have lengths of 6.14 and 6.37 Å, respectively. We compared the formation energies of two configurations, one in which the ligands were oriented perpendicular to the perovskite surface (Conf-perp; Fig.  1B ) and another in which the ligands adopted a parallel orientation with respect to the perovskite surface (Conf-para; Fig.  1C ). Although Conf-perp was more energetically favorable for BZS and 4CH 3 -BZS, Conf-para was energetically more favorable for 4Cl-BZS because of the additional Pb 2+ surface binding afforded by the Cl functional group (Fig.  1D ) that would enable dual-site Pb 2+ passivation. We also investigated the effects of ligand orientation on charge transfer at the perovskite-ETL interface by examining fullerene (C 60 ), which is widely used as an ETL in pin PSCs and is known to induce energetic losses in devices  (11, 12, 34, 35) . Analysis of the calculated charge density difference (Fig.  1E  and fig.  S1 ) provided evidence that 4Cl-BZS, when absorbed on the perovskite layer, established a notably stronger binding strength with the C 60 layer [adsorption energies (E ads ) = -0.85 eV] in contrast to BZS (E ads = -0.46 eV) and 4CH 3 -BZS (E ads = -0.39 eV)  (36) . Fracture energy (G c ) results show that 4Cl-BZS increases the mechanical strength of the perovskite-C 60 interface (fig.  S2 )  (37) . &#13;</text>
+      <annotation id="10">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">4-chlorobenzenesulfonate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:42:46Z</infon>
+        <location offset="24961" length="34"/>
+        <text>4-chlorobenzenesulfonate (4Cl-BZS)</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">4-chlorobenzenesulfonate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:42:46Z</infon>
+        <location offset="25025" length="7"/>
+        <text>4Cl-BZS</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">4-chlorobenzenesulfonate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:42:46Z</infon>
+        <location offset="25490" length="7"/>
+        <text>4Cl-BZS</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">4-chlorobenzenesulfonate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:42:46Z</infon>
+        <location offset="25995" length="7"/>
+        <text>4Cl-BZS</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">4-chlorobenzenesulfonate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:42:46Z</infon>
+        <location offset="26274" length="7"/>
+        <text>4Cl-BZS</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>26373</offset>
+      <text> Ligand-perovskite binding characterization To explore interactions between perovskite and BZS ligands, we began by adding each ligand directly into the precursor solutions and spin-coating Cs 0.05 FA 0.85 MA 0.1 PbI 3 perovskite thin films, where FA is formamidinium and MA is methylamine. Time-of-flight secondary ion mass spectrometry (TOF-SIMS) of untreated (control) and treated films showed that BZS, 4CH 3 -BZS, and 4Cl-BZS were all concentrated near the top (ETL-facing) surface of the perovskite film (fig.  S3 ). This result, combined with x-ray diffraction (XRD) patterns of control and treated perovskite films that showed no discernable peak-shifting after treatment (fig.  S4 ), indicated that the ligands did not enter the lattice but rather diffused toward the top surface during film crystallization. Scanning electron microscopy (SEM) images of perovskite films with additives are presented in fig.  S5  and illustrate that the perovskite films (both additives and controls) exhibit substantially uniform morphology. We used x-ray photoelectron spectroscopy (XPS) to check for possible evidence of interaction between the additives and perovskite. We observed a shift of the Pb 4f XPS peaks to a lower binding energy for each treated film compared with the peaks of controls (Fig.  2A ). We saw evidence of interaction between Cl and Pb in 4Cl-BZS-treated perovskite from both XPS spectra (Fig.  2B ) and nuclear magnetic resonance spectra (fig.  S6 ). &#13;</text>
+      <annotation id="15">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">Cs0.05FA0.85MA0.1PbI3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T05:14:18Z</infon>
+        <location offset="26563" length="28"/>
+        <text>Cs 0.05 FA 0.85 MA 0.1 PbI 3</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">4-chlorobenzenesulfonate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:42:46Z</infon>
+        <location offset="26796" length="7"/>
+        <text>4Cl-BZS</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">4-chlorobenzenesulfonate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:42:46Z</infon>
+        <location offset="27731" length="7"/>
+        <text>4Cl-BZS</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>27845</offset>
+      <text> Optoelectronic characterization of perovskite films and device stacks To evaluate the passivation efficacy of each ligand, we studied photoluminescence (PL) of neat control and treated perovskite films. We observed an increase in PL quantum yield (PLQY) for each of the treated films and the full device stack (Fig.  2C ), with 4Cl-BZS exhibiting a twofold increase in PLQY (41%) compared with control films (20%), which corresponded to a projected 20-mV increase in quasi-Fermi level splitting (QFLS). The PLQY of full-device stacks [FTO/SAMs/perovskite/C 60 , where FTO is fluorinate tin oxide and SAMs (self-assembled monolayers) are mixtures of 2PACz and Me-4PACz] revealed a substantial improvement after 4Cl-BZS treatment-5% for 4Cl-BZS compared with 0.6% for the control, corresponding to 1.17 and 1.1 V in QFLS for 4Cl-BZS and the control device, respectively. This improvement was consistent with reduced interface losses. Time-resolved photoluminescence (TRPL) revealed a similar increase in carrier lifetimes after treatment. Specifically, 4Cl-BZS-treated films exhibited a weighted-average lifetime of 3.0 ms compared with 0.6 ms for the control film (Fig.  2D  and table  S1 ). We fabricated partial and full perovskite/ ETL device stacks to probe interface recombination and charge transfer. First, we conducted TRPL measurements of perovskite/C 60 stacks, wherein decay was dictated by nonradiative surface-bulk recombination (monoexponential decay), radiative recombination (second-order decay), and charge extraction effects, which could be distinguished if the time constants for each process differed sufficiently  (38) . The first interval at shorter times was dominated by the transfer of electrons from the bulk into the C 60 , and the second interval at longer delay times was dominated by interfacial recombination  (39) . The sharp drop in emission for 4Cl-BZS/C 60 indicated efficient electron transfer at the interface, and the longer second-order decay time was indicative of a reduced trap density compared with BZS and 4CH 3 -BZS (fig.  S7 ). This effect of this reduction was especially evident in fits to the TRPL traces to compute the differential lifetime as t = -{d ln[f(t)]/dt} -1 (Fig.  2E ), where f(t) is the time-dependent PL photon flux, because the sharpness of the rise implied the speed of the electron transfer from perovskite to C 60 . Transient photocurrent measurements of full device stacks in which we used mixed SAMs as the hole-transport layer (see methods) revealed a similar trend. Both BZS and 4CH 3 -BZS resulted in slower photocurrent decay, whereas 4Cl-BZS treatment led to faster photocurrent decay (Fig.  2F ). This observation suggested that electron extraction became more efficient. Ultraviolet photoelectron spectroscopy (UPS) revealed an increased conduction band offset with C 60 that was caused by a Fermi-level upshift after BZS and 4CH 3 -BZS treatment, whereas 4Cl-BZS caused a Fermi-level downshift and reduced conduction band offset (figs. S8 and S9). This trend was further confirmed by kelvin probe force microscopy (KPFM) measurements (fig.  S10  and table S2 ) and DFT calculations (fig.  S11 ). &#13;</text>
+      <annotation id="18">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">4-chlorobenzenesulfonate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:42:46Z</infon>
+        <location offset="28174" length="7"/>
+        <text>4Cl-BZS</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">2PACz</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:37:01Z</infon>
+        <location offset="28495" length="5"/>
+        <text>2PACz</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">4-chlorobenzenesulfonate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:42:46Z</infon>
+        <location offset="28556" length="7"/>
+        <text>4Cl-BZS</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">4-chlorobenzenesulfonate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:42:46Z</infon>
+        <location offset="28581" length="7"/>
+        <text>4Cl-BZS</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>31019</offset>
+      <text> Inverted perovskite solar cells Using 4Cl-BZS-treated perovskite, we fabricated inverted PSCs with the structure FTO/SAMs/ perovskite/C 60 /SnO x /Ag (Fig.  3A ). The thickness of the perovskite layer was 900 nm. Con-trol devices had a PCE of 24%, whereas the 4Cl-BZS-treated devices exhibited a PCE of 26.3% (fig.  S12 ). Analysis of device statistics for both control and 4Cl-BZS-treated PSCs revealed a substantial enhancement in PCE, primarily by increased open-circuit voltage (V OC ). Additionally, 4Cl-BZS-treated PSCs showed a much higher FF compared with BZS-and 4CH 3 -BZS-treated PSCs. We attribute this improvement in FF to enhanced charge extraction in 4Cl-BZStreated PSCs (Fig.  3B   &#13;</text>
+    </passage>
+    <passage>
+      <offset>31719</offset>
+      <text> and figs. S13 and S14). We also evaluated the effectiveness of the additive change with a stronger or weaker donating group, namely 4F-BZS, 4Br-BZS, and 4I-BZS. Notably, 4F-BZS exhibits a more-negative averaged electrostatic potential, whereas 4I-BZS displays a more-positive averaged electrostatic potential (fig.  S15 ). We posit that a stronger donating group, such as Cl or F, is beneficial in providing dual-site defect passivation. Because 4F-BZS, 4Cl-BZS, and 4I-BZS are not readily available, we used the structurally similar molecules 4-fluorobenzenesufonic acid (4F-BZSA) and 4-iodobenzenesufonic acid (4I-BZSA) in our devices (fig.  S16 ). Notably, treatments with 4F-BZSA resulted in comparable PCE as in the case of 4Cl-BZS, and 4I-BZSA also showed an improved PCE compared with controls. We then added the bimolecular surface passivation (BMP) approach, based on 3-(methylthio) propylamine hydroiodide (3MTPAI) and propane-1,3 diammonium iodide (PDAI 2 ), reported in  (8) . This strategy has been reported to provide a combination of chemical and field-effect passivation (see methods). The PLQY of full-device stacks (FTO/SAMs/perovskite/BMP/C 60 ) indicated a further improvement after the BMP treatment (fig.  S17 ). The combined treatment increased the PCE of 4Cl-BZS-treated devices from 26.3 to 26.9% and featured a V OC of 1.18 V, FF of 86.2%, and short-circuit current density (J SC ) of 26.4 mA cm -2 (Fig.  3C ). Statistics of photovoltaic parameters for devices with bimolecular passivation revealed additional improvements in both V OC and PCE (fig.  S18 ). The bandgap of the pin PSCs was taken from external quantum efficiency measurements as 1.53 eV (figs. S19 and S20). We sent devices with active areas of 0.05 and 1.04 cm 2 to a National Renewable Energy Laboratory (NREL)-accredited independent photovoltaic calibration laboratory (Newport) for certification. The devices achieved certified stabilized quasisteady state (QSS) PCEs of 26.15 and 24.74%, respectively (Fig.  3, D  and E , and figs. S21 and S22). These reported pin PSC PCEs surpass the record nip device performance reported in recent years (Fig.  3E  and tables S3 and S4). Next, we sought to test the thermal stability of the 4Cl-BZS-treated PSCs following protocols established by the International Summit on Organic Photovoltaic Stability (ISOS) protocol ISOS-D-2I, in which encapsulated devices were subjected to dark storage at 85°C and tested periodically. 4Cl-BZS-treated PSCs retained 95% of their initial efficiency after 1500 hours of storage at 85°C (Fig.  3G ). To evaluate operating stability further, we then also carried out ISOS-L-3 testing, in which encapsulated devices were subjected to continuous 1-sun equivalent illumination using a ultraviolet-free white light-emitting diode (LED) and held at the maximum power point (MPP) voltage, at 50% relative humidity and a heatsink temperature of 65°C (Fig.  3H ). 4Cl-BZS-treated PSCs achieved a T 95 (the time it takes for the device's PCE to drop to 95% of the initial value) of 1200 hours after continuous MPP tracking at 65°C, whereas control devices dropped from an initial efficiency of 22 to 18.7% after 1200 hours (table  S5 ). Furthermore, 4Cl-BZS-treated PSCs achieved a T 87 of 540 hours after continuous MPP tracking at 85°C (fig.  23 ). &#13;</text>
+      <annotation id="21">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">26.9</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T05:14:23Z</infon>
+        <location offset="33036" length="4"/>
+        <text>26.9</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">treated_voc</infon>
+        <infon key="identifier">1.18</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T05:14:25Z</infon>
+        <location offset="33065" length="4"/>
+        <text>1.18</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSD2</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:38:58Z</infon>
+        <location offset="34077" length="8"/>
+        <text>ISOS-D-2</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">4-chlorobenzenesulfonate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:42:50Z</infon>
+        <location offset="34182" length="7"/>
+        <text>4Cl-BZS</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">95</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:43:03Z</infon>
+        <location offset="34212" length="3"/>
+        <text>95%</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">time</infon>
+        <infon key="identifier">1500</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:40:23Z</infon>
+        <location offset="34250" length="10"/>
+        <text>1500 hours</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">85</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:40:18Z</infon>
+        <location offset="34275" length="4"/>
+        <text>85°C</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">humidity</infon>
+        <infon key="identifier">50</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:36:47Z</infon>
+        <location offset="34578" length="3"/>
+        <text>50%</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">87</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:45:25Z</infon>
+        <location offset="34965" length="4"/>
+        <text>T 87</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="type">time</infon>
+        <infon key="identifier">540</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:45:37Z</infon>
+        <location offset="34973" length="9"/>
+        <text>540 hours</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">85</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:45:10Z</infon>
+        <location offset="35016" length="4"/>
+        <text>85°C</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>35040</offset>
+      <text> Discussion We began this study with the view that dense packing of passivator ligands perpendicular to the perovskite-C 60 interface may increase resistance and that this could potentially be addressed by instead introducing ligands prone to align in a planar orientation relative to the perovskite surface. The interaction of 4Cl-BZS with undercoordinated Pb 2+ ions reduces the surface defect density and minimizes the energetic mismatch between the perovskite and C 60 . Our study indicates that the approach was effective in increasing pin PSC performance, bringing it into the range of that achieved in the nip configuration. Our approach retains the benefits of the 65°C 1-sun MPP operating stability seen in pin PSCs. To test whether our approach worked in a range of perovskite compositions, we fabricated 4Cl-BZS-treated 1.78-eV wide-bandgap mixed halide devices as well as 1.25-eV narrowbandgap mixed Pb-Sn PSCs, which are compositions of interest in all-perovskite tandem solar cells. In each case, we observed an increase in PCE after 4Cl-BZS treatment (fig.  S24 ). (PTFE) membrane before using. &#13;</text>
+      <annotation id="23">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">4-chlorobenzenesulfonate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:42:46Z</infon>
+        <location offset="35368" length="7"/>
+        <text>4Cl-BZS</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>36152</offset>
+      <text> Solar cell fabrication Single-junction normal bandgap device. Prepatterned Fluorine-doped tin oxide (FTO) glasses were cleaned using acetone and isopropanol each for 20 min in an ultrasonic bath, followed by ultraviolet ozone treatment for 30 min. The hole transport layer (HTL) was fabricated by using the mixed SAM solution of 2PACz and Me-4PACz in a glovebox. The 2PACz concentration is 0.17 mg ml -1 and Me-4PACz concentration is 0.33 mg ml -1 . The SAM in ethanol solution was spincoated on FTO at 3,000 r.p.m. for 30 s, followed by annealing at 120℃ for 10 min. The perovskite solutions were spin-coated at 1000 r.p.m for 10 s (acceleration rate 500 r.p.m./s) and 5000 r.p.m. for 35 s (acceleration rate 1000 r.p.m./s), respectively. At the last 15 s of the second step, 150 μL anisole was dropped as antisolvent. The films were then annealed at 120°C for 10 min. For the bimolecular passivation (BMP) treatment, 12 mM 3MTPAI and 6 mM PDAI2 was dissolved in 1 mL isopropanol/chlorobenzene (1:1 v/v) solvent and filtered before use, 120 μL mixed solution was spin-coated on the perovskite films at 4000 r.p.m for 25 s, followed by annealing at 100°C for 5 min. After cooling down to room temperature, the substrates were transferred to the evaporation system and a 25 nm C60 film was subsequently deposited on top by thermal evaporation at a rate of 0.2 A s -1 , after finishing the C60 deposition, the substrates were then transferred to the atomic layer deposition (ALD) system (Picosun) to deposit 20 nm SnO2 at 90 º C using precursors of tetrakis(dimethylamino) tin (iv) (99.9999%) and deionized water. Finally, 140 nm Ag electrode was evaporated by thermal evaporation. Single junction wide bandgap perovskite solar cells. NiOx nanocrystal (5 mg ml -1 in H2O and 2-Propanol mixed solvent with volume ratio of 3:1) layers were first spin-coated on ITO substrates at 3,000 rpm for 25 s in air without any post-treatment, then the substrates were immediately transferred to the glovebox. The NiOx nanoparticles were prepared via the hydrolysis reaction of nickel nitrate referring to our previous work  (3) . Me-4PACz (0.5 mg ml -1 ) in ethanol was spincoated on the NiOx film at 3,000 rpm for 25 s and then annealed at 100 o C for 10 min. For the perovskite film fabrication, the substrate was spun at 4000 rpm for 32 s with an acceleration of 1000 rpm, 100 μL Anisole was dropped onto the substrate during the last 8 s of the spinning. The substrates were then transferred onto a hotplate and heated at 100 °C for 15 min. For electron transport layer (ETL), 25 nm C60 was thermally evaporated on the perovskite films at a rate of 0.2 A s -1 under a high vacuum of ~10 -7 Torr, followed by 7 nm BCP evaporation as a hole-blocking layer. Finally, 140 nm Ag electrode was evaporated by thermal evaporation. Single junction Pb-Sn perovskite solar cells. PEDOT: PSS was spin-coated on ITO substrates at 6,000 rpm for 30 s and annealed on a hotplate at 160 °C for 20 min in ambient air. After cooling, we transferred the substrates immediately to a nitrogen-filled glovebox for the deposition of perovskite films. The perovskite films were deposited with a two-step spin-coating procedure: (1) 1,000 rpm for 10 s with an acceleration of 200 rpm s -1 , (2) 3800 rpm for 45s with an acceleration of 1000 rpm s -1 , 300 µl CB was dropped onto the spinning substrate during the second spin-coating step at 20 s before the end of the procedure. The substrates were then treated on hotplate for 10 min at 100 o C. 25 nm C60, 7 nm BCP and 140 nm Ag were sequentially deposited on top of the perovskite layer by thermal evaporation. Device testing. The current density-voltage (J-V) characteristics were measured using a Keithley 2400 source meter under illumination from a solar simulator (Newport, Class A) with a light intensity of 100 mW cm -2 (checked with a calibrated reference solar cell from Newport). The J-V curves were measured in a nitrogen atmosphere with a scanning rate of 100 mV s -1 (voltage step of 10 mV and delay time of 200 ms). The active area was determined by the aperture shade mask (0.049 cm 2 for small-area devices, 1.04 cm 2 for large-area devices) placed in front of the solar cell. A spectral mismatch factor of 1.0 was used for all J-V measurements. The external quantum efficiency (EQE) was measured in ambient air using the solar-cell-spectra-response measurement system (QE-R, EnliTech). Stability testing. Devices were placed in a homemade stability-tracking station. The illumination source is a UV-free white-light LED with its intensity calibrated to match 1-Sun conditions. The spectrum of the white-light LED simulator used in MPP stability tracking is in Supplementary Fig.  33  of our previous work  (26) . For the ISOS-L-3 ageing test, the device chamber was left open in a room with 50 ± 10% relative humidity, and the solar cell was mounted on a metal plate kept at 65 ˚C using a heating element. A thermal couple attached to the metal plate was used to monitor and provide feedback control to the heating element to ensure temperature consistency. For thermal stability tests, the encapsulated cells were heated at 85℃ in nitrogen. The device performance was evaluated periodically. Encapsulation was performed using a capping glass slide, with ultraviolet-adhesive (Lumtec LT-U001) as sealant. Crystallographic characterizations. The X-ray diffraction (XRD) spectra were measured on a Bruker D8 Advance X-ray diffractometer at room temperature using Cu-Kα radiation (λ = 1.54178 A) at 40 kV and 40 mA. Grazing-incidence wide-angle X-ray Scattering (GIWAXS) was conducted on perovskite films at the Brockhouse X-ray Diffraction and Scattering Sector Low Energy Wiggler (BXDS-WLE) beamline of the Canadian Light Source (CLS) using a photon energy of 15.12 keV (λ = 0.82 Å). A Rayonix MX300 detector 328.04 mm away from the sample was used for collecting patterns. Other characterizations. NMR spectra were recorded by Bruker Avance III HD500. Time of flight secondary ion mass spectrometry (ToF-SIMS) was collected by IONTOF M6 instrument using a primary 30 keV Bi ion source with an analysis area of 50 × 50 μm 2 . SEM images were collected by JEOL JSM-7900FLV microscope using a 5 keV and 10 keV electron beam for surface and cross-section images, respectively. Time-resolved photoluminescence (TRPL) measurements were carried out using a Horiba Fluorolog time-correlated single photon counting system with photomultiplier tube detectors. A pulsed laser diode (634 nm, 110-140 ps pulse width) was used as the excitation source for steady-state and transient measurements. The luminescence quantum yield was measured by a LuQY Pro System (Quantum Yield Berlin) under the excitation of 532 nm laser (100 mW). X-ray photoelectron spectroscopy (XPS) and ultraviolet photoelectron spectroscopy (UPS) were performed on Thermo Scientific ESCALAB 250Xi with an X-ray spot size of 500 μm. The XPS instrument was calibrated using silver metal, with the Ag 3d5/2 peak set at 368.2 eV. The sampling depth is 10 nm, and the spectrum remains unaffected by the underlying substrate. Throughout the XPS analysis, a low-energy electron gun was employed to flood the analysis area, neutralizing surface charges. In the post-processing phase, we standardized the adventitious carbon peak at 284.8 eV to calibrate all spectra and mitigate surface charging effects. We utilized an XPS optical microscope and observed particle aggregation on the substrate. The Xray spot, with a diameter of 400 µm, was precisely focused on an aggregated region with a thickness of several micrometers. The influence of the underlying substrate should be omitted from the analysis. Each sample was connected to the grounded sample holder using copper conductive tape. Additionally, charge compensation was performed prior to each measurement. Transient photocurrent (TPC) was conducted by the Fluxim Paios system. Kelvin probe force microscopy (KPFM) images were generated using an Asylum Cypher S atomic force microscope (Oxford Instruments) with a Ti-Ir-coated ASYELEC.01-R2 cantilever and k = 4 ± 0.5 N m -1 (Asylum Research). Scans were performed over 2 µm at 512 pixels and 0.5 Hz in a two-pass nap method, the first pass in tapping mode and the second in KPFM mode with a tip potential of 5 V and surface clearance of 5 nm. NMR analysis. We find (Fig.  S6A ) that C1 connecting the SO3 -unit shows the largest chemical shift. This we attribute to electron-withdrawal from the substituent. C4, located at the para position, shows the second largest chemical shift, which we assign to the conjugating effect. After the introduction of PbI2, the chemical shift of C1 moves to a higher field (-0.4), which we ascribe to the decrease of the electron-withdrawing capability of the substituent following coordination with PbI2. In contrast, the C4 peak shifts to a lower field (+0.22), which we ascribe to the enhancement of the conjugating effect after the coordination of SO3 -and PbI2  (40, 41) . Similar changes are observed for the methyl-substituted molecule (Fig.  S6B ). The change of the chemical shift is indicative of the strong interaction between SO3 -and PbI2. For the molecule with chlorine substituent Cl-BZS-PbI2, the change of the chemical shift of C1 and C4 after the interaction with PbI2 is reduced (-0.36, +0.1), indicating that the chlorine atom influences the electron density of the carbon atoms. To study the effect of the chlorine substituent in particular, we studied the NMR spectrum of chlorine benzene. As shown in Fig.  S6D , the peak of C4 connecting to the chlorine atom moves to a higher field after the addition of PbI2 (-0.09). This can be ascribed to the interaction between chlorine and PbI2 that reduces the electronwithdrawing character. The peak of C1 moves to lower field due to the enhancement of the conjugating effect (+0.03). These shifts indicate interactions between the chlorine and lead, as expected. For the molecule with both chlorine and SO3 -substituents (Fig.  S6C ), the movement of the chemical shift is reduced compared to BZS-PbI2, and the overall movement of the peak position in 4Cl-BZS+PbI2 is almost consistent with the sums of the shifts observed for single SO3 -and Cl substituents  (42) . This indicates the interaction of both SO3 -and Cl with PbI2. First-principles calculations. First-principles calculations based on density functional theory (DFT) were carried out using the Vienna Ab initio Simulation Package (VASP)  (43) . For the exchange-correlation functional, the Perdew-Burke-Ernzerhof functional (PBE) (44) was adopted. DFT-D3 method was used for the van der Waals (vdW) correction  (45) . Dipole corrections were taken into consideration in the work function calculations. The plane-wave cutoff energy was 400 eV. The energy and force convergence criteria were set to 10 -5 eV and 0.03 eV• Å -1 , respectively. The adsorption energies (Eads) of C60 with different molecules (BZS, 4CH3-BZS and 4Cl-BZS) adsorbed perovskite surface were calculated as E(C60@perovskite)-E(C60)-E(perovskite). The electrostatic potentials (φ) of the passivators were calculated in the Gaussian 09 package at the B3LYP/def2TZVP level with DFT-D3.                       Fig. 1 . 1 Fig. 1. a) Chemical structure of CMAI. Top-view SEM images of b) pristine perovskite film, c) CMAI (IPA) treated perovskite film, and d) CMAI (CF) treated perovskite film. Surface AFM images of e) pristine perovskite film, f) CMAI (IPA) treated perovskite film, and g) CMAI (CF) treated perovskite film. h) XRD patterns of pristine perovskite film (black), CMAI (IPA) treated perovskite film (red), and CMAI (CF) treated perovskite film (blue). i) Schematic representation of surface reconstruction process after CMAI (IPA) and CMAI (CF) treatment. &#13;</text>
+      <annotation id="24">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">C60</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T09:51:08Z</infon>
+        <location offset="37429" length="3"/>
+        <text>C60</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">C60</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T09:51:06Z</infon>
+        <location offset="38726" length="3"/>
+        <text>C60</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSL3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T08:38:41Z</infon>
+        <location offset="40907" length="8"/>
+        <text>ISOS-L-3</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>47976</offset>
+      <text> Fig. 2 . 2 Fig. 2. GIXRD peaks with different ψ values of a) the pristine perovskite film (black), b) CMAI (IPA) treated perovskite film, and c) CMAI (CF) treated perovskite film. d) Linear fit of 2θ-sin 2 ψ for the pristine perovskite film (black), CMAI (IPA) treated perovskite film (red), and CMAI (CF) treated perovskite film (blue). e) TRPL of the pristine perovskite film (black), CMAI (IPA) treated perovskite film (red), and CMAI (CF) treated perovskite film (blue). f) XPS N1s core level signals of the pristine perovskite film (black), CMAI (IPA) treated perovskite film (red), and CMAI (CF) treated perovskite film (blue). The two features fitted to the data correspond to FA + and CMA + . &#13;</text>
+    </passage>
+    <passage>
+      <offset>48682</offset>
+      <text> Fig. 3 . 3 Fig. 3. a) Device architecture of the PSC. b) IPCE and integrated Jsc of control device (black), CMAI (IPA) treated device (red) and CMAI (CF) treated device (blue). c) J-V curves of the best control device (black), CMAI (IPA) treated device (red) and CMAI (CF) treated device (blue) under reverse scan (RS). d) Power output of the control device (black), CMAI (IPA) treated device (red) and CMAI (CF) treated device (blue) at MPPT. e) Voc versus logarithm of light intensity of the control device (black), CMAI (IPA) treated device (red) and CMAI (CF) treated device (blue). f) J-V curves of the champion 1 cm 2 device, inset image is the picture of large area PSC device. &#13;</text>
+    </passage>
+    <passage>
+      <offset>49369</offset>
+      <text> a) Reverse scan; b) Forward scan; c) HI = (PCE RS -PCE FS )/PCE RS enhanced performance induced by CMAI treatment can be attributed to the dramatic increasement in open-circuit voltage (V OC ) and fill factor (FF), leading to an average power conversion efficiency (PCE) of the passivated devices of over 23%. The photocurrent density (Jsc) of the target devices show negligible differences to the control devices, which is in agreement with the comparable incident photo-to-current efficiency (IPCE) and integrated photocurrent density shown in Fig.3b. The champion performance with and without CMAI treatment is summarized in Table1and illustrated in Fig.3c. The best PCE with CMAI (IPA) treatment is 23.77% with a Jsc of 25.76 mA/cm 2 , a V OC of 1.145 V, and a FF of 0.806. The CMAI (CF) treated champion device shows a PCE of 23.94%, with a Jsc of 25.75 mA/cm 2 , a V OC of 1.149 V, and a FF of 0.809, with reduced hysteresis. The stabilized power output of the champion devices was analysed by maximum power point tracking (MPPT) under ambient air with relevant humidity of 30%. The stabilized PCE of both passivated devices exhibit over 23.5% after 10 min aging and the control device is at 21.0%. In addition, as shown in Fig.S9, the statistics of photovoltaic parameters distribution (20 devices for each condition) shows good reproducibility upon CMAI treatment. It is worth noticing that as shown in Table &#13;</text>
+    </passage>
+    <passage>
+      <offset>50788</offset>
+      <text> Fig. 4 . 4 Fig. 4. a) Contact angle of water droplet on perovskite film with and without CMAI treatment. b) Shelf stability of control devices (black), CMAI (IPA) treated devices (red) and CMAI (CF) treated devices (blue) under relative humidity of 20-30%, five devices for each condition. c) Long-term stability of control device (black), CMAI (IPA) treated device (red) and CMAI (CF) treated device (blue) under constant simulated one-sun illumination in N 2 atmosphere at room temperature. d) Shelf stability of control devices (black), CMAI (IPA) treated devices (red) and CMAI (CF) treated devices (blue) under relative humidity of 40 ± 10% at 50 • C, four devices for each condition. &#13;</text>
+    </passage>
+    <passage>
+      <offset>51483</offset>
+      <text> Jiajia Suo : Suo Methodology, Investigation, Formal analysis, Measurement, Writingoriginal draft, Writingreview &amp; editing. Bowen Yang: Investigation, Methodology, Formal analysis, Measurement, Writingoriginal draft, Writingreview &amp; editing. Jaeki Jeong: Methodology. Tiankai Zhang: Measurement. Selina Olthof: Measurement. Feng Gao: Visualization. Michael Grätzel: Visualization. Gerrit Boschloo: Visualization. Anders Hagfeldt: Resources, Validation, Supervision, Project administration, Funding acquisition. &#13;</text>
+    </passage>
+    <passage>
+      <offset>51996</offset>
+      <text> Fig. 1 . 1 Fig. 1. DFT studies of ligand binding and predicted orientation. (A) Structure and electrostatic potential of BZS, 4CH 3 -BZS, and 4Cl-BZS ligands. (B) Atomic structures of ligand adsorbed in a perpendicular orientation (Conf-perp) on the perovskite surface. (C) Atomic structures of ligand adsorbed in a planar or parallel orientation (Conf-para) on the perovskite surface. (D) Formation energy difference between parallel and perpendicular ligand-surface orientations (E Conf-para -E Conf-perp ). (E) The adsorption energies (E ads ) of C 60 with different molecules (BZS, 4CH 3 -BZS, and 4Cl-BZS) adsorbed on the perovskite surface. &#13;</text>
+    </passage>
+    <passage>
+      <offset>52645</offset>
+      <text> Fig. 2 . 2 Fig. 2. Surface coordination and passivation of perovskite films. (A) Pb 4f XPS spectra of control and treated perovskite surfaces. a.u., arbitrary units. (B) Cl 2p XPS spectra of pure 4Cl-BZS film compared with spectra of perovskite treated with 4Cl-BZS. (C) PLQY of neat control and treated perovskite films on quartz substrates and PLQY results for full device stacks (FTO/SAMs/ perovskite/C 60 ) with and without treatment. (D) TRPL lifetimes of neat control and treated perovskite films. The lifetimes for each trace were calculated using a biexponential decay model and can be found in table S1. (E) Differential carrier lifetimes extracted from the TRPL spectrum (fig. S7). (F) Transient photocurrent (TPC) measurements of control and treated devices. &#13;</text>
+    </passage>
+    <passage>
+      <offset>53417</offset>
+      <text> Fig. 3 . 3 Fig. 3. Photovoltaic performance and stability of inverted solar cells. (A) Cross-sectional SEM image of the device structure. (B) PCE statistics for 30 control and 4Cl-BZS-treated devices. The center line represents the median, box limits are upper and lower quartiles, and whiskers are minimum and maximum values; the vertical curved lines represent data distribution. (C) J-V curves of the 4Cl-BZS-treated device with bimolecular passivation. The inset shows the stabilized PCE. (D) Newport-certified QSS J-V curve of the champion 0.05-cm 2 device (fig. S15). (E) Newport-certified QSS J-V curve of the champion 1.04-cm 2 device (fig. S16). (F) Summary of published nip and pin PSC performances in recent years. (G) ISOS-D-2I device stability during storage at 85°C for 1500 hours. (H) MPP stability tracking of encapsulated control and 4Cl-BZS-treated devices under simulated 1-sun illumination at 50% relative humidity (RH) and a heatsink temperature of 65°C. The 4Cl-BZS-treated device retains 95% of its initial efficiency after 1200 hours of operation. &#13;</text>
+    </passage>
+    <passage>
+      <offset>54493</offset>
+      <text> Fig. S1 . S1 Fig. S1. Calculated charge density difference of anchoring C60 ETL onto the three molecules (BZS, 4CH3-BZS and 4Cl-BZS) adsorbed perovskite surface. The same isosurface level is used. Calculated adsorption energies (Eads) are also shown. Conf-perp: the ligands are oriented perpendicular to the perovskite surface; Conf-para: the ligands adopt a planar/parallel orientation with respect to the perovskite surface. &#13;</text>
+    </passage>
+    <passage>
+      <offset>54922</offset>
+      <text> Fig. S2 . S2 Fig. S2. Gc results and sample structures with fracture paths indicated by the black arrows. &#13;</text>
+    </passage>
+    <passage>
+      <offset>55030</offset>
+      <text> Fig. S3 . S3 Fig. S3. Tof-sims results of perovskite films with different additives. &#13;</text>
+    </passage>
+    <passage>
+      <offset>55117</offset>
+      <text> Fig. S4 . S4 Fig. S4. XRD spectrum of perovskite films deposited on FTO/SAM substrate. &#13;</text>
+    </passage>
+    <passage>
+      <offset>55206</offset>
+      <text> Fig. S5 . S5 Fig. S5. SEM images of perovskite films deposited on FTO/SAM substrate. &#13;</text>
+    </passage>
+    <passage>
+      <offset>55293</offset>
+      <text> Fig S6. 13 C 13 Fig S6.13 C NMR spectra for additives with and without PbI2. &#13;</text>
+    </passage>
+    <passage>
+      <offset>55372</offset>
+      <text> Fig. S7 . S7 Fig. S7. TRPL lifetimes of control and treated perovskite/C60 stacks &#13;</text>
+    </passage>
+    <passage>
+      <offset>55456</offset>
+      <text> Fig. S10 . S10 Fig.S10. KPFM and Topography images of perovskite films deposited on FTO/SAM substrate. &#13;</text>
+    </passage>
+    <passage>
+      <offset>55561</offset>
+      <text> Fig. S11 . S11 Fig. S11. DFT calculated work function values of control and perovskite surface absorbed with ligands in optimized orientations. &#13;</text>
+    </passage>
+    <passage>
+      <offset>55707</offset>
+      <text> Fig. S12 . S12 Fig. S12. J-V curves of champion control device and 4Cl-BZS-treated device. &#13;</text>
+    </passage>
+    <passage>
+      <offset>55800</offset>
+      <text> Fig. S13 . S13 Fig. S13. Photovoltaic parameter statistics of the control, BZS, 4CH3-BZS and 4Cl-BZS PSCs. Photovoltaic parameter statistics of control, BZS, 4CH3-BZS and 4Cl-BZS PSCs. 4Cl-BZS exhibit the highest Voc and fill factor (FF). For BZS and 4CH3-BZS, a lesser Voc improvement is seen, along with a lower FF. &#13;</text>
+    </passage>
+    <passage>
+      <offset>56120</offset>
+      <text> Fig. S14 . S14 Fig. S14. Statistic data of devices with different concentration of 4Cl-BZS additive. &#13;</text>
+    </passage>
+    <passage>
+      <offset>56223</offset>
+      <text> Fig. S15 . S15 Fig. S15. Electrostatic potential (ESP) of 4X-BZS molecules (X= F/Cl/Br/I). Calculated averaged value of the ESP on the localized van der Waals surface of X atom (X= F/Cl/Br/I) are also shown. &#13;</text>
+    </passage>
+    <passage>
+      <offset>56433</offset>
+      <text> Fig. 16 . 16 Fig. 16. J-V curves of devices with different additives. Structurally similar molecules 4fluorobenzenesufonic acid (4F-BZSA) and 4-Iodobenzenesufonic acid (4I-BZSA) were used as additive in the devices. Each additive improves the PCE of devices relative to the control. 4F-BZSA treatments leads to comparable PCE as in the case of 4Cl-BZS, and that 4I-BZSA also showed improved PCE compared to controls. &#13;</text>
+    </passage>
+    <passage>
+      <offset>56852</offset>
+      <text> Fig. S17 . S17 Fig. S17. PLQY of full device stacks (FTO/SAM/Perovskite/C60) with and without additives; and with and without BMP treatment. &#13;</text>
+    </passage>
+    <passage>
+      <offset>56995</offset>
+      <text> Fig. S18 . S18 Fig. S18. J-V statistics for control and 4Cl-BZS devices with and without BMP treatment. &#13;</text>
+    </passage>
+    <passage>
+      <offset>57101</offset>
+      <text> Fig. S19 . S19 Fig. S19. EQE spectrum of control and 4Cl-BZS devices. &#13;</text>
+    </passage>
+    <passage>
+      <offset>57173</offset>
+      <text> Fig. S20 . S20 Fig. S20. Differential plot from EQE spectrum of 4Cl-BZS devices. &#13;</text>
+    </passage>
+    <passage>
+      <offset>57256</offset>
+      <text> Fig. S21 . S21 Fig. S21. Certified result of the small-area device (0.05 cm 2 ). &#13;</text>
+    </passage>
+    <passage>
+      <offset>57339</offset>
+      <text> Fig. S23 . S23 Fig. S23. MPP stability tracking of encapsulated 4Cl-BZS treated device under simulated 1 sun illumination at 50% relative humidity and a heatsink temperature of 85 °C. &#13;</text>
+    </passage>
+    <passage>
+      <offset>57526</offset>
+      <text> Fig. S24 . S24 Fig. S24. Performance of narrow bandgap (A) and wide-bandgap (B) devices with and without 4Cl-BZS additive, the PCE were increased after adding 4Cl-BZS additive. &#13;</text>
+    </passage>
+    <passage>
+      <offset>57705</offset>
+      <text> Table 1 Photovoltaic 1 Scan direction Jsc (mA/ cm 2 ) Voc (V) FF PCE (%) Hysteresis index (HI) (%) c Control Control RS a FS b 25.69 25.66 1.092 1.084 0.763 0.744 21.40 20.69 3.3 CMAI- RS 25.76 1.145 0.806 23.77 1.6 IPA CMAI- FS 25.65 1.142 0.799 23.40 IPA CMAI- RS 25.75 1.149 0.809 23.94 1.1 CF CMAI- FS 25.70 1.147 0.803 23.67 CF parameters and hysteresis index (HI) of control, CMAI (IPA), CMAI (CF) treated champion devices. &#13;</text>
+    </passage>
+    <passage>
+      <offset>58137</offset>
+      <text> Table S3 . S3 Summary of certified photovoltaic parameters of small area (&lt; 0.1 cm 2 ) PSCs with quasi-steady-state (QSS) PCE following asymptotic maximum power (AMP) scan or maximum power point (MPP) tracking protocols published in recently three years. Device Structure VOC (V) JSC (mA cm -2 ) FF (%) PCE (%) Condition Reference PIN 1.17 26.1 85.2 26.15 QSS (Newport) This work NIP 1.18 25.8 84.6 25.73 QSS (Newport) &#13;</text>
+    </passage>
+    <passage>
+      <offset>58558</offset>
+      <text> Table S4 . S4 Summary of certified photovoltaic parameters of 1 cm 2 PSCs with quasi-steady-state (QSS) PCE following asymptotic maximum power (AMP) scan or maximum power point (MPP) tracking protocols published in recently three years. Device Structure VOC (V) JSC (mA cm -2 ) FF (%) PCE (%) Condition Reference PIN 1.17 26.5 80.1 24.74 QSS (Newport) This work NIP 1.18 22.7 84.4 22.60 MPP (CSIRO) J. Peng, Science, 2021 (53) &#13;</text>
+    </passage>
+    <passage>
+      <offset>58987</offset>
+      <text> Table S5 . S5 Summary of operational stability of reported inverted PSCs following the ISOS-L-3 protocol. Lifetime (hours) Initial PCE under aging condition (%) Temperature (°C) Relative Humidity (%) References T95 = 1200 23.2 65 ~50 This work T85 = 1560 19.9 85 ~50 S. M. Park, Science, 2023 (16) T92 = 500 N.A. 65 ~50 H. Chen, Nat. Photon., 2022 (21) T95 = 1200 ~14.2 85 ~50 Y.-H. Lin, Science, 2020 (54) &#13;</text>
+    </passage>
+    <passage>
+      <offset>59397</offset>
+      <text>			 of 5 Downloaded from https://www.science.org at University of California San Diego on November 13, 2024 &#13;</text>
+    </passage>
+    <passage>
+      <offset>59506</offset>
+      <text>			 of 5 Downloaded from https://www.science.org at University of California San Diego on November 13, 2024 &#13;</text>
+    </passage>
+    <passage>
+      <offset>59615</offset>
+      <text>			 of &#13;</text>
+    </passage>
+    <passage>
+      <offset>59623</offset>
+      <text>			 Downloaded from https://www.science.org at University of California San Diego onNovember 13, 2024    &#13;</text>
+    </passage>
+    <passage>
+      <offset>59729</offset>
+      <text>			 of 5 Downloaded from https://www.science.org at University of California San Diego on November 13, 2024</text>
+    </passage>
+    <relation id="R1">
+      <infon key="type">test_1</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T07:04:44Z</infon>
+      <node refid="28" role=""/>
+      <node refid="26" role=""/>
+      <node refid="8" role=""/>
+      <node refid="7" role=""/>
+      <node refid="10" role=""/>
+      <node refid="6" role=""/>
+      <node refid="1" role=""/>
+      <node refid="21" role=""/>
+    </relation>
+    <relation id="R2">
+      <infon key="type">test_1</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T07:04:44Z</infon>
+      <node refid="28" role=""/>
+      <node refid="26" role=""/>
+      <node refid="34" role=""/>
+      <node refid="32" role=""/>
+      <node refid="35" role=""/>
+      <node refid="36" role=""/>
+      <node refid="1" role=""/>
+      <node refid="21" role=""/>
+    </relation>
+    <relation id="R3">
+      <infon key="type">test_2</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T07:04:44Z</infon>
+      <node refid="29" role=""/>
+      <node refid="31" role=""/>
+      <node refid="30" role=""/>
+      <node refid="32" role=""/>
+      <node refid="33" role=""/>
+      <node refid="1" role=""/>
+      <node refid="21" role=""/>
+    </relation>
+  </document>
+</collection>

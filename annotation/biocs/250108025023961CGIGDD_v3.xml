@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source/>
+  <date/>
+  <key/>
+  <document>
+    <id>250108025023961CGIGDD</id>
+    <infon key="tt_curatable">no</infon>
+    <infon key="tt_version">3</infon>
+    <infon key="tt_round">3</infon>
+    <passage>
+      <offset>0</offset>
+      <text>Paper #: 10&#13;</text>
+    </passage>
+    <passage>
+      <offset>12</offset>
+      <text>Supplementary Note 1: Further discussion on the heterointerface energy band diagrams In Extended Data Fig.  3 , the perovskite bulk work function should also be affected by ΔEvac. This is because the less negative ΔEvac by replacing OAI treatment with OATsO treatment resultantly delocalizes the accumulated electrons in the potential well, which enhances the electron density and thus electron quasi-fermi level (𝐸 𝑓𝑛 ) work function of the perovskite bulk. Moreover, the change in bulk work function by surface treatment would also affect the band alignment and thus charge accumulation at the perovskite/SnO2 heterointerface. Indeed, a slightly increased hole accumulation was observed for the OATsO-treated device (Fig.  1h, i ). However, although the hole quasi-fermi level (𝐸 𝑓𝑝 ) for the OATsO-treated device slightly up-shifted, its increase is not as significant as 𝐸 𝑓𝑛 . The overall effect on the quasi-fermi level splitting is consistent with the slight VOC enhancement by replacing OAI treatment with OATsO treatment (Extended Data Fig.  5 ). &#13;</text>
+      <annotation id="1">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">octylammonium tosylate</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T13:42:28Z</infon>
+        <location offset="264" length="5"/>
+        <text>OATsO</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">Tin dioxide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T06:19:25Z</infon>
+        <infon key="error:misaligned:22">622-&gt;619</infon>
+        <location offset="619" length="4"/>
+        <text>SnO2</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>1098</offset>
+      <text> Supplementary Note 2: Derivation of the charge density distribution from KPFM The electric field distribution across the device cross section, E(𝑧), was calculated from the contact potential difference, V(𝑧), according to the equation: 1 𝐸(𝑧) = - 𝑑 𝑑𝑧 [𝑉(𝑧) - Φ tip (𝑧) 𝑒 ] = - 𝑑 𝑑𝑧 𝑉(𝑧) where Φ tip (𝑧) is the work function of the probe and 𝑒 is the elementary charge. Φ tip (𝑧) 𝑒 is constant. The charge density distribution in a device, ∆𝜌(𝑧), is then given by: 1 ∆𝜌(𝑧) = 𝜖 0 𝜖 𝑟 𝑑 𝑑𝑧 𝐸(𝑧) where 𝜖 0 and 𝜖 𝑟 are the vacuum and relative permittivity, respectively. In accordance with the previous report,  1  the data were smoothened with the Savitzky-Golay processing by a second order polynomial regression and the same ratio of data points. &#13;</text>
+    </passage>
+    <passage>
+      <offset>1958</offset>
+      <text> Supplementary Note 3: Further discussion on the low-dimensional phase formation Surface-sensitive GIXRD (ω = 0.2°, penetration depth &lt;60 nm) revealed that only OAI and OABr treatments form 2D perovskites. OABF4, OATFA, and OATsO all did not form 2D perovskites (Supplementary Fig.  8 ), likely due to steric hindrance and the inability of asymmetrical counter-anions to be shaped into the ordered PbX6 4-octahedrons. We note that the observed negative ΔEvac and consequent charge obstruction/accumulation is separate and likely unrelated from 2D formation: (1)   OABF4 and OATFA do not form 2D perovskites, but their ΔEvac is still negative; (2) 2D perovskites are known to have low conductivity. Fundamentally, the low conductivity is because of the large organic cation (e.g. insulating alkyl group of alkylammonium), not the iodide or bromide anion. In this work, the organic cation is fixed as octylammonium; Based on Fig.  2e  and Extended Data Fig.  5 , we observed that the varying performance of the surfacepassivated devices is mainly contributed by their differing FFs. A reduced FF is indicative of less efficient charge extraction. We postulate that this is related to ΔEvac as follows: Firstly, the negative ΔEvac deepened the valence band offset (Supplementary Table  1 ) to worsen the energy level mismatch with spiro-MeOTAD (HOMO level: -5.2 eV). This sacrifices FF by reducing hole extraction into spiro-MeOTAD, which is observed as an increased charge extraction lifetime from the PL results (Fig.  2c, 2d ). Similar phenomenon has been observed in published works that studied the charge extraction time after surface treatment by conventional alkylammonium salts paired with iodide or bromide as the counteranion.  2, 3  Secondly, the negative ΔEvac created the heterointerface energy barrier seen from the KPFM device profiling, which also contributed to impede charge extraction to reduce FF.  1, 4, 5  ΔEvac progressively became less negative going from OAI treatment (-0.37 eV), to OABF4 treatment (-0.22 eV), and to OATsO treatment (+0.07 eV). This minimizes the inefficient charge extraction trade-off, therefore maximizing the FF and PCE gains enabled by surface treatment. Consequently, the OATsO-treated devices have the best performance. On the other hand, we observed that the VOC of the surface-passivated devices, while still different, are relatively less affected by a negative ΔEvac and inefficient charge extraction. Contrary to popular belief, from the perspective of the fundamental physics of solar cell operation, series resistance is actually not directly correlated with VOC.  6, 7  Fundamentally, this is because at V=VOC, the current flow across a solar cell, in other words the current flow through the series resistance, is exactly equal to zero (I=0).  7  Published perovskite literature have also reported that the device FF can be more sensitive than VOC to inefficient charge extraction and potential energy barriers,  4, 5  which supports our device results. Finally, we further validated the generality of our observations and universality of our proposed strategy by applying it to a different, pure FAPbI3 composition with DMSO replaced with NMP (fabrication details included in Methods). The results are presented in Extended Data Fig.  8  and Supplementary Table  3 . &#13;</text>
+      <annotation id="2">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">octylammonium tetrafluoroborate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T06:45:41Z</infon>
+        <location offset="2522" length="5"/>
+        <text>OABF4</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T13:43:04Z</infon>
+        <location offset="3286" length="12"/>
+        <text>spiro-MeOTAD</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T13:43:13Z</infon>
+        <location offset="3374" length="12"/>
+        <text>spiro-MeOTAD</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>5294</offset>
+      <text> Supplementary Note 5: Contrasting the device degradation under MPP aging versus OC aging In general, we observed that all devices were less stable under OC stability test, compared to their corresponding degradation rate under MPP stability test. This is consistent with previous reports that studied PSC degradation behavior under different aging conditions.  8  That previous study showed that PSC degradation rate increases in the trend MPP aging &lt; short-circuit aging &lt; OC aging (i.e. PSCs have the worst stability under OC aging). Therefore, the OC stability test can be used to represent a conservative estimate of the PSC lifetime under maximum accelerated degradation, although we note that MPP aging is more truly reflective of real working PSCs. Relatedly, a rapid "burn-in" decay stage is often observed during the first ~100 h of aging during PSC photostability tests.  [8] [9] [10] [11]  Importantly, the "burn-in" decay has been shown to be more severe for OC aging, and less severe for MPP aging.  8  This is also consistent with our own observations (Fig.  2f ). Although the "burn-in" decay is less noticeable under MPP stability tests, it nevertheless still exists, where the devices decayed at a more rapid rate in the first 100 h compared to the following ~400 h (Fig.  2f , Supplementary Table  4 ). Specifically, the OABF4-treated device performance decreased by -0.029 %/h in the first 100 h, compared to -0.014 %/h in the next 400 h. The OAI-treated device performance decreased by -0.064 %/h in the first 100 h, compared to -0.022 %/h for the next 400 h. Remarkably, the OATsO-treated devices displayed no obvious "burn-in" decay in both MPP aging and OC aging. General n-i-p devices are notoriously plagued by crippling initial "burn-in" decays,  8, 12  so this improvement was already noteworthy. Ligand-induced work function changes, ∆W, is given by the relation:  [13] [14] [15]   ∆W = 𝑒 𝜀 0 𝐴 Δ𝜇 = 𝑒 𝜀 0 𝐴 (𝜇 𝑑𝑖𝑝𝑜𝑙𝑒 + 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 ) where 𝑒 is the elementary charge, 𝜀 0 is the vacuum permittivity, A is the surface area, and Δ𝜇 = 𝜇 𝑑𝑖𝑝𝑜𝑙𝑒 + 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 . 𝜇 𝑑𝑖𝑝𝑜𝑙𝑒 and 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 are two independent contributions,  [13] [14] [15]  where respectively, 𝜇 𝑑𝑖𝑝𝑜𝑙𝑒 is the ligand intrinsic dipole moment normal to the surface, while 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 is related to a charge density displacement by interaction and bond formation of the ligand during chemisorption to the surface. The former is intensively reported in the perovskite community,  16  while the latter has been relatively less explored. 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 is the primary mechanism by which low polarity (or non-polar) species cause a ∆W. We first computed the respective dipole moments of various species in this work (Supplementary Fig.  15, 16 ). The negative ∆W (i.e. more n-type) with increasing alkylammonium chain length is correlated with their successively increasing positive dipole moments. On the other hand, while both [I] -and [Br] - are non-polar, the experimentally measured ∆W for the films treated with OAI or OABr were different (Fig.  1b ), hinting of a contribution from 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 . Additionally, the dipole moment of [TsO] -has an opposite sign but only half that of [OA] + , and thus the net dipole remains positive, which should have resulted in a negative ∆W, and thus cannot fully explain the experimental observations. Therefore, the contribution of 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 must be taken into consideration. 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 is related to the charge density differential, ∆𝜌, as a function of position (𝑥, 𝑦, 𝑧) by: 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 ≈ -𝑒 ∭ 𝑧∆𝜌 𝑑𝑥 𝑑𝑦 𝑑𝑧 The averaged charge density displacement as a function of 𝑧, ∆𝜌̅ (𝑧), and charge displacement, ∆𝑞(𝑧), in terms of ∆𝜌̅ (𝑧), is given by: ∆𝜌̅ (𝑧) = 1 𝐴 ∬ ∆𝜌 𝑑𝑥 𝑑𝑦 ∆𝑞(𝑧) = 𝐴∆𝜌̅ (𝑧)∆𝑧 where ∆𝜌 is calculated from: ∆𝜌 = 𝜌 𝑐𝑜𝑚𝑝𝑙𝑒𝑥 -𝜌 𝑠𝑢𝑟𝑓𝑎𝑐𝑒 -𝜌 𝑙𝑖𝑔𝑎𝑛𝑑 Here, 𝜌 𝑐𝑜𝑚𝑝𝑙𝑒𝑥 , 𝜌 𝑠𝑢𝑟𝑓𝑎𝑐𝑒 and 𝜌 𝑙𝑖𝑔𝑎𝑛𝑑 are the charge densities of the surface-ligand complex, freestanding surface, and free ligand, respectively. Subsequently, the charge displacement, 𝑞 ̅ , near the surface positioned at 𝑧 𝑠 is then calculated by: 𝑞 ̅ = 1 ∆𝑧 ∫ Δ𝑞(𝑧)𝑑𝑧 𝑧 𝑠 +Δz/2 𝑧 𝑠 -Δ𝑧/2 We computed the ∆𝑞(𝑧) with the different ligands to explore the 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 contribution (Fig.  4c-e ). Strikingly, [TsO] -induces a pronounced negative surface charge displacement, 𝑞 ̅, of -0.022 e, threefold larger in magnitude than the positive 𝑞 ̅ of [OA] + of +0.006 e. Calculations with varying ligand surface density corroborate the trends (Supplementary Fig.  18 ). We did further calculations by introducing iodine vacancy (VI) or lead-iodine antisite (PbI) defects to the surfaces of the slab models. Both defects have been reported to form readily on the perovskite surface.  17, 18  We present our results in Supplementary Fig.  17  and Supplementary       OA + BF 4 - V OC (V) J SC (mA cm -2 ) FF (%) PCE (%) V OC (V) J SC (mA cm -2 ) FF (%) PCE (%) V OC (V) J SC (mA cm -2 ) FF (%) PCE (%) &#13;</text>
+      <annotation id="5">
+        <infon key="type">structure_pin_nip</infon>
+        <infon key="identifier">NIP</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T13:43:31Z</infon>
+        <location offset="6990" length="5"/>
+        <text>n-i-p</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>10819</offset>
+      <text> Supplementary Figure 13. XRD analyses of the aged devices. XRD diffraction patterns measured with an ω-2θ setup of the aged a, OAI-treated and b, OATsO-treated devices. These were the same devices used for the STEM analyses, and were recovered after FIB milling. X-rays from the ω-2θ diffraction setup were able to penetrate through the top electrode and spiro-MeOTAD layers to probe the active layer itself. Concurrently, given the large penetration depth of ω-2θ XRD (&gt;700 nm), it is not sensitive to the ultrathin 2D interlayer, which is only detectable by the GIXRD measurements.   Optoelectronic devices consist of heterointerfaces formed between dissimilar semiconducting materials. The relative energy-level alignment between contacting semiconductors determinately affects the heterointerface charge injection and extraction dynamics. For perovskite solar cells (PSCs), the heterointerface between the top perovskite surface and a charge-transporting material is often treated for defect passivation  [1] [2] [3] [4]  to improve the PSC stability and performance. However, such surface treatments can also affect the heterointerface energetics  1  . Here we show that surface treatments may induce a negative work function shift (that is, more n-type), which activates halide migration to aggravate PSC instability. Therefore, despite the beneficial effects of surface passivation, this detrimental side effect limits the maximum stability improvement attainable for PSCs treated in this way. This trade-off between the beneficial and detrimental effects should guide further work on improving PSC stability via surface treatments. Progress in compositional and crystal-growth engineering has made possible the fabrication of halide perovskite thin films with minimized bulk trap density, such that defects are predominantly located at the surface  5, 6  . This has motivated the development of defect passivation treatments applied onto the top perovskite surface  [1] [2] [3] [4]  . However, such treatments can also change the heterointerface energetics and thus the charge-carrier dynamics between the perovskite and the top charge-transporting material  1  . Here we study the consequences of the altered heterointerface energetics on carrier extraction, trap passivation, charge accumulation and ion migration. We show that a negative work function change (ΔW) accumulates charges in a potential well, which lowers the halide migration activation energy to limit the perovskite solar cell (PSC) stability. A negative ΔW is equivalently described as a negative vacuum-level change (ΔE vac ) at a heterointerface, and hereafter, ΔW and ΔE vac are used interchangeably. &#13;</text>
+    </passage>
+    <passage>
+      <offset>13513</offset>
+      <text> Perovskite surface and heterointerface dynamics The genesis of this study began with our investigations on the surface energetics of perovskite films, based on a (FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05 composition (where FA is formamidinium and MA is methylammonium). Ultraviolet photoelectron spectroscopy (UPS) measurements showed that ubiquitously used ammonium-iodide-based surface treatments generally result in a negative ΔW (Fig.  1a , Supplementary Fig.  1  and Supplementary Table  1 ), which successively increases in magnitude with longer alkylammonium chain length. Given that a negative ΔW is associated with a relatively more electron-enriched surface, we speculated initially that the negative ΔW can be modulated by increasing the electron-withdrawing ability of the counteranion. Further UPS measurements (Fig.  1b ) showed that substitution of iodide [I] -with bromide [Br] -, tetrafluoroborate [BF 4 ] -or trifluoroacetate [TFA] -progressively negated the negative ΔW of octylammonium iodide (OAI) treatment towards that of the reference film, but only substitution with tosylate [TsO] -fully neutralized the negative ΔW. In particular, among the counteranions, [TsO] -has the strongest electron-withdrawing character  7  , which also justifies its ubiquitous use as the leaving group in synthetic heterolytic fission chemistry. The interaction of [TsO] -with the surface was further verified by X-ray photoelectron spectroscopy (XPS) analysis (Supplementary Fig.  2 ). Kelvin probe force microscopy (KPFM) measurements were performed to verify the work function distributions (Fig.  1c-f ). The mean work function of the OAI-treated film decreased to 4.49 ± 0.09 eV, from 4.67 ± 0.08 eV for the reference film, and in contrast to the 4.77 ± 0.11 eV for the OATsO-treated film. From the topographical atomic force microscopy (AFM) maps, the surface morphology and root-mean-square roughness of the treated films were negligibly different (Fig.  1g ), which was expected given the dilute (but common) solution concentration used for surface treatment. (SEM) images also suggested that the surface uniformity is relatively similar for the treated films (Extended Data Figs.  1, 2 ). &#13;</text>
+      <annotation id="6">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">(FAPbI3)0.95(MAPbBr3)0.05</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T13:53:46Z</infon>
+        <location offset="13676" length="32"/>
+        <text>(FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">octylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T06:44:52Z</infon>
+        <location offset="14497" length="20"/>
+        <text>octylammonium iodide</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">octylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T06:47:10Z</infon>
+        <location offset="14519" length="3"/>
+        <text>OAI</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>15716</offset>
+      <text> Consequences for charge-carrier dynamics Band alignments constructed from the UPS results predict that a negative ΔE vac may create a potential well to trap charges at the heterointerface (Extended Data Fig.  3  and Supplementary Note 1). Cross-sectional KPFM measurements under illumination in the open-circuit (OC) condition were followed to investigate the real-time charge-carrier distributions in complete devices of planar-architecture indium tin oxide (ITO)/ tin oxide (SnO 2 )/perovskite/2,2′,7,7′-tetrakis[N,N-di(4-methoxyphenyl) amino]-9,9-spirobifluorene (spiro-MeOTAD)/gold (Au) (Extended Data Fig.  4 , Supplementary Note 2 and Supplementary Figs.  3, 4 ). The measured device ΔE vac values at the perovskite/spiro-MeOTAD heterointerface are consistent with those obtained from the films (Supplementary Fig.  5 ). Charge carriers are unextractable in the OC condition (split quasi Fermi level), and might accumulate at a contacting selective heterointerface of the opposite polarity  8, 9  . This is observed as an accumulation of holes for both devices at the perovskite/SnO 2 heterointerface (Fig.  1h, i ). In contrast, a pronounced electron accumulation exists at the perovskite/spiro-MeOTAD heterointerface for only the OAI-treated device. The electron accumulation is noted to be significantly more severe than the counterpart hole accumulation. In principle, the ideal photovoltaic device would have a homogeneous electric-field distribution with no charge accumulation across its heterojunctions  10  , which is seen for the OATsO-treated device at its perovskite/spiro-MeOTAD heterointerface. Both devices were relatively field-free (that is, flat potential) along the active layer, indicative of a high-quality perovskite bulk, suggesting that the different behaviours were a consequence of the surface treatments. The results are consistent with those predicted based on the band diagrams (Extended Data Fig.  3 ), where the non-negative ΔE vac of the OATsO-treated device avoided the potential well and charge accumulation.  &#13;</text>
+      <annotation id="7">
+        <infon key="type">structure_pin_nip</infon>
+        <infon key="identifier">NIP</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T13:44:53Z</infon>
+        <location offset="16159" length="147"/>
+        <text>indium tin oxide (ITO)/ tin oxide (SnO 2 )/perovskite/2,2′,7,7′-tetrakis[N,N-di(4-methoxyphenyl) amino]-9,9-spirobifluorene (spiro-MeOTAD)/gold (Au</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T13:45:30Z</infon>
+        <location offset="16439" length="12"/>
+        <text>spiro-MeOTAD</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">octylammonium tosylate</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T13:45:54Z</infon>
+        <location offset="17263" length="5"/>
+        <text>OATsO</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">octylammonium tosylate</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T13:45:59Z</infon>
+        <location offset="17693" length="5"/>
+        <text>OATsO</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>17775</offset>
+      <text> Article Photoluminescence (PL) spectroscopy indicated an effective suppression of charge-trapping defect states in the surface-treated films, as evidenced by their enhanced PL intensities and carrier lifetimes with a glass/ perovskite architecture (Fig.  2a, b ). The defect passivation efficacies of the surface-treated films are noted to be relatively comparable. Comparing their PL intensity distributions indicates again that the surface uniformity is similar between the films (Supplementary Fig.  6 ). Despite the beneficial passivation effects, charge extraction into spiro-MeOTAD is sacrificially impeded in all surface-treated films (Fig.  2c, d  and Supplementary Table  2 ), but to different extents, with the trend correlated with the magnitude of ΔE vac . Compared with the reference/spiro-MeOTAD film, the average carrier lifetime (τ ave ) more than doubled to 8.1 ns (from 3.0 ns) for the OAI-treated film and the steady-state PL intensity was 223% higher. In contrast, OATsO treatment simultaneously suppressed the trap states whereas charge extraction was barely impeded, avoiding the trade-off seen for the OABF 4 and the OAI treatments. Further phototransient measurements on complete devices complement the film PL results (Supplementary Fig.  7 ). We postulate that the charge obstruction and accumulation cannot be explained by the surface two-dimensional phase, as the insulating large organic cation (OA + ) is kept unchanged (Supplementary Note 3 and Supplementary Fig.  8 ). &#13;</text>
+      <annotation id="11">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T13:46:22Z</infon>
+        <location offset="18351" length="12"/>
+        <text>spiro-MeOTAD</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>19280</offset>
+      <text> Device performance and hysteresis behaviour For the surface-treated devices, the power conversion efficiency (PCE) shows the trend OATsO-treated devices &gt; OABF 4 -treated devices &gt; OAI-treated devices, owing primarily to an increasing fill factor (FF) (Fig.  2e  and Extended Data Fig.  5 ). The device open-circuit voltages (V OC ) are marginally different, reflective of the comparable PL results of the glass/perovskite films. The best OATsO-treated device reached a PCE of 24.41% (Extended Data Fig.  6 ). We further verified the performance of encapsulated devices at an independent third-party laboratory, noting that the performance slightly decreased after the encapsulation procedure (Extended Data Fig.  7 ). Contrasting the surface-treated devices, the PCE trend can be explained as follows (further discussion in Supplementary Note 4). First, a more negative ΔE vac deepened the valence band offset with spiro-MeOTAD, which increased the hole extraction resistance to sacrifice the FF. In addition, the heterointerface barrier observed from the KPFM profiling may also contribute to impede charge extraction  9, 11  . Regardless, a negative ΔE vac remains the cause that gave rise to both effects. Separate investigations of a FAPbI 3 composition further verified our observations (Extended Data Fig.  8  and Supplementary Table  3 ).   Comparing the surface-treated devices, the hysteresis behaviour generally improved as the negative ΔE vac decreased in magnitude (Supplementary Fig.  9 ). This provided the first hint at a correlation between ΔE vac and ion migration, given that ion migration is responsible for PSC hysteresis  12, 13  . In contrast, the reference devices showed the lowest performance and worst hysteresis, owing to the abundant, unpassivated heterointerface traps. Overall, the device performance results provide evidence for the sacrificial trade-off of a negative ΔE vac to limit PSC performance. &#13;</text>
+      <annotation id="12">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">24.41</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T13:46:34Z</infon>
+        <location offset="19758" length="5"/>
+        <text>24.41</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>21221</offset>
+      <text> Device stability under continuous illumination We assessed the photostability of encapsulated devices under continuous illumination without an ultraviolet filter. All devices were aged in an ambient atmosphere at about 40 °C. We preserved the original device architecture with spiro-MeOTAD as the hole-transporting material, without applying further modifications (for example, copper phthalocyanine (CuPC) or poly(triarylamine) (PTAA) were not used). Under maximum power point (MPP) testing (Fig.  2f ), the OATsO-treated device sustained its performance with negligible degradation after about 800 h. The OABF 4 -treated device was also relatively stable, retaining 91.5% of its performance after about 500 h. Among the surface-treated devices, the OAI-treated device degraded the most rapidly to 84.8% of its performance after about 500 h. Contrasting the device degradation under MPP testing versus OC condition testing, all devices were generally less stable under OC condition testing (Fig.  2g , Extended Data Fig.  9  and Supplementary Note 5). However, the device degradation trends are identical, and correlated with the magnitude of ΔE vac . In particular, the OABF 4 -treated devices with an intermediate negative ΔE vac showed stability between that of the OAI-treated and the OATsO-treated devices. Near the approximate halfway point of 1,014 h, the devices retained 94.3% (OATsO treated), 86.2% (OABF 4 treated) and 74.8% (OAI treated) of their average PCEs. Ending after 2,092 h, the OATsO-treated devices retained 87.0% of their initial PCE on average. In contrast, the average PCE (65.1% of initial) of the OAI-treated devices decreased dramatically over the 2,092-h aging duration. The most stable OATsO-treated device (Fig.  2h ) retained 94.9% and 88.5% of its initial PCE after 1,014 h and 2,092 h, respectively. Analysing the degradation trends, we postulated that the potential well and charge accumulation may have accelerated ion migration, considering that the KPFM profiling was also performed under illumination in the OC condition. In particular, the more rapid 'burn-in' decay of the OAI-treated and the OABF 4 -treated devices, observed in both the MPP (Supplementary Table  4 ) and the OC tests, strongly hints that ion migration has been aggravated by a negative ΔE vac , given that transient ion migration underlies the 'burn-in' regime  12, 14, 15  . The altered ion migration energetics was also hinted by the device hysteresis behaviour. Moreover, the two-dimensional interlayer of the conventional OAI treatment probably contributed to impeding ion migration  16  , yet the OABF 4 -treated and the OATsO-treated devices still had superior photostability, indicating that the ion migration energetics have been dominantly affected. &#13;</text>
+      <annotation id="13">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">40</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T13:47:29Z</infon>
+        <location offset="21441" length="6"/>
+        <text>40 °C.</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-12T13:12:06Z</infon>
+        <location offset="21499" length="12"/>
+        <text>spiro-MeOTAD</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSL2</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T06:53:57Z</infon>
+        <location offset="21680" length="33"/>
+        <text>maximum power point (MPP) testing</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">octylammonium tosylate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T06:47:03Z</infon>
+        <location offset="21731" length="5"/>
+        <text>OATsO</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">100</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T05:18:09Z</infon>
+        <location offset="21783" length="22"/>
+        <text>negligible degradation</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">time</infon>
+        <infon key="identifier">800</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T13:56:02Z</infon>
+        <location offset="21818" length="3"/>
+        <text>800</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">octylammonium tetrafluoroborate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T06:45:41Z</infon>
+        <location offset="21829" length="6"/>
+        <text>OABF 4</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">91.5</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T05:18:16Z</infon>
+        <location offset="21890" length="5"/>
+        <text>91.5%</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">time</infon>
+        <infon key="identifier">500</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T13:50:06Z</infon>
+        <location offset="21927" length="5"/>
+        <text>500 h</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">octylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T06:50:43Z</infon>
+        <location offset="21973" length="3"/>
+        <text>OAI</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">84.8</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T06:50:59Z</infon>
+        <location offset="22021" length="5"/>
+        <text>84.8%</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">time</infon>
+        <infon key="identifier">500</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T06:51:05Z</infon>
+        <location offset="22058" length="6"/>
+        <text>500 h.</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSL3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T06:55:41Z</infon>
+        <location offset="22125" length="20"/>
+        <text>OC condition testing</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="type">time</infon>
+        <infon key="identifier">1014</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T07:01:48Z</infon>
+        <location offset="22573" length="8"/>
+        <text>1,014 h,</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">86.2</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T06:59:16Z</infon>
+        <location offset="22626" length="5"/>
+        <text>86.2%</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">octylammonium tetrafluoroborate</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-19T13:47:02Z</infon>
+        <location offset="22633" length="6"/>
+        <text>OABF 4</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="type">time</infon>
+        <infon key="identifier">2092</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T07:02:40Z</infon>
+        <location offset="22709" length="7"/>
+        <text>2,092 h</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">octylammonium tosylate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T07:03:01Z</infon>
+        <location offset="22722" length="6"/>
+        <text>OATsO-</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">87</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T07:03:14Z</infon>
+        <location offset="22753" length="5"/>
+        <text>87.0%</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">65.1</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T07:03:43Z</infon>
+        <location offset="22821" length="6"/>
+        <text>(65.1%</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">octylammonium iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T07:03:51Z</infon>
+        <location offset="22847" length="3"/>
+        <text>OAI</text>
+      </annotation>
+      <relation id="R3">
+        <infon key="type">test_1</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-19T07:04:45Z</infon>
+        <node refid="13" role=""/>
+        <node refid="18" role=""/>
+        <node refid="19" role=""/>
+        <node refid="20" role=""/>
+        <node refid="28" role=""/>
+      </relation>
+      <relation id="R5">
+        <infon key="type">test_1</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-19T07:04:45Z</infon>
+        <node refid="13" role=""/>
+        <node refid="25" role=""/>
+        <node refid="26" role=""/>
+        <node refid="27" role=""/>
+        <node refid="28" role=""/>
+      </relation>
+      <relation id="R6">
+        <infon key="type">test_2</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-19T13:47:22Z</infon>
+        <node refid="29" role=""/>
+        <node refid="37" role=""/>
+        <node refid="36" role=""/>
+        <node refid="33" role=""/>
+        <node refid="13" role=""/>
+      </relation>
+    </passage>
+    <passage>
+      <offset>23997</offset>
+      <text> Analyses of the degraded devices To directly investigate the extent of ion migration, on completion of the OC stability testing, the original OAI-treated and OATsO-treated devices (after 2,092 h illumination) were sent for scanning transmission electron microscopy (STEM) analysis. The encapsulation cover glasses were detached immediately before focused ion beam (FIB) milling to extract sample cross-sections. STEM bright-field images of the planar device stacks revealed that the micrometre-scale grain sizes were still visibly intact even after the extended aging (Fig.  3a, b  and Supplementary Fig.  10 ). The first notable difference between the two samples can be seen at the perovskite/spiro-MeOTAD heterointerface. The OAI-treated device had a rougher heterointerface morphology, which is in contrast to the negligibly different topography for the fresh films observed by AFM and SEM. This suggests that the roughening is inherent to the ageing process, possibly associated with heterointerface degradation by ion-migration-induced compositional loss. The elemental distributions were compared by X-ray energy-dispersive (EDX) mapping in STEM (Fig.  3c -f and Supplementary Fig.  11 ). On close inspection, large accumulations of both bromine (green arrows) and iodine (yellow arrows) can be seen for the OAI-treated device along the top Au/platinum (Pt) region. This is verified by quantitative analysis of the elemental distributions (Fig.  3g-j ). In consideration of the nominal stoichiometry of the perovskite, both bromine and iodine accumulation were approximately similar in order magnitude (Supplementary Fig.  12 ). We note that despite progress to completely remove the need for bromine in FAPbI 3 -based compositions  17, 18  , it has been shown that bromine might remain necessary to stabilize the α-FAPbI 3 phase in state-of-the-art devices  19  . The bulk devices that underwent FIB milling were further recovered and characterized by Bragg-Brentano XRD (Supplementary Fig.  13 ). The δ-FAPbI 3 peak supposedly at about 11.8° was not detected for both devices, and the α-FAPbI 3 phase remained dominant, ruling out possible aggravation of the perovskite phase metastability by iodine interstitial generation  20  . &#13;</text>
+    </passage>
+    <passage>
+      <offset>26243</offset>
+      <text> Aggravated ion migration and device instability We further simulated the ion migration pathways using the first-principles nudged-elastic-band methodology (Supplementary Note 6)  12  . To model the charge accumulation at the perovskite/spiro-MeOTAD heterointerface, we calculated the activation energy for halide migration in either a neutral uncharged or a negatively charged environment. Two independent pathways were explored: migration within a unit cell of a supercell (intra-lattice) and migration escaping a supercell (extra-lattice) (Extended Data Fig.  10  and Supplementary Table  5 ). The intra-lattice migration (vacancy mediated) investigates possible Coulombic screening effects by a charged environment to alter the bonding affinities and thus migration energetics  21, 22  , whereas the extra-lattice migration is defect independent. For intra-lattice migration (Fig.  4a ), the energy barriers for both iodine (-38.7%) and bromine (-29.4%) decreased substantially in the negatively charged environment. Similarly observed for the extra-lattice scenario (Fig.  4b ), the activation energy for iodine migration (-13.3%) and bromine migration (-17.8%) were both lower in the charged environment. Per the Arrhenius relationship, the rate constant has exponential dependence on the activation energy barrier. Ion penetration can result in irreversible chemical reactions with spiro-MeOTAD to degrade its hole-transporting functionality  23  , and also chemical corrosion of the top electrode layer  24  , which potentially contributed to the V OC and FF decays of the devices. The robust encapsulation procedure ruled out environmental degradation factors, indicating that intrinsic mechanisms (that is, ion migration) were responsible, and also excluded trapped charges catalysing extrinsic degradation pathways by moisture and oxygen  25  . This is evidenced by the short-circuit current retention for the devices, demonstrating the excellent phase stability of the active layers. By excluding ion migration, half-device tests further indicate that the photostability of the surface-treated films are negligibly different (Supplementary Note 7 and Supplementary Fig.  14 ). Tying together all results, we propose that the potential well and charge accumulation created by a negative ΔE vac aggravated device instability, by detrimentally accelerating halide migration at the spiro-MeOTAD/perovskite heterointerface. More generally, the beneficial improvements of surface treatments are sacrificially limited by a negative ΔE vac , but modulating the counteranion presents a simple method to further improve PSC stability and performance. Backtracking, we also preliminarily explored the possible mechanistic origins of ΔE vac using first principles (full discussion in Supplementary Note 8), summarized as follows. Ligand-induced ΔW originates from two independent contributions  26, 27  : the ligand intrinsic dipole moment (μ dipole ), and a charge-density displacement by ligand-surface interactions and bond formation (μ charge ). The dipole moments of [OA] + and [TsO] -were +20.3 D and -10.5 D, respectively (Supplementary Figs. 15, 16). On the other hand, [TsO] -induces a striking negative surface charge displacement, q, of -0.022e, which is threefold larger in magnitude than the positive q of [OA] + (+0.006e) (Fig.  4c -e and Sup- plementary Table  6 ) . The negative q sign of [TsO] -indicates a depletion of electrons from the surface, and is equivalent to a positive ΔW. This trend is reproducible even with defect states on the surface, or different surface concentrations and species (Supplementary Figs. 17, 18 and Supplementary Table  7 ). Therefore, we speculate that simultaneous contributions from both μ charge and μ dipole for [TsO] -synergistically counterbalanced [OA] + , to result in a net positive ΔE vac for the OATsO treatment. More broadly, this proposes design principles for the ideal perovskite/charge-transporting material heterointerface. We preliminarily tested pairing [TsO] -with alkylammoniums with different chain lengths, but OATsO treatment yielded the best performance (Supplementary Fig.  19  and Supplementary Note 9). &#13;</text>
+    </passage>
+    <passage>
+      <offset>30435</offset>
+      <text> Online content Any methods, additional references, Nature Research reporting summaries, source data, extended data, supplementary information, acknowledgements, peer review information; details of author contributions and competing interests; and statements of data and code availability are available at  https://doi.org/10.1038/s41586-022-04604-5 . &#13;</text>
+    </passage>
+    <passage>
+      <offset>30788</offset>
+      <text> Methods &#13;</text>
+    </passage>
+    <passage>
+      <offset>30798</offset>
+      <text> Perovskite film fabrication All materials were purchased from Sigma-Aldrich, unless otherwise stated. For the (FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05 composition, 889 mg ml -1 FAPbI 3 (FAI, GreatCell Solar; PbI 2 , TCI America), 33 mg ml -1 MAPbBr 3 (MABr, 1-Material; PbBr 2 , Alfa Aesar Chemicals) and 33 mg ml -1 MACl (GreatCell Solar) were dissolved in a dimethylsulfoxide (DMSO)/ dimethylformamide (DMF) mixed solvent (1:8 v/v). The films were deposited at 4,000 rpm for 20 s. After 10 s, 0.2 ml diethyl ether was dropped on the film. The film was then annealed for 10 min at 150 °C. For the FAPbI 3 composition, 1,266 mg FAPbI 3 and 34 mg MACl were dissolved in 192.8 μl N-methylpyrrolidone (NMP) and 1 ml DMF. The films were deposited at 4,000 rpm for 20 s. After 10 s, 0.2 ml diethyl ether was dropped on the film. The film was then annealed for 5 min at 100 °C, and subsequently 10 min at 150 °C. Subsequently, for post-fabrication surface treatment, 10 mM of the respective ammonium salts were dissolved in isopropyl alcohol, followed by deposition at 5,000 rpm for 30 s. Only OABr was dissolved in chloroform. All treatments, except with phenethylammonium iodide (PEAI), were annealed at 100 °C for 5 min. No annealing was done for PEAI. The reference films without post-treatment were washed with pure isopropyl alcohol at 5,000 rpm, followed by 100 °C annealing for 5 min. &#13;</text>
+      <annotation id="21">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">(FAPbI3)0.95(MAPbBr3)0.05</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T13:53:43Z</infon>
+        <location offset="30909" length="32"/>
+        <text>(FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>32185</offset>
+      <text> Device fabrication Substrates of ITO on glass were cleaned by successive ultrasonication in detergent, deionized water, acetone and isopropyl alcohol, for 20 min each. Cleaned substrates were treated by ultraviolet ozone for 20 min. For the electron-transporting material, SnO 2 colloidal solution (Alfa Aesar Chemicals) was diluted in water in a 1:5 ratio. The solution was spun at 3,000 rpm for 30 s, and the film was subsequently annealed for 35 min at 165 °C. Ten-millimolar potassium hydroxide or potassium chloride in water was spun at 3,000 rpm for 30 s, and subsequently annealed at 100 °C for 10 min. We note that potassium chloride treatment was slightly improved over potassium hydroxide. The perovskite film fabrication and post-treatment procedures were performed as described above. Subsequently, 60.0 mg spiro-MeOTAD (p-OLED), 25.5 μl 4-tert-butylpyridine, 15.5 μl bis(trifluoromethane)sulfonimide lithium salt (520 mg ml -1 in acetonitrile) and 12.5 μl of FK209 (p-OLED; 375 mg ml -1 in acetonitrile) were dissolved in 0.7 ml chlorobenzene. The solution was spun at 3,000 rpm for 30 s. For the top electrode, 100-nm gold was thermally deposited at an evaporation rate of 0.5 A s -1 . The device active area is determined by a shadow mask to be 0.13 cm 2 . For the anti-reflection coating, 150-nm magnesium fluoride (MgF 2 ) was thermally deposited at an evaporation rate of 1 A s -1 . MgF 2 was deposited on all devices, unless otherwise stated. &#13;</text>
+    </passage>
+    <passage>
+      <offset>33654</offset>
+      <text> AFM and KPFM To obtain the spatial variation of the work function for each perovskite sample, we performed KPFM, which is an AFM-based technique to acquire work function information of the sample surface via measuring the contact potential difference for every pixel. For cross-sectional KPFM, the devices were cleaved simply to expose their cross-sections. A map of contact potential difference, or the relative surface potential of a sample to that of a biased AFM tip, is simultaneously obtained with a topographic image of the sample surface. The work function of the AFM tip is calibrated before and after every measurement with highly ordered pyrolytic graphite, whose work function is well known to be 4.6 eV. The real work function value of each perovskite sample is calculated from the measured surface potential of each sample, with respect to the tip work function. The temperature and humidity near the AFM were recorded before every measurement. The AFM tips used for the KPFM measurement are Au-coated NSC36/ chromium-Au tips (MikroMasch) as the measurement of electric properties requires at least one conductive component. Also, each KPFM measurement involved the electrically grounded perovskite samples with conductive sample holders, through which the surface potential of any sample may have the same zero point. All AFM-based measurements were conducted with a commercial AFM NX-10 (Park Systems). &#13;</text>
+    </passage>
+    <passage>
+      <offset>35075</offset>
+      <text> STEM and EDX The STEM images and EDX maps were taken using a JEOL 2800 S/TEM equipped with dual 100-mm 2 silicon drift detectors at 200 kV with a probe size of 1 nm. To perform the STEM analyses on the devices, the device cross-section was lifted out and mounted on a copper (Cu) grid using a Tescan GAIA3 SEM/FIB microscope. The sample was protected by a 2-μm-thick Pt layer to prevent gallium implantation during the milling procedure. The sample was successively polished, first using 30 kV and 600 pA, then subsequently at 15 kV and 150 pA, and finally at 3 kV and 90 pA, until reaching electron-transparent thickness. &#13;</text>
+    </passage>
+    <passage>
+      <offset>35701</offset>
+      <text> First-principles density functional theory computation All bulk and slab first-principles calculations were performed using density functional theory (DFT) in the plane-wave/pseudopotential approach implemented in the Vienna Ab initio Simulation (VASP) package  29  . A revised Perdew-Burke-Ernzerhof generalized gradient approximation (PBEsol) was used for the exchange-correlation functional  30  . We included dispersion corrections to the total energy using Grimme's DFT-D3 scheme  31  . Projector-augmented-wave (PAW) pseudopotentials were used to describe valence-core interactions  32  . Plane-wave expansions with kinetic energies up to 300 eV were chosen. Both ionic positions and supercell dimensions were allowed to relax using conjugate gradient algorithm until all residual forces were smaller than 0.02 eV-Å -1 . Bulk 4 × 4 × 4 and slab 4 × 4 × 1 Γ-centre k-point meshes were adopted for Brillouin-zone sampling. For bulk calculations, 2 × 2 × 2 supercells were used. For surface-energy calculations, the 2 × 2 × L surfaces(L is the number of perovskite layers in the slab) were formed along (001) by periodic slabs including 9 to 11 atomic layers for a surface separated by 10-15 Å of vacuum. For the electrostatic potential maps, all structures were pre-optimized with the very tight GFN2-xTB method using the xTB program (version 6.2)  33, 34  before conformational search. Conformational analysis of each structure was performed in water using metadynamic sampling in the extended tight binding Conformer-Rotamer Ensemble Sampling Tool (xtb CREST) program package (version 6.2)  35  . The iMTD-GC workflow was used for the conformational search algorithm with 6 kcal mol -1 energy and 0.5-Å root mean square deviation thresholds at 298.15 K. All further DFT calculations of the lowest conformers were performed using Gaussian16. Geometry optimization and frequency calculations were completed at the ωB97X-D/6-311++G(d,p) level in the gas phase. Optimized structures were verified by frequency calculations as minima (zero imaginary frequencies). Electrostatic potential charges and maps were computed with the B3LYP method, the GD3BJ 36 empirical dispersion and the LANL2DZ basis set for iodide, and the aug-cc-pvtz basis set for all other atoms based on the Hirshfeld population analysis  37  . Dipoles were calculated with the ωB97X-D/6-31+G(d) method and basis set. Electrostatic potential maps were generated using GaussView 6.0.16. &#13;</text>
+    </passage>
+    <passage>
+      <offset>38173</offset>
+      <text> Preparation of ammonium salts p-Toluenesulfonic acid monohydrate was first dehydrated to remove the water of crystallization. Using 100 ml toluene dissolves 1 g p-toluenesulfonic acid monohydrate in a 250-ml two-neck round-bottom flask. Vacuum distillation of toluene (about 20 mm Hg is a sufficient vacuum to lower the boiling point of toluene to a reasonable value) was followed to obtain solid p-toluenesulfonic acid using a vacuum oven at 100 °C for 1 week. For the anion substitution of alkylammonium salts, alkylamine (for example, octylamine) was added stoichiometrically to the acid (for example, p-toluenesulfonic acid) in an isopropyl alcohol mixed solvent, followed by stirring at 50 °C overnight. The chemical structure and purity of the salt was further verified by  1  H NMR (Supplementary Note 10, Supplementary Fig.  20 ). Typically, a concentrated stock solution (&gt;500 mM) is first prepared, followed by solution dilution to reach the final 10-mM concentration. Trifluoroacetic acid (&gt;99.5%) was obtained from EMD Millipore. Octylammonium iodide and octylammonium bromide were purchased commercially from GreatCell Solar. &#13;</text>
+    </passage>
+    <passage>
+      <offset>39316</offset>
+      <text> Device encapsulation and stability testing Device encapsulation was carried out inside a nitrogen-filled glovebox (&lt;0.6 ppm of O 2 /H 2 O) by using an ultraviolet-curable adhesive (Nagase America) applied to a custom-designed cover glass (AMG Korea). The glovebox was completely absent of any chemical solvents to ensure a pristine atmosphere. The devices were kept in the glovebox for at least 2 h before and after encapsulation. The cover glass was superimposed on the active layer and fixed in position with the adhesive. This was then exposed to ultraviolet illumination for 2 min to cure the adhesive and seal the cover glass to the device. Care was taken to block the device active-layer area from the ultraviolet illumination by superimposing black electrical tape on the cover glass area that corresponded to the device active-layer area. We note that in our experience, it was important to pay attention to the expiry date of the ultraviolet-curable adhesive, with fresh adhesives preferred. For the MPP stability testing, encapsulated devices were exposed to continuous illumination by a simulated air mass 1.5G spectrum illumination from a solar simulator. The devices were biased with a voltage corresponding to their MPP. The aging atmosphere was open ambient air (relative humidity (RH) 40 ± 10%). For the OC stability testing, encapsulated devices were exposed to continuous illumination by a metal halogen lamp source (90 ± 10 mW cm -2 ). The devices were placed in an in-house-built aging chamber under the OC condition. The chamber atmosphere was open ambient air (RH 40 ± 10 %). Periodically, the devices were transferred to a simulated AM 1.5G spectrum illumination from a solar simulator, also in ambient air (RH 40 ± 10 %), to measure their performance. The devices were immediately returned to the aging chamber upon measurement completion. &#13;</text>
+    </passage>
+    <passage>
+      <offset>41186</offset>
+      <text> Material and device characterization SEM was carried out using an FEI Nova NanoLab 600 DualBeam (FIB/ SEM) instrument in secondary electron mode. The films were coated with an approximately 1-nm-thick Au layer by sputtering to prevent charging during the measurement. XPS measurements were carried out on an XPS AXIS Ultra DLD (Kratos Analytical). An Al Kα (1,486.6 eV) X-ray was used as the excitation source. UPS measurements were carried out using a helium discharge lamp, emitting ultraviolet energy at 21.2 eV. All UPS measurements were performed using standard procedures with a -9-V bias applied between the samples and the detectors. PL spectroscopy was performed with a Horiba Jobin Yvon system, with a 532-nm xenon lamp or a 640-nm monochromatic laser excitation source. Time-resolved PL spectra were measured using a Picoharp 300 with time-correlated single-photon counting capabilities (PLD 800B, PicoQuant) with a repetition frequency of 100 kHz. The confocal PL maps were measured using a Leica Confocal SP8-STED/ FLIM/FCS confocal laser scanning microscope, using an HC PL APO oil objective (40×/1.40) and a 514-nm argon pulsed diode laser. XRD was performed by an X-ray PANalytical diffractometer at a scan rate of 4° min -1 with a Cu Kα radiation source. The simulated AM 1.5G 1-sun spectrum illumination (100 mW cm -2 ) was from an Oriel Sol3A class AAA solar simulator (Newport). The light intensity was first calibrated with an National Renewable Energy Laboratory (NREL)-certified silicon photodiode with a KG-5 filter. A Keithley 2401 source meter was used to perform the current density-voltage device measurements. A 0.100-cm 2 -sized metal aperture was used to precisely define the device active area during measurement. The external quantum efficiency (EQE) was measured with a custom-designed Enlitech system under a.c. mode (frequency 133 Hz) without light bias with a lock-in amplifier with a current preamplifier under a short-circuit condition. The phototransient measurements were done with a pulsed red dye laser (Rhodamine 6G, 590 nm) pumped by a nitrogen laser (LSI VSL-337ND-S) as the perturbation source. The pulse width was 4 ns at a repetition frequency of 10 Hz. The laser pulse intensity was monitored to maintain the amplitude of transient V OC below 5 mV. Then, the voltage under the OC condition and the current under the short-circuit condition were measured over a 1-MΩ resistor and a 50-Ω resistor, and recorded on a digital S4 oscilloscope (Tektronix DPO 4104B). The CPD offsets were adjusted such that the CPD value of the buffer layer becomes zero. Note that this does not affect the electric field and charge displacement profiles, which calculate the derivatives of the CPD profiles. Although we do not expect the rough morphology seen in c to affect the KPFM signal, we cannot completely rule this out at this stage. Therefore, we have repeated the KPFM measurement on another separate OAI-treated device. As shown in Supplementary Fig.  4 , we were able to reproduce the potential drop at the perovskite/spiro-MeOTAD heterointerface. ( 3 )Supplementary Note 4 : 34 Relatedly, halide orbitals contribute density of states to the perovskite band edge structure. Therefore, iodide or bromide actually participate in charge conduction; (4) It is actually possible for 2D perovskites to form a type II band alignment, which does not obstruct charge extraction. Therefore, 2D perovskite, by itself, cannot be used to explain the charge obstruction and accumulation observations; (5) Directly comparing OABF4 and OATsO allows us to exclude any possible effects of 2D formation. Further discussion on the correlation between ΔEvac, charge extraction, and device performance &#13;</text>
+    </passage>
+    <passage>
+      <offset>44915</offset>
+      <text> Supplementary Figure 4 . 5 .Figure 5 . 6 .Supplementary Figure 7 . 45567 Cross-sectional KPFM profiling of another OAI-treated device. a, AFM spatial mapping of an OAI-treated device. Yellow arrows in (a) indicate damaged regions due to the mechanical cleaving process. b, KPFM spatial mapping, and c, CPD profile of the OAI-treated device. The magnified KPFM image in (b) spatially corresponds to the blue square region in (a). All scale bars represent 500 nm. The ΔEvac value from the CPD profile matches those previously measured as shown in Supplementary Fig. Supplementary Different measurements of the vacuum level change. Comparison of the ΔEvac or ΔW of the perovskite devices or films measured from KPFM or UPS. PL mapping of the passivated films. Representative confocal PL maps of the a, OAI-treated, b, OABF4-treated, c, OATsO-treated perovskite films on glass. All scale bars represent 5 μm. PL intensity distribution histograms of the d, OAI-treated, e, OABF4-treated, f, OATsO-treated perovskite films on glass. Insets include the fitted statistical parameters. SD: standard deviation. Photo-transient measurements of the complete devices. Normalized a, transient photovoltage decay and b, transient photocurrent decay of the complete devices. &#13;</text>
+    </passage>
+    <passage>
+      <offset>46180</offset>
+      <text> Supplementary Figure 8 .Supplementary Figure 9 . 89 photovoltage &#13;</text>
+    </passage>
+    <passage>
+      <offset>46247</offset>
+      <text> Supplementary Figure 12 . 12 Halide distribution in the aged devices. Average atomic ratio distributions across the a, OAI-treated and b, OATsO-treated device cross-sections, and iodine for the c, OAI-treated and d, OATsO-treated device cross-sections. e, Peak values extracted from (a)-(d) at the electrode region. The average atomic ratios were calculated by simply multiplying the normalized signal intensity with the nominal perovskite stoichiometry. &#13;</text>
+    </passage>
+    <passage>
+      <offset>46704</offset>
+      <text> Supplementary Figure 14 .Supplementary Figure 15 .Supplementary Figure 16 .Supplementary Figure 18 . 14151618 Half-device photostability test. Stability evolution with time of halfdevices aged under continuous illumination in a nitrogen atmosphere. The time elapsed refers only to the time under illumination. Error bars represent the standard deviation of four devices for each condition. Electrostatic potentials of various cations. Electrostatic potential maps of a, [BA] + , b, [OA] + , and c, [DA] + . Included are their respective dipole moments (µ). device Continuous illumination in ambient, open-circuit, T ~ 40°C Time elapsed (h) Electrostatic potentials of various anions. Electrostatic potential maps of a, [I] -, b, [Br] -, c, [TFA] -, and d, [TsO] -. Included are their respective dipole moments (µ). Supplementary Figure 17. Surface states and charge displacement. Charge displacement with surface iodine vacancy defect (VI) with a, [OA] + or b, [TsO] -, and c, corresponding charge displacement profiles. Charge displacement with surface lead-iodine antisite defect (PbI) with d, [OA] + or e, [TsO] -, and f, corresponding charge displacement profiles. Blue and yellow volumes on the slab models correspond to electron-depleted or electron-enriched regions, respectively. The point defects are marked by pink squares. Charge displacement profiles with different anions and concentrations. Charge displacement profiles on defect-free surfaces with a, [I] -, b, [Br] -, and c, [TFA] -. Charge displacement profiles on defect-free surfaces with increasing [OA] + or [TsO] -surface concentration from d, 25 %, to e, 50 %, and to f, 100 %. &#13;</text>
+    </passage>
+    <passage>
+      <offset>48360</offset>
+      <text> Supplementary Figure 19 . 19 Device photovoltaic parameters with different tosylate-based salts. Box plots showing the distribution of the a, VOC, b, JSC, c, FF, and d, PCE of the devices. Center line: median, box limits: 25 th and 75 th percentile, whiskers: outliers. &#13;</text>
+    </passage>
+    <passage>
+      <offset>48632</offset>
+      <text> 11 , 11 -HA + TsO -OA + TsO -DA + TsO - Tianyi Huang 1,11 , Ilhan Yavuz 2,11 , Rui Wang 1,3 ✉ , Tae Woong Yoon 4 , Mingjie Xu 5 , Qiyu Xing 1 , Keonwoo Park 4 , Do-Kyoung Lee 6 , Chung-Hao Chen 1,7 , Ran Zheng 1 , Taegeun Yoon 4 , Yepin Zhao 1 , Hao-Cheng Wang 1,7 , Dong Meng 1 , Jingjing Xue 1 , Young Jae Song 4,10 , Xiaoqing Pan 5,8 , Nam-Gyu Park 6,9 , Jin-Wook Lee 4,9 ✉ &amp; Yang Yang 1 ✉ &#13;</text>
+    </passage>
+    <passage>
+      <offset>49033</offset>
+      <text> Further comparisons of the height-depth distributions and scanning electron microscopy Nature | Vol 605 | 12 May 2022 | 269 &#13;</text>
+    </passage>
+    <passage>
+      <offset>49159</offset>
+      <text> Fig. 1 | 1 Fig. 1 | Perovskite surface and heterointerface dynamics. a, b, UPS secondary electron cut-offs of various surface-treated perovskite films. BA, butylammonium; DA, dodecylammonium; OA, octylammonium. c-e, KPFM surface potential maps of the reference (c), OAI-treated (d) and OATsO-treated (e) films. Insets, corresponding AFM topography images. Scale bars, 2 μm. f, g, Work function distributions (f) and root-mean-square surface roughness (R q ) (g) of the films measured by KPFM and AFM, &#13;</text>
+    </passage>
+    <passage>
+      <offset>49663</offset>
+      <text> Fig. 2 | 2 Fig. 2 | Charge-carrier dynamics, performance and photostability. a, b, Steady-state (a) and time-resolved (b) PL spectra of the glass/perovskite films. c, d, Steady-state (c) and time-resolved (d) PL spectra of the glass/ perovskite/spiro-MeOTAD films. Included are the extracted lifetimes fitted with a mono-exponential decay function for b and a bi-exponential decay function for d. e, The PCE distributions of the devices. f, Photostability evolution with time of encapsulated devices aged under continuous &#13;</text>
+    </passage>
+    <passage>
+      <offset>50187</offset>
+      <text> Fig. 3 | 3 Fig. 3 | STEM and EDX analyses of the aged devices. a, b, STEM bright-field images of the aged OAI-treated (a) and OATsO-treated (b) device cross-sections. The OAI-treated device is seen to have a rougher heterointerface contacting spiro-MeOTAD. c-f, EDX elemental maps of &#13;</text>
+    </passage>
+    <passage>
+      <offset>50473</offset>
+      <text> Fig. 4 | 4 Fig. 4 | Physical origins of the experimental observations. a, b, Activation energy for the intra-lattice (a) and extra-lattice (b) migrations of iodine or bromine calculated using first-principles nudged-elastic-band simulations. The forward migration pathways are indicated by the red arrows in the example simulated supercells. c-e, Charge displacement with [OA] + (c) or [TsO] -(d) on the surface, superimposed on the defect-free slab models, and corresponding charge displacement profiles (e). The blue and yellow volumes on the slab models correspond to electron-depleted or electron-enriched regions, respectively. The beige horizontal band spatially corresponds c and d with e. Black, Pb atoms; red, I atoms; blue, Br atoms; brown, C atoms; light blue, N atoms; white, H atoms. &#13;</text>
+    </passage>
+    <passage>
+      <offset>51272</offset>
+      <text> Extended Data Fig. 1 | 1 Morphology of the perovskite films. Surface morphology of the: a, reference; b, OAI-treated; c, OATsO-treated; d, OATFAtreated; e, OABr-treated; and f, OABF 4 -treated perovskite films measured by SEM. All scale bars represent 2 μm. No obvious difference can be seen between the reference and treated perovskite films. Extended Data Fig. 3 | Heterointerface energy band diagrams. Schematic interpretation of the heterointerface band alignments of the a, OAI-treated and b, OATsO-treated devices under illumination in open-circuit condition. The band alignments are constructed based on the UPS and KPFM results. CBM, conduction band minimum; VBM, valence band maximum; E fn , electron quasi-fermi level; E fp , hole quasi-fermi level. The dashed gray lines in b indicate E fn and E fp of the OAI-treated device from a. The diagrams are not drawn to scale. Both surface treatments create a type I energy alignment at the heterointerface, but the vacuum level upshift of the OATsO-treated device minimized the potential well to mitigate the electron accumulation. Extended Data Fig. 4 | Device cross-sectional KPFM profiling. a, CPD profile; b, KPFM spatial mapping; c, corresponding AFM spatial mapping; and d, electric field distribution of the OAI-treated device. e, CPD profile; f, KPFM spatial mapping; g, corresponding AFM spatial mapping; and h, electric field distribution of the OATsO-treated device. Measurements were performed under illumination in open-circuit condition. All scale bars represent 300 nm. &#13;</text>
+    </passage>
+    <passage>
+      <offset>52815</offset>
+      <text> Table 7 7 negative work function below, which show that the charge displacement trends remained the same even on defected surfaces with VI or PbI. Specifically, [OA] + still induces a positive charge displacement (+𝑞 ̅) even with either VI or PbI present on the surface. On the other hand, [TsO] -continues to induce a negative charge displacement (-𝑞 ̅) that is larger in magnitude than the +𝑞 ̅ of [OA] + . Considering the results altogether, we therefore speculate that the contributions from both 𝜇 𝑐ℎ𝑎𝑟𝑔𝑒 and 𝜇 𝑑𝑖𝑝𝑜𝑙𝑒 for [TsO] -synergistically counterbalanced the otherwise &#13;</text>
+    </passage>
+    <passage>
+      <offset>53450</offset>
+      <text> τ1 (ns) A2 (%) τ2 (ns) τave (ns) Supplementary Reference 100.0 3.0 0.0 15.2 3.0 OAI-treated 94.5 7.5 5.5 19.8 8.1 OABF4-treated 99.1 4.7 0.9 17.4 4.8 OATsO-treated 99.9 3.5 0.1 17.7 3.5 WF IE -WF ΔEvac Aligned VBM (eV) (eV) (eV) (eV) FAPbI3 4.82 0.83 - -5.65 OA + I - 4.48 1.02 -0.34 -5.84 OA + BF4 - 4.60 0.94 -0.22 -5.76 OA + TsO - 4.87 0.89 +0.05 -5.71 &#13;</text>
+    </passage>
+    <passage>
+      <offset>53812</offset>
+      <text> Table 4 . 4 Comparison of the device degradation at different time periods during the MPP stability test. PCE drop (%) Degradation rate (%/h) First 100 h Next ~400 h First 100 h Next ~400 h OAI-treated device -6.4 -8.9 -0.064 -0.022 OABF4-treated device -2.9 -5.6 -0.029 -0.014 OATsO-treated device ~0 ~0 - - Supplementary Table 5. Activation energy for iodine or bromine migration in a neutral uncharged or negatively charged environment calculated from first-principles nudged elastic band (NEB) simulations. Neutral Negative Difference (eV) (eV) (%) Intra-lattice I in FAPbI3 0.335 0.205 -38.7 Br in FAPbBr3 0.634 0.448 -29.4 Extra-lattice I in FAPbI3 3.30 2.86 -13.3 Br in FAPbBr3 3.68 3.03 -17.8 Supplementary Table 6. Surface charge displacement, 𝑞 ̅, with different species attached to defect-free surfaces. 𝒒 ̅ ( &#13;</text>
+    </passage>
+    <passage>
+      <offset>54643</offset>
+      <text> x10 -2 e) KPFM wor 5.0 4.9 4.8 4.7 Reference Control Target 5.0 4.9 4.8 4.7 UPS work Intens OA + I -Reference (001) # (111) (002) [OA] + [I] -[Br] -[TFA] -18.0 17.5 Binding energy (eV) + 0.57 -1.33 -1.40 -1.97 17.0 16.5 16.0 Reference PEA + I -BA + I -OA + I -DA + I -144 140 136 Pb 4f 7/2 Reference OA + I -OA + TsO -Binding energy (eV) Pb 4f [TsO] -B Intensity (a.u.) Intensity (a.u.) 5/2 D 4.2 pxI (a.u.) a b 5 4.4 Reference OA + I -OA + TsO -Work function (eV) 10 15 20 25 30 2 (degree) 4.6 4.8 5.0 R q (nm) &#13;</text>
+    </passage>
+    <passage>
+      <offset>55169</offset>
+      <text> Supplementary Figure 3. Cross-sectional KPFM schematic. Schematic illustrating the KPFM measurement setup and planar device structure of ITO/SnO2/perovskite/spiro-MeOTAD/Au. The MgF2 buffer layer prevents slippage of the cantilever tip at a "cliff". Often, the device cross-sections are not parallel, due to the uncontrollable nature of the mechanical cleaving process. Therefore, the measured distance may not represent the layer thickness. Note that we purposely avoided using FIB or mechanical polishing for the KPFM samples, as such processing may modify the properties of the exposed cross-sectional surface. 21</text>
+    </passage>
+    <relation id="R1">
+      <infon key="type">test_1</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T07:04:45Z</infon>
+      <node refid="13" role=""/>
+      <node refid="16" role=""/>
+      <node refid="17" role=""/>
+      <node refid="15" role=""/>
+      <node refid="12" role=""/>
+      <node refid="28" role=""/>
+    </relation>
+    <relation id="R2">
+      <infon key="type">test_2</infon>
+      <infon key="annotator">jlnomura@ucsd.edu</infon>
+      <infon key="updated_at">2025-02-19T13:46:45Z</infon>
+      <node refid="29" role=""/>
+      <node refid="33" role=""/>
+      <node refid="34" role=""/>
+      <node refid="35" role=""/>
+      <node refid="12" role=""/>
+      <node refid="13" role=""/>
+    </relation>
+    <relation id="R4">
+      <infon key="type">test_2</infon>
+      <infon key="annotator">jlnomura@ucsd.edu</infon>
+      <infon key="updated_at">2025-02-19T13:47:16Z</infon>
+      <node refid="29" role=""/>
+      <node refid="30" role=""/>
+      <node refid="32" role=""/>
+      <node refid="13" role=""/>
+      <node refid="2" role=""/>
+    </relation>
+  </document>
+</collection>

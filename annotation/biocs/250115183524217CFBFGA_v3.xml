@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source/>
+  <date/>
+  <key/>
+  <document>
+    <id>250115183524217CFBFGA</id>
+    <infon key="tt_curatable">no</infon>
+    <infon key="tt_version">3</infon>
+    <infon key="tt_round">3</infon>
+    <passage>
+      <offset>0</offset>
+      <text>Paper #: 2&#13;</text>
+    </passage>
+    <passage>
+      <offset>11</offset>
+      <text>Intact 2D/3D halide junction perovskite solar cells via solid-phase in-plane growth&#13;</text>
+    </passage>
+    <passage>
+      <offset>95</offset>
+      <text>Three mechanisms determine PL decay: first-order (trap-assisted nonradiative); second-order (radiative); and third-order (Auger) recombination, and their contributions depend on the intensity of the excitation laser fluence  6  . To elucidate the recombination pathways of a halide perovskite over a range of excitation fluence, the carrier kinetics can be illustrated by the rate equation (S1). &#13;</text>
+    </passage>
+    <passage>
+      <offset>492</offset>
+      <text> (S1) where n is the photoexcited carrier density, k1 is the first-order recombination constant, k2 is the second-order recombination constant, and k3 is the third-order recombination constant. The TRPL decay curves are derived from an average of TRPL mapping data in an area of 80 μm 80 μm, which are presented for the control, SIG60 (10 min), and SIG60 (2 min) films in Fig.  2c-e . The TRPL mapping measurements were performed under 470 nm pulsed laser excitation with a high fluence of 32.7 μJ/cm 2 (photon fluence: 7.74 10 13 photon/cm 2 ) and a repetition rate of 0.5 MHz in an effective confocal area of 6.11 10 -9 cm 2 . At our fluence level of 32.7 μJ/cm 2 , the PL decay curves in Fig.  2b  contain other components as well as trapassisted nonradiative recombination. In this high fluence case, the PL tail decay interpretation is the most appropriate tool for identifying the first-order recombination lifetime  7, 8  . The firstorder recombination lifetime can be extracted by fitting the exponential decay within the PL tail region. The photoexcited carrier density (n0) was calculated to be 1.  27 10 18  photon/cm 3 by the product of the photon fluence and absorption coefficient. At this level of the photoexcited carrier density, the contribution of third-order recombination should be considered  6  . However, the third-order recombination constant under this carrier density is still very small (k3 &lt;&lt; 10 -30 cm 6 /s)  9  and is only narrowly observed in the initial stage. Thus, we neglected the third-order mechanism in our PL decay analysis. To extract the first-order and second-order recombination constants, we assumed that the PL decay signal is proportional to the photoexcited carrier density as functions of time ( ). The PL decay can be fitted by the below equation (S2)  10  . &#13;</text>
+    </passage>
+    <passage>
+      <offset>2306</offset>
+      <text> (S2) As described above, the initial time decay (blue solid line), which was ascribed to third-order recombination and observed in all samples, was excluded, and the reliability of the fitting was confirmed through the reduced-Chi square. In Eq. (S2), the first-order lifetime corresponds to the PL tail decay lifetime  11  . The parameters acquired for the control and SIG films are summarized in Supplementary Table  3 . As shown in Supplementary Table  3 , the second-order recombination constant of all SIG films is clearly reduced compared to the control film. The reduction of the recombination constant is likely caused by the smooth surface of the SIG films  12  or the built-in potential at the 2D/3D heterojunction  11  . Supplementary Figure  7 . SIG method effect related to the trap-assisted lifetime in TRPL. a-e, PL decay plots of the control film and SIG films. To identify the first-order recombination lifetime, mono-exponential fitting was used to fit the exponential decay within the PL tail region. Refer to Supplementary Note 1 for details. Supplementary Table  3 . Recombination constant fitted from the PL decay for the control and SIG process conditions. The SIG process shows improvement of first-order recombination ( = 1/k1). As a result, the carrier lifetime increases from 0.2 μs to approximately 1.1 μs. According to the formula in ref.  13  , the carrier lifetime informs us about the achievable VOC if we know several factors, such as the bandgap (Eg ~1.55 eV), short-circuit current density (JSC ~24.80 mA/cm 2 ), active layer thickness (d ~560 nm), and effective density of states of electrons/holes in the conduction and valence bands ( (S3) where is the Boltzmann constant, T is the Kelvin temperature, and ne and nh are the density of electrons and holes in the conduction and valance bands, respectively. Assuming that the carrier generation rate (G ~JSC /ed) is only decreased by the first-order recombination and that the concentrations of electrons and holes are the same, the densities of electrons and holes are approximated by the following equation (S4). (S4) Thus, VOC is estimated to 1.16 V by using Eq. (S3) and Eq. (S4) with the 1.1 μs of firstorder recombination lifetime obtained from TRPL of SIG perovskite layers (Supplementary Fig.  7  and Supplementary Table  3 ). The estimated VOC is much smaller than the theoretical VOC limit (1.278 V) of the photovoltaic device with a bandgap of 1.55 eV because the 1.1 μs is not enough  15  . Nevertheless, it is interesting to show higher VOC (1.185 V) in the SIG60 device than the estimated VOC of 1.16 V. In particular, the increase in VOC from 1.117 V to 1.185 V with increasing 2D thickness in spite of a similar recombination lifetime of 1.1 μs level for SIG30, SIG45, and SIG60 perovskite layers in Supplementary Table  3  means that not only the recombination lifetime but also other factor related to the thickness of the 2D layer was involved in VOC of SIG devices. According to the Anderson model, the heterojunction between narrow-gap and widegap materials is classified by each semiconducting character into the following four cases  and narrow-bandgap semiconductor (grey), respectively  16  . The width ( ) of the depletion region is larger than the accumulation layer width ( ), and the built-in potential obtained by the heterojunction is mainly dominated by the built-in potential ( ) of the wide-bandgap semiconductor  16, 17  , as shown in Supplementary Fig.  10b . Therefore, the built-in potential formed by the p-p isotype heterojunction is as follows. (S5) where is the relative dielectric constant of the wide-bandgap semiconductor and is the carrier concentration of the wide-bandgap semiconductor. For the calculation, and N2D are needed in Eq. (S5). The N2D of (BA)2PbI4 is not yet clear, while the of (BA)2PbI4 was reported to be 9.5 from previous research  18  . Therefore, we estimated N2D to be approximately 10 15 ~10 16 cm -3 based on the reported conductivity of polycrystalline (BA)2PbI4 and the mobility of single crystalline (BA)2PbI4  19, 20  . According to Eq. (S5), the thickness of (BA)2PbI4 should be 108 ~304 nm to form the Vbi as much as the work function difference (~0.11 eV) between 3D and (BA)2PbI4 in the p-p heterojunction considering of N2D range (10 15 ~10 16 cm -3 ). Thus, in the study where the maximum thickness of (BA)2PbI4 is less than 100 nm, the formed built-in potential at theisotype heterojunction between the 3D material and (BA)2PbI4 can be estimated using Eq. (S5) by replacing with the thickness of the (BA)2PbI4 layer. The calculated results for different carrier concentrations (N2D) of the (BA)2PbI4 layer are presented in Supplementary Fig.  11 . According to the above steps, we divided the MS plot measurement into four stages to obtain proper information about the newly formed built-in potential at the 2D/3D junction for full cell devices (FTO/SnO2/3D:(SIG-2D)/Spiro-OMeTAD/Au). Step 1) Identification within the capacitance spectra of the frequency range. To identify the dielectric polarization region (the plateau region of the capacitance spectra) containing the additional contribution of the depletion layer capacitance Cdl, the capacitance was measured as a function of frequency from 10 1 Hz to 10 6 Hz for the control device, as shown in Supplementary Fig.  17a . With several electric biases applied, we found that the section below approximately 5 kHz is the electrode polarization region where the capacitance exponentially grows  23  . In contrast, the trend of the capacitance with frequency changes into a plateau for a frequency above 5 kHz, which means that the capacitive mechanisms much more strongly depend on the dielectric polarization. From the capacitance spectra, we can identify two regions of electrode polarization and dielectric polarization for our PSCs. Step 2) Selection of a proper measuring frequency within the central plateau of the capacitance spectra In Supplementary Fig.  17a , we can select the proper frequency region from 5×10 3 Hz to 10 6 Hz for the dielectric polarization region to measure the built-in potential of PSCs, which is affected by the depletion layer  22  . However, not all frequencies allow for the contribution of the depletion layer capacitance Cdl to appear in the MS plot. Therefore, we selected a proper measuring frequency in the next step. Step 3) Identification of the voltage region dominated by the depletion layer capacitance Cdl To confirm the contribution of the depletion layer capacitance Cdl, capacitance-voltage measurements were carried out in the dielectric polarization region. All measurements were performed in the forward direction at 2 mV/s. We determined that the contribution of Cdl clearly appears in the MS plot at 10 kHz in Supplementary Fig.  17b , while the contribution of Cdl is not presented at 100 kHz in Supplementary Fig.  17c . Because three voltage regions should be differentiated for correct MS analysis, as shown in Supplementary Fig.  17b , we can select the proper frequency of 10 kHz. Step 4) Verification of the sensitivity of MS analysis to the scan direction and rate. Finally, to verify the measurement conditions of the scan direction and rate for the obtained MS plot, we investigated the behaviour of the MS plot with varying scan direction and rate at the fixed frequency of 10 kHz. Supplementary Fig.  17d  shows MS plots obtained under different scan directions and rates at 10 kHz. The slow scan rate (2 mV/s) shows negligible hysteresis, while the fast scan rate (12 mV/s) shows apparent hysteresis in the MS plot. Therefore, we confirmed that the measurement conditions of the scan direction (forward), scan rate (2 mV/s), and frequency (10 kHz) are proper for analysing the MS plot for our PSCs. &#13;</text>
+    </passage>
+    <passage>
+      <offset>10102</offset>
+      <text> Mott-Schottky plots for control and SIG devices Reliable MS plots were obtained for control and SIG devices under the selected measurement conditions (2 mV/s, forward scan, and 10 kHz) through the above steps. The MS plots are presented in Supplementary Fig.  18 . All MS plots clearly show the region of Cdl. Therefore, we can obtain the built-in potentials (Vbi) for all devices by the linear fitting derived from Eq. (S6). &#13;</text>
+    </passage>
+    <passage>
+      <offset>10530</offset>
+      <text> (S6) where q is the elementary charge, ε0 is the vacuum permittivity, ε is the relative dielectric constant of the perovskite material, N is the carrier density, and Vbi is the built-in potential. The obtained Vbi values along with VOC values for devices are summarized in Supplementary Table  5 . Supplementary Figure  18 . Mott-Schottky plot of control and SIG devices. The MS plot measurement conditions were determined to be a 10 kHz frequency, a forward scan direction, and a 2 mV/s scan rate based on Supplementary Fig.  17 . To extract the built-in potential from each MS plot, a linear function was fitted using a derivative of C -2 . &#13;</text>
+    </passage>
+    <passage>
+      <offset>11177</offset>
+      <text> Supplementary Table 5. Change in the built-in potential and open-circuit voltage in SIG devices. The measured built-in potential (Vbi) was obtained from the MS plots in Supplementary Fig.  18 . The open-circuit voltage (VOC) was obtained from photovoltaic parameters in Supplementary Table  4 . Calculated built-in potential (Vbi) was obtained using Eq. (S5) in Supplementary Fig.  10 .    &#13;</text>
+    </passage>
+    <passage>
+      <offset>11569</offset>
+      <text> Solar Cells Reporting Summary Nature Research wishes to improve the reproducibility of the work that we publish. This form is intended for publication with all accepted papers reporting the characterization of photovoltaic devices and provides structure for consistency and transparency in reporting. Some list items might not apply to an individual manuscript, but all fields must be completed for clarity. For further information on Nature Research policies, including our data availability policy, see Authors &amp; Referees. &#13;</text>
+    </passage>
+    <passage>
+      <offset>12096</offset>
+      <text> Experimental design Please check: are the following details reported in the manuscript? &#13;</text>
+    </passage>
+    <passage>
+      <offset>12186</offset>
+      <text> Dimensions Area of the tested solar cells &#13;</text>
+    </passage>
+    <passage>
+      <offset>12230</offset>
+      <text> Yes No We used a mask with 0.094 cm^2 (circle type) for measuring photovoltaic performance. The area values can be found in the method section Explain why this information is not reported/not relevant. &#13;</text>
+    </passage>
+    <passage>
+      <offset>12434</offset>
+      <text> Method used to determine the device area Yes No The area of our masks was determined by observing optical microscope and certified at Newport corporation. Explain why this information is not reported/not relevant. &#13;</text>
+    </passage>
+    <passage>
+      <offset>12650</offset>
+      <text> Current-voltage characterization Current density-voltage (J-V) plots in both forward and backward direction &#13;</text>
+    </passage>
+    <passage>
+      <offset>12760</offset>
+      <text> Yes No The J-V plots measured along both scan direction is shown in Figure  4a , Supplementary Fig.  20 , and Supplementary Fig.  21 . Explain why this information is not reported/not relevant. &#13;</text>
+    </passage>
+    <passage>
+      <offset>12956</offset>
+      <text> Voltage scan conditions For instance: scan direction, speed, dwell times &#13;</text>
+    </passage>
+    <passage>
+      <offset>13031</offset>
+      <text> Yes No For unit cell, bias between -0.2 V and 1.2 V was applied for measurement of J-V curves along forward and backward (we used terminology as 'reverse') scan direction. The step voltage and scan speed were fixed at 10 mV and 100 mV/s, respectively. Explain why this information is not reported/not relevant. &#13;</text>
+    </passage>
+    <passage>
+      <offset>13344</offset>
+      <text> Test environment For instance: characterization temperature, in air or in glove box &#13;</text>
+    </passage>
+    <passage>
+      <offset>13430</offset>
+      <text> Yes No Our devices were characterized at room temperature (ca. 25 Celsius degree) in air. Explain why this information is not reported/not relevant. &#13;</text>
+    </passage>
+    <passage>
+      <offset>13581</offset>
+      <text> Protocol for preconditioning of the device before its characterization &#13;</text>
+    </passage>
+    <passage>
+      <offset>13654</offset>
+      <text> Yes &#13;</text>
+    </passage>
+    <passage>
+      <offset>13660</offset>
+      <text> No To prevent reflection of incident light, anti-reflection flim was attached on glass side in the case of measurement of unit cells. Explain why this information is not reported/not relevant. &#13;</text>
+    </passage>
+    <passage>
+      <offset>13855</offset>
+      <text> Stability of the J-V characteristic Verified with time evolution of the maximum power point or with the photocurrent at maximum power point; see ref. 7 for details. &#13;</text>
+    </passage>
+    <passage>
+      <offset>14022</offset>
+      <text> Yes No Stability of efficiency at maximum power point can be found in Supplementary Figure  12 . Explain why this information is not reported/not relevant. &#13;</text>
+    </passage>
+    <passage>
+      <offset>14180</offset>
+      <text> Hysteresis or any other unusual behaviour Description of the unusual behaviour observed during the characterization &#13;</text>
+    </passage>
+    <passage>
+      <offset>14298</offset>
+      <text> Yes No No J-V hysteresis of SIG device was observed and the related comments were mentioned in manuscript. Explain why this information is not reported/not relevant. &#13;</text>
+    </passage>
+    <passage>
+      <offset>14466</offset>
+      <text> Related experimental data Yes No Above values could be verified from Figure  4a . Explain why this information is not reported/not relevant. &#13;</text>
+    </passage>
+    <passage>
+      <offset>14609</offset>
+      <text> Efficiency External quantum efficiency (EQE) or incident photons to current efficiency (IPCE) &#13;</text>
+    </passage>
+    <passage>
+      <offset>14705</offset>
+      <text> Yes &#13;</text>
+    </passage>
+    <passage>
+      <offset>14711</offset>
+      <text> No The EQE spectrum can be found in Supplementary Figure  13  and Figure  14 . Explain why this information is not reported/not relevant. A comparison between the integrated response under the standard reference spectrum and the response measure under the simulator &#13;</text>
+    </passage>
+    <passage>
+      <offset>14979</offset>
+      <text> Yes &#13;</text>
+    </passage>
+    <passage>
+      <offset>14985</offset>
+      <text> No The comparison is represented in Figure4a and Supplementary Figure  14 . Explain why this information is not reported/not relevant. For tandem solar cells, the bias illumination and bias voltage used for each subcell &#13;</text>
+    </passage>
+    <passage>
+      <offset>15207</offset>
+      <text> Yes No State where this information can be found in the text. Our devices were only fabricated for single-junction solar cells. &#13;</text>
+    </passage>
+    <passage>
+      <offset>15337</offset>
+      <text> nature research | solar cells reporting summary November 2017 2 &#13;</text>
+    </passage>
+    <passage>
+      <offset>15403</offset>
+      <text> Calibration Light source and reference cell or sensor used for the characterization &#13;</text>
+    </passage>
+    <passage>
+      <offset>15489</offset>
+      <text> Yes No We measured using a solar simulator (Newport, Oriel Class A, 94043A) with a sourcemeter (Keithley 2420) of 100 mA/cm^2 under illumination at AM 1.5G and Sireference cell. Explain why this information is not reported/not relevant. Confirmation that the reference cell was calibrated and certified &#13;</text>
+    </passage>
+    <passage>
+      <offset>15794</offset>
+      <text> Yes No We used a calibrated Si-reference cell certificated by NREL. Explain why this information is not reported/not relevant. Calculation of spectral mismatch between the reference cell and the devices under test &#13;</text>
+    </passage>
+    <passage>
+      <offset>16010</offset>
+      <text> Yes No The spectral mismatch factor was determined by PV Lab of Technology and Application Center in Newport Corporation and we applied the value in our laboratory. Explain why this information is not reported/not relevant. &#13;</text>
+    </passage>
+    <passage>
+      <offset>16236</offset>
+      <text> Mask/aperture Size of the mask/aperture used during testing Yes &#13;</text>
+    </passage>
+    <passage>
+      <offset>16302</offset>
+      <text> No We used a mask with 0.094 cm^2 (circle type) for measuring photovoltaic performance. The area values can be found in the method section Explain why this information is not reported/not relevant. Variation of the measured short-circuit current density with the mask/aperture area &#13;</text>
+    </passage>
+    <passage>
+      <offset>16586</offset>
+      <text> Yes No State where this information can be found in the text. The Jsc value for our device was confirmed through the Newport Corporation measurement. &#13;</text>
+    </passage>
+    <passage>
+      <offset>16738</offset>
+      <text> Performance certification Identity of the independent certification laboratory that confirmed the photovoltaic performance &#13;</text>
+    </passage>
+    <passage>
+      <offset>16863</offset>
+      <text> Yes No Our devices were certified at PV Lab of Technology and Application Center in Newport Corporation. Explain why this information is not reported/not relevant. &#13;</text>
+    </passage>
+    <passage>
+      <offset>17029</offset>
+      <text> A copy of any certificate(s) &#13;</text>
+    </passage>
+    <passage>
+      <offset>17060</offset>
+      <text> Provide in Supplementary Information &#13;</text>
+    </passage>
+    <passage>
+      <offset>17099</offset>
+      <text> Yes No A copy of certificates can be found in Supplementary Figure  13 . Explain why this information is not reported/not relevant. &#13;</text>
+    </passage>
+    <passage>
+      <offset>17233</offset>
+      <text> Statistics Number of solar cells tested Yes No For statistical analysis of efficiencies, 28 devices were tested. Explain why this information is not reported/not relevant. &#13;</text>
+    </passage>
+    <passage>
+      <offset>17407</offset>
+      <text> Statistical analysis of the device performance Yes No The statistical data was represented in Supplementary Figure  16 . Explain why this information is not reported/not relevant. &#13;</text>
+    </passage>
+    <passage>
+      <offset>17589</offset>
+      <text> Long-term stability analysis Type of analysis, bias conditions and environmental conditions For instance: illumination type, temperature, atmosphere humidity, encapsulation method, preconditioning temperature &#13;</text>
+    </passage>
+    <passage>
+      <offset>17800</offset>
+      <text> Yes No For humidity test, unencapsulated devices had been kept in a chamber of 85% relatively humidity and 25 Celsius degree under dark. And photovoltaic performances of the devices were measured in air. The data can be found in Figure  4c . Thermal stability test had been performed at 85 Celsius degree and ca. 85% relatively humidity in dark. The data can be found in Figure  4d . For long term stability test in Supplementary Figure  23 , encapsulated device was exposured under AM 1.5G simulated with white LED. Explain why this information is not reported/not relevant. &#13;</text>
+    </passage>
+    <passage>
+      <offset>18378</offset>
+      <text> nature research | solar cells reporting summary November 2017 Cell Efficiency (%)  Global Frontier Center for Multiscale Energy Systems, Seoul National University, Seoul, Republic of Korea.  2  Department of Mechanical and Aerospace Engineering, Seoul National University, Seoul, Republic of Korea.  3  School of Civil, Environmental and Architectural Engineering, Korea University, Seoul, Republic of Korea.  4  KU-KIST Green School Graduate School of Energy and Environment, Korea University, Seoul, Republic of Korea.  5  These authors contributed equally: Yeoun-Woo Jang, Seungmin Lee. ✉ e-mail: mchoi@snu.ac.kr; junhnoh@korea.ac.kr P erovskite solar cells (PSCs) have emerged as a strong candidate for future photovoltaic technology owing to their remarkable power conversion efficiency (PCE), which exceeds 25%, and easy fabrication at low temperatures 1,2 . However, achieving higher performance with long-term stability for commercial use is still a challenge. The strategy of forming Ruddlesden-Popper 2D perovskite layers on the surface of a 3D light-absorbing perovskite layer has recently drawn attention  [3] [4] [5] [6] [7]  . This strategy has the advantages of reducing surface defects by surface passivation  3, 4  and forming 2D/3D  [5] [6] [7]  . the formation of unidentified phases and an unintended quasi-2D phase hinders the design of an adequate electric field distribution at the junction  8, 9  . The 2D/3D junction should be carefully designed on the basis of photoelectrical properties such as the bandgap and work function  10  . It is also necessary to develop fabrication processes that can ensure an effective and stable junction, considering the competitive long-term stability and production cost of solar cell devices  11, 12  . (3-J) Sharp (3-J) Sharp (3-J) NREL Spectrolab (3-J) 39.5% NREL (6-J) Boeing- Spectrolab (5-J) NREL/ Spectrolab (3-J) Spectrolab (3-J) Spectrolab (3-J) Boeing- Spectrolab (3-J) Boeing- Spectrolab (3-J) Boeing- Spectrolab (3-J) Boeing-Spectrolab (3-J, 240x) Boeing-Spectrolab (3-J,179x) NREL (3-J) NREL (3-J) NREL (3-J, 325.7x) FhG-ISE (3-J, 454x) SpireSemicon (3-J, 406x) SolarJunc (3-J, 418x) SolarJunc (3-J, 942x) Sharp (3-J, 302x) Spectrolab (3-J, 299x) Boeing- Spectrolab (3-J, 364x) The general chemical formula of Ruddlesden-Popper 2D and 3D metal iodide perovskites is (A*) 2 A n-1 Pb n I 3n+1 and APbI 3 , respectively, where A* is a large organic cation with a long carbon chain and A is a small organic cation such as CH 3 NH 3 + or HC(NH 2 ) 2 + (refs.  13, 14  ). The symbol n indicates the number of [PbI 6 ] 4 -octahedral monolayers between the organic spacer A* layers and hereby the phase can be classified into three cases: a 2D perovskite (n = 1, (A*) 2 PbI 4 ); a quasi-2D perovskite (1 &lt; n &lt; ∞, (A*) 2 A n-1 Pb n I 3n+1 ); and a 3D perovskite (n = ∞, APbI 3 )  15  . The 2D phase with n = 1 is known to be the most stable as the organic spacers are repeated most often  16  . There have been many attempts to fabricate PSCs with high PCE and stability using 2D perovskites, including mixing a 2D precursor with a 3D precursor solution  [17] [18] [19]  or forming a 2D/3D bilayer via the reaction of a 2D precursor solution on the surface of a 3D layer  3, 5, 6  . However, these solution processes thus far inevitably form an unintended quasi-2D phase that negatively affects the PCE and stability  16  . In this study we devised a solid-state in-plane growth (SIG) method for growing a 2D layer on a 3D layer by applying pressure and heat to ensure the intact properties of both layers in the complete device. Although pressure-assisted crystallizations of perovskite layers have also been reported before, they have been carried out in a system that includes a liquid-state precursor  [20] [21] [22]  . The SIG process successfully avoids the formation of unintended phases and can adjust the thickness of the 2D layer. The controllability of the thickness of the intact 2D layer facilitates device optimization for increasing the built-in potential at the junction. The stable 2D layer entirely formed on a 3D surface can maximize the stability enhancement effect. &#13;</text>
+    </passage>
+    <passage>
+      <offset>22537</offset>
+      <text> SIG process Figure  1a  shows a schematic of the procedure of the SIG process. A solid-state 2D film is stacked on top of a 3D film so that their surfaces are in contact. Heat and pressure are then applied perpendicular to the joint surface to induce a supply of the 2D perovskite from the stacked solid 2D precursor film to the top of the 3D film. Two-dimensional seeds are formed at the initial stage and gradually grow on the 3D film in the in-plane direction, becoming a new 2D film. After a specific process time passes, the original 2D solid precursor is detached and then an intact 2D/3D bilayer is finally formed. The characteristics of the SIG are compared the solution process in Supplementary Table  1 . For the SIG process, 2D (BA) 2 PbI 4 and 3D (FAPbI 3 ) 0.95 (MAP bBr 3 ) 0.05 (where FA is formamidinium and MA is methylammonium) films were prepared on substrates. All of the SIG processes were performed at 60 MPa, except for the experiment examining the influence of pressure. The temperature condition is marked after SIG (for example, SIG30 denotes the SIG process at 30 °C and 60 MPa). Figure  1b -f displays scanning electron microscopy (SEM) plan-view images of the SIG60-processed films as a &#13;</text>
+      <annotation id="1">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">butylammonium lead tetra iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T05:01:19Z</infon>
+        <location offset="23277" length="12"/>
+        <text>(BA) 2 PbI 4</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">(FAPbI3)0.95(MAPbBr 3)0.05</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-11T22:47:26Z</infon>
+        <location offset="23297" length="33"/>
+        <text>(FAPbI 3 ) 0.95 (MAP bBr 3 ) 0.05</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>23756</offset>
+      <text> Intact 2D/3D halide junction perovskite solar cells via solid-phase in-plane growth Yeoun-Woo Jang 1,2,5 , Seungmin Lee 3,5 , Kyung Mun Yeom 3 , Kiwan Jeong 1 , Kwang Choi 3 , Mansoo Choi 1,2 ✉ and Jun Hong Noh 3,4 ✉ The solution process has been employed to obtain Ruddlesden-Popper two-dimensional/three-dimensional (2D/3D) halide perovskite bilayers in perovskite solar cells for improving the efficiency and chemical stability; however, the solution process has limitations in achieving thermal stability and designing a proper local electric field for efficient carrier collection due to the formation of a metastable quasi-2D perovskite. Here we grow a stable and highly crystalline 2D (C 4 H 9 NH 3 ) 2 PbI 4 film on top of a 3D film using a solvent-free solid-phase in-plane growth, which could result in an intact 2D/3D heterojunction. An enhanced built-in potential is achieved at the 2D/3D heterojunction with a thick 2D film, resulting in high photovoltage in the device. The intact 2D/3D heterojunction endow the devices with an open-circuit voltage of 1.185 V and a certified steady-state efficiency of 24.35%. The encapsulated device retained 94% of its initial efficiency after 1,056 h under the damp heat test (85 °C/85% relative humidity) and 98% after 1,620 h under full-sun illumination. &#13;</text>
+      <annotation id="3">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">butylammonium lead tetra iodide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T05:01:19Z</infon>
+        <location offset="24449" length="23"/>
+        <text>(C 4 H 9 NH 3 ) 2 PbI 4</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">treated_voc</infon>
+        <infon key="identifier">1.185</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:30:19Z</infon>
+        <location offset="24823" length="5"/>
+        <text>1.185</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">24.35</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:30:30Z</infon>
+        <location offset="24874" length="6"/>
+        <text>24.35%</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">94</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T02:57:19Z</infon>
+        <location offset="24915" length="3"/>
+        <text>94%</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">time</infon>
+        <infon key="identifier">1056</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:30:45Z</infon>
+        <location offset="24951" length="7"/>
+        <text>1,056 h</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSD</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:31:18Z</infon>
+        <location offset="24969" length="14"/>
+        <text>damp heat test</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">85</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:31:16Z</infon>
+        <location offset="24985" length="5"/>
+        <text>85 °C</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">humidity</infon>
+        <infon key="identifier">85</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:31:26Z</infon>
+        <location offset="24991" length="3"/>
+        <text>85%</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">98</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T02:57:25Z</infon>
+        <location offset="25018" length="3"/>
+        <text>98%</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">time</infon>
+        <infon key="identifier">1620</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:31:38Z</infon>
+        <location offset="25028" length="7"/>
+        <text>1,620 h</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>25071</offset>
+      <text> Articles Nature eNergy function of the processing time. The SEM image of a SIG60 2 min case (Fig.  1c ) provides a glimpse of the initial state, with tiny seed-like products appearing on the 3D surface. The seeds subsequently became enlarged and gradually filled the 3D surface (Fig.  1c-e ). The substance completely covered the 3D surface after 10 min (Fig.  1f ). The X-ray diffraction (XRD) results for the same SIG films in Supplementary Fig.  1  support that the planar material observed in the SEM images is (BA) 2 PbI 4 . Only one new peak appears at 6.4° from 2 min to 10 min, which gradually grows over time. This peak corresponds to the (002) plane of (BA) 2 PbI 4 (ref.  23  ) and corresponds with the peak of the original precursor 2D film, revealing that the new 2D film is sourced from the original solid precursor 2D film. Moreover, in Supplementary Fig.  2 , the cross-sectional high-resolution transmission electron microscopy (HRTEM) image for the SIG60 10 min film also shows that a crystalline 2D film is successfully formed on top of the 3D film without interfacial interaction. As seed formation and growth are generally governed by thermodynamic and kinetic factors, we monitored variations in the (BA) 2 PbI 4 film formation on the 3D layer with processing pressure,  &#13;</text>
+    </passage>
+    <passage>
+      <offset>26367</offset>
+      <text> Articles Nature eNergy temperature and time to understand the SIG procedure. The pressure aided intimate contact between the two films and allowed the formation of the initial seeds, which moved from the original 2D film. We observed no occurrence of 2D perovskite accretion on the 3D surface in the absence of pressure (Supplementary Fig.  3 ). The pressure also promotes the in-plane growth of the 2D layer. Figure  1g -i shows plan-view SEM images for the SIG60 films after 10 min under different pressures. The 2D crystal was still in the process of formation at 20 MPa, whereas it was almost wholly planarized at 60 MPa. The temperature also strongly influences crystal formation and growth. Figure  1j  shows the thicknesses of the 2D films for SIG30 and SIG60 over time. It is notable that thickness increment in the out-of-plane direction hardly occurs over time, even when the processing time is extended to 720 min. This suggests that the seeds grow in the in-plane direction while the height of the initial seeds is maintained over time, probably due to 2D material characteristics. Comparing SIG30 and SIG60, the processing temperature determines the final thickness of the SIG-2D film as the initial height of the seeds is highly dependent on the temperature and their growth has a strong preference for the in-plane direction. As a result, a thicker 2D layer was created at a higher temperature, as shown in Supplementary Fig.  4 . According to classical nucleation theory, the nucleation and growth of a crystal from the initial precursors can be explained by the differences in the Gibbs free energy due to the volume and surface area changes of the newly formed crystal  24  . In the SIG process, however, a new crystal is not created as a 2D crystal already exists in the stacked original 2D precursor film. We therefore surmise that there would be no free energy changes caused by volume changes, but a surface area change can still occur when the original crystals surrounded by the 2D precursor film change into 2D seeds on the 3D surface. The newly formed surface area of seeds is determined by the balance between the increased free energy and the supplied thermal energy. As a result, the temperature can determine the initial seed height and final thickness of the SIG-2D film (Fig.  1h  and Supplementary Fig.  4 ). We also observed that the seeds did not manage to grow into a 2D film at 20 °C, whereas at 30 °C they succeeded (Supplementary Fig.  5 ), indicating that sufficient thermal energy is required for the in-plane growth. The anisotropic surface energy of the 2D materials also probably affects the in-plane growth without a thickness increase  25  . &#13;</text>
+    </passage>
+    <passage>
+      <offset>29059</offset>
+      <text> Formation of an intact 2D/3D multilayer Figure  2a  displays the XRD results for the control 3D film, the original 2D (BA) 2 PbI 4 film and the SIG-2D/3D bilayer films formed at different temperatures. All of the SIG films show the (002) peak typical of (BA) 2 PbI 4 (at approximately 6.4°) without other peaks for an unknown or quasi-2D phase. The (002) peak grows with the increase in the 2D film thickness, which is determined by the processing temperature. The original 2D film has a very narrow full-width at half-maximum (FWHM) of 0.105° for the (002) peak, and the SIG-2D films on top of the 3D surfaces also show a small value of ~0.167°, including an estimated instrumental broadening of 0.061° at 6.4° (2θ) (Supplementary Table  2 ). It is notable that the FWHM values for SIG-2D films are considerably smaller than the reported FWHM values of above 0.50° for the (002) peak of the 2D layers obtained by conventional solution processes  5, 17, 26, 27  . The SIG process enabled the formation of a several-tens-of-nanometres-thick upper layer containing a highly crystalline pure 2D phase on top of a 3D layer. The absence of secondary phases and a clear 2D/3D interface in the HRTEM image (Supplementary Fig.  2 ) reveal that the SIG process can produce an intact 2D/3D multilayer. We also showed that the SIG process could be valid for pure FAPbI 3 and MAPbI 3 perovskites, thus showing its wide applicability (Supplementary Fig.  6 ). &#13;</text>
+    </passage>
+    <passage>
+      <offset>30515</offset>
+      <text> reduction of surface recombination via SIG Figure  2b  shows the time-resolved photoluminescence (TRPL) decay curves of the control 3D and SIG films. The first-order decay related to trap-assisted non-radiative recombination can be identified by fitting the exponential decay within the photoluminescent tail region  28, 29  . The detail fitting process and results are presented in Supplementary Note 1 and Supplementary Fig.  7 , respectively. The obtained recombination constants and lifetimes are summarized in Supplementary Table  3 . The SIG process enhances the lifetime of the first-order recombination up to approximately 1.1 μs (from the 0.2 μs control) regardless of the processing temperature. This means that the SIG process reduces trap-assisted non-radiative recombination and that the processing temperature does not influence the carrier lifetime. The reduction of surface defects seems to be independent of the SIG-2D film thickness as the contact area between the 2D and 3D materials is constant. The change in the average carrier lifetime with processing time is also represented by lifetime mapping in Fig.  2c-e . The blue region with a short lifetime gradually transitions to a green region with a longer lifetime. The partial green region indicates the area that was partially covered by the 2D seeds after 2 min; after 10 min the 2D film had covered all of the area via in-plane growth. The TRPL results reveal that the 2D film successfully passivated the surface of the 3D film via the SIG process. Details on the device performance will be discussed later, but the point to note in the TRPL results is that the improved lifetime of 1.1 μs is insufficient to achieve a high open-circuit voltage (V OC ≈ 1.185 V) for the SIG devices in this study according to a previous study on V OC (ref.  30  ; Supplementary Note 2). Furthermore, the fact that V OC increases as the SIG-2D thickness increases (despite the similar lifetimes of 1.1 μs) has us consider the contributions from other factors to the improvement of V OC . &#13;</text>
+    </passage>
+    <passage>
+      <offset>32569</offset>
+      <text> Design of the local electric field at the 2D/3D junction In addition to surface passivation, the electric field generated by the intact 2D/3D junction can improve the performance of PSCs. The electric field can be designed by controlling the semiconducting properties and thickness of the 2D layer; however, the existing solution process has difficulty forming a clear 2D/3D junction for shaping the optimal electric field  7  . This is because the solution process is based on the reaction between the 2D precursor (A*I) dissolved in a solvent and the 3D (APbI 3 ) upper part. The reaction has the problem of producing quasi-2D phases (A*) 2 A n-1 Pb n I 3n+1 (1 &lt; n &lt; ∞)  8, 31  and not producing a pure 2D (A*) 2 PbI 4 phase, as the PbI 2 required for reaction with (A*I) must be supplied by the 3D layer, leaving (AI) according to equation (1). Existing solution process: 2 A * I À Á þ n APbI 3 ð Þ ! A * À Á 2 A n�1 Pb n I 3nþ1 ð1 ≤ n&lt;1Þ þ AI ð Þ ð1Þ SIG process: A * À Á 2 PbI 4 þ APbI 3 ð Þ ! A * À Á 2 PbI 4 = APbI 3 ð Þ ð2Þ On the other hand, the SIG process produces a definite and highly crystalline 2D (n = 1) perovskite on the 3D perovskite without any reaction with the 3D surface according to equation (2), which is also confirmed by the above-mentioned XRD and HRTEM studies. The SIG process can not only form an intact 2D/3D junction, but also control the thickness of the 2D layer through the processing temperature or an iteration process; the electric field thus becomes designable. We conducted the SIG and solution processes twice (iteration process) to assess the potential for electric field design by ensuring an adequate 2D thickness. Figure  3a-c  shows the Articles Nature eNergy grazing-incidence wide-angle X-ray scattering (GIWAXS) images of the control 3D film, the solution-processed (twice) 2D/3D film, and the SIG60-processed (twice) 2D/3D film. As expected, the solution-processed film shows broad peaks, indicating the generation of a quasi-2D with an undefined phase (Fig.  3b ). By contrast, our SIG-processed film consistently shows only one sharp peak that corresponds to pure (BA) 2 PbI 4 (Fig.  3c ). This implies that the target 2D material can be grown on the 3D surface in any desired thickness using repetition of the SIG process. We also observed a uniform and intact 2D/3D bilayer over the entire surface of the SIG film from a slightly tilted cross-sectional SEM image (Fig.  3d ). The electric field distribution at the intact 2D/3D junction is determined by the semiconducting properties (such as the carrier concentration and work function) of the 2D and 3D films. Figure  3e  presents the position of each band and work function for 2D and 3D films that were estimated via ultraviolet photoelectron spectroscopy data and the Tauc plot from the ultraviolet-visible absorption spectrum (Supplementary Figs.  8  and 9 ). Most FAPbI 3 -based perovskites have been reported to be p-type materials  32, 33  , and the 3D perovskite we used exhibited p-type properties in the previous report on Hall measurements  6, 34  . The ultraviolet photoelectron spectroscopy result also shows that the Fermi level (4.81 eV) of the used 3D perovskite is slightly lower than the midpoint between the CBM (conduction band minimum) of 4.01 eV and VBM (valence band maximum) of 5.56 eV. (BA) 2 PbI 4 has also been reported to be a p-type material according to finely controlled scanning Kelvin probe microscopy measurements  35  . (BA) 2 PbI 4 has a wider bandgap of 2.38 eV and a higher work function of 4.92 eV than the corresponding values (1.55 eV and 4.81 eV, respectively) for (FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05 . The 2D/3D junction can therefore be interpreted as a p-p isotype heterojunction and its band bending is represented in Fig.  3f  according to the explanation in Supplementary Fig.  10  and Supplementary Note 3. Formation of a p-p isotype heterojunction is a typical way of inducing a back-surface field at the junction between a wide-bandgap p-type field-induced layer and a narrow-bandgap p-type light-absorbing layer  36, 37  . In the 2D/3D heterojunction, (BA) 2 PbI 4 and (FAPbI 3 ) 0.95 (MAPbBr 3 ) 0.05 correspond to the wide-bandgap p-type field-induced material and narrow-bandgap p-type light-absorbing material, respectively. Here the junction must be designed such that sufficient thickness of the field-induced layer is ensured, as when the p-p heterojunction is  &#13;</text>
+    </passage>
+    <passage>
+      <offset>37029</offset>
+      <text> Articles Nature eNergy formed, the intrinsic hole movement from the field-induced layer to the light-absorbing layer must be sufficient to form a satisfactory back-surface field. The back-surface field can be represented by the built-in potential (V bi ) in the depletion region of the wide-bandgap p-type layer. When the wide-bandgap p-type layer is thin enough to be fully depleted, V bi is dependent on the thickness of the wide-bandgap p-type layer, as described in Supplementary Note 3. We estimated the 2D thickness for forming a sufficient depletion region and V bi using Supplementary equation (  5 ) for different carrier concentrations of the 2D layer, and the result is presented in Supplementary Fig.  11 . The depletion region depends on the carrier concentration of the 2D layer; however, an increase in the thickness of the 2D layer could augment the additional V bi by further ensuring the depletion region in the 2D layer. A thicker intact 2D layer was therefore expected to provide a higher photovoltaic performance for the PSCs obtained through the SIG process. &#13;</text>
+    </passage>
+    <passage>
+      <offset>38112</offset>
+      <text> Performance and stability of PSCs Figure  4a  shows the current density-voltage (J-V) curves and a summary of the cell parameters, such as the short-circuit current density (J SC ), V OC and fill factor for both the control and SIG60 devices with a FTO/SnO 2 /perovskite/spiro-OMeTAD/ Au structure (where spiro-OmeTAD is 2,2ʹ,7,7ʹ-tetrakis(N,N-di-4-methoxyphenylamine)-9,9ʹ-spirobifluorene and FTO is fluorinedoped tin(iv) oxide). The SIG60 device shows considerably improved V OC compared with the control device, thus yielding an improvement in the PCE from 22.39% to 24.59%. It also shows negligible J-V hysteresis and a stabilized power output at the maximum power point (Fig.  4a  and Supplementary Fig.  12 ) and a certified efficiency in terms of the J-V PCE (24.59%; J SC , 24.70 mA cm -2 ; V OC, 1.185 V; fill factor, 83.90%) and quasi-steady-state PCE (24.35%; J SC , 24.83 mA cm -2 ; V OC , 1.173 V; fill factor, 83.59%) without any encapsulation by Newport (Supplementary Fig.  13 ). As the 2D perovskite layer thickness increased from 0 nm (control) to 40 nm (SIG30) and 80 nm (SIG60), the V OC increased from 1.098 V to 1.117 V and 1.185 V, and the PCE increased gradually (Supplementary Table  4 ). The J SC values were similar-regardless of the thickness of the SIG-2D film-and were in accordance with the integrated J SC values from the external quantum efficiency spectra (Supplementary Fig.  14 ). The fill-factor value slightly improved from 82.95% to 83.90% despite an increase in the series resistance from 5.39 to 6.60 Ω cm -2 (Supplementary Fig.  15 ). This implies that the positive q xy (nm -1 ) q xy (nm -1 ) q xy (nm -1 ) 0 5 10 -10 -5     &#13;</text>
+      <annotation id="13">
+        <infon key="type">structure_pin_nip</infon>
+        <infon key="identifier">NIP</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:34:28Z</infon>
+        <location offset="38362" length="38"/>
+        <text>FTO/SnO 2 /perovskite/spiro-OMeTAD/ Au</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:34:40Z</infon>
+        <location offset="38418" length="12"/>
+        <text>spiro-OmeTAD</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">control_pce</infon>
+        <infon key="identifier">22.39</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:36:09Z</infon>
+        <location offset="38673" length="6"/>
+        <text>22.39%</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">treated_voc</infon>
+        <infon key="identifier">1.185</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:36:26Z</infon>
+        <location offset="38918" length="5"/>
+        <text>1.185</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">24.35</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:36:38Z</infon>
+        <location offset="38976" length="6"/>
+        <text>24.35%</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>39786</offset>
+      <text> Articles Nature eNergy the SIG-(BA) 2 PbI 4 layer could exhibit a thickness of several tens of nanometres while maintaining its inherent properties such that it enabled an improvement in the device performance. We also confirmed that the V bi provided by the SIG-2D layer worked well for other hole-transporting systems, such as poly(triarylamine) (PTAA) and poly(3-hexylthiophene) (P3HT) (Supplementary Table  6 , and Supplementary Figs.  20  and 21 ). The SIG device was expected to enhance the resistance against the external environment. The reason is that organic spacers that prevent the penetration of moisture  39  and suppress the leak of volatile cations and halides from 3D perovskite film are arranged in the surface direction  40  , and the pure (n = 1) state has a superior heat resistance to the quasi-2D phases that are usually produced by the solution process. The reactivity with moisture for the control (FTO/SnO 2 /3D) and SIG-grown (FTO/SnO 2 /3D:SIG-2D) films was estimated by measuring the ultraviolet-visible absorbance before and after exposure to 85% relative humidity and room temperature. Supplementary Fig.  22  shows that the SIG film maintained its absorbance even after 1,000 h, in contrast to the control film. The humidity stability test of the device was also conducted by placing the fabricated devices with undoped P3HT as the HTL in a chamber at 85% relative humidity and room temperature (Fig.  4c ). Here, undoped P3HT was used to avoid the effect of hygroscopic additives in spiro-OMeTAD, and the initial device performance is shown in Supplementary Fig.  20 . The unencapsulated SIG device (FTO/ SnO 2 /3D:SIG-2D/P3HT/Au) showed only 2.7% (average) degradation compared with the initial PCE after 1,083 h, whereas the unencapsulated control device (FTO/SnO 2 /3D/P3HT/Au) showed 41.4% degradation only after 400 h. We also observed that the unencapsulated SIG device (FTO/SnO 2 /3D:SiG-2D/spiro-OMeTAD/Au) stored under an air atmosphere at room temperature in the dark maintained its initial PCE even after 7,000 h. Figure  4d  presents the results from the damp heat test of the SIG device with encapsulation under 85 °C/85% relative humidity. PTAA was used for the damp heat test, and device performance is shown in Supplementary Fig.  21 . The most stable encapsulated SIG device (FTO/SnO 2 /3D:SIG-2D/PTAA/Au) maintained 95% (on average 93%) of its initial PCE of 21.34% after 1,056 h. The pure 2D phase grown by the SIG process enabled thermal stability that could not be otherwise achieved with the solution process  41  . The encapsulated SIG device was tested near the maximum power point under full-sun illumination to explore its long-term operational stability at room temperature (Supplementary Fig.  23 ). The SIG device maintained &gt;98% of its maximum efficiency (24.06%) for 1,620 h. The intact 2D/3D heterojunction leads to excellent operational stability. &#13;</text>
+      <annotation id="38">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">tin dioxide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:22:32Z</infon>
+        <location offset="40715" length="5"/>
+        <text>SnO 2</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSD</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:47:54Z</infon>
+        <location offset="41035" length="23"/>
+        <text>humidity stability test</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">humidity</infon>
+        <infon key="identifier">85</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:48:04Z</infon>
+        <location offset="41171" length="3"/>
+        <text>85%</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">room temperature</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:21:47Z</infon>
+        <location offset="41197" length="16"/>
+        <text>room temperature</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:47:17Z</infon>
+        <location offset="41303" length="12"/>
+        <text>spiro-OMeTAD</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">97.3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T02:59:02Z</infon>
+        <location offset="41463" length="26"/>
+        <text>2.7% (average) degradation</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="type">time</infon>
+        <infon key="identifier">1083</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:48:33Z</infon>
+        <location offset="41526" length="7"/>
+        <text>1,083 h</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">efficiency_cont</infon>
+        <infon key="identifier">58.6</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T02:59:08Z</infon>
+        <location offset="41608" length="17"/>
+        <text>41.4% degradation</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">efficiency_cont</infon>
+        <infon key="identifier">58.6</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T02:59:08Z</infon>
+        <location offset="41608" length="5"/>
+        <text>41.4%</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">room temperature</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:21:47Z</infon>
+        <location offset="41769" length="16"/>
+        <text>room temperature</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSL</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:50:34Z</infon>
+        <location offset="41786" length="11"/>
+        <text>in the dark</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">1</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:50:42Z</infon>
+        <location offset="41798" length="26"/>
+        <text>maintained its initial PCE</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">time</infon>
+        <infon key="identifier">7000</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:50:51Z</infon>
+        <location offset="41836" length="5"/>
+        <text>7,000</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">21.34</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:51:35Z</infon>
+        <location offset="42197" length="6"/>
+        <text>21.34%</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSLT</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:52:15Z</infon>
+        <location offset="42406" length="94"/>
+        <text>maximum power point under full-sun illumination to explore its long-term operational stability</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">room temperature</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:21:47Z</infon>
+        <location offset="42504" length="16"/>
+        <text>room temperature</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">98</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T02:57:25Z</infon>
+        <location offset="42575" length="3"/>
+        <text>98%</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">24.06</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:52:39Z</infon>
+        <location offset="42606" length="6"/>
+        <text>24.06%</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">time</infon>
+        <infon key="identifier">1620</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:52:47Z</infon>
+        <location offset="42618" length="7"/>
+        <text>1,620 h</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>42703</offset>
+      <text> Conclusion We have developed an SIG strategy that enables the formation of an intact 2D/3D halide junction showing remarkable performance enhancement of PSCs in terms of efficiency and stability. The SIG process allows thickness-controllable deposition of a highly crystalline 2D (BA) 2 PbI 4 (n = 1) layer on top of a 3D layer without any quasi-2D phases (n &gt; 1). The formed intact 2D/3D halide junction increases the carrier lifetime and enables the design of the local electric field distribution at the junction, yielding a significant improvement to V OC in PSCs. The PSCs with the intact 2D/3D junction show a remarkably improved PCE of 24.59% (a certified quasi-steady-state PCE of 24.35%). The intact 2D (n = 1) layer not only improves the humidity and thermal stability, but also allows excellent operational stability for PSCs under the 1 sun condition. We anticipate that the SIG strategy will open new avenues for designing halide-halide junctions to improve both the PCE and stability of PSCs. &#13;</text>
+    </passage>
+    <passage>
+      <offset>43712</offset>
+      <text> Methods Materials. Lead iodide (PbI 2 ) and lead bromide (PbBr 2 ) were purchased from the Tokyo Chemical Industry. Methylammonium bromide (MABr), methylammonium chloride (MACl) and formamidinium iodide (FAI) were purchased from Dyesol. Lead(ii) oxide (PbO), butylamine (CH 3 (CH 2 ) 3 NH 2 ), hydriodic acid (HI, 57 wt% in H 2 O), hypophosphorous acid solution (H 3 PO 2 , 50 wt% in H 2 O), anhydrous dimethylformamide (DMF), anhydrous dimethylsulfoxide (DMSO), chlorobenzene and acetonitrile were purchased from Sigma-Aldrich. Spiro-OMeTAD was purchased from Lumtec, P3HT was purchased from 1-Material and PTAA was purchased from Mott-Schottky solution. Synthesis of (BA) 2 PbI 4 crystal powder. A mixed solution of HI solution (16 ml) and H 3 PO 2 solution (2 ml) was prepared in a 200 ml glass volumetric flask. PbO powder (2,232 mg, 10 mmol) was dissolved by heating to boiling under stirring, and it formed a bright yellow solution; 993 μl (10 mmol) of butylamine was then added to this solution and stirring was discontinued. The temperature was lowered to 80 °C over 30 min. The solution was left at room temperature until orange crystals began to form. The crystals were isolated by suction filtration and thoroughly dried in a vacuum chamber. (BA) 2 PbI 4 perovskite film fabrication. Tin-doped indium oxide (ITO)-coated glass substrates of 2.5 cm × 2.5 cm were cleaned with deionized water, acetone, ethanol and isopropyl alcohol for 15 min each. For better wetting of the 2D perovskite precursor solution, the substrates were treated with ultraviolet-ozone for 15 min; (BA) 2 PbI 4 precursor solution was then prepared by dissolving 0.172 g ml -1 (BA) 2 PbI 4 crystal powder in DMF/DMSO (8:1 v/v) mixed solvent. The precursor solution was then spin-coated on the substrate at 5,000 r.p.m. for 20 s; 1 ml of diethyl ether was quickly poured onto the substrate at 10 s. The yellow film was quickly transferred to a hot plate and heat-treated at 100 °C for 5 min. 3D perovskite film fabrication. FTO (Pilkington, TEC8) substrates of 2.5 cm × 2.5 cm were cleaned with deionized water, acetone, ethanol and isopropyl alcohol for 15 min each. The substrates were cleaned with ultraviolet-ozone for 15 min and a SnO 2 layer was subsequently grown as the electron transport layer according to a previous report  42  . The substrates were then heat-treated at 150 °C for 1 h. For better wetting of the precursor solution of the 3D perovskite, the FTO/ SnO 2 substrates were treated with ultraviolet-ozone for a further 15 min. The 3D perovskite precursor solution was then prepared by mixing 0.869 g ml -1 FAPbI 3 , 0.035 g ml -1 MAPbBr 3 and 0.028 g ml  -1  MACl in DMF/DMSO (8:1 v/v) mixed solvent. The precursor solution was then coated onto the FTO/SnO 2 substrates by two consecutive spin-coating steps at 1,000 r.p.m. and 5,000 r.p.m. for 5 s and 30 s, respectively; 1 ml of diethyl ether was quickly poured onto the substrate at 10 s after reaching 5,000 r.p.m. The yellow film was quickly transferred to a hot plate and heat-treated at 150 °C for 10 min. SIG process. A hot-press method was used to fabricate the 3D/SIG-2D film. The previously fabricated (BA) 2 PbI 4 thin film was placed on the 3D thin film and pressed at 60 MPa for 10 min at the desired temperature (30 °C, 45 °C or 60 °C). For the purpose of analysing the growth of the SIG-processed 2D film under different pressures, 3D/SIG-2D thin films was made by changing the pressure (20 MPa, 40 MPa or 60 MPa) at 60 °C. Hole transport layer and counter electrode fabrication. Spiro-OMeTAD solution (1.1 mg ml -1 in chlorobenzene) with the addition of 23 μl of bis(trifluoromethanesulfonyl)imide (Li-TFSI) (540 mg ml -1 in acetonitrile), 10 μl of cobalt-TFSI (375 mg ml -1 in acetonitrile) and 39 µl of 4-tertbutylpyridine was spin-coated on the substrate coated with FTO/SnO 2 /3D/(SIG-2D) at 2,000 r.p.m. for 30 s. Undoped P3HT solution (10 mg ml -1 in the mixed solvent chlorobenzene:diphenyl ether = 97:3 v/v) was used for the humidity stability test, whereas PTAA solution (12 mg ml -1 in toluene) with the addition of 6 μl of Li-TFSI (340 mg ml -1 in acetonitrile) and 6 μl of 4-tertbutylpyridine was used for the damped heat test. Finally, a gold counter electrode was deposited by thermal evaporation; the active area of the counter electrode was fixed at 0.16 cm 2 . Material and film characterization. X-ray diffraction spectra were measured using a Rigaku SmartLab X-ray diffractometer with an X-ray tube (copper Kα, λ = 1.54 Å, 200 mA, 45 kV, 9 kW). All of the XRD patterns were measured under a scan rate of 1° per min with a step of 0.02° at the National Center for Inter-university Research Facilities at Seoul National University. Plan-view and cross-sectional SEM images were obtained by using a field-emission scanning electron microscope (MERLIN, Carl Zeiss). A cross-section view near the 2D/3D heterojunction was observed using a transmission 200 kV field-emission electron microscope (JEOL, JEM-2100F). A TRPL study was performed using an inverted-type scanning confocal microscope (MicroTime-200, Picoquant) with a ×40 (air) objective. Lifetime measurements were performed at the Korea Basic Science Institute, Daegu Center. A single-mode pulsed diode laser (32.7 μJ cm -2 ; 470 nm with a pulse width of ~30 ps, a laser power of ~0.1 μW, a repetition rate of 0.5 MHz and an effective confocal area of 6.11 × 10 -9 cm 2 ; ref.  43  ) was used as an excitation source. A dichroic mirror (490 DCXR, AHF), a 75 μm pinhole and a single-photon avalanche diode (PDM series, MPD) were used to collect emission from the samples. The time-correlated single-photon counting technique was used to count emission photons. Time-resolved photoluminescence images consisting ( 20 ) 20 Wang, K., Wu, C., Yang, D., Jiang, Y. &amp; Priya, S. Quasi-two-dimensional halide perovskite single crystal photodetector. ACS nano 12, 4919-4929 (2018). &#13;</text>
+      <annotation id="36">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-01-23T21:57:13Z</infon>
+        <location offset="44242" length="12"/>
+        <text>Spiro-OMeTAD</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">tin dioxide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-14T02:22:32Z</infon>
+        <location offset="45930" length="5"/>
+        <text>SnO 2</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>49655</offset>
+      <text> ( 21 )1 21 Mette, A. et al. Series resistance characterization of industrial silicon solar cells with screen-printed contacts using hotmelt paste. Progress in photovoltaics: research and applications 15, 493-505 (2007).(22) Almora, O., Aranda, C., Mas-Marzá, E. &amp; Garcia-Belmonte, G. On Mott-Schottky analysis interpretation of capacitance measurements in organometal perovskite solar cells. Applied Physics Letters 109, 173903 (2016).(23) Chen, B. et al. Impact of capacitive effect and ion migration on the hysteretic behavior of perovskite solar cells. The journal of physical chemistry letters 6, 4693-4700 (2015).nature research | solar cells reporting summary November 2017 Corresponding author(s): Mansoo Choi, Jun Hong Noh &#13;</text>
+    </passage>
+    <passage>
+      <offset>50389</offset>
+      <text> terminal, monolithic) LM = lattice matched MM = metamorphic IMM = inverted, metamorphic Two-, three-, and four-junction (concentrator) Three-junction or more (non-concentrator) Two-junction (non-concentrator) Articles https://doi.org/10.1038/s41560-020-00749-7 1 &#13;</text>
+    </passage>
+    <passage>
+      <offset>50654</offset>
+      <text> Fig. 1 | 1 Fig. 1 | SIG process and the effect of pressure, heat and processing time. a, Top-view and cross-sectional sketches of the manufacturing of a (BA) 2 PbI 4 film on a 3D perovskite substrate via the SIG method. The formation of crystal seeds and the in-plane grain growth are indicated with black dashed lines and black arrows, respectively, in the cross-sectional representation of the perovskite layer. b-i, Top surface SEM images of the 3D perovskite (b); the 2D/3D perovskite film fabricated under SIG60 conditions after 2 min (c), 5 min (d), 8 min (e) and 10 min (f) processing time; and SIG60-processed 2D/3D films after 10 min at 20 MPa (g), 40 MPa (h) and 60 MPa (i). j, The thickness distribution of the grown (BA) 2 PbI 4 accretion with processing time. Five samples were used in every case to measure the change in thickness over time under SIG30, whereas six samples were used for SIG60. Error bars show the lower and upper thicknesses of (BA) 2 PbI 4 at each condition. Scale bars in b-f and g-i represent 1 µm and 400 nm, respectively. &#13;</text>
+    </passage>
+    <passage>
+      <offset>51716</offset>
+      <text> Fig. 2 | 2 Fig. 2 | Properties of the 2D/3D films fabricated by the SIG method. a, X-ray diffraction patterns of the control film (3D perovskite only), 2D/3D films developed by the SIG process under different temperature conditions, and a pure 2D perovskite film (n = 1, (BA) 2 PbI 4 ). The orange shading indicates 6.4°. b, Time-resolved photoluminescence decay curves of the control and SIG-processed 2D/3D films after excitation at 800 nm and 0.5 MHz. c-e, Average lifetime mapping images of the 3D perovskite film and 2D/3D films (c) after 2 min (d) and 10 min (e) of processing under SIG60. The colour-scale bars indicate average carrier lifetime whereas the greyscale bars indicate event counts. &#13;</text>
+    </passage>
+    <passage>
+      <offset>52421</offset>
+      <text> Fig. 3 | 3 Fig. 3 | Intact 2D/3D heterojunction formation and its role. a-c, GIWAXS patterns of the 3D perovskite film (control) (a) and 2D/3D perovskites made by two cycles of the solution (b) and SIG (c) processes. q is the scattering vector. The colour-scale bars indicate intensity. d, A cross-sectional SEM image of the SIG-processed 2D/3D device. e, Estimated energy-level alignment between the 3D perovskite and (BA) 2 PbI 4 . ϕ 2D and ϕ 3D are the Fermi levels of the 2D and 3D perovskites, respectively, Δϕ is the Fermi level difference between the 2D and 3D perovskites, E vac is the vacuum level, and ΔVBM is a valence band maximum difference between 2D and 3D perovskites. f, Built-in potential change induced by 2D/3D heterojunction formation. The grey and red thick arrows indicate flow of photogenerated holes and photogenerated electrons, respectively, whereas the purple arrow indicates excitation of electron caused by light. The black narrow line represents the thickness change of the 2D perovskite and the orange narrow lines are the vacuum level change caused by it. &#13;</text>
+    </passage>
+    <passage>
+      <offset>53517</offset>
+      <text> F &#13;</text>
+    </passage>
+    <passage>
+      <offset>53521</offset>
+      <text> Fig. 4 | 4 Fig. 4 | Device performance and stability. a, A comparison of the photovoltaic performances of the control (FTO/SnO 2 /3D/spiro-OMeTAD/Au) and SIG60 (FTO/SnO 2 /3D:(SIG-2D)/spiro-OMeTAD/Au) devices. Solid lines and dashed lines indicate the reverse and forward scans, respectively. b, Mott-Schottky plots of the control and SIG60 devices (FTO/3D:(SIG-2D)/spiro-OMeTAD/Au) at 10 kHz. Built-in potentials for all devices were obtained by linear fitting derived from Supplementary equation (6). C, capacitance. c, Efficiency degradation tracking of the unencapsulated control and SIG60 devices under 85% relative humidity (RH) at 25 °C in a dark chamber. The inset in c shows the condition of the device after 1,083 h. The initial average efficiency of the four cells are all over 20%. d, The results of the 1,056 h thermal stability test of the SIG60 device with encapsulation under 85% RH at 85 °C in the dark. The initial average efficiency of four cells are all over 21.70% The error bars in c and d show the maximum and minimum bounds of normalized PCEs for four cells. FF, fill factor; F, forward scan; R, reverse scan; A, average; r.t., room temperature. &#13;</text>
+    </passage>
+    <passage>
+      <offset>54695</offset>
+      <text> 16   &#13;</text>
+    </passage>
+    <passage>
+      <offset>54702</offset>
+      <text> Condition 2D thickness (nm) First-order lifetime ( s) Vbi of MS plot (mV) VOC of each device (mV) Vbi from Eq. (S5) (mV) N2D = 1.67 10 16 cm -3 Control 0.20 1087 - 1098 - - SIG30 42.30 1.18 1.05 1119 32 1117 19 28.48 1.59 SIG45 60.70 1.09 1.00 1151 64 1145 47 58.62 2.11 SIG60 83.45 1.45 1.11 1194 107 1185 87 110.80 3.84 &#13;</text>
+    </passage>
+    <passage>
+      <offset>55026</offset>
+      <text> Supplementary Figure 19. Estimated carrier concentration of SIG-2D films. The carrier concentration (N2D =1.67 10 16 cm -3 ) was calculated by the built-in potential from the MS plot and the thickness of the SIG films through Eq. (S5). Supplementary &#13;</text>
+    </passage>
+    <passage>
+      <offset>55278</offset>
+      <text> Table 6. Summary of the photovoltaic parameters of devices according to the type of hole transfer layer. The open-circuit voltage was improved in all devices using Spiro-OMeTAD, PTAA, and P3HT, and the efficiency of P3HT showed the most dramatic change. The displayed efficiency and each parameter are the average values for forward and reverse scans obtained from the J-V curves. &#13;</text>
+    </passage>
+    <passage>
+      <offset>55661</offset>
+      <text> Hole-transporting material Structure Jsc (mA/cm 2 ) VOC (V) FF (%) η (%) Spiro-OMeTAD and Nanometer Structures Processing, Measurement, and Phenomena 9, 2369-2376 (1991). (12) Buizza, L. R. et al. Charge-Carrier Dynamics, Mobilities, and Diffusion Lengths of 2D-3D Hybrid Butylammonium-Cesium-Formamidinium Lead Halide Perovskites. Advanced Functional Materials 29, 1902656 (2019). (13) Tress, W. Perovskite solar cells on the way to their radiative efficiency limit-insights Control into a success story of high open-circuit voltage and low recombination. Advanced 24.60 1.095 82.95 22.39 SIG60 Energy Materials 7, 1602358 (2017). 24.69 1.185 83.95 24.59 Control (14) Karthick, S., Velumani, S. &amp; Bouclé, J. Experimental and SCAPS simulated 24.52 1.065 81.78 21.36 PTAA formamidinium perovskite solar cells: A comparison of device performance. Solar SIG60 24.61 1.105 81.90 22.27 Energy 205, 349-357 (2020). Control 24.00 0.970 51.14 11.92 P3HT (15) Guillemoles, J.-F., Kirchartz, T., Cahen, D. &amp; Rau, U. Guide for the perplexed to the SIG60 Shockley-Queisser model for solar cells. Nature Photonics 13, 501-505 (2019). 24.17 1.123 75.60 20.52 (16) Lopez, A. &amp; Anderson, R. L. PHOTOCURRENT SPECTRA OF GE-GAAS HETERO-JUNCTIONS. Solid-State Electronics 7, 695-700 (1964). (17) Sharma, B. L. &amp; Purohit, R. K. Semiconductor heterojunctions. Ch. 2, (Elsevier, 2015). (18) Tsai, H. et al. High-efficiency two-dimensional Ruddlesden-Popper perovskite solar cells. Nature 536, 312-316 (2016). (19) Zhu, X. et al. Vapor-fumigation for record efficiency two-dimensional perovskite solar cells with superior stability. Energy &amp; Environmental Science 11, 3349-3357 (2018). &#13;</text>
+    </passage>
+    <passage>
+      <offset>57327</offset>
+      <text>			 Nature eNerGY | VOL 6 | JANUARY 2021 | 63-71 | www.nature.com/natureenergy</text>
+    </passage>
+    <relation id="R1">
+      <infon key="type">test_2</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T07:04:31Z</infon>
+      <node refid="12" role=""/>
+      <node refid="11" role=""/>
+      <node refid="32" role=""/>
+      <node refid="34" role=""/>
+      <node refid="31" role=""/>
+      <node refid="1" role=""/>
+    </relation>
+    <relation id="R2">
+      <infon key="type">test_3</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T07:04:31Z</infon>
+      <node refid="6" role=""/>
+      <node refid="7" role=""/>
+      <node refid="8" role=""/>
+      <node refid="9" role=""/>
+      <node refid="10" role=""/>
+      <node refid="30" role=""/>
+      <node refid="3" role=""/>
+    </relation>
+    <relation id="R3">
+      <infon key="type">test_1</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T07:04:31Z</infon>
+      <node refid="18" role=""/>
+      <node refid="19" role=""/>
+      <node refid="20" role=""/>
+      <node refid="22" role=""/>
+      <node refid="23" role=""/>
+      <node refid="24" role=""/>
+      <node refid="3" role=""/>
+    </relation>
+  </document>
+</collection>
