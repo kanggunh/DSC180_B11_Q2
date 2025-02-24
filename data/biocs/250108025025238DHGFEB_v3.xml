@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source/>
+  <date/>
+  <key/>
+  <document>
+    <id>250108025025238DHGFEB</id>
+    <infon key="tt_curatable">no</infon>
+    <infon key="tt_version">3</infon>
+    <infon key="tt_round">3</infon>
+    <passage>
+      <offset>0</offset>
+      <text>Paper #: 16&#13;</text>
+    </passage>
+    <passage>
+      <offset>12</offset>
+      <text>Deep Surface Passivation for Efficient and Hydrophobic Perovskite Solar Cells&#13;</text>
+    </passage>
+    <passage>
+      <offset>90</offset>
+      <text>Note S1: Space-charge-limited-current (SCLC) technique. The trap densities (N t ) in perovskite films were figure out by the space-chargelimited-current (SCLC) technique.  1  An electron-only device with a glass/ITO/SnO 2 /perovskite/PCBM/Ag architecture (Fig.  S2a ) and a glass/ITO/PEDOT:PSS/perovskite/spiro-OMeTAD/Ag hole-only device (Fig.  S2c ) were fabricated. Fig.  S2b  illustrates the dark current-voltage (J-V) characteristics of the pristine and CF 3 PEAI 2D passivated electron-only devices, which shows a linear ohmic region, a trap-filling limited region, and a trap-free child's region. The electron trap density can be calculated with trap-filled limit voltage (V TFL ) from the following equation: (1) 𝑁 𝑡 = 2𝑉 𝑇𝐹𝐿 𝜀 𝑟 𝜀 0 𝑞𝐿 2 Where ε r is the relative dielectric constant of perovskite (ε r = 32), 2 ε 0 is the vacuum permittivity, V TFL is the onset voltage of the trap-filled limit region, q is the elemental charge, and L is the thickness of the perovskite film (~ 800 nm). The electron trap density in the 2D passivated perovskite is figured out to be 2.25 10 15 cm -3 , which is × much lower than the pristine (4.5 10 15 cm -3 ) perovskite. Similarly, a hole trap density × of 3.75 10 15 cm -3 and 2.68 10 15 cm -3 are achieved for the pristine and 2D CF 3 PEAI × × passivated films (Fig.  S2d ). The reduced trap state density in the passivated film could be attributed to the high-quality perovskite crystals. It can improve performance and mitigate the hysteresis effect in PSCs. &#13;</text>
+      <annotation id="1">
+        <infon key="type">structure_pin_nip</infon>
+        <infon key="identifier">NIP</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T05:32:27Z</infon>
+        <location offset="296" length="35"/>
+        <text>glass/ITO/SnO 2 /perovskite/PCBM/Ag</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">structure_pin_nip</infon>
+        <infon key="identifier">NIP</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T05:32:27Z</infon>
+        <location offset="364" length="46"/>
+        <text>glass/ITO/PEDOT:PSS/perovskite/spiro-OMeTAD/Ag</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">(3-(Trifluoromethyl)phenyl)ethylamine hydroiodide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-19T19:22:33Z</infon>
+        <location offset="548" length="9"/>
+        <text>CF 3 PEAI</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">(3-(Trifluoromethyl)phenyl)ethylamine hydroiodide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-19T19:22:33Z</infon>
+        <infon key="error:misaligned:28">1378-&gt;1367</infon>
+        <location offset="1367" length="9"/>
+        <text>CF 3 PEAI</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>1639</offset>
+      <text> Experiment section Materials: The SnO 2 colloid precursor was purchased from Alfa Aesar. N, Ndimethylformamide (DMF), isopropanol (IPA), and dimethyl sulfoxide (DMSO) were purchased from Sigma-Aldrich. PbI 2 , formamidine iodide (FAI), methylamine hydrobromide (MABr), methylammonium chloride (MACl), PEAI, CF 3 PEAI, and Spiro-OMeTAD were purchased from Xian Polymer Light Technology Corp. All materials were used without any further purification. &#13;</text>
+      <annotation id="5">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">TinOxide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T23:42:46Z</infon>
+        <location offset="1674" length="5"/>
+        <text>SnO 2</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">(3-(Trifluoromethyl)phenyl)ethylamine hydroiodide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-19T19:22:33Z</infon>
+        <location offset="1947" length="10"/>
+        <text>CF 3 PEAI,</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T23:42:58Z</infon>
+        <location offset="1962" length="12"/>
+        <text>Spiro-OMeTAD</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>2090</offset>
+      <text> Fabrication of PSCs: The ITO glasses were ultrasonically cleaned with deionized water, acetone, and isopropanol for 10 minutes, respectively. Then the clean glasses were dried in the drying oven and then treated with UV-ozone for 10 min. The SnO 2 colloid precursor was diluted with deionized water in a volume ratio of 1: 6. The electron transport layer (ETL) layer was prepared by spin coating the SnO 2 precursor at 3,000 rpm for 40 s and then annealed at 150 o C for 30 min. Before transferred into the glovebox, the substrates were treated with the UV-ozone again. For the perovskite layers, a two-step process was employed. Firstly, PbI 2 (654 mg) was dissolved in a mixed solvent of DMF and DMSO (1 mL, volume ratio at 4:1). After complete dissolution, the PbI 2 solution was filtered through a 0.22 μm pore polytetrafluoroethylene filter and then was spin-coated onto the HTL layers at 1,600 rpm for 20 s and 4,000 rpm for 30 s successively. After then, the PbI 2 film was annealed at 72 o C for 2 min. Later, the mixed cations isopropanol solution (220 mg FAI, 22 mg MABr, and 23 mg MACl dissolved in 1,500 μL isopropanol) was spin-coated onto the PbI 2 layer at 2,000 rpm for 30 s. Then the perovskite films were annealed at 150 o C for 30 min in the ambient environment (40% relative humidity). For the passivation treatment, CF 3 PEAI solutions in isopropanol with different concentrations (1, 2, 5, and 10 mg/mL) were spin-coated onto perovskite films at 4,000 rpm for 30 s, and then the films were annealed at 100 o C for 10 min to form the 2D perovskite. The HTL was then deposited by spin coating at 3,000 rpm for 30 s, and it contains Spiro-OMeTAD (72.3 mg), bis(trifluoromethane) sulfonamide lithium salt (Li-TFSI) stock solution (17.5 μL, 520 mg Li-TFSI in 1 mL acetonitrile), 28.8 μL 4-tertbutylpyridine in the 1 mL chlorobenzene. At last, after being oxidized for 24 h in the desiccator, 80 nm Au film was thermal evaporated as the electrode. using 1 × 1 × 1 k-point grids for the ionic optimization and 3 ×3 ×3 for the density of state, respectively. The self-consistent total-energy difference and the convergence criterion for forces on atoms are set to 10 -4 eV and 0.01 eV/Å, respectively. In all the calculations, the first two layers on the FAPbI 3 slab surface under investigation are fully relaxed, while the positions of other layers at the bottom are kept fixed. A vacuum spacing &gt; 15 Å is used to prevent inter-slab interactions.       Fig. S1 . S1 Fig. S1. Structure of the devices applied in the study and the proposed mechanism of CF 3 PEAI passivating the perovskite layer. &#13;</text>
+      <annotation id="8">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">TinOxide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T23:43:11Z</infon>
+        <location offset="2333" length="5"/>
+        <text>SnO 2</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">TinOxide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T23:43:24Z</infon>
+        <location offset="2491" length="5"/>
+        <text>SnO 2</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">(3-(Trifluoromethyl)phenyl)ethylamine hydroiodide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-19T19:22:33Z</infon>
+        <location offset="3428" length="9"/>
+        <text>CF 3 PEAI</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">hole_transport_layer</infon>
+        <infon key="identifier">Spiro-OMeTAD</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T23:43:40Z</infon>
+        <location offset="3743" length="12"/>
+        <text>Spiro-OMeTAD</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">FAPbI3</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T23:44:13Z</infon>
+        <location offset="4360" length="7"/>
+        <text>FAPbI 3</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">(3-(Trifluoromethyl)phenyl)ethylamine hydroiodide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-19T19:22:33Z</infon>
+        <location offset="4658" length="9"/>
+        <text>CF 3 PEAI</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>4713</offset>
+      <text> Fig. S2 . S2 Fig. S2. Current-voltage measurement of the electron-only and hole-only devices. Structure of electron-only devices (a); Dark current-voltage curve for the electron-only device of the pristine (b) and CF 3 PEAI 2D passivated (c); Structure of hole-only devices (d); Dark current-voltage curve for the hole-only device of the pristine (e) and CF 3 PEAI 2D passivated (f). &#13;</text>
+      <annotation id="14">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">(3-(Trifluoromethyl)phenyl)ethylamine hydroiodide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-19T19:22:33Z</infon>
+        <location offset="4928" length="9"/>
+        <text>CF 3 PEAI</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>5099</offset>
+      <text> Fig. S3 .Fig. S5 . S3S5 Fig. S3. Electron localization function results of FAPbI 3 for FA vacancy (a) perfect; (b) passivated and (c) with V FA ; Electron localization function results of FAPbI 3 for I vacancy (d) perfect, (e) passivated, and (f) withV I . &#13;</text>
+      <annotation id="15">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">FAPbI3</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T23:44:54Z</infon>
+        <location offset="5175" length="7"/>
+        <text>FAPbI 3</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>5358</offset>
+      <text> Fig. S6 . S6 Fig. S6. The contact angle with deionized water of the films: (a) The pristine; (b) The PEAI 2D passivated; (c) The CF 3 PEAI passivated; (d) The CF 3 PEAI 2D passivated. &#13;</text>
+    </passage>
+    <passage>
+      <offset>5544</offset>
+      <text> Fig. S7 . S7 Fig. S7. UV-Vis absorbance spectra evolution of the perovskite films at 85 ℃ in the nitrogen glove box (a), and in ambient (RH, 70-80%) (b). &#13;</text>
+    </passage>
+    <passage>
+      <offset>5702</offset>
+      <text> Table S1 . S1 The time coefficients and relative magnitude of PL decay trace in Fig.1d. τ 1 A 1 τ 2 A 2 τ av a (ns) (%) (ns) (%) (ns) Pristine 110.10 12.76 511.68 87.24 460.42 CF 3 PEAI 2D 105.29 1.17 1674.67 98.83 1656.30 CF 3 PEAI 110.05 3.02 746.43 96.98 727.20 PEAI 2D 77.02 5.63 1575.41 94.37 1491.05 a) τ av is the Amplitude-weighted average lifetimes; &#13;</text>
+    </passage>
+    <passage>
+      <offset>6067</offset>
+      <text> Table S2 . S2 Summary performance of devices (0.05 cm 2 aperture) with different surface treatment under simulated AM 1.5G solar irradiation at 100 mW cm -2 . The devices were measured from reverse scans (from 1.2 V to 0 V). V OC J SC Fill Factor PCE (V) (mA/cm 2 ) (%) (%) Pristine 1.04 24.08 74.78 18.87 CF 3 PEAI 2D 1.11 24.25 78.21 21.05 CF 3 PEAI 1.08 24.02 75.55 20.28 PEAI 2D 1.09 23.61 78.04 20.12 &#13;</text>
+      <annotation id="16">
+        <infon key="type">control_voc</infon>
+        <infon key="identifier">1.04</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T23:45:43Z</infon>
+        <location offset="6351" length="4"/>
+        <text>1.04</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">control_pce</infon>
+        <infon key="identifier">18.87</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T23:45:51Z</infon>
+        <location offset="6368" length="5"/>
+        <text>18.87</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">(3-(Trifluoromethyl)phenyl)ethylamine hydroiodide</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-19T19:22:33Z</infon>
+        <location offset="6374" length="9"/>
+        <text>CF 3 PEAI</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">treated_voc</infon>
+        <infon key="identifier">1.11</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T23:47:09Z</infon>
+        <location offset="6387" length="4"/>
+        <text>1.11</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">21.05</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T23:46:29Z</infon>
+        <location offset="6404" length="5"/>
+        <text>21.05</text>
+      </annotation>
+    </passage>
+    <passage>
+      <offset>6475</offset>
+      <text> Table S3 . S3 Performance of the CF 3 PEAI 2D treated devices and the pristine (0.05 cm 2 aperture). Here, H-index define as: H-index= (PCE reverse -PCE forward )/PCE reverse . V OC J SC Fill Factor PCE Samples Scan Direction H-index (V) (mA/cm 2 ) (%) (%) Forward 1.09 24.04 78.44 20.55 Passivated 2.38% Reverse 1.11 24.25 78.21 21.05 Forward 1.01 24.01 71.27 17.31 Pristine 8.27% Reverse 1.04 24.08 74.78 18.87</text>
+      <annotation id="21">
+        <infon key="type">treated_voc</infon>
+        <infon key="identifier">1.11</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T23:47:09Z</infon>
+        <location offset="6789" length="4"/>
+        <text>1.11</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">21.05</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T23:47:19Z</infon>
+        <location offset="6806" length="5"/>
+        <text>21.05</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="type">control_voc</infon>
+        <infon key="identifier">1.04</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T23:45:46Z</infon>
+        <location offset="6866" length="4"/>
+        <text>1.04</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">control_pce</infon>
+        <infon key="identifier">18.87</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-01-09T23:45:53Z</infon>
+        <location offset="6883" length="5"/>
+        <text>18.87</text>
+      </annotation>
+    </passage>
+    <relation id="R1">
+      <infon key="type">test_1</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-21T20:24:40Z</infon>
+      <node refid="3" role=""/>
+      <node refid="16" role=""/>
+      <node refid="17" role=""/>
+      <node refid="19" role=""/>
+      <node refid="20" role=""/>
+    </relation>
+  </document>
+</collection>
