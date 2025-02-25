@@ -127,4 +127,4 @@ dataset["json_output"] = dataset["filtered_text"].apply(generate_extraction)
 # with open('DSC180_B11_Q2/data/deepseek_8bit_finetuned.json', 'w') as f:
 #     json.dump(output, f)
 
-dataset.to_csv('DSC180_B11_Q2/data/llama3b_output_fully_nested.csv')
+dataset.to_csv('DSC180_B11_Q2/data/deepseek_8bit_finetuned_flattened.csv')
