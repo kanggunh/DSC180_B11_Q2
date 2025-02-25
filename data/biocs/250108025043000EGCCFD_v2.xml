@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 104&#13;</text>
@@ -119,9 +118,9 @@
       <text> Effect of the MAPbBr 3 additive In addition to engineering the physical and electrical properties of the ETL, further improvements in PSC performance can be achieved by improving the optoelectronic properties of the perovskite active layer. An ideal active layer should present a high absorption profile to maximize carrier generation with long carrier lifetimes and mobilities for efficient carrier collection. This requires developing strategies to improve crystal grain size and carrier lifetime, while preventing the formation of detrimental traps at the bulk and interfaces. Notably, improving the efficiency of PSCs requires the decoupling of the passivation strategies for the bulk and the interface because the type and concentration of defects affect them differently. In the second part of our holistic approach, we show that only a trace amount of methylammonium lead bromide (MAPbBr 3 ) (&lt;1 mol%) is needed to stabilize the perovskite active layer, with the benefit of improved optoelectronic properties. Figure  3  shows the characterization of perovskite thin films passivated with a two-dimensional perovskite, with the bulk perovskite fabricated with the addition of various amounts of MAPbBr 3 . An increase in grain size with decreasing amounts of MAPbBr 3 is clear in the SEM images of Fig.  3a . The correlation suggests that MAPbBr 3 arrests perovskite grain growth, probably owing to the slow diffusion of the large bromide anion  38  in a perovskite thin film fabricated with methylammonium chloride (MACl) additives, where MACl has been reported to promote perovskite crystal grain growth. In addition to changes in grain size and morphology, the absorption onset and the photoluminescence peak redshifts are consistent with decreased incorporation of MAPbBr 3 into the perovskite crystal as lower amounts of MAPbBr 3 are added (Fig.  3b ). Notably, X-ray diffraction  &#13;</text>
       <annotation id="4">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">Methylammonium Lead Bromide</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T19:36:28Z</infon>
+        <infon key="identifier">MAPbBr 3</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-11T19:47:09Z</infon>
         <location offset="26774" length="8"/>
         <text>MAPbBr 3</text>
       </annotation>
@@ -133,7 +132,7 @@
     <passage>
       <offset>31839</offset>
       <text> Solar cell and electroluminescence performance PSCs were fabricated by combining our newly developed SnO 2 ETL and the improved perovskite layer described above. These PSCs show an average PCE of 24.7%, with some devices exceeding a PCE of 25%, when measured in-house (blue data points, Fig.  4a ). The best performing devices were sent to the solar cell device testing facility in Newport, USA, for certification with the test results shown as the red data points in Fig.  4a . The best-performing device achieved a certified PCE of 25.2% from a quasi-steady-state measurement, with PCEs determined from the current-voltage (J-V) sweep to be 25.3% and 25.4% for the reverse and forward sweep, respectively (Fig.  4b  and Supplementary Figs. 18-21)   45  . In addition, the certified device showed almost no change in PCE during up to 3,600 h of storage (Supplementary Fig.  22 ). Additionally, the encapsulated device retained about 80% of its initial PCE after 500 h under continuous light illumination at maximum power point (100 mW cm -2 , AM1.5G, 45 °C), without an ultraviolet cut filter (Supplementary Fig.  23 ). We also fabricated PSCs with larger areas; our best-performing large-area cell (0.984 cm 2 ) exhibits PCEs up to 23.0% with a high V OC value of 1,196 mV (Fig.  4c ). The bandgap of this record cell, E g = 1.56 eV, was determined from the inflection point of the EQE curve (Supplementary Fig.  24 )  11  . This bandgap corresponds to a thermodynamic PCE upper limit of 31.3%. At 25.2% PCE, our best-performing certified cell is thus at 80.5% of the theoretical efficiency limit, which is comparable to the best Si solar cells, which are at 80.9% of the theoretical limit  46  . We attribute the high PCEs of our cells to major improvements in the V OC and the fill factor. The radiative V OC limit V OC rad is calculated to be 1.270 V and the V OC measured without an aperture mask reaches 1.225 V (Supplementary Fig.  25 )  6, 11, 47  , resulting in a ratio of V OC to the radiative V OC limit of up to 96.5%, which is the highest reported thus far for a PSC, and is within striking distance of that for GaAs (97.7%). Such a low V OC deficit suggests that almost all non-radiative recombination pathways have been efficiently eliminated and that these PSCs should be highly luminescent when operated as a light-emitting diode, as we find below. Figure  4d  shows a plot of the electroluminescence EQE and energy conversion efficiency (ECE) values versus voltage of a PSC measured under forward bias (the current-luminance-voltage curve is provided in Supplementary Fig.  26 ). We observe an electroluminescence EQE of up to 17.2%, which approaches the efficiency of the best-performing perovskite light-emitting diodes (LEDs), which are engineered specifically for efficient light emission  [48] [49] [50]  . In addition, due to early sub-bandgap turn-on, probably from thermal carriers, our PSCs exhibit a peak electroluminescence ECE of up to 21.6%. In addition to extremely low V OC loss and high luminescence efficiency, our devices exhibit a high fill factor of up to 84.8%. Such a high fill factor is a result of improved carrier mobility in the perovskite active layer and better charge collection with the SnO 2 ETL developed here with minimum parasitic losses from shunt and series resistances. For a further improvement in fill factor, future research should be focused on minimizing trap-assisted recombination, aiming to approach the theoretical fill factor limit of about 90%. &#13;</text>
-      <annotation id="9">
+      <annotation id="5">
         <infon key="type">treatment_element</infon>
         <infon key="identifier">tin dioxide</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -141,7 +140,7 @@
         <location offset="31941" length="5"/>
         <text>SnO 2</text>
       </annotation>
-      <annotation id="5">
+      <annotation id="6">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">25.2</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -149,15 +148,15 @@
         <location offset="32374" length="5"/>
         <text>25.2%</text>
       </annotation>
-      <annotation id="6">
+      <annotation id="7">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">1</infon>
+        <infon key="identifier">100</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T19:42:13Z</infon>
+        <infon key="updated_at">2025-02-13T04:01:21Z</infon>
         <location offset="32645" length="16"/>
         <text>no change in PCE</text>
       </annotation>
-      <annotation id="7">
+      <annotation id="8">
         <infon key="type">time</infon>
         <infon key="identifier">3600</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -165,7 +164,7 @@
         <location offset="32675" length="7"/>
         <text>3,600 h</text>
       </annotation>
-      <annotation id="8">
+      <annotation id="9">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSLT</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -173,15 +172,15 @@
         <location offset="32686" length="7"/>
         <text>storage</text>
       </annotation>
-      <annotation id="11">
+      <annotation id="10">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.8</infon>
+        <infon key="identifier">80</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T19:44:35Z</infon>
+        <infon key="updated_at">2025-02-13T04:01:26Z</infon>
         <location offset="32774" length="3"/>
         <text>80%</text>
       </annotation>
-      <annotation id="12">
+      <annotation id="11">
         <infon key="type">time</infon>
         <infon key="identifier">500</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -189,7 +188,7 @@
         <location offset="32803" length="5"/>
         <text>500 h</text>
       </annotation>
-      <annotation id="10">
+      <annotation id="12">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSLT</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -200,20 +199,20 @@
       <relation id="R1">
         <infon key="type">test_2</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T19:44:56Z</infon>
-        <node refid="10" role=""/>
+        <infon key="updated_at">2025-02-17T03:49:55Z</infon>
         <node refid="12" role=""/>
         <node refid="11" role=""/>
-        <node refid="9" role=""/>
+        <node refid="10" role=""/>
+        <node refid="5" role=""/>
       </relation>
       <relation id="R2">
         <infon key="type">test_1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-23T19:43:38Z</infon>
+        <infon key="updated_at">2025-02-17T03:49:55Z</infon>
+        <node refid="9" role=""/>
         <node refid="8" role=""/>
         <node refid="7" role=""/>
-        <node refid="6" role=""/>
-        <node refid="9" role=""/>
+        <node refid="5" role=""/>
       </relation>
     </passage>
     <passage>

@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 19&#13;</text>
@@ -21,23 +20,15 @@
     <passage>
       <offset>110</offset>
       <text>Perovskite solar cells (PSCs) consisting of interfacial two-and three-dimensional heterostructures that incorporate ammonium ligand intercalation have enabled rapid progress toward the goal of uniting performance with stability. However, as the field continues to seek ever-higher durability, additional tools that avoid progressive ligand intercalation are needed to minimize degradation at high temperatures. We used ammonium ligands that are nonreactive with the bulk of perovskites and investigated a library that varies ligand molecular structure systematically. We found that fluorinated aniliniums offer interfacial passivation and simultaneously minimize reactivity with perovskites. Using this approach, we report a certified quasi-steady-state power-conversion efficiency of 24.09% for inverted-structure PSCs. In an encapsulated device operating at 85°C and 50% relative humidity, we document a 1560-hour T 85 at maximum power point under 1-sun illumination. &#13;</text>
-      <annotation id="5">
-        <infon key="type">passivating_molecule</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-10T00:36:31Z</infon>
-        <location offset="692" length="22"/>
-        <text>fluorinated aniliniums</text>
-      </annotation>
-      <annotation id="4">
+      <annotation id="1">
         <infon key="type">treated_pce</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-10T00:34:42Z</infon>
+        <infon key="identifier">24.09</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T05:05:08Z</infon>
         <location offset="895" length="6"/>
         <text>24.09%</text>
       </annotation>
-      <annotation id="1">
+      <annotation id="2">
         <infon key="type">temperature</infon>
         <infon key="identifier">85</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -45,7 +36,7 @@
         <location offset="970" length="4"/>
         <text>85°C</text>
       </annotation>
-      <annotation id="2">
+      <annotation id="3">
         <infon key="type">humidity</infon>
         <infon key="identifier">50</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -53,7 +44,7 @@
         <location offset="979" length="3"/>
         <text>50%</text>
       </annotation>
-      <annotation id="3">
+      <annotation id="4">
         <infon key="type">time</infon>
         <infon key="identifier">1560</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -61,7 +52,15 @@
         <location offset="1016" length="9"/>
         <text>1560-hour</text>
       </annotation>
-      <annotation id="6">
+      <annotation id="23">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">85</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:27:54Z</infon>
+        <location offset="1028" length="2"/>
+        <text>85</text>
+      </annotation>
+      <annotation id="5">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSLT</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -69,17 +68,6 @@
         <location offset="1034" length="44"/>
         <text>maximum power point under 1-sun illumination</text>
       </annotation>
-      <relation id="R1">
-        <infon key="type">test_1</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-10T00:37:40Z</infon>
-        <node refid="5" role=""/>
-        <node refid="4" role=""/>
-        <node refid="3" role=""/>
-        <node refid="1" role=""/>
-        <node refid="2" role=""/>
-        <node refid="6" role=""/>
-      </relation>
     </passage>
     <passage>
       <offset>1082</offset>
@@ -92,15 +80,7 @@
     <passage>
       <offset>4417</offset>
       <text> Spectroscopy studies of ammonium ligands in perovskites We used angle-resolved x-ray photoelectron spectroscopy (AR-XPS) and time-of-flight secondary ion mass spectrometry (TOF-SIMS) to investigate the penetration of a library of ammonium ligands into the bulk of perovskites (Fig.  1A ), which include varying tail groups and alkyl chain lengths. A small-sized ammonium ligand, anilinium (An), had the lowest reactivity with 3D perovskites. We then explored derivatives of An with different degrees of fluorination to couple low ligand reactivity with effectual interfacial passivation. These molecules improved operating stability for the encapsulated PSC at 85°C and 50% RH. Ammonium ligands were deposited on Cs 0.05 MA 0.05 FA 0.9 Pb(I 0.95 Br 0.05 ) 3 perovskite films (materials and methods), and films were annealed at 100°C  (31) . We used AR-XPS to probe the spatial distribution of ammonium ligands in the out-of-plane direction (Fig.  1B ). AR-XPS is a nondestructive depth-profiling technique used to determine the composition of ultrathin layers (&lt;10 nm) at the top surfaces of films  (36, 37) . We varied the probe depth by changing the angle between the normal of the perovskite sample and the analyzer. Three different electron takeoff angles (0°, 45°, and 75°) were selected, with probe depths varying from ~6 to 8 nm at 0°to ~1 to 2 nm at 75°(Fig.  1C ). To obtain the proportion of ammonium ligands at a given probe depth, we compared the ratio of C-N, where N signals originated from methylammonium (MA) and ammonium ligands at a binding energy of ~401.5 eV, with the N signals originating from formamidinium (FA) at a binding energy of ~399.8 eV in the peak area in the N 1s XPS spectrum (figs. S1 and S2). The C-N/FA N ratio plots (Fig.  1D ) revealed that the aryl ammoniums phenethylammonium (PEA) and 3FPEA had relatively uniform depth distributions. By contrast, alkyl ammoniums butylammonium (BA) and octylammonium (OA) tended to accumulate on the top surfaces, as evidenced by the C-N/FA N ratio increasing with larger electron takeoff angles. However, each of the ligands yielded C-N/FA N ratios greater than those of untreated perovskites (control) for all electron takeoff angles (Fig.  1E ), indicating their distinct contributions to C-N signals and their intercalation into the bulk of perovskites. We then examined long-chain alkyl ammonium decylammonium (DA), along with smallsized An  (34, 35, 38) . For DA, the C-N/FA N ratio decreased with a larger electron takeoff angle (Fig.  1D ). The reversed trend, as compared with other alkyl ammoniums, suggested that DA molecules diffused into the bulk of perovskites. By contrast, An exhibited low reactivity and had limited penetration into perovskites. The C-N/FA N ratios for An were a factor of ~2 less than those for PEA at different electron takeoff angles and are similar to control perovskites (Fig.  1E ). At these low C-N/FA N ratios, quantifying the extent of ligand penetration was difficult, given the prominent C-N contribution from MA cations (fig.  S2  and table  S1 ). We thereby performed TOF-SIMS and found that, whereas PEA cations were distributed throughout the thickness of the perovskite film, An cations were detected only at the top surface of the film (fig.  S3 ). The combination of AR-XPS and TOF-SIMS supported An remaining surface localized. Although An exhibited low ligand reactivity, it has also been reported to have limited passivating capacity  (35, 39) . To promote interfacial passivation, we explored fluorinated An, including 4-fluoroanilinium (4FAn), 2,6-difluoroanilinium (26FAn), and 3,4,5-trifluoroanilinium (345FAn), as well as tert-butyl-substituted 3,5-di-tertbutylanilinium (35tbuAn)  (17, 40, 41) . The C-N/ FA N ratios (Fig.  1E ) revealed that, compared with An, the newly synthesized ligands retained similarly low reactivity with perovskites. For fluorinated An, this low reactivity was also seen in the C-F signal in the F 1s XPS spectrum (fig.  S4 ). We identified a distinct C-F peak for 3FPEA, whereas the C-F signals from 4FAn, 26FAn, and 345FAn were all below the detection limit at the different electron takeoff angles. TOF-SIMS further confirmed that 345FAn cations were localized to the surface of the perovskite film (fig.  S5 ). We then characterized the phase transformation of perovskites driven by their interaction with ammonium ligands. Ultrafast transient reflection (TR) spectroscopy was used initially to detect 2D perovskite formation  (42) . For the PEA-treated perovskite films, negative reflectance features associated with n = 1, 2, and 3 layered 2D perovskites were observed in the TR spectra (Fig.  2A ). The relative proportion of 2D phases increased as the solution exposure time was prolonged (fig.  S6 ) and was indicative of progressive phase transformation. For the An-and 345FAn-treated perovskite films, no 2D phases were observed (Fig.  2, B  and C ), which we attributed to their inability to convert 3D perovskites into 2D phases (fig.  S7 ). These results reinforce the model proposing that inhibiting 2D phase conversion would also reduce ligand penetration. We also investigated phase transformation with grazing incidence wide-angle x-ray scattering (GIWAXS) measurements. Consistent with the TR studies, n = 2 2D perovskites were observed at around q = 0.29 Å -1 along q z for the PEA-treated perovskite film (Fig.  2D ) that blocks vertical carrier transport  (32) . Incidence angle-dependent diffraction patterns of PEA-treated perovskites revealed that the 2D phase formation was more pronounced near the surface (fig.  S8 ). No 2D phase was detected in the An-and 345FAn-treated perovskites (Fig.  2, E  and F ). In addition, we observed the formation of PbI 2 at q = 0.9 Å -1 for An-treated perovskite films, which we attributed to polar solvent-induced decomposition during solution exposure, as seen in x-ray diffraction (XRD) characterization (fig.  S9 ). This is a topic that requires further in-depth investigation. GIWAXS characterization showed that 345FAn protected the underlying perovskites from this solventinduced degradation (Fig.  2F ). We associate the reduction in surface degradation with increased hydrophobicity of this fluorinated ligand (fig.  S10 )  (26) . &#13;</text>
-      <annotation id="7">
-        <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">Cs 0.05 MA 0.05 FA 0.9 Pb(I 0.95 Br 0.05 ) 3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-10T00:57:52Z</infon>
-        <location offset="5131" length="44"/>
-        <text>Cs 0.05 MA 0.05 FA 0.9 Pb(I 0.95 Br 0.05 ) 3</text>
-      </annotation>
-      <annotation id="8">
+      <annotation id="6">
         <infon key="type">passivating_molecule</infon>
         <infon key="identifier">3,4,5-trifluoroanilinium</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -108,7 +88,7 @@
         <location offset="8030" length="24"/>
         <text>3,4,5-trifluoroanilinium</text>
       </annotation>
-      <annotation id="9">
+      <annotation id="7">
         <infon key="type">passivating_molecule</infon>
         <infon key="identifier">3,4,5-trifluoroanilinium</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -116,7 +96,7 @@
         <location offset="8056" length="6"/>
         <text>345FAn</text>
       </annotation>
-      <annotation id="10">
+      <annotation id="8">
         <infon key="type">passivating_molecule</infon>
         <infon key="identifier">3,4,5-trifluoroanilinium</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -124,7 +104,7 @@
         <location offset="8500" length="6"/>
         <text>345FAn</text>
       </annotation>
-      <annotation id="11">
+      <annotation id="9">
         <infon key="type">passivating_molecule</infon>
         <infon key="identifier">3,4,5-trifluoroanilinium</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -140,7 +120,7 @@
     <passage>
       <offset>12902</offset>
       <text> Perovskite degradation and solar cell studies We used TR and TOF-SIMS to study perovskite degradation. The TR results indicated that PEAbased 2D perovskites were thermally unstable on the film surface and decomposed into PbI 2 after thermal aging at 85°C for 2 hours (Fig.  4,  A  and B ). This process we associated with the diffusion of PEA cations into bulk perovskites, as was seen with TOF-SIMS (Fig.  4C ) and AR-XPS (fig.  S13 ). The dynamic nature of 2D/3D heterostructures was also confirmed for BA, OA, DA, and 3FPEA (fig.  S14 ). By contrast, neither ligand penetration nor phase degradation was observed for An-and 345FAn-treated films (Fig.  4C  and fig.  S15 ). These results suggested that suppressing ligand intercalation into 3D perovskites improved interface stability under thermal stress. We monitored the photoluminescence (PL) stability of perovskite films after annealing at 85°C (Fig.  4D ). The emission intensity of the untreated control and PEA-treated films degraded to 30% of its initial value within 144 hours (Fig.  4E ), as seen in the previous reports  (31) . By contrast, An-and 345FAn-treated films show improved thermal stability, and 345FAn-treated perovskites retained 85% of their initial brightness after annealing. We fabricated inverted-structure PSCs to investigate how ammonium ligands influenced the efficiency and stability of PSCs. We used both Cs 0.05 MA 0.05 FA 0.9 Pb(I 0.95 Br 0.05 ) 3 and Cs 0.05 MA 0.15 FA 0.8 PbI 3 perovskites as the absorber, the self-assembled monolayer 2PACz as the hole transport layer, the thermally evaporated C 60 /bathocuproine (BCP) bilayer as the electron transport layer, and indium tin oxide (ITO) as the transparent electrode (materials and methods). Three representative ammonium ligands, including the 2D-forming PEA cation and the noninvasive An and 345FAn cations, were used for interfacial engineering. We sent a 345FAn-treated Cs 0.05 MA 0.15 FA 0.8 PbI 3 device to National Renewable Energy Laboratory (NREL, USA) for independent characterization. The device delivered a certified PCE of 24.09% by using a quasi-steady-state (QSS) I-V   S19 ). The QSS-certified efficiency reported for inverted PSCs is compared with that of other devices in table  S2 . Seeking a better understanding of the improved performance, we used ultraviolet photoelectron spectroscopy (UPS) to characterize the electronic structure of the perovskite films. The secondary electron cutoff spectra (fig.  S20 ) showed that 345FAn decreased the work function of perovskites from 4.64 to 4.17 eV and shifted the valence-band maximum from 1.15 eV below the Fermi level in the control perovskites to 1.50 eV below the Fermi level. These results show that 345FAn induced more n-type character in the perovskite film (fig.  S20 ), which in inverted PSCs leads to favorable band bending for electron extraction and a decrease in nonradiative carrier recombination  (44, 45) . We performed optoelectronic characterization to investigate carrier recombination. From photoluminescence quantum yield (PLQY) measurements, we identified nonradiative recombination at the perovskite/C 60 interface as the limiting factor for the performance of control devices (fig.  S21 ). This recombination loss corresponded to a reduction of the quasi-Fermi level splitting (QFLS) by ~100 meV (table  S3 )  (46, 47) . We found that PEA and 345FAn passivation could reduce the interfacial nonradiative recombination, as reflected by the improved QFLS relative to the control stack, by ~15 and ~30 meV, respectively. We further analyzed the energy loss of PSCs on the basis of the device diode characteristics (figs. S22 and S23)  (48) . Consistent with the PL studies, nonradiative losses were reduced for PEA and 345FAn devices (12.7 and 12.1% for PEA and 345FAn, respectively) compared with those of the control device (16.5%) (fig.  S24 ). We evaluated the effect of ligand reactivity on the material processing of PSCs. We varied the solution exposure time between 0 s (dynamic spinning) and 120 s and tracked the PV parameters of PSCs accordingly (Fig.  5D  and fig.  S25 ). The average PCE of PEA devices (eight devices for each condition) dropped to 15.8%, with an average fill factor (FF) of merely 67.4% over the course of solution exposure for 30 s, whereas 345FAn devices maintained an average PCE of 23.0% (Fig.  5D ). Wide solution-processing windows were also achieved for other nonpenetrating ligands, such as 35tbuAn, 4FAn, and 26FAn (fig.  S26 ). In pursuit of initial evidence of capacity to scale area, we fabricated perovskite solar modules (PSMs) with an active area of 22 cm 2 and nine interconnected subcells (materials and methods). The champion PCE under reverse voltage scan was improved from 19.9 to 20.8% for the 345FAn-treated PSMs, with an open-circuit voltage (V oc ) of 10.13 V, an FF of 74.2%, and a J sc of 2.77 mA cm -2 (fig.  S27 ). We studied the operating stability of PSCs using ISOS protocols  (49) . Accelerated lifetime testing was performed at the ISOS-L-3-85°C level, constituting light-soaking tests at 50% RH and 85°C with MPP tracking. We used atomic-layer deposition for SnO 2 as the buffer layer and Cs 0.05 MA 0.05 FA 0.9 Pb(I 0.95 Br 0.05 ) 3 perovskites as the absorber (materials and methods). The initial PCEs of the encapsulated control, PEA, and 345FAn devices were 18.9, 20.1, and 20.2%, respectively (fig.  S28 ). The stability results are shown in Fig.  5E . We recorded a similar T 80 of ~220 hours for the control and PEA devices, in accordance with the limited thermal stability of perovskite films (Fig.  3E ). We found that 2D/3D PSCs based on alkyl ammonium BA and OA were even less stable than the control device (fig.  S29 ). By contrast, the 345FAn device retained &gt;80% of its initial value after the 800-hour test. We estimate the T 80 for the 345FAn device to be ~810 hours (fig.  S30 ), representing a fourfold enhancement over the operating lifetime of the PEA device. To improve the T 80 further, we moved to fluorine-doped tin oxide (FTO) as an alternative transparent electrode (fig.  S31 ) because of its chemical stability  (50, 51) . We monitored the MPP of the encapsulated device under 1-sun illumination at 50% RH and 85°C. The initial PCE was 19.0%, which increased progressively to a peak value of 19.9% after ~50 hours of operation (Fig.  5F ). This maximum PCE (PCE max ) corresponds to a temperature coefficient of -0.12% /°C relative to the room temperature device PCE (21.5%), which is con-sistent with reported results for inverted PSCs  (52) . After 1586 hours of continuous operation, the PCE dropped to 16.8% (84% of the PCE max ), primarily because of a reduction in current density (Fig.  5G ). We determined the T 85 to be ~1560 hours (Fig.  5F ). A comparison with other ISOS-L-3-stable PSCs is provided in table S4. &#13;</text>
-      <annotation id="12">
+      <annotation id="10">
         <infon key="type">passivating_molecule</infon>
         <infon key="identifier">3,4,5-trifluoroanilinium</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -148,23 +128,23 @@
         <location offset="14074" length="6"/>
         <text>345FAn</text>
       </annotation>
-      <annotation id="13">
+      <annotation id="24">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">Cs 0.05 MA 0.05 FA 0.9 Pb(I 0.95 Br 0.05 ) 3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-10T00:57:50Z</infon>
+        <infon key="identifier">Cs0.05MA0.05FA0.9Pb(I0.95Br0.05)3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:35:14Z</infon>
         <location offset="14295" length="44"/>
         <text>Cs 0.05 MA 0.05 FA 0.9 Pb(I 0.95 Br 0.05 ) 3</text>
       </annotation>
-      <annotation id="14">
+      <annotation id="11">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">Cs 0.05 MA 0.15 FA 0.8 PbI 3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-10T00:58:43Z</infon>
+        <infon key="identifier">Cs0.05MA0.15FA0.8PbI3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:36:28Z</infon>
         <location offset="14344" length="28"/>
         <text>Cs 0.05 MA 0.15 FA 0.8 PbI 3</text>
       </annotation>
-      <annotation id="15">
+      <annotation id="12">
         <infon key="type">hole_transport_layer</infon>
         <infon key="identifier">2PACz</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -172,23 +152,71 @@
         <location offset="14431" length="5"/>
         <text>2PACz</text>
       </annotation>
-      <annotation id="16">
+      <annotation id="13">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">Cs 0.05 MA 0.15 FA 0.8 PbI 3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-10T00:58:40Z</infon>
+        <infon key="identifier">Cs0.05MA0.15FA0.8PbI3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:36:28Z</infon>
         <location offset="14821" length="28"/>
         <text>Cs 0.05 MA 0.15 FA 0.8 PbI 3</text>
       </annotation>
-      <annotation id="17">
-        <infon key="type">stability_type</infon>
-        <infon key="identifier">ISOSL</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-10T01:06:39Z</infon>
-        <location offset="19106" length="18"/>
-        <text>1-sun illumination</text>
+      <annotation id="30">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">24.09</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:40:26Z</infon>
+        <location offset="14983" length="6"/>
+        <text>24.09%</text>
       </annotation>
-      <annotation id="18">
+      <annotation id="31">
+        <infon key="type">stability_type</infon>
+        <infon key="identifier">ISOSL3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:42:00Z</infon>
+        <location offset="17931" length="8"/>
+        <text>ISOS-L-3</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="type">temperature</infon>
+        <infon key="identifier">85</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:42:10Z</infon>
+        <location offset="17940" length="4"/>
+        <text>85°C</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="type">humidity</infon>
+        <infon key="identifier">50</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:42:17Z</infon>
+        <location offset="17988" length="3"/>
+        <text>50%</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">Cs0.05MA0.05FA0.9Pb(I0.95Br0.05)3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:42:33Z</infon>
+        <location offset="18089" length="44"/>
+        <text>Cs 0.05 MA 0.05 FA 0.9 Pb(I 0.95 Br 0.05 ) 3</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">3,4,5-trifluoroanilinium</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:49:05Z</infon>
+        <location offset="18242" length="6"/>
+        <text>345FAn</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">control_pce</infon>
+        <infon key="identifier">18.9</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:43:02Z</infon>
+        <location offset="18262" length="4"/>
+        <text>18.9</text>
+      </annotation>
+      <annotation id="14">
         <infon key="type">humidity</infon>
         <infon key="identifier">50</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -196,7 +224,7 @@
         <location offset="19128" length="3"/>
         <text>50%</text>
       </annotation>
-      <annotation id="19">
+      <annotation id="15">
         <infon key="type">temperature</infon>
         <infon key="identifier">85</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -204,15 +232,15 @@
         <location offset="19139" length="4"/>
         <text>85°C</text>
       </annotation>
-      <annotation id="21">
+      <annotation id="37">
         <infon key="type">treated_pce</infon>
-        <infon key="identifier">21.5</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-10T01:08:38Z</infon>
-        <location offset="19396" length="6"/>
-        <text>(21.5%</text>
+        <infon key="identifier">19.0</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:49:21Z</infon>
+        <location offset="19165" length="5"/>
+        <text>19.0%</text>
       </annotation>
-      <annotation id="20">
+      <annotation id="16">
         <infon key="type">time</infon>
         <infon key="identifier">1586</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -220,25 +248,14 @@
         <location offset="19480" length="10"/>
         <text>1586 hours</text>
       </annotation>
-      <annotation id="22">
+      <annotation id="38">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.84</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-10T01:08:48Z</infon>
-        <location offset="19542" length="3"/>
-        <text>84%</text>
+        <infon key="identifier">85</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:49:37Z</infon>
+        <location offset="19647" length="4"/>
+        <text>T 85</text>
       </annotation>
-      <relation id="R2">
-        <infon key="type">test_2</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-24T12:48:23Z</infon>
-        <node refid="17" role=""/>
-        <node refid="18" role=""/>
-        <node refid="19" role=""/>
-        <node refid="20" role=""/>
-        <node refid="21" role=""/>
-        <node refid="22" role=""/>
-      </relation>
     </passage>
     <passage>
       <offset>19760</offset>
@@ -247,7 +264,7 @@
     <passage>
       <offset>20991</offset>
       <text> Materials All materials were used as received without further purification. Organic halide salts, including methylammonium iodide (MAI), formamidinium iodide (FAI), methylammonium bromide (MABr) methylammonium chloride (MACl), were purchased from Great Cell Solar, and cesium iodide (CsI) was purchased from Sigma-Aldrich. [2-(9H-Carbazol-9-yl)ethyl]phosphonic Acid (2PACz), lead iodide (PbI2, 99.99%), and bathocuproine (BCP) were purchased from TCI. Anhydrous solvents including N, N-dimethylformamide (DMF, 99.8%), dimethyl sulfoxide (DMSO, 99.9%), 2-propanol (IPA, 99.5%), chloroform (CF, 99.8%), chlorobenzene (CB, 99.8%), and anisole (99.7%) were purchased from Sigma-Aldrich and toluene (99.8%) was purchased from Alfa Aesar. 3-fluoro-phenethylammonium iodide (3FPEAI) and C60 were purchased from Xi'an Polymer Light Technology Corp. Non-patterned indium tin oxide (ITO) coated glass substrates (15 Ω/sq) were purchased from Tinwell Technology. Commercial patterned ITO substrates (20 Ω/sq) with 25 mm x 25 mm dimensions were purchased from TFD Inc. Bulky ammonium halide salts, including anilinium iodide (AnI, TCI, 98%), butylammonium iodide (BAI, TCI, 97%), phenethylammonium iodide (PEAI, Great Cell Solar, 99%), were purchased and used as received. 4-fluoroaniline (TCI, 98%), 2,6-difluoroaniline (TCI, 98%), 3,4,5trifluoroaniline (TCI, 98%), octylamine (Alfa Aeser, 99%), decylamine (Sigma-Aldrich, 95%), and 3,5-di-tert-butylaniline (TCI, 98%) were purchased and converted to ammonium salts using the same procedure as reported before  (20) . The abbreviations of the converted ammonium salts are 4-fluoroanilinium iodide (4FAnI), 2,6-difluoroanilinium iodide (26FAnI), 3,4,5trifluoroanilinium iodide (345FAnI), 3,5-di-tert-butylanilinium iodide (35tbuAnI), octylammonium iodide (OAI), and decylammonium iodide (DAI). &#13;</text>
-      <annotation id="23">
+      <annotation id="17">
         <infon key="type">hole_transport_layer</infon>
         <infon key="identifier">2PACz</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -255,7 +272,7 @@
         <location offset="21359" length="5"/>
         <text>2PACz</text>
       </annotation>
-      <annotation id="24">
+      <annotation id="18">
         <infon key="type">electron_transport_layer</infon>
         <infon key="identifier">C60</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -317,19 +334,51 @@
       <text> The cross-sectional scanning electron microscope (SEM) image of a complete device is shown in fig.S16.Device performance (Fig.5A) showed that compared with control devices, PEA-treated Cs 0.05 MA 0.15 FA 0.8 PbI 3 PSCs (16 devices) pro-vided improved PV performance with an average PCE of 23.2% (Fig.5Aand fig.S17). The average PCE of An devices decreased to 19.9%, a finding we linked to perovskite decomposition. Because of the improved surface passivation, 345FAn treatment increased average PCEs of Cs 0.05 MA 0.15 FA 0.8 PbI 3 and Cs 0.05 MA 0.05 FA 0.9 Pb (I 0.95 Br 0.05 ) 3 PSCs to 23.3 and 22.9%, respectively (Fig.5Aand fig.S18). The external quantum efficiency (EQE) spectra of the champion cells (Fig.5B) for PEA and 345FAn devices exhibited improved charge collection compared with controls, and their integrated short-circuit current density (J sc ) values matched well with those from the current-voltage (I-V) sweep. &#13;</text>
       <annotation id="25">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">Cs 0.05 MA 0.15 FA 0.8 PbI 3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-10T01:11:07Z</infon>
-        <location offset="38083" length="28"/>
+        <infon key="identifier">Cs0.05MA0.15FA0.8PbI3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:36:31Z</infon>
+        <location offset="37765" length="28"/>
         <text>Cs 0.05 MA 0.15 FA 0.8 PbI 3</text>
       </annotation>
       <annotation id="26">
+        <infon key="type">passivating_molecule</infon>
+        <infon key="identifier">3,4,5-trifluoroanilinium</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:38:09Z</infon>
+        <location offset="38040" length="6"/>
+        <text>345FAn</text>
+      </annotation>
+      <annotation id="19">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">Cs 0.05 MA 0.05 FA 0.9 Pb(I 0.95 Br 0.05 ) 3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-10T01:11:24Z</infon>
+        <infon key="identifier">Cs0.05MA0.15FA0.8PbI3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:36:28Z</infon>
+        <location offset="38083" length="28"/>
+        <text>Cs 0.05 MA 0.15 FA 0.8 PbI 3</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">perovskite_composition</infon>
+        <infon key="identifier">Cs0.05MA0.05FA0.9Pb(I0.95Br0.05)3\</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:38:46Z</infon>
         <location offset="38116" length="45"/>
         <text>Cs 0.05 MA 0.05 FA 0.9 Pb (I 0.95 Br 0.05 ) 3</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">23.3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:38:30Z</infon>
+        <location offset="38170" length="4"/>
+        <text>23.3</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">treated_pce</infon>
+        <infon key="identifier">22.9</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-16T05:39:19Z</infon>
+        <location offset="38179" length="6"/>
+        <text>22.9%,</text>
       </annotation>
     </passage>
     <passage>
@@ -451,11 +500,11 @@
     <passage>
       <offset>49810</offset>
       <text> Table S2 . S2 Summary of quasi-steady-state (QSS) certified PV parameters of &gt; 21% PCE inverted PSCs Voc (V) Jsc (mA cm -2 ) FF (%) PCE Ref. 1.1595 25.02 83.05 24.09% (NREL) This work 1.1607 25.44 81.48 24.05% (NREL) Q. Jiang, Nature (2022) (45) 1.1505 24.90 83.46 23.91% (NREL) H. Chen, Nat. Photonics (2022) (23) 1.1687 22.89 84.55 22.62% (NREL) S. Chen, Sci. Adv (2021) (62) 1.1429 23.84 82.0 22.34% (Newport) X. Zheng, Nat. Energy (2020) (63) &#13;</text>
-      <annotation id="27">
+      <annotation id="20">
         <infon key="type">control_pce</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-10T01:12:26Z</infon>
+        <infon key="identifier">21</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T05:05:20Z</infon>
         <location offset="49890" length="2"/>
         <text>21</text>
       </annotation>
@@ -463,19 +512,19 @@
     <passage>
       <offset>50259</offset>
       <text> Table S3 . S3 Summary of PL peak position, PLQY, Voc,rad, and QFLS for the perovskite thin films with or without the C60 overlayer Films Overlayer PL peak position (nm) PLQY (%) Voc,rad (V) QFLS (eV) Control None C60 799 796 13.4 0.26 1.265 1.269 1.213 1.117 PEA None C60 798 797 13.9 0.47 1.265 1.270 1.214 1.132 An None C60 797 796 7.0 0.28 1.266 1.270 1.198 1.119 345FAn None C60 799 795 15.0 0.73 1.266 1.271 1.217 1.144 &#13;</text>
-      <annotation id="28">
+      <annotation id="21">
         <infon key="type">control_voc</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-10T01:12:38Z</infon>
+        <infon key="identifier">1.269</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T05:05:23Z</infon>
         <location offset="50501" length="5"/>
         <text>1.269</text>
       </annotation>
-      <annotation id="29">
+      <annotation id="22">
         <infon key="type">treated_voc</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-10T01:12:51Z</infon>
+        <infon key="identifier">1.271</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T05:05:26Z</infon>
         <location offset="50667" length="5"/>
         <text>1.271</text>
       </annotation>
@@ -488,5 +537,33 @@
       <offset>51309</offset>
       <text>			 of 7 RESEARCH | RESEARCH ARTICLE Downloaded from https://www.science.org at University of California San Diego on November 07, 2024</text>
     </passage>
+    <relation id="R1">
+      <infon key="type">test_1</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T07:04:42Z</infon>
+      <node refid="1" role=""/>
+      <node refid="4" role=""/>
+      <node refid="2" role=""/>
+      <node refid="3" role=""/>
+      <node refid="5" role=""/>
+      <node refid="23" role=""/>
+      <node refid="11" role=""/>
+      <node refid="10" role=""/>
+      <node refid="20" role=""/>
+    </relation>
+    <relation id="R2">
+      <infon key="type">test_2</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-19T07:04:42Z</infon>
+      <node refid="14" role=""/>
+      <node refid="15" role=""/>
+      <node refid="31" role=""/>
+      <node refid="34" role=""/>
+      <node refid="36" role=""/>
+      <node refid="38" role=""/>
+      <node refid="16" role=""/>
+      <node refid="29" role=""/>
+      <node refid="20" role=""/>
+    </relation>
   </document>
 </collection>

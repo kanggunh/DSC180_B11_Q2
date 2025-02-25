@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 101&#13;</text>
@@ -97,15 +96,7 @@
     <passage>
       <offset>7239</offset>
       <text> Side-Chain Engineering on Dopant-Free Hole-Transporting Polymers toward Highly Efficient Perovskite Solar Cells (20.19%) Nowadays, researchers have gradually recognized that the interaction between the perovskite layer and the HTM is also very crucial, and this interaction now turns to be an important designing factor for the HTMs. Wang and co-workers  [31]  constructed a copolymer with carbazole and benzothiadiazole (BT), where the oxygen atoms in the side chain attached on BT units were believed to bring about a defect-passivation effect, leading to a PCE of 19.1%. Park and co-workers  [29]  replaced the alkyl side chain with tetraethylene glycol (TEG) group on the BT units, and the resulting polymer yielded a higher hole mobility due to the increased π-π stacking and an improved contact with the perovskite layer owing to the lifted surface energy, giving a PCE of 19.8%. Besides this side-chain modification, very recently we designed a simple structured copolymer DTB with 2,5-dialkoxyl-1,4-phenylene unit and bithiophene unit, where an intensive exposure of its main chain to the perovskite layer was acquired, resulting in a superior passivation effect to the defects on the surface of the perovskite, a higher extraction efficiency of photogenerated holes, and a comparable PCE of 19.68% compared with the typical spiro-OMeTAD (19.81%).  [45]  Although the HTM/ perovskite interface was optimized, the polymer itself owned a relatively low hole mobility, limiting its further improvement. Therefore, it would be of great interest and a further advance in PCE could be expected if the bulky properties, especially the hole mobility, are simultaneously increased for our copolymers. To this end, we tune the polarity of DTB polymer in this work through the side-chain engineering and introduce diethylene glycol (DEG) groups to replace part of the alkyl groups in the side chains. Contrary to the previous reports,  [29, [56] [57] [58] [59]  here the π-π stacking is unexpectedly weakened while the lamellar packing is strengthened after the introduction of DEG groups. The properties of DTB polymers (noted as DTB(xDEG), Scheme 1) do not monotonically vary with the percentage of the DEG group. When 3% of the alkyl side chains are substituted, a synergistic effect between the bulky properties of the HTM layer and the interfacial interaction of perovskite/HTM is realized. Consequently, a nearly doubled hole mobility is achieved, and a champion PCE of 20.19% with a certified value of 20.10% is accomplished, which is the first one of over 20% reported for dopant-free organic HTMs including small molecules and polymers. The champion device also holds a superior long-term stability to the rest where the PCE remains its initial 92.25% after being kept in air for 30 d without any encapsulation. &#13;</text>
-      <annotation id="31">
-        <infon key="type">control_pce</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">kvences@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T19:09:38Z</infon>
-        <location offset="7377" length="1"/>
-        <text>c</text>
-      </annotation>
-      <annotation id="13">
+      <annotation id="1">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">diethylene glycol</infon>
         <infon key="annotator">kvences@ucsd.edu</infon>
@@ -113,7 +104,7 @@
         <location offset="9051" length="17"/>
         <text>diethylene glycol</text>
       </annotation>
-      <annotation id="14">
+      <annotation id="2">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">diethylene glycol</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -121,7 +112,7 @@
         <location offset="9070" length="3"/>
         <text>DEG</text>
       </annotation>
-      <annotation id="15">
+      <annotation id="3">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">20.10</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -129,15 +120,15 @@
         <location offset="9746" length="5"/>
         <text>20.10</text>
       </annotation>
-      <annotation id="16">
+      <annotation id="4">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.9225</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T09:58:55Z</infon>
+        <infon key="identifier">92.25</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T03:58:28Z</infon>
         <location offset="9991" length="6"/>
         <text>92.25%</text>
       </annotation>
-      <annotation id="17">
+      <annotation id="5">
         <infon key="type">time</infon>
         <infon key="identifier">720</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -149,15 +140,15 @@
     <passage>
       <offset>10063</offset>
       <text> Results and Discussions The molecular structures of DTB(xDEG) polymers are shown in Scheme 1. The synthetic procedures for monomers of Ph(EH) and Ph(DEG) and polymers are similar to those in our previous work (Scheme S1, Supporting Information),  [45]  and the polymers with x values of 0, 3, and 10% were synthesized. The absorption spectra of polymers in Figure  1a  demonstrate that the absorption band edges are almost the same and the optical bandgap energies are calculated to be 2.14 eV for the three polymers. The absorption shoulder at around 542 nm which can be assigned to the intermolecular π-π stacking is moderated after the introduction of DEG groups, indicating that the DEG group forces the polymer turn to be a random packed copolymer and weaken the interchain π-π interaction. As presented in Figure  S3  (Supporting Information), the light absorption coefficient monotonically increases with the DEG amount, probably caused by the increased crystallinity of the films. Through the cyclic voltammetry (CV) test (Figure  S4 , Supporting Information), the highest occupied molecular orbitals (HOMOs) of the polymers are determined to be -4.99, -4.97, and -4.94 eV when x increases from 0% to Adv. Funct. Mater. 2019, 29, 1904856   Scheme 1. Synthetic route to the polymers DTB(xDEG) (x is the feed percentage of Ph(DEG)). 3% and 10%. Combined with the bandgap values, the lowest unoccupied molecular orbitals (LUMOs) are obtained and schematically illustrated in Figure  1b . As for the variation of HOMO levels, the DEG group is an electron-donating group, thus the electrons in the HOMO of polymers with DEG groups would be of higher energy than the ones for the pristine DTB(0%DEG), and as a result the HOMO level would rise after the introduction of DEG. The more DEG groups introduced, the higher the HOMO level of polymers goes. As suggested by Figure  1b , all the three polymers could not only effectively block the photogenerated electrons in the perovskite from reaching the positive electrode (here is Au electrode) but also fluently extract the photogenerated holes due to their large HOMO offsets with the perovskite layer and freely pass these holes to the Au electrode due to the ohmic contact. The molecular packing was examined by the grazingincidence wide-angle X-ray scattering (GIWAXS). As shown in Figure  2  and Figure  S5  (Supporting Information), when 3% of DEG groups are introduced to the polymer, the molecular packing does not change apparently, but the diffraction intensity is improved, further demonstrating the increased crystallinity. If the content of DEG groups further increases to 10%, the π-π stackings in both the edge-on and the faceon arranging modes (as illustrated in Figure  S6 , Supporting Information) are remarkably weakened, whereas the lamellar packing patterns in the edge-on mode are obviously strengthened. As observed from Figure  S5a  (Supporting Information), the diffraction peak for lamellar packing at around 4.6° shifts to a higher degree, indicating the decreased lamellar distance. On the contrary, the peak for the π-π stacking at around 15.7° in Figure  S5b  (Supporting Information) moves to a lower degree, indicative of a larger π-π stacking spacing (summarized in Table  S1 , Supporting Information). This loosened π-π stacking interaction is opposite to the previous reports where the incorporation of ethylene glycol oligomers generally led to a closer π-π stacking,  [56] [57] [58] [59] [60]  and the tightened lamellar packing has seldom been reported. We suspect that the weakened π-π stacking is caused by the lowered symmetry of the random DTB(xDEG) copolymer in comparison to the previous alternating copolymers, and the lamellar distance is shortened due to the interdigitation of the side chains in neighboring layers (Figure  S6a , Supporting Information) or stacks (Figure  S6b , Supporting Information) stemming from the higher flexibility of oligo(ethylene glycol) chains compared with the alkyl chains.  [58]  It should be noticed that the lamellar packing patterns only exist in the edge-on mode for all the three samples, suggesting that the majority of these polymers adopt an edge-on arrangement in the solid state, which is consistent with our previous observation.  [45]  The hole mobility was measured through the space-charge-limited-current (SCLC) method (Figure  S7 , Supporting Information), and the values for DTB(xDEG) are extracted to be 1.74 × 10 -4 , 3.22 × 10 -4 , and 2.02 × 10 -4 cm 2 V -1 s -1 for x is 0, 3, and 10%, respectively. Although the gradually weakened π-π stackings, especially those in the face-on mode, decrease the hole transportation, the lamellar packing interaction increases as the DEG percentage rises, which could engender the enhancement of hole mobility. As a consequence, the mobility touches its maximum around x = 3%, which is nearly as twice as that of without DEG groups. To guarantee the long-term stability of PSC devices, the thermal stability of the polymers is of great importance and was tested by thermogravimetric analysis (TGA) and differential scanning calorimetry (DSC) (Figure  S8 , Supporting Information). The polymers could stay stable up to over 375 °C and undergo no obvious phase transitions in the tested temperature  range (up to 300 °C), showing their high tolerance to temperature variation. The contact angles against water were also measured, which are 97.5°, 99.7°, and 95.7° when x turns from 0% to 3% and 10%. Although introducing DEG groups could lift the hydrophilicity of the polymer, the simultaneously improved intermolecular interaction, which is reflected by the increased crystallinity, let the adjacent polymer chains hold tight with each other and protect the film against the invasion of water, leading to a nonlinear changing trend for the contact angle. The photovoltaic performance of the three polymers is characterized on the PSC devices with a configuration of FTO/c-TiO 2 /m-TiO 2 /Cs 0.05 FA 0.81 MA 0.14 PbI 2.55 Br 0.45 /HTM/Au, where FTO stands for a layer of fluorine-doped tin oxide and c-TiO 2 /m-TiO 2 are the compact and mesoporous TiO 2 layers. Figure  3a  shows the current density-voltage (J-V) characteristics of the three optimized devices for the polymers. As summarized in Table  1 , when x comes to 3%, a champion PCE of 20.19% is attained with an open-circuit voltage (V OC ) of 1.14 V, a shortcircuit current density (J SC ) of 23.64 mA cm -2 , and a fill factor (FF) of 75.08% (the certified PCE is 20.10%, Figure  S9 , Supporting Information). The distribution of all the four photovoltaic parameters can be found in Figure  3b,c  and Table 1 , where almost all of them catch its maximum at x = 3%. The stabilized PCE values measured at the biases of the maximum power points (MPPs) are 19.09, 19.90, and 16.71%, respectively (the biases are 0.85, 0.96, and 0.82 V, respectively), which are very close to these extracted from J-V characterization (Figure  3d ). External quantum efficiencies (EQEs) of the devices were also recorded to verify the photovoltaic properties. As can be seen in Figure  3e , the polymers exhibit strong photoresponses across the range of 350-750 nm, revealing their high effectivity of being HTMs. The integrated current densities from these EQE charts are 24.81, 24.32, and 23.01 mA cm -2 , respectively, and thus relative deviations of as low as 0.8, 2.9, and 2.2% in comparison to the corresponding J SC values are obtained, which are much lower than the generally acceptable deviation limit of 5% and demonstrate the validity of our J-V measurement. The stability of PSCs at ambient atmosphere (room temperature and 20-30% relative humidity) was also tested. As described in Figure  3f , all the polymers could render their devices remain over 87% of the initial PCEs, and DTB(3%DEG) holds the best long-term stability, which may be ascribed to its better hydrophobicity. The PCE evolution under continuous 100 mW cm -2 illumination also suggests that the PSCs based on DTB(xDEG) polymers own a good long-term stability (Figure  S11 , Supporting Information). As stated before, the DTB(3%DEG) presents the champion PCE value, which should be mainly because of its highest hole  The average values with a standard deviation are calculated from 15 devices; b) In the parenthesis are the values of the champion devices. mobility. The corresponding J SC of its device is also much higher than those for the reported dopant-free organic HTMs (Table  S2 , Supporting Information); however, it is still a little smaller than that of the control polymer without DEG groups, contradictory to the expectation of a larger J SC value from a higher hole mobility. In order to unveil the underlying mechanism and provide a strategy for the future improvement, investigation on the HTM/perovskite interface beside the HTM bulk is needed, and to this end, we conducted further experiments based on photoluminescence (PL). The PL spectra were recorded on the sample of FTO/c-TiO 2 /m-TiO 2 /perovskite/HTM. As shown by the steady-state PL (SSPL) spectra in Figure  4a , the DTB(3%DEG) sample owns the highest PL intensity, revealing the charge transfer at its HTM/perovskite interface is the poorest. The locations of PL peaks for the three samples are also different, which are 766, 768, and 763 nm, respectively. The redshift of PL peak signifies there are more defects existing in the perovskite layer for the DTB(3%DEG) sample, whereas the blueshift for DTB(10%DEG) is just the opposite when compared with the DTB(0%DEG) one.  [61]  Fitting the time-resolved PL (TRPL) spectra (Figure  4b ) with the bicomponent decay model, we obtained the time constants for the two decaying processes (Table  S3 , Supporting Information). The fast decay, which is believed to arise from the chargetransfer at the HTM/perovskite interface, has a constant of 1.44, 1.61, or 1.38 ns for the sample with x of 0, 3, or 10%, respectively. The biggest value for the 3% sample suggests free carriers in the sample cannot be taken away timely to quench the PL, consistent with the inference from SSRL. To know the exact quantity and distribution of these defects in the perovskite layer, we turned to thermal admittance spectroscopy (TAS, Figure  4c ). According to the literature,  [61, 62]  the region with energy lower than 0.40 eV is the shallow trap state that can be assigned to the defects in the bulk of the perovskite layer, while the one over 0.40 eV belongs to the deep trap state that stems from the defects on the surface of the perovskite layer. The specific concentrations of these defects are consequently calculated by integrating the TAS spectra. As summarized in Table  S4  (Supporting Information), the defects in the device of DTB(3%DEG) touch the maximum concentrations on all the three indexes, including shallow trap state, deep trap state, and the sum, whereas those for DTB(10%DEG) are the lowest. As mentioned before, with the increased DEG content, the crystallinity of HTM film and the concentration of hydrophilic groups increase, leading to a maximum hydrophobicity when x = 3%. The perovskite layer is hydrophilic, and its interaction with HTM layer should be quite similar to that of water. In such condition, the DTB(3%DEG) is supposed to interact poorly with the perovskite layer, and the DTB(10%DEG) film interacts strongly. Accordingly, the defects of the perovskite layer could then be passivated by DTB(xDEG) to different extent, and it is also reasonable for DTB(3%DEG) to present the strongest PL intensity, the longest time for the PL decay, and the moderate J SC value. Combining the results from PL and TAS analyses, we can infer that a better hydrophilicity would be ideal if the HTMs want to passivate the defects more effectively in and extract the holes more efficiently from the perovskite layer, which could be another important factor for designing HTMs. &#13;</text>
-      <annotation id="18">
-        <infon key="type">treatment_element</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T10:04:05Z</infon>
+      <annotation id="6">
+        <infon key="type">control_element</infon>
+        <infon key="identifier">0% diethylene glycol</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T03:59:19Z</infon>
         <location offset="15531" length="2"/>
         <text>0%</text>
       </annotation>
-      <annotation id="19">
+      <annotation id="7">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">3% diethylene glycol</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -165,7 +156,7 @@
         <location offset="15537" length="2"/>
         <text>3%</text>
       </annotation>
-      <annotation id="20">
+      <annotation id="8">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">10% diethylene glycol</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -173,7 +164,7 @@
         <location offset="15544" length="3"/>
         <text>10%</text>
       </annotation>
-      <annotation id="21">
+      <annotation id="9">
         <infon key="type">structure_pin_nip</infon>
         <infon key="identifier">NIP</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -181,7 +172,7 @@
         <location offset="16017" length="70"/>
         <text>FTO/c-TiO 2 /m-TiO 2 /Cs 0.05 FA 0.81 MA 0.14 PbI 2.55 Br 0.45 /HTM/Au</text>
       </annotation>
-      <annotation id="22">
+      <annotation id="10">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">20.10</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -189,7 +180,7 @@
         <location offset="16576" length="6"/>
         <text>20.10%</text>
       </annotation>
-      <annotation id="23">
+      <annotation id="11">
         <infon key="type">control_pce</infon>
         <infon key="identifier">19.09</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -197,7 +188,7 @@
         <location offset="16865" length="5"/>
         <text>19.09</text>
       </annotation>
-      <annotation id="24">
+      <annotation id="12">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">19.90</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -205,7 +196,7 @@
         <location offset="16872" length="5"/>
         <text>19.90</text>
       </annotation>
-      <annotation id="25">
+      <annotation id="13">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">16.71</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -213,7 +204,7 @@
         <location offset="16883" length="6"/>
         <text>16.71%</text>
       </annotation>
-      <annotation id="26">
+      <annotation id="14">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSL</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -221,46 +212,38 @@
         <location offset="17685" length="18"/>
         <text>ambient atmosphere</text>
       </annotation>
-      <annotation id="27">
+      <annotation id="15">
         <infon key="type">temperature</infon>
-        <infon key="identifier">25</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T10:14:04Z</infon>
+        <infon key="identifier">room temperatue</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T03:59:36Z</infon>
         <location offset="17705" length="16"/>
         <text>room temperature</text>
       </annotation>
-      <annotation id="28">
+      <annotation id="16">
         <infon key="type">humidity</infon>
         <infon key="identifier">20-30</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T10:14:12Z</infon>
+        <infon key="updated_at">2025-02-12T17:21:22Z</infon>
         <location offset="17726" length="24"/>
         <text>20-30% relative humidity</text>
       </annotation>
-      <annotation id="29">
+      <annotation id="17">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.87</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T10:19:47Z</infon>
+        <infon key="identifier">87</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T03:59:41Z</infon>
         <location offset="17854" length="3"/>
         <text>87%</text>
       </annotation>
-      <annotation id="30">
-        <infon key="type">control_pce</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">kvences@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T19:06:55Z</infon>
-        <location offset="18846" length="1"/>
-        <text>r</text>
-      </annotation>
-      <relation id="R3">
+      <relation id="R1">
         <infon key="type">test_1</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-24T12:48:32Z</infon>
-        <node refid="26" role=""/>
-        <node refid="27" role=""/>
-        <node refid="28" role=""/>
-        <node refid="29" role=""/>
+        <infon key="updated_at">2025-02-19T07:04:34Z</infon>
+        <node refid="14" role=""/>
+        <node refid="15" role=""/>
+        <node refid="16" role=""/>
+        <node refid="17" role=""/>
       </relation>
     </passage>
     <passage>
@@ -314,7 +297,7 @@
     <passage>
       <offset>27588</offset>
       <text> A variety of dopant-free hole-transporting materials (HTMs) is developed to serve as alternatives to the typical dopant-treated ones; however, their photovoltaic performance still falls far behind. In this work, the side chain of a polymeric HTM is engineered by partially introducing diethylene glycol (DEG) groups in order to simultaneously optimize the properties of both the bulk of the HTM layer and the HTM/perovskite interface. The intermolecular π-π stacking interaction in the HTM layer is unexpectedly weakened after the incorporation of DEG groups, whereas the lamellar packing interaction is strengthened. A doubled hole mobility is obtained when 3% of the DEG groups replace the original alkyl side chains, and a champion power conversion efficiency (PCE) of 20.19% (certified: 20.10%) is then achieved, which is the first report of values over 20% for dopant-free organic HTMs. The device maintains 92.25% of its initial PCE after storing at ambient atmosphere for 30 d, which should be due to the enhanced hydrophobicity of the HTM film. &#13;</text>
-      <annotation id="1">
+      <annotation id="18">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">diethylene glycol</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -322,7 +305,7 @@
         <location offset="27874" length="17"/>
         <text>diethylene glycol</text>
       </annotation>
-      <annotation id="2">
+      <annotation id="19">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">diethylene glycol</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -330,7 +313,7 @@
         <location offset="27893" length="3"/>
         <text>DEG</text>
       </annotation>
-      <annotation id="3">
+      <annotation id="20">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">20.10</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -338,7 +321,7 @@
         <location offset="28361" length="6"/>
         <text>20.19%</text>
       </annotation>
-      <annotation id="6">
+      <annotation id="21">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">20.10</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -346,15 +329,15 @@
         <location offset="28380" length="6"/>
         <text>20.10%</text>
       </annotation>
-      <annotation id="4">
+      <annotation id="22">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.9225</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T09:57:28Z</infon>
+        <infon key="identifier">92.25</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T03:58:28Z</infon>
         <location offset="28502" length="6"/>
         <text>92.25%</text>
       </annotation>
-      <annotation id="5">
+      <annotation id="23">
         <infon key="type">time</infon>
         <infon key="identifier">720</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -402,15 +385,15 @@
     <passage>
       <offset>30623</offset>
       <text> Table 1 . 1 Summary of the photovoltaic properties. DEG content V OC [V] J SC [mA cm -2 ] FF [%] PCE [%] 0% 1.07 ± 0.03 a) (1.10) b) 25.02 ± 0.44 (25.01) 69.67 ± 1.37 (71.48) 18.57 ± 0.56 (19.65) 3% 1.09 ± 0.03 (1.14) 24.42 ± 0.52 (23.64) 72.05 ± 2.22 (75.08) 19.22 ± 0.52 (20.19) 3% (certified) 1.106 25.22 72.20 20.10 10% 1.05 ± 0.02 (1.05) 24.02 ± 0.66 (23.53) 66.54 ± 3.40 (72.42) 16.78 ± 0.82 (17.82) a) &#13;</text>
-      <annotation id="7">
+      <annotation id="24">
         <infon key="type">control_element</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T09:53:45Z</infon>
+        <infon key="identifier">0% diethylene glycol</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T03:59:48Z</infon>
         <location offset="30729" length="2"/>
         <text>0%</text>
       </annotation>
-      <annotation id="8">
+      <annotation id="25">
         <infon key="type">control_pce</infon>
         <infon key="identifier">18.57</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -418,23 +401,23 @@
         <location offset="30799" length="12"/>
         <text>18.57 ± 0.56</text>
       </annotation>
-      <annotation id="32">
+      <annotation id="26">
         <infon key="type">control_pce</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">kvences@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-17T20:24:03Z</infon>
+        <infon key="identifier">19.65</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T03:59:53Z</infon>
         <location offset="30812" length="6"/>
         <text>(19.65</text>
       </annotation>
-      <annotation id="9">
-        <infon key="type">treatment_element</infon>
-        <infon key="identifier">3% diethylene glycol</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T09:54:36Z</infon>
+      <annotation id="27">
+        <infon key="type">control_element</infon>
+        <infon key="identifier">0% diethylene glycol</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T03:59:19Z</infon>
         <location offset="30820" length="2"/>
         <text>3%</text>
       </annotation>
-      <annotation id="10">
+      <annotation id="28">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">20.10</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -442,7 +425,7 @@
         <location offset="30938" length="5"/>
         <text>20.10</text>
       </annotation>
-      <annotation id="11">
+      <annotation id="29">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">10% diethylene glycol</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -450,7 +433,7 @@
         <location offset="30944" length="3"/>
         <text>10%</text>
       </annotation>
-      <annotation id="12">
+      <annotation id="30">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">16.78</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -458,23 +441,23 @@
         <location offset="31009" length="12"/>
         <text>16.78 ± 0.82</text>
       </annotation>
-      <relation id="R1">
-        <infon key="type">performance_1</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T09:55:54Z</infon>
-        <node refid="7" role=""/>
-        <node refid="8" role=""/>
-        <node refid="9" role=""/>
-        <node refid="10" role=""/>
-      </relation>
       <relation id="R2">
         <infon key="type">performance_1</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T09:56:10Z</infon>
-        <node refid="7" role=""/>
-        <node refid="8" role=""/>
-        <node refid="11" role=""/>
-        <node refid="12" role=""/>
+        <infon key="updated_at">2025-02-19T07:04:34Z</infon>
+        <node refid="24" role=""/>
+        <node refid="25" role=""/>
+        <node refid="27" role=""/>
+        <node refid="28" role=""/>
+      </relation>
+      <relation id="R3">
+        <infon key="type">performance_1</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-19T07:04:34Z</infon>
+        <node refid="24" role=""/>
+        <node refid="25" role=""/>
+        <node refid="29" role=""/>
+        <node refid="30" role=""/>
       </relation>
     </passage>
     <passage>

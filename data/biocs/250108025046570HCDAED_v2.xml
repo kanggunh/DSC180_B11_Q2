@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 122&#13;</text>
@@ -29,7 +28,7 @@
         <location offset="412" length="4"/>
         <text>RbCl</text>
       </annotation>
-      <annotation id="10">
+      <annotation id="2">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">25.6</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -37,23 +36,23 @@
         <location offset="507" length="5"/>
         <text>25.6%</text>
       </annotation>
-      <annotation id="2">
+      <annotation id="3">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">formamidinium lead iodide</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T02:30:46Z</infon>
+        <infon key="identifier">FAPbI 3</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-11T19:12:09Z</infon>
         <location offset="517" length="7"/>
         <text>FAPbI 3</text>
       </annotation>
-      <annotation id="3">
+      <annotation id="4">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.96</infon>
+        <infon key="identifier">96</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T02:30:57Z</infon>
+        <infon key="updated_at">2025-02-13T03:51:34Z</infon>
         <location offset="616" length="3"/>
         <text>96%</text>
       </annotation>
-      <annotation id="4">
+      <annotation id="5">
         <infon key="type">time</infon>
         <infon key="identifier">1000</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -61,7 +60,7 @@
         <location offset="655" length="10"/>
         <text>1000 hours</text>
       </annotation>
-      <annotation id="5">
+      <annotation id="6">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSD</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -71,9 +70,9 @@
       </annotation>
       <annotation id="7">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.8</infon>
+        <infon key="identifier">80</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T02:32:56Z</infon>
+        <infon key="updated_at">2025-02-13T03:51:36Z</infon>
         <location offset="687" length="3"/>
         <text>80%</text>
       </annotation>
@@ -85,7 +84,7 @@
         <location offset="697" length="9"/>
         <text>500 hours</text>
       </annotation>
-      <annotation id="6">
+      <annotation id="9">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSD</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -93,7 +92,7 @@
         <location offset="710" length="17"/>
         <text>thermal stability</text>
       </annotation>
-      <annotation id="9">
+      <annotation id="10">
         <infon key="type">temperature</infon>
         <infon key="identifier">85</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -101,13 +100,13 @@
         <location offset="739" length="5"/>
         <text>85°C.</text>
       </annotation>
-      <relation id="R1">
+      <relation id="R2">
         <infon key="type">test_1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T02:33:14Z</infon>
-        <node refid="3" role=""/>
+        <infon key="updated_at">2025-02-17T03:49:54Z</infon>
         <node refid="4" role=""/>
         <node refid="5" role=""/>
+        <node refid="6" role=""/>
       </relation>
     </passage>
     <passage>
@@ -147,9 +146,9 @@
       </annotation>
       <annotation id="15">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.5</infon>
+        <infon key="identifier">50</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T02:38:07Z</infon>
+        <infon key="updated_at">2025-02-13T03:51:42Z</infon>
         <location offset="14209" length="5"/>
         <text>50% o</text>
       </annotation>
@@ -258,14 +257,14 @@
       <offset>27567</offset>
       <text>			 of 4 RESEARCH | REPORT Downloaded from https://www.science.org at University of California San Diego on November 07, 2024</text>
     </passage>
-    <relation id="R2">
+    <relation id="R1">
       <infon key="type">test_2</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T02:38:12Z</infon>
+      <infon key="updated_at">2025-02-17T03:49:54Z</infon>
       <node refid="7" role=""/>
       <node refid="8" role=""/>
-      <node refid="6" role=""/>
       <node refid="9" role=""/>
+      <node refid="10" role=""/>
       <node refid="15" role=""/>
     </relation>
   </document>

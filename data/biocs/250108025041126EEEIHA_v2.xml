@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 96&#13;</text>
@@ -30,10 +29,10 @@
       <offset>1963</offset>
       <text>Introduction Hybrid organic-inorganic lead halide perovskite solar cells are swiftly emerging as standalone photovoltaic technology. Since the first study by Kojima et al., the power conversion efficiency (PCE) has undergone rapid improvement from 3.8% to over 23% in under a decade of development.  [1] [2] [3]  The high efficiency attained from perovskite materials is due to their excellent optoelectronic properties, which were optimized by adjusting the composition and ratio of cations and anions within the perovskite lattice.  4, 5  These compositionally engineered, photoactive perovskite layers can be deposited using either one or two step solution processable methods.  [6] [7] [8] 15, 22  In addition to the perovskite composition, the horizon of research has expanded to enhancing the electron transporting layer (ETL),  [9] [10] [11]  perovskite absorber and hole transporting layers (HTL)  12, 13  and implementing scalable fabrication techniques.  14  For TiO 2 based ETLs, relatively high resistivity is known to cause insufficient charge separation at the compact TiO 2 (c-TiO 2 )/perovskite interface.  [16] [17] [18]  Therefore, an additional layer of mesoporous TiO 2 (mp-TiO 2 ) is usually adopted to complement the deficient charge collection.  [16] [17] [18]  Recently, SnO 2 based electron transporting layers have been extensively used due to SnO 2 's high conductivity and superior charge collection ability compared to TiO 2 ETLs.  [19] [20] [21]  SnO 2 has a wide bandgap ranging between 3.6 and 4.1 eV, and its favourable conduction band edge in relation to perovskites makes SnO 2 a good candidate to overcome challenges which occur particularly with c-TiO 2 ETLs.  23  Previously, low-temperature processes were mostly used to form SnO 2 layers to avoid pin-holes on an FTO or ITO substrate with a rough film surface. However, the metal-like nature shown in degenerate semiconductors, i.e., the carrier density of non-doped SnO 2 is ca. 10 20 cm À3 (in the range of semimetals), seems to generate another serious shunting pathway, decreasing the fill factor (FF) and open-circuit voltage (V oc ).  25, 26  We have demonstrated previously that the low PCE is due to the deteriorated hole-blocking ability of the SnO 2 ETL caused by loss of self-passivating materials such as SnOCl 2 and residual precursor of tetrakis-dimethyl-amine-tin (TDMASn).  21, 24  By using different precursors and depositing them with various techniques such as spin-coating and atomic layer deposition methods, we proved the advantages of the low-temperature process are not limited to preventing pin-holes but also include electrically passivating the SnO 2 ETL.  21, 24  In this work, we investigated the film and device performance for planar-type perovskite solar cells using tin acetylacetonate based precursors for SnO 2 . To better understand the role of halides, one of the chosen precursors is halide-free and two are based on chloride and bromide respectively. The optimized devices achieved a high efficiency of 22.19% in a small-size cell and 16.73% in a large area 15 cm 2 module. &#13;</text>
       <annotation id="1">
-        <infon key="type">passivating_molecule</infon>
-        <infon key="identifier">NOTE:Assume tinacetylacetonate is additive</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T04:53:17Z</infon>
+        <infon key="type">additive_molecule</infon>
+        <infon key="identifier">tinacetylacetonate</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T03:39:26Z</infon>
         <location offset="4752" length="46"/>
         <text>tin acetylacetonate based precursors for SnO 2</text>
       </annotation>
@@ -42,10 +41,10 @@
       <offset>5068</offset>
       <text> Device structure Fig.  1  shows the device architecture of a planar perovskite solar cell consisting of fluorine-doped SnO 2 (FTO)/c-TiO 2 /SnO 2 / perovskite/spiro-OMeTAD/gold layers. In our previous work, we confirmed that the 'Type 1' passivation ETL by combining a c-TiO 2 underlayer with the passivated tin oxide (PTO) top layer provides better hole-blocking ability than a single passivated SnO 2 layer, which resulted in the further enhanced PCE.  21, 24  For tin oxide layers, we investigated three metalorganic tin precursors from the same family, tin(II) bis(acetylacetonate) (hereafter Acac), tin(IV) bis(acetylacetonate) dichloride (hereafter Cl 2 ) and tin(IV) bis(acetylacetonate) dibromide (hereafter Br 2 ), with DMF as a solvent. &#13;</text>
       <annotation id="2">
-        <infon key="type">passivating_molecule</infon>
+        <infon key="type">structure_pin_nip</infon>
         <infon key="identifier">NIP</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T04:54:13Z</infon>
+        <infon key="updated_at">2025-02-12T12:51:35Z</infon>
         <location offset="5173" length="72"/>
         <text>fluorine-doped SnO 2 (FTO)/c-TiO 2 /SnO 2 / perovskite/spiro-OMeTAD/gold</text>
       </annotation>
@@ -73,7 +72,7 @@
         <location offset="15421" length="4"/>
         <text>Cl 2</text>
       </annotation>
-      <annotation id="6">
+      <annotation id="5">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">Bromide</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -81,7 +80,7 @@
         <location offset="15461" length="4"/>
         <text>Br 2</text>
       </annotation>
-      <annotation id="5">
+      <annotation id="6">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">20</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -108,21 +107,21 @@
       <relation id="R1">
         <infon key="type">performance_1</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-24T12:48:32Z</infon>
+        <infon key="updated_at">2025-02-17T03:49:58Z</infon>
         <node refid="3" role=""/>
         <node refid="4" role=""/>
       </relation>
       <relation id="R2">
         <infon key="type">performance_2</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-24T12:48:32Z</infon>
-        <node refid="5" role=""/>
+        <infon key="updated_at">2025-02-17T03:49:58Z</infon>
         <node refid="6" role=""/>
+        <node refid="5" role=""/>
       </relation>
       <relation id="R3">
         <infon key="type">performance_3</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-24T12:48:32Z</infon>
+        <infon key="updated_at">2025-02-17T03:49:58Z</infon>
         <node refid="7" role=""/>
         <node refid="8" role=""/>
       </relation>

@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 99&#13;</text>
@@ -37,7 +36,7 @@
         <location offset="671" length="5"/>
         <text>ClMPI</text>
       </annotation>
-      <annotation id="10">
+      <annotation id="3">
         <infon key="type">treatment_element</infon>
         <infon key="identifier">chlorine-rich mixed-halide perovskite interlayer</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -45,7 +44,7 @@
         <location offset="814" length="18"/>
         <text>ClMPI-based device</text>
       </annotation>
-      <annotation id="3">
+      <annotation id="4">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">21.01</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -53,15 +52,15 @@
         <location offset="874" length="5"/>
         <text>21.01</text>
       </annotation>
-      <annotation id="4">
+      <annotation id="5">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.94</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T07:02:40Z</infon>
+        <infon key="identifier">94</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:24:04Z</infon>
         <location offset="955" length="3"/>
         <text>94%</text>
       </annotation>
-      <annotation id="5">
+      <annotation id="6">
         <infon key="type">time</infon>
         <infon key="identifier">180</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -69,7 +68,7 @@
         <location offset="994" length="5"/>
         <text>180 h</text>
       </annotation>
-      <annotation id="6">
+      <annotation id="7">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSO</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -79,9 +78,9 @@
       </annotation>
       <annotation id="8">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.82</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T07:35:52Z</infon>
+        <infon key="identifier">82</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:24:07Z</infon>
         <location offset="1033" length="4"/>
         <text>&gt;80%</text>
       </annotation>
@@ -93,11 +92,11 @@
         <location offset="1044" length="5"/>
         <text>500 h</text>
       </annotation>
-      <annotation id="7">
-        <infon key="type">passivating_molecule</infon>
+      <annotation id="10">
+        <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSLT</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T07:04:35Z</infon>
+        <infon key="updated_at">2025-02-12T12:49:55Z</infon>
         <location offset="1056" length="14"/>
         <text>UV irradiation</text>
       </annotation>
@@ -157,7 +156,7 @@
         <location offset="6002" length="37"/>
         <text>ITO/SnO 2 /perovskite/spiro-OMeTAD/Au</text>
       </annotation>
-      <annotation id="19">
+      <annotation id="17">
         <infon key="type">electron_transport_layer</infon>
         <infon key="identifier">TitaniumDioxide</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -173,7 +172,7 @@
         <location offset="6538" length="5"/>
         <text>SnO 2</text>
       </annotation>
-      <annotation id="17">
+      <annotation id="19">
         <infon key="type">electron_transport_layer</infon>
         <infon key="identifier">TinOxide</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -215,9 +214,9 @@
       <text> Photo-Stability Test To explore the effect of UV filters on the efficiency, we give the J-V of an efficient ClMPI-based device before and after using a UV filter, as shown in Figure  4A . The results show that the PCE is reduced from 20.03% to 16.01% mainly owing to the serious decrease of J SC (from 23.23 to 19.02 mA/cm 2 ). It can be confirmed by the stabilized power efficiency of 19.88% for the device without eliminating UV, compared with just 16.26% when a 420-nm UV filter is added, showing around 20% efficiency loss (Figure  4B ). The image in the inset is the transmittances of ITO/M-SnO 2 with and without a UV filter, showing that the UV filter not only absorbs all the light of UV region (&lt;420 nm), but also leads to $10% transmittances loss of visible light from 420 nm to 800 nm. These results show that the application of UV filter not only increases the additional cost, but also seriously reduces the effective output when the device is in operation. We tested the devices stabilities under different conditions without using any UV filter. The first test was designed to verify the stability of the devices under real outdoor atmospheric conditions, where the UV light was really encountered. It is known that UV radiation is present in sunlight and contributes about 3% of the total light output of the Sun at ground level. Several encapsulated devices (to exclude the damage of moisture and oxygen) were exposed on the roof of our laboratory building in Zhejiang University, Hangzhou city, China. These PSCs were subjected to sunlight without UV filters; we provided the statistics of solar irradiation hours during 2 months from November to December 2018, and the stabilities of devices are shown in Figure  4C . The ClMPI-based devices remarkably retained 94% of their initial PCE after 180 h. However, the control device was almost completely degraded within 168 h. In the second test, we exposed the control and ClMPI-based devices to 365-nm UV light with a high power of 100 mW/cm 2 for 500 h (Figure  4D ). The results show that the PCE of the control device showed a constant drop during the UV-induced aging test and reduced to &lt;10% of its original value within 100 h. Encouragingly, the ClMPI-based device still retained over 82% of the original highest value after 500 h. In actual applications, the PSCs should continuously be operated at their maximum power point (MPP) for a long time. Thus, in our last test, the unencapsulated device stability was measured under AM1.5 G Sun illumination at MPP tracking in a N 2 glove box (Figure  4E ). Here, we confirm that our simulator of solar  To better exhibit the effect of UV light on the stability of PSCs, a 420-nm UV filter was used within the initial 200 h illumination (the first test stage) and then we removed the UV filter in the next 500 h illumination (the second test stage). We found that the control and ClMPI-based devices had a similar stability in the first test stage: the control and ClMPI-based device can maintain 90% and 95% of their initial photovoltaic performances, respectively. Such stabilities can be comparable with those of previous works under UVfree test condition  (Turren-Cruz et al., 2018; Tan et al., 2017; Jung et al., 2019) . However, after removing the UV filter, the stability of the control device showed a rapid drop and the PCE decreases to &lt;50% of its original value within only 10 h. In comparison, the ClMPI-based device can maintain &gt;90% of the original PCE after 200 h continuous 1-sun illumination and &gt;80% after 500 h. By calculation, the SPO t 80 lifetime of the ClMPI-based device was 500 h, showing two orders of magnitude improvement compared with the control devices with an SPO t 80 lifetime of only 4 h. The resultant stability of our devices is among the best results reported so far in IMOs-based PSCs under similar test conditions (without a UV filter)  (Bai et al., 2019; Shin et al., 2017; Wang et al., 2017c; Li et al., 2018) . We measured the elements distribution of the aged ClMPI device by ToF-SIMS (Figure  S22 ), confirming that the ClMPI still presented. In addition, we directly compared the stability of the control device using a UV filter with that of ClMPI device without UV filter (Figure  S23 ). The ClMPI and control devices showed near linear loss of PCE with relative À0.31% per 10 h and À0.29% per 10 h, respectively, illustrating that our strategy can prevent the PSCs degradation well under UV light. &#13;</text>
       <annotation id="23">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.94</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T07:34:02Z</infon>
+        <infon key="identifier">94</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:24:04Z</infon>
         <location offset="23189" length="3"/>
         <text>94%</text>
       </annotation>
@@ -239,9 +238,9 @@
       </annotation>
       <annotation id="26">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.82</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T07:36:07Z</infon>
+        <infon key="identifier">82</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:24:07Z</infon>
         <location offset="23666" length="3"/>
         <text>82%</text>
       </annotation>
@@ -295,24 +294,24 @@
       <text>			 iScience 21, 217-227, November 22, 2019</text>
     </passage>
     <relation id="R1">
+      <infon key="type">test_2</infon>
+      <infon key="annotator">jlnomura@ucsd.edu</infon>
+      <infon key="updated_at">2025-02-17T03:49:59Z</infon>
+      <node refid="9" role=""/>
+      <node refid="10" role=""/>
+      <node refid="3" role=""/>
+      <node refid="26" role=""/>
+    </relation>
+    <relation id="R2">
       <infon key="type">test_1</infon>
       <infon key="annotator">jlnomura@ucsd.edu</infon>
-      <infon key="updated_at">2025-01-15T07:34:32Z</infon>
-      <node refid="3" role=""/>
+      <infon key="updated_at">2025-02-17T03:49:59Z</infon>
       <node refid="4" role=""/>
       <node refid="5" role=""/>
       <node refid="6" role=""/>
-      <node refid="10" role=""/>
-      <node refid="25" role=""/>
-    </relation>
-    <relation id="R2">
-      <infon key="type">test_2</infon>
-      <infon key="annotator">jlnomura@ucsd.edu</infon>
-      <infon key="updated_at">2025-01-15T07:36:14Z</infon>
-      <node refid="9" role=""/>
       <node refid="7" role=""/>
-      <node refid="10" role=""/>
-      <node refid="26" role=""/>
+      <node refid="3" role=""/>
+      <node refid="25" role=""/>
     </relation>
   </document>
 </collection>

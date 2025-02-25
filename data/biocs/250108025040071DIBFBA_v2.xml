@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 91&#13;</text>
@@ -159,17 +158,17 @@
       <text> Cell (CELL) Volume(Issue) 172(1 and 2) 172(  3 ) 172(  4 ) 172(  5 ) 172(  6 ) 173(  1 ) 173(  2 ) 173(  3 ) 173(  4 ) 173(  5 ) 173(  6 ) 173(  7 ) Issue Date 11-Jan-18   4 ) 174(  5 ) 174(  6 ) 175(  1 ) 175(  2 ) 175(  3 ) 175(  4 ) 175(  5 ) 175(  6 ) 175(  7 ) Cell Host &amp; Microbe (CHOM) Issue Volume(Issue) 23 (1) 23(2) 23(3) 23(4) 23(5) 23(6) 24(1) 24(2) 24(3) 24(4) 24(5) 24(6) Issue Date 10-Jan-18 14-Feb-18   4 ) 24(  5 ) 24(  6 ) 24(  7 ) 24(  8 ) 24(  9 ) 24(  10 ) 24(  11 ) 24(  12 ) 24(  13   Dates and deadlines: review journals     Note that the formation energy (ΔEf) of the α-phase FAPbI3 perovskite structure prepared with chloride, cation, or cationic chloride was calculated using the equation (s1), f system FA Pb I cation Cl E E nE mE lE kE tE  = - - -- - (s1) where, Esystem is the total energy of the chloride, cation, or cationic chloride-incorporated perovskite system. EFA, EPb, EI, Ecation, and ECl are the energies per unit of the reference states, which are the FA, Pb, I2, cation, and Cl, respectively. n, m, l, k, and, t are the number of atoms in the system.  is the distance between atomic layers, θ is the diffraction angle, n is the order of reflection, which is an integer (for this case, n is 1), and λ is the wavelength of the radiation (for this case, λ is 1.54056 Å (copper source)). In this study, we calculated the doping formation energy to investigate the formation energy to dope the α-phase perovskite structure with additive. In this calculation, we considered one formation step of α-phase perovskite structure with cationic chloride additive; α-phase perovskite structure incorporated cationic chloride additive before annealing process (pre-annealing step). In the pre-annealing step of α-phase FAPbI3 perovskite structure, the doping formation energy of cationic chloride additive into the perovskite structure (ΔEd) was calculated by using the following equation (s2), d cation Cl doping non-doping A out A in C out C in ( ) ( ) E E E n m      = - + - + - (s2) where Ecation Cl doping is the total energy of perovskite system incorporated cationic chloride. Enon-doping is the total energy of the system that does not incorporate the cationic chloride. μA out (μC out) and μA in (μC in) are the chemical potentials of anions (cations), which are deleted from or inserted to the perovskite structure with cationic iodide and cationic chloride. n and m are the number of anions and cations, respectively. In order to investigate the effect of the concentration of cationic chloride additive on the crystallinity of the α-phase FAPbI3 perovskite structure, we have theoretically tested the α-phase perovskite structure, which described the system before (pre-annealing) and after (post-annealing) a thermal annealing, based on the model systems of Figure  s16 . Through these systems, we calculated the formation energy (see Figure  s13 ) and the doping formation energy (see Figure  s18 ). Note that in the preannealing step, the α-phase perovskite is doped with cationic chloride as an additive, and in the postannealing step, the α-phase perovskite is doped with I, which occupies the Cl site through anionic exchange. In Figure  s19 , the doped model systems are described, which are at their most stable states, over the concentration range of 11 % to 44 %. &#13;</text>
       <annotation id="1">
         <infon key="type">perovskite_molecule</infon>
-        <infon key="identifier">Formamidinium Lead Iodide</infon>
+        <infon key="identifier">FAPbI3</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T12:01:15Z</infon>
+        <infon key="updated_at">2025-02-12T13:03:22Z</infon>
         <location offset="9571" length="6"/>
         <text>FAPbI3</text>
       </annotation>
       <annotation id="2">
         <infon key="type">perovskite_molecule</infon>
-        <infon key="identifier">Formamidinium Lead Iodide</infon>
+        <infon key="identifier">FAPbI3</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T12:02:29Z</infon>
+        <infon key="updated_at">2025-02-12T13:03:22Z</infon>
         <location offset="10719" length="6"/>
         <text>FAPbI3</text>
       </annotation>
@@ -213,7 +212,7 @@
         <location offset="20269" length="5"/>
         <text>MA-40</text>
       </annotation>
-      <annotation id="8">
+      <annotation id="6">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">methylammonium chloride</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -221,19 +220,19 @@
         <location offset="22136" length="4"/>
         <text>MACl</text>
       </annotation>
-      <annotation id="6">
+      <annotation id="7">
         <infon key="type">treated_pce</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T12:08:16Z</infon>
+        <infon key="identifier">23.36</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:19:53Z</infon>
         <location offset="28231" length="5"/>
         <text>23.36</text>
       </annotation>
-      <annotation id="7">
+      <annotation id="8">
         <infon key="type">treated_voc</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T12:08:28Z</infon>
+        <infon key="identifier">1.130</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:19:51Z</infon>
         <location offset="29852" length="5"/>
         <text>1.130</text>
       </annotation>
@@ -245,7 +244,7 @@
         <location offset="31654" length="16"/>
         <text>room temperature</text>
       </annotation>
-      <annotation id="18">
+      <annotation id="10">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSL</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -253,7 +252,7 @@
         <location offset="31738" length="20"/>
         <text>AM 1.5G illumination</text>
       </annotation>
-      <annotation id="19">
+      <annotation id="11">
         <infon key="type">humidity</infon>
         <infon key="identifier">25</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -261,23 +260,23 @@
         <location offset="31762" length="3"/>
         <text>25%</text>
       </annotation>
-      <annotation id="10">
+      <annotation id="12">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.9</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T12:10:31Z</infon>
+        <infon key="identifier">90</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:20:10Z</infon>
         <location offset="31843" length="2"/>
         <text>90</text>
       </annotation>
-      <annotation id="11">
+      <annotation id="13">
         <infon key="type">time</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T12:10:35Z</infon>
+        <infon key="identifier">1200</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:19:36Z</infon>
         <location offset="31889" length="5"/>
         <text>1,200</text>
       </annotation>
-      <annotation id="12">
+      <annotation id="14">
         <infon key="type">temperature</infon>
         <infon key="identifier">40</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -285,7 +284,7 @@
         <location offset="31928" length="4"/>
         <text>40 C</text>
       </annotation>
-      <annotation id="13">
+      <annotation id="15">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOST</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -293,7 +292,7 @@
         <location offset="31933" length="17"/>
         <text>thermal stability</text>
       </annotation>
-      <annotation id="21">
+      <annotation id="16">
         <infon key="type">control_element</infon>
         <infon key="identifier">methylammonium chloride</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -301,23 +300,23 @@
         <location offset="31972" length="15"/>
         <text>pristine device</text>
       </annotation>
-      <annotation id="14">
+      <annotation id="17">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.6</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T12:11:35Z</infon>
+        <infon key="identifier">60</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:19:41Z</infon>
         <location offset="32000" length="2"/>
         <text>60</text>
       </annotation>
-      <annotation id="15">
+      <annotation id="18">
         <infon key="type">time</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T12:11:40Z</infon>
+        <infon key="identifier">300</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:19:42Z</infon>
         <location offset="32036" length="3"/>
         <text>300</text>
       </annotation>
-      <annotation id="22">
+      <annotation id="19">
         <infon key="type">treatment_element</infon>
         <infon key="identifier">methylammonium chloride - 40%</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -325,15 +324,15 @@
         <location offset="32051" length="5"/>
         <text>MA-40</text>
       </annotation>
-      <annotation id="16">
+      <annotation id="20">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.9</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T12:11:56Z</infon>
+        <infon key="identifier">90</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:20:10Z</infon>
         <location offset="32085" length="2"/>
         <text>90</text>
       </annotation>
-      <annotation id="20">
+      <annotation id="21">
         <infon key="type">treatment_element</infon>
         <infon key="identifier">methylammonium chloride - 40%</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -344,35 +343,35 @@
       <relation id="R1">
         <infon key="type">test_1</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-24T12:48:31Z</infon>
+        <infon key="updated_at">2025-02-17T03:49:58Z</infon>
         <node refid="9" role=""/>
+        <node refid="12" role=""/>
+        <node refid="13" role=""/>
         <node refid="10" role=""/>
         <node refid="11" role=""/>
-        <node refid="18" role=""/>
-        <node refid="19" role=""/>
-        <node refid="20" role=""/>
+        <node refid="21" role=""/>
       </relation>
       <relation id="R2">
         <infon key="type">test_2</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-24T12:48:31Z</infon>
-        <node refid="12" role=""/>
-        <node refid="13" role=""/>
-        <node refid="15" role=""/>
+        <infon key="updated_at">2025-02-17T03:49:58Z</infon>
         <node refid="14" role=""/>
+        <node refid="15" role=""/>
+        <node refid="18" role=""/>
+        <node refid="17" role=""/>
+        <node refid="20" role=""/>
         <node refid="16" role=""/>
-        <node refid="21" role=""/>
-        <node refid="22" role=""/>
+        <node refid="19" role=""/>
       </relation>
     </passage>
     <passage>
       <offset>38309</offset>
       <text> Conclusion In summary, we investigated the MACl effects in the perovskite films, which construct the intermediate-phase into the perovskite film for the high-quality pure a-phase perovskite film. With achieved high-quality pure a-phase perovskite film, the surface morphology, crystallographic properties, optical absorption, and photoluminescence properties were enhanced, which resulted in high-performance perovskite solar cells. We achieved 24.02% perovskite solar cell performance. The mechanism of MACl's effect on the formation of a-phase perovskite structure was elucidated using DFT calculation. We believe that our new finding will help researchers to achieve high performance of perovskite solar cells. &#13;</text>
-      <annotation id="17">
+      <annotation id="22">
         <infon key="type">treated_pce</infon>
-        <infon key="identifier"></infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-08T12:12:51Z</infon>
+        <infon key="identifier">24.02</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:19:46Z</infon>
         <location offset="38755" length="5"/>
         <text>24.02</text>
       </annotation>

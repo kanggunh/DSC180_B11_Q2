@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 148&#13;</text>
@@ -25,7 +24,15 @@
     <passage>
       <offset>499</offset>
       <text>This PDF file includes: Materials and methods Supplementary notes Supplementary figures and table Figure  S1 . I 3d XPS depth profiles of the control perovskite film. Figure  S2 . X-ray diffraction patterns of perovskite with PEAI, tBBAI and without passivation layer. Figure  S3 . Absolute intensity photoluminescence (AIPL) of the layer structure glass/FTO/c-TiO 2 /mp-TiO 2 /perovskite/without surface layer, with PEAI and tBBAI. Figure  S4 . SEM images of perovskite films passivated with PEAI and tBBAI, respectively. The scale bars are 1 μm. Figure  S5 . Absorptance spectrum determined from the PL spectrum. The exponential fit is used to determine the Urbach energy. For comparison the photoluminescence spectrum and the spectral photon flux of the black body radiation at 46°C are shown. Figure  S6 . J SC , V OC , FF and PCE distributions of 10 devices obtained from control PSC, PSC passivated with tBBAI and PSC passivated with PEAI, respectively. Figure  S7 . Stability of a control PSC, a PEAI-passivated PSC and tBBAI-passivated PSC under r.h. 50-70% Table  S1 . Exponential decay time and surface recombination velocity S (in cm/s) for the different surface films and three different cases described in the main text. References MATERIALS AND METHODS Materials Cesium iodide (CsI), 4-tert-Butylbenzylamine and hydrogen iodide (HI) aqueous solutions (57%) were purchased from TCI Co. Ltd. Lead iodide (PbI 2 ) was purchased from Alfa Co. Ltd. Formamidinium iodide (FAI), Mthylammonium bromide (MABr), and 2,2',7,7'-Tetrakis[N,N-di(4-methoxyphenyl)amino]-9,9'-spirobifluorene (spiro-OMeTAD) were purchased from Dyesol. Ultradry dimethylformamide (DMF), ultradry dimethyl sulfoxide (DMSO), ethanol (EtOH) and ultradry chlorobenzene (CB) were purchased from Acros. Dry isopropanol (IPA), diethyl ether (DEE), 4-tertbutyl pyridine (tBP), lithium bistrifluorosulfonyl imide (Li-TFSI), acetyl acetone, phenethylamine and titanium diisopropoxide bis(acetylacetonate), 75 weight % in IPA were purchased from Sigma-Aldrich. All the chemicals were used as received without further purification. Conductive glass, FTO (10 ohms/sq), was purchased from Nippon Sheet Glass, and titanium dioxide paste (30 NR-D) was purchased from Dyesol. Synthesis of 4-tert-butylbenzylamonium iodide (tBBAI) In a round bottle flask, 4-tert-butylbenzylamine (1.0 g, 6.13 mmol) was dissolved in ethanol (EtOH) (10 mL) and stirred at room temperature for 10 min. Hydroiodide acid (HI, aq, 57%, 1.2 mL, 8.7 mmol) was added into 4-tert-Butylbenzylamine solution dropwise within a period of 30 min. The resulting mixture was allowed to stirred for 1 h at room temperature, and was then concentrated under vacuum and re-dissolved into 3 mL of EtOH. The solution was then poured into diethyl ether (DEE), and the obtained precipitate was filtered and washed with DEE and dried under vacuum to afford tBBAI as a crystalline white solid (1.61 g, 5.53 mmol, 90.2%). Synthesis of phenylethylammonium iodide (PEAI) PEAI was synthesized according to literature reported procedure  [1]  . &#13;</text>
-      <annotation id="19">
+      <annotation id="29">
+        <infon key="type">electron_transport_layer</infon>
+        <infon key="identifier">Titanium dioxide</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-18T09:27:03Z</infon>
+        <location offset="860" length="5"/>
+        <text>TiO 2</text>
+      </annotation>
+      <annotation id="1">
         <infon key="type">humidity</infon>
         <infon key="identifier">50-70</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -53,7 +60,7 @@
     <passage>
       <offset>9500</offset>
       <text> Contact angle measurement The hydrophilicity of surfaces as a function of time was assessed by contact angle measurement by a drop shape analyzer (KRÜSS, DSA100) at ambient temperature. PL, TRPL, and UV-vis measurements UV-vis absorptions were measured using a Varian Cary 500 spectrometer (Varian, USA). Steady-state PL was measured using a Horiba Jobin Yvon Fluorolog Spectrofluorometer, and for PL life time measurement [time-correlated single-photon counting (TCSPC)], a picosecond pulse diode laser (EPL-405; excitation wavelength, 405 nm; pulse width, 49 ps) was used. PLQY Absolute photoluminescence measurements were done using an integrating sphere (from Fluorolog, Horiba JobinYvon). The samples were excited with a 442 nm CW laser (Obis) with a beam diameter of 700 µm (FWHM) and 0.1 mW intensity. This results in a photon flux of 1.5•10 21 s -1 m -2 which is similar to the above bandgap photon flux at 1 sun ( 1.66•10 21 s -1 m -2 ). The output of the integrating sphere was measured with a fiber connected with an Andor Kymera 193i spectrometer using a silicon CCD camera (iDus DU240A-OE). We calibrated the system with a halogen calibration lamp (HL-3 plus CAL from Ocean Optics). SUPPLEMENTARY NOTES Note 1. Numerical simulations to model TRPL data Our model is similar to the work of Baloch et al  [2]  . The underlying continuity equation for the carrier concentration n(z,t) is: 𝜕𝑛 𝜕𝑡 = 𝐷 𝜕 2 𝑛 𝜕𝑧 2 -𝑘 1 𝑛 -𝑘 2 𝑛 2 , where D is the carrier diffusion coefficient, k1 the non-radiative monomolecular bulk recombination constant and k2 the radiative bimolecular recombination constant (also called B). We use Robin boundary conditions 𝐽(𝑧 𝑏 , 𝑡) = -𝐷 𝜕𝑛(𝑧 𝑏 ,𝑡) 𝜕𝑧 = 𝑆 𝑏 • 𝑛(𝑧 𝑏 , 𝑡) to account for surface recombinations at the boundaries at zb (= 0 or L, where L is the film thickness) with the surface recombination velocities Sb which are different for each of the boundaries. For the numerical simulation we used the Crank-Nicolson method. Note 2. Determination of the radiative limit 𝑽 𝒐𝒄 𝒓𝒂𝒅 For the determination of V oc rad , we follow the work of Tress et al.  [3]  . From the photoluminescence spectral photon flux 𝐽 𝑒𝑚 (𝐸) we calculate the spectral shape of the absorptance using the Boltzmann approximation of the Lasher-Stern-Würfel  [4]  equation 𝐽 𝑒𝑚  (𝐸)   = 1 4 𝜋 2 ℏ 3 𝑐 2 𝐸 2 𝑎(𝐸) exp((𝐸-∆𝐸 𝐹 ) (𝑘 𝐵 𝑇) ⁄ ) and the spectral photon flux of the blackbody radiation 𝛷 𝐵𝐵 (𝐸) = 1 4 𝜋 2 ℏ 3 𝑐 2 𝐸 2 exp(𝐸 (𝑘 𝐵 𝑇) ⁄ ) which yields 𝑎(𝐸) ~ 𝐽 𝑒𝑚 (𝐸)/𝛷 𝐵𝐵  (𝐸) . We recalibrate the absorptance with the IPCE at 775 nm (1.60 eV) from Fig.  5(c)  (IPCE (1.60 eV) = 90%). This yields the absorptance spectrum as shown in Figure  S4 . The exponential fit between 1.47 and 1.55 eV results in the Urbach energy Eu = 17.9 meV. From 𝑎(𝐸) we can calculate the emitted photon flux in thermal equilibrium 𝐽 𝑒𝑚,0 = 𝑒 ∫ 𝑎(𝐸)𝛷 𝐵𝐵 (𝐸)𝑑𝐸 and from this the radiative limit open-circuit voltage V oc rad = 𝑘 𝐵 𝑇 𝑒 ⁄ ln(𝐽 𝑝ℎ 𝐽 𝑒𝑚,0 + 1 ⁄ ) = 1.270 V, where Jph = 25 mA/cm² is the short circuit current. For this calculation we used the temperature T = 25 °C, which is the temperature of the devices during the IV measurements. As a comparison, for a bandgap of 1.55 eV the Shockley-Queisser limit of V OC is 1.278 V which is ~ 10 mV higher than V oc rad .        [4]  enabling high-performing PSCs with efficiency up to 23.3%  [5]  and 23.7%,  [1a]  respectively. The state-of-the-art HTL materials are organic materials bearing triphenylamine moieties (such as spiro-OMeTAD and poly[bis(4-phenyl)(2,5,6-trimethylphenyl) amine) to ensure the hole transport, while such organic materials are intrinsically hydrophobic and nonpolarized, resulting in contact issues of the interface between the perovskite and HTL.  [6]  Moreover, due to the polycrystalline nature of solution-processed perovskite layers, large amounts of defects, such as grain boundaries and vacancies form during fabrication process.  [7]  The photovoltage of PSCs depends on the dynamics of charge carrier recombination which occurs in the bulk or at the interface.  [8]  Seo et al. report a double-layered halide architecture to overcome sluggish hole transfer from the perovskite to HTL, and achieved a PCE up to 22.7%.  [9]  Sherkar et al. showed that trap-assisted recombination at the interface between HTL and the perovskite Passivation of interfacial defects serves as an effective means to realize highly efficient and stable perovskite solar cells (PSCs). However, most molecular modulators currently used to mitigate such defects form poorly conductive aggregates at the perovskite interface with the charge collection layer, impeding the extraction of photogenerated charge carriers. Here, a judiciously engineered passivator, 4-tert-butyl-benzylammonium iodide (tBBAI), is introduced, whose bulky tert-butyl groups prevent the unwanted aggregation by steric repulsion. It is found that simple surface treatment with tBBAI significantly accelerates the charge extraction from the perovskite into the spiro-OMeTAD hole-transporter, while retarding the nonradiative charge carrier recombination. This boosts the power conversion efficiency (PCE) of the PSC from ≈20% to 23.5% reducing the hysteresis to barely detectable levels. Importantly, the tBBAI treatment raises the fill factor from 0.75 to the very high value of 0.82, which concurs with a decrease in the ideality factor from 1.72 to 1.34, confirming the suppression of radiation-less carrier recombination. The tert-butyl group also provides a hydrophobic umbrella protecting the perovskite film from attack by ambient moisture. As a result, the PSCs show excellent operational stability retaining over 95% of their initial PCE after 500 h full-sun illumination under maximum-power-point tracking under continuous simulated solar irradiation. &#13;</text>
-      <annotation id="1">
+      <annotation id="2">
         <infon key="type">passivating_molecule</infon>
         <infon key="identifier">4-tert-butyl-benzylammonium iodide</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -62,7 +69,7 @@
         <location offset="14215" length="34"/>
         <text>4-tert-butyl-benzylammonium iodide</text>
       </annotation>
-      <annotation id="2">
+      <annotation id="3">
         <infon key="type">passivating_molecule</infon>
         <infon key="identifier">4-tert-butyl-benzylammonium iodide</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -71,30 +78,30 @@
         <location offset="14405" length="5"/>
         <text>tBBAI</text>
       </annotation>
-      <annotation id="3">
+      <annotation id="4">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">23.5</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
         <infon key="updated_at">2025-01-27T09:55:27Z</infon>
-        <infon key="error:misaligned:3">14756-&gt;14656</infon>
+        <infon key="error:misaligned:22">14756-&gt;14656</infon>
         <location offset="14656" length="5"/>
         <text>23.5%</text>
       </annotation>
-      <annotation id="4">
+      <annotation id="5">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.95</infon>
+        <infon key="identifier">95</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T09:55:40Z</infon>
-        <infon key="error:misaligned:4">15249-&gt;15149</infon>
+        <infon key="updated_at">2025-02-13T02:55:31Z</infon>
+        <infon key="error:misaligned:23">15249-&gt;15149</infon>
         <location offset="15149" length="3"/>
         <text>95%</text>
       </annotation>
-      <annotation id="5">
+      <annotation id="6">
         <infon key="type">time</infon>
         <infon key="identifier">500</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
         <infon key="updated_at">2025-01-27T09:55:49Z</infon>
-        <infon key="error:misaligned:5">15280-&gt;15180</infon>
+        <infon key="error:misaligned:24">15280-&gt;15180</infon>
         <location offset="15180" length="5"/>
         <text>500 h</text>
       </annotation>
@@ -102,7 +109,7 @@
     <passage>
       <offset>15621</offset>
       <text> SUPPLEMENTARY FIGURES AND TABLE The ORCID identification number(s) for the author(s) of this article can be found under  https://doi.org/10.1002/adma.201907757 . is the dominant loss mechanism.  [10]  Thus, surface passivation of the perovskite is considered the most effective approach to suppress nonradiative recombination losses and, concomitantly, improve the photovoltage.  [11]  Tavakoli et al. showed that by surface passivation of the perovskite with adamantine amine a PCE of 20.93% can be achieved for mesoscopic PSCs.  [12]  A recent report by Jiang et al. indicates that highly efficient planar PSCs can achieve 23.3% with perovskite surface passivation with phenylethylammonium iodide (PEAI).  [5]  In this work, we attain a PCE of 23.5% by judicious tailoring of a defect mitigating agent based on benzylammonium iodide. We conceived and synthesized the new molecular passivator 4-tert-butyl-benzylammonium iodide (tBBAI). The bulky tert-butyl substitution group of tBBAI prevents the unwanted aggregation by steric repulsion as revealed by X-ray diffraction (XRD). tBBAI exhibits an outstanding passivation ability as implied by increased photoluminescence quantum yield (PLQY) accompanied by larger quasi-Fermi level splitting (ΔE F ) in the perovskite films, resulting in a high open circuit voltage (V OC ) of 1.142 V. It is worth noting that the perovskite we use is iodide-rich with I:Br = 97:3, with an optical bandgap as low as 1.55 eV. Therefore, the voltage loss of the optimized device is ≈410 mV, approaching 90% of the radiative limit. This is considered as one of the lowest voltage losses for PSCs. Timeresolve photoluminescence (TRPL) experiments reveal that the PSCs with a tBBAI interfacial layer show enhanced charge transfer from the perovskite layer to HTL than the control devices, presumably related to a reduced hole-extraction barrier due to a better contact between highly polarized perovskite layer and the nonpolarized HTL,  [9]  resulting in a significant improvement in fill factor (FF) of 82% than 75%. In addition, the device with more hydrophobic tert-butyl substitution endowed tBBAI-passivated perovskite, the better resistivity to moisture. These results combined, highly efficient mesoscopic PSCs has been achieved with PCE up to 23.5%, where V OC and FF are as high as 1.142 V and 82.1%, respectively. In addition to the outstanding PV performance, tBBAI-passivated PSCs retained over 95% of their initial efficiency during PV operation for a period of 500 h under simulated full-sun irradiation. PEAI is one of the most widely used passivation agents reported so far.  [13]  While with enhanced PV performance and operational stability compared to nonpassivated PSCs, incremental studies on chemical tailoring of PEAI are rare. Our previous study proved that by substituting the hydrogen (H) of the benzene ring with fluorine (F), the free energy of the perovskite surface was significantly reduced, endowing the perovskite with superior stability against moisture in ambient air.  [6]  The perovskite layer Cs 0.05 FA 0.85 MA 0.10 Pb(I 0.97 Br 0.03 ) 3 with 5% excess of PbI 2 was fabricated using antisolvent method  [14]  and annealed at 120 °C for 20 min before applying the modulators. The passivation agent, PEAI and tBBAI were applied by spin coating on the perovskite surface with 15 × 10 -3 m solution in isopropanol without further annealing (Figure  1B ). The surface morphology of the PEAI and tBBAI-passivated perovskite films is characterized by scanning electron microscopy (SEM) and the results are shown in Figure  1C-E . For the untreated neat perovskite film, it is observed that the domain size of the perovskite crystals is around 500 nm. After passivating with PEAI and tBBAI, their appearance remains unchanged, implying that the surface passivation does not alter the morphology of the perovskite active layer. X-ray photoelectron spectroscopy (XPS) is used to characterize the surface elemental properties of the passivated perovskite, and the results are summarized in Figure  2A-C   in Figure  2B . In the neat perovskite film, a CO peak at ≈288 eV is observed, which is related to the oxygen and water exposure of the surface of the perovskite film.  [5]  This peak is significantly suppressed in the XPS spectra of the passivated perovskite film, proving that surface passivation with PEAI and tBBAI can effectively protect the perovskite from oxygen and moisture in ambient air.  [5]  A further XPS depth profiling for tBBAI-passivated perovskite was carried out to reveal the out-ofplane direction elemental distribution as shown in Figure  2C . Compared to the spectra of the neat perovskite film (Figure  S1 , Supporting Information), the I 3d signal gradient of perovskite/ tBBAI starts at deeper part in the film, suggesting the tBBAI layer thickness of &lt;5 nm. The structure of the unpassivated and passivated perovskite film is characterized by XRD. As shown in Figure  S2  in the Supporting Information. The detailed XRD for 2θ &lt; 20° is shown in Figure  2D . Similar to a previous report,  [5]  nonpassivated perovskite film shows excessive amount of PbI 2 at ≈12.8°. For the PEAI-passivated perovskite film, diffraction peaks corresponding to PEAI at 2θ = 4.3°, 8.6°, and 12.9° are observed, implying crystalline PEAI on the surface of the perovskite film. The XRD spectrum of the tBBAI-passivated perovskite film exhibits no extra diffraction peaks, which suggests an amorphous morphology of the passivation layer. We attribute this result to an increased steric hindrance due to the tert-butyl substitution of tBBAI as compared to PEAI. We investigated the optoelectronic quality of the perovskite film by TRPL and steady-state absolute intensity photoluminescence (AIPL). TRPL measurements on samples with the structure glass/FTO/mp-Al 2 O 3 /perovskite/interface layer/ without and with HTL (spiro-OMeTAD) are shown in Figure  3 . For the samples without HTL (Figure  3A ), at t &gt; 200 ns after the excitation pulse the TRPL curves can be well fitted with a (mono-) exponential function with the decay times shown in Table  S1  in the Supporting Information. We observe a significant difference between the surface treatment with the two modulators: The decay time for the PEAI-treated perovskite film is a factor of three and for tBBAI a factor of five higher than for the nonpassivated film. We apply numerical simulations to model the TRPL measurements at times beyond 200 ns. The details of these simulations are described in the Supporting Information (Note S1). Since the only difference between the samples is the surface layers, we fitted the numerical model to the data with only one free parameter, the surface recombination velocity S. For the sample with the longest decay time (tBBAI, black dots in Figure  3A ), the decay could be caused not only by S but also by nonradiative bulk recombinations (with monomolecular recombination rate constant k 1 , see Note in the Supporting Information) or radiative bimolecular recombinations (with bimolecular recombination rate constant k 2 ). Therefore, three extreme cases are considered, where the PL decay at later times for tBBAI is caused exclusively by nonradiative (bulk) recombinations ( , 0, 0 1 1 max 2 = = = k k k S ), by bimolecular radiative (bulk) recombinations ( , 0, 0 2 2 max 1 = = = k k k S ), and by surface recombinations (k 1 = k 2 = 0). The S-fits for all these cases are summarized in Table  S1    Information. Taking into account these cases, one can estimate the surface recombination velocity for the different samples, which is 33±3 cm s -1 for the control, 8±3 cm s -1 for PEAI, and 3±3 cm s -1 for tBBAI which demonstrates the positive effect on surface defect passivation of PEAI and even more pronounced of tBBAI. Figure  4A  shows the external PLQY ext of the perovskite films with the different interface layers and with HTL measured at an excess carrier generation rate corresponding to 1 sun conditions. We determined the PLQY ext by AIPL measurements with the method described by de Mello et al.,  [15]  PLQY ( = P E E L E E , where P is the AIPL spectral photon flux and L in is the spectral photon flux of the excitation beam. The respective AIPL data are shown in Figure  S3  in the Supporting Information. The PLQY ext can be expressed in terms of the radiative (R rad ) and nonradiative (R nr ) recombination rates PLQY ext = R rad /(R rad + R nr ) which makes it a useful tool to investigate bulk, interface, and surface charge recombination characteristics. As shown in Figure  4A , the PLQY ext of PEAI is about three times and of tBBAI eight times higher than the control sample without interface layer. The interface layers cause a significant decrease of interface recombinations at the perovskite/HTL interface which implies an improved defect chemistry. From PLQY ext the quasi-Fermi level splitting ΔE F can be calculated with the following equation:  [16]  ΔE F = q V OC,rad + kT ln(PLQY ext ), where V OC,rad is the radiative limit of V OC , the calculation of which is shown in the supplementary information (Note S2, Supporting Information). ΔE F /q for the differently treated films is shown in Figure  4B . The PEAItreated film shows a ΔE F increase of 28 meV and the tBBAItreated film an increase of 48 meV compared to the control sample without interface layer. Since ΔE F /q is the maximum V OC that a PSC with this layer structure can exhibit, we present measured V OC 's of the complete PSCs with similar layer structure in Figure  4B  as well. To be comparable with ΔE F /q, which is determined from quasi-steady-state PLQY ext measurements, we measured the quasi-steady-state V OC 's, i.e., stabilized after 2 min exposure under 1 sun simulated illumination conditions. We also show the stabilized V OC 's of the same samples after 30 min light soaking under 1 sun in ambient air. With PEAI surface treatment, the V OC increased by 25 mV from 1.086 to 1.111 V and with tBBAI by 41 mV to 1.125 V compared to the control sample, which is in good agreement with the trend seen in the ΔE F measurements. The offset of ≈40 mV between the stabilized V OC and ΔE F /q can be explained by energetic misalignment at both interfaces as has been shown by Caprioglio et al.  [17]  This demonstrates the beneficial effect of PEAI and tBBAI treatment in preventing interfacial charge carrier recombination. Furthermore, it shows that tBBAI is a significantly better interface passivation agent than PEAI with a 65% higher ΔV OC increase compared to the sample without interface  &#13;</text>
-      <annotation id="6">
+      <annotation id="7">
         <infon key="type">treated_voc</infon>
         <infon key="identifier">1.142</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -110,7 +117,7 @@
         <location offset="16951" length="8"/>
         <text>1.142 V.</text>
       </annotation>
-      <annotation id="7">
+      <annotation id="8">
         <infon key="type">perovskite_composition</infon>
         <infon key="identifier">Cs0.05FA0.85MA0.10Pb(I0.97Br0.03)3</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -122,7 +129,7 @@
     <passage>
       <offset>26235</offset>
       <text> B A Figure  4 . A) PLQY for the layer structure glass/FTO/c-TiO 2 /mp-TiO 2 /perovskite/interface layer with HTL. B) Stabilized V OC and quasi-Fermi level splitting ΔE F /q for the layer structure glass/FTO/compact-TiO 2 /mesoscopic-TiO 2 /perovskite/interface layer/HTL. The stabilized V OC after 30 min light soaking is also shown. passivation layer. After 30 min under 1 sun light soaking the ΔV oc 's are 32 mV for PEAI and 56 mV for tBBAI-treated films, which confirms the trend. Note that there is a 15 mV V OC drop for the control sample, 9 mV drop for the PEAI, and a negligible V OC drop for the tBBAI-treated films. This shows that the interface layers used here also increase the short-term V OC stability under light soaking in ambient air and that tBBAI shows superior performance in comparison with PEAI. To further demonstrate the effect of these interface layers on the optoelectronic properties, we measured the TRPL of the passivated perovskites films with HTL (Figure  3B ). We attribute the rapid decay of the PL signal within the first 10-60 ns to three major processes: First, carrier diffusion leads to a fast decay of carrier concentration close to the front surface of the incident light pulse;  [18]  second, halide perovskites have a positively charged mid-gap trap state caused by iodide vacancies with a large capture cross-section for electrons. Once these trap states are filled they are neutral and, hence exhibit a very low capture cross-section for holes so that the hole lifetime is in the µs range.  [19]  This fast electron capture leads to a rapid decay of the PL signal at early times. Third, hole injection into the HTL also causes a rapid decay of the PL signal with a rate proportional to the carrier concentration at the interface, which is highest within the first ≈100 ns. Whereas the first two mechanisms are the same for all our samples, the third mechanism depends on the specific interface and HTL. Hence, the difference in TRPL for the first 60 ns is caused by different hole transfer rates into the HTL. The PEAI-treated film shows a significantly faster hole extraction into the HTL compared to the untreated film but it is outperformed by tBBAI. This faster charge transfer is very likely caused by a smaller hole transfer barrier and, concomitantly, by a lower hole transfer resistance. Due to the intrinsically high polarization of the perovskite material and the low polarization of the organic and hydrophobic spiro-OMeTAD, we expect a hole transport barrier that is related to the poor contact of HTL and perovskite. With the ambipolar passivation agent bearing ammonium iodide that coordinates with the perovskite and hydrophobic ligand similar to that of HTL, the barrier shall be minimized. If we compare the difference between PEAI and tBBAI, less crystalline tBBAI is most probably creating more even coverage on the surface of the perovskite (Figure  S4 , Supporting Information), creating better contact and at the same time a better defect passivation at the interface between HTL and perovskite. To demonstrate the advantage of the new passivation agent in solar cells, PSCs are fabricated with tBBAI as passivation agent; for comparison, PEAI and nonpassivated perovskites are applied. The PSCs have the n-i-p device architecture fluorinedoped tin oxide (FTO)/compact TiO 2 /mesoscopic TiO 2 /perovskite/PEAI or tBBAI/spiro-OMeTAD/gold. I-V curves of these cells under 1 sun illumination are shown in Figure  5A  and the corresponding PV parameters in Table  1 . A champion cell with a PCE of 23.5% is achieved with tBBAI passivation, with a V OC of 1142 mV, an FF of 82.1%, and a J SC of 25.1 mA cm -2 . This V OC represents a voltage loss of 408 mV with respect to the optical bandgap of 1.55 eV (derived from the inflection point of the incident photon-to-current conversion efficiency (IPCE) spectrum in Figure  5C ), which is 89.9% of the radiative limit of V oc of 1270 mV (see Note S2 in the Supporting Information). Negligible hysteresis of 1.8% and 0.8% is observed between the forward and reverse scan of PEAI and tBBAI, respectively. By contrast, the hysteresis of nonpassivated PSC is as high as 5.5%, with 20.1% PCE for the forward scan and 21.2% for the reverse scan. The PV metrics in Figure  S6  in the Supporting Information depict the high reproducibility of the PV performance in this study. Figure  5B  shows the stabilized Adv. Mater. 2020, 32, 1907757 power output at the maximum power point (MPP) for the best performing devices under dehumidified ambient air (10% RH (relative humidity)) within the first 6 min. For tBBAI, the stabilized PCE is 23.3%, which is in good agreement with the PCEs obtained from the forward and backward J-V scans. However, we observed a decrease with PSCs from initially 22.7% to 22.2% with PEAI as a passivator, which proves the superior performance of the tBBAI-treated devices. IPCEs are shown in Figure  5C . The integrated photocurrent is in good agreement with the corresponding J SC values measured from J-V curves (Table  1 ). Figure  5D  shows the illumination intensity dependence of the V OC from which the ideality factor n id can be extracted. The unpassivated film has an n id of 1.72, PEAI passivation leads to 1.47 and tBBAI passivation to 1.34. An n id of 1 is expected for a film with only bimolecular radiative recombinations whereas an n id of 2 indicates that all recombinations are nonradiative monomolecular.  [20]  tBBAI shows the n id closest to 1 which indicates the lowest nonradiative recombination rate followed by PEAI and the unpassivated film which is in good agreement with the findings from the optoelectronic measurements. Operational stability data obtained with PSCs at MPP under 1 sun irradiation and in nitrogen atmosphere (N 2 ) are shown in Figure  6A . After 500 h, the PSC passivated by tBBAI interlayer retained 95% of its initial efficiency, in contrast to 84% for the PSC with PEAI interlayer and 70% for the nonpassivated PSC. The major contribution to the efficiency decline observed for the latter PSCs arise stems from a decrease in FF (≈87% compared to initial value), The reason for this is likely that the PEAI interlayer or the direct contact between perovskite and HTL does not form a stable interface as contrast to tBBAI. Contact angle measurements of water droplets on the surface of perovskite films with and without interfacial layers are shown in Figure  6B . The bare perovskite film, perovskite film with PEAI, and tBBAI surface treatments exhibit contact angles with a water droplet of 54°, 62°, and 82°, respectively. Using Neumann's equation,  [6]  we calculated a surface free energy of 32.9 mJ m -2 for tBBAIpassivated perovskite, which is substantially lower than 50.2 mJ m -2 for pristine perovskite film, implying a better moisture resistance for tBBAI-passivated perovskites.  [21]  To further prove this, PSCs with and without interface layers are aged under ambient condition with an RH of 50-70%, the results are shown in Figure  S7  in the Supporting Information. It is observed that after 55 days (≈1300 h), the PSC with tBBAI interlayer decreased by less than 10%, while in comparison, PSC with PEAI decreases by 16% and PSCs without interface layer decreased by over 26%. This larger performance decrease implies a faster degradation of the perovskite films due to increased moisture uptake. In conclusion, a new surface passivation agent, tBBAI was developed. Electro-optical characterizations show that tBBAIpassivated perovskite films exhibit less nonradiative charge carrier recombination, i.e., a lower defect density, and a significantly improved charge extraction from the perovskite film to the HTL. We observe a V OC increase of ≈20 mV with tBBAI compared to PEAI, and ≈50 mV compared to the perovskite films without passivation. Our tBBAI champion cell yielded PCE of 23.5%, which is among the highest PSC efficiencies achieved so far. In addition, the enhanced hydrophobicity of tBBAI compared to PEAI leads to an enhanced moisture resistivity, and thus better operational stability. PSCs with tBBAI retained over 95% of their initial PCE after 500 h MPP tracking, and over 90% of their initial PCE after 55 days ageing under ambient air with an RH of 50-70%. Our work provides a simple yet effective approach to fabricate efficient PSCs with outstanding efficiency and high operational stability.   c)  [mA cm  -2  ] J SC  d)  [mA cm  -2     Figure S1 .Figure S3 . S1S3 Figure S1. I 3d XPS depth profiles of the control perovskite film. &#13;</text>
-      <annotation id="8">
+      <annotation id="9">
         <infon key="type">structure_pin_nip</infon>
         <infon key="identifier">NIP</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -130,7 +137,7 @@
         <location offset="29508" length="5"/>
         <text>n-i-p</text>
       </annotation>
-      <annotation id="9">
+      <annotation id="10">
         <infon key="type">hole_transport_layer</infon>
         <infon key="identifier">Spiro-OMeTAD</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -138,7 +145,7 @@
         <location offset="29622" length="13"/>
         <text>spiro-OMeTAD/</text>
       </annotation>
-      <annotation id="17">
+      <annotation id="11">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSLT</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -146,19 +153,19 @@
         <location offset="31974" length="51"/>
         <text>1 sun irradiation and in nitrogen atmosphere (N 2 )</text>
       </annotation>
-      <annotation id="18">
-        <infon key="type">treated_pce</infon>
-        <infon key="identifier">0.84</infon>
+      <annotation id="12">
+        <infon key="type">efficiency_tret</infon>
+        <infon key="identifier">84</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T10:10:53Z</infon>
+        <infon key="updated_at">2025-02-13T02:56:17Z</infon>
         <location offset="32159" length="3"/>
         <text>84%</text>
       </annotation>
-      <annotation id="16">
+      <annotation id="13">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.7</infon>
+        <infon key="identifier">70</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T10:09:11Z</infon>
+        <infon key="updated_at">2025-02-13T02:56:23Z</infon>
         <location offset="32200" length="3"/>
         <text>70%</text>
       </annotation>
@@ -222,7 +229,7 @@
     <passage>
       <offset>38569</offset>
       <text> Forward scan;b)  Reverse scan; c) J SC determined from the IV measurement; d) J SC determined from IPCE. ] FF PCE [%] Control-FWS a) 1.077 24.87 24.01 0.750 20.1 Control-RVS b) 1.091 24.79 0.785 21.2 tBBAI-FWS 1.142 25.11 24.90 0.815 23.4 tBBAI-RVS 1.142 25.10 0.821 23.5 PEAI-FWS 1.121 25.06 24.95 0.794 22.3 PEAI-RVS 1.122 25.01 0.809 22.7 a) &#13;</text>
-      <annotation id="12">
+      <annotation id="14">
         <infon key="type">control_voc</infon>
         <infon key="identifier">1.091</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -230,7 +237,7 @@
         <location offset="38747" length="5"/>
         <text>1.091</text>
       </annotation>
-      <annotation id="13">
+      <annotation id="15">
         <infon key="type">control_pce</infon>
         <infon key="identifier">21.2</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -238,7 +245,7 @@
         <location offset="38765" length="4"/>
         <text>21.2</text>
       </annotation>
-      <annotation id="10">
+      <annotation id="16">
         <infon key="type">passivating_molecule</infon>
         <infon key="identifier">4-tert-butyl-benzylammonium iodide</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -246,7 +253,7 @@
         <location offset="38770" length="5"/>
         <text>tBBAI</text>
       </annotation>
-      <annotation id="11">
+      <annotation id="17">
         <infon key="type">passivating_molecule</infon>
         <infon key="identifier">phenylethylammonium iodide</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -254,7 +261,7 @@
         <location offset="38842" length="4"/>
         <text>PEAI</text>
       </annotation>
-      <annotation id="14">
+      <annotation id="18">
         <infon key="type">treated_voc</infon>
         <infon key="identifier">1.122</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -262,7 +269,7 @@
         <location offset="38889" length="5"/>
         <text>1.122</text>
       </annotation>
-      <annotation id="15">
+      <annotation id="19">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">22.7</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -270,52 +277,40 @@
         <location offset="38907" length="4"/>
         <text>22.7</text>
       </annotation>
-      <relation id="R2">
-        <infon key="type">performance_2</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T10:09:26Z</infon>
-        <node refid="11" role=""/>
-        <node refid="14" role=""/>
-        <node refid="15" role=""/>
-        <node refid="12" role=""/>
-        <node refid="13" role=""/>
-      </relation>
     </passage>
     <passage>
       <offset>38916</offset>
       <text>			 15214095, 2020, 12, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.201907757 by University Of California, Wiley Online Library on [07/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License © 2020 WILEY-VCH Verlag GmbH &amp; Co. KGaA, Weinheim</text>
     </passage>
-    <relation id="R3">
+    <relation id="R1">
       <infon key="type">test_1</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T10:13:02Z</infon>
+      <infon key="updated_at">2025-02-18T09:28:04Z</infon>
+      <node refid="6" role=""/>
+      <node refid="17" role=""/>
+      <node refid="12" role=""/>
+      <node refid="13" role=""/>
+      <node refid="11" role=""/>
+      <node refid="1" role=""/>
+      <node refid="18" role=""/>
+      <node refid="19" role=""/>
+      <node refid="14" role=""/>
+      <node refid="15" role=""/>
+    </relation>
+    <relation id="R2">
+      <infon key="type">test_1</infon>
+      <infon key="annotator">jillnomura1211@gmail.com</infon>
+      <infon key="updated_at">2025-02-18T09:28:28Z</infon>
+      <node refid="2" role=""/>
+      <node refid="5" role=""/>
+      <node refid="6" role=""/>
+      <node refid="13" role=""/>
+      <node refid="11" role=""/>
       <node refid="1" role=""/>
       <node refid="4" role=""/>
-      <node refid="5" role=""/>
-      <node refid="16" role=""/>
-      <node refid="17" role=""/>
-      <node refid="19" role=""/>
-    </relation>
-    <relation id="R1">
-      <infon key="type">performance_1</infon>
-      <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T10:07:55Z</infon>
-      <node refid="6" role=""/>
-      <node refid="3" role=""/>
-      <node refid="10" role=""/>
-      <node refid="13" role=""/>
-      <node refid="12" role=""/>
-    </relation>
-    <relation id="R4">
-      <infon key="type">test_1</infon>
-      <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T10:12:54Z</infon>
-      <node refid="5" role=""/>
-      <node refid="11" role=""/>
-      <node refid="18" role=""/>
-      <node refid="16" role=""/>
-      <node refid="17" role=""/>
-      <node refid="19" role=""/>
+      <node refid="7" role=""/>
+      <node refid="14" role=""/>
+      <node refid="15" role=""/>
     </relation>
   </document>
 </collection>

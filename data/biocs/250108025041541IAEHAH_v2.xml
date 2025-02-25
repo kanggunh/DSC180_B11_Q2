@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 98&#13;</text>
@@ -51,9 +50,9 @@
       </annotation>
       <annotation id="4">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">methylammonium lead iodide</infon>
+        <infon key="identifier">MAPbI 3</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T06:29:16Z</infon>
+        <infon key="updated_at">2025-02-12T09:27:08Z</infon>
         <location offset="5880" length="7"/>
         <text>MAPbI 3</text>
       </annotation>
@@ -67,9 +66,9 @@
       </annotation>
       <annotation id="6">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.92</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T06:29:39Z</infon>
+        <infon key="identifier">92</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:23:35Z</infon>
         <location offset="6142" length="3"/>
         <text>92%</text>
       </annotation>
@@ -121,7 +120,7 @@
         <location offset="7312" length="5"/>
         <text>17.29</text>
       </annotation>
-      <annotation id="14">
+      <annotation id="13">
         <infon key="type">treatment_element</infon>
         <infon key="identifier">FN-Br</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -129,7 +128,7 @@
         <location offset="7554" length="5"/>
         <text>FN-Br</text>
       </annotation>
-      <annotation id="13">
+      <annotation id="14">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">19.31</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -161,7 +160,7 @@
         <location offset="23546" length="3"/>
         <text>60%</text>
       </annotation>
-      <annotation id="19">
+      <annotation id="18">
         <infon key="type">control_element</infon>
         <infon key="identifier"></infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -169,15 +168,15 @@
         <location offset="23594" length="29"/>
         <text>TBP/LiTFSI doped spiro-OMeTAD</text>
       </annotation>
-      <annotation id="20">
+      <annotation id="19">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.3</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T06:44:07Z</infon>
+        <infon key="identifier">30</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:23:43Z</infon>
         <location offset="23667" length="4"/>
         <text>≈30%</text>
       </annotation>
-      <annotation id="21">
+      <annotation id="20">
         <infon key="type">treatment_element</infon>
         <infon key="identifier"></infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
@@ -185,11 +184,11 @@
         <location offset="23712" length="11"/>
         <text>FN-Br/FK209</text>
       </annotation>
-      <annotation id="18">
+      <annotation id="21">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.95</infon>
-        <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-15T06:42:25Z</infon>
+        <infon key="identifier">95</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-13T04:23:46Z</infon>
         <location offset="23764" length="3"/>
         <text>95%</text>
       </annotation>
@@ -204,22 +203,22 @@
       <relation id="R1">
         <infon key="type">performance_1</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-24T12:48:32Z</infon>
+        <infon key="updated_at">2025-02-17T03:49:59Z</infon>
         <node refid="12" role=""/>
-        <node refid="14" role=""/>
         <node refid="13" role=""/>
+        <node refid="14" role=""/>
       </relation>
       <relation id="R2">
         <infon key="type">test_1</infon>
         <infon key="annotator">jlnomura@ucsd.edu</infon>
-        <infon key="updated_at">2025-01-24T12:48:32Z</infon>
+        <infon key="updated_at">2025-02-17T03:49:59Z</infon>
         <node refid="8" role=""/>
         <node refid="7" role=""/>
         <node refid="17" role=""/>
+        <node refid="18" role=""/>
         <node refid="19" role=""/>
         <node refid="20" role=""/>
         <node refid="21" role=""/>
-        <node refid="18" role=""/>
         <node refid="22" role=""/>
       </relation>
     </passage>

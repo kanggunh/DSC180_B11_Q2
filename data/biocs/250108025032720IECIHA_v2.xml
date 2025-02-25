@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 54&#13;</text>
@@ -57,7 +56,7 @@
     <passage>
       <offset>27875</offset>
       <text> Extraction of Mobile Ion Concentrations in Multiple Perovskite Devices We now use our model to extract the ion concentration from ionic charge measurements. We measured the ionic charge for 6 different perovskite solar cell compositions. The fabrication process for these devices is detailed in the Experimental Procedures. Note that we tested opaque and semi-transparent (no metal contact) devices and checked that our data was not affected by metal ion diffusion within the absorber.  40, 41  As explained in a previous study,  14  we measured Q ion by first letting the devices equilibrate at 0.8 V in the dark. We then removed the applied bias and measured the resulting dark current transient until the cell reached equilibrium steady state at 0 V. By doing so, we could probe the ionic current only since there is no electronic injection at 0 V and electronic carriers initially present in the absorbers at 0.8 V are swept away within the first few micro-seconds. By integrating the ionic current during re-equilibration (we removed the fast-electronic capacitive discharge), we could calculate the ionic charge that was moved at the electrodes between 0.8 and 0 V, DQ ion , (see Figure  S4 ). With the experimental value of DQ ion , we extract N 0 assuming V bi = 1.2 V using Equation  15 (derived using Equation  12 ): DQ ion = ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi qN 0 e 0 e r V T 8 r "  15 ) 1 + 16 V bi V T 1=2 À 1 + 16 V bi À V app V T 1=2 # : (Equation Note that the extracted ion concentration is independent of the value of the initial applied voltage (here V app = 0.8 V), as shown in a previous study.  14  Another way of measuring the mobile ion concentration is to resort to Mott-Schottky experiments, which allow capacitance measurements of the vacancy-depleted region (C dl ).  42  Note that the selective contacts are in practice not perfect and part of the voltage drops at the contacts.  15, 43  If we assume $20% of the voltage drops at the contacts, the error on the ion concentration is within $50% as shown in Figure  S5 . This error is on the order of the cell to cell variation in Figure  S4 . In Table  2 , we provide the background ion concentration and the widths of the vacancy-depleted and accumulation regions (w À and w + ) we measured for each composition. Interestingly, the ion concentrations for all of the cells fall in the same range (7 3 10 16 À 5 3 10 17 cm À3 ). Note that we have also measured several devices that show vacancy concentrations &gt; 10 19 cm À3 . However, in general, these devices were fabricated with the p-i-n architecture (instead of the n-i-p architecture reported here) and had low efficiencies. Further investigation is underway to investigate highly efficient devices with different architectures. We remark that the ion concentrations reported here are very similar for perovskite absorbers with and without methylammonium. This suggests that the prevalent mobile ion is not methylammonium but rather halide species (vacancies or interstitials). In addition, for all the compositions, w À $ 83À211 nm and w + $ 6À16 nm. An immediate consequence is that the electric field is confined within 20%-50% of the absorber and drops linearly (Figure  2B ). Therefore, at maximum power point (MPP) for 300-to 500-nm-thick devices, the field in a perovskite solar cell can reach values as high as 8 V/mm at MPP and 55 V/mm at reverse bias (À3 V) at the contacts (Figure  S6 ). In the following, we discuss the implications of this non-uniform and concentrated electric field. &#13;</text>
-      <annotation id="3">
+      <annotation id="1">
         <infon key="type">structure_pin_nip</infon>
         <infon key="identifier">NIP</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -113,7 +112,7 @@
     <passage>
       <offset>51781</offset>
       <text> Table 2 . 2 Average of the Mobile Vacancy Concentration and Vacancy-Depleted and Vacancy-Accumulation Widths for Perovskite Solar Cells with Different Compositions Perovskite Composition PCE(%) e r N 0 (cm À3 ) w À (nm) w + (nm) Cs 0.25 FA 0.75 Pb(I 0.80 Br 0.20 ) 3 19.3 24.4 7 3 10 16 211 16 Cs 0.17 FA 0.83 Pb(I 0.83 Br 0.17 ) 3 17.7 24.2 7 3 10 16 209 16 MAPbI 3 13 23.3 4 3 10 17 84 6 MAPb(I 0.67 Br 0.33 ) 3 8.7 25.1 3 3 10 17 103 8 MAPb(I 0.33 Br 0.67 ) 3 6 26.9 1310 17 155 12 MAPbBr 3 3.2 28.7 5 3 10 17 83 6 &#13;</text>
-      <annotation id="1">
+      <annotation id="2">
         <infon key="type">perovskite_composition</infon>
         <infon key="identifier">Cs0.25FA0.75Pb(I0.80Br0.20)3</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -121,7 +120,7 @@
         <location offset="52011" length="37"/>
         <text>Cs 0.25 FA 0.75 Pb(I 0.80 Br 0.20 ) 3</text>
       </annotation>
-      <annotation id="2">
+      <annotation id="3">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">19.3</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -147,9 +146,9 @@
       </annotation>
       <annotation id="6">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">Methylammonium Lead Iodide</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-24T10:52:05Z</infon>
+        <infon key="identifier">MAPbI 3</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-11T22:52:50Z</infon>
         <location offset="52141" length="7"/>
         <text>MAPbI 3</text>
       </annotation>
@@ -195,9 +194,9 @@
       </annotation>
       <annotation id="12">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">Methylammonium Lead Bromide</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-24T10:53:36Z</infon>
+        <infon key="identifier">MAPbBr 3</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-11T19:46:56Z</infon>
         <location offset="52267" length="8"/>
         <text>MAPbBr 3</text>
       </annotation>
@@ -212,44 +211,44 @@
       <relation id="R1">
         <infon key="type">performance_3</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-24T10:54:55Z</infon>
-        <node refid="8" role=""/>
-        <node refid="9" role=""/>
-      </relation>
-      <relation id="R2">
-        <infon key="type">performance_3</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-24T10:55:04Z</infon>
+        <infon key="updated_at">2025-02-17T03:50:03Z</infon>
         <node refid="10" role=""/>
         <node refid="11" role=""/>
       </relation>
-      <relation id="R3">
+      <relation id="R2">
         <infon key="type">performance_4</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-24T10:55:13Z</infon>
+        <infon key="updated_at">2025-02-17T03:50:03Z</infon>
         <node refid="12" role=""/>
         <node refid="13" role=""/>
+      </relation>
+      <relation id="R3">
+        <infon key="type">performance_1</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-17T03:50:03Z</infon>
+        <node refid="2" role=""/>
+        <node refid="3" role=""/>
       </relation>
       <relation id="R4">
         <infon key="type">performance_1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-24T10:54:06Z</infon>
-        <node refid="1" role=""/>
-        <node refid="2" role=""/>
-      </relation>
-      <relation id="R5">
-        <infon key="type">performance_1</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-24T10:54:45Z</infon>
+        <infon key="updated_at">2025-02-17T03:50:03Z</infon>
         <node refid="4" role=""/>
         <node refid="5" role=""/>
       </relation>
-      <relation id="R6">
+      <relation id="R5">
         <infon key="type">performance_2</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-24T10:54:53Z</infon>
+        <infon key="updated_at">2025-02-17T03:50:03Z</infon>
         <node refid="6" role=""/>
         <node refid="7" role=""/>
+      </relation>
+      <relation id="R6">
+        <infon key="type">performance_3</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-17T03:50:03Z</infon>
+        <node refid="8" role=""/>
+        <node refid="9" role=""/>
       </relation>
     </passage>
     <passage>

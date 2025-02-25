@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 129&#13;</text>
@@ -181,7 +180,7 @@
     <passage>
       <offset>6990</offset>
       <text> Yes No For thermal stability, the unencapsulated devices were aged under continuous heating at 65±5 °C in N2 atmosphere. The long-term operational stability of the unencapsulated cells were tracked through the high throughput solar cell lifetime test system from CRYSCO cooperation with maximum power point tracking under LED simulated AM 1.5 spectrum in an N2-filled glovebox. Duration between two test is 300 s. Improving the intrinsic film quality of metal halide perovskites is very critical to increase the power conversion efficiency and long-term stability of perovskite solar cells. Here we report a multifunctional, non-volatile additive that can be used to modulate the kinetics of perovskite film growth through a hydrogen-bond-bridged intermediate phase. The additive enables the formation of large perovskite grains and coherent grain growth from bottom to the surface of the film. The enhanced film morphology results in significantly reduced non-radiative recombinations, thus boosting the power conversion efficiency of inverted (p-i-n) solar cells to 24.8% (24.5% certified) with a low energy loss of 0.36 eV. The unencapsulated devices exhibit improved thermal stability with a T 98 lifetime beyond 1,000 h under continuous heating at 65 ± 5 °C in a nitrogen-filled glovebox. This effective approach can also be applied to wide-bandgap perovskites and large-area devices to show reduced voltage loss and high efficiency. &#13;</text>
-      <annotation id="3">
+      <annotation id="1">
         <infon key="type">structure_pin_nip</infon>
         <infon key="identifier">PIN</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -189,7 +188,7 @@
         <location offset="8036" length="7"/>
         <text>(p-i-n)</text>
       </annotation>
-      <annotation id="4">
+      <annotation id="2">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">24.8</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -197,23 +196,23 @@
         <location offset="8059" length="5"/>
         <text>24.8%</text>
       </annotation>
-      <annotation id="5">
+      <annotation id="3">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.98</infon>
+        <infon key="identifier">98</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T04:55:26Z</infon>
+        <infon key="updated_at">2025-02-13T03:56:15Z</infon>
         <location offset="8187" length="4"/>
         <text>T 98</text>
       </annotation>
-      <annotation id="6">
+      <annotation id="4">
         <infon key="type">temperature</infon>
-        <infon key="identifier">65</infon>
+        <infon key="identifier">65+-5</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T04:55:36Z</infon>
+        <infon key="updated_at">2025-02-13T03:56:19Z</infon>
         <location offset="8242" length="11"/>
         <text>t 65 ± 5 °C</text>
       </annotation>
-      <annotation id="7">
+      <annotation id="5">
         <infon key="type">stability_type</infon>
         <infon key="identifier">ISOSLT</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -225,7 +224,7 @@
     <passage>
       <offset>8435</offset>
       <text> nature photonics Organic-inorganic hybrid perovskites have garnered great attention due to their impressive optoelectronic properties  1  . Combining compositional and interfacial engineering strategies, the record power conversion efficiency (PCE) of perovskite solar cells (PVSCs) has now reached 25.7% (ref. 2) ( https://www.nrel.gov/pv/cell-efficiency.html ). However, the reported high-efficiency devices mostly comprise the conventional (n-i-p) architecture  [3] [4] [5]  , whereas inverted (p-i-n) PVSCs still show inferior performance despite their low-temperature processability and better compatibility in fabricating tandem and flexible devices  [6] [7] [8] [9] [10]  . The major challenge stems from the severe energy loss in inverted PVSCs, especially the non-radiative recombination loss associated with defects embedded at the interfaces and grain boundaries  11  . A high-quality perovskite film with intrinsically low defect density is, thus, critical in determining the achievable efficiency and stability for PVSCs  12  . In a typical one-step solution process, perovskite precursors dissolved in polar aprotic solvents are spin coated onto the substrate. The introduction of an antisolvent then quickly extracts the residual solvents and templates the perovskite crystal growth through intermediate phases  13  . Various volatile solvents and organic salts have been employed as additives to tune the intermediate compositions for modulating the crystallization kinetics  [14] [15] [16]  . In one work, N-methyl-2-pyrrolidone was added in the perovskite precursors to form a lead iodide (PbI 2 )-N-methyl-2-pyrrolidone adduct for promoting the black-phase formation at room temperature  15  . In another work, methylammonium chloride (MACl) was used to facilitate the formation of an intermediate phase for stabilizing the perovskite α-phase  16  . However, these additives may volatilize during annealing, creating voids at the perovskite-substrate interface, Article  https://doi.org/10.1038/s41566-023-01180-6  organic-inorganic vacancies via Lewis acid-base reactions with the carboxyl and guanidium groups  18  . To verify our hypothesis, we first conducted Fourier transform infrared (FTIR) spectrometry to study the interactions between GBAC and organic species in perovskites. As shown in Fig.  1a  and Supplementary Fig.  1 , the N-H stretching peak shifted from 3,352 to 3,378 cm -1 for FA + /MA + and the C=N stretching peak in FA + also shifted from 1,713 to 1,709 cm -1 on adding GBAC, suggesting the formation of hydrogen bonds between GBAC and organic cations  19  . These indicate that the interplay between GBAC and FA + / MA + in the perovskite can help strengthen the film stability, especially thermal stability that is mainly governed by the organic species. We then verified this through a thermogravimetric analysis (Supplementary Fig.  2 ), where the impeded decomposition of the target film suggests that more energy is required to disrupt the interaction between GBAC and perovskite  20  , ameliorating the film's thermal stability. We performed high-resolution X-ray photoelectron spectrometry (XPS) to study the surface chemistry of perovskites (Supplementary Fig.  3 ). We clearly observed the peak corresponding to GBAC π-π interaction (293.10 eV, C1s spectrum) and increased the C=O peak area (O1s spectrum) in the target film, further validating the existence of the GBAC linker in the perovskite (Supplementary Figs.  4  and 5 ). In the Pb4f spectrum (Fig.  1b ), the binding energy of 4f 5/2 and 4f 7/2 for divalent Pb 2+ shifted from 141.92 and 137.09 eV to 141.59 and 136.76 eV, respectively, due to the electrostatic interaction between the guanidium group and PbI 6 4-. We further recorded the steady-state PL and time-resolved PL profiles of perovskite films to reveal how GBAC affects the film quality and charge-transport dynamics (Supplementary Fig.  6 ). The target inducing unavoidable recombination loss and fast degradation of the perovskite  17  . Here we report the formation of a hydrogen-bond-bridged intermediate by adding a multifunctional molecule (4-guanidinobenzoic acid hydrochloride (GBAC)) into the perovskite precursor to modulate the crystallization kinetics and serve as an effective non-volatile passivation linker in the annealed film. Combining crystallography, in situ photoluminescence (PL) characterizations and density functional theory (DFT) calculations, we reveal that the crystal growth kinetics is regulated by additional energies required for hydrogen-bond breakage and cation exchange between the intermediate phase and perovskite. Therefore, the obtained perovskite films exhibit significantly enhanced crystallinity with larger grains. Besides, the additives can form tight packs at the grain boundaries due to π-π interaction of the aryls to effectively passivate the defects in perovskites. The derived inverted PVSCs achieved a champion PCE of 24.8% with an open-circuit voltage (V OC ) of 1.19 V, short-circuit current density (J SC ) of 24.55 mA cm -2 and fill factor (FF) of 84.78%. A certified PCE of 24.5% was obtained from the Japan Electrical Safety &amp; Environment Technology Laboratories, being among the highest reported for inverted PVSCs (Supplementary Table  1 ). We also applied this strategy to fabricate wide-bandgap and large-area PVSCs, paving the way for developing multijunction and scalable perovskite photovoltaics. &#13;</text>
-      <annotation id="1">
+      <annotation id="6">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">4-guanidinobenzoic acid hydrochloride</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -233,7 +232,7 @@
         <location offset="12558" length="37"/>
         <text>4-guanidinobenzoic acid hydrochloride</text>
       </annotation>
-      <annotation id="2">
+      <annotation id="7">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">4-guanidinobenzoic acid hydrochloride</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -269,7 +268,7 @@
     <passage>
       <offset>24235</offset>
       <text> Photovoltaic performance The inverted PVSCs with a device configuration of indium tin oxide (ITO)/((2,7-dimethoxy-9H-carbazol-9-yl) methyl) phosphonic acid (DC-PA) (ref. 21)/perovskite (with/without GBAC)/C60/bathocuproine/Ag were fabricated to evaluate their photovoltaic performance (Fig.  4a , Supplementary Figs.  26  and 27  and Supplementary Table  3 ). As shown in Fig.  4b , the highest PCE of the control device is 22.8%, with V OC of 1.12 V, J SC of 24.48 mA cm -2 and FF of 83.01%. However, the champion PCE of the GBAC-treated device can be further improved to 24.8% (V OC of 1.19 V, J SC of 24.55 mA cm -2 and FF of 84.78%), which is among the highest efficiencies reported so far for inverted PVSCs. The stabilized power output of the target champion device is 24.4%, matching well with the PCEs from the J-V measurement (Fig.  4c ). The device performance was also validated at an independent laboratory ( Japan Electrical Safety &amp; Environment Technology Laboratories) to show a  certified PCE of 24.5% (V OC = 1.19 V, J SC = 24.45 mA cm -2 and FF = 84.20%) (Supplementary Fig.  28 ). The integrated photocurrent (24.38 mA cm -2 ) from the external quantum efficiency (EQE) spectrum also matches well with the values obtained from the J-V measurements (Fig.  4d ). The bandgap of the perovskite is 1.55 eV, as obtained by calculating the EQE derivative (Supplementary Fig.  29 ). Benefiting from the enhanced film quality and defect passivation aided by GBAC, the average V OC value was boosted from 1.12 to 1.18 V (Fig.  4e ). The overall energy loss of the champion target device can be reduced to 0.36 eV, which is very close to that of GaAs photovoltaics and represents one of the lowest energy losses in high-PCE cases (Fig.  4f )  37, 38  . DFT calculations investigated the typical I Pb antisite defect on a PbI 2 -terminated surface, revealing that GBAC passivation can help reduce these deep-level charge-carrier traps (Supplementary Fig.  30 ). The trap density was reduced from 2.58 × 10 16 to 1.53 × 10 16 cm -3 after adding GBAC, further demonstrating the effectiveness of this strategy (Supplementary Fig.  31 ). Since adding GBAC can modulate crystallization to improve the film quality, this strategy can also be explored for fabricating large-area PVSCs (Supplementary Fig.  32 ). As shown in Fig.  4g , a large-area device (1.008 cm 2 ) delivered a PCE of 22.7% (V OC = 1.18 V, J SC = 24.83 mA cm -2 , FF = 77.43%), which is also one of the highest efficiencies reported for similar-sized PVSCs (Supplementary Table  4 ). Besides, the V OC and J SC values of this device are comparable with those obtained in small-area devices, showing great promise for device upscaling (Supplementary Fig.  33  and Supplementary Table  5 ). To demonstrate the general applicability of this approach to different perovskite compositions, we also fabricated devices based on a larger-bandgap perovskite (1.78 eV). The average PCE showed an increase from 15.70% to 16.61%, with average V OC improvement from 1.19 to 1.25 V, which is highly favourable for fabricating tandem photovoltaics (Supplementary Fig.  34 ). (i) (ii) (ii) (ii) (iii) (i) (i) (ii) (iii) (i) Finally, we investigated the stability of devices under an accelerated aging condition based on the recognized protocols  39  . Unencapsulated devices were aged under continuous heating at 65 ± 5 °C (under N 2 ). The target device showed a very small PCE decay (&lt;3%) after 1,200 h, whereas that of the control device decreased nearly 30% during the same period (Fig.  4h ). This shows that the interaction between GBAC and organic components (MA/FA) helps strengthen the film to avoid severe decomposition and sublimation under heating (Supplementary Fig.  35 ). The long-term operational stability of the unencapsulated devices was also measured by tracking the true maximum power point under continuous one-sun illumination (Supplementary Fig.  36 ) in a N 2 -filled glovebox. The target device maintained ~90% of its initial PCE after 500 h, whereas that of the control device decreased to ~30% of its original value (Supplementary Fig.  37 ). We also performed time-of-flight secondary ion mass spectrometry (ToF-SIMS) measurements to probe the compositional changes and ion migration related to device degradation. The control devices show dramatic changes with ions migrated to the perovskite/ETL interface after aging (Supplementary Fig.  38 ). However, only negligible changes were observed in the target sample aged under the same condition. Such improved device stability can be attributed to the enhanced film morphology and inhibited ion migration by adding GBAC. If GBAC can be used in conjunction with more efficient encapsulation techniques and optimal perovskite compositions, further improved PVSC efficiency and stability can be expected to meet the requirements for practical applications  [40] [41] [42]  . &#13;</text>
-      <annotation id="11">
+      <annotation id="9">
         <infon key="type">hole_transport_layer</infon>
         <infon key="identifier">(2,7-Dimethoxy-9H-carbazol-9-yl)methyl phosphonic acid</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -285,11 +284,11 @@
         <location offset="24392" length="7"/>
         <text>(DC-PA)</text>
       </annotation>
-      <annotation id="9">
+      <annotation id="11">
         <infon key="type">electron_transport_layer</infon>
-        <infon key="identifier">buckminsterfullerene</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T04:57:41Z</infon>
+        <infon key="identifier">C60</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-12T09:52:22Z</infon>
         <location offset="24441" length="3"/>
         <text>C60</text>
       </annotation>
@@ -303,9 +302,9 @@
       </annotation>
       <annotation id="13">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.7</infon>
+        <infon key="identifier">70</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T05:00:00Z</infon>
+        <infon key="updated_at">2025-02-13T03:56:25Z</infon>
         <location offset="27732" length="20"/>
         <text>decreased nearly 30%</text>
       </annotation>
@@ -319,9 +318,9 @@
       </annotation>
       <annotation id="15">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.9</infon>
+        <infon key="identifier">90</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T05:01:21Z</infon>
+        <infon key="updated_at">2025-02-13T03:56:30Z</infon>
         <location offset="28224" length="3"/>
         <text>90%</text>
       </annotation>
@@ -335,9 +334,9 @@
       </annotation>
       <annotation id="17">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.3</infon>
+        <infon key="identifier">30</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T05:01:39Z</infon>
+        <infon key="updated_at">2025-02-13T03:56:32Z</infon>
         <location offset="28308" length="4"/>
         <text>~30%</text>
       </annotation>
@@ -573,23 +572,23 @@
     <relation id="R1">
       <infon key="type">test_1</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T05:02:21Z</infon>
+      <infon key="updated_at">2025-02-17T03:49:55Z</infon>
+      <node refid="3" role=""/>
+      <node refid="4" role=""/>
       <node refid="5" role=""/>
-      <node refid="6" role=""/>
-      <node refid="7" role=""/>
       <node refid="12" role=""/>
       <node refid="13" role=""/>
-      <node refid="1" role=""/>
+      <node refid="6" role=""/>
     </relation>
     <relation id="R2">
       <infon key="type">test_2</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T05:02:13Z</infon>
+      <infon key="updated_at">2025-02-17T03:49:55Z</infon>
       <node refid="14" role=""/>
       <node refid="15" role=""/>
       <node refid="16" role=""/>
       <node refid="17" role=""/>
-      <node refid="1" role=""/>
+      <node refid="6" role=""/>
     </relation>
   </document>
 </collection>

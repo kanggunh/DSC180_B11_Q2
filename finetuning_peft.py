@@ -207,8 +207,8 @@ import transformers
 
 peft_training_args = TrainingArguments(
     learning_rate=6e-5,
-    per_device_train_batch_size=2,
-    per_device_eval_batch_size=2,
+    per_device_train_batch_size=1,
+    per_device_eval_batch_size=1,
     gradient_accumulation_steps=2,
     optim="paged_adamw_8bit",
     num_train_epochs=3,
@@ -226,8 +226,8 @@ peft_training_args = TrainingArguments(
     save_strategy="steps",
     eval_steps=5,
     do_eval=True,
-    save_steps=200,
-    save_total_limit=10,
+    save_steps=400,
+    save_total_limit=15,
     report_to="none"
 )
 
@@ -241,7 +241,6 @@ peft_trainer = transformers.Trainer(
     data_collator=transformers.DataCollatorForLanguageModeling(tokenizer, mlm=False),
 )
 print("training about to begin")
-peft_trainer.train(resume_from_checkpoint=True)
-model_path = "models/DeepSeek-R1-PSC-Extractor-8B"
+peft_trainer.train()
+model_path = "models/DeepSeek-R1-PSC-Extractor-8B-8bit"
 peft_trainer.model.save_pretrained(model_path)
-peft_trainer.tokenizer.save_pretrained(model_path)

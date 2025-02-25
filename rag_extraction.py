@@ -6,6 +6,11 @@ import json
 import re
 import torch
 import pandas as pd
+from huggingface_hub import login
+
+load_dotenv()
+access_token = os.getenv("HF_TOKEN")
+login(token=access_token)
 
 bnb_config = BitsAndBytesConfig(
     load_in_8bit=True,
@@ -16,8 +21,10 @@ bnb_config = BitsAndBytesConfig(
 
 # trained model path
 model_name = "DSC180_B11_Q2/models/DeepSeek-R1-PSC-Extractor-8B-8bit"
+# model_path = "meta-llama/Llama-3.2-3B-Instruct"
 model = AutoModelForCausalLM.from_pretrained(model_name, quantization_config=bnb_config, device_map="auto")
 tokenizer_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+# tokenizer_name = "meta-llama/Llama-3.2-3B-Instruct"
 tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
 tokenizer.model_max_length = 70000
 pipe = pipeline(
@@ -40,7 +47,6 @@ Your task is to extract relevant scientific data from the provided text about pe
     Follow these guidelines:
 
     1. **If passivating molecules are mentioned:**
-    - If there is more than one passivating molecule tested, only return data for the champion passivator.
     - Include stability test data for each molecule if available. There may be multiple stability tests for a single molecule.
 
     2. **If no passivating molecules are mentioned:**
@@ -97,13 +103,13 @@ def create_prompt(system, user):
 
 def generate_extraction(text):
     instruction = create_prompt(PREFIX, text)
-    json_string = pipe(instruction, max_new_tokens=2048)[0]["generated_text"][-1]['content']
+    json_string = pipe(instruction, max_new_tokens=4096)[0]["generated_text"][-1]['content']
     json_match = re.search(r"\{.*\}", json_string, re.DOTALL)
     if json_match:
         raw_json = json_match.group(0).strip()
     else:
         print("No JSON found")
-        return None
+        return json_string
     # Fix unquoted values (if any exist, less common)
     parseable = re.sub(r'":\s*"([^"]*?)(".*?"[^"]*?)"', r'": "\1\\\2"', raw_json)
     try:
@@ -111,8 +117,14 @@ def generate_extraction(text):
         return parsed_data
     except json.JSONDecodeError as e:
         print("Error creating JSON", e)
-        return None
+        return parseable
     
-dataset = pd.read_csv('DSC180_B11_Q2data/rag_filtered_150_papers.csv')
+dataset = pd.read_csv('DSC180_B11_Q2/data/rag_filtered_150_papers.csv')
 dataset["json_output"] = dataset["filtered_text"].apply(generate_extraction)
-dataset.to_csv('DSC180_B11_Q2/data/rag_filtered_150_papers_with_extraction.csv')
+# output = {}
+# for index, row in dataset:
+#     output[str(row["id"])] = row["json_output"]
+# with open('DSC180_B11_Q2/data/deepseek_8bit_finetuned.json', 'w') as f:
+#     json.dump(output, f)
+
+dataset.to_csv('DSC180_B11_Q2/data/llama3b_output_fully_nested.csv')

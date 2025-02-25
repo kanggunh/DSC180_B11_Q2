@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 117&#13;</text>
@@ -45,7 +44,7 @@
         <location offset="4312" length="52"/>
         <text>spiro-OMeTAD based on our IM radical doping strategy</text>
       </annotation>
-      <annotation id="4">
+      <annotation id="3">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">25</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -53,15 +52,15 @@
         <location offset="4423" length="3"/>
         <text>25%</text>
       </annotation>
-      <annotation id="5">
+      <annotation id="4">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.8</infon>
+        <infon key="identifier">80</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T00:34:00Z</infon>
+        <infon key="updated_at">2025-02-13T03:49:19Z</infon>
         <location offset="4448" length="4"/>
         <text>T 80</text>
       </annotation>
-      <annotation id="6">
+      <annotation id="5">
         <infon key="type">time</infon>
         <infon key="identifier">1200</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -69,23 +68,23 @@
         <location offset="4458" length="9"/>
         <text>1200 hour</text>
       </annotation>
-      <annotation id="7">
+      <annotation id="6">
         <infon key="type">humidity</infon>
-        <infon key="identifier">70</infon>
+        <infon key="identifier">70+-5</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T00:34:16Z</infon>
+        <infon key="updated_at">2025-02-13T03:49:25Z</infon>
         <location offset="4475" length="7"/>
         <text>70 ± 5%</text>
       </annotation>
-      <annotation id="8">
+      <annotation id="7">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.8</infon>
+        <infon key="identifier">80</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T00:34:22Z</infon>
+        <infon key="updated_at">2025-02-13T03:49:19Z</infon>
         <location offset="4510" length="4"/>
         <text>T 80</text>
       </annotation>
-      <annotation id="9">
+      <annotation id="8">
         <infon key="type">time</infon>
         <infon key="identifier">800</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -93,39 +92,39 @@
         <location offset="4519" length="4"/>
         <text>~800</text>
       </annotation>
-      <annotation id="10">
+      <annotation id="9">
         <infon key="type">temperature</infon>
-        <infon key="identifier">70</infon>
+        <infon key="identifier">70+-3</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T00:34:33Z</infon>
+        <infon key="updated_at">2025-02-13T03:49:31Z</infon>
         <location offset="4536" length="8"/>
         <text>70°± 3°C</text>
       </annotation>
-      <relation id="R2">
-        <infon key="type">test_2</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T00:35:15Z</infon>
-        <node refid="2" role=""/>
-        <node refid="4" role=""/>
-        <node refid="8" role=""/>
-        <node refid="9" role=""/>
-        <node refid="10" role=""/>
-      </relation>
-      <relation id="R1">
+      <relation id="R3">
         <infon key="type">test_1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T00:35:01Z</infon>
-        <node refid="5" role=""/>
-        <node refid="2" role=""/>
+        <infon key="updated_at">2025-02-17T03:49:53Z</infon>
         <node refid="4" role=""/>
+        <node refid="2" role=""/>
+        <node refid="3" role=""/>
+        <node refid="5" role=""/>
         <node refid="6" role=""/>
+      </relation>
+      <relation id="R4">
+        <infon key="type">test_2</infon>
+        <infon key="annotator">jillnomura1211@gmail.com</infon>
+        <infon key="updated_at">2025-02-17T03:49:53Z</infon>
+        <node refid="2" role=""/>
+        <node refid="3" role=""/>
         <node refid="7" role=""/>
+        <node refid="8" role=""/>
+        <node refid="9" role=""/>
       </relation>
     </passage>
     <passage>
       <offset>4851</offset>
       <text> PSC performance based on IM radical-doped spiro-OMeTAD We first compared the distinctive effects of conventional and IM radical doping of spiro-OMeTAD using (FAPbI 3 ) 0.99 (MAPbBr 3 ) 0.01 (FA, formamidinium; MA, methylammonium) PSCs with an SnO 2 electron transport layer (ETL) (fig.  S3 )  (12) . The conventional spiro-OMeTAD doping process requires an oxidation time of ~24 hours to reach the optimized PCE of 22.2% (Fig.  1B , fig.  S4A , and table  S1 ). The gradual improvement in device performance with increasing oxidation time is consistent with the conductivity increase (fig.  S5A ) that resulted from the continuous generation of spiro-OMeTAD •+ TFSI -radicals, as evidenced by the ultraviolet-visible-near-infrared (UV-Vis-NIR) absorption spectra (fig.  S5B )  (29, 30) . In our IM spiro-OMeTAD doping strategy, the first additive consists of presynthesized spiro-OMeTAD 2•+ (TFSI -) 2  (31, 32) , which can be immediately converted into spiro-OMeTAD •+ TFSI - monoradicals through comproportionation with the neutral spiro-OMeTAD  (25) : spiro-OMeTAD þ spiro-OMeTAD 2•þ TFSI À ð Þ 2 → 2 spiro-OMeTAD •þ TFSI À ð1Þ We note that more radical cations (and hence a higher conductivity) are obtained at lower dopant levels using the current approach than using LiTFSI, as indicated by absorption spectra and conductivity measurements (fig.  S5 ). Upon the incorporation of radicals, the device performance improved relative to undoped spiro-OMeTAD (fig.  S4B ), and an optimal performance was reached with the doping radical ratio of ~14 mol % (calculated to the ratio of monoradicals). However, compared to a high open-circuit voltage (V oc ) of 1.15 V achieved with the conventional doping recipe, the optimized V oc of spiro-OMeTAD doped with radicals was 1.04 V (Fig.  1B ). Upon addition of the second additive (ionic salt, TBMP + TFSI -), the V oc of the solar cells increased and a V oc of 1.17 V was achieved with 20 mol % TBMP + TFSI -. The resulting PCE of 23.4 % was even higher than that based on the conventional doping (Fig.  1B ). Further increasing the TBMP + TFSI -content led to a decrease in the fill factor (FF) (fig.  S4C  and table  S2 ) possibly because of ion aggregation (fig.  S6 ). The high V oc of the optimized devices was also consistent with the values of electroluminescence external quantum efficiency (EL EQE ), which increased from 0.05% to 5.4% upon the addition of 20 mol % TBMP + TFSI - into the HTL (fig.  S7 ), indicating reduced nonradiative recombination. Remarkably, based on the meso-TiO 2 scaffold with FAPbI 3 as the active layer, the IM radical doping of spiro-OMeTAD delivered a PCE of 25.1% (table  S3 , certified 25.0% in fig.  S8 ), which was again higher than that of the control device with conventionally doped spiro-OMeTAD (Fig.  1C ). The PCE statistics demonstrated that the IM radical doping strategy, which did not involve a post-oxidation process, was more controllable than the conventional doping process (fig.  S9 ). Because the IM radical doping strategy completely removed the need to use hygroscopic LiTFSI and volatile tBP, an improvement in device stability can be expected. We systematically compared the device stability with IM radical doping versus conventional doping as a function of RH, heat, and illumination. Relative to the conventional doping of spiro-OMeTAD, the IM radical doping strategy extended the T 80 of PSCs (unencapsulated) from ~96 to ~1240 hours under high RH of ~70 ± 5% (Fig.  1D  and fig.  S10 ), and T 80 from ~264 to ~796 hours under ~70°± 3°C (Fig.  1E  and fig.  S11 ). The improved device stability with the IM radical-doped HTL was ascribed to not only the improved stability of HTL but also the prevention of phase and thermal degradation of the perovskite active layer under high RH and under heat stress, as evidenced from optical images (fig.  S12 ) and x-ray diffraction results (figs. S13 and S14) of the degraded devices. Scanning electron microscopy (SEM) images provided more details of the protection effect from the spiro-OMeTAD HTL based on IM radical doping. A large number of pinholes were observed in degraded devices based on the conventionally doped HTLs, implying that LiTFSI residuals absorbed moisture and that tBP volatilized gradually. Both effects accelerated the degradation of the perovskite active layer (figs. S15 and S16). In contrast, the devices based on the IM radical doping strategy maintained a compact and uniform morphology after long-term exposure to high RH and thermal stress (figs. S15 and S17), protecting the perovskite layer underneath. In addition, under maximum power point (MPP) tracking, the PCEs of PSCs based on conventional doping decayed to ~85% after 500 hours of continuous illumination. Devices based on the IM radical doping strategy maintained ~95% of the initial PCE after the same operational time (fig.  S18 ), similar to that of devices using inorganic HTLs  (33, 34)  or undoped polymer HTLs  (35) . &#13;</text>
-      <annotation id="3">
+      <annotation id="10">
         <infon key="type">perovskite_composition</infon>
         <infon key="identifier">(FAPbI 3 ) 0.99 (MAPbBr 3 ) 0.01</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -157,23 +156,23 @@
         <location offset="6623" length="6"/>
         <text>1.04 V</text>
       </annotation>
-      <annotation id="17">
+      <annotation id="14">
         <infon key="type">perovskite_composition</infon>
-        <infon key="identifier">formamidinium lead iodide</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T00:43:29Z</infon>
+        <infon key="identifier">FAPbI 3</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-11T19:11:35Z</infon>
         <location offset="7412" length="7"/>
         <text>FAPbI 3</text>
       </annotation>
-      <annotation id="14">
+      <annotation id="15">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.85</infon>
+        <infon key="identifier">85</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T00:40:54Z</infon>
+        <infon key="updated_at">2025-02-13T03:49:39Z</infon>
         <location offset="9556" length="4"/>
         <text>~85%</text>
       </annotation>
-      <annotation id="15">
+      <annotation id="16">
         <infon key="type">time</infon>
         <infon key="identifier">500</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -181,11 +180,11 @@
         <location offset="9567" length="9"/>
         <text>500 hours</text>
       </annotation>
-      <annotation id="16">
+      <annotation id="17">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">0.95</infon>
+        <infon key="identifier">95</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-27T00:41:09Z</infon>
+        <infon key="updated_at">2025-02-13T03:49:41Z</infon>
         <location offset="9664" length="4"/>
         <text>~95%</text>
       </annotation>
@@ -482,22 +481,22 @@
       <offset>70663</offset>
       <text>			 Torr to accomplish the solar cell fabrication. A 0.06 cm 2 shadow mask was used to define the effective working area of the solar cells.</text>
     </passage>
-    <relation id="R3">
+    <relation id="R1">
       <infon key="type">performance_1</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T00:37:25Z</infon>
+      <infon key="updated_at">2025-02-17T03:49:53Z</infon>
       <node refid="11" role=""/>
       <node refid="2" role=""/>
       <node refid="12" role=""/>
       <node refid="13" role=""/>
     </relation>
-    <relation id="R4">
+    <relation id="R2">
       <infon key="type">test_3</infon>
       <infon key="annotator">jillnomura1211@gmail.com</infon>
-      <infon key="updated_at">2025-01-27T00:41:36Z</infon>
-      <node refid="14" role=""/>
+      <infon key="updated_at">2025-02-17T03:49:53Z</infon>
       <node refid="15" role=""/>
       <node refid="16" role=""/>
+      <node refid="17" role=""/>
       <node refid="11" role=""/>
       <node refid="2" role=""/>
     </relation>

@@ -9,7 +9,6 @@
     <infon key="tt_curatable">no</infon>
     <infon key="tt_version">2</infon>
     <infon key="tt_round">2</infon>
-    <infon key="tt_review">1</infon>
     <passage>
       <offset>0</offset>
       <text>Paper #: 112&#13;</text>
@@ -85,7 +84,7 @@
         <location offset="6915" length="19"/>
         <text>MA 0.7 FA 0.3 PbI 3</text>
       </annotation>
-      <annotation id="8">
+      <annotation id="7">
         <infon key="type">hole_transport_layer</infon>
         <infon key="identifier">PTAA</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -93,11 +92,11 @@
         <location offset="10789" length="4"/>
         <text>PTAA</text>
       </annotation>
-      <annotation id="7">
+      <annotation id="8">
         <infon key="type">electron_transport_layer</infon>
-        <infon key="identifier">buckminsterfullerene</infon>
-        <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-26T19:48:34Z</infon>
+        <infon key="identifier">C60</infon>
+        <infon key="annotator">jlnomura@ucsd.edu</infon>
+        <infon key="updated_at">2025-02-12T09:53:38Z</infon>
         <location offset="10808" length="4"/>
         <text>C 60</text>
       </annotation>
@@ -117,7 +116,7 @@
         <location offset="11018" length="6"/>
         <text>1.14 V</text>
       </annotation>
-      <annotation id="13">
+      <annotation id="11">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">benzylhydrazine hydrochloride</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -125,7 +124,7 @@
         <location offset="11347" length="3"/>
         <text>BHC</text>
       </annotation>
-      <annotation id="11">
+      <annotation id="12">
         <infon key="type">treated_pce</infon>
         <infon key="identifier">23.4</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -133,7 +132,7 @@
         <location offset="11394" length="5"/>
         <text>23.4%</text>
       </annotation>
-      <annotation id="12">
+      <annotation id="13">
         <infon key="type">treated_voc</infon>
         <infon key="identifier">1.17</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -199,9 +198,9 @@
       </annotation>
       <annotation id="21">
         <infon key="type">humidity</infon>
-        <infon key="identifier">60</infon>
+        <infon key="identifier">60+-10</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-26T19:57:33Z</infon>
+        <infon key="updated_at">2025-02-13T04:08:33Z</infon>
         <location offset="15482" length="8"/>
         <text>60 ± 10%</text>
       </annotation>
@@ -215,13 +214,13 @@
       </annotation>
       <annotation id="23">
         <infon key="type">efficiency_cont</infon>
-        <infon key="identifier">0.6</infon>
+        <infon key="identifier">60</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-26T19:58:04Z</infon>
+        <infon key="updated_at">2025-02-13T04:08:36Z</infon>
         <location offset="16045" length="3"/>
         <text>60%</text>
       </annotation>
-      <annotation id="27">
+      <annotation id="24">
         <infon key="type">additive_molecule</infon>
         <infon key="identifier">benzylhydrazine hydrochloride</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
@@ -231,9 +230,9 @@
       </annotation>
       <annotation id="25">
         <infon key="type">efficiency_tret</infon>
-        <infon key="identifier">1</infon>
+        <infon key="identifier">100</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-26T19:58:24Z</infon>
+        <infon key="updated_at">2025-02-13T04:08:41Z</infon>
         <location offset="16228" length="21"/>
         <text>almost no degradation</text>
       </annotation>
@@ -248,38 +247,38 @@
       <relation id="R1">
         <infon key="type">performance_1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-26T19:54:05Z</infon>
-        <node refid="13" role=""/>
+        <infon key="updated_at">2025-02-17T03:49:56Z</infon>
         <node refid="11" role=""/>
         <node refid="12" role=""/>
+        <node refid="13" role=""/>
         <node refid="9" role=""/>
         <node refid="10" role=""/>
       </relation>
       <relation id="R2">
         <infon key="type">performance_2</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-26T19:55:39Z</infon>
+        <infon key="updated_at">2025-02-17T03:49:56Z</infon>
         <node refid="14" role=""/>
         <node refid="18" role=""/>
       </relation>
       <relation id="R3">
         <infon key="type">performance_3</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-26T19:55:46Z</infon>
+        <infon key="updated_at">2025-02-17T03:49:56Z</infon>
         <node refid="16" role=""/>
         <node refid="19" role=""/>
       </relation>
       <relation id="R4">
         <infon key="type">test_1</infon>
         <infon key="annotator">jillnomura1211@gmail.com</infon>
-        <infon key="updated_at">2025-01-26T19:59:20Z</infon>
+        <infon key="updated_at">2025-02-17T03:49:56Z</infon>
         <node refid="20" role=""/>
         <node refid="21" role=""/>
         <node refid="22" role=""/>
         <node refid="23" role=""/>
         <node refid="25" role=""/>
         <node refid="26" role=""/>
-        <node refid="27" role=""/>
+        <node refid="24" role=""/>
       </relation>
     </passage>
     <passage>
