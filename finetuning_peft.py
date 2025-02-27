@@ -34,14 +34,13 @@ def create_prompt_formats(sample):
     It is likely that a lot of this data is not present in the chunk provided. Only extract the data points that are present in the chunk.
     Follow these guidelines:
 
-    "Only extract the variables that were developed in this study. You must omit the ones extracted from the bibliography"
-    Your task is to extract relevant scientific data from the provided text about perovskite solar cells.
+"Only extract the variables that were developed in this study. You must omit the ones extracted from the bibliography"
+Your task is to extract relevant scientific data from the provided text about perovskite solar cells.
     Follow these guidelines:
 
     1. **If passivating molecules are mentioned:**
-    - Do not retrieve the passivating molecule if it passivated on the electron or hole transport layers
     - If there is more than one passivating molecule tested, only return data for the champion passivator.
-    - Include stability test data for each molecule if available. There may be multiple stability tests for a single molecule.
+    - Include stability test data for the champion passivating molecule. There may be multiple stability tests for a single molecule.
 
     2. **If no passivating molecules are mentioned:**
     - Provide a JSON object with any other relevant data explicitly mentioned in the text.
@@ -55,18 +54,18 @@ def create_prompt_formats(sample):
         "electron_transport_layer": null, // Material used as the electron transport layer (string).
         "pin_nip_structure": null, // Whether the perovskite uses a PIN or NIP structure (values: "PIN" or "NIP").
         "hole_transport_layer": null, // Material used as the hole transport layer (string).
+        "passivating_molecule": null, // Name of the passivating molecule used in the test (must be a proper molecule name - i.e. can be parsed into SMILES format).
+        "control_pce": null, // Power conversion efficiency for control perovskite (numeric) (values should be between 10-30).
+        "control_voc": null, // Open-circuit voltage for control perovskite (numeric).
+        "treated_pec": null, // Power conversion efficiency for treated perovskite (numeric) (values should be between 10-30).
+        "treated_voc": null // Open-circuit voltage for treated perovskite (numeric).
         "test_1": {{ // Include only if stability tests are mentioned. Use unique keys for each test (e.g., test_1, test_2, etc.).
             "test_name": null, // Must be one of: "ISOS-D", "ISOS-L", "ISOS-T", "ISOS-LC", "ISOS-LT".
             "temperature": null, // Temperature in Celsius (numeric or string, no units or symbols like ° or -).
             "time": null, // Duration of the test in hours (string or numeric).
             "humidity": null, // Humidity level (string or numeric).
-            "retained_percentage_cont": null, // Percentage of the PCE retained by the control perovskite after stability test (numeric) (values should be between 30-100).
-            "retained_percentage_tret": null, // Percentage of the PCE retained by the treated perovskite after stability test (numeric) (values should be between 30-100).
-            "passivating_molecule": null, // Name of the passivating molecule used in the test (must be a proper molecule name - i.e. can be parsed into SMILES format).
-            "control_pce": null, // Power conversion efficiency for control perovskite (numeric) (values should be between 10-30).
-            "control_voc": null, // Open-circuit voltage for control perovskite (numeric).
-            "treated_pce": null, // Power conversion efficiency for treated perovskite (numeric) (values should be between 10-30).
-            "treated_voc": null // Open-circuit voltage for treated perovskite (numeric).
+            "efficiency_cont": null, // Percentage of the PCE retained by the control perovskite after stability test (numeric) (values should be between 30-100).
+            "efficiency_tret": null, // Percentage of the PCE retained by the treated perovskite after stability test (numeric) (values should be between 30-100).
         }}
     }}
 
@@ -81,7 +80,7 @@ def create_prompt_formats(sample):
     - Make sure to only return a JSON object.
     - Do not create any properties that are not stated in the JSON structure provided.
     - If you cannot find a value, do not omit that property, just set it to null.
-    - Make sure not to confuse the retained_proportion_cont/retained_proportion_tret variables with the control_pce/treated_pce variables. 
+    - Make sure not to confuse the efficiency_cont/efficiency_tret variables with the control_pce/treated_pce variables. 
     - The PCE values will almost never be above 30, while the percentage retained values will rarely be below 50%. The retained percentage will not always be there, 
     please leave these values as null if they cannot be found. DO NOT use the PCE for these values.
 
@@ -112,7 +111,7 @@ def create_prompt_formats(sample):
     return sample
 
 
-df = pd.read_csv('DSC180_B11_Q2/data/chunked_training.csv')
+df = pd.read_csv('DSC180_B11_Q2/data/chunked_training_schema2.csv')
 dataset = Dataset.from_pandas(df).train_test_split(test_size=0.2)
 
 ### Fine-tuning
@@ -123,7 +122,7 @@ bnb_config = BitsAndBytesConfig(
     load_in_8bit=True,
 )
 # model_name = "meta-llama/Llama-3.2-3B-Instruct"
-model_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+# model_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
 model_name = "meta-llama/Llama-3.2-3B-Instruct"
 device_map = "auto"
 original_model = AutoModelForCausalLM.from_pretrained(model_name,
@@ -242,5 +241,11 @@ peft_trainer = transformers.Trainer(
 )
 print("training about to begin")
 peft_trainer.train()
-model_path = "models/DeepSeek-R1-PSC-Extractor-3B-16bit"
+try:
+    model_path = "models/Llama-PSC-Extractor-3B-16bit"
+    peft_trainer.model.save_pretrained(model_path)
+except:
+    print("failed to save to original path")
+model_path = "DSC180_B11_Q2/models/Llama-PSC-Extractor-3B-16bit"
 peft_trainer.model.save_pretrained(model_path)
+print("model saved")
