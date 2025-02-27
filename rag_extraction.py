@@ -36,18 +36,20 @@ pipe = pipeline(
     do_sample=False,
 )
 
-# prompt that specifies what to return
 PREFIX = """
 "You are a scientific assistant and your task is to extract certain information from text, particularly 
 in the context of perovskite solar cells. Your task is to identify and extract details about passivating molecules and associated performance data mentioned in the text.
 We are in a scientific environment. You MUST be critical of the units of the variables.
 
 "Only extract the variables that were developed in this study. You must omit the ones extracted from the bibliography"
-Your task is to extract relevant scientific data from the provided text about perovskite solar cells.
+Your task is to extract relevant scientific data from the provided text about perovskite solar cells. Do not include any data about silicon solar cells.
     Follow these guidelines:
 
     1. **If passivating molecules are mentioned:**
-    - Include stability test data for each molecule if available. There may be multiple stability tests for a single molecule.
+    - Only include if the molecule is passivated on the perovskite composition
+    - If there is more than one passivating molecule tested, only return data for the champion passivator.
+    - Include stability test data for the champion passivating molecule. 
+    - There may be multiple stability tests for a single molecule, only return the stability test data for the test with the most information.
 
     2. **If no passivating molecules are mentioned:**
     - Provide a JSON object with any other relevant data explicitly mentioned in the text.
@@ -61,19 +63,17 @@ Your task is to extract relevant scientific data from the provided text about pe
         "electron_transport_layer": null, // Material used as the electron transport layer (string).
         "pin_nip_structure": null, // Whether the perovskite uses a PIN or NIP structure (values: "PIN" or "NIP").
         "hole_transport_layer": null, // Material used as the hole transport layer (string).
-        "test_1": {{ // Include only if stability tests are mentioned. Use unique keys for each test (e.g., test_1, test_2, etc.).
-            "test_name": null, // Must be one of: "ISOS-D", "ISOS-L", "ISOS-T", "ISOS-LC", "ISOS-LT".
-            "temperature": null, // Temperature in Celsius (numeric or string, no units or symbols like ° or -).
-            "time": null, // Duration of the test in hours (string or numeric).
-            "humidity": null, // Humidity level (string or numeric).
-            "retained_percentage_cont": null, // Percentage of the PCE retained by the control perovskite after stability test (numeric) (values should be between 30-100).
-            "retained_percentage_tret": null, // Percentage of the PCE retained by the treated perovskite after stability test (numeric) (values should be between 30-100).
-            "passivating_molecule": null, // Name of the passivating molecule used in the test (must be a proper molecule name - i.e. can be parsed into SMILES format).
-            "control_pce": null, // Power conversion efficiency for control perovskite (numeric) (values should be between 10-30).
-            "control_voc": null, // Open-circuit voltage for control perovskite (numeric).
-            "treated_pce": null, // Power conversion efficiency for treated perovskite (numeric) (values should be between 10-30).
-            "treated_voc": null // Open-circuit voltage for treated perovskite (numeric).
-        }}
+        "passivating_molecule": null, // Name of the passivating molecule used in the test (must be a proper molecule name - i.e. can be parsed into SMILES format).
+        "control_pce": null, // Power conversion efficiency for control perovskite (numeric) (values should be between 10-30).
+        "control_voc": null, // Open-circuit voltage for control perovskite (numeric).
+        "treated_pec": null, // Power conversion efficiency for treated perovskite (numeric) (values should be between 10-30).
+        "treated_voc": null // Open-circuit voltage for treated perovskite (numeric).
+        "test_name": null, // Must be one of: "ISOS-D", "ISOS-L", "ISOS-T", "ISOS-LC", "ISOS-LT".
+        "temperature": null, // Temperature in Celsius (numeric or string, no units or symbols like ° or -).
+        "time": null, // Duration of the test in hours (string or numeric).
+        "humidity": null, // Humidity level (string or numeric).
+        "retained_percentage_cont": null, // Percentage of the PCE retained by the control perovskite after stability test (numeric) (values should be between 30-100).
+        "retained_percentage_tret": null, // Percentage of the PCE retained by the treated perovskite after stability test (numeric) (values should be between 30-100).
     }}
 
     **Instructions:**
