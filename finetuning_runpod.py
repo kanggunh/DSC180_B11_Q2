@@ -206,9 +206,9 @@ import transformers
 
 peft_training_args = TrainingArguments(
     learning_rate=6e-5,
-    per_device_train_batch_size=10,
-    per_device_eval_batch_size=10,
-    gradient_accumulation_steps=10,
+    per_device_train_batch_size=6,
+    per_device_eval_batch_size=6,
+    gradient_accumulation_steps=6,
     optim="paged_adamw_8bit",
     num_train_epochs=3,
     fp16=False,
