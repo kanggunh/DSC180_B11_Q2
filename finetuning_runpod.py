@@ -122,8 +122,8 @@ bnb_config = BitsAndBytesConfig(
     load_in_8bit=True,
 )
 # model_name = "meta-llama/Llama-3.2-3B-Instruct"
-model_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
-# model_name = "meta-llama/Llama-3.2-3B-Instruct"
+# model_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+model_name = "meta-llama/Llama-3.1-8B-Instruct"
 device_map = "auto"
 original_model = AutoModelForCausalLM.from_pretrained(model_name,
                                                       quantization_config=bnb_config,
@@ -243,7 +243,7 @@ peft_trainer = transformers.Trainer(
 print("training about to begin")
 peft_trainer.train()
 try:
-    model_path = "models/DeepSeek-R1-PSC-Extractor-8B-8bit-Schema-2"
+    model_path = "models/LLama-PSC-Extractor-8B-8bit-Schema-2"
     peft_trainer.model.save_pretrained(model_path)
 except:
     print("failed to save to original path")
