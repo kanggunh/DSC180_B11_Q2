@@ -57,7 +57,7 @@ Your task is to extract relevant scientific data from the provided text about pe
         "passivating_molecule": null, // Name of the passivating molecule used in the test (must be a proper molecule name - i.e. can be parsed into SMILES format).
         "control_pce": null, // Power conversion efficiency for control perovskite (numeric) (values should be between 10-30).
         "control_voc": null, // Open-circuit voltage for control perovskite (numeric).
-        "treated_pec": null, // Power conversion efficiency for treated perovskite (numeric) (values should be between 10-30).
+        "treated_pce": null, // Power conversion efficiency for treated perovskite (numeric) (values should be between 10-30).
         "treated_voc": null // Open-circuit voltage for treated perovskite (numeric).
         "test_1": {{ // Include only if stability tests are mentioned. Use unique keys for each test (e.g., test_1, test_2, etc.).
             "test_name": null, // Must be one of: "ISOS-D", "ISOS-L", "ISOS-T", "ISOS-LC", "ISOS-LT".
@@ -122,8 +122,8 @@ bnb_config = BitsAndBytesConfig(
     load_in_8bit=True,
 )
 # model_name = "meta-llama/Llama-3.2-3B-Instruct"
-# model_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
-model_name = "meta-llama/Llama-3.1-8B-Instruct"
+model_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+# model_name = "meta-llama/Llama-3.1-8B-Instruct"
 device_map = "auto"
 original_model = AutoModelForCausalLM.from_pretrained(model_name,
                                                       quantization_config=bnb_config,
@@ -207,9 +207,9 @@ import transformers
 
 peft_training_args = TrainingArguments(
     learning_rate=6e-5,
-    per_device_train_batch_size=6,
-    per_device_eval_batch_size=6,
-    gradient_accumulation_steps=6,
+    per_device_train_batch_size=28,
+    per_device_eval_batch_size=28,
+    gradient_accumulation_steps=28,
     optim="paged_adamw_8bit",
     num_train_epochs=3,
     fp16=False,
@@ -243,7 +243,7 @@ peft_trainer = transformers.Trainer(
 print("training about to begin")
 peft_trainer.train()
 try:
-    model_path = "models/LLama-PSC-Extractor-8B-8bit-Schema-2"
+    model_path = "models/DeepSeek-R1-PSC-Extractor-8B-8bit-Schema-2"
     peft_trainer.model.save_pretrained(model_path)
 except:
     print("failed to save to original path")
