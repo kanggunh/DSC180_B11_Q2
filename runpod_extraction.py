@@ -15,7 +15,7 @@ load_dotenv()
 access_token = os.getenv("HF_TOKEN")
 login(token=access_token)
 
-model_names = ["DeepSeek-R1-PSC-Extractor-8B-8bit-Schema-2", "Llama-PSC-Extractor-3B-16bit", "Llama-PSC-Extractor-8B-8bit"]
+model_names = ["DeepSeek-R1-PSC-Extractor-8B-8bit-Schema-2", "Llama-PSC-Extractor-3B-16bit", "LLama-PSC-Extractor-8B-8bit-Schema-2"]
 print("input model name:")
 model_name = input()
 if model_name not in model_names:
