@@ -22,7 +22,7 @@ if model_name not in model_names:
     print("invalid model name")
     exit()
 model_index = model_names.index(model_name)
-tokenizers = ["deepseek-ai/DeepSeek-R1-Distill-Llama-8B", "meta-llama/Llama-3.2-3B-Instruct", "meta-llamaLlama-3.1-8B-Instruct"]
+tokenizers = ["deepseek-ai/DeepSeek-R1-Distill-Llama-8B", "meta-llama/Llama-3.2-3B-Instruct", "meta-llama/Llama-3.1-8B-Instruct"]
 tokenizer_name = tokenizers[model_index]
 model_path = os.path.join("models", model_name)
 print("input batch size:")  
