@@ -40,7 +40,7 @@ if model_index == 1:
     bnb_config = None
 model = AutoModelForCausalLM.from_pretrained(model_path, quantization_config=bnb_config, device_map="auto")
 tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
-tokenizer.model_max_length = 70000
+tokenizer.model_max_length = 16000
 pipe = pipeline(
     "text-generation",
     model=model,
@@ -109,7 +109,7 @@ Your task is to extract relevant scientific data from the provided text about pe
 """
 SUFFIX = """\n\n{sample}\n\n"""
 def create_prompt(system, user):
-    tokens = tokenizer.encode(user, max_length=60000, truncation=True) # prevents CUDA memory errors with current GPU
+    tokens = tokenizer.encode(user, max_length=16000, truncation=True) # prevents CUDA memory errors with current GPU
     truncated_user = tokenizer.decode(tokens)
     return [
     {"role": "system", "content": system},
@@ -138,7 +138,7 @@ def generate_extraction_batch(texts):
     return extracted_jsons
 
 num_workers = min(cpu_count(), 8)  # Adjust based on available CPUs
-dataset = pd.read_csv('data/rag_filtered_150_papers.csv')
+dataset = pd.read_csv('data/rag_filtered_evaluation_papers.csv')
 data_loader = DataLoader(dataset["filtered_text"].tolist(), batch_size=batch_size, num_workers=num_workers)
 
 json_outputs = []
