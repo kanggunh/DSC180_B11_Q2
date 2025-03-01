@@ -55,7 +55,7 @@ pipe = pipeline(
     do_sample=False,
 )
 
-pipe.tokenizer.pad_token_id = pipe.model.config.eos_token_id
+pipe.tokenizer.pad_token_id = pipe.model.config.eos_token_id[0]
 
 PREFIX = """
 "You are a scientific assistant and your task is to extract certain information from text, particularly 
