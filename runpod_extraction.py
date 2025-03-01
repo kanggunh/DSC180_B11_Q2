@@ -50,6 +50,8 @@ pipe = pipeline(
     do_sample=False,
 )
 
+pipe.tokenizer.pad_token_id = model.config.eos_token_id
+
 PREFIX = """
 "You are a scientific assistant and your task is to extract certain information from text, particularly 
 in the context of perovskite solar cells. Your task is to identify and extract details about passivating molecules and associated performance data mentioned in the text.
