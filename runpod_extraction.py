@@ -15,14 +15,14 @@ load_dotenv()
 access_token = os.getenv("HF_TOKEN")
 login(token=access_token)
 
-model_names = ["DeepSeek-R1-PSC-Extractor-8B-8bit-Schema-2", "Llama-PSC-Extractor-3B-16bit", "Llama-PSC-Extractor-8B-8bit"]
+model_names = ["DeepSeek-R1-PSC-Extractor-8B-8bit-Schema-2", "Llama-PSC-Extractor-3B-16bit", "LLama-PSC-Extractor-8B-8bit-Schema-2"]
 print("input model name:")
 model_name = input()
 if model_name not in model_names:
     print("invalid model name")
     exit()
 model_index = model_names.index(model_name)
-tokenizers = ["deepseek-ai/DeepSeek-R1-Distill-Llama-8B", "meta-llama/Llama-3.2-3B-Instruct", "meta-llamaLlama-3.1-8B-Instruct"]
+tokenizers = ["deepseek-ai/DeepSeek-R1-Distill-Llama-8B", "meta-llama/Llama-3.2-3B-Instruct", "meta-llama/Llama-3.1-8B-Instruct"]
 tokenizer_name = tokenizers[model_index]
 model_path = os.path.join("models", model_name)
 print("input batch size:")  
@@ -41,6 +41,11 @@ if model_index == 1:
 model = AutoModelForCausalLM.from_pretrained(model_path, quantization_config=bnb_config, device_map="auto")
 tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
 tokenizer.model_max_length = 16000
+
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token  # Explicitly set pad token
+if tokenizer.pad_token is None:
+    tokenizer.pad_token_id = model.config.eos_token_id
 pipe = pipeline(
     "text-generation",
     model=model,
@@ -49,6 +54,8 @@ pipe = pipeline(
     top_p=None,
     do_sample=False,
 )
+
+pipe.tokenizer.pad_token_id = pipe.model.config.eos_token_id[0]
 
 PREFIX = """
 "You are a scientific assistant and your task is to extract certain information from text, particularly 
