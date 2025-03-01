@@ -41,6 +41,8 @@ if model_index == 1:
 model = AutoModelForCausalLM.from_pretrained(model_path, quantization_config=bnb_config, device_map="auto")
 tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
 tokenizer.model_max_length = 70000
+if tokenizer.pad_token is None:
+    tokenizer.pad_token_id = model.config.eos_token_id
 pipe = pipeline(
     "text-generation",
     model=model,
