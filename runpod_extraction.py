@@ -17,7 +17,7 @@ login(token=access_token)
 
 model_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
 tokenizer_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
-model_path = os.path.join("models", model_name)
+model_path = model_name
 print("input file name (must be in data folder):")
 file_name = input()
 relative_path = os.path.join('data', file_name)
@@ -159,4 +159,4 @@ dataset["json_output"] = json_outputs
 # with open('DSC180_B11_Q2/data/deepseek_8bit_finetuned.json', 'w') as f:
 #     json.dump(output, f)
 
-dataset.to_csv(f'data/final_extraction/{file_name}.csv')
+dataset.to_csv(f'data/final_extraction/extraction_{file_name}')
