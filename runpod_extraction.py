@@ -15,16 +15,15 @@ load_dotenv()
 access_token = os.getenv("HF_TOKEN")
 login(token=access_token)
 
-model_names = ["DeepSeek-R1-PSC-Extractor-8B-8bit-Schema-2", "Llama-PSC-Extractor-3B-16bit", "LLama-PSC-Extractor-8B-8bit-Schema-2"]
-print("input model name:")
-model_name = input()
-if model_name not in model_names:
-    print("invalid model name")
-    exit()
-model_index = model_names.index(model_name)
-tokenizers = ["deepseek-ai/DeepSeek-R1-Distill-Llama-8B", "meta-llama/Llama-3.2-3B-Instruct", "meta-llama/Llama-3.1-8B-Instruct"]
-tokenizer_name = tokenizers[model_index]
+model_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+tokenizer_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
 model_path = os.path.join("models", model_name)
+print("input file name (must be in data folder):")
+file_name = input()
+relative_path = os.path.join('data', file_name)
+if os.path.exists(relative_path) == False:
+    print('file does not exist')
+    exit()
 print("input batch size:")  
 batch_size = int(input())
 print("")
@@ -35,9 +34,9 @@ bnb_config = BitsAndBytesConfig(
     # bnb_4bit_use_double_quant=False
 )
 
-# model can be run without quantization
-if model_index == 1:
-    bnb_config = None
+# # model can be run without quantization
+# if model_index == 1:
+#     bnb_config = None
 model = AutoModelForCausalLM.from_pretrained(model_path, quantization_config=bnb_config, device_map="auto")
 tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
 tokenizer.model_max_length = 16000
@@ -55,8 +54,8 @@ pipe = pipeline(
     do_sample=False,
 )
 
-if model_index >= 1: #llama models only
-    pipe.tokenizer.pad_token_id = pipe.model.config.eos_token_id[0]
+# if model_index >= 1: #llama models only
+#     pipe.tokenizer.pad_token_id = pipe.model.config.eos_token_id[0]
 
 PREFIX = """
 "You are a scientific assistant and your task is to extract certain information from text, particularly 
@@ -146,8 +145,8 @@ def generate_extraction_batch(texts):
     return extracted_jsons
 
 num_workers = min(cpu_count(), 8)  # Adjust based on available CPUs
-dataset = pd.read_csv('data/rag_filtered_evaluation_papers.csv')
-data_loader = DataLoader(dataset["filtered_text"].tolist(), batch_size=batch_size, num_workers=num_workers)
+dataset = pd.read_csv(relative_path)
+data_loader = DataLoader(dataset["text"].tolist(), batch_size=batch_size, num_workers=num_workers)
 
 json_outputs = []
 for batch in tqdm(data_loader, desc="Processing Batches"):
@@ -160,4 +159,4 @@ dataset["json_output"] = json_outputs
 # with open('DSC180_B11_Q2/data/deepseek_8bit_finetuned.json', 'w') as f:
 #     json.dump(output, f)
 
-dataset.to_csv(f'data/schema2/{model_name}.csv')
+dataset.to_csv(f'data/final_extraction/{file_name}.csv')
