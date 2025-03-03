@@ -42,6 +42,7 @@ DSC180_B11
 └───run.py                                     
 
 ```
+Website: https://kanggunh.github.io/DSC180_B11_Q2/
 
 ### Introduction
 This project aims to optimize the discovery of small molecule that improve the stability of perovskite solar cells. By leveraging literature mining, graph-based molecular representations, and machine learning models, we seek to identify patterns that lead to successful molecules and generate deeper insights into perovskite solar cell performance. The current methods rely heavily on Edisonian experimentation, which is inefficient. Our goal is to automate and streamline this discovery process using data-driven techniques, focusing on the vast body of research already conducted in this field.
