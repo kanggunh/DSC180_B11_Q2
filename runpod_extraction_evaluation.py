@@ -18,15 +18,8 @@ login(token=access_token)
 model_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
 tokenizer_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
 model_path = model_name
-print("input file name (must be in data folder):")
-file_name = input()
-relative_path = os.path.join('data', file_name)
-if os.path.exists(relative_path) == False:
-    print('file does not exist')
-    exit()
 print("input batch size:")  
 batch_size = int(input())
-print("")
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_quant_type="nf4",
