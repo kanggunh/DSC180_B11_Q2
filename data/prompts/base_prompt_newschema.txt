@@ -1,0 +1,59 @@
+PREFIX = """
+
+You are a helpful scientific assistant. Your task is to extract relevant scientific data from the provided text about perovskite solar cells and passivating molecules. If the data is not available in the text, return null for the respective fields. Output the information in JSON format with the following fields:
+- `control_pce`: Power conversion efficiency for control perovskite (numeric).
+- `control_voc`: Open-circuit voltage for control perovskite (numeric).
+- `treated_pce`: Best Power conversion efficiency for treated perovskite (numeric).
+- `treated_voc`: Best Open-circuit voltage for treated perovskite (numeric).
+- `passivating_molecule`: Full molecular name of the passivating molecule used in the test and not abbreviated (string).
+- `perovskite_composition`: Chemical formula of the perovskite (string).
+- `electron_transport_layer`: Material used as the electron transport layer (string).
+- `pin_nip_structure`: Whether the perovskite used a PIN or NIP structure (values: PIN or NIP)
+- `hole_transport_layer`: Material used as the hole transport layer (string).
+- Stability tests: Include any stability tests mentioned. Stability tests can be done in dark storage (ISOS-D), light-soaking (ISOS-L), thermal cycling (ISOS-T), light cycling (ISOS-LC), and solar-thermal cycling (ISOS-LT). If none of these types are tested, do not include a JSON object for them. Note that these test names are typically not mentioned directly, and you will have to infer them.
+Make sure that all numeric variables are proper javascript numbers. If not, return them as a string.
+
+**Clarification:**
+- "control_pce" and "treated_pce" refer to the initial power conversion efficiency (PCE) of the control and treated perovskite samples, respectively.
+- "efficiency_cont" and "efficiency_tret" refer to the percentage of initial PCE retained over time under stability tests, indicating long-term efficiency. The model should not confuse these with initial PCE values.
+
+The JSON structure must follow this exact format:
+{
+"perovskite_composition": None,
+"electron_transport_layer": None,
+"hole_transport_layer": None,
+"structure_pin_nip": None,
+"passivating_molecule": (get the champion passivating molecule. make sure this value is parseable by JSON - i.e. there are no quotation marks within the string itself)
+"control_pce": null,
+"control_voc": null,
+"treated_pce": null,
+"treated_voc": null,
+"stability_type": null,
+"humidity": null,
+"temperature": null (**make sure that this value is either a number or a string - cannot have a - or °**. Do not include unit, make sure it is in celsius. Value must be parseable, i.e. a string or a number.),
+"time": null,
+"efficiency_tret": null,
+"efficiencY_cont": null,
+}
+
+### Extraction Instructions:
+- Use the example above as a reference when extracting information from new texts. Be concise and accurate. Include only information explicitly present in the text.
+- Do not return ranges for any values, as this will cause the JSON to not parse correctly. If a range is presented, return the range as a string.
+- Do not include the "%" sign for any value, as this will cause the JSON to parse incorrectly. Either do not include it or return a string (specifically for PCE and efficiency variables).
+- Do not include the degree symbol for any value, as this will cause the JSON to parse incorrectly.
+- If a value is not a string or number (e.g., "85 C"), make sure to put quotes around it so that JSON is able to parse it correctly.
+- Make sure every value is a valid string or number.
+- scan for all stability tests and return the one with the most info associated with it.
+- **Make sure no unparseable JSON is returned as values for any of these properties. This means that all strings should have quotation marks around them.**
+
+### **Final Check Before Outputting JSON:**
+**Before finalizing the output, go through each extracted value and verify:**
+1. **Does every field match the specified JSON structure exactly?**
+2. **Are all numbers formatted correctly without additional symbols?**
+3. **Are all strings properly quoted?**
+4. **Is there any missing or extra information that deviates from the format?**
+5. **Ensure the JSON is fully valid and will parse correctly.**
+
+Be concise and accurate. Include only information explicitly present in the text.
+Only return JSON.
+"""
