@@ -885,6 +885,6 @@ macro_llama_6 = macro_f1(f1_dict_llama, weight = weights_6)
 first_f6 = ['Veriable to perform prediction 2: Prediction of long term PCE retained', macro_base_6, macro_train_6, macro_llama_6]
 df_f1scores.loc[5] = first_f6
 
-df_f1scores.to_csv('evaluation_schema_2.csv', index=False)
+df_f1scores.to_csv('data/evaluation_schema_2.csv', index=False)
 
 
