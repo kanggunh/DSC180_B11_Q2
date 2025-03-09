@@ -101,6 +101,65 @@ def convert_numeric(dictionary):
                         dictionary[key] = None
     return dictionary
 
+def convert_efficiency(dictionary):
+    entity_decimal = ['efficiency_cont','efficiency_tret']
+    for key in dictionary.keys():
+        if (key.startswith('test')) & (type(dictionary[key]) == dict):
+            for entity in dictionary[key].keys():
+                if (entity in entity_decimal) and (dictionary[key][entity] != None):
+                    if dictionary[key][entity] == dictionary[key][entity] > 1:
+                        dictionary[key][entity] = dictionary[key][entity] / 100
+    return dictionary
+
+##Loading in annotation
+with open('data/annotations_flattened.json', 'r') as f:
+    json_data = json.load(f)
+
+flattened_format = []
+for key in json_data:
+    papers = json_data[key]
+    if papers is None:
+        flattened_format.append({ "paper_id": key, "output": None })
+        continue
+    if len(papers.keys()) == 0:
+        print(key)
+    for passivator in papers:
+        paper_data = papers[passivator]
+        paper_keys = paper_data.keys()
+        test_keys = [key for key in paper_keys if "test" in key]
+        for test_key in test_keys:
+            flattened_paper = {k: v for k, v in paper_data.items() if k not in test_keys}
+            flattened_paper.update(paper_data[test_key])
+            flattened_format.append({ "paper_id": int(key), "output": flattened_paper })
+
+annotation_df = pd.DataFrame(flattened_format)
+annotation_df.columns = ['paper_num', 'output']
+annotation_df["paper_num"] = annotation_df["paper_num"].astype(int)
+annotation_df = annotation_df.sort_values(by = 'paper_num')
+annotation_df = annotation_df[annotation_df["output"].isna() == False]
+annotation_df["paper_num"] = pd.to_numeric(annotation_df["paper_num"])
+
+## Getting Extraction JSON
+
+def convert_efficiency_key(dict):
+    for key, item in dict.items():
+        if 'test' in key:
+            if 'retained_proportion_cont' in dict[key]:
+                dict[key]['efficiency_cont'] = dict[key].pop('retained_proportion_cont')
+            if 'retained_proportion_tret' in dict[key]:
+                dict[key]['efficiency_tret'] = dict[key].pop('retained_proportion_tret')
+    return dict
+
+## extraction performed by basemodel
+with open("data/deepseek_base_flat.json", 'r') as f:
+    extraction = json.load(f)
+
+extraction_base = pd.DataFrame(list(extraction.items()), columns=['paper_num', 'output'])
+extraction_base['paper_num'] = pd.to_numeric(extraction_base['paper_num'])
+extraction_base = extraction_base.sort_values('paper_num')
+extraction_base['output'] = extraction_base['output'].apply(convert_numeric)
+extraction_base['output'] = extraction_base['output'].apply(convert_efficiency)
+
 
 
 
