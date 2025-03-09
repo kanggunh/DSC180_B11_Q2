@@ -6,6 +6,7 @@ from src.classification import apply_keyword_classification, train_classificatio
 from src.rag_filtering import filter_with_rag
 from src.extraction import run_extraction, convert_csv_to_json
 from src.extraction_evaluation import evaluate_extraction
+from src.format_extraction import ensure_json_format, format_passivators
 
 def run_scraping_and_conversion():
     crossref_save_path = '../data/scraping_and_conversion/crossref_data.csv'
@@ -13,21 +14,21 @@ def run_scraping_and_conversion():
     generate_crossref_dataset(crossref_save_path, 2024)
     scrape_papers(crossref_save_path)
     convert_pdf_to_xml()
-    convert_grobid_xml_to_csv()
+    convert_grobid_xml_to_csv(papers_output_path)
 
 def run_classification():
     train_classification_models()
     apply_keyword_classification()
 
-def run_extraction_evaluation():
+def run_extraction_for_eval():
     model_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
     annotations_path = "../data/annotations/150_papers.csv"
     rag_output_path = filter_with_rag(annotations_path)
     extraction_csv_path = run_extraction(model_name=model_name, tokenizer_name=model_name, data_path=rag_output_path)
     extraction_json_path = f"../data/extraction_eval/{model_name.split('/')[-1]}.json"
     convert_csv_to_json(extraction_csv_path, extraction_json_path)
-    ##TODO: Add the formatting and passivator conversion code
-    evaluate_extraction
+    formatted_path = ensure_json_format(extraction_json_path)
+    format_passivators(formatted_path)
 
 
 def run_full_extraction():
@@ -36,7 +37,11 @@ def run_full_extraction():
     extraction_csv_path = run_extraction(rag_output_path)
     extraction_json_path = "../data/extraction_final/final_extraction.json"
     convert_csv_to_json(extraction_csv_path, extraction_json_path)
+    formatted_path = ensure_json_format(extraction_json_path)
+    format_passivators(formatted_path)
 
+def run_prediction():
+    #TODO: Add the rest of the prediction code
 
 def run_full_pipeline():
     run_scraping_and_conversion()
@@ -53,12 +58,13 @@ if __name__ == "__main__":
     if 'finetuning' in args:
         #TODO: Add the rest of the fine tuning code
     if 'extraction_evaluation' in args:
-        #TODO: Add the rest of the evaluation code
+        run_extraction_for_eval()
     if 'extraction' in args:
-        #TODO: Add the rest of the extraction code
+        run_full_extraction()
     if 'prediction' in args:
-        #TODO: Add the rest of the prediction code
+        run_prediction()
     elif 'all' in args or len(args) == 0:
         run_scraping_and_conversion()
         run_classification()
+        run_full_extraction()
         #TODO: Add the rest of the all code
