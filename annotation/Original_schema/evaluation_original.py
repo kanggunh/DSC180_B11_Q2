@@ -1,4 +1,5 @@
 ## This file compares teamtat annotation with extraction performed on Original Schema
+
 from sklearn.metrics import precision_score, recall_score, f1_score
 from difflib import SequenceMatcher
 import numpy as np
@@ -892,4 +893,4 @@ macro_llama_6 = macro_f1(f1s_llama, weight = weights_6)
 first_f6 = ['Weight to perform prediction 3', macro_base_6, macro_train_6, macro_train8_6, macro_llama_6]
 df_f1scores.loc[6] = first_f6
 
-df_f1scores.to_csv("f1_scores_originalschema.csv", index = False)
+df_f1scores.to_csv("data/f1_scores_originalschema.csv", index = False)
