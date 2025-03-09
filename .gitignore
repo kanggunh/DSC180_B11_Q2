@@ -1,17 +1,16 @@
-/data/pdfs
-/data/xmls
+/data/scraping_and_conversion/pdfs
+/data/scraping_and_conversion/xmls
 
 # Too large
-/data/scraped_papers.csv
-/data/scraped_papers_final.csv
-/data/relevant_papers.csv
-
+/data/scraping_and_conversion/scraped_papers.csv
+/data/classification/relevant_papers.csv
+/data/rag_processing/rag_filtered_relevant_papers.csv
+/results
 
 env
 .env
 .DS_Store
 mykernel/
-work_in_progress/Nic/llama-3.2-3b-it-Perovskite-PaperExtractor
 
 .ipynb_checkpoints
-/results
+

@@ -1,48 +1,64 @@
-# import subprocess
-# import os
+import sys
+from src.crossref_dataset_generation import generate_crossref_dataset
+from src.scraping import scrape_papers
+from src.pdf_conversion import convert_pdf_to_xml, convert_grobid_xml_to_csv
+from src.classification import apply_keyword_classification, train_classification_models
+from src.rag_filtering import filter_with_rag
+from src.extraction import run_extraction, convert_csv_to_json
+from src.extraction_evaluation import evaluate_extraction
 
-# def run_script(script_path):
-#     """Run a Python script."""
-#     print(f"Running script: {script_path}")
-#     subprocess.run(['python', script_path], check=True)
+def run_scraping_and_conversion():
+    crossref_save_path = '../data/scraping_and_conversion/crossref_data.csv'
+    papers_output_path = '../data/scraped_and_conversion/scraped_papers.csv'
+    generate_crossref_dataset(crossref_save_path, 2024)
+    scrape_papers(crossref_save_path)
+    convert_pdf_to_xml()
+    convert_grobid_xml_to_csv()
 
-# def run_notebook(notebook_path):
-#     """Run a Jupyter notebook."""
-#     print(f"Running notebook: {notebook_path}")
-#     subprocess.run(['jupyter', 'nbconvert', '--to', 'notebook', '--execute', notebook_path], check=True)
+def run_classification():
+    train_classification_models()
+    apply_keyword_classification()
 
-# def main():
-#     # Step 1: Generating a Relevant vs. Irrelevant Research Papers Database for Classification
-    
-#     # Step 1.1: Run the first script
-#     run_script('notebooks_for_checkpoint/1_extract_link_badpaper.py')
+def run_extraction_evaluation():
+    model_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+    annotations_path = "../data/annotations/150_papers.csv"
+    rag_output_path = filter_with_rag(annotations_path)
+    extraction_csv_path = run_extraction(model_name=model_name, tokenizer_name=model_name, data_path=rag_output_path)
+    extraction_json_path = f"../data/extraction_eval/{model_name.split('/')[-1]}.json"
+    convert_csv_to_json(extraction_csv_path, extraction_json_path)
+    ##TODO: Add the formatting and passivator conversion code
+    evaluate_extraction
 
-#     # Step 1.2: Run the second notebook
-#     run_notebook('notebooks_for_checkpoint/2_Scrapint_texts.ipynb')
 
-#     # Step 2: Building and Evaluating Classification Models
-    
-#     # Step 2.1: Run the third notebook
-#     run_notebook('notebooks_for_checkpoint/3_TF-IDF_vectorizer_and_models.ipynb')
-    
-#     # Step 2.2: Run the fourth notebook
-#     run_notebook('notebooks_for_checkpoint/4_flan_model.ipynb')
+def run_full_extraction():
+    relevant_papers_path = "../data/classification/relevant_papers.csv"
+    rag_output_path = filter_with_rag(relevant_papers_path)
+    extraction_csv_path = run_extraction(rag_output_path)
+    extraction_json_path = "../data/extraction_final/final_extraction.json"
+    convert_csv_to_json(extraction_csv_path, extraction_json_path)
 
-#     # Step 2.3: Run the fifth notebook
-#     run_notebook('notebooks_for_checkpoint/5_sciBERT.ipynb')
 
-#     # Step 2.4: Run the sixth notebook
-#     run_notebook('notebooks_for_checkpoint/6_model_analysis.ipynb')
+def run_full_pipeline():
+    run_scraping_and_conversion()
+    run_classification()
+    run_full_extraction()
 
-#     # Additional Tasks for Data Extraction
-    
-#     # Step 2.5: Run the seventh notebook
-#     run_notebook('notebooks_for_checkpoint/7_database_searcher.ipynb')
+if __name__ == "__main__":
+    args = sys.argv[1:]
 
-#     # Step 2.6: Run the eighth notebook
-#     run_notebook('notebooks_for_checkpoint/8_xml_generator.ipynb')
-
-#     print("All tasks completed successfully.")
-
-# if __name__ == "__main__":
-#     main()
+    if 'scraping_and_conversion' in args:
+        run_scraping_and_conversion()
+    if 'classification' in args:
+        run_classification()
+    if 'finetuning' in args:
+        #TODO: Add the rest of the fine tuning code
+    if 'extraction_evaluation' in args:
+        #TODO: Add the rest of the evaluation code
+    if 'extraction' in args:
+        #TODO: Add the rest of the extraction code
+    if 'prediction' in args:
+        #TODO: Add the rest of the prediction code
+    elif 'all' in args or len(args) == 0:
+        run_scraping_and_conversion()
+        run_classification()
+        #TODO: Add the rest of the all code
