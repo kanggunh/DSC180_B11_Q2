@@ -1,11 +1,13 @@
 from openai import OpenAI
 import openai
 import json
+import pandas as pd
 from dotenv import load_dotenv
 import os
 import re
+import requests
 
-load_dotenv()
+
 
 def get_system_content():
     """
@@ -104,6 +106,7 @@ def ensure_json_format(json_path, batch_size=50):
     str
         The path to the formatted JSON file.
     """
+    load_dotenv()
     api_key = os.getenv("OPENAI_API_KEY")
     client = OpenAI(api_key=api_key)
     system_content = get_system_content()
@@ -294,3 +297,32 @@ def format_passivators(json_path):
                 data[key]["passivating_molecule"] = passivator_conversions[passivator_key]
     with open(json_path, 'w') as json_file:
         json.dump(data, json_file)
+
+def get_smiles(passivating_molecule):
+    """
+    Takes a passivating molecule and returns its SMILES string if it exists, None otherwise.
+
+    Args:
+        passivating_molecule (str): The name of the passivating molecule.
+
+    Returns:
+        str or None: The SMILES string of the passivating molecule if it exists, None otherwise.
+    """
+    base_url = "https://opsin.ch.cam.ac.uk/opsin/"
+    smiles_url = base_url + passivating_molecule + ".smi"
+    r = requests.get(smiles_url)
+    return r.text if r.status_code == 200 else None
+
+def create_df_from_json(json_path):
+    """
+    Takes a JSON file from extraction output and converts it into a DataFrame. The DataFrame is then sorted by index.
+    It then adds a new column "passivator_smiles" which is the SMILES string for the passivating molecule if it exists.
+    The DataFrame is then saved to a CSV file.
+    Returns the path to the output CSV file.
+    """
+    df = pd.read_json(json_path)
+    df = df.T.sort_index()
+    df["passivator_smiles"] = df["passivating_molecule"].apply(get_smiles)
+    output_path = "../data/extraction_final/data_with_smiles.csv"
+    df.to_csv(output_path, index=False)
+    return output_path
