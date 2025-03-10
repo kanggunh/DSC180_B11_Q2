@@ -2,6 +2,10 @@
 
 ### Introduction
 This project aims to optimize the discovery of small molecules that improve the stability of perovskite solar cells. By leveraging literature mining, graph-based molecular representations, and machine learning models, we seek to identify patterns that lead to successful molecules and generate deeper insights into perovskite solar cell performance. The current methods rely heavily on Edisonian experimentation, which is inefficient. Our goal is to automate and streamline this discovery process using data-driven techniques, focusing on the vast body of research already conducted in this field.
+
+**Visit the project website:** [PSC-Passivator-Optimization](https://kanggunh.github.io/PSC-Passivator-Optimization/)
+
+---
 ### 📂 Project Structure
 ```
 PSC-Passivator-Optimization
@@ -70,15 +74,8 @@ PSC-Passivator-Optimization
 ├── requirements.txt                      # Python dependencies
 └── run.py                                # Main execution script
 ```
-Visit the project website: [PSC-Passivator-Optimization](https://kanggunh.github.io/PSC-Passivator-Optimization/)
-
-### Objectives
-- **Automate Data Extraction:** Implement a machine learning pipeline to mine relevant data from scientific literature.
-- **Build a Comprehensive Database:** Structure data on perovskite compositions, passivating molecules, and experimental outcomes.
-- **Molecular Representation:** Use SMILES to convert chemical information into a format suitable for modeling.
-- **Develop Predictive Models:** Identify relationships between molecular features and performance.
-- **Enhance Research Efficiency:** Replace manual experimentation with data-driven predictions to guide lab testing.
 ---
+
 ## Running the project
 **1. Install the dependencies:** run the following command from the root directory of the project: 
 ```
