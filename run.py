@@ -50,7 +50,7 @@ def run_extraction_for_eval():
     -------
     None
     """
-    model_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+    model_name = "../models/Llama-PSC-Extractor-8B-8bit-Schema-2"
     annotations_path = "../data/annotations/150_papers.csv"
     rag_output_path = filter_with_rag(annotations_path)
     extraction_csv_path = run_extraction(model_name=model_name, tokenizer_name=model_name, data_path=rag_output_path)
@@ -72,9 +72,11 @@ def run_full_extraction():
     -------
     None
     """
+    model_name = "../models/Llama-PSC-Extractor-8B-8bit-Schema-2"
+    tokenizer_name = "meta-llama/Llama-3.1-8B-Instruct"
     relevant_papers_path = "../data/classification/relevant_papers.csv"
     rag_output_path = filter_with_rag(relevant_papers_path)
-    extraction_csv_path = run_extraction(rag_output_path)
+    extraction_csv_path = run_extraction(rag_output_path, model_name=model_name, tokenizer_name=tokenizer_name)
     extraction_json_path = "../data/extraction_final/final_extraction.json"
     convert_csv_to_json(extraction_csv_path, extraction_json_path)
     formatted_path = ensure_json_format(extraction_json_path)

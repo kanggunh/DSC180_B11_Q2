@@ -147,7 +147,7 @@ python run.py prediction
 ---
 ## Version Information
 - v1: Does not use a RAG pipeline and relies on the Llama 3B model. This version is simpler but less efficient in handling complex extraction tasks.
-- v2: Uses a RAG for filtering, a fine-tuned Llama 3B model, and the original schema. This version had improvements over v1 but lacked accuracy in extraction.
+- v2: Uses a RAG for filtering, a fine-tuned Llama 8B model, and Schema 2 for extraction. This version had improvements over v1 but lacked accuracy in extraction.
 - v3 (main branch): The latest version, which uses a RAG for filtering, DeepSeek 8B 8-bit model, and Schema 2 for extraction. This version offers improved accuracy over the previous two versions.
 
 
