@@ -1,4 +1,5 @@
-## This file compares teamtat annotation with extraction performed on 2nd, semi nested Schema
+## This file compares teamtat annotation with extraction performed on Original Schema
+
 from sklearn.metrics import precision_score, recall_score, f1_score
 from difflib import SequenceMatcher
 import numpy as np
@@ -9,16 +10,20 @@ import pandas as pd
 import re
 from sklearn.metrics.pairwise import cosine_similarity
 
-## Numerical list o relevent and irrelevent numbers in 0-140 papers
-irrelevent_papers = [26,28,29,30,32,33,34,35,38,43,44,45,52,54,55,56,57,58,63,66,68,69,70,78,80,83,84,86,87,88,89,90,91,92,93,94,98,100,101,102,103,104,105,106,108,109,110,111,112,115,116,117,119,121,125,128,129,130,132,134,136,138,139, 140]
-relevent_bad = [1, 18, 20, 25, 27, 41, 51, 61, 67, 71, 76, 135, 141, 145]
+
+## Numerical list of relevent and irrelevent numbers in 0-149 papers
+irrelevent_papers = [26,28,29,30,32,33,34,35,38,43,44,45,52,54,55,56,57,58,63,66,68,69,70,78,80,83,84,86,87,88,89,90,91,92,93,94,98,100,101,102,103,104,105,106,108,109,110,111,112,115,116,117,119,121,125,128,129,130,134,136,138,139, 140]
+relevent_bad = [1, 18, 20, 25, 27, 41, 51, 61, 71, 76, 135, 141, 145]
 
 relevent_good = [i for i in range(0, 150) if i not in irrelevent_papers and i not in relevent_bad]
 
 #### File preparation to ensure that both annotation and extraction are in correct JSON
+
 def str_toJson(string):
     ##The json output from annotation dataframe was not in correct json format
     # We will change the None to null
+    if string == None:
+        return None
     json_string = string.replace("None", "null")
 
     try:
@@ -28,17 +33,34 @@ def str_toJson(string):
     except json.JSONDecodeError as e:
         # Catch JSONDecodeError if the string is not valid JSON
         print(f"Error decoding JSON: {e}")
+        print(string)
+        print(json_string)
         return None
     except Exception as e:
         # Catch any other exceptions
         print(f"An error occurred: {e}")
         return None
     
-def convert_numeric_outside(dictionary):
-    key_list = ['control_pce', 'treated_pce', 'control_voc', 'treated_voc']
-    for key in key_list:
-        if dictionary[key] != None:
-            dictionary[key] = float(dictionary[key])
+def include_passivating(dictionary):
+    ##In extraction json, realized that some extraction has passivating molecule that is NOT included in its stability testing. 
+    ## Since passivating molecule (if exist) needs to be in stability testing (nexted dictionary), we will transfer the information and spit out a cleaned dictionary. 
+    # print(dictionary)
+    if dictionary == None:
+        return None
+    if "passivating_molecule" in dictionary.keys():
+        passivating = dictionary['passivating_molecule']
+        del dictionary['passivating_molecule']
+        
+        for entity in dictionary.keys():
+            if entity.startswith('test'):
+                # print(i['entity'])
+                if type(dictionary[entity]) == dict:
+                    if 'passivating_molecule' in dictionary[entity].keys():
+                        continue
+                    else:
+                        # print("Have to include passivating molecule in tests")
+                        dictionary[entity]['passivating_molecule'] = passivating
+        
     return dictionary
 
 def convert_numeric(dictionary):
@@ -71,6 +93,8 @@ def convert_numeric(dictionary):
                                 dictionary[key][entity] = numerical_value
                             else:
                                 dictionary[key][entity] = None
+                        # else:
+                            
                         #     print(dictionary[key][entity])
         elif ('test_' in key) & (type(dictionary[key]) == dict):
             for entity in dictionary[key].keys():
@@ -93,6 +117,8 @@ def convert_numeric(dictionary):
                                 dictionary[key][entity] = numerical_value
                             else:
                                 dictionary[key][entity] = None
+                        # else:
+                            
                         #     print(dictionary[key][entity])
         elif key in numerical_key:
             if isinstance(dictionary[key], str): 
@@ -114,106 +140,78 @@ def convert_numeric(dictionary):
                         dictionary[key] = None
     return dictionary
 
-def filter_output(dictionary):
-    ## I want to drop row where passivation is none. 
-    if dictionary['passivating_molecule'] == None:
-        return True
-    return False
+def convert_efficiency(dictionary):
+    ##Change the efficiency value to be in percent
+    if dictionary == None:
+        return None
+    entity_decimal = ['efficiency_cont','efficiency_tret']
+    for key in dictionary.keys():
+        if (key.startswith('test')) & (type(dictionary[key]) == dict):
+            for entity in dictionary[key].keys():
+                if (entity in entity_decimal) and (dictionary[key][entity] != None):
+                    if dictionary[key][entity] == dictionary[key][entity] > 1:
+                        dictionary[key][entity] = dictionary[key][entity] / 100
+    return dictionary
 
-##Loading into TeamTat Annotation
-with open('data/annotations_flattened.json', 'r') as f:
-    json_data = json.load(f)
-
-flattened_format = []
-for key in json_data:
-    papers = json_data[key]
-    if papers is None:
-        flattened_format.append({ "paper_id": key, "output": None })
-        continue
-    for passivator in papers:
-        paper_data = papers[passivator]
-        flattened_format.append({ "paper_id": key, "output": paper_data })
-
-annotation_df = pd.DataFrame(flattened_format)
-annotation_df.columns = ['paper_num', 'output']
-annotation_df["paper_num"] = annotation_df["paper_num"].astype(int)
-annotation_df = annotation_df.sort_values(by = 'paper_num')
-
-## Get the annotation_df with only relevent good papers. 
-annotation_df = annotation_df[annotation_df['paper_num'].isin(relevent_good)]
-## Get all the relevent present papers for now
-annotation_df = annotation_df[annotation_df['output'].notnull()]
-
-#There is rows where the duplicated paper num has a dictionary that has passivating missing. We will drop these rows
-annotation_filter = annotation_df['output'].apply(filter_output)
-annotation_df['filter'] = annotation_filter
-annotation_df = annotation_df[annotation_df['filter'] == False][['paper_num', 'output']]
-annotation_df['output'] = annotation_df['output'].apply(convert_numeric)
-annotation_df['output'] = annotation_df['output'].apply(convert_numeric_outside)
-
-
-## Loading JSON extraction
-def convert_efficiency_key(dict):
-    if dict == None:
-        data_schema = {
-            'perovskite_composition': None,
-            'electron_transport_layer': None,
-            'hole_transport_layer': None,
-            'structure_pin_nip': None,
-            'passivating_molecule': None,
-            'control_pce': None,
-            'treated_pce': None,
-            'control_voc': None,
-            'treated_voc': None,
-            'test_1': {
-                'stability_type': None,
-                'humidity': None,
-                'temperature': None,
-                'time': None,
-                'efficiency_tret': None,
-                'efficiency_cont': None
-            }
-        }
-        return data_schema
-    for key, item in dict.items():
+def convert_efficiency_key(dictionary):
+    ## Some extraction dictionary had inconsistent keys that needs to be converted. 
+    if dictionary == None:
+        return None
+    for key, item in dictionary.items():
         if 'test' in key:
-            if dict[key] == None:
-                return dict
-            if 'retained_proportion_cont' in dict[key]:
-                dict[key]['efficiency_cont'] = dict[key].pop('retained_proportion_cont')
-            if 'retained_proportion_tret' in dict[key]:
-                dict[key]['efficiency_tret'] = dict[key].pop('retained_proportion_tret')
+            if item == None:
+                continue
+            if ("efficiency_cont" in dictionary[key].keys()) | ("efficiency_tret" in dictionary[key].keys()):
+                continue
+            else:
+                if 'retained_proportion_cont' in dictionary[key]:
+                    dictionary[key]['efficiency_cont'] = dictionary[key].pop('retained_proportion_cont')
+                if 'retained_proportion_tret' in dictionary[key]:
+                    dictionary[key]['efficiency_tret'] = dictionary[key].pop('retained_proportion_tret')
+                if 'retained_percentage_tret' in dictionary[key]:
+                    dictionary[key]['efficiency_tret'] = dictionary[key].pop('retained_percentage_tret')
+                if 'retained_percentage_cont' in dictionary[key]:
+                    dictionary[key]['efficiency_cont'] = dictionary[key].pop('retained_percentage_cont')
+                if 'control_efficiency' in dictionary[key]:
+                    dictionary[key]['efficiency_cont'] = dictionary[key].pop('control_efficiency')
+                if 'treatment_efficiency' in dictionary[key]:
+                    dictionary[key]['efficiency_tret'] = dictionary[key].pop('treatment_efficiency')      
+    return dictionary
 
-            if 'retained_percentage_cont' in dict[key]:
-                dict[key]['efficiency_cont'] = dict[key].pop('retained_percentage_cont')
-            if 'retained_percentage_tret' in dict[key]:
-                dict[key]['efficiency_tret'] = dict[key].pop('retained_percentage_tret')
-
-            if 'test_name' in dict[key]:
-                dict[key]['stability_type'] = dict[key].pop('test_name')
-    return dict
-
-def convert_structure_key(dict):
-    # print(dict)
+def convert_structure_key(dictionary):
+    ## Some extraction dictionary had inconsistent NIP PIN key that needs to be converted. 
+    if dictionary == None:
+        return None
     found = 0
-    found_2 = 0
-    for key, item in dict.items():
-        if key == 'pin_nip_structure':
-            value = dict[key]
+    founded = 0
+    foundd = 0
+    for key, item in dictionary.items():
+        if key == "pin_nip_structure":
             found = 1
-        if key == "treated_pec":
-            value_2 = dict[key]
-            found_2 = 1
+        if key == "structure_type":
+            founded = 1
+        if key == "structure":
+            foundd = 1
     if found == 1:
-        dict['structure_pin_nip'] = dict.pop('pin_nip_structure')
-    if found_2 == 1:
-        dict['treated_pce'] = dict.pop('treated_pec')
-    
-    return dict
+        dictionary['structure_pin_nip'] = dictionary['pin_nip_structure']
+        dictionary.pop('pin_nip_structure')
+    if founded == 1:
+        dictionary['structure_pin_nip'] = dictionary['structure_type']
+        dictionary.pop('structure_type')
+    if foundd == 1:
+        dictionary['structure_pin_nip'] = dictionary['structure']
+        dictionary.pop('structure')
+
+
+    return dictionary
+
+def escape_internal_quotes(json_string):
+    # This regex finds values within quotes and fixes internal unescaped quotes
+    return re.sub(r'":\s*"([^"]*?)"', lambda m: '": "' + m.group(1).replace('"', '\\"') + '"', json_string)
 
 def force_fix(json_string):
     '''
-    {"perovskite_composition": "Cs0.05(FA0.98MA0.02)0.95Pb(I0.98Br0.02)3", "electron_transport_layer": "6,6"-phenyl-C61-butyric acid methyl ester", "pin_nip_structure": "NIP", "hole_transport_layer": "2-(3,6-dimethoxy-9H-carbazol-9-yl)ethyl phosphonic acid", "test_1": {"test_name": "ISOS-L", "temperature": "25", "time": "1000", "humidity": "50-60", "passivating_molecule": "β-poly(1,1-difluoroethylene)", "control_pce": "22.3", "treated_pce": "24.6", "control_voc": "1.13", "treated_voc": "1.18"}}
+    The quotateion mark are forbidding string output to be converted to JSON, 
     '''
     ## convert {" pattern to ZS
     json_conv = re.sub(r'{\"',"ZS", json_string)
@@ -244,22 +242,23 @@ def force_fix(json_string):
 
     return json_conv
 
-def escape_internal_quotes(json_string):
-    # This regex finds values within quotes and fixes internal unescaped quotes
-    return re.sub(r'":\s*"([^"]*?)"', lambda m: '": "' + m.group(1).replace('"', '\\"') + '"', json_string)
-
 def str_toJson_8bit(string):
     ##The json output from annotation dataframe was not in correct json format
     # We will change the None to null
     if string == None:
         return None
     
-    json_string = string 
     json_string = string.replace("None", "null")
-    # json_string = json_string.replace(r'\"', '"')
-    json_string = json_string.replace("'", '"')
+    json_string = json_string.replace(r'\"', '"')
+    # json_string = json_string.replace("'", '"')
     json_string = escape_internal_quotes(json_string)
     json_string = force_fix(json_string)
+
+    json_string = json_string.replace("',\n", '",')
+    json_string = json_string.replace("\n", '')
+    json_string = json_string.replace("'  }", '"}')
+    
+
 
     try:
         # Try to load the JSON string
@@ -267,6 +266,34 @@ def str_toJson_8bit(string):
         return json_object
     except json.JSONDecodeError as e:
         # Catch JSONDecodeError if the string is not valid JSON
+        print("Error decoding 8bit deepseek finetuned")
+        print(f"Error decoding JSON: {e}")
+        print(json_string)
+        return None
+    except Exception as e:
+        # Catch any other exceptions
+        print(f"An error occurred: {e}")
+        return None
+    
+def str_toJson_llama(strings):
+    ##The json output from annotation dataframe was not in correct json format
+    # We will change the None to null
+    if strings == None:
+        return None
+    json_string = strings.replace("None", "null")
+    json_string = json_string.replace(r'\"', '"')
+    json_string = escape_internal_quotes(json_string)
+    json_string = json_string.replace("'", '"')
+    json_string = force_fix(json_string)
+    
+    json_string = json_string.replace("True", "true")
+    try:
+        # Try to load the JSON string
+        json_object = json.loads(json_string)
+        return json_object
+    except json.JSONDecodeError as e:
+        # Catch JSONDecodeError if the string is not valid JSON
+        print("Error decoding llama")
         print(f"Error decoding JSON: {e}")
         print(json_string)
         return None
@@ -275,125 +302,132 @@ def str_toJson_8bit(string):
         print(f"An error occurred: {e}")
         return None
 
-## extraction performed by basemodel
-with open("annotation\Schema_2\data\deepseek_base_updateschema.json", 'r') as f:
+
+### Loading in TEAMTAT ANNOTATION as dataframe
+#Teamtat Annotation
+annotation_df = pd.read_csv("data/150_papers_json_update.csv")[["id", "first_num", "output"]]
+annotation_df = annotation_df.sort_values(by = ['first_num'])
+##Change the output column to be converted to json
+annotation_df['output'] = annotation_df['output'].apply(str_toJson)
+annotation_df['output'] = annotation_df['output'].apply(convert_numeric)
+## Get the annotation_df with only relevent good papers. 
+annotation_df = annotation_df[annotation_df['first_num'].isin(relevent_good)]
+
+
+
+### Loading in Extraction perfomed by the basemodel
+with open("data/output1.json", 'r') as f:
     extraction = json.load(f)
 
 extraction_base = pd.DataFrame(list(extraction.items()), columns=['paper_num', 'output'])
 extraction_base['paper_num'] = pd.to_numeric(extraction_base['paper_num'])
 extraction_base = extraction_base.sort_values('paper_num')
+extraction_base['output'] = extraction_base['output'].apply(include_passivating)
 extraction_base['output'] = extraction_base['output'].apply(convert_numeric)
-extraction_base = extraction_base[extraction_base['paper_num'].isin(relevent_good)]
+extraction_base['output'] = extraction_base['output'].apply(convert_efficiency)
 
-## extraction performed by finetuned deepseep
-with open("annotation\Schema_2\data\deepseek_8bit_finetuned.json", 'r') as f:
+
+## Loading in Extraction perfomed by the finetuned deepseek 4 bit
+with open("annotation/Original_schema/data/deepseek_finetuned_4bit.json", 'r') as f:
     extraction = json.load(f)
 
-extraction_deepseek = pd.DataFrame(list(extraction.items()), columns=['paper_num', 'output'])
-extraction_deepseek['paper_num'] = pd.to_numeric(extraction_deepseek['paper_num'])
-extraction_deepseek = extraction_deepseek.sort_values('paper_num')
-extraction_deepseek['output'] = extraction_deepseek['output'].apply(convert_efficiency_key)
-extraction_deepseek['output'] = extraction_deepseek['output'].apply(convert_structure_key)
-extraction_deepseek['output'] = extraction_deepseek['output'].apply(convert_numeric)
-extraction_deepseek = extraction_deepseek[extraction_deepseek['paper_num'].isin(relevent_good)]
+extraction_train = pd.DataFrame(list(extraction.items()), columns=['paper_num', 'output'])
+extraction_train['paper_num'] = pd.to_numeric(extraction_train['paper_num'])
+extraction_train = extraction_train.sort_values('paper_num')
+extraction_train['output'] = extraction_train['output'].apply(include_passivating)
+extraction_train['output'] = extraction_train['output'].apply(convert_efficiency)
+extraction_train['output'] = extraction_train['output'].apply(convert_efficiency_key)
+extraction_train['output'] = extraction_train['output'].apply(convert_structure_key)
+extraction_train['output'] = extraction_train['output'].apply(convert_numeric)
 
-## extraction performed by llama 
-with open("annotation\Schema_2\data\llama_8bit_finetuned.json", 'r') as f:
+## extraction performed by finetuned deepseek 8 bit
+with open("annotation/Original_schema/data/deepseek_8bit_finetuned.json", 'r') as f:
     extraction = json.load(f)
 
-extraction_llama = pd.DataFrame(list(extraction.items()), columns=['paper_num', 'output'])
-extraction_llama['paper_num'] = pd.to_numeric(extraction_llama['paper_num'])
-extraction_llama = extraction_llama.sort_values('paper_num')
-extraction_llama['output'] = extraction_llama['output'].apply(convert_efficiency_key)
-extraction_llama['output'] = extraction_llama['output'].apply(convert_structure_key)
-extraction_llama['output'] = extraction_llama['output'].apply(convert_numeric)
+extraction_train_8 = pd.DataFrame(list(extraction.items()), columns=['paper_num', 'output'])
+extraction_train_8['paper_num'] = pd.to_numeric(extraction_train_8['paper_num'])
+extraction_train_8 = extraction_train_8.sort_values('paper_num')
+extraction_train_8['output'] = extraction_train_8['output'].apply(str_toJson_8bit)
+extraction_train_8['output'] = extraction_train_8['output'].apply(include_passivating)
+extraction_train_8['output'] = extraction_train_8['output'].apply(convert_efficiency_key)
+extraction_train_8['output'] = extraction_train_8['output'].apply(convert_structure_key)
+extraction_train_8['output'] = extraction_train_8['output'].apply(convert_numeric)
+
+## extraction performed by Llama
+with open("annotation/Original_schema/data/llama_3b_8bit_fully_nested.json", 'r') as f:
+    extraction = json.load(f)
+
+llama = pd.DataFrame(list(extraction.items()), columns=['paper_num', 'output'])
+llama['paper_num'] = pd.to_numeric(llama['paper_num'])
+llama = llama.sort_values('paper_num')
+llama['output'] = llama['output'].apply(str_toJson_llama)
+llama['output'] = llama['output'].apply(include_passivating)
+llama['output'] = llama['output'].apply(convert_efficiency_key)
+llama['output'] = llama['output'].apply(convert_structure_key)
+llama['output'] = llama['output'].apply(convert_numeric)
 
 
-##Merging dataframe
+## Merging annotation with extraction to create single df
 
-def get_passivation(dict):
-    ## Get the passivation from given dictionary
-    if "passivating_molecule" not in dict.keys():
-        return None
-    if type(dict['passivating_molecule']) == list:
-        return dict['passivating_molecule'][0]
-    return dict['passivating_molecule']
-
-def compare_passivation(tuple):
-    # print(tuple[0])
-    # print(tuple[1])
-    if tuple[1] == None:
-        return 0
-    similarity = SequenceMatcher(None, tuple[0].lower(), tuple[1].lower()).ratio()
-    return similarity
-
-evaluate_df_base = annotation_df.merge(extraction_base, left_on='paper_num', right_on='paper_num')[["paper_num", "output_x",'output_y']]
+#Merging the base extraction
+evaluate_df_base = annotation_df.merge(extraction_base, left_on='first_num', right_on='paper_num', how = 'left')[["first_num", "output_x",'output_y']]
 evaluate_df_base.columns = ['paper_num', 'annotation', 'extracted']
-annotation_passivation = evaluate_df_base['annotation'].apply(get_passivation)
-extraction_passivation = evaluate_df_base['extracted'].apply(get_passivation)
-# Combine them into a tuple
-combined_tuples = list(zip(annotation_passivation, extraction_passivation))
-tuple_series = pd.Series(combined_tuples)
-evaluate_df_base['passivations'] = tuple_series
-similarity = evaluate_df_base['passivations'].apply(compare_passivation)
-evaluate_df_base['similarity'] = similarity
-## Get the row where the similarity was maximum for groupby paper_num
-evaluate_df_base = evaluate_df_base.loc[evaluate_df_base.groupby("paper_num")["similarity"].idxmax()]
+evaluate_df_base["extracted"] = evaluate_df_base["extracted"].apply(lambda x: None if pd.isna(x) else x)
+evaluate_df_base_absent = evaluate_df_base[evaluate_df_base['extracted'].isnull()]
+    ##Dropping row with None In extracted column
+evaluate_df_base = evaluate_df_base[evaluate_df_base['extracted'].notnull()]
 
+#Merging the finetuned deepseek 4 bit
+evaluate_df_train = annotation_df.merge(extraction_train, left_on='first_num', right_on='paper_num', how = 'left')[["first_num", "output_x",'output_y']]
+evaluate_df_train.columns = ['paper_num', 'annotation', 'extracted']
+evaluate_df_train["extracted"] = evaluate_df_train["extracted"].apply(lambda x: None if pd.isna(x) else x)
+evaluate_df_train_absent = evaluate_df_train[evaluate_df_train['extracted'].isnull()]
+    ##This code below is for dropping row with None In extracted
+evaluate_df_train = evaluate_df_train[evaluate_df_train['extracted'].notnull()]
 
-evaluate_df_deepseek = annotation_df.merge(extraction_deepseek, left_on='paper_num', right_on='paper_num')[["paper_num", "output_x",'output_y']]
-evaluate_df_deepseek.columns = ['paper_num', 'annotation', 'extracted']
-annotation_passivation = evaluate_df_deepseek['annotation'].apply(get_passivation)
-extraction_passivation = evaluate_df_deepseek['extracted'].apply(get_passivation)
-# Combine them into a tuple
-combined_tuples = list(zip(annotation_passivation, extraction_passivation))
-tuple_series = pd.Series(combined_tuples)
-evaluate_df_deepseek['passivations'] = tuple_series
-similarity = evaluate_df_deepseek['passivations'].apply(compare_passivation)
-evaluate_df_deepseek['similarity'] = similarity
-## Get the row where the similarity was maximum for groupby paper_num
-evaluate_df_deepseek = evaluate_df_deepseek.loc[evaluate_df_deepseek.groupby("paper_num")["similarity"].idxmax()]
+#Merging the finetuned deepseek 8 bit
+evaluate_df_train8 = annotation_df.merge(extraction_train_8, left_on='first_num', right_on='paper_num')[["paper_num", "output_x",'output_y']]
+evaluate_df_train8.columns = ['paper_num', 'annotation', 'extracted']
+evaluate_df_train8_absent = evaluate_df_train8[evaluate_df_train8['extracted'].isnull()]
+    ##This code below is for dropping row with None In extracted
+evaluate_df_train8 = evaluate_df_train8[evaluate_df_train8['extracted'].notnull()]
 
-
-evaluate_df_llama = annotation_df.merge(extraction_llama, left_on='paper_num', right_on='paper_num')[["paper_num", "output_x",'output_y']]
+#Merging the Llama 
+evaluate_df_llama = annotation_df.merge(llama, left_on='first_num', right_on='paper_num')[["paper_num", "output_x",'output_y']]
 evaluate_df_llama.columns = ['paper_num', 'annotation', 'extracted']
-annotation_passivation = evaluate_df_llama['annotation'].apply(get_passivation)
-extraction_passivation = evaluate_df_llama['extracted'].apply(get_passivation)
-# Combine them into a tuple
-combined_tuples = list(zip(annotation_passivation, extraction_passivation))
-tuple_series = pd.Series(combined_tuples)
-evaluate_df_llama['passivations'] = tuple_series
-similarity = evaluate_df_llama['passivations'].apply(compare_passivation)
-evaluate_df_llama['similarity'] = similarity
-## Get the row where the similarity was maximum for groupby paper_num
-evaluate_df_llama = evaluate_df_llama.loc[evaluate_df_llama.groupby("paper_num")["similarity"].idxmax()]
+evaluate_df_llama_absent = evaluate_df_llama[evaluate_df_llama['extracted'].isnull()]
+    ##This code below is for dropping row with None In extracted
+evaluate_df_llama = evaluate_df_llama[evaluate_df_llama['extracted'].notnull()]
 
 
-## Evaluations
 
+##### EVALUATION IMPLEMENTATION of comparing annotation JSON with extraction JSON
 def tests_comparison(stability_annotated, label_dict, stability_extracted, extract_dict):
+    '''
+    Given pair of stability test results from annotation and extraction, this function returns a metric of how similart these two test results were
+    This is used to find the best pair of stability test between the labeled stability to extraction stability
+    '''
     # print(stability_annotated, label_dict, stability_extracted, extract_dict)
-    stability_entity_annotated = ['stability_type', 'temperature', 'time', 'humidity', 'efficiency_cont', 'efficiency_tret']
-    # stability_entity_extracted = ['test_name', 'passivating_molecule', 'temperature', 'time', 'humidity', 'control_efficiency', 'treatment_efficiency', 'control_pce', 'treated_pce', 'control_voc', 'treated_voc']
-    
+    stability_entity_annotated = ['stability_type', 'passivating_molecule', 'temperature', 'time', 'humidity', 'efficiency_cont', 'efficiency_tret', 'control_pce', 'treated_pce', 'control_voc', 'treated_voc']
+    stability_entity_extracted = ['test_name', 'passivating_molecule', 'temperature', 'time', 'humidity', 'control_efficiency', 'treatment_efficiency', 'control_pce', 'treated_pce', 'control_voc', 'treated_voc']   
     # print(f"stability_annotated{stability_annotated}")
     # print(f"label_dict{label_dict}")
     # print(f"stability_extracted{stability_extracted}")
     # print(f"extract_dict{extract_dict}")
+
     compared_metric = []
     numeric_data_annotated = []
     numeric_data_extracted = []
     for entity_i in range(len(stability_entity_annotated)):
-        if entity_i < 1:
-            # print(stability_annotated[entity_i])
-            if stability_entity_annotated[entity_i] not in extract_dict.keys():
-                extract_dict[stability_entity_annotated[entity_i]] = None
+        if entity_i <= 1:
+            if stability_entity_extracted[entity_i] not in extract_dict.keys():
+                extract_dict[stability_entity_extracted[entity_i]] = None
 
-            if (label_dict[stability_entity_annotated[entity_i]] == None) | (extract_dict[stability_entity_annotated[entity_i]] == None):
+            if (label_dict[stability_entity_annotated[entity_i]] == None) | (extract_dict[stability_entity_extracted[entity_i]] == None):
                 compared_metric.append(None)
             else:
                 ##Text entity, perform Sequence Matcher 
-                compared = SequenceMatcher(None, label_dict[stability_entity_annotated[entity_i]], extract_dict[stability_entity_annotated[entity_i]]).ratio()
+                compared = SequenceMatcher(None, label_dict[stability_entity_annotated[entity_i]], extract_dict[stability_entity_extracted[entity_i]]).ratio()
                 # print(compared)
                 if entity_i == 0:
                     if compared > 0.9:
@@ -403,10 +437,10 @@ def tests_comparison(stability_annotated, label_dict, stability_extracted, extra
                 else:
                     compared_metric.append(compared)
         else:
-            if stability_entity_annotated[entity_i] not in extract_dict.keys():
-                extract_dict[stability_entity_annotated[entity_i]] = 0
-            elif extract_dict[stability_entity_annotated[entity_i]] == None:
-                extract_dict[stability_entity_annotated[entity_i]] = 0
+            if stability_entity_extracted[entity_i] not in extract_dict.keys():
+                extract_dict[stability_entity_extracted[entity_i]] = 0
+            elif extract_dict[stability_entity_extracted[entity_i]] == None:
+                extract_dict[stability_entity_extracted[entity_i]] = 0
 
             if stability_entity_annotated[entity_i] not in label_dict.keys():
                 label_dict[stability_entity_annotated[entity_i]] = 0
@@ -415,14 +449,12 @@ def tests_comparison(stability_annotated, label_dict, stability_extracted, extra
 
                 
             numeric_data_annotated.append(label_dict[stability_entity_annotated[entity_i]])
-            numeric_data_extracted.append(extract_dict[stability_entity_annotated[entity_i]])
+            numeric_data_extracted.append(extract_dict[stability_entity_extracted[entity_i]])
 
     if isinstance(numeric_data_extracted[0], list):
         ##There was one column with two temperature recorded as a list (probably thermal cycling)
         numeric_data_extracted[0] = numeric_data_extracted[0][1]
-
     # print(numeric_data_annotated, numeric_data_extracted)
-
     numeric_annotated_clean = []
     numeric_extracted_clean = []
     ##Clean the numeric data to skip any strings
@@ -440,6 +472,10 @@ def tests_comparison(stability_annotated, label_dict, stability_extracted, extra
 
 def entity_comparison(entity, label, extracted_dict, text_similarity_threshold = 0.75, numerical_tolerance = 0.027):
     '''
+    This function actually comparied each entity in stability testing once the best pair was determined
+    Return TP, TN, FP, FN
+
+    The similarity threshold motivations
     The tolarance of 2.7% was what was reasonable looking at the absolute difference
     treated_voc 1.18, 1.149, absolute difference 0.026271186440677895
 
@@ -448,23 +484,23 @@ def entity_comparison(entity, label, extracted_dict, text_similarity_threshold =
     This should be positive
     
     '''
-    text_entity = ['stability_type']
-    numerical_entity = ['time', 'efficiency_cont', 'efficiency_tret']
+    text_entity = ['stability_type', 'passivating_molecule']
+    numerical_entity = ['time', 'efficiency_cont', 'efficiency_tret', 'control_pce', 'treated_pce', 'control_voc', 'treated_voc']
     numerical_exception = ['temperature', 'humidity']
 
     if entity in text_entity:
-        # key_to_check = "test_name" if entity == "stability_type" else entity
+        key_to_check = "test_name" if entity == "stability_type" else entity
 
         # If the key is missing in the extracted annotation, return False Negative
-        if (label[entity]!=None) & (extracted_dict[entity]==None):
+        if (label[entity]!=None) & (extracted_dict[key_to_check]==None):
             # print(f"FN, {label_annotation[id]}, {extraction_annotation[key_to_check]}")
             return "FN"
-        elif (label[entity]==None) & (extracted_dict[entity]!=None):
+        elif (label[entity]==None) & (extracted_dict[key_to_check]!=None):
             # print(f"TN, {label_annotation[id]}, {extraction_annotation[key_to_check]}")
             return "TN"
 
         label_data = label.get(entity, "")
-        extract_data = extracted_dict.get(entity, "")
+        extract_data = extracted_dict.get(key_to_check, "")
 
         # Convert lists to strings if necessary
         if isinstance(label_data, list):
@@ -488,9 +524,13 @@ def entity_comparison(entity, label, extracted_dict, text_similarity_threshold =
             return "FP"
     elif entity in numerical_entity:
         # key_to_check = "control_efficiency" if entity == "efficiency_cont" else ("treatment_efficiency" if entity == "efficiency_tret" else entity)
-        # if (entity == 'efficiency_cont') | (entity == 'efficiency_tret'):
-            # print(f"annotated{label[entity]}")
-            # print(f"extracted{extracted_dict[entity]}")
+
+        # print(f"annotated{label[entity]}")
+        # print(f"extracted{extracted_dict[entity]}")
+        # print(entity)
+        # print(extracted_dict)
+        if entity not in extracted_dict.keys():
+            extracted_dict[entity] = 0
         if extracted_dict[entity] == None:
             extracted_dict[entity] = 0
 
@@ -509,9 +549,10 @@ def entity_comparison(entity, label, extracted_dict, text_similarity_threshold =
         if isinstance(extracted_dict[entity], list):
             ##There was one column with two temperature recorded as a list (probably thermal cycling)
             extracted_dict[entity] = extracted_dict[entity][1]
-        
 
-        # print(label[entity], extracted_dict[entity])
+        # print(entity)
+        # print(type(extracted_dict[entity]))
+        # print(label[entity])
         # Apply numerical tolerance check
         if (abs(label[entity] - extracted_dict[entity])) / (abs(label[entity]) )<= numerical_tolerance:
 
@@ -541,6 +582,19 @@ def entity_comparison(entity, label, extracted_dict, text_similarity_threshold =
             if isinstance(extracted_dict[entity], list):
                 ##There was one column with two temperature recorded as a list (probably thermal cycling)
                 extracted_dict[entity] = extracted_dict[entity][1]
+            
+            # print(entity)
+            # print(type(extracted_dict[entity]))
+            # print(extracted_dict)
+            # print(label)
+            if type(extracted_dict[entity]) == str:
+                ## This is a case where the extraction was string in range of number and annotation were a number. 
+                extracted_first_num = float(extracted_dict[entity][:2])
+                extracted_second_num = float(extracted_dict[entity][3:])
+                if extracted_first_num < label[entity] < extracted_second_num:
+                    return "TP"
+                else:
+                    return "FP"
 
             # Apply numerical tolerance check
             if (abs(label[entity] - extracted_dict[entity])) / (abs(label[entity]) )<= numerical_tolerance:
@@ -575,6 +629,7 @@ def entity_comparison(entity, label, extracted_dict, text_similarity_threshold =
                     return "FP"
             else:
                 if "+" in label[entity]:
+                    ### This is where the data is value+-ME
                     # print(label[entity].split("+-"))
                     value = float(label[entity].split("+-")[0])
                     margin_error = float(label[entity].split("+-")[1])
@@ -586,6 +641,8 @@ def entity_comparison(entity, label, extracted_dict, text_similarity_threshold =
                         # print(f"FP, {label_data}, {extract_data}, {similarity}")
                         return "FP"
                 else:
+                    ### 30-50 
+                    # print(label[entity], type(label[entity]))
                     lower = float(label[entity].split("-")[0])
                     upper = float(label[entity].split("-")[1])
                     if (lower<= extracted_dict[entity]) & (extracted_dict[entity]<=upper):
@@ -594,23 +651,29 @@ def entity_comparison(entity, label, extracted_dict, text_similarity_threshold =
                     else:
                         # print(f"FP, {label_data}, {extract_data}, {similarity}")
                         return "FP"
-
+                    
 def safe_division(numerator, denominator):
     """Returns division result, or 0 if the denominator is zero."""
     return numerator / denominator if denominator != 0 else 0
 
-def text_comparison(id, label_annotation, extraction_annotation, text_similarity_threshold=0.8):
+def text_comparison(id, label_annotation, extraction_annotation, text_similarity_threshold=0.75):
     """Compares text values using string similarity matching.
     - THE 4 basic variable that is to compare is PEROVSKITE COMPOSITION, ETL, HTL, STRUCTURE
     """
 
     # Handle special case for structure_pin_nip
     # key_to_check = "pin_nip_structure" if id == "structure_pin_nip" else id
-    # print(label_annotation)
+    # print(id)
     # print(extraction_annotation)
-
+    if extraction_annotation == None:
+        return "FN"
+    # print(id)
+    # print(extraction_annotation)
     # If the key is missing in the extracted annotation, return False Negative
-    if (label_annotation[id]!=None) & (extraction_annotation[id]==None):
+    if (id not in extraction_annotation.keys()):
+        return "FN"
+
+    if (extraction_annotation[id]==None):
         # print(f"FN, {label_annotation[id]}, {extraction_annotation[key_to_check]}")
         return "FN"
     elif (label_annotation[id]==None) & (extraction_annotation[id]!=None):
@@ -642,32 +705,7 @@ def text_comparison(id, label_annotation, extraction_annotation, text_similarity
     else:
         # print(f"FP, {label_data}, {extract_data}, {similarity}")
         return "FP"
-
-def numeric_comoparison(id, label_value, extracted_value, numerical_tolerance = 0.027):
-    # print(id)
-    # print(f"label value: {label_value[id]}, {type(label_value[id])}")
-    # print(extracted_value)
-    # print(f"extract value: {extracted_value[id]}, {type(extracted_value[id])}")
-
-    if (label_value[id]!=None) & (extracted_value[id]==None):
-        # print(f"FN, {label_value[id]}, {extracted_value[id]}")
-        return "FN"
-    elif (label_value[id]==None) & (extracted_value[id]!=None):
-        # print(f"TN, {label_value[id]}, {extracted_value[id]}")
-        return "TN"
-    elif (label_value[id]==None) & (extracted_value[id]==None):
-        ##Anotation failed to extract and extraction didn't extract. This is TP
-        # print(f"TP, {label_value[id]}, {extracted_value[id]}")
-        return "TP"
-    # Apply numerical tolerance check
-    elif (abs(label_value[id] - extracted_value[id])) / (abs(label_value[id]) )<= numerical_tolerance:
-
-        # print(f"Numerical differences matched: {id} {label_value[id]}, {extracted_value[id]}, absolute difference {(abs(label_value[id] - extracted_value[id])) / (abs(label_value[id]) )}")
-        return "TP"  # True Positive: Correct numerical extraction
-    else:
-        # print(f"Numerical differences no match: {id}, {label_value[id]}, {extracted_value[id]}, absolute difference {(abs(label_value[id] - extracted_value[id])) / (abs(label_value[id]) )}")
-        return "FP"  # False Positive: Incorrect numerical extraction    
-
+    
 def compare_json(df):
     """
     Compare labeled and extracted JSON data for correctness.
@@ -678,14 +716,15 @@ def compare_json(df):
     TN: LLM halucinated and returned value that was not extracted
     """
     
-    outside_variables = ['perovskite_composition', 'electron_transport_layer', 'hole_transport_layer', 'structure_pin_nip', "passivating_molecule", 'control_pce', 'treated_pce', 'control_voc', 'treated_voc']
-    outside_text = ['perovskite_composition', 'electron_transport_layer', 'hole_transport_layer', 'structure_pin_nip', "passivating_molecule"]
-    
-    stability_entity = ['stability_type', 'temperature', 'time', 'humidity', 'efficiency_cont', 'efficiency_tret']
+    text_variables = ['perovskite_composition', 'electron_transport_layer', 'hole_transport_layer', 'structure_pin_nip']
 
+    
+    stability_entity_annotated = ['stability_type', 'temperature', 'time', 'humidity', 'passivating_molecule', 'efficiency_cont', 'efficiency_tret', 'control_pce', 'treated_pce', 'control_voc', 'treated_voc']
+    stability_entity_extracted = ['test_name', 'temperature', 'time', 'humidity', 'passivating_molecule','control_efficiency', 'treatment_efficiency', 'control_pce', 'treated_pce', 'control_voc', 'treated_voc']
+    
     # Initialize comparison dictionaries
-    text_dict = {var: {"TP": 0, "FP": 0, "FN": 0, "TN": 0} for var in outside_variables}
-    stability_dict = {var: {"TP": 0, "FP": 0, "FN": 0, "TN": 0} for var in stability_entity}
+    text_dict = {var: {"TP": 0, "FP": 0, "FN": 0, "TN": 0} for var in text_variables}
+    stability_dict = {var: {"TP": 0, "FP": 0, "FN": 0, "TN": 0} for var in stability_entity_annotated}
 
     for row in df.itertuples():       
         label_value = row.annotation
@@ -708,14 +747,16 @@ def compare_json(df):
                 '''
                 matched = 0
                 stability_match = {}
-                for extract_id, extract_label in extracted_value.items():
-                    if ('test' in extract_id) and (isinstance(extracted_value[extract_id], dict)):
-                        matched += 1
-                        match_list = tests_comparison(id, label, extract_id, extract_label)
-                        match_list = [0 if item is None else item for item in match_list]
-                        # print(extracted_value[extract_id])
-                        # print(match_list)
-                        stability_match[extract_id] = match_list
+                
+                if extracted_value != None:
+                    for extract_id, extract_label in extracted_value.items():
+                        if ('test' in extract_id) and (isinstance(extracted_value[extract_id], dict)):
+                            matched += 1
+                            match_list = tests_comparison(id, label, extract_id, extract_label)
+                            match_list = [0 if item is None else item for item in match_list]
+                            # print(extracted_value[extract_id])
+                            # print(match_list)
+                            stability_match[extract_id] = match_list
         
                 if matched == 0:
                     #No stability were extracted, we will add stability_unmatched
@@ -725,6 +766,7 @@ def compare_json(df):
                             stability_dict[key]['FN'] += 1
                 else:
                     stability_match_mean = {stability: np.mean(lis) for stability, lis in stability_match.items()}
+                    ##Max key is a test_... KEY in Extraction that BEST matched the testID in annotation. 
                     max_key = max(stability_match_mean, key=stability_match_mean.get)  
                     # print(extracted_value[max_key])
                     ##Now, I need to compare each entity in that found max_key and fill in that FN, dictionary.
@@ -736,33 +778,9 @@ def compare_json(df):
                         entity_result = entity_comparison(entity, label, extracted_value[max_key])
                         stability_dict[entity][entity_result] += 1  
             else:  
-                if id in outside_text:
-                    if (id in label_value) and (id in extracted_value):
-                        result = text_comparison(id, label_value, extracted_value)
-                        text_dict[id][result] += 1
-                    else:
-                        print(f"This id {id} was not in extracted dictionary")
-                        if label_value[id] == None:
-                            text_dict[id]["TP"] += 1
-                        else:
-                            text_dict[id]["FN"] += 1
-                        
-                        print('annotation ',label_value)
-                        print('extraction ',extracted_value)
-                else:
-                    if (id in label_value) and (id in extracted_value):
-                        result = numeric_comoparison(id, label_value, extracted_value)
-                        text_dict[id][result] += 1
-                    else:
-                        print(f"This id {id} was not in extracted dictionary")
-                        if label_value[id] == None:
-                            text_dict[id]["TP"] += 1
-                        else:
-                            text_dict[id]["FN"] += 1
-                        
-                        print('annotation ',label_value)
-                        print('extraction ',extracted_value)
-
+                result = text_comparison(id, label_value, extracted_value)
+                
+                text_dict[id][result] += 1
 
 
     # Merge all results
@@ -770,7 +788,7 @@ def compare_json(df):
     # print("Performance for each variable in dictionary:", combined_dict)
 
     # Compute precision, recall, and F1-score
-    variable_list, precision_list, recall_list, f1_list, f1_dict = [], [], [], [], {}
+    variable_list, precision_list, recall_list, f1_list = [], [], [], []
     for variable, performance in combined_dict.items():
         TP, FP, FN = performance["TP"], performance["FP"], performance["FN"]
         
@@ -782,109 +800,102 @@ def compare_json(df):
         precision_list.append(precision)
         recall_list.append(recall)
         f1_list.append(f1)
-        f1_dict[variable] = f1
 
-    return combined_dict, variable_list, precision_list, recall_list, f1_list, f1_dict
+    return combined_dict, variable_list, precision_list, recall_list, f1_list
 
-dict_result_base, variables_base, precisions_base, recalls_base, f1s_base, f1_dict_base = compare_json(evaluate_df_base)
-dict_result_deepseek, variables_deepseek, precisions_deepseek, recalls_deepseek, f1s_deepseek, f1_dict_deepseek = compare_json(evaluate_df_deepseek)
-dict_result_llama, variables_llama, precisions_llama, recalls_llama, f1s_llama, f1_dict_llama = compare_json(evaluate_df_llama)
+## Actually comparing the dictionaries
+dict_result_base, variables_base, precisions_base, recalls_base, f1s_base = compare_json(evaluate_df_base)
+dict_result_train, variables_train, precisions_train, recalls_train, f1s_train = compare_json(evaluate_df_train)
+dict_result_train_8, variables_train_8, precisions_train_8, recalls_train_8, f1s_train_8 = compare_json(evaluate_df_train8)
+dict_result_llama, variables_llama, precisions_llama, recalls_llama, f1s_llama = compare_json(evaluate_df_llama)
 
-## Performed MACRO F1 Score
-def weight_dict(keys, weights):
 
-    weights_dictionary = {}
-    for i in range(len(weights)):
-        weights_dictionary[keys[i]] = weights[i]
 
-    return weights_dictionary
-
-def macro_f1(f1_dict, weight = None):
+## Calculating Macro f1 score (weighted f1 score)
+"""
+F1 score are calculated on 6 different criteria
+- Unweight
+- Heavier weight on stability
+- Heavier weight on perovskite structure
+- Heavier weight on numeric data
+- Weight to perform prediction 0: Predicting treated PCE
+- Weight to perform prediction 1: Predicting the normalized PCE difference between treated and control PCE
+- Weight to perform prediction 2: Predicting the percent PCE retained after stability testing
+"""
+def macro_f1(f1_list, weight = None):
     if weight == None:
-        # print(weight)
         #If no weight given, do unweighted average of f1 score
-        return sum(f1_dict) / len(f1_dict)
-    else:
-        total_f1 = 0
-        sum_weight = 0
-        for key in f1_dict.keys():
-            total_f1 += (f1_dict[key] * weight[key])
-            sum_weight += (weight[key])
-        # for i in range(len(f1_list)):
-        #     total_f1 += (f1_list[i] * weight[i])
+        return sum(f1_list) / len(f1_list)
+    total_f1 = 0
+    for i in range(len(f1_list)):
+        total_f1 += (f1_list[i] * weight[i])
+    return total_f1 / sum(weight)
 
-        return total_f1 / sum_weight
-    
 # Define column names
-columns = ['Macro F1 score weight distribution', 'DeepSeek R1 8B', 'DeepSeek R1 8B Finetuned', 'Llama-3.2 3B Instruct']
-df_f1scores = pd.DataFrame(np.nan, index=[0, 1, 2, 3, 4, 5], columns=columns)
+columns = ['Macro F1 score weight distribution', 'DeepSeek R1 8B', 'DeepSeek R1 4B Finetuned', 'DeepSeek R1 8B Finetuned', 'Llama-3.2 3B Instruct']
+# Df to store all the results
+df_f1scores = pd.DataFrame(np.nan, index=[0, 1, 2, 3, 4, 5, 6], columns=columns)
+
+## Unweighted
 macro_base_0 = macro_f1(f1s_base)
-macro_train_0 = macro_f1(f1s_deepseek)
+macro_train_0 = macro_f1(f1s_train)
+macro_train8_0 = macro_f1(f1s_train_8)
 macro_llama_0 = macro_f1(f1s_llama)
-unweighted = ['Macro F1 score with equal weight', macro_base_0, macro_train_0, macro_llama_0]
+unweighted = ['Macro F1 score with equal weight', macro_base_0, macro_train_0, macro_train8_0, macro_llama_0]
 df_f1scores.loc[0] = unweighted
 
-keys = ['perovskite_composition',
- 'electron_transport_layer',
- 'hole_transport_layer',
- 'structure_pin_nip',
- 'stability_type',
- 'temperature',
- 'time',
- 'humidity',
- 'passivating_molecule',
- 'efficiency_cont',
- 'efficiency_tret',
- 'control_pce',
- 'treated_pce',
- 'control_voc',
- 'treated_voc']
-weights_1_list = [1, 1, 1, 1, 2, 2, 2, 2, 1, 2, 2, 1, 1, 1, 1]
-weights_1 = weight_dict(keys, weights_1_list)
-macro_base_1 = macro_f1(f1_dict_base, weight = weights_1)
-macro_train_1 = macro_f1(f1_dict_deepseek, weights_1)
-macro_llama_1 = macro_f1(f1_dict_llama, weight = weights_1)
-first_f1 = ['Heavier weight on stability', macro_base_1, macro_train_1, macro_llama_1]
+##Weight 1
+weights_1 = [1, 1, 1, 1, 2, 2, 2, 2, 1, 2, 2, 1, 1, 1, 1]
+macro_train_1 = macro_f1(f1s_train, weight = weights_1)
+macro_base_1 = macro_f1(f1s_base, weight = weights_1)
+macro_train8_1 = macro_f1(f1s_train_8, weight = weights_1)
+macro_llama_1 = macro_f1(f1s_llama, weight = weights_1)
+first_f1 = ['Heavier weight on stability', macro_base_1, macro_train_1, macro_train8_1, macro_llama_1]
 df_f1scores.loc[1] = first_f1
 
-weights_2_list = [2, 2, 2, 2, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1]
-weights_2 = weight_dict(keys, weights_2_list)
-macro_base_2 = macro_f1(f1_dict_base, weight = weights_2)
-macro_train_2 = macro_f1(f1_dict_deepseek, weight = weights_2)
-macro_llama_2 = macro_f1(f1_dict_llama, weight = weights_2)
-first_f2 = ['Heavier weight on perovskite structure', macro_base_2, macro_train_2, macro_llama_2]
+##Weight 2
+weights_2 = [2, 2, 2, 2, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1]
+macro_train_2 = macro_f1(f1s_train, weight = weights_2)
+macro_base_2 = macro_f1(f1s_base, weight = weights_2)
+macro_train8_2 = macro_f1(f1s_train_8, weight = weights_2)
+macro_llama_2 = macro_f1(f1s_llama, weight = weights_2)
+first_f2 = ['Heavier weight on perovskite structure', macro_base_2, macro_train_2, macro_train8_2, macro_llama_2]
 df_f1scores.loc[2] = first_f2
 
-weights_3_list = [1, 1, 1, 1, 1, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2]
-weights_3 = weight_dict(keys, weights_3_list)
-macro_base_3 = macro_f1(f1_dict_base, weight = weights_3)
-macro_train_3 = macro_f1(f1_dict_deepseek, weight = weights_3)
-macro_llama_3 = macro_f1(f1_dict_llama, weight = weights_3)
-first_f3 = ['Heavier weight on numeric data', macro_base_3, macro_base_3, macro_llama_3]
+##Weight 3
+weights_3 = [1, 1, 1, 1, 1, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2]
+macro_train_3 = macro_f1(f1s_train, weight = weights_3)
+macro_base_3 = macro_f1(f1s_base, weight = weights_3)
+macro_train8_3 = macro_f1(f1s_train_8, weight = weights_3)
+macro_llama_3 = macro_f1(f1s_llama, weight = weights_3)
+first_f3 = ['Heavier weight on numeric data', macro_base_3, macro_train_3, macro_train8_3, macro_llama_3]
 df_f1scores.loc[3] = first_f3
 
-weights_4_list = [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1]
-weights_4 = weight_dict(keys, weights_4_list)
-macro_train_4 = macro_f1(f1_dict_deepseek, weight = weights_4)
-macro_base_4 = macro_f1(f1_dict_base, weight = weights_4)
-macro_llama_4 = macro_f1(f1_dict_llama, weight = weights_4)
+##Weight 4
+weights_4 = [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1]
+macro_train_4 = macro_f1(f1s_train, weight = weights_4)
+macro_base_4 = macro_f1(f1s_base, weight = weights_4)
+macro_train8_4 = macro_f1(f1s_train_8, weight = weights_4)
+macro_llama_4 = macro_f1(f1s_llama, weight = weights_4)
+first_f4 = ['Weight to perform prediction 1', macro_base_4, macro_train_4, macro_train8_4, macro_llama_4]
+df_f1scores.loc[4] = first_f4
 
-weights_5_list = [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1]
-weights_5 = weight_dict(keys, weights_5_list)
-macro_base_5 = macro_f1(f1_dict_base, weight = weights_5)
-macro_train_5 = macro_f1(f1_dict_deepseek, weight = weights_5)
-macro_llama_5 = macro_f1(f1_dict_llama, weight = weights_5)
-first_f5 = ['Veriable to perform prediction 1: Normalized difference in PCE', macro_base_5, macro_train_5, macro_llama_5]
-df_f1scores.loc[4] = first_f5
+##Weight 5
+weights_5 = [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1]
+macro_train_5 = macro_f1(f1s_train, weight = weights_5)
+macro_base_5 = macro_f1(f1s_base, weight = weights_5)
+macro_train8_5 = macro_f1(f1s_train_8, weight = weights_5)
+macro_llama_5 = macro_f1(f1s_llama, weight = weights_5)
+first_f5 = ['Weight to perform prediction 2', macro_base_5, macro_train_5, macro_train8_5, macro_llama_5]
+df_f1scores.loc[5] = first_f5
 
-weights_6_list = [1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0]
-weights_6 = weight_dict(keys, weights_6_list)
-macro_train_6 = macro_f1(f1_dict_deepseek, weight = weights_6)
-macro_base_6 = macro_f1(f1_dict_base, weight = weights_6)
-macro_llama_6 = macro_f1(f1_dict_llama, weight = weights_6)
-first_f6 = ['Veriable to perform prediction 2: Prediction of long term PCE retained', macro_base_6, macro_train_6, macro_llama_6]
-df_f1scores.loc[5] = first_f6
+##Weight 6
+weights_6 = [1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0]
+macro_train_6 = macro_f1(f1s_train, weight = weights_6)
+macro_base_6 = macro_f1(f1s_base, weight = weights_6)
+macro_train8_6 = macro_f1(f1s_train_8, weight = weights_6)
+macro_llama_6 = macro_f1(f1s_llama, weight = weights_6)
+first_f6 = ['Weight to perform prediction 3', macro_base_6, macro_train_6, macro_train8_6, macro_llama_6]
+df_f1scores.loc[6] = first_f6
 
-df_f1scores.to_csv('data/evaluation_schema_2.csv', index=False)
-
-
+df_f1scores.to_csv("../data/extraction_eval/f1_scores_originalschema.csv", index = False)
