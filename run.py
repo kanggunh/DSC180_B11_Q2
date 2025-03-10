@@ -3,7 +3,6 @@ from src.crossref_dataset_generation import generate_crossref_dataset
 from src.scraping import scrape_papers
 from src.pdf_conversion import convert_pdf_to_xml, convert_grobid_xml_to_csv
 from src.classification import apply_keyword_classification, train_classification_models
-from src.rag_filtering import filter_with_rag
 from src.extraction import run_extraction, convert_csv_to_json
 from src.format_extraction import ensure_json_format, format_passivators, create_df_from_json
 from src.db_processing import clean_and_merge_db
@@ -50,10 +49,9 @@ def run_extraction_for_eval():
     -------
     None
     """
-    model_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+    model_name = "meta-llama/Llama-3.2-3B-Instruct"
     annotations_path = "../data/annotations/150_papers.csv"
-    rag_output_path = filter_with_rag(annotations_path)
-    extraction_csv_path = run_extraction(model_name=model_name, tokenizer_name=model_name, data_path=rag_output_path)
+    extraction_csv_path = run_extraction(model_name=model_name, tokenizer_name=model_name, data_path=annotations_path)
     extraction_json_path = f"../data/extraction_eval/{model_name.split('/')[-1]}.json"
     convert_csv_to_json(extraction_csv_path, extraction_json_path)
     formatted_path = ensure_json_format(extraction_json_path)
@@ -73,8 +71,7 @@ def run_full_extraction():
     None
     """
     relevant_papers_path = "../data/classification/relevant_papers.csv"
-    rag_output_path = filter_with_rag(relevant_papers_path)
-    extraction_csv_path = run_extraction(rag_output_path)
+    extraction_csv_path = run_extraction(relevant_papers_path)
     extraction_json_path = "../data/extraction_final/final_extraction.json"
     convert_csv_to_json(extraction_csv_path, extraction_json_path)
     formatted_path = ensure_json_format(extraction_json_path)
@@ -97,8 +94,8 @@ if __name__ == "__main__":
     if 'classification' in args:
         run_classification()
     if 'finetuning' in args:
-        model_name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
-        training_data_path = "../data/finetuning/chunked_training_schema2.csv"
+        model_name = "meta-llama/Llama-3.2-3B-Instruct"
+        training_data_path = "../data/finetuning/chunked_training.csv"
         finetune_extraction_model(model_name=model_name, training_data_path=training_data_path)
     if 'extraction_evaluation' in args:
         run_extraction_for_eval()

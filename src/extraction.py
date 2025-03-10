@@ -59,7 +59,7 @@ def run_extraction(data_path, model_name="deepseek-ai/DeepSeek-R1-Distill-Llama-
         do_sample=False,
     )
 
-    with open("../data/prompts/tests_nested.txt", "r'") as f:
+    with open("../data/prompts/fully_nested.txt", "r'") as f:
         PREFIX = f.read()
     
     def create_prompt(system, user):
@@ -112,7 +112,7 @@ def run_extraction(data_path, model_name="deepseek-ai/DeepSeek-R1-Distill-Llama-
     
     num_workers = cpu_count()  # Adjust based on available CPUs
     dataset = pd.read_csv(data_path)
-    data_loader = DataLoader(dataset["filtered_text"].tolist(), batch_size=batch_size, num_workers=num_workers)
+    data_loader = DataLoader(dataset["text"].tolist(), batch_size=batch_size, num_workers=num_workers)
 
     json_outputs = []
     for batch in tqdm(data_loader, desc="Processing Batches"):
