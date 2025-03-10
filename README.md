@@ -89,10 +89,11 @@ OPENAI_API_KEY=your_openai_api_key
 ```
 **3. Set Up GROBID for PDF Conversion**
 - install [docker](https://docs.docker.com/engine/install/),
-- Run the following command to download and run GROBID's image:  This will initialize GROBID on http://localhost:8070.
+- Run the following command to download and run GROBID's image:
 ```
 docker run --rm --init --ulimit core=0 -p 8070:8070 lfoppiano/grobid:0.8.1
 ```
+- This will initialize GROBID on http://localhost:8070.
 ## Using run.py
 
 **1. Run the Full Pipeline:** <code>python run.py all</code>
