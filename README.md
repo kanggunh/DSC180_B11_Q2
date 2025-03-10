@@ -74,6 +74,16 @@ PSC-Passivator-Optimization
 ├── requirements.txt                      # Python dependencies
 └── run.py                                # Main execution script
 ```
+
+### Structure Organization Explained
+- **Data Organization (`data/`):** All data is stored according to the specific section of the pipeline it relates to. This segmentation helps streamline data processing and analysis.
+- **Notebooks Directory (`notebooks/`):** The `notebooks` folder contains Jupyter notebooks primarily for:
+  - Exploratory Data Analysis (EDA)
+  - Visualization creation
+  - Code experimentation and prototyping that is not directly part of the automated pipeline
+- **Source Code (`src/`):** All code directly related to the pipeline is modularized and includes clear docstrings for documentation. Each script handles a specific part of the pipeline, from data scraping to prediction.
+
+
 ---
 
 ## Running the project
@@ -94,20 +104,43 @@ OPENAI_API_KEY=your_openai_api_key
 docker run --rm --init --ulimit core=0 -p 8070:8070 lfoppiano/grobid:0.8.1
 ```
 - This will initialize GROBID on http://localhost:8070.
-## Using run.py
 
-**1. Run the Full Pipeline:** <code>python run.py all</code>
+## Run the Full Pipeline
+To execute all steps of the pipeline sequentially (scraping, classification, extraction, and prediction), use:
+<code>python run.py all</code>
 
-**2. Run Specific Stages:**
-- <code>python run.py scraping_and_conversion</code>
-- <code>python run.py classification</code>
-- <code>python run.py finetuning</code>
-- <code>python run.py extraction_evaluation</code>
-- <code>python run.py extraction</code>
-- <code>python run.py prediction</code>
+## Run Specific Stages Individually
+**1. Scraping and Conversion**  
+Generates a dataset of DOIs, scrapes research papers, converts PDFs to XML, and formats them into CSV.
+```
+python run.py scraping_and_conversion
+```
+**2. Classification**  
+Trains the classification models and classifies research papers as relevant or not.
+```
+python run.py classification
+```
+**3. Fine-Tuning the Extraction Model**  
+Fine-tune the extraction model using a chunked dataset.
+```
+python run.py finetuning
+```
 
+**4. Extraction for Evaluation**  
+Run the extraction pipeline on annotated papers, apply RAG filtering, and format the output.
+```
+python run.py extraction_evaluation
+```
 
-
-
+**5. Full Extraction Pipeline**  
+Execute the extraction process on the relevant papers identified by the classification model.
+```
+python run.py extraction
+```
+**6. Prediction**  
+Use the extracted and formatted data to generate stability predictions.
+```
+python run.py prediction
+```
 
 
