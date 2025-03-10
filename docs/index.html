@@ -11,7 +11,7 @@
     <!-- Header Section -->
     <header>
         <div class="container">
-            <h1>Data Driven Passivator Optimization for Perovskite Solar Cells</h1>
+            <h1>Data Driven Optimization of Passivation Molecules for Perovskite Solar Cells</h1>
             <h3>Kang Gun Ham, Jill Nomura, Daniel Park, Nic Colebank</h3>
             <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" class="github-button">View on GitHub</a>
         </div>
@@ -20,87 +20,390 @@
     <!-- Navigation Bar -->
     <nav class="nav-menu">
         <ul>
-            <li><a href="#intro">Intro/Background</a></li>
-            <li><a href="#papers">Paper Collection</a></li>
-            <li><a href="#data">Data/Prediction</a></li>
-            <li><a href="#untested">Best Untested Combinations</a></li>
-            <li><a href="#future">Future Directions</a></li>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#workflow">Workflow</a></li>
+            <li><a href="#methods">Methods</a></li>
+            <li><a href="#results">Results</a></li>
+            <li><a href="#finalresult">Final Results</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
         </ul>
     </nav>
 
-    <!-- Background Section -->
+    <!-- Main Content Box 1: Intro/Background and Objective -->
     <section id="intro" class="content">
-        <h2>Intro/Background</h2>
-        <p></p>
-        <p></p>
+        <div class="box first-title">
+            <h2>1. Introduction</h2>
+        </div>
+        <div class="box">
+            <h2>1.1 Background</h2>
+            <p>Perovskite solar cells (PSCs) are a promising technology in PV research, offering high Power Conversion Efficiency (PCE) and low cost but suffering from poor long-term stability. The Perovskite Composition (3D crystal structure) is where light is absorbed and excites electrons for electricity generation. Passivating molecules form a thin layer that improves long-term stability of these Perovskite solar cells.</p>
+        </div>
+        <div class="box">
+            <h2>1.2 Objective</h2>
+            <p>This project aims to streamline passivating molecule discovery using a data-driven approach. Identifying these molecules is traditionally slow and costly, requiring months of testing. By leveraging machine learning, we seek to automate candidate selection from scientific literature. This involves building a database of published perovskite research, classifying relevance, and extracting key information with a large language model. Once complete, we will perform predictive analysis to identify optimal compositions and passivating pairs for testing in our UCSD lab.</p>
+            <p></p>
+        </div>
     </section>
 
-    <!-- Next Section -->
-    <section class="content">
-        <h2>Objective</h2>
-        <p></p>
-        <p></p>
+
+    <!-- Main Content Box 2: Workflow (Paper Collection and Classification) -->
+    <section id="workflow" class="content">
+        <div class="box first-title">
+            <h2>2. Workflow</h2>
+        </div>
+        <div class="box">
+            <h2>2.1 Scientific Paper Collection</h2>
+            <p>Retrieved 10,000 scientific papers related to perovskite passivation using the Crossref API. Using Selenium, downloaded PDFs of the papers along with their supplementary materials. Converted these PDFs to structured text using GROBID and parsed the resulting XML files into text files.</p>
+        </div>
+        <div class="box">
+            <h2>2.2 Preprocessing: Labeled Data</h2>
+            <p>Our team analyzed 150 perovskite solar cell papers to develop our pipeline, testing text conversion tools and refining data extraction. One paper failed to convert, leaving 149 papers for review. We found that only 87 papers focused on passivating molecules, while 62 covered other perovskite topics. For classification, the 87 relevant papers were labeled as True, while the 62 were labeled as False for being related but out of scope. An additional 138 papers on unrelated topics (e.g., perovskite oxides, silicon-based solar cells) were added as False labels, totaling 287 papers for model training and validation.
+
+            We used TeamTat to manually annotate these 149 papers in three phases: (1) team members initially annotated their assigned papers, (2) a reviewer corrected inconsistencies and refined labels, and (3) annotations were analyzed alongside predictions to assess necessary entity presence. Out of 87 relevant papers, 74 contained complete information on Perovskite Composition, Passivation, and PCE, while 13 lacked key details (e.g., missing PCE values or composition ratios). This labeled dataset was used to train and evaluate our extraction and prediction models.
+            </p>
+            <p></p>
+        </div>
     </section>
 
-    <!-- Next 2 Section -->
-    <section id="papers" class="content">
-        <h2>Scientific Paper Collection</h2>
-        <p></p>
-        <p></p>
+    <!-- Main Content Box 3: Methods -->
+    <section id="methods" class="content">
+        <div class="box first-title">
+            <h2>3. Methods</h2>
+            <p>Implemented Retrieval Augmented Generation (RAG) to filter out irrelevant paragraphs from papers for our extraction task. Hosted LLMs, including Llama and DeepSeek, on the San Diego Computing Center for extraction. Optimized extraction performance using prompt engineering, extraction schema engineering, and model fine-tuning techniques. A semi-nested JSON schema with DeepSeek R1 8B achieved the best extraction results.</p>
+            <p></p>
+        </div>
+        <div class="box">
+            <h2>3.1 Scraping</h2>
+            <p>This section outlines the complete process of scraping a corpus of research paper links into a corpus of text files and tools that were tested for this pipeline.
+                Since our team was provided with 150 research paper links, getting PDF links and converting to Text were looked into first. Once the text files were generated, they were labeled using TeamTat, and other key steps in the workflow were executed.
+                After successfully progressing other parts of our project workflow, the team prepared to scale the pipeline to handle a larger corpus of research papers. To facilitate this expansion, we explored tools for retrieving additional research paper links to and automated this URL to scraping text pipeline.
+                </p>
+            <h3>3.1.1 Selenium & undetected chromedriver</h3>
+            <p2>Selenium is an open-source automation tool used for web scraping and browser automation. We employed Selenium to navigate scientific journal sites and download PDF files corresponding to the paper and any supplementary materials. Many journal websites use anti-bot services like Distill Network or Imperva, which the base version of Selenium cannot get around. To solve this, we used the Undetected Chromedriver package, which uses human-like fingerprints to prevent detection by anti-bot systems. To scrape the PDFs themselves, our algorithm gets all PDF links in the HTML and downloads them as long as they are not in a reference or related articles section.</p2>
+            <h3>3.1.2 GROBID</h3>
+            <p2>GROBID (GeneRation Of BIbliographic Data) is a machine learning library designed to extract structured information from scientific papers in PDF format. Distributed as a Docker image, GROBID is accessible via HTTP requests. Our Python code sends PDF files to GROBID, which then returns the content in TEI XML format with embedded structural information.
+                GROBID is specifically engineered to parse text into XML, allowing users to easily access distinct sections of a paper—such as the title, abstract, and body content—by recognizing corresponding headers. We considered this tool because its automated conversion of PDFs into structured, machine-readable XML significantly enhances the readability of the text and simplifies the navigation and extraction of key components for our analysis
+                </p2>
+            <h3>3.1.3 Docling</h3>
+            <p2>Docling is an open-source toolkit developed by IBM to facilitate the conversion of various document formats into machine-learning-ready formats suitable for AI applications. When processing a document, Docling follows a format-specific pipeline that first analyzes the document structure and determines the appropriate processing steps. The processed documents are then converted into Docling Documents, which can be exported in multiple formats based on user specifications. Supported export formats include markdown, dictionary format, and document tokens, providing flexibility in data handling. We considered Docling for this task due to its advanced ability to recognize and extract key components of research papers, such as tables, figures, and formulas. Additionally, its capability to convert PDFs into markdown format enabled immediate text extraction, making it highly efficient for our workflow.
+            </p2>
+            <h3>3.1.4 Crossref API</h3>
+            <p2>The Crossref REST API was programmatically accessed through Python’s requests library to build a dataset of URLs corresponding to perovskite solar cell research papers. We took advantage of its keyword search capabilities to find the 10,000 most relevant papers for each year. Our search included the following keywords: “perovskite”, “solar”, “halide”, and “passivation”. We retrieved the 10,000 most relevant papers from 2020-2024. Resulting in a database of 50,000 paper URLs.
+            </p2>
+        </div>
+        <div class="box">
+            <h2>3.2 Classification</h2>
+            <p>Classification models were trained based on labeled data. The sample classification were done on large corpus of paper to see the result.
+                Logistic regression : A binary classification model that predicts probabilities using a sigmoid function. Works well with linearly separable data but suffers when dealing with complex relationships and is sensitive to outliers. 
+                Naive Bayes: A probabilistic model that assumes all features are conditionally independent. Performs well in text classification and sentiment analysis. 
+                SVM: Classification model that finds the optimal decision boundary that separates classes in a dataset with maximum margins. Work well with high-dimensional datasets and when classes are not perfectly linearly separable. Can be very computationally expensive when working with large datasets.
+                Random Forest: A learning algorithm that has multiple decision trees and combines those predictions to improve accuracy and reduce overfitting. Each tree is trained on a random subset of data using bootstrapping and features are randomly selected to introduce variability. Final prediction is determined by averaging the predictions of trees. Can handle missing data and can handle complex relationships.
+                XGBoost: An advanced gradient boosting algorithm that builds decision trees sequentially, done to correct the errors of its predecessors. Optimizes the model iteratively by minimizing the loss function and reducing overfitting. One of the most powerful models but requires complex tuning. 
+                Keyword classification: Simple rule based technique where text is classified based on predefined keywords. Lacks adaptability since its ability to generalize beyond the given keywords are set, which makes it difficult to use for complex classification. 
+                </p>
+            <p></p>
+        </div>
+        <div class="box">
+            <h2>3.3 Extraction</h2>
+            <p>This section outlines the process of transforming extracted research paper text into a structured JSON format, along with the tools and strategies used to complete this pipeline.
+                To achieve this, we tested five different models, each implemented and refined through fine-tuning and/or prompt engineering. The most promising models were then evaluated across various extraction output formats to identify the optimal configuration for structured data extraction.
+                </p>
+            <h3>3.3.1 Retrieval Augmented Generation (RAG)</h3>
+            <p2>Our RAG implementation used General Text Embedding (GTE) with Alibaba’s Qwen2-1.5B-instruct model. It was provided with a simplified version of our prompt and used the cosine similarity to compare each chunk’s relevance to our extraction task. For our purposes, a chunk equates to a paragraph of a scientific paper. The top 30% of chunks with the highest cosine similarity to the prompt were classified as relevant, while the rest were considered to be irrelevant and were removed.
+            </p2>
+            <h3>3.3.2 Extraction Model - Llama</h3>
+            <p2>Llama 3.2 3B: We originally selected the Llama 3.2 3B model due to its context window size of 128K tokens, which is well-suited for processing scientific literature. With 3
+                billion parameters, this model can be run on GPUs with 12GB of VRAM using 4-bit quantization, making it possible to run on any node in the San Diego Supercomputing Center.
+                </p2>
+            <h3>3.3.3 Extraction Model - Deepseek</h3>
+            <p2>DeepSeek R1 Distilled on Llama 8B: To investigate whether increasing the number of
+                parameters improves extraction performance, we tested DeepSeek R1’s distilled version
+                of the Llama 8B model. The Llama 8B model is finetuned on DeepSeek R1’s outputs,
+                allowing it to understand reasoning patterns of more complex models. With DeepSeek R1
+                having groundbreaking performance when compared to other LLMs that can be locally
+                hosted, we wanted to see if a distilled version of it could result in improved performance
+                compared to Llama’s base model. We tested with both 4-bit and 8-bit quantization to
+                see if higher precision would lead to better extraction performance.
+                </p2>
+            <h3>3.3.4 Finetuning Llama and Deepseek</h3>
+            <p2>Using our annotated set of 150 papers as training data, we finetuned versions of both Llama and DeepSeek using Hugging face’s Supervised Fine-Tuning Trainer, which uses a training set as input for finetuning a pre-existing model. To capture more complexity and allow the trainer to better understand how data is extracted, we broke the training data into chunks, where each chunk corresponds to a paragraph in the scientific paper. This is paired with two JSON objects: the memory and the output. The memory represents the data extracted up until the current chunk, and the output is the data extracted from the current chunk appended to the memory JSON. This allows for the trainer to understand extraction on a paragraph by paragraph basis, which we think could result in less hallucination. The dataset was also broken down into chunks in order to train a larger model, as training with full text resulted in memory issues on an
+                a5000 GPU with 24 GB of VRAM. To speed up training time, we used the RAG to filter out irrelevant chunks in our training data of 150 annotated papers, resulting in 2,631 chunks of training data.Due to the San Diego Computing Center being down for extended periods of time, DeepSeek-R1 8B 8-bit and Llama 3.2-8B-Instruct 8-bit were run on the platform RunPod, which allowed for the use of an A40 GPU, containing 48 GB of VRAM. More VRAM meant that the training could be done with a larger batch size to speed up training time.
+                </p2>
+            <h3>3.3.5 Extraction Model - SciBERT</h3>
+            <p2>SciBERT is a BERT (bidirectional encoder representations from transformers) based language model pre-trained on scientific texts, designed for extracting information from scientific papers. 
+                The approach started by extracting token-label pairs from annotated XML data and creating
+                negative samples from unannotated text, labeling them as ”0” (outside any entity). After
+                splitting the data into training and validation sets, we tokenized and aligned it in the BIO
+                format using SciBERT’s tokenizer. The text was split into chunks of 512 tokens, and we
+                fine-tuned the pre-trained SciBERT model for token classification with the Hugging Face
+                Trainer. Finally, we used the trained model to extract entities from large text files, chunking
+                the input, predicting labels, grouping tokens into entities, and aggregating them into a final
+                output.
+                </p2>
+            <h3>3.3.6 Extraction Model - ChemDataExtractor</h3>
+            <p2>ChemDataExtractor is a natural language processing toolkit designed for extracting chemical information from scientific literature by parsing unstructured text and converting it into structured data. It processes text using pdfminer for text extraction and NLTK tokenization for identifying chemical entities. NER and rule based extraction are used to detect chemical compounds, material properties, and other conditions, while spaCy is used to connect those numerical values with other relevant properties. 
+            </p2>
+            <h3>3.3.7 Prompting Strategies</h3>
+            <p2>We explored different prompting strategies to optimize the extraction process:
+                <ul>
+                    <li><strong>Zero-Shot Prompting:</strong> The model is asked to perform a task without any prior knowledge or examples. It uses its pretrained knowledge to generate a response. Usually, this method of prompting is used when the task at hand is generic.</li>
+                    <li><strong>One-Shot Prompting:</strong> The model is provided with one example to learn from before performing a task. This is for the model to understand the structure of the task and apply the learned structure to generate better responses, usually resulting in greater accuracy in comparison to zero-shot prompting. In our specific prompt, we give one example of an input (chunk of text from one paper) and an output (JSON that is generated from the input).</li>
+                    <li><strong>Meta Prompting:</strong> This type of prompting involves guiding the model how to handle a task with higher-level instructions that dictate how the model should arrive at a response. There are multiple kinds of meta prompting, but for our task, we used role-based meta prompting and "prompting a prompt." We essentially instruct the AI to take on a specific role of expertise before generating a response.</li>
+                    <li><strong>Chain of Thought (CoT) Prompting:</strong> The model is encouraged to break down its reasoning step by step before generating a response. When explicitly going through each step, the model is prone to fewer overall errors and may potentially result in greater accuracy. We gave our model a step-by-step method of extracting and sanity-checking its response before proceeding to the next step.</li>
+                </ul>
+            </p2>
+            <h3>3.3.8 Schema Selection</h3>
+            <p2> We explored different prompting strategies to optimize the extraction process:
+                <ul>
+                    <li><strong>Schema 1: Fully Nested JSON:</strong> The model is asked to perform a task without any prior knowledge or examples. It uses its pretrained knowledge to generate a response. Usually, this method of prompting is used when the task at hand is generic.</li>
+                    <li><strong>Schema 2: Semi Nested JSON:</strong> The model is provided with one example to learn from before performing a task. This is for the model to understand the structure of the task and apply the learned structure to generate better responses, usually resulting in greater accuracy in comparison to zero-shot prompting. In our specific prompt, we give one example of an input (chunk of text from one paper) and an output (JSON that is generated from the input).</li>
+                    <li><strong>Schema 3: Flat JSON:</strong> This type of prompting involves guiding the model on how to handle a task with higher-level instructions that dictate how the model should arrive at a response. There are multiple kinds of meta prompting, but for our task, we used role-based meta prompting and "prompting a prompt." We essentially instruct the AI to take on a specific role of expertise before generating a response.</li>
+                </ul>
+            </p2>
+        </div>
+        <div class="box">
+            <h2>3.4 Database Creation</h2>
+            <p>Although the detailed cleaning to convert JSON → Tabular data depends on the detail from final results. The feature engineering are necessary to extract essential informations from perovskite composition and passivating molecules</p>
+            <h3>3.4.1 Perovskite Composition Columns</h3>
+            <p2>The perovskite structure follows the general formula of ABX3. It follows a ratio of 1:1:3 among its components. In this structure, the A-site is occupied by a large cation such as Methylammonium (MA), Formamidinium (FA), or Cesium (Cs). The B-site holds a metal cation, typically Lead (Pb2+) or Tin (Sn2+). Finally, the X-site consists of three halide anions, including Iodine (I), Bromine (Br), or Chlorine (Cl). Instead of utilizing perovskite composition as a string, the perovskite composition was decomposed into numerical columns where values signifies the amount of molecule used in ratios. The example conversions are mentioned below.</p2>
+            <h3>3.4.2 Passivating Molecules to SMILES</h3>
+            <p2>In order to convert a molecule name into SMILES, it must first be in IUPAC (International Union of Pure and Applied Chemistry) nomenclature. Since many molecule names are not presented in IUPAC nomenclature in the research paper, we implemented a passivator conversion layer utilizing the OpenAI API. This involved gathering all unique passivators in the extraction data and prompting DeepSeek-R1 and GPT-4o to provide the IUPAC name for the given passivating molecules. The passivators were given three passes through both DeepSeek-R1 and GPT-4o to find the IUPAC name, allowing for multiple tries and different reasoning patterns to achieve the desired output. 
+            </p2>
+        </div>
+        <div class="box">
+            <h2>3.5 Prediction</h2>
+            <h3>3.5.1 Prediction 1: Normalized PCE Difference</h3>
+            <p2>This first predictive task focused on estimating the normalized power conversion efficiency (PCE) difference between the treatment and control perovskite solar cells. The normalized PCE difference is defined as:
+
+                Normalized PCE Difference =Treated PCE - Control PCEControl PCe   
+                
+                Initially, we started by directly predicting the treated PCE, but it was not an ideal approach because treated PCE alone is not an absolute indicator of improvement. The baseline performance of control perovskite cells varies across different studies due to many different experimental conditions. Focusing on normalized PCE difference it allowed for better comparability, as it directly reflects the gain in performance attributed to the passivation treatment rather than the absolute efficiency.
+                
+                To predict this, we selected a diverse set of machine learning models, including Random Forest Regressor, AdaBoost Regressor, Linear Regression, KNeighborsRegressor, and Support Vector Regressor (SVR). These models were chosen to test our hypothesis that ensemble methods and non-linear models would better capture the complex relationships between passivating molecules, perovskite composition, and PCE. Random Forest and AdaBoost were selected for their ability to model complex interaction through ensemble learning. KNeighborsRegressor and SVR were selected to test non-linear and margin-based approaches. And last but not least, Linear Regression served as a baseline model to assess whether a simpler linear approach could sufficiently predict the normalized PCE difference.
+                </p2>
+            <h3>3.5.2 Prediction 2:</h3>
+            <p2>The second predictive task focused on estimating the retained stability of perovskite solar cells under stability testing conditions. Retained stability is important in evaluating the effectiveness of passivating molecules in long-term stability. 
+
+                For this task, two approaches were used. The first model used the string of SMILES representation of passivating molecule and control retained stability as input features. The second model expanded this feature set by incorporating time and temperature. 
+                
+                The models evaluated included Random Forest Regressor, Gradient Boosting Regressor, Lasso, Ridge, and KNeighborsRegressor. These models were chosen to cover the spectrum of learning approaches. Random Forest and Gradient Boosting have been included to see if ensemble methods better capture the complex interaction of these features. Lasso and Ridge were used to see if simpler linear models could provide robust predictions. KNeighborsRegressor was used to test whether proximity could provide insights.
+                </p2>
+        </div>
     </section>
 
-    <!-- Next 3 Section -->
-    <section class="content">
-        <h2>Paper Classification Results</h2>
-        <p></p>
-        <p></p>
+    <!-- Main Content Box 4: Results -->
+    <section id="results" class="content">
+        <div class="box first-title">
+            <h2>4. Results</h2>
+            <p></p>
+            <p></p>
+        </div>
+        <div class="box">
+            <h2>4.1 Scraping: GROBID VS DOCLING</h2>
+            <p>Docling and GROBID both converted PDF content into text with distinct strengths and weaknesses. Docling excelled at accurately parsing and extracting tables, making it ideal for numerical data, and handled various document formats, including Microsoft Word. However, it struggled with section-based text conversion, sometimes embedding figure captions in the body text, and introduced encoded keywords, reducing text quality.
+                GROBID, on the other hand, performed well with structured section-based parsing, ensuring clean separation of titles, abstracts, and body content. It also converted units without encoding, which was beneficial for our use case. However, GROBID had trouble with two-column papers and failed on one out of 150 papers, though it generally performed well across publication formats.</p>
+        </div>
+        <div class="box">
+            <h2>4.2 Classification: Model Selection</h2>
+            <p>Classification model: Logistic regression vs Naive Bayes vs SVM vs Random Forest vs XGBoost. 
+                <ul>
+                    <li><strong>Naive Bayes:</strong> 
+                        - Highest BER, suggesting a bias towards predicting the majority class.
+                        - Low accuracy, indicating poor performance.
+                        - 0 recall, meaning it failed to identify any positive cases.
+                        - Likely issues: severe class imbalance, smoothing problems, or poor feature representation.
+                    </li>
+                    <li><strong>SVM:</strong> 
+                        - Second-best overall model, outperformed by only XGBoost.
+                        - Second-lowest BER, moderate accuracy, and second-best recall.
+                        - Fewer classification errors, captures positive cases well, and separates classes effectively.
+                        - Still has room for improvement in its metrics.
+                    </li>
+                    <li><strong>XGBoost:</strong>
+                        - Best overall model, with the lowest BER, indicating balanced performance between positive and negative classes.
+                        - Highest accuracy, meaning it makes the fewest errors and classifies the majority correctly.
+                        - Highest recall, excelling in imbalanced datasets by capturing more positive cases.
+                        - Outperforms all other models across all metrics, making it the best choice for this task.
+                    </li>
+                </ul>
+            </p>
+            <p></p>
+        </div>
+        <div class="box">
+            <h2>4.3 Classification: Performance on Large Corpus</h2>
+            <p>Utilizing XGBoost, which performed the best in terms of validation metric (Explained in 4.2) we classified the 10,000 scraped papers and sampled 40 papers from those classified as relevant to evaluate the model’s performance. Among these sampled papers, 60% were true positives (TP), meaning they were genuinely related to passivating molecules, while 40% were irrelevant to the topic.
+                Hoping to improve the proportion of relevant papers, we implemented keyword-based classification, filtering papers that contained specific keywords. By filtering keywords to have more than two occurrence, increased the true positive rate to 70% while reducing the corpus size to approximately 2,500 papers. Filtering keywords based on more than one occurrence kept roughly 4,500 papers signifying that roughly 2,000 papers mentioned passivating related keywords once, while the sample relevance remained essentially unchanged. 
+                
+                One key observation was that the XGBoost model, trained on only 80 relevant papers and 200 irrelevant papers, may not have been sufficient to generalize well to a much larger dataset of 10,000 papers. The sampling results suggest that keyword-based filtering that looks for specific text was more effective than direct classification in identifying truly relevant papers.
+                </p>
+        </div>
+        <div class="box">
+            <h2>4.4 Extraction: RAG Prompt Engineering</h2>
+            <p>The following two prompts were used for RAG filtering:
+
+                Prompt 1: “Extract data on passivating molecule and its related stability and efficiency data”
+                
+                Prompt 2: “What, if any, is the passivating molecule tested, and what is the corresponding PCE, VOC, and stability test data (efficiency retained over time, temperature, test type)”
+                
+                The results in Figure  are from comparing chunks in the annotated set of papers and the RAG filtered chunks of the same set. Accuracy and recall are calculated based on the number of chunks labeled as relevant compared to the ground truth (a chunk is considered relevant if there is any annotation in it).
+                
+                Prompt 2, the detailed prompt, resulted in an increase in both accuracy and recall, suggesting that adding more information to the prompt about what we want to extract is beneficial for finding relevant chunks.
+                </p>
+        </div>
+        <div class="box">
+            <h2>4.5 Extraction: Fine-tuning Extraction Model</h2>
+            <p>After finetuning DeepSeek-R1 8B 4-bit, we found a plateau in validation loss around 3 epochs, resulting in all other models being trained for 3 epochs instead of 5.
+
+                After finetuning 4 versions of DeepSeek-R1 and Llama, we found that DeepSeek-R1 8B 8-bit resulted in the lowest cross-entropy loss after 3 epochs of training. Both 8-billion parameter models were trained with an A40 GPU, allowing for a batch size of 8. This resulted in a much faster training time of 8-11 hours.
+                
+                These results also illustrate that higher precision may lead to lower cross-entropy loss, as the loss was lower for the 8-bit version of DeepSeek-R1 8B than the 4-bit version.
+                </p>
+        </div>
+        <div class="box">
+            <h2>4.6 Extraction: Extraction on Different Schema</h2>
+            <p>To evaluate extraction performance across different schema structures, we first conducted extraction using the DeepSeek-R1 8B base model. Since the base model does not require training, it serves as an effective benchmark for assessing inherent differences in schema structure and their impact on extraction quality.
+                As shown in Figure X, Schema 2 consistently outperformed other schemas across all F1 score variations, regardless of weight distribution. Given these promising results, we further compared the Original Schema (Schema 1) against Schema 2 using a trained extraction model.
+                
+                The results revealed a clear distinction in performance trends:
+                Finetuned extraction models achieved higher or comparable F1 scores when utilizing the Original Schema, suggesting that they effectively handled the added complexity of the nested structure.
+                Models with larger parameter size and precision generally outperform smaller models, likely capturing more complexity in the papers.
+                In contrast, the Base (non-finetuned) DeepSeek R1 8B model performed best with Schema 2, surpassing its performance on the Original Schema and achieving the highest overall F1 score.
+                These findings suggest that base models prefer a simpler schema (Schema 2), likely due to its reduced structural complexity, which aligns better with general language model capabilities. However, trained models, having been fine-tuned on TeamTat annotations that were inherently based on the Original Schema, demonstrated stronger adaptability to the original nested structure. While the parsing of TeamTat annotations was adjusted to align with each schema, the inherent labeling of the text may have influenced the trained models to perform more effectively with the Original Schema. The annotations were designed to follow the Original Schema to capture the complexity of all papers, which may have included multiple passivating molecules and stability tests.Converting this to Schema 2 for training loses clarity, as only one passivating molecule is chosen for the output, but there are sometimes multiple passivators presented in the annotations themselves.
+
+            </p>
+        </div>
+        <div class="box">
+            <h2>4.7 Prediction: Prediction 1</h2>
+            <p>The goal of Prediction 1 was to model the normalize PCE Difference between treat and control PCE. The models evaluated included Random Forest Regressor, AdaBoost Regressor, Linear Regression, KNeighborsRegressor, and Support Vector Regressor (SVR). Each model was trained and evaluated across 100 different train-test splits to ensure robust assessment. 
+
+                To evaluate model, we used three key metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE) and R2 score. MAE gives a clear sense of how close the predictions are the the actual value. MSE is particularly useful for identifying if the model is struggling with outliers. And the R2 score indiciates how well the model explains the variance, with higher values indiciating better performance. By combining these metrics, we aimed to have a comprehensive understanding of the model’s performance.
+                
+                The Random Forest Regressor achieved the best performance among the tested models, with an average R² score of 0.47, an MAE of 2.97, and an MSE of 23.62. As shown in Figure 1, Random Forest maintained consistently low prediction error, while having the ability to explain good portion of the variance in normalize PCE difference (Figure 2). The model’s ensemble learning approach seems to be capturing the interaction.
+                
+                The AdaBoost Regressor was the second-best performer, with an R² score of 0.29, an MAE of 4.10, and an MSE of 31.81. While AdaBoost provided reasonable accuracy, it seems like it fell short in handling complex feature interactions.
+                
+                Other models, exhibited considerably lower predictive performance. KNeighborsRegressor and SVR struggled with model generalization. These models also had highest MAE and MSE values, suggesting that simpler or locality-based approach were not well-suited to capture the non-linear relationship in the data.
+                
+
+            </p>
+        </div>
+        <div class="box">
+            <h2>4.8 Prediction: Prediction 2</h2>
+            <p>The goal of Prediction 2 was to estimate the retained stability of perovskite solar cells after undergoing varying stability test conditions. This task aimed to assess whether incorporating additional features could enhance predictive accuracy. Four main approaches were tested, ranging from a simple model using only SMILES string clusters and control_retained_stability to more complex models incorporating SMILES-derived features, temperature, and time. The approaches included:
+                Using only SMILES cluster and control_retained_stability.
+                Adding time and temperature to the baseline features.
+                Incorporating SMILES-derived features along with the baseline.
+                Combining SMILES features, time, temperature, and control_retained_stability.
+                
+                The results, shown in Figures 6, indicate that none of the models achieved a positive R² score across any of the four approaches. The best R² score achieved was -0.13 by KNeighbors Regressor in the second approach, which included cluster, control retained stability, time, and temperature as input features. A negative R² score indicates that the model's predictions performed worse than a simple baseline prediction using the mean of the target variable. Notably, the model performance deteriorated as SMILES-derived features were included, suggesting that these features may not have contributed relevant information or perhaps even introduced noise into the predictive model.
+                Overall, the results indicate that none of the models or feature sets could adequately predict the treated retained stability. In the following section, we will delve into potential reasons why this prediction task may have underperformed and explore the limitations of the current dataset and feature engineering approach.
+
+
+            </p>
+        </div>
     </section>
 
-    <!-- Next 4 Section -->
-    <section id="data" class="content">
-        <h2>Data Extraction</h2>
-        <p></p>
-        <p></p>
+    <!-- Main Content Box 5: Final Results/Conclusion -->
+    <section id="finalresult" class="content">
+        <div class="box first-title">
+            <h2>5. Final Results</h2>
+            <p>Refining the predictive model by improving accuracy through better feature selection, hyperparameter tuning, and incorporating a larger database. Expanding our working database by scraping and extracting data from a larger corpus of perovskite research papers. Emphasizing the acquisition of more stability-related data to address limitations observed in predicting stability.</p>
+            <p></p>
+        </div>
+        <div class="box">
+            <h2>5.1 Scraping</h2>
+            <p>
+                The CrossRef API was utilized to retrieve 50,000 publication links related to perovskite solar cell research. To access the full-text versions of these papers, we employed Selenium in conjunction with undetected chromedriver, enabling us to bypass anti-bot detection mechanisms that restrict automated access to research articles.
+                From this dataset, we accessed approximately 12,000 article links to initiate the text conversion process. However, challenges arose when certain publications required PDFs to be downloaded via interactive buttons rather than direct HTML links, which we were unable to fully circumvent.
+                After iterating through the 12,000 papers, we successfully scraped and converted 10,000 papers into text format using GROBID. Although minor inconsistencies were observed in GROBID’s text conversions, the vast majority of PDFs were processed as intended. GROBID’s section-based text conversion significantly enhanced the annotation process, enabling extraction models to better interpret contextual information, ultimately reinforcing its selection in our workflow.
+                /p>
+        </div>
+        <div class="box">
+            <h2>5.2 Classification</h2>
+            <p>
+                The classification of 10,000 research papers was conducted based on keyword frequency, with a threshold of more than twice as the primary filtering criterion. This approach was chosen due to its effectiveness in identifying relevant papers while maintaining a manageable dataset size for further processing.
+                Notably, the sampled relevance rate for this method reached 70%, outperforming the results obtained using XGBoost’s classification model. Given that 2,500 papers met the filtering criteria, this approach also ensured a more feasible input size for the extraction model, enhancing its efficiency.
+                Furthermore, it was intuitive to assume that the 2,000 papers containing only a single keyword mention were likely irrelevant, reinforcing the decision to exclude them from further analysis.
+            </p>
+        </div>
+        <div class="box">
+            <h2>5.3 Extraction</h2>
+            <p>After running DeepSeek-R1 8B on the 2,539 papers classified as relevant, the results reveal varying levels of success in capturing key variables relevant to our prediction task. The model especially struggled with variables describing the structure of the perovskite, including the composition, hole transport layer, and electron transport layer. It likely struggled more with these as they require more domain knowledge to understand the makeup of a perovskite. These results also illustrate the number of papers that may be irrelevant, as papers that did not have a passivating molecule or treated PCE value are likely not relevant. The model did a better job of extracting stability test data, which is likely due to papers having one or more stability tests having the relevant information present in the text.
+            </p>
+        </div>
+        <div class="box">
+            <h2>5.4 Database Creation</h2>
+            <p>Once the extraction model processed 2,539 papers into JSON format, the next critical step was data cleaning and standardization to ensure consistent key structures and formatting.
+                A common challenge when using LLMs for structured extraction is the inconsistency in model outputs, even after extensive prompt engineering designed to enforce a uniform structure. These inconsistencies ranged from failure to properly format the output as JSON to the inclusion of unexpected dictionary keys that were never explicitly prompted, indicating instances where the language model generated extraneous information.
+                After making the necessary adjustments to correct these inconsistencies, the extracted JSON data was converted into a tabular format to facilitate downstream prediction tasks.
+                Given that the employed JSON schema followed a nested structure, each row in the resulting DataFrame corresponded to a stability test performed within a paper. This resulted in a total of 2,955 rows, highlighting that while most papers contained one stability test, some more comprehensive studies included multiple stability tests.
+                After expanding the JSON extractions into a structured format, the final dataset comprised 2,955 rows and 15 columns, with column details provided in Figure X.
+                
+                
+                
+                As part of the feature engineering process, the perovskite compositions were expanded into multiple columns, as detailed in Section 3.4.1. Additionally, the passivating molecules, initially extracted as text strings, were converted into SMILES representations, as explained in Section 3.4.2.
+                As shown in Figure X, out of 2,006 extracted passivating molecules, 51% were successfully converted into IUPAC format, and within this subset, 74% were further translated into SMILES representations.
+                This metric suggests that a portion of the extracted values were not valid molecular entities, leading to failed IUPAC conversions. The results indicate that the extraction model may have captured non-molecular terms or incomplete chemical names, which prevented accurate IUPAC translation and, consequently, SMILES conversion. This highlights a limitation in the extraction process, where some extracted passivating molecules were either misidentified or lacked proper chemical notation.
+                SMILES representations are essential for feature extraction, as they enable the derivation of 30 distinct molecular features, which serve as predictive variables in downstream modeling tasks. A detailed list of these 30 features is provided in the Appendix.
+                After converting the passivators to IUPAC nomenclature and then into smiles, the resulting dataset had 758 rows. Many of the rows that failed to convert were not true passivating molecules, as the extraction model tended to hallucinate passivators when one was not present in the paper. The SMILES conversion steps helps eliminate these hallucinated values, although some true passivators were not successfully converted due to the LLMs we used not being able to properly convert them into IUPAC nomenclature.
+                </p>
+            <h3>5.4.1 Database Schema for Prediction 1</h3>
+            <p2>After the database was cleaned and expanded, we went through another series of filtering and selecting steps to prepare the data for machine learning modeling. Rows with missing values in critical columns with PCE and VOC values were removed to ensure data integrity. Further refinement involved applying data constraints to key performance. Rows were retained only if the PCE values were between 10% and 35%, and the PCE percent change did not exceed 35%. These thresholds were set based on the guidance from our mentor, who indicated that PCE values outside these ranges were not meaningful within the context of the study.
+
+                This preprocessing step reduced the dataset to 360 rows. With this, the SMILES representation of passivating molecules was transformed into molecular descriptor features, such as molecular weight, lipophilicity, total valence elections, etc., to capture the chemical characteristics of the passivators. Additionally, the dataset includes perovskite composition, as mentioned previously.
+                
+                The database used in prediction includes 360 rows and 41 columns. This includes ‘pin_nip_structure’, ‘control_voc', 'C60', 'Spiro-OMeTAD’, ‘control_pce’, the 30 features from smiles, and the perovskite composition.
+                </p2>
+            <h3>5.4.2 Database Schema for Prediction 2</h3>
+            <p2>The database used for Prediction 2 aimed to estimate the retained stability of perovskite solar cells under varying stability test conditions. The initial preprocessing involved filtering out rows with missing values in critical columns. Although imputation methods were tested to handle missing values, the approach was ultimately discarded because the proportion of missing data was too high relative to actual values, potentially introducing significant bias into the model.
+
+                Rows were retained only if the stability test temperature was at least 60°C and the test duration was 500 hours or more. These thresholds were set based on our mentor’s guidance, emphasizing that tests conducted under milder conditions might not accurately reflect the rigorous stability performance required for meaningful analysis.
+                
+                The dataset was prepared for the four approaches previously outlined. The first and third approaches, which did not include temperature and time as features, had a larger dataset size of 512 rows for training and 39 rows for testing. The second and fourth approaches, which included temperature and time, had a smaller dataset with 68 rows for training and 9 rows for testing. The number of columns depended on the approached used.
+                </p2>
+            <h2>5.5 Predictions</h2>
+            <h3>5.5.1 Prediction 1</h3>
+            <p2>Random forest achieved the best performance. With an R² score of 0.63, an MAE of 2.88, and an MSE of 15.81. The predicted vs. actual PCE change percentage (Figure 3) illustrates the model's ability to align closely with the ideal prediction line. It seems to be better for lower PCE change values. Figure 3 suggests that the model tended to underestimate higher PCE changes.
+                Figure 3							Figure 4
+    
+                Looking at the feature importance of the Random Forest model (Figure 4), the analysis reveals that chemical descriptors derived from SMILES (QED, Kappa1, and LogP) significantly contributed to the model's predictive performance. Additionally, FA (Formamidinium) and Br (Bromine) also ranked highly.
+                
+                Overall, Random Forest Regressor demonstrates its effectiveness in capturing some interaction between the patterns of the non-linear data. The model's performance indicates that combining chemical, compositional, and experimental features can lead to meaningful insights into which passivating molecules are most effective for enhancing the stability of perovskite solar cells.
+            </p2>
+            <h3>5.5.2 Prediction 2</h3>
+            <p2>The residual plot (Figure 7) provides a visual representation of prediction errors for the fives models: Random Forest, Gradient Boosting, Lasso, Ridge, and KNeighborsRegressor. Ideally, this plot should be randomly dispersed around the zero line, with no apparent pattern. 
+
+                However, this residual plot for this prediction reveal consistent underperformance across all models. A pattern observed in the residuals is the consistent underestimation of the higher retained stability values. The all exhibit a downward trend suggesting that the models were biased towards predicting the lower stability.
+                
+                Given that we tested different models and that none of the models show a balance residual spread, it is likely tha the input features lack a strong predictive relationship for stability. 
+            </p2>
+        </div>
     </section>
 
-    <!-- Next 5 Section -->
-    <section class="content">
-        <h2>Prediction Methods</h2>
-        <p></p>
-        <p></p>
+    <!-- Main Content Box 6: -->
+    <section id="conclusion" class="content">
+        <div class="box first-title">
+            <h2>6. Conclusion</h2>
+            <p>This study demonstrates the viability of machine learning-driven literature mining as a scalable solution for identifying passivating molecules in perovskite solar cells. By automating data extraction and implementing predictive modeling, the framework can reduce the molecule discovery timeline and provide insight into what properties of molecules are most important in improving PCE. 
+
+                The extraction pipeline’s success is highlighted by its ability to handle complex scientific texts, identify relevant entities, and structure them into JSON format. The use of prompt engineering and schema-driven extraction helped improve accuracy and consistency, even when dealing with diverse and unstructured data sources. While challenges remain in improving extraction accuracy and predicting stability, the framework’s scalability and adaptability make it a powerful tool for future research. Future efforts to refine extraction models, expand datasets, and improve the prediction models will further enhance the pipeline’s accuracy and utility, paving the way for innovations in perovskite solar cell research and beyond.
+                </p>
+        </div>
+        <div class="box">
+            <h2>6.1 Discussion</h2>
+            <p>The integration of machine learning and literature mining presents a transformative approach to accelerating the discovery of passivating molecules for perovskite solar cells. By automating the extraction of structured data from scientific literature, this framework can significantly reduce the time and cost associated with traditional trial-and-error methods. The Random Forest model’s performance in predicting normalized PCE difference underscores its ability to capture complex interactions between perovskite compositions and passivating molecules. However, the suboptimal performance of models in predicting retained stability highlights the limitations of the data we extracted, as there were only a small number of rows that fit the stability prediction criteria.
+            </p>
+        </div>
+        <div class="box">
+            <h2>6.2 Future Work</h2>
+            <p>This project aims to streamline passivating molecule discovery using a data-driven approach. Identifying these molecules is traditionally slow and costly, requiring months of testing. By leveraging machine learning, we seek to automate candidate selection from scientific literature. This involves building a database of published perovskite research, classifying relevance, and extracting key information with a large language model. Once complete, we will perform predictive analysis to identify optimal compositions and passivating pairs for testing in our UCSD lab.</p>
+            <p></p>
+        </div>
     </section>
 
-    <!-- Next 6 Section -->
-    <section class="content">
-        <h2>Data Extraction Results</h2>
-        <p></p>
-        <p></p>
-    </section>
+    <!-- Back to Top Button
 
-    <!-- Next 7 Section -->
-    <section class="content">
-        <h2>Prediction Results</h2>
-        <p></p>
-        <p></p>
-    </section>
-
-    <!-- Next 8 Section -->
-    <section id="untested" class="content">
-        <h2>Best Untested Combinations</h2>
-        <p></p>
-        <p></p>
-    </section>
-
-    <!-- Next 9 Section -->
-    <section id="future" class="content">
-        <h2>Future Directions</h2>
-        <p></p>
-        <p></p>
-    </section>
-
-    <!-- Back to Top Button -->
     <a href="#" class="back-to-top" id="backToTop">Back to Top</a>
-
     <script src="script.js"></script>
 </body>
 </html>
