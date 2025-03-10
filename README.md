@@ -70,7 +70,7 @@ PSC-Passivator-Optimization
 ├── requirements.txt                      # Python dependencies
 └── run.py                                # Main execution script
 ```
-Website: https://kanggunh.github.io/PSC-Passivator-Optimization/
+Visit the project website: [PSC-Passivator-Optimization](https://kanggunh.github.io/PSC-Passivator-Optimization/)
 
 ### Objectives
 - **Automate Data Extraction:** Implement a machine learning pipeline to mine relevant data from scientific literature.
@@ -78,11 +78,36 @@ Website: https://kanggunh.github.io/PSC-Passivator-Optimization/
 - **Molecular Representation:** Use SMILES to convert chemical information into a format suitable for modeling.
 - **Develop Predictive Models:** Identify relationships between molecular features and performance.
 - **Enhance Research Efficiency:** Replace manual experimentation with data-driven predictions to guide lab testing.
+---
+## Running the project
+**1. Install the dependencies:** run the following command from the root directory of the project: 
+```
+pip install -r requirements.txt
+```
+**2. Set Up Environment Variables:** Create a .env file in the root directory and add the following:
+```
+HF_TOKEN=your_huggingface_token
+DEEPSEEK_API_KEY=your_deepseek_api_key
+OPENAI_API_KEY=your_openai_api_key
+```
+**3. Set Up GROBID for PDF Conversion**
+- install [docker](https://docs.docker.com/engine/install/),
+- Run the following command to download and run GROBID's image:  This will initialize GROBID on http://localhost:8070.
+```
+docker run --rm --init --ulimit core=0 -p 8070:8070 lfoppiano/grobid:0.8.1
+```
+## Using run.py
 
-# Running the project
-- To install the dependencies, run the following command from the root directory of the project: <code>pip install -r requirements.txt</code>
-- To use GROBID (accessed in notebooks_for_checkpoint/xml_generator.ipynb), install [docker](https://docs.docker.com/engine/install/), 
-then run the following command to download and run GROBID's image: <code>docker run --rm --init --ulimit core=0 -p 8070:8070 lfoppiano/grobid:0.8.1</code>. This will initialize GROBID on http://localhost:8070.
+**1. Run the Full Pipeline:** <code>python run.py all</code>
+
+**2. Run Specific Stages:**
+- <code>python run.py scraping_and_conversion</code>
+- <code>python run.py classification</code>
+- <code>python run.py finetuning</code>
+- <code>python run.py extraction_evaluation</code>
+- <code>python run.py extraction</code>
+- <code>python run.py prediction</code>
+
 
 
 
