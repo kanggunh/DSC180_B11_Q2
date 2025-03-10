@@ -13,7 +13,7 @@
         <div class="container">
             <h1>Data Driven Optimization of Passivation Molecules for Perovskite Solar Cells</h1>
             <h3>Kang Gun Ham, Jill Nomura, Daniel Park, Nic Colebank</h3>
-            <a href="https://github.com/kanggunh/PSC-Passivator-Optimization" class="github-button">View on GitHub</a>
+            <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" class="github-button">View on GitHub</a>
         </div>
     </header>
 
@@ -50,6 +50,9 @@
     <section id="workflow" class="content">
         <div class="box first-title">
             <h2>2. Workflow</h2>
+            <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                <img src="/images_dsc180b/LiteratureMiningProcess.png" alt="Description of image" style="max-width: 70%; height: auto;" />
+            </div>        
         </div>
         <div class="box">
             <h2>2.1 Scientific Paper Collection</h2>
@@ -74,6 +77,10 @@
         </div>
         <div class="box">
             <h2>3.1 Scraping</h2>
+            <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                <img src="/images_dsc180b/scraping_pipeline.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+            </div>
+
             <p>This section outlines the complete process of scraping a corpus of research paper links into a corpus of text files and tools that were tested for this pipeline.
                 Since our team was provided with 150 research paper links, getting PDF links and converting to Text were looked into first. Once the text files were generated, they were labeled using TeamTat, and other key steps in the workflow were executed.
                 After successfully progressing other parts of our project workflow, the team prepared to scale the pipeline to handle a larger corpus of research papers. To facilitate this expansion, we explored tools for retrieving additional research paper links to and automated this URL to scraping text pipeline.
@@ -105,6 +112,9 @@
         </div>
         <div class="box">
             <h2>3.3 Extraction</h2>
+            <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                <img src="/images_dsc180b/extraction_pipeline.png" alt="Description of image" style="max-width: 100%; height: auto;" />
+            </div>
             <p>This section outlines the process of transforming extracted research paper text into a structured JSON format, along with the tools and strategies used to complete this pipeline.
                 To achieve this, we tested five different models, each implemented and refined through fine-tuning and/or prompt engineering. The most promising models were then evaluated across various extraction output formats to identify the optimal configuration for structured data extraction.
                 </p>
@@ -175,7 +185,9 @@
             <h3>3.5.1 Prediction 1: Normalized PCE Difference</h3>
             <p2>This first predictive task focused on estimating the normalized power conversion efficiency (PCE) difference between the treatment and control perovskite solar cells. The normalized PCE difference is defined as:
 
-                Normalized PCE Difference =Treated PCE - Control PCEControl PCe   
+                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                    <img src="/images_dsc180b/normalized_pce.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+                </div>
                 
                 Initially, we started by directly predicting the treated PCE, but it was not an ideal approach because treated PCE alone is not an absolute indicator of improvement. The baseline performance of control perovskite cells varies across different studies due to many different experimental conditions. Focusing on normalized PCE difference it allowed for better comparability, as it directly reflects the gain in performance attributed to the passivation treatment rather than the absolute efficiency.
                 
@@ -206,6 +218,9 @@
         <div class="box">
             <h2>4.2 Classification: Model Selection</h2>
             <p>Classification model: Logistic regression vs Naive Bayes vs SVM vs Random Forest vs XGBoost. 
+                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                    <img src="/images_dsc180b/classification_result.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+                </div>
                 <ul>
                     <li><strong>Naive Bayes:</strong> 
                         - Highest BER, suggesting a bias towards predicting the majority class.
@@ -233,12 +248,21 @@
             <h2>4.3 Classification: Performance on Large Corpus</h2>
             <p>Utilizing XGBoost, which performed the best in terms of validation metric (Explained in 4.2) we classified the 10,000 scraped papers and sampled 40 papers from those classified as relevant to evaluate the model’s performance. Among these sampled papers, 60% were true positives (TP), meaning they were genuinely related to passivating molecules, while 40% were irrelevant to the topic.
                 Hoping to improve the proportion of relevant papers, we implemented keyword-based classification, filtering papers that contained specific keywords. By filtering keywords to have more than two occurrence, increased the true positive rate to 70% while reducing the corpus size to approximately 2,500 papers. Filtering keywords based on more than one occurrence kept roughly 4,500 papers signifying that roughly 2,000 papers mentioned passivating related keywords once, while the sample relevance remained essentially unchanged. 
-                
+                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                    <img src="/images_dsc180b/10k_classification.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+                </div>
                 One key observation was that the XGBoost model, trained on only 80 relevant papers and 200 irrelevant papers, may not have been sufficient to generalize well to a much larger dataset of 10,000 papers. The sampling results suggest that keyword-based filtering that looks for specific text was more effective than direct classification in identifying truly relevant papers.
                 </p>
         </div>
         <div class="box">
             <h2>4.4 Extraction: RAG Prompt Engineering</h2>
+            <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                <img src="/images_dsc180b/finetune_curve.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+            </div>
+            <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                <img src="/images_dsc180b/finetune_perhour.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+            </div>
+
             <p>The following two prompts were used for RAG filtering:
 
                 Prompt 1: “Extract data on passivating molecule and its related stability and efficiency data”
@@ -252,11 +276,16 @@
         </div>
         <div class="box">
             <h2>4.5 Extraction: Fine-tuning Extraction Model</h2>
+            <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                <img src="/images_dsc180b/macro_f1_dist.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+            </div>
             <p>After finetuning DeepSeek-R1 8B 4-bit, we found a plateau in validation loss around 3 epochs, resulting in all other models being trained for 3 epochs instead of 5.
 
-                After finetuning 4 versions of DeepSeek-R1 and Llama, we found that DeepSeek-R1 8B 8-bit resulted in the lowest cross-entropy loss after 3 epochs of training. Both 8-billion parameter models were trained with an A40 GPU, allowing for a batch size of 8. This resulted in a much faster training time of 8-11 hours.
-                
-                These results also illustrate that higher precision may lead to lower cross-entropy loss, as the loss was lower for the 8-bit version of DeepSeek-R1 8B than the 4-bit version.
+                <p>After finetuning 4 versions of DeepSeek-R1 and Llama, we found that DeepSeek-R1 8B 8-bit resulted in the lowest cross-entropy loss after 3 epochs of training. Both 8-billion parameter models were trained with an A40 GPU, allowing for a batch size of 8. This resulted in a much faster training time of 8-11 hours.</p>
+                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                    <img src="/images_dsc180b/unweighted_f1.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+                </div>                
+                <p>These results also illustrate that higher precision may lead to lower cross-entropy loss, as the loss was lower for the 8-bit version of DeepSeek-R1 8B than the 4-bit version.</p>
                 </p>
         </div>
         <div class="box">
@@ -269,7 +298,12 @@
                 Models with larger parameter size and precision generally outperform smaller models, likely capturing more complexity in the papers.
                 In contrast, the Base (non-finetuned) DeepSeek R1 8B model performed best with Schema 2, surpassing its performance on the Original Schema and achieving the highest overall F1 score.
                 These findings suggest that base models prefer a simpler schema (Schema 2), likely due to its reduced structural complexity, which aligns better with general language model capabilities. However, trained models, having been fine-tuned on TeamTat annotations that were inherently based on the Original Schema, demonstrated stronger adaptability to the original nested structure. While the parsing of TeamTat annotations was adjusted to align with each schema, the inherent labeling of the text may have influenced the trained models to perform more effectively with the Original Schema. The annotations were designed to follow the Original Schema to capture the complexity of all papers, which may have included multiple passivating molecules and stability tests.Converting this to Schema 2 for training loses clarity, as only one passivating molecule is chosen for the output, but there are sometimes multiple passivators presented in the annotations themselves.
-
+                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                    <img src="/images_dsc180b/avg_mae_mse_100_splits.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+                </div>                
+                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                    <img src="/images_dsc180b/avg_r2_100_splits.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+                </div>
             </p>
         </div>
         <div class="box">
@@ -296,7 +330,13 @@
                 Combining SMILES features, time, temperature, and control_retained_stability.
                 
                 The results, shown in Figures 6, indicate that none of the models achieved a positive R² score across any of the four approaches. The best R² score achieved was -0.13 by KNeighbors Regressor in the second approach, which included cluster, control retained stability, time, and temperature as input features. A negative R² score indicates that the model's predictions performed worse than a simple baseline prediction using the mean of the target variable. Notably, the model performance deteriorated as SMILES-derived features were included, suggesting that these features may not have contributed relevant information or perhaps even introduced noise into the predictive model.
-                Overall, the results indicate that none of the models or feature sets could adequately predict the treated retained stability. In the following section, we will delve into potential reasons why this prediction task may have underperformed and explore the limitations of the current dataset and feature engineering approach.
+                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                    <img src="/images_dsc180b/stability_approach_1_r2.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+                </div>                
+                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                    <img src="/images_dsc180b/pred_2_perform.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+                </div>
+                <p>Overall, the results indicate that none of the models or feature sets could adequately predict the treated retained stability. In the following section, we will delve into potential reasons why this prediction task may have underperformed and explore the limitations of the current dataset and feature engineering approach.</p>
 
 
             </p>
@@ -329,6 +369,9 @@
         <div class="box">
             <h2>5.3 Extraction</h2>
             <p>After running DeepSeek-R1 8B on the 2,539 papers classified as relevant, the results reveal varying levels of success in capturing key variables relevant to our prediction task. The model especially struggled with variables describing the structure of the perovskite, including the composition, hole transport layer, and electron transport layer. It likely struggled more with these as they require more domain knowledge to understand the makeup of a perovskite. These results also illustrate the number of papers that may be irrelevant, as papers that did not have a passivating molecule or treated PCE value are likely not relevant. The model did a better job of extracting stability test data, which is likely due to papers having one or more stability tests having the relevant information present in the text.
+                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                    <img src="/images_dsc180b/percentage_extracted.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+                </div>
             </p>
         </div>
         <div class="box">
@@ -346,6 +389,9 @@
                 This metric suggests that a portion of the extracted values were not valid molecular entities, leading to failed IUPAC conversions. The results indicate that the extraction model may have captured non-molecular terms or incomplete chemical names, which prevented accurate IUPAC translation and, consequently, SMILES conversion. This highlights a limitation in the extraction process, where some extracted passivating molecules were either misidentified or lacked proper chemical notation.
                 SMILES representations are essential for feature extraction, as they enable the derivation of 30 distinct molecular features, which serve as predictive variables in downstream modeling tasks. A detailed list of these 30 features is provided in the Appendix.
                 After converting the passivators to IUPAC nomenclature and then into smiles, the resulting dataset had 758 rows. Many of the rows that failed to convert were not true passivating molecules, as the extraction model tended to hallucinate passivators when one was not present in the paper. The SMILES conversion steps helps eliminate these hallucinated values, although some true passivators were not successfully converted due to the LLMs we used not being able to properly convert them into IUPAC nomenclature.
+                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                    <img src="/images_dsc180b/passivator_funnel.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+                </div>
                 </p>
             <h3>5.4.1 Database Schema for Prediction 1</h3>
             <p2>After the database was cleaned and expanded, we went through another series of filtering and selecting steps to prepare the data for machine learning modeling. Rows with missing values in critical columns with PCE and VOC values were removed to ensure data integrity. Further refinement involved applying data constraints to key performance. Rows were retained only if the PCE values were between 10% and 35%, and the PCE percent change did not exceed 35%. These thresholds were set based on the guidance from our mentor, who indicated that PCE values outside these ranges were not meaningful within the context of the study.
@@ -363,12 +409,17 @@
                 </p2>
             <h2>5.5 Predictions</h2>
             <h3>5.5.1 Prediction 1</h3>
-            <p2>Random forest achieved the best performance. With an R² score of 0.63, an MAE of 2.88, and an MSE of 15.81. The predicted vs. actual PCE change percentage (Figure 3) illustrates the model's ability to align closely with the ideal prediction line. It seems to be better for lower PCE change values. Figure 3 suggests that the model tended to underestimate higher PCE changes.
-                Figure 3							Figure 4
+            <p2><p>Random forest achieved the best performance. With an R² score of 0.63, an MAE of 2.88, and an MSE of 15.81. The predicted vs. actual PCE change percentage (Figure 3) illustrates the model's ability to align closely with the ideal prediction line. It seems to be better for lower PCE change values. Figure 3 suggests that the model tended to underestimate higher PCE changes.</p>
+                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                    <img src="/images_dsc180b/RF_feature_importance_dynamic_tick.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+                </div>                
+                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                    <img src="/images_dsc180b/actual_vs_predicted_pceRF.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+                </div>
     
-                Looking at the feature importance of the Random Forest model (Figure 4), the analysis reveals that chemical descriptors derived from SMILES (QED, Kappa1, and LogP) significantly contributed to the model's predictive performance. Additionally, FA (Formamidinium) and Br (Bromine) also ranked highly.
+                <p>Looking at the feature importance of the Random Forest model (Figure 4), the analysis reveals that chemical descriptors derived from SMILES (QED, Kappa1, and LogP) significantly contributed to the model's predictive performance. Additionally, FA (Formamidinium) and Br (Bromine) also ranked highly.
                 
-                Overall, Random Forest Regressor demonstrates its effectiveness in capturing some interaction between the patterns of the non-linear data. The model's performance indicates that combining chemical, compositional, and experimental features can lead to meaningful insights into which passivating molecules are most effective for enhancing the stability of perovskite solar cells.
+                Overall, Random Forest Regressor demonstrates its effectiveness in capturing some interaction between the patterns of the non-linear data. The model's performance indicates that combining chemical, compositional, and experimental features can lead to meaningful insights into which passivating molecules are most effective for enhancing the stability of perovskite solar cells.</p>
             </p2>
             <h3>5.5.2 Prediction 2</h3>
             <p2>The residual plot (Figure 7) provides a visual representation of prediction errors for the fives models: Random Forest, Gradient Boosting, Lasso, Ridge, and KNeighborsRegressor. Ideally, this plot should be randomly dispersed around the zero line, with no apparent pattern. 
@@ -376,6 +427,9 @@
                 However, this residual plot for this prediction reveal consistent underperformance across all models. A pattern observed in the residuals is the consistent underestimation of the higher retained stability values. The all exhibit a downward trend suggesting that the models were biased towards predicting the lower stability.
                 
                 Given that we tested different models and that none of the models show a balance residual spread, it is likely tha the input features lack a strong predictive relationship for stability. 
+                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                    <img src="/images_dsc180b/stability_approach_1_residual.png" alt="Description of image" style="max-width: 75%; height: auto;" />
+                </div>            
             </p2>
         </div>
     </section>
@@ -400,5 +454,5 @@
             <p></p>
         </div>
     </section>
-</body>
-</html>
+
+    <!-- Back to Top Button
