@@ -105,9 +105,11 @@ docker run --rm --init --ulimit core=0 -p 8070:8070 lfoppiano/grobid:0.8.1
 ```
 - This will initialize GROBID on http://localhost:8070.
 
-## Run the Full Pipeline
-To execute all steps of the pipeline sequentially (scraping, classification, extraction, and prediction), use:
-<code>python run.py all</code>
+**4. Run the Full Pipeline**  
+- To execute all steps of the pipeline sequentially (scraping, classification, extraction, and prediction), use:
+```
+python run.py all
+```
 
 ## Run Specific Stages Individually
 **1. Scraping and Conversion**  
