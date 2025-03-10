@@ -22,7 +22,7 @@ PSC-Passivator-Optimization
 │   ├── rag_processing/                   
 │   └── scraping_and_conversion/          
 │
-├── docs                                  # Documentation files
+├── docs                                  # Website files
 │   ├── index.html                        
 │   ├── script.js                         
 │   └── style.css                         
